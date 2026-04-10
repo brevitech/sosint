@@ -1233,32 +1233,457 @@ body::before {
 }
 
 /* ── Responsive ────────────────────────────────────────────────────────────── */
+
+/* ── Tablet (≤ 1200px) ─────────────────────────────────────────────────────── */
 @media (max-width: 1200px) {
+  body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: auto;
+    min-height: 100vh;
+  }
+
   .dashboard {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    overflow-y: auto;
+    overflow-y: visible;
+    overflow-x: hidden;
+    height: auto;
+    min-height: calc(100vh - 48px);
   }
 
   .panel-map {
     grid-column: 1 / -1;
     grid-row: auto;
-    min-height: 400px;
+    min-height: 450px;
+    max-height: 55vh;
+    order: -1;
   }
-}
 
-@media (max-width: 768px) {
-  .dashboard {
-    grid-template-columns: 1fr;
+  .panel {
+    min-height: 280px;
+  }
+
+  .top-bar {
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 48px;
+    padding: 8px 16px;
+    gap: 8px;
   }
 
   .status-bar {
-    display: none;
+    gap: 10px;
   }
 
+  .clock {
+    font-size: 11px;
+  }
+}
+
+/* ── Phone (≤ 768px) ───────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
   html {
     font-size: 12px;
   }
+
+  body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: auto;
+  }
+
+  .dashboard {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 6px;
+    padding: 6px;
+    height: auto;
+    overflow: visible;
+  }
+
+  .panel-map {
+    grid-column: 1;
+    min-height: 350px;
+    max-height: 50vh;
+    order: -1;
+  }
+
+  .panel {
+    min-height: 250px;
+    max-height: 400px;
+  }
+
+  /* Compact header */
+  .top-bar {
+    height: auto;
+    min-height: 44px;
+    padding: 6px 10px;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .logo-icon {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+
+  .logo-title {
+    font-size: 12px;
+  }
+
+  .logo-subtitle {
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+
+  /* Compact status bar — keep essential items */
+  .status-bar {
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .status-item {
+    font-size: 8px;
+  }
+
+  .threat-level {
+    font-size: 8px;
+    padding: 3px 6px;
+  }
+
+  .clock {
+    font-size: 10px;
+    min-width: 60px;
+  }
+
+  /* Panel headers */
+  .panel-header {
+    padding: 6px 10px;
+    min-height: 32px;
+  }
+
+  .panel-title {
+    font-size: 9px;
+  }
+
+  .panel-badge {
+    font-size: 7px;
+    padding: 2px 5px;
+  }
+
+  .panel-content {
+    padding: 8px;
+  }
+
+  /* Map legend — compact on mobile */
+  .map-legend {
+    gap: 4px;
+    padding: 4px 6px;
+    font-size: 8px;
+    flex-wrap: wrap;
+  }
+
+  .legend-item {
+    gap: 2px;
+    font-size: 8px;
+    padding: 2px 3px;
+  }
+
+  .legend-item span:first-child {
+    font-size: 9px !important;
+  }
+
+  .legend-count {
+    font-size: 7px;
+    padding: 0px 3px;
+    min-width: 14px;
+  }
+
+  /* Tab buttons */
+  .tab-bar {
+    padding: 3px 6px;
+    gap: 1px;
+    flex-wrap: wrap;
+  }
+
+  .tab-btn {
+    font-size: 8px;
+    padding: 3px 6px;
+  }
+
+  /* News items */
+  .news-filter-bar {
+    gap: 3px;
+  }
+
+  .news-filter {
+    font-size: 8px;
+    padding: 2px 6px;
+  }
+
+  .news-title {
+    font-size: 11px;
+  }
+
+  .news-source {
+    font-size: 8px;
+  }
+
+  /* Comparison grid */
+  .comparison-row {
+    gap: 4px;
+    padding: 3px 0;
+    font-size: 9px;
+  }
+
+  .comparison-value {
+    font-size: 10px;
+  }
+
+  .comparison-label {
+    font-size: 8px;
+    padding: 0 3px;
+  }
+
+  /* Proxy cards */
+  .proxy-card {
+    padding: 6px 8px;
+    margin-bottom: 4px;
+  }
+
+  .proxy-name {
+    font-size: 10px;
+  }
+
+  .proxy-status {
+    font-size: 7px;
+    padding: 1px 4px;
+  }
+
+  /* Timeline */
+  .timeline-event {
+    font-size: 9px;
+    padding: 5px 0 5px 10px;
+  }
+
+  .timeline-year {
+    font-size: 8px;
+  }
+
+  /* Naval assets */
+  .naval-asset {
+    gap: 6px;
+    padding: 4px 0;
+  }
+
+  .naval-icon {
+    font-size: 12px;
+    width: 20px;
+  }
+
+  .naval-name {
+    font-size: 9px;
+  }
+
+  .naval-status {
+    font-size: 7px;
+    padding: 1px 4px;
+  }
+
+  /* Map popup */
+  .leaflet-popup-content {
+    min-width: 160px !important;
+    max-width: 220px !important;
+  }
+
+  .map-popup-title {
+    font-size: 10px;
+  }
+
+  .map-popup-detail {
+    font-size: 9px;
+  }
+
+  /* Touch improvements */
+  .legend-item,
+  .tab-btn,
+  .news-filter,
+  .proxy-card,
+  .news-item {
+    min-height: 32px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* ── Small Phone (≤ 480px) ─────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  html {
+    font-size: 11px;
+  }
+
+  .dashboard {
+    gap: 4px;
+    padding: 4px;
+  }
+
+  .panel-map {
+    min-height: 280px;
+    max-height: 45vh;
+  }
+
+  .panel {
+    min-height: 200px;
+    max-height: 350px;
+  }
+
+  /* Super compact header */
+  .top-bar {
+    padding: 4px 8px;
+    gap: 4px;
+  }
+
+  .logo {
+    gap: 6px;
+  }
+
+  .logo-icon {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+
+  .logo-title {
+    font-size: 11px;
+    letter-spacing: 0.5px;
+  }
+
+  .logo-subtitle {
+    display: none;
+  }
+
+  /* Hide non-essential status items */
+  .status-item:not(:last-child):not(:nth-last-child(2)) {
+    display: none;
+  }
+
+  .threat-level {
+    font-size: 7px;
+    padding: 2px 5px;
+    letter-spacing: 0.5px;
+  }
+
+  .clock {
+    font-size: 9px;
+    min-width: 50px;
+  }
+
+  /* Legend — 2 rows max, tiny */
+  .map-legend {
+    gap: 3px;
+    padding: 3px 4px;
+  }
+
+  .legend-item {
+    font-size: 7px;
+    gap: 1px;
+    padding: 1px 2px;
+  }
+
+  .legend-item span:first-child {
+    font-size: 8px !important;
+  }
+
+  /* Hide legend text on very small screens, show only icons */
+  .legend-item span:nth-child(2) {
+    max-width: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .legend-count {
+    font-size: 6px;
+    padding: 0 2px;
+    min-width: 12px;
+  }
+
+  /* Panels */
+  .panel-header {
+    padding: 5px 8px;
+    min-height: 28px;
+  }
+
+  .panel-title {
+    font-size: 8px;
+    letter-spacing: 0.5px;
+  }
+
+  .panel-content {
+    padding: 6px;
+  }
+
+  /* Tab buttons — scrollable */
+  .tab-bar {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    padding: 2px 4px;
+  }
+
+  .tab-btn {
+    font-size: 7px;
+    padding: 3px 5px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* News */
+  .news-title {
+    font-size: 10px;
+    line-height: 1.3;
+  }
+
+  .news-filter {
+    font-size: 7px;
+    padding: 2px 4px;
+  }
+
+  /* Comparison */
+  .comparison-value { font-size: 9px; }
+  .comparison-label { font-size: 7px; }
+  .asset-section-title { font-size: 8px; }
+
+  /* Nuclear */
+  .nuclear-stat { padding: 4px 0; }
+  .nuclear-label { font-size: 9px; }
+  .nuclear-value { font-size: 10px; }
+  .enrichment-bar { height: 20px; margin: 6px 0; }
+
+  /* Threat */
+  .threat-gauge { max-width: 180px; height: 14px; }
+  .threat-level-label { font-size: 14px; }
+  .threat-factor { font-size: 9px; gap: 6px; }
+
+  /* Sanctions */
+  .sanction-category { font-size: 9px; }
+  .economic-stat { font-size: 9px; }
+
+  /* Cyber */
+  .cyber-op { font-size: 9px; }
+  .cyber-op-name { font-size: 9px; }
+  .cyber-section-title { font-size: 8px; }
+
+  /* Defense */
+  .defense-system { font-size: 9px; gap: 4px; }
+
+  /* Strait */
+  .strait-stat { font-size: 9px; }
+  .strait-incident { font-size: 8px; }
 }
 
 /* ── Animations ────────────────────────────────────────────────────────────── */
