@@ -44,7 +44,7 @@ class WarDashboard {
           <div class="logo-icon">⚔</div>
           <div class="logo-text">
             <span class="logo-title">N8RA - WarTracker</span>
-            <span class="logo-subtitle">US-IRAN Intelligence Dashboard</span>
+            <span class="logo-subtitle">Aggregated Strat Intel Dashboard by Brevitech</span>
           </div>
         </div>
         <div class="status-bar">
