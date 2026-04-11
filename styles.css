@@ -369,11 +369,16 @@ body::before {
 
 .panel-map .panel-content {
   padding: 0;
+  display: flex;
+  flex: 1;
+  position: relative;
 }
 
 #theater-map {
   width: 100%;
   height: 100%;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
 }
 
 /* Leaflet overrides */
@@ -1255,8 +1260,7 @@ body::before {
   .panel-map {
     grid-column: 1 / -1;
     grid-row: auto;
-    min-height: 500px !important;
-    max-height: 65vh !important;
+    height: 60vh !important;
     order: -1;
   }
 
@@ -1304,8 +1308,7 @@ body::before {
 
   .panel-map {
     grid-column: 1;
-    min-height: 70vh !important;
-    max-height: 80vh !important;
+    height: 65vh !important;
     order: -1;
   }
 
@@ -1531,8 +1534,7 @@ body::before {
   }
 
   .panel-map {
-    min-height: 65vh !important;
-    max-height: 75vh !important;
+    height: 60vh !important;
   }
 
   .panel {
