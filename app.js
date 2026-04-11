@@ -60,7 +60,7 @@ class WarDashboard {
         <div class="panel" id="panel-news">
           <div class="panel-header">
             <span class="panel-icon">📡</span>
-            <span class="panel-title">Strat Int Feed</span>
+            <span class="panel-title">Strat Intel Feed</span>
             <span class="panel-badge live">LIVE</span>
           </div>
           <div class="news-filter-bar" style="padding: 4px 10px;">
@@ -80,7 +80,7 @@ class WarDashboard {
         <div class="panel panel-map" id="panel-map">
           <div class="panel-header">
             <span class="panel-icon">🗺️</span>
-            <span class="panel-title">Strat Picture (Aggregated)</span>
+            <span class="panel-title">Strat Intel Picture (Aggregated)</span>
             <span class="panel-badge alert">ACTIVE OPS</span>
           </div>
           <div class="panel-content">
@@ -93,7 +93,7 @@ class WarDashboard {
         <div class="panel" id="panel-right-top">
           <div class="panel-header">
             <span class="panel-icon">⚡</span>
-            <span class="panel-title" id="right-top-title">Force Comparison</span>
+            <span class="panel-title" id="right-top-title">US - Iran Comparitives</span>
           </div>
           <div class="tab-bar" id="right-top-tabs">
             <button class="tab-btn active" data-tab="assets">Assets</button>
@@ -177,7 +177,7 @@ class WarDashboard {
     const content = document.getElementById('right-top-content');
     switch(tab) {
       case 'assets':
-        title.textContent = 'Force Comparison';
+        title.textContent = 'US - Iran Comparitives';
         this.renderMilitaryComparison();
         break;
       case 'threat':

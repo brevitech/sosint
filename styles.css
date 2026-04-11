@@ -1255,8 +1255,8 @@ body::before {
   .panel-map {
     grid-column: 1 / -1;
     grid-row: auto;
-    min-height: 450px;
-    max-height: 55vh;
+    min-height: 500px;
+    max-height: 65vh;
     order: -1;
   }
 
@@ -1304,8 +1304,8 @@ body::before {
 
   .panel-map {
     grid-column: 1;
-    min-height: 350px;
-    max-height: 50vh;
+    min-height: 420px;
+    max-height: 60vh;
     order: -1;
   }
 
@@ -1531,8 +1531,8 @@ body::before {
   }
 
   .panel-map {
-    min-height: 280px;
-    max-height: 45vh;
+    min-height: 350px;
+    max-height: 55vh;
   }
 
   .panel {
