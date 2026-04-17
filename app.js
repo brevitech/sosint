@@ -1754,17 +1754,6 @@ class WarDashboard {
           <div class="sub-section-title">Dominant Themes — Word Cloud</div>
           <div class="sentiment-wordcloud" id="sentiment-wordcloud"></div>
         </div>
-
-        <div class="sentiment-voices">
-          <div class="sub-section-title">Top Voices This Cycle</div>
-          ${d.topVoices.map(v => `
-            <div class="sentiment-voice">
-              <span class="sentiment-voice-icon">${catIcons[v.category]}</span>
-              <span class="sentiment-voice-name">${v.name}</span>
-              <span class="sentiment-voice-cat">${catLabels[v.category]}</span>
-            </div>
-          `).join('')}
-        </div>
       </div>
     `;
 

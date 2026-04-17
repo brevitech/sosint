@@ -258,7 +258,7 @@ body::before {
 .dashboard {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 2fr 3fr;
   gap: var(--gap);
   padding: var(--gap);
   height: calc(100vh - 48px);
@@ -585,7 +585,7 @@ body::before {
 .comparison-value {
   font-family: var(--font-mono);
   font-weight: 600;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .comparison-bar {
@@ -599,26 +599,26 @@ body::before {
 .comparison-bar.ir { background: linear-gradient(270deg, transparent, var(--accent-red)); }
 
 .asset-section {
-  margin-bottom: 12px;
+  margin-bottom: 4px;
 }
 
 .asset-section-title {
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 8px;
   font-weight: 600;
   color: var(--accent-amber);
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 6px;
-  padding-bottom: 3px;
+  margin-bottom: 3px;
+  padding-bottom: 2px;
   border-bottom: 1px solid var(--border-color);
 }
 
 .comparison-row {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  gap: 6px;
-  padding: 4px 0;
+  gap: 4px;
+  padding: 1px 0;
   align-items: center;
 }
 
@@ -1807,7 +1807,7 @@ body::before {
 .sentiment-panel {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
 }
 
 /* ── Mode Toggle ──────────────────────────────────────────────────────────── */
