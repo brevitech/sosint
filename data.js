@@ -421,146 +421,146 @@ const MAP_CONFIG = {
 const SENTIMENT_PERSONALITIES = {
   us: {
     government: [
-      'Joe Biden','Donald Trump','Kamala Harris','Mike Johnson','Chuck Schumer',
-      'Mitch McConnell','Hakeem Jeffries','Nancy Pelosi','Marco Rubio','Pete Hegseth',
-      'Jake Sullivan','Antony Blinken','Lloyd Austin','Avril Haines','William Burns',
-      'Janet Yellen','Merrick Garland','Gina Raimondo','Tom Cotton','Lindsey Graham',
-      'Ted Cruz','Bernie Sanders','Elizabeth Warren','AOC','Ron DeSantis',
-      'Gavin Newsom','Greg Abbott','JD Vance','Mike Pompeo','Nikki Haley',
-      'John Kirby','Karine Jean-Pierre','Matt Gaetz','Jim Jordan','Adam Schiff',
-      'Ro Khanna','Tulsi Gabbard','Vivek Ramaswamy','Tim Scott','Josh Hawley',
-      'Chris Murphy','Mark Warner','Ben Cardin','John Fetterman','Cory Booker',
-      'Pete Buttigieg','Samantha Power','Linda Thomas-Greenfield','Robert Lighthizer','Susan Rice'
+      'Joe Biden', 'Donald Trump', 'Kamala Harris', 'Mike Johnson', 'Chuck Schumer',
+      'Mitch McConnell', 'Hakeem Jeffries', 'Nancy Pelosi', 'Marco Rubio', 'Pete Hegseth',
+      'Jake Sullivan', 'Antony Blinken', 'Lloyd Austin', 'Avril Haines', 'William Burns',
+      'Janet Yellen', 'Merrick Garland', 'Gina Raimondo', 'Tom Cotton', 'Lindsey Graham',
+      'Ted Cruz', 'Bernie Sanders', 'Elizabeth Warren', 'AOC', 'Ron DeSantis',
+      'Gavin Newsom', 'Greg Abbott', 'JD Vance', 'Mike Pompeo', 'Nikki Haley',
+      'John Kirby', 'Karine Jean-Pierre', 'Matt Gaetz', 'Jim Jordan', 'Adam Schiff',
+      'Ro Khanna', 'Tulsi Gabbard', 'Vivek Ramaswamy', 'Tim Scott', 'Josh Hawley',
+      'Chris Murphy', 'Mark Warner', 'Ben Cardin', 'John Fetterman', 'Cory Booker',
+      'Pete Buttigieg', 'Samantha Power', 'Linda Thomas-Greenfield', 'Robert Lighthizer', 'Susan Rice'
     ],
     business: [
-      'Elon Musk','Tim Cook','Satya Nadella','Mark Zuckerberg','Jeff Bezos',
-      'Jensen Huang','Sundar Pichai','Andy Jassy','Sam Altman','Jamie Dimon',
-      'Warren Buffett','Larry Fink','Brian Moynihan','David Solomon','Mary Barra',
-      'Pat Gelsinger','Lisa Su','Arvind Krishna','Marc Benioff','Reed Hastings',
-      'Bob Iger','Brian Chesky','Dara Khosrowshahi','Daniel Ek','Jack Dorsey',
-      'Peter Thiel','Reid Hoffman','Sheryl Sandberg','Susan Wojcicki','Safra Catz',
-      'Doug McMillon','Laxman Narasimhan','James Gorman','Jane Fraser','Charles Scharf',
-      'Brian Cornell','Karen Lynch','Mike Wirth','Darren Woods','Ryan Lance',
-      'Shantanu Narayen','Chuck Robbins','Keith Block','Abigail Johnson','Ken Griffin',
-      'Ray Dalio','Larry Ellison','Michael Dell','Meg Whitman','Ginni Rometty'
+      'Elon Musk', 'Tim Cook', 'Satya Nadella', 'Mark Zuckerberg', 'Jeff Bezos',
+      'Jensen Huang', 'Sundar Pichai', 'Andy Jassy', 'Sam Altman', 'Jamie Dimon',
+      'Warren Buffett', 'Larry Fink', 'Brian Moynihan', 'David Solomon', 'Mary Barra',
+      'Pat Gelsinger', 'Lisa Su', 'Arvind Krishna', 'Marc Benioff', 'Reed Hastings',
+      'Bob Iger', 'Brian Chesky', 'Dara Khosrowshahi', 'Daniel Ek', 'Jack Dorsey',
+      'Peter Thiel', 'Reid Hoffman', 'Sheryl Sandberg', 'Susan Wojcicki', 'Safra Catz',
+      'Doug McMillon', 'Laxman Narasimhan', 'James Gorman', 'Jane Fraser', 'Charles Scharf',
+      'Brian Cornell', 'Karen Lynch', 'Mike Wirth', 'Darren Woods', 'Ryan Lance',
+      'Shantanu Narayen', 'Chuck Robbins', 'Keith Block', 'Abigail Johnson', 'Ken Griffin',
+      'Ray Dalio', 'Larry Ellison', 'Michael Dell', 'Meg Whitman', 'Ginni Rometty'
     ],
     entertainment: [
-      'Taylor Swift','Beyoncé','Drake','Bad Bunny','Travis Scott',
-      'Rihanna','Selena Gomez','Dwayne Johnson','Ryan Reynolds','Zendaya',
-      'Tom Holland','Timothée Chalamet','Florence Pugh','Margot Robbie','Keanu Reeves',
-      'Leonardo DiCaprio','Scarlett Johansson','Chris Hemsworth','Robert Downey Jr','Tom Hanks',
-      'Oprah Winfrey','Kim Kardashian','Kylie Jenner','Travis Kelce','Jimmy Fallon',
-      'Stephen Colbert','Trevor Noah','John Oliver','Seth Meyers','Jimmy Kimmel',
-      'Billie Eilish','Olivia Rodrigo','SZA','Doja Cat','Post Malone',
-      'Morgan Wallen','Luke Combs','Miley Cyrus','Lady Gaga','Ed Sheeran',
-      'Adele','Bruno Mars','The Weeknd','Cardi B','Megan Thee Stallion',
-      'Jennifer Aniston','Chris Pratt','Gal Gadot','Pedro Pascal','Sydney Sweeney'
+      'Taylor Swift', 'Beyoncé', 'Drake', 'Bad Bunny', 'Travis Scott',
+      'Rihanna', 'Selena Gomez', 'Dwayne Johnson', 'Ryan Reynolds', 'Zendaya',
+      'Tom Holland', 'Timothée Chalamet', 'Florence Pugh', 'Margot Robbie', 'Keanu Reeves',
+      'Leonardo DiCaprio', 'Scarlett Johansson', 'Chris Hemsworth', 'Robert Downey Jr', 'Tom Hanks',
+      'Oprah Winfrey', 'Kim Kardashian', 'Kylie Jenner', 'Travis Kelce', 'Jimmy Fallon',
+      'Stephen Colbert', 'Trevor Noah', 'John Oliver', 'Seth Meyers', 'Jimmy Kimmel',
+      'Billie Eilish', 'Olivia Rodrigo', 'SZA', 'Doja Cat', 'Post Malone',
+      'Morgan Wallen', 'Luke Combs', 'Miley Cyrus', 'Lady Gaga', 'Ed Sheeran',
+      'Adele', 'Bruno Mars', 'The Weeknd', 'Cardi B', 'Megan Thee Stallion',
+      'Jennifer Aniston', 'Chris Pratt', 'Gal Gadot', 'Pedro Pascal', 'Sydney Sweeney'
     ],
     sports: [
-      'LeBron James','Stephen Curry','Patrick Mahomes','Aaron Rodgers','Lamar Jackson',
-      'Lionel Messi','Cristiano Ronaldo','Shohei Ohtani','Aaron Judge','Bryce Harper',
-      'Caitlin Clark','Angel Reese','Simone Biles','Serena Williams','Naomi Osaka',
-      'Connor McDavid','Sidney Crosby','Travis Kelce','Tyreek Hill','Ja Morant',
-      'Giannis Antetokounmpo','Luka Dončić','Nikola Jokić','Kevin Durant','Jimmy Butler',
-      'Tiger Woods','Rory McIlroy','Scottie Scheffler','Max Verstappen','Lewis Hamilton',
-      'Tom Brady','Peyton Manning','Derek Jeter','Mike Trout','Mookie Betts',
-      'Alex Ovechkin','Megan Rapinoe','Alex Morgan','Christian Pulisic','Weston McKennie',
-      'Sabrina Ionescu','Diana Taurasi','Breanna Stewart','Sha\'Carri Richardson','Noah Lyles',
-      'Caeleb Dressel','Katie Ledecky','Suni Lee','Jordan Chiles','Jayson Tatum'
+      'LeBron James', 'Stephen Curry', 'Patrick Mahomes', 'Aaron Rodgers', 'Lamar Jackson',
+      'Lionel Messi', 'Cristiano Ronaldo', 'Shohei Ohtani', 'Aaron Judge', 'Bryce Harper',
+      'Caitlin Clark', 'Angel Reese', 'Simone Biles', 'Serena Williams', 'Naomi Osaka',
+      'Connor McDavid', 'Sidney Crosby', 'Travis Kelce', 'Tyreek Hill', 'Ja Morant',
+      'Giannis Antetokounmpo', 'Luka Dončić', 'Nikola Jokić', 'Kevin Durant', 'Jimmy Butler',
+      'Tiger Woods', 'Rory McIlroy', 'Scottie Scheffler', 'Max Verstappen', 'Lewis Hamilton',
+      'Tom Brady', 'Peyton Manning', 'Derek Jeter', 'Mike Trout', 'Mookie Betts',
+      'Alex Ovechkin', 'Megan Rapinoe', 'Alex Morgan', 'Christian Pulisic', 'Weston McKennie',
+      'Sabrina Ionescu', 'Diana Taurasi', 'Breanna Stewart', 'Sha\'Carri Richardson', 'Noah Lyles',
+      'Caeleb Dressel', 'Katie Ledecky', 'Suni Lee', 'Jordan Chiles', 'Jayson Tatum'
     ],
     eminent: [
-      'Neil deGrasse Tyson','Elon Musk','Bill Gates','Melinda French Gates','Barack Obama',
-      'Michelle Obama','Hillary Clinton','George W. Bush','Al Gore','John Kerry',
-      'Anthony Fauci','Vivek Murthy','Jerome Powell','Christine Lagarde','Kristalina Georgieva',
-      'António Guterres','Jens Stoltenberg','Volodymyr Zelenskyy','Emmanuel Macron','Keir Starmer',
-      'Olaf Scholz','Justin Trudeau','Benjamin Netanyahu','MBS','Pope Francis',
-      'Dalai Lama','Malala Yousafzai','Greta Thunberg','Jane Goodall','David Attenborough',
-      'Noam Chomsky','Yuval Noah Harari','Jordan Peterson','Ben Shapiro','Joe Rogan',
-      'Tucker Carlson','Rachel Maddow','Anderson Cooper','Wolf Blitzer','Sean Hannity',
-      'Bob Woodward','Malcolm Gladwell','Ta-Nehisi Coates','Ibram X. Kendi','Cornell West',
-      'Nassim Taleb','Paul Krugman','Larry Summers','Niall Ferguson','Fareed Zakaria',
-      'Thomas Friedman','David Brooks','Ezra Klein','Kara Swisher','Scott Galloway',
-      'Lex Fridman','Andrew Huberman','Tim Ferriss','Brené Brown','Adam Grant',
-      'Ray Kurzweil','Demis Hassabis','Yann LeCun','Geoffrey Hinton','Fei-Fei Li',
-      'Kai-Fu Lee','Sam Harris','Mehdi Hasan','Chris Hayes','Joy Reid',
-      'George Stephanopoulos','Jake Tapper','Dana Bash','Kristen Welker','Savannah Guthrie',
-      'Bono','Steven Spielberg','Martin Scorsese','Quentin Tarantino','Christopher Nolan',
-      'James Cameron','Denis Villeneuve','Ava DuVernay','Spike Lee','Guillermo del Toro',
-      'JK Rowling','Stephen King','Colleen Hoover','James Patterson','Margaret Atwood',
-      'Neil Gaiman','George RR Martin','Chimamanda Ngozi Adichie','Ta-Nehisi Coates','Roxane Gay',
-      'Jeff Sachs','Daron Acemoglu','Abhijit Banerjee','Esther Duflo','Joseph Stiglitz'
+      'Neil deGrasse Tyson', 'Elon Musk', 'Bill Gates', 'Melinda French Gates', 'Barack Obama',
+      'Michelle Obama', 'Hillary Clinton', 'George W. Bush', 'Al Gore', 'John Kerry',
+      'Anthony Fauci', 'Vivek Murthy', 'Jerome Powell', 'Christine Lagarde', 'Kristalina Georgieva',
+      'António Guterres', 'Jens Stoltenberg', 'Volodymyr Zelenskyy', 'Emmanuel Macron', 'Keir Starmer',
+      'Olaf Scholz', 'Justin Trudeau', 'Benjamin Netanyahu', 'MBS', 'Pope Francis',
+      'Dalai Lama', 'Malala Yousafzai', 'Greta Thunberg', 'Jane Goodall', 'David Attenborough',
+      'Noam Chomsky', 'Yuval Noah Harari', 'Jordan Peterson', 'Ben Shapiro', 'Joe Rogan',
+      'Tucker Carlson', 'Rachel Maddow', 'Anderson Cooper', 'Wolf Blitzer', 'Sean Hannity',
+      'Bob Woodward', 'Malcolm Gladwell', 'Ta-Nehisi Coates', 'Ibram X. Kendi', 'Cornell West',
+      'Nassim Taleb', 'Paul Krugman', 'Larry Summers', 'Niall Ferguson', 'Fareed Zakaria',
+      'Thomas Friedman', 'David Brooks', 'Ezra Klein', 'Kara Swisher', 'Scott Galloway',
+      'Lex Fridman', 'Andrew Huberman', 'Tim Ferriss', 'Brené Brown', 'Adam Grant',
+      'Ray Kurzweil', 'Demis Hassabis', 'Yann LeCun', 'Geoffrey Hinton', 'Fei-Fei Li',
+      'Kai-Fu Lee', 'Sam Harris', 'Mehdi Hasan', 'Chris Hayes', 'Joy Reid',
+      'George Stephanopoulos', 'Jake Tapper', 'Dana Bash', 'Kristen Welker', 'Savannah Guthrie',
+      'Bono', 'Steven Spielberg', 'Martin Scorsese', 'Quentin Tarantino', 'Christopher Nolan',
+      'James Cameron', 'Denis Villeneuve', 'Ava DuVernay', 'Spike Lee', 'Guillermo del Toro',
+      'JK Rowling', 'Stephen King', 'Colleen Hoover', 'James Patterson', 'Margaret Atwood',
+      'Neil Gaiman', 'George RR Martin', 'Chimamanda Ngozi Adichie', 'Ta-Nehisi Coates', 'Roxane Gay',
+      'Jeff Sachs', 'Daron Acemoglu', 'Abhijit Banerjee', 'Esther Duflo', 'Joseph Stiglitz'
     ]
   },
   india: {
     government: [
-      'Narendra Modi','Rahul Gandhi','Amit Shah','Rajnath Singh','Nirmala Sitharaman',
-      'S Jaishankar','Nitin Gadkari','Piyush Goyal','Smriti Irani','Dharmendra Pradhan',
-      'Anurag Thakur','Kiren Rijiju','Jyotiraditya Scindia','Ashwini Vaishnaw','Mansukh Mandaviya',
-      'Mamata Banerjee','Arvind Kejriwal','MK Stalin','Yogi Adityanath','Nitish Kumar',
-      'Akhilesh Yadav','K Chandrashekar Rao','Pinarayi Vijayan','Siddaramaiah','Naveen Patnaik',
-      'Uddhav Thackeray','Sharad Pawar','Mayawati','Lalu Prasad Yadav','Tejashwi Yadav',
-      'Priyanka Gandhi','Mallikarjun Kharge','P Chidambaram','Kapil Sibal','Asaduddin Owaisi',
-      'Shashi Tharoor','Subrahmanyam Jaishankar','Nana Patole','Omar Abdullah','Mehbooba Mufti',
-      'Devendra Fadnavis','Eknath Shinde','Ajit Pawar','Hemant Soren','Bhagwant Mann',
-      'Himanta Biswa Sarma','Pramod Sawant','Basavaraj Bommai','Droupadi Murmu','Jagdeep Dhankhar'
+      'Narendra Modi', 'Amit Shah', 'Rajnath Singh', 'Nirmala Sitharaman',
+      'S Jaishankar', 'Nitin Gadkari', 'Piyush Goyal', 'Smriti Irani', 'Dharmendra Pradhan',
+      'Anurag Thakur', 'Kiren Rijiju', 'Jyotiraditya Scindia', 'Ashwini Vaishnaw', 'Mansukh Mandaviya',
+      'Mamata Banerjee', 'Arvind Kejriwal', 'MK Stalin', 'Yogi Adityanath', 'Nitish Kumar',
+      'Akhilesh Yadav', 'K Chandrashekar Rao', 'Pinarayi Vijayan', 'Siddaramaiah', 'Naveen Patnaik',
+      'Uddhav Thackeray', 'Sharad Pawar', 'Mayawati', 'Lalu Prasad Yadav', 'Tejashwi Yadav',
+      'Priyanka Gandhi', 'Mallikarjun Kharge', 'P Chidambaram', 'Kapil Sibal', 'Asaduddin Owaisi',
+      'Shashi Tharoor', 'Subrahmanyam Jaishankar', 'Nana Patole', 'Omar Abdullah', 'Mehbooba Mufti',
+      'Devendra Fadnavis', 'Eknath Shinde', 'Ajit Pawar', 'Hemant Soren', 'Bhagwant Mann',
+      'Himanta Biswa Sarma', 'Pramod Sawant', 'Basavaraj Bommai', 'Droupadi Murmu', 'Jagdeep Dhankhar'
     ],
     business: [
-      'Mukesh Ambani','Gautam Adani','Ratan Tata','Azim Premji','Shiv Nadar',
-      'N Chandrasekaran','Salil Parekh','C Vijayakumar','Thierry Delaporte','Rishad Premji',
-      'Kumar Mangalam Birla','Anand Mahindra','Sajjan Jindal','Lakshmi Mittal','Sunil Mittal',
-      'Uday Kotak','Deepak Parekh','Kiran Mazumdar-Shaw','Falguni Nayar','Radhakishan Damani',
-      'Dilip Shanghvi','Cyrus Poonawalla','Adar Poonawalla','Harsh Mariwala','Adi Godrej',
-      'Naveen Jindal','Rahul Bajaj','Sanjiv Bajaj','Pankaj Munjal','Venu Srinivasan',
-      'TV Narendran','Aditya Puri','Romesh Sobti','Sandeep Bakhshi','Amitabh Chaudhry',
-      'Sashidhar Jagdishan','Nithin Kamath','Zerodha Nikhil','Bhavish Aggarwal','Vijay Shekhar Sharma',
-      'Byju Raveendran','Ashneer Grover','Deepinder Goyal','Ritesh Agarwal','Kunal Shah',
-      'Sridhar Vembu','Girish Mathrubootham','Sachin Bansal','Binny Bansal','Nandan Nilekani'
+      'Mukesh Ambani', 'Gautam Adani', 'Ratan Tata', 'Azim Premji', 'Shiv Nadar',
+      'N Chandrasekaran', 'Salil Parekh', 'C Vijayakumar', 'Thierry Delaporte', 'Rishad Premji',
+      'Kumar Mangalam Birla', 'Anand Mahindra', 'Sajjan Jindal', 'Lakshmi Mittal', 'Sunil Mittal',
+      'Uday Kotak', 'Deepak Parekh', 'Kiran Mazumdar-Shaw', 'Falguni Nayar', 'Radhakishan Damani',
+      'Dilip Shanghvi', 'Cyrus Poonawalla', 'Adar Poonawalla', 'Harsh Mariwala', 'Adi Godrej',
+      'Naveen Jindal', 'Rahul Bajaj', 'Sanjiv Bajaj', 'Pankaj Munjal', 'Venu Srinivasan',
+      'TV Narendran', 'Aditya Puri', 'Romesh Sobti', 'Sandeep Bakhshi', 'Amitabh Chaudhry',
+      'Sashidhar Jagdishan', 'Nithin Kamath', 'Zerodha Nikhil', 'Bhavish Aggarwal', 'Vijay Shekhar Sharma',
+      'Byju Raveendran', 'Ashneer Grover', 'Deepinder Goyal', 'Ritesh Agarwal', 'Kunal Shah',
+      'Sridhar Vembu', 'Girish Mathrubootham', 'Sachin Bansal', 'Binny Bansal', 'Nandan Nilekani'
     ],
     entertainment: [
-      'Shah Rukh Khan','Amitabh Bachchan','Aamir Khan','Salman Khan','Akshay Kumar',
-      'Ranveer Singh','Ranbir Kapoor','Hrithik Roshan','Deepika Padukone','Priyanka Chopra',
-      'Alia Bhatt','Katrina Kaif','Kareena Kapoor','Anushka Sharma','Rashmika Mandanna',
-      'Allu Arjun','Ram Charan','Jr NTR','Prabhas','Yash',
-      'Rajinikanth','Kamal Haasan','Vijay','Mohanlal','Mammootty',
-      'SS Rajamouli','Sanjay Leela Bhansali','Rajkumar Hirani','Zoya Akhtar','Karan Johar',
-      'Arijit Singh','AR Rahman','Shreya Ghoshal','Atif Aslam','Badshah',
-      'Yo Yo Honey Singh','Diljit Dosanjh','AP Dhillon','Anuv Jain','King',
-      'Samantha Ruth Prabhu','Nayanthara','Janhvi Kapoor','Sara Ali Khan','Kiara Advani',
-      'Tiger Shroff','Varun Dhawan','Kartik Aaryan','Vicky Kaushal','Ayushmann Khurrana'
+      'Shah Rukh Khan', 'Amitabh Bachchan', 'Aamir Khan', 'Salman Khan', 'Akshay Kumar',
+      'Ranveer Singh', 'Ranbir Kapoor', 'Hrithik Roshan', 'Deepika Padukone', 'Priyanka Chopra',
+      'Alia Bhatt', 'Katrina Kaif', 'Kareena Kapoor', 'Anushka Sharma', 'Rashmika Mandanna',
+      'Allu Arjun', 'Ram Charan', 'Jr NTR', 'Prabhas', 'Yash',
+      'Rajinikanth', 'Kamal Haasan', 'Vijay', 'Mohanlal', 'Mammootty',
+      'SS Rajamouli', 'Sanjay Leela Bhansali', 'Rajkumar Hirani', 'Zoya Akhtar', 'Karan Johar',
+      'Arijit Singh', 'AR Rahman', 'Shreya Ghoshal', 'Atif Aslam', 'Badshah',
+      'Yo Yo Honey Singh', 'Diljit Dosanjh', 'AP Dhillon', 'Anuv Jain', 'King',
+      'Samantha Ruth Prabhu', 'Nayanthara', 'Janhvi Kapoor', 'Sara Ali Khan', 'Kiara Advani',
+      'Tiger Shroff', 'Varun Dhawan', 'Kartik Aaryan', 'Vicky Kaushal', 'Ayushmann Khurrana'
     ],
     sports: [
-      'Virat Kohli','Rohit Sharma','MS Dhoni','Jasprit Bumrah','Hardik Pandya',
-      'Rishabh Pant','Shubman Gill','Suryakumar Yadav','Ravindra Jadeja','KL Rahul',
-      'PV Sindhu','Neeraj Chopra','Saina Nehwal','Mary Kom','Mirabai Chanu',
-      'Bajrang Punia','Vinesh Phogat','Lovlina Borgohain','Nikhat Zareen','Aman Sehrawat',
-      'Sunil Chhetri','Bhaichung Bhutia','Gurpreet Singh Sandhu','Smriti Mandhana','Harmanpreet Kaur',
-      'Sania Mirza','Rohan Bopanna','Sumit Nagal','Leander Paes','Mahesh Bhupathi',
-      'Abhinav Bindra','Manu Bhaker','Saurabh Chaudhary','Avinash Sable','Hima Das',
-      'Dutee Chand','PR Sreejesh','Manpreet Singh','Rupinder Pal Singh','Amit Panghal',
-      'Lakshya Sen','HS Prannoy','Kidambi Srikanth','Satwiksairaj Rankireddy','Chirag Shetty',
-      'Anish Bhanwala','Elavenil Valarivan','Praggnanandhaa R','D Gukesh','Koneru Humpy'
+      'Virat Kohli', 'Rohit Sharma', 'MS Dhoni', 'Jasprit Bumrah', 'Hardik Pandya',
+      'Rishabh Pant', 'Shubman Gill', 'Suryakumar Yadav', 'Ravindra Jadeja', 'KL Rahul',
+      'PV Sindhu', 'Neeraj Chopra', 'Saina Nehwal', 'Mary Kom', 'Mirabai Chanu',
+      'Bajrang Punia', 'Vinesh Phogat', 'Lovlina Borgohain', 'Nikhat Zareen', 'Aman Sehrawat',
+      'Sunil Chhetri', 'Bhaichung Bhutia', 'Gurpreet Singh Sandhu', 'Smriti Mandhana', 'Harmanpreet Kaur',
+      'Sania Mirza', 'Rohan Bopanna', 'Sumit Nagal', 'Leander Paes', 'Mahesh Bhupathi',
+      'Abhinav Bindra', 'Manu Bhaker', 'Saurabh Chaudhary', 'Avinash Sable', 'Hima Das',
+      'Dutee Chand', 'PR Sreejesh', 'Manpreet Singh', 'Rupinder Pal Singh', 'Amit Panghal',
+      'Lakshya Sen', 'HS Prannoy', 'Kidambi Srikanth', 'Satwiksairaj Rankireddy', 'Chirag Shetty',
+      'Anish Bhanwala', 'Elavenil Valarivan', 'Praggnanandhaa R', 'D Gukesh', 'Koneru Humpy'
     ],
     eminent: [
-      'APJ Abdul Kalam (legacy)','Amartya Sen','Raghuram Rajan','Arvind Subramanian','Bibek Debroy',
-      'Shashi Tharoor','Amish Tripathi','Chetan Bhagat','Arundhati Roy','Sudha Murty',
-      'Narayana Murthy','Ratan Tata','Sadhguru','Sri Sri Ravi Shankar','Baba Ramdev',
-      'Mohan Bhagwat','Gaur Gopal Das','BK Shivani','Prashant Kishor','Yogendra Yadav',
-      'Ravish Kumar','Rajdeep Sardesai','Barkha Dutt','Arnab Goswami','Sudhir Chaudhary',
-      'Dhruv Rathee','Abhigya Anand','Sandeep Maheshwari','Ranveer Allahbadia','Ankur Warikoo',
-      'Tanmay Bhat','Kunal Kamra','Zakir Khan','Vir Das','Kapil Sharma',
-      'Vishal Dadlani','Shankar Mahadevan','Asha Bhosle','Lata Mangeshkar (legacy)','Zakir Hussain',
-      'Anand Kumar','Kiran Bedi','Medha Patkar','Anna Hazare','Vandana Shiva',
-      'Sunita Williams','Kalpana Chawla (legacy)','K Sivan','S Somanath','Tessy Thomas',
-      'Arunima Sinha','Manoj Bajpayee','Pankaj Tripathi','Nawazuddin Siddiqui','Irrfan Khan (legacy)',
-      'Vishal Sikka','Jayant Sinha','Amitabh Kant','Krishnamurthy Subramanian','Sanjeev Sanyal',
-      'TV Mohandas Pai','Kris Gopalakrishnan','S Gopalakrishnan','Venkatraman Ramakrishnan','C N R Rao',
-      'Infosys Founders','Wipro Founders','TCS Leadership','HCL Founders','Tech Mahindra Leaders',
-      'Sanjay Mehrotra','Ajay Banga','Indra Nooyi','Sundar Pichai','Satya Nadella',
-      'Shantanu Narayen','Arvind Krishna','Parag Agrawal','Laxman Narasimhan','Leena Nair',
-      'Jayathi Murthy','Sethuraman Panchanathan','Atul Gawande','Siddhartha Mukherjee','Raj Chetty',
-      'Abhijit Banerjee','Esther Duflo','Venki Ramakrishnan','Har Gobind Khorana (legacy)','Subrahmanyan Chandrasekhar (legacy)',
-      'Rabindranath Tagore (legacy)','Satyajit Ray (legacy)','Zubin Mehta','Ravi Shankar (legacy)','Zakir Hussain',
-      'Deepak Chopra','Siddharth Malhotra','Rajkummar Rao','Taapsee Pannu','Kangana Ranaut'
+      'APJ Abdul Kalam (legacy)', 'Amartya Sen', 'Raghuram Rajan', 'Arvind Subramanian', 'Bibek Debroy',
+      'Shashi Tharoor', 'Amish Tripathi', 'Chetan Bhagat', 'Arundhati Roy', 'Sudha Murty',
+      'Narayana Murthy', 'Ratan Tata', 'Sadhguru', 'Sri Sri Ravi Shankar', 'Baba Ramdev',
+      'Mohan Bhagwat', 'Gaur Gopal Das', 'BK Shivani', 'Prashant Kishor', 'Yogendra Yadav',
+      'Ravish Kumar', 'Rajdeep Sardesai', 'Barkha Dutt', 'Arnab Goswami', 'Sudhir Chaudhary',
+      'Ankur Warikoo',
+      'Tanmay Bhat', 'Kunal Kamra', 'Zakir Khan', 'Vir Das', 'Kapil Sharma',
+      'Vishal Dadlani', 'Shankar Mahadevan', 'Asha Bhosle', 'Lata Mangeshkar (legacy)', 'Zakir Hussain',
+      'Anand Kumar', 'Kiran Bedi', 'Medha Patkar', 'Anna Hazare', 'Vandana Shiva',
+      'Sunita Williams', 'Kalpana Chawla (legacy)', 'K Sivan', 'S Somanath', 'Tessy Thomas',
+      'Arunima Sinha', 'Manoj Bajpayee', 'Pankaj Tripathi', 'Nawazuddin Siddiqui', 'Irrfan Khan (legacy)',
+      'Vishal Sikka', 'Jayant Sinha', 'Amitabh Kant', 'Krishnamurthy Subramanian', 'Sanjeev Sanyal',
+      'TV Mohandas Pai', 'Kris Gopalakrishnan', 'S Gopalakrishnan', 'Venkatraman Ramakrishnan', 'C N R Rao',
+      'Infosys Founders', 'Wipro Founders', 'TCS Leadership', 'HCL Founders', 'Tech Mahindra Leaders',
+      'Sanjay Mehrotra', 'Ajay Banga', 'Indra Nooyi', 'Sundar Pichai', 'Satya Nadella',
+      'Shantanu Narayen', 'Arvind Krishna', 'Parag Agrawal', 'Laxman Narasimhan', 'Leena Nair',
+      'Jayathi Murthy', 'Sethuraman Panchanathan', 'Atul Gawande', 'Siddhartha Mukherjee', 'Raj Chetty',
+      'Abhijit Banerjee', 'Esther Duflo', 'Venki Ramakrishnan', 'Har Gobind Khorana (legacy)', 'Subrahmanyan Chandrasekhar (legacy)',
+      'Rabindranath Tagore (legacy)', 'Satyajit Ray (legacy)', 'Zubin Mehta', 'Ravi Shankar (legacy)', 'Zakir Hussain',
+      'Deepak Chopra', 'Siddharth Malhotra', 'Rajkummar Rao', 'Taapsee Pannu', 'Kangana Ranaut'
     ]
   }
 };
@@ -568,14 +568,14 @@ const SENTIMENT_PERSONALITIES = {
 // ── Sentiment Word Pools ─────────────────────────────────────────────────────
 const SENTIMENT_WORD_POOLS = {
   us: {
-    positive: ['freedom','democracy','innovation','growth','prosperity','unity','progress','opportunity','justice','security','strength','leadership','recovery','resilience','jobs','economy','bipartisan','cooperation','peace','technology','AI','space','clean-energy','infrastructure','allies','diplomacy','markets','rally','breakthrough','success','vaccine','investment','startup','entrepreneurship','optimism'],
-    negative: ['war','conflict','inflation','recession','division','extremism','polarization','sanctions','threat','crisis','shutdown','deficit','debt','cyberthreat','disinformation','inequality','corruption','violence','immigration','border','fentanyl','surveillance','censorship','tariffs','escalation','nuclear','proxy','terrorism','instability','unemployment','layoffs','misinformation','authoritarian'],
-    neutral: ['election','congress','senate','policy','legislation','regulation','trade','budget','defense','military','NATO','G7','UN','summit','agreement','negotiation','bilateral','strategy','assessment','analysis','intelligence','briefing','committee','amendment','vote','debate','caucus','reform','review','framework','initiative','agenda','protocol','mandate','oversight']
+    positive: ['freedom', 'democracy', 'innovation', 'growth', 'prosperity', 'unity', 'progress', 'opportunity', 'justice', 'security', 'strength', 'leadership', 'recovery', 'resilience', 'jobs', 'economy', 'bipartisan', 'cooperation', 'peace', 'technology', 'AI', 'space', 'clean-energy', 'infrastructure', 'allies', 'diplomacy', 'markets', 'rally', 'breakthrough', 'success', 'vaccine', 'investment', 'startup', 'entrepreneurship', 'optimism'],
+    negative: ['war', 'conflict', 'inflation', 'recession', 'division', 'extremism', 'polarization', 'sanctions', 'threat', 'crisis', 'shutdown', 'deficit', 'debt', 'cyberthreat', 'disinformation', 'inequality', 'corruption', 'violence', 'immigration', 'border', 'fentanyl', 'surveillance', 'censorship', 'tariffs', 'escalation', 'nuclear', 'proxy', 'terrorism', 'instability', 'unemployment', 'layoffs', 'misinformation', 'authoritarian'],
+    neutral: ['election', 'congress', 'senate', 'policy', 'legislation', 'regulation', 'trade', 'budget', 'defense', 'military', 'NATO', 'G7', 'UN', 'summit', 'agreement', 'negotiation', 'bilateral', 'strategy', 'assessment', 'analysis', 'intelligence', 'briefing', 'committee', 'amendment', 'vote', 'debate', 'caucus', 'reform', 'review', 'framework', 'initiative', 'agenda', 'protocol', 'mandate', 'oversight']
   },
   india: {
-    positive: ['development','Digital-India','Make-in-India','startup','growth','Atmanirbhar','infrastructure','metro','expressway','ISRO','Chandrayaan','UPI','Aadhaar','smart-city','renewable','solar','yoga','Ayurveda','unity','diversity','cricket','IPL','tourism','exports','FDI','manufacturing','semiconductor','5G','Vande-Bharat','bullet-train','inclusion','empowerment','Skill-India','education','Jan-Dhan'],
-    negative: ['pollution','unemployment','inflation','poverty','communal','caste','corruption','scam','protest','farmers','reservation','violence','lynching','sedition','censorship','media-freedom','GDP-slowdown','NPAs','rupee-fall','brain-drain','migration','water-crisis','flood','drought','heatwave','traffic','encroachment','malnutrition','healthcare-gap','inequality','radicalization','fake-news','trolling'],
-    neutral: ['Lok-Sabha','Rajya-Sabha','Parliament','budget','GST','RBI','SEBI','NITI-Aayog','election','BJP','Congress','AAP','coalition','NDA','INDIA-bloc','manifesto','judiciary','Supreme-Court','PIL','amendment','ordinance','census','survey','GDP','fiscal','monetary','bilateral','QUAD','BRICS','G20','SCO','ASEAN','diplomacy','foreign-policy','defence']
+    positive: ['development', 'Digital-India', 'Make-in-India', 'startup', 'growth', 'Atmanirbhar', 'infrastructure', 'metro', 'expressway', 'ISRO', 'Chandrayaan', 'UPI', 'Aadhaar', 'smart-city', 'renewable', 'solar', 'yoga', 'Ayurveda', 'unity', 'diversity', 'cricket', 'IPL', 'tourism', 'exports', 'FDI', 'manufacturing', 'semiconductor', '5G', 'Vande-Bharat', 'bullet-train', 'inclusion', 'empowerment', 'Skill-India', 'education', 'Jan-Dhan'],
+    negative: ['pollution', 'unemployment', 'inflation', 'poverty', 'communal', 'caste', 'corruption', 'scam', 'protest', 'farmers', 'reservation', 'violence', 'lynching', 'sedition', 'censorship', 'media-freedom', 'GDP-slowdown', 'NPAs', 'rupee-fall', 'brain-drain', 'migration', 'water-crisis', 'flood', 'drought', 'heatwave', 'traffic', 'encroachment', 'malnutrition', 'healthcare-gap', 'inequality', 'radicalization', 'fake-news', 'trolling'],
+    neutral: ['Lok-Sabha', 'Rajya-Sabha', 'Parliament', 'budget', 'GST', 'RBI', 'SEBI', 'NITI-Aayog', 'election', 'BJP', 'Congress', 'AAP', 'coalition', 'NDA', 'INDIA-bloc', 'manifesto', 'judiciary', 'Supreme-Court', 'PIL', 'amendment', 'ordinance', 'census', 'survey', 'GDP', 'fiscal', 'monetary', 'bilateral', 'QUAD', 'BRICS', 'G20', 'SCO', 'ASEAN', 'diplomacy', 'foreign-policy', 'defence']
   }
 };
 
@@ -593,7 +593,7 @@ function generateSentimentData(mode = 'us') {
   const baseNeutral = 100 - basePositive - baseNegative;
 
   // Category-level breakdowns
-  const categories = ['government','business','entertainment','sports','eminent'];
+  const categories = ['government', 'business', 'entertainment', 'sports', 'eminent'];
   const categoryData = {};
   categories.forEach((cat, i) => {
     const pVar = (seededRandom(10 + i) - 0.5) * 20;

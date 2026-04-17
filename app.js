@@ -1750,22 +1750,6 @@ class WarDashboard {
           </div>
         </div>
 
-        <div class="sentiment-breakdown">
-          <div class="sub-section-title">Category Breakdown</div>
-          ${Object.entries(d.categoryData).map(([cat, cd]) => `
-            <div class="sentiment-cat-row">
-              <span class="sentiment-cat-icon">${catIcons[cat]}</span>
-              <span class="sentiment-cat-name">${catLabels[cat]}</span>
-              <div class="sentiment-cat-bar">
-                <div class="sentiment-cat-seg positive" style="width:${cd.positive}%"></div>
-                <div class="sentiment-cat-seg negative" style="width:${cd.negative}%"></div>
-                <div class="sentiment-cat-seg neutral" style="width:${cd.neutral}%"></div>
-              </div>
-              <span class="sentiment-cat-count">${cd.count}</span>
-            </div>
-          `).join('')}
-        </div>
-
         <div class="sentiment-wordcloud-section">
           <div class="sub-section-title">Dominant Themes — Word Cloud</div>
           <div class="sentiment-wordcloud" id="sentiment-wordcloud"></div>
