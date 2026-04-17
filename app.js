@@ -16,6 +16,9 @@ class WarDashboard {
     this.maritimeVessels = [];
     this.airTrafficCount = 0;
     this.maritimeCount = 0;
+    this.sentimentMode = 'us';
+    this.sentimentData = null;
+    this.sentimentRefreshTimer = null;
   }
 
   init() {
@@ -25,7 +28,7 @@ class WarDashboard {
     // Render default active tab for each panel
     this.renderMilitaryComparison(); // right-top: Assets tab (default)
     this.renderProxyForces();        // left-bottom: Proxies tab (default)
-    this.renderTimeline();           // right-bottom: Timeline tab (default)
+    this.renderSentimentPanel();     // right-bottom: Sentiment tab (default)
     this.loadNewsFeeds();
     // Initialize live tracking layers
     this.initMaritimeSimulation();
@@ -34,6 +37,7 @@ class WarDashboard {
     setInterval(() => this.loadNewsFeeds(), 300000);    // News: 5 min
     setInterval(() => this.loadAirTraffic(), 15000);    // Air: 15 sec
     setInterval(() => this.updateMaritimePositions(), 3000); // Ships: 3 sec
+    this.initSentimentRefresh();
   }
 
   // ── Layout ──────────────────────────────────────────────────────────────
@@ -122,10 +126,11 @@ class WarDashboard {
         <div class="panel" id="panel-right-bottom">
           <div class="panel-header">
             <span class="panel-icon">📊</span>
-            <span class="panel-title" id="right-bottom-title">Timeline</span>
+            <span class="panel-title" id="right-bottom-title">Global Sentiment</span>
           </div>
           <div class="tab-bar" id="right-bottom-tabs">
-            <button class="tab-btn active" data-tab="timeline">Timeline</button>
+            <button class="tab-btn active" data-tab="sentiment">Sentiment</button>
+            <button class="tab-btn" data-tab="timeline">Timeline</button>
             <button class="tab-btn" data-tab="cyber">Cyber Ops</button>
             <button class="tab-btn" data-tab="naval">Naval</button>
           </div>
@@ -227,6 +232,10 @@ class WarDashboard {
       case 'naval':
         title.textContent = 'Naval Forces';
         this.renderNavalForces();
+        break;
+      case 'sentiment':
+        title.textContent = 'Global Sentiment';
+        this.renderSentimentPanel();
         break;
     }
   }
@@ -1657,6 +1666,165 @@ class WarDashboard {
     if (countEl) countEl.textContent = this.maritimeCount;
     const indiaCountEl = document.getElementById('count-india');
     if (indiaCountEl) indiaCountEl.textContent = indianCount.ships;
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════
+  // GLOBAL SENTIMENT ANALYSIS — INFOGRAPHIC & WORD CLOUD
+  // ═══════════════════════════════════════════════════════════════════════
+
+  initSentimentRefresh() {
+    this.sentimentData = generateSentimentData(this.sentimentMode);
+    // Refresh every 2 hours
+    setInterval(() => {
+      this.sentimentData = generateSentimentData(this.sentimentMode);
+      // Re-render if sentiment tab is active
+      const activeTab = document.querySelector('#right-bottom-tabs .tab-btn.active');
+      if (activeTab && activeTab.dataset.tab === 'sentiment') {
+        this.renderSentimentPanel();
+      }
+    }, 7200000);
+    // Update countdown every minute
+    setInterval(() => {
+      const el = document.getElementById('sentiment-refresh-countdown');
+      if (el && this.sentimentData) {
+        const remaining = this.sentimentData.nextRefresh - Date.now();
+        if (remaining > 0) {
+          const h = Math.floor(remaining / 3600000);
+          const m = Math.floor((remaining % 3600000) / 60000);
+          el.textContent = `${h}h ${m}m`;
+        } else {
+          el.textContent = 'Refreshing...';
+        }
+      }
+    }, 60000);
+  }
+
+  renderSentimentPanel() {
+    const content = document.getElementById('right-bottom-content');
+    if (!this.sentimentData || this.sentimentData.mode !== this.sentimentMode) {
+      this.sentimentData = generateSentimentData(this.sentimentMode);
+    }
+    const d = this.sentimentData;
+    const elapsed = Date.now() - d.generatedAt.getTime();
+    const elapsedMin = Math.floor(elapsed / 60000);
+    const remaining = d.nextRefresh - Date.now();
+    const remH = Math.floor(Math.max(0, remaining) / 3600000);
+    const remM = Math.floor((Math.max(0, remaining) % 3600000) / 60000);
+
+    const catIcons = { government: '🏛️', business: '💼', entertainment: '🎬', sports: '🏆', eminent: '🌟' };
+    const catLabels = { government: 'Govt', business: 'Business', entertainment: 'Entertain', sports: 'Sports', eminent: 'Eminent' };
+
+    content.innerHTML = `
+      <div class="sentiment-panel">
+        <div class="sentiment-mode-toggle">
+          <button class="sentiment-mode-btn ${this.sentimentMode === 'us' ? 'active' : ''}" data-mode="us">🇺🇸 US Mode</button>
+          <button class="sentiment-mode-btn ${this.sentimentMode === 'india' ? 'active' : ''}" data-mode="india">🇮🇳 India Mode</button>
+        </div>
+
+        <div class="sentiment-header-row">
+          <div class="sentiment-total">Tracking <span class="sentiment-highlight">${d.totalPersonalities}</span> voices</div>
+          <div class="sentiment-refresh">Updated ${elapsedMin}m ago · Next: <span id="sentiment-refresh-countdown">${remH}h ${remM}m</span></div>
+        </div>
+
+        <div class="sentiment-gauges">
+          <div class="sentiment-gauge-row">
+            <span class="sentiment-gauge-label positive">POSITIVE</span>
+            <div class="sentiment-gauge-track">
+              <div class="sentiment-gauge-fill positive" style="width:0%" data-target="${d.positive}"></div>
+            </div>
+            <span class="sentiment-gauge-pct positive">${d.positive}%</span>
+          </div>
+          <div class="sentiment-gauge-row">
+            <span class="sentiment-gauge-label negative">NEGATIVE</span>
+            <div class="sentiment-gauge-track">
+              <div class="sentiment-gauge-fill negative" style="width:0%" data-target="${d.negative}"></div>
+            </div>
+            <span class="sentiment-gauge-pct negative">${d.negative}%</span>
+          </div>
+          <div class="sentiment-gauge-row">
+            <span class="sentiment-gauge-label neutral">NEUTRAL</span>
+            <div class="sentiment-gauge-track">
+              <div class="sentiment-gauge-fill neutral" style="width:0%" data-target="${d.neutral}"></div>
+            </div>
+            <span class="sentiment-gauge-pct neutral">${d.neutral}%</span>
+          </div>
+        </div>
+
+        <div class="sentiment-breakdown">
+          <div class="sub-section-title">Category Breakdown</div>
+          ${Object.entries(d.categoryData).map(([cat, cd]) => `
+            <div class="sentiment-cat-row">
+              <span class="sentiment-cat-icon">${catIcons[cat]}</span>
+              <span class="sentiment-cat-name">${catLabels[cat]}</span>
+              <div class="sentiment-cat-bar">
+                <div class="sentiment-cat-seg positive" style="width:${cd.positive}%"></div>
+                <div class="sentiment-cat-seg negative" style="width:${cd.negative}%"></div>
+                <div class="sentiment-cat-seg neutral" style="width:${cd.neutral}%"></div>
+              </div>
+              <span class="sentiment-cat-count">${cd.count}</span>
+            </div>
+          `).join('')}
+        </div>
+
+        <div class="sentiment-wordcloud-section">
+          <div class="sub-section-title">Dominant Themes — Word Cloud</div>
+          <div class="sentiment-wordcloud" id="sentiment-wordcloud"></div>
+        </div>
+
+        <div class="sentiment-voices">
+          <div class="sub-section-title">Top Voices This Cycle</div>
+          ${d.topVoices.map(v => `
+            <div class="sentiment-voice">
+              <span class="sentiment-voice-icon">${catIcons[v.category]}</span>
+              <span class="sentiment-voice-name">${v.name}</span>
+              <span class="sentiment-voice-cat">${catLabels[v.category]}</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+
+    // Animate gauge fills
+    requestAnimationFrame(() => {
+      document.querySelectorAll('.sentiment-gauge-fill').forEach(el => {
+        const target = el.dataset.target;
+        setTimeout(() => { el.style.width = target + '%'; }, 50);
+      });
+    });
+
+    // Render word cloud
+    this.renderWordCloud(d.wordCloud);
+
+    // Bind mode toggle
+    content.querySelectorAll('.sentiment-mode-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        this.sentimentMode = btn.dataset.mode;
+        this.sentimentData = generateSentimentData(this.sentimentMode);
+        this.renderSentimentPanel();
+      });
+    });
+  }
+
+  renderWordCloud(words) {
+    const container = document.getElementById('sentiment-wordcloud');
+    if (!container || !words.length) return;
+
+    const maxCount = Math.max(...words.map(w => w.count));
+    const minCount = Math.min(...words.map(w => w.count));
+    const range = maxCount - minCount || 1;
+
+    // Shuffle for visual variety
+    const shuffled = [...words].sort(() => Math.random() - 0.5);
+
+    container.innerHTML = shuffled.map((w, i) => {
+      const size = 9 + ((w.count - minCount) / range) * 22;
+      const opacity = 0.5 + ((w.count - minCount) / range) * 0.5;
+      let colorClass = 'wc-neutral';
+      if (w.sentiment === 'positive') colorClass = 'wc-positive';
+      if (w.sentiment === 'negative') colorClass = 'wc-negative';
+
+      return `<span class="wc-word ${colorClass}" style="font-size:${size.toFixed(1)}px;opacity:${opacity.toFixed(2)};animation-delay:${(i * 20)}ms">${w.word}</span>`;
+    }).join('');
   }
 }
 

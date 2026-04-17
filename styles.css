@@ -1799,3 +1799,360 @@ body::before {
   border-color: rgba(255, 153, 51, 0.5);
   color: #ff9933;
 }
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   GLOBAL SENTIMENT INFOGRAPHIC & WORD CLOUD
+   ══════════════════════════════════════════════════════════════════════════════ */
+
+.sentiment-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ── Mode Toggle ──────────────────────────────────────────────────────────── */
+.sentiment-mode-toggle {
+  display: flex;
+  gap: 4px;
+  background: var(--bg-tertiary);
+  border-radius: 6px;
+  padding: 3px;
+  border: 1px solid var(--border-color);
+}
+
+.sentiment-mode-btn {
+  flex: 1;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  letter-spacing: 0.5px;
+}
+
+.sentiment-mode-btn:hover {
+  color: var(--text-secondary);
+  background: var(--bg-hover);
+}
+
+.sentiment-mode-btn.active {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(249, 115, 22, 0.15));
+  color: var(--accent-amber);
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.1), inset 0 0 8px rgba(245, 158, 11, 0.05);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+/* ── Header Row ───────────────────────────────────────────────────────────── */
+.sentiment-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+}
+
+.sentiment-total {
+  font-size: 9px;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+}
+
+.sentiment-highlight {
+  color: var(--accent-amber);
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.sentiment-refresh {
+  font-size: 8px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+/* ── Sentiment Gauges ─────────────────────────────────────────────────────── */
+.sentiment-gauges {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sentiment-gauge-row {
+  display: grid;
+  grid-template-columns: 65px 1fr 36px;
+  gap: 8px;
+  align-items: center;
+}
+
+.sentiment-gauge-label {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.sentiment-gauge-label.positive { color: #22c55e; }
+.sentiment-gauge-label.negative { color: #ef4444; }
+.sentiment-gauge-label.neutral  { color: #f59e0b; }
+
+.sentiment-gauge-track {
+  height: 14px;
+  background: var(--bg-tertiary);
+  border-radius: 7px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  position: relative;
+}
+
+.sentiment-gauge-fill {
+  height: 100%;
+  border-radius: 7px;
+  transition: width 1.8s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.sentiment-gauge-fill.positive {
+  background: linear-gradient(90deg, #15803d, #22c55e, #4ade80);
+  box-shadow: inset 0 1px 2px rgba(255,255,255,0.15), 0 0 8px rgba(34, 197, 94, 0.3);
+}
+
+.sentiment-gauge-fill.negative {
+  background: linear-gradient(90deg, #991b1b, #ef4444, #f87171);
+  box-shadow: inset 0 1px 2px rgba(255,255,255,0.15), 0 0 8px rgba(239, 68, 68, 0.3);
+}
+
+.sentiment-gauge-fill.neutral {
+  background: linear-gradient(90deg, #b45309, #f59e0b, #fbbf24);
+  box-shadow: inset 0 1px 2px rgba(255,255,255,0.15), 0 0 8px rgba(245, 158, 11, 0.3);
+}
+
+.sentiment-gauge-pct {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 800;
+  text-align: right;
+}
+
+.sentiment-gauge-pct.positive { color: #22c55e; text-shadow: 0 0 6px rgba(34,197,94,0.4); }
+.sentiment-gauge-pct.negative { color: #ef4444; text-shadow: 0 0 6px rgba(239,68,68,0.4); }
+.sentiment-gauge-pct.neutral  { color: #f59e0b; text-shadow: 0 0 6px rgba(245,158,11,0.4); }
+
+/* ── Category Breakdown ───────────────────────────────────────────────────── */
+.sentiment-breakdown {
+  margin-top: 2px;
+}
+
+.sentiment-cat-row {
+  display: grid;
+  grid-template-columns: 18px 58px 1fr 28px;
+  gap: 6px;
+  align-items: center;
+  padding: 3px 0;
+}
+
+.sentiment-cat-icon {
+  font-size: 11px;
+  text-align: center;
+}
+
+.sentiment-cat-name {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.sentiment-cat-bar {
+  display: flex;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--bg-tertiary);
+  border: 1px solid rgba(100,116,139,0.1);
+}
+
+.sentiment-cat-seg {
+  height: 100%;
+  transition: width 1.2s ease;
+}
+
+.sentiment-cat-seg.positive { background: rgba(34, 197, 94, 0.7); }
+.sentiment-cat-seg.negative { background: rgba(239, 68, 68, 0.7); }
+.sentiment-cat-seg.neutral  { background: rgba(245, 158, 11, 0.5); }
+
+.sentiment-cat-count {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  color: var(--text-muted);
+  text-align: right;
+}
+
+/* ── Word Cloud ───────────────────────────────────────────────────────────── */
+.sentiment-wordcloud-section {
+  margin-top: 2px;
+}
+
+.sentiment-wordcloud {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4px 7px;
+  padding: 10px 6px;
+  min-height: 80px;
+  background: rgba(10, 14, 23, 0.5);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sentiment-wordcloud::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(245,158,11,0.03) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.wc-word {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: default;
+  transition: transform 0.2s, text-shadow 0.2s;
+  animation: wcFadeIn 0.4s ease-out forwards;
+  opacity: 0;
+  white-space: nowrap;
+}
+
+.wc-word:hover {
+  transform: scale(1.15);
+  z-index: 2;
+}
+
+.wc-positive {
+  color: #4ade80;
+  text-shadow: 0 0 4px rgba(34, 197, 94, 0.3);
+}
+
+.wc-positive:hover {
+  text-shadow: 0 0 10px rgba(34, 197, 94, 0.6);
+}
+
+.wc-negative {
+  color: #f87171;
+  text-shadow: 0 0 4px rgba(239, 68, 68, 0.3);
+}
+
+.wc-negative:hover {
+  text-shadow: 0 0 10px rgba(239, 68, 68, 0.6);
+}
+
+.wc-neutral {
+  color: #fbbf24;
+  text-shadow: 0 0 4px rgba(245, 158, 11, 0.3);
+}
+
+.wc-neutral:hover {
+  text-shadow: 0 0 10px rgba(245, 158, 11, 0.6);
+}
+
+@keyframes wcFadeIn {
+  from { opacity: 0; transform: translateY(6px) scale(0.8); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ── Top Voices ───────────────────────────────────────────────────────────── */
+.sentiment-voices {
+  margin-top: 2px;
+}
+
+.sentiment-voice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(100,116,139,0.08);
+  font-size: 10px;
+}
+
+.sentiment-voice-icon {
+  font-size: 12px;
+  width: 18px;
+  text-align: center;
+}
+
+.sentiment-voice-name {
+  flex: 1;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.sentiment-voice-cat {
+  font-family: var(--font-mono);
+  font-size: 7px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  padding: 2px 5px;
+  background: var(--bg-tertiary);
+  border-radius: 3px;
+  border: 1px solid var(--border-color);
+}
+
+/* ── Sentiment Responsive ─────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .sentiment-gauge-row {
+    grid-template-columns: 50px 1fr 32px;
+    gap: 5px;
+  }
+
+  .sentiment-gauge-label {
+    font-size: 7px;
+  }
+
+  .sentiment-gauge-pct {
+    font-size: 10px;
+  }
+
+  .sentiment-cat-row {
+    grid-template-columns: 16px 48px 1fr 24px;
+    gap: 4px;
+  }
+
+  .sentiment-mode-btn {
+    font-size: 9px;
+    padding: 5px 8px;
+  }
+
+  .wc-word {
+    font-size: 8px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .sentiment-gauge-row {
+    grid-template-columns: 42px 1fr 28px;
+  }
+
+  .sentiment-gauge-label {
+    font-size: 6px;
+    letter-spacing: 0.5px;
+  }
+
+  .sentiment-gauge-track {
+    height: 10px;
+  }
+
+  .sentiment-cat-row {
+    grid-template-columns: 14px 40px 1fr 20px;
+  }
+}
+
