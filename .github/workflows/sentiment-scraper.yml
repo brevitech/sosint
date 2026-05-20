@@ -1,0 +1,42 @@
+name: Sentiment Scraper
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'  # Every 2 hours
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  scrape-sentiment:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run sentiment scraper
+        run: python scripts/scrape_sentiment.py
+
+      - name: Commit updated sentiment data
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add sentiment-data.json
+          if git diff --staged --quiet; then
+            echo "No changes to sentiment data."
+          else
+            git commit -m "data: update sentiment analysis $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+            echo "Sentiment data updated and pushed."
+          fi

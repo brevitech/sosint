@@ -1672,11 +1672,20 @@ class WarDashboard {
   // GLOBAL SENTIMENT ANALYSIS — INFOGRAPHIC & WORD CLOUD
   // ═══════════════════════════════════════════════════════════════════════
 
-  initSentimentRefresh() {
-    this.sentimentData = generateSentimentData(this.sentimentMode);
-    // Refresh every 2 hours
-    setInterval(() => {
+  async initSentimentRefresh() {
+    try {
+      this.sentimentData = await fetchSentimentData(this.sentimentMode);
+    } catch (e) {
       this.sentimentData = generateSentimentData(this.sentimentMode);
+    }
+    // Refresh every 2 hours
+    setInterval(async () => {
+      _sentimentCache.fetchedAt = 0; // Invalidate cache to force fresh fetch
+      try {
+        this.sentimentData = await fetchSentimentData(this.sentimentMode);
+      } catch (e) {
+        this.sentimentData = generateSentimentData(this.sentimentMode);
+      }
       // Re-render if sentiment tab is active
       const activeTab = document.querySelector('#right-bottom-tabs .tab-btn.active');
       if (activeTab && activeTab.dataset.tab === 'sentiment') {
@@ -1699,11 +1708,19 @@ class WarDashboard {
     }, 60000);
   }
 
-  renderSentimentPanel() {
+  async renderSentimentPanel() {
     const content = document.getElementById('right-bottom-content');
+
+    // Show loading state on first load
     if (!this.sentimentData || this.sentimentData.mode !== this.sentimentMode) {
-      this.sentimentData = generateSentimentData(this.sentimentMode);
+      content.innerHTML = `<div class="sentiment-panel" style="display:flex;align-items:center;justify-content:center;padding:20px;"><div class="spinner"></div><span style="margin-left:10px;color:var(--text-secondary);font-size:11px;">Loading sentiment data...</span></div>`;
+      try {
+        this.sentimentData = await fetchSentimentData(this.sentimentMode);
+      } catch (e) {
+        this.sentimentData = generateSentimentData(this.sentimentMode);
+      }
     }
+
     const d = this.sentimentData;
     const elapsed = Date.now() - d.generatedAt.getTime();
     const elapsedMin = Math.floor(elapsed / 60000);
@@ -1711,8 +1728,12 @@ class WarDashboard {
     const remH = Math.floor(Math.max(0, remaining) / 3600000);
     const remM = Math.floor((Math.max(0, remaining) % 3600000) / 60000);
 
-    const catIcons = { government: '🏛️', business: '💼', entertainment: '🎬', sports: '🏆', eminent: '🌟' };
-    const catLabels = { government: 'Govt', business: 'Business', entertainment: 'Entertain', sports: 'Sports', eminent: 'Eminent' };
+    const isLive = d.dataSource === 'live-rss';
+    const sourceLabel = isLive ? '📡 LIVE' : '⚡ SIM';
+    const sourceClass = isLive ? 'source-live' : 'source-sim';
+    const statsLine = isLive && d.articlesAnalyzed
+      ? `<span class="sentiment-stats">${d.articlesAnalyzed} articles · ${d.matchedMentions} mentions</span>`
+      : '';
 
     content.innerHTML = `
       <div class="sentiment-panel">
@@ -1722,9 +1743,10 @@ class WarDashboard {
         </div>
 
         <div class="sentiment-header-row">
-          <div class="sentiment-total">Tracking <span class="sentiment-highlight">${d.totalPersonalities}</span> voices</div>
+          <div class="sentiment-total">Tracking <span class="sentiment-highlight">${d.totalPersonalities}</span> voices <span class="sentiment-source ${sourceClass}">${sourceLabel}</span></div>
           <div class="sentiment-refresh">Updated ${elapsedMin}m ago · Next: <span id="sentiment-refresh-countdown">${remH}h ${remM}m</span></div>
         </div>
+        ${statsLine}
 
         <div class="sentiment-gauges">
           <div class="sentiment-gauge-row">

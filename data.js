@@ -469,26 +469,67 @@ const SENTIMENT_PERSONALITIES = {
       'Caeleb Dressel', 'Katie Ledecky', 'Suni Lee', 'Jordan Chiles', 'Jayson Tatum'
     ],
     eminent: [
-      'Neil deGrasse Tyson', 'Elon Musk', 'Bill Gates', 'Melinda French Gates', 'Barack Obama',
-      'Michelle Obama', 'Hillary Clinton', 'George W. Bush', 'Al Gore', 'John Kerry',
-      'Anthony Fauci', 'Vivek Murthy', 'Jerome Powell', 'Christine Lagarde', 'Kristalina Georgieva',
-      'António Guterres', 'Jens Stoltenberg', 'Volodymyr Zelenskyy', 'Emmanuel Macron', 'Keir Starmer',
-      'Olaf Scholz', 'Justin Trudeau', 'Benjamin Netanyahu', 'MBS', 'Pope Francis',
-      'Dalai Lama', 'Malala Yousafzai', 'Greta Thunberg', 'Jane Goodall', 'David Attenborough',
-      'Noam Chomsky', 'Yuval Noah Harari', 'Jordan Peterson', 'Ben Shapiro', 'Joe Rogan',
-      'Tucker Carlson', 'Rachel Maddow', 'Anderson Cooper', 'Wolf Blitzer', 'Sean Hannity',
-      'Bob Woodward', 'Malcolm Gladwell', 'Ta-Nehisi Coates', 'Ibram X. Kendi', 'Cornell West',
-      'Nassim Taleb', 'Paul Krugman', 'Larry Summers', 'Niall Ferguson', 'Fareed Zakaria',
-      'Thomas Friedman', 'David Brooks', 'Ezra Klein', 'Kara Swisher', 'Scott Galloway',
-      'Lex Fridman', 'Andrew Huberman', 'Tim Ferriss', 'Brené Brown', 'Adam Grant',
-      'Ray Kurzweil', 'Demis Hassabis', 'Yann LeCun', 'Geoffrey Hinton', 'Fei-Fei Li',
-      'Kai-Fu Lee', 'Sam Harris', 'Mehdi Hasan', 'Chris Hayes', 'Joy Reid',
-      'George Stephanopoulos', 'Jake Tapper', 'Dana Bash', 'Kristen Welker', 'Savannah Guthrie',
-      'Bono', 'Steven Spielberg', 'Martin Scorsese', 'Quentin Tarantino', 'Christopher Nolan',
-      'James Cameron', 'Denis Villeneuve', 'Ava DuVernay', 'Spike Lee', 'Guillermo del Toro',
-      'JK Rowling', 'Stephen King', 'Colleen Hoover', 'James Patterson', 'Margaret Atwood',
-      'Neil Gaiman', 'George RR Martin', 'Chimamanda Ngozi Adichie', 'Ta-Nehisi Coates', 'Roxane Gay',
-      'Jeff Sachs', 'Daron Acemoglu', 'Abhijit Banerjee', 'Esther Duflo', 'Joseph Stiglitz'
+      // ── Global Leaders: Presidents & Prime Ministers (Top 100 Countries) ──
+      // G7
+      'Emmanuel Macron','Keir Starmer','Olaf Scholz','Giorgia Meloni','Fumio Kishida','Justin Trudeau',
+      // BRICS & Major Powers
+      'Xi Jinping','Vladimir Putin','Lula da Silva','Cyril Ramaphosa','Abdel Fattah el-Sisi',
+      // Asia-Pacific
+      'Shigeru Ishiba','Yoon Suk-yeol','Anthony Albanese','Prabowo Subianto','Anwar Ibrahim',
+      'Ferdinand Marcos Jr','Lawrence Wong','Paetongtarn Shinawatra','Lai Ching-te','Hun Manet',
+      'Phạm Minh Chính','KP Sharma Oli','Shehbaz Sharif','Anura Kumara Dissanayake',
+      'Christopher Luxon','Shavkat Mirziyoyev','Kassym-Jomart Tokayev',
+      // Europe
+      'Pedro Sánchez','Mark Rutte','Donald Tusk','Ulf Kristersson','Alexander De Croo',
+      'Jonas Gahr Støre','Karl Nehammer','Simon Harris','Mette Frederiksen','Petteri Orpo',
+      'Petr Fiala','Marcel Ciolacu','Luís Montenegro','Kyriakos Mitsotakis','Viktor Orbán',
+      'Robert Fico','Andrej Plenković','Aleksandar Vučić','Ingrida Šimonytė','Evika Siliņa',
+      'Kristen Michal','Luc Frieden','Alexander Lukashenko','Bjarni Benediktsson',
+      // Middle East & Central Asia
+      'Benjamin Netanyahu','MBS','Mohammed bin Zayed','Sheikh Tamim bin Hamad Al Thani',
+      'King Abdullah II','Recep Tayyip Erdoğan','Kais Saied','Sultan Haitham bin Tariq',
+      'Mohammed Shia al-Sudani','Serdar Berdimuhamedow','Ilham Aliyev',
+      // Americas
+      'Claudia Sheinbaum','Javier Milei','Gustavo Petro','Gabriel Boric','Daniel Noboa',
+      'Luis Abinader','Nayib Bukele','Xiomara Castro','Dina Boluarte','Rodrigo Chaves',
+      'Luis Arce','Santiago Peña','Yamandú Orsi','José Raúl Mulino','Bernardo Arévalo',
+      'Miguel Díaz-Canel',
+      // Africa
+      'Bola Tinubu','William Ruto','Abiy Ahmed','Samia Suluhu Hassan','Alassane Ouattara',
+      'Félix Tshisekedi','Paul Biya','João Lourenço','Bassirou Diomaye Faye','John Mahama',
+      'Aziz Akhannouch','Abdelmadjid Tebboune',
+      // International Organizations
+      'António Guterres','Jens Stoltenberg','Volodymyr Zelenskyy','Christine Lagarde',
+      'Kristalina Georgieva','Jerome Powell','Tedros Adhanom','Ngozi Okonjo-Iweala',
+      // ── Former World Leaders & Statespeople ──
+      'Barack Obama','Michelle Obama','Hillary Clinton','George W. Bush','Al Gore','John Kerry',
+      // ── Spiritual & Humanitarian ──
+      'Pope Francis','Dalai Lama','Malala Yousafzai','Greta Thunberg','Jane Goodall',
+      'David Attenborough','Bono',
+      // ── Science & AI Pioneers ──
+      'Neil deGrasse Tyson','Anthony Fauci','Vivek Murthy','Ray Kurzweil',
+      'Demis Hassabis','Yann LeCun','Geoffrey Hinton','Fei-Fei Li','Kai-Fu Lee',
+      // ── Tech Billionaires (crossover) ──
+      'Elon Musk','Bill Gates','Melinda French Gates',
+      // ── Public Intellectuals ──
+      'Noam Chomsky','Yuval Noah Harari','Jordan Peterson','Ben Shapiro','Nassim Taleb',
+      'Malcolm Gladwell','Brené Brown','Adam Grant',
+      // ── Economists ──
+      'Paul Krugman','Larry Summers','Niall Ferguson','Jeff Sachs','Daron Acemoglu',
+      'Abhijit Banerjee','Esther Duflo','Joseph Stiglitz',
+      // ── Media & Journalism ──
+      'Joe Rogan','Tucker Carlson','Rachel Maddow','Anderson Cooper','Wolf Blitzer',
+      'Sean Hannity','Bob Woodward','Fareed Zakaria','Thomas Friedman','David Brooks',
+      'Ezra Klein','Kara Swisher','Scott Galloway','Mehdi Hasan','Chris Hayes','Joy Reid',
+      'George Stephanopoulos','Jake Tapper','Dana Bash','Kristen Welker','Savannah Guthrie',
+      // ── Podcasters & Thought Leaders ──
+      'Lex Fridman','Andrew Huberman','Tim Ferriss','Sam Harris',
+      // ── Filmmakers ──
+      'Steven Spielberg','Martin Scorsese','Quentin Tarantino','Christopher Nolan',
+      'James Cameron','Denis Villeneuve','Ava DuVernay','Spike Lee','Guillermo del Toro',
+      // ── Authors ──
+      'JK Rowling','Stephen King','Colleen Hoover','James Patterson','Margaret Atwood',
+      'Neil Gaiman','George RR Martin','Chimamanda Ngozi Adichie','Ta-Nehisi Coates','Roxane Gay'
     ]
   },
   india: {
@@ -579,7 +620,67 @@ const SENTIMENT_WORD_POOLS = {
   }
 };
 
-// ── Sentiment Data Generator ─────────────────────────────────────────────────
+// ── Sentiment Data Fetcher (Real Data + Simulation Fallback) ─────────────────
+
+// Cache for fetched sentiment data
+let _sentimentCache = { us: null, india: null, fetchedAt: 0 };
+
+/**
+ * Fetch real sentiment data from the pipeline-generated JSON.
+ * Falls back to the simulation engine if the file is unavailable.
+ */
+async function fetchSentimentData(mode = 'us') {
+  const CACHE_TTL = 300000; // 5 minutes cache to avoid excessive fetches
+  const now = Date.now();
+
+  // Return cached data if fresh
+  if (_sentimentCache[mode] && (now - _sentimentCache.fetchedAt) < CACHE_TTL) {
+    return _sentimentCache[mode];
+  }
+
+  try {
+    // Try fetching the real pipeline data
+    const jsonUrl = 'sentiment-data.json';
+    const response = await fetch(jsonUrl + '?t=' + now);  // Cache bust
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+    const allData = await response.json();
+    const d = allData[mode];
+    if (!d) throw new Error('No data for mode: ' + mode);
+
+    const generatedAt = new Date(d.generatedAt);
+    const nextRefresh = new Date(generatedAt.getTime() + 7200000); // +2h
+
+    const result = {
+      mode,
+      positive: d.positive,
+      negative: d.negative,
+      neutral: d.neutral,
+      wordCloud: d.wordCloud || [],
+      totalPersonalities: d.totalPersonalities,
+      generatedAt,
+      nextRefresh,
+      articlesAnalyzed: d.articlesAnalyzed || 0,
+      matchedMentions: d.matchedMentions || 0,
+      dataSource: d.dataSource || 'live-rss',
+    };
+
+    // Update cache
+    _sentimentCache[mode] = result;
+    _sentimentCache.fetchedAt = now;
+    console.log(`[Sentiment] Loaded LIVE data for ${mode.toUpperCase()} — ${d.articlesAnalyzed} articles, ${d.matchedMentions} mentions`);
+    return result;
+
+  } catch (err) {
+    console.warn(`[Sentiment] Live data unavailable (${err.message}), using simulation fallback`);
+    return generateSentimentData(mode);
+  }
+}
+
+/**
+ * Simulation fallback — generates synthetic sentiment data using seeded PRNG.
+ * Used when sentiment-data.json is not yet available (e.g., first deploy).
+ */
 function generateSentimentData(mode = 'us') {
   const seed = Math.floor(Date.now() / 7200000); // Changes every 2 hours
   const seededRandom = (n) => {
@@ -591,24 +692,6 @@ function generateSentimentData(mode = 'us') {
   const basePositive = mode === 'us' ? 32 + seededRandom(1) * 18 : 38 + seededRandom(1) * 16;
   const baseNegative = mode === 'us' ? 28 + seededRandom(2) * 16 : 24 + seededRandom(2) * 14;
   const baseNeutral = 100 - basePositive - baseNegative;
-
-  // Category-level breakdowns
-  const categories = ['government', 'business', 'entertainment', 'sports', 'eminent'];
-  const categoryData = {};
-  categories.forEach((cat, i) => {
-    const pVar = (seededRandom(10 + i) - 0.5) * 20;
-    const nVar = (seededRandom(20 + i) - 0.5) * 16;
-    let p = Math.max(5, Math.min(85, basePositive + pVar));
-    let n = Math.max(5, Math.min(85, baseNegative + nVar));
-    let neu = Math.max(5, 100 - p - n);
-    const total = p + n + neu;
-    categoryData[cat] = {
-      positive: Math.round(p / total * 100),
-      negative: Math.round(n / total * 100),
-      neutral: Math.round(neu / total * 100),
-      count: SENTIMENT_PERSONALITIES[mode][cat]?.length || 50
-    };
-  });
 
   // Word cloud generation
   const pools = SENTIMENT_WORD_POOLS[mode];
@@ -628,31 +711,21 @@ function generateSentimentData(mode = 'us') {
   addWords(pools.negative, 'negative', 40);
   addWords(pools.neutral, 'neutral', 35);
 
-  // Sort by count desc, take top 80
   allWords.sort((a, b) => b.count - a.count);
   const wordCloud = allWords.slice(0, 30);
 
-  // Top voices (simulated influential accounts)
   const personas = SENTIMENT_PERSONALITIES[mode];
-  const topVoices = [];
-  categories.forEach(cat => {
-    const list = personas[cat];
-    if (list && list.length) {
-      const idx = Math.floor(seededRandom(50 + cat.length) * Math.min(5, list.length));
-      topVoices.push({ name: list[idx], category: cat });
-    }
-  });
 
   return {
     mode,
     positive: Math.round(basePositive),
     negative: Math.round(baseNegative),
     neutral: Math.round(baseNeutral),
-    categoryData,
     wordCloud,
-    topVoices,
     totalPersonalities: Object.values(personas).reduce((s, a) => s + a.length, 0),
     generatedAt: new Date(),
-    nextRefresh: new Date(Date.now() + 7200000)
+    nextRefresh: new Date(Date.now() + 7200000),
+    dataSource: 'simulation',
   };
 }
+
