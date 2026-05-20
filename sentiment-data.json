@@ -1,12 +1,47 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 46,
+    "positive": 47,
+    "negative": 41,
     "neutral": 12,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 97,
+        "count": 99,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "castro",
+        "count": 29,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 23,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "former",
+        "count": 21,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 18,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cuban",
+        "count": 18,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fund",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "raúl",
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -20,84 +55,69 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "china",
         "count": 16,
         "sentiment": "neutral"
       },
       {
+        "word": "bezos",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
         "word": "republican",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "china",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fund",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "castro",
+        "word": "indictment",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indicts",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "end",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "primary",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
+        "word": "anti-weaponization",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "raúl",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "colbert",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bezos",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gop",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cuban",
-        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "officers",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "sue",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "primary",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "doj",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "block",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
         "word": "barney",
@@ -115,141 +135,91 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "visit",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "defeated",
+        "word": "cuba",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "loss",
         "count": 8,
         "sentiment": "negative"
       },
       {
-        "word": "former",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gay",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "primaries",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "block",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "late-night",
-        "count": 6,
+        "word": "blanche",
+        "count": 8,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-20T16:45:26.917411+00:00",
-    "nextRefresh": "2026-05-20T16:45:26.917411+00:00",
-    "articlesAnalyzed": 351,
-    "matchedMentions": 212,
-    "uniquePersonalities": 53,
+    "generatedAt": "2026-05-20T20:01:08.024488+00:00",
+    "nextRefresh": "2026-05-20T20:01:08.024488+00:00",
+    "articlesAnalyzed": 347,
+    "matchedMentions": 229,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 37,
-    "negative": 39,
-    "neutral": 24,
+    "positive": 38,
+    "negative": 36,
+    "neutral": 26,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 30,
+        "count": 26,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 25,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meloni",
         "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "meloni",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "team",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "hits",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "melody",
+        "word": "gandhi",
         "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "italy",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "opinion",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "moment",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "viral",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "team",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "storm",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pant",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "aap",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "ipl",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "melody",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "viral",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mumbai",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indians",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -259,27 +229,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "test",
+        "word": "storm",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "vice-captain",
+        "word": "pant",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "agricola",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "goes",
+        "word": "medal",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "strategic",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "rome",
+        "word": "hits",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -287,11 +262,6 @@
         "word": "attacks",
         "count": 5,
         "sentiment": "negative"
-      },
-      {
-        "word": "global",
-        "count": 5,
-        "sentiment": "neutral"
       },
       {
         "word": "bumrah",
@@ -309,22 +279,52 @@
         "sentiment": "neutral"
       },
       {
+        "word": "test",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "replaces",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "join",
+        "word": "vice-captain",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "party",
         "count": 4,
         "sentiment": "positive"
+      },
+      {
+        "word": "fao",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ties",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "defence",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "film",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-20T16:45:41.242267+00:00",
-    "nextRefresh": "2026-05-20T16:45:41.242267+00:00",
-    "articlesAnalyzed": 478,
-    "matchedMentions": 114,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-05-20T20:01:18.948279+00:00",
+    "nextRefresh": "2026-05-20T20:01:18.948279+00:00",
+    "articlesAnalyzed": 464,
+    "matchedMentions": 85,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
