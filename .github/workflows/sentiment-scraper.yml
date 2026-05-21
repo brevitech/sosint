@@ -1,12 +1,12 @@
-name: Sentiment Scraper
+name: OSINT Scrapers
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Every 2 hours
+    - cron: '0 * * * *'  # Every 1 hour
   workflow_dispatch:  # Manual trigger
 
 jobs:
-  scrape-sentiment:
+  run-scrapers:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -25,18 +25,24 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Run sentiment scraper
+      - name: Run Sentiment Scraper (RSS + VADER)
         run: python scripts/scrape_sentiment.py
 
-      - name: Commit updated sentiment data
+      - name: Run Incidents Scraper (GDELT GEO)
+        run: python scripts/scrape_incidents.py
+
+      - name: Run Military Assets Scraper (OSINT)
+        run: python scripts/scrape_assets.py
+
+      - name: Commit updated OSINT data
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add sentiment-data.json
+          git add sentiment-data.json incidents-data.json military-assets.json
           if git diff --staged --quiet; then
-            echo "No changes to sentiment data."
+            echo "No changes to OSINT data."
           else
-            git commit -m "data: update sentiment analysis $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git commit -m "data: update OSINT feeds $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
-            echo "Sentiment data updated and pushed."
+            echo "OSINT data updated and pushed."
           fi

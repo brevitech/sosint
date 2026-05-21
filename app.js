@@ -19,6 +19,8 @@ class WarDashboard {
     this.sentimentMode = 'us';
     this.sentimentData = null;
     this.sentimentRefreshTimer = null;
+    this.liveIncidents = [];
+    this.liveAssets = [];
   }
 
   init() {
@@ -37,6 +39,11 @@ class WarDashboard {
     setInterval(() => this.loadNewsFeeds(), 300000);    // News: 5 min
     setInterval(() => this.loadAirTraffic(), 15000);    // Air: 15 sec
     setInterval(() => this.updateMaritimePositions(), 3000); // Ships: 3 sec
+    
+    // Live OSINT Data (Incidents & Assets)
+    this.fetchLiveData();
+    setInterval(() => this.fetchLiveData(), 60000); // Live Data: 1 min
+    
     this.initSentimentRefresh();
   }
 
@@ -306,6 +313,32 @@ class WarDashboard {
       { title: 'Oil prices surge 5% on fears of Strait of Hormuz disruption', source: 'Strait of Hormuz', tier: 'alert', date: new Date(Date.now() - 68400000), link: '#' },
     ];
     this.newsItems.push(...staticItems);
+  }
+
+  async fetchLiveData() {
+    try {
+      // Fetch incidents
+      const incRes = await fetch('incidents-data.json?v=' + Date.now());
+      if (incRes.ok) {
+        const incData = await incRes.json();
+        this.liveIncidents = incData.incidents || [];
+        this.addLiveIncidents();
+      }
+      
+      // Fetch military assets
+      const assetRes = await fetch('military-assets.json?v=' + Date.now());
+      if (assetRes.ok) {
+        const assetData = await assetRes.json();
+        this.liveAssets = assetData.assets || [];
+        // Re-render military comparison if that tab is active
+        const title = document.getElementById('right-top-title');
+        if (title && title.textContent === 'US - Iran Comparitives') {
+          this.renderMilitaryComparison();
+        }
+      }
+    } catch (e) {
+      console.log('Error fetching live OSINT data:', e);
+    }
   }
 
   async fetchFeed(feed) {
@@ -618,6 +651,55 @@ class WarDashboard {
     this.layerGroups['proxy-forces'] = group;
   }
 
+  addLiveIncidents() {
+    if (!this.map || !this.liveIncidents) return;
+    
+    // Clear existing layer if present
+    if (this.layerGroups['live-incidents']) {
+      this.map.removeLayer(this.layerGroups['live-incidents']);
+    }
+
+    const group = L.layerGroup();
+    this.liveIncidents.forEach(incident => {
+      // Determine icon based on category
+      let iconEmoji = '⚠️';
+      if (incident.category === 'airstrike') iconEmoji = '☄️';
+      else if (incident.category === 'naval') iconEmoji = '🚢';
+      else if (incident.category === 'explosion') iconEmoji = '💥';
+      
+      const pulseHtml = `
+        <div class="incident-marker" style="position:relative;">
+          <div style="font-size:16px;text-align:center;line-height:1;filter:drop-shadow(0 0 4px ${incident.color}); z-index:2; position:relative;">${iconEmoji}</div>
+          <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:30px; height:30px; background:${incident.color}44; border-radius:50%; animation: pulse 2s infinite; z-index:1;"></div>
+        </div>
+      `;
+
+      const icon = L.divIcon({
+        html: pulseHtml,
+        className: '',
+        iconSize: [30, 30],
+        iconAnchor: [15, 15],
+      });
+
+      L.marker([incident.lat, incident.lon], { icon })
+        .bindPopup(`
+          <div class="map-popup-title" style="color: ${incident.color}">${incident.title}</div>
+          <div class="map-popup-detail">
+            <strong>Source:</strong> ${incident.domain}<br>
+            <strong>Category:</strong> ${incident.category.toUpperCase()}<br>
+            <a href="${incident.url}" target="_blank" style="color:#60a5fa;text-decoration:none;font-size:11px;margin-top:4px;display:inline-block;">Read Full Report ↗</a>
+          </div>
+        `, { className: 'custom-marker-popup' })
+        .addTo(group);
+    });
+    
+    group.addTo(this.map);
+    this.layerGroups['live-incidents'] = group;
+    // Auto-enable the layer
+    this.activeLayers.add('live-incidents');
+    this.renderMapLegend();
+  }
+
   addAirDefenseOverlay() {
     const group = L.layerGroup();
     IRAN_MILITARY.airDefense.sites.forEach(site => {
@@ -701,7 +783,28 @@ class WarDashboard {
   // ── Military Comparison ─────────────────────────────────────────────────
   renderMilitaryComparison() {
     const content = document.getElementById('right-top-content');
+    
+    let liveAssetsHtml = '';
+    if (this.liveAssets && this.liveAssets.length > 0) {
+      liveAssetsHtml = `
+        <div class="asset-section" style="border: 1px solid #10b981; background: rgba(16, 185, 129, 0.05); padding: 8px;">
+          <div class="asset-section-title" style="color: #10b981; display:flex; justify-content:space-between;">
+            <span><span class="status-dot live"></span> LIVE OSINT DEPLOYMENTS</span>
+            <span style="font-size: 10px; opacity: 0.7;">via News Feeds</span>
+          </div>
+          <div style="font-size: 11px; margin-bottom: 6px; color: #cbd5e1;">Tracked US Naval & Amphibious Assets:</div>
+          ${this.liveAssets.map(asset => `
+            <div style="display:flex; justify-content:space-between; margin-bottom: 4px; font-size: 11px;">
+              <span style="color:#60a5fa">⚓ ${asset.name}</span>
+              <span style="color:${asset.status.includes('Red Sea') ? '#ef4444' : '#f59e0b'}">${asset.status.replace('Deployed - ', '')}</span>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
+
     content.innerHTML = `
+      ${liveAssetsHtml}
       <div class="asset-section">
         <div class="asset-section-title">🇺🇸 United States vs 🇮🇷 Iran — Personnel</div>
         ${this.compRow('1,328,000', 'Active Military', '610,000', 100, 46)}
