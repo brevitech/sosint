@@ -928,12 +928,27 @@ class WarDashboard {
   renderNuclearStatus() {
     const content = document.getElementById('right-top-content');
     const enrichment = IRAN_MILITARY.nuclear.enrichment;
+    
+    // Live override from globalMetrics
+    let enrichmentStr = enrichment.current;
+    let breakoutStr = enrichment.breakoutTime;
+    let isLive = false;
+    
+    if (this.globalMetrics && this.globalMetrics.nuclear) {
+      enrichmentStr = this.globalMetrics.nuclear.enrichment || enrichmentStr;
+      breakoutStr = this.globalMetrics.nuclear.breakout || breakoutStr;
+      isLive = true;
+    }
+
     content.innerHTML = `
       <div class="sub-section">
-        <div class="sub-section-title">Enrichment Status</div>
+        <div class="sub-section-title" style="display:flex; justify-content:space-between; align-items:center;">
+          Enrichment Status
+          ${isLive ? '<span style="font-size: 10px; font-weight: bold; color: #10b981;"><span class="status-dot live"></span> LIVE OSINT</span>' : ''}
+        </div>
         <div class="enrichment-bar">
           <div class="enrichment-fill" style="width: 66%; background: linear-gradient(90deg, #22c55e 0%, #f59e0b 40%, #f97316 60%, #ef4444 100%);">
-            60%
+            ${enrichmentStr}
           </div>
           <div class="enrichment-marker" style="left: 100%;">
             <div class="enrichment-marker-label">90% WG</div>
@@ -944,7 +959,7 @@ class WarDashboard {
         </div>
         <div class="nuclear-stat">
           <span class="nuclear-label">Current Enrichment</span>
-          <span class="nuclear-value danger">${enrichment.current}</span>
+          <span class="nuclear-value danger">${enrichmentStr}</span>
         </div>
         <div class="nuclear-stat">
           <span class="nuclear-label">Weapon-Grade Threshold</span>
@@ -952,7 +967,7 @@ class WarDashboard {
         </div>
         <div class="nuclear-stat">
           <span class="nuclear-label">Estimated Breakout Time</span>
-          <span class="nuclear-value danger">${enrichment.breakoutTime}</span>
+          <span class="nuclear-value danger">${breakoutStr}</span>
         </div>
         <div class="nuclear-stat">
           <span class="nuclear-label">60% HEU Stockpile</span>

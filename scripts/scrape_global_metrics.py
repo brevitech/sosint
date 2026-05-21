@@ -31,14 +31,16 @@ def fetch_brent_crude():
         return 82.50 # Fallback
 
 def fetch_irr_exchange_rate():
-    print("[*] Fetching Free Market IRR...")
-    url = "https://api.priceto.day/v1/latest/irr/usd"
+    print("[*] Fetching IRR/USD via Yahoo Finance...")
+    # IRR=X gives IRR per 1 USD directly
+    url = "https://query1.finance.yahoo.com/v8/finance/chart/IRR=X"
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
     try:
-        res = requests.get(url, timeout=10)
+        res = requests.get(url, headers=headers, timeout=10)
         res.raise_for_status()
         data = res.json()
-        price_str = str(data["price"]).replace(',', '')
-        return int(float(price_str))
+        rate = data["chart"]["result"][0]["meta"]["regularMarketPrice"]
+        return int(round(rate))
     except Exception as e:
         print(f"  ERROR fetching IRR: {e}")
         return 650000 # Fallback
@@ -106,6 +108,45 @@ def analyze_threats_and_proxies():
             
     return threat_level, threat_label, proxy_activity
 
+def fetch_nuclear_intel():
+    print("[*] Fetching IAEA / Nuclear Intel News...")
+    url = "https://news.google.com/rss/search?q=IAEA+Iran+nuclear+enrichment+uranium&hl=en-US&gl=US&ceid=US:en"
+    enrichment = "60% U-235"
+    breakout = "~1-2 weeks (estimated)"
+    news = []
+    
+    try:
+        d = feedparser.parse(url)
+        for entry in d.entries[:5]:
+            title = entry.get("title", "").lower()
+            news.append({
+                "title": entry.get("title", ""),
+                "url": entry.get("link", ""),
+                "published": entry.get("published", "")
+            })
+            
+            # Heuristic: scan headlines for enrichment percentages
+            import re
+            pct_match = re.search(r'(\d{2,3})[\s\-]*(?:percent|%)\s*(?:enriched|enrichment|uranium)', title)
+            if pct_match:
+                pct = int(pct_match.group(1))
+                if 60 <= pct <= 90:
+                    enrichment = f"{pct}% U-235"
+                    if pct >= 84:
+                        breakout = "Days (near weapon-grade)"
+                    elif pct >= 70:
+                        breakout = "~1 week (estimated)"
+                        
+            # Scan for breakout time mentions
+            if "breakout" in title:
+                bt_match = re.search(r'(\d+)\s*(day|week|month)', title)
+                if bt_match:
+                    breakout = f"~{bt_match.group(1)} {bt_match.group(2)}s (OSINT est.)"
+    except Exception as e:
+        print(f"  ERROR fetching Nuclear Intel: {e}")
+        
+    return enrichment, breakout, news
+
 def run_pipeline():
     print("=" * 60)
     print("N8RA WARTRACKER — GLOBAL LIVE METRICS PIPELINE")
@@ -116,6 +157,7 @@ def run_pipeline():
     irr_rate = fetch_irr_exchange_rate()
     cyber_news = fetch_cyber_news()
     threat_level, threat_label, proxy_activity = analyze_threats_and_proxies()
+    nuc_enrichment, nuc_breakout, nuc_news = fetch_nuclear_intel()
 
     now = datetime.now(timezone.utc)
     result = {
@@ -132,11 +174,14 @@ def run_pipeline():
         },
         "proxies": proxy_activity,
         "nuclear": {
-            "enrichment": "60% U-235",
-            "breakout": "~1-2 weeks (estimated)"
+            "enrichment": nuc_enrichment,
+            "breakout": nuc_breakout,
+            "news": nuc_news
         }
     }
 
+    print(f"\n  Oil: ${oil_price} | IRR: {irr_rate} | Threat: {threat_level}/10")
+    print(f"  Cyber items: {len(cyber_news)} | Nuclear: {nuc_enrichment}")
     print(f"\nWriting global-metrics.json...")
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
