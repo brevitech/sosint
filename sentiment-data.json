@@ -1,33 +1,28 @@
 {
   "us": {
-    "positive": 34,
-    "negative": 58,
-    "neutral": 8,
+    "positive": 32,
+    "negative": 61,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 80,
+        "count": 76,
         "sentiment": "neutral"
       },
       {
         "word": "autopsy",
-        "count": 22,
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "castro",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "democrats",
-        "count": 18,
+        "count": 12,
         "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "won",
-        "count": 13,
-        "sentiment": "positive"
       },
       {
         "word": "putin",
@@ -35,8 +30,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "castro",
+        "word": "senate",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cuba",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dnc",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -45,29 +50,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fund",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ballroom",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dnc",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "raúl",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
-        "count": 9,
-        "sentiment": "neutral"
+        "word": "won",
+        "count": 10,
+        "sentiment": "positive"
       },
       {
         "word": "latest",
@@ -80,12 +70,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "election",
+        "word": "fund",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "cuba",
+        "word": "rubio",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "takeaways",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -100,17 +95,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "republican",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "funding",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "bill",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "takeaways",
+        "word": "good",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "musk",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "military",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -120,52 +130,42 @@
         "sentiment": "neutral"
       },
       {
+        "word": "cuban",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ballroom",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "refrigerant",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republican",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ice",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "friends",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "minister",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "going",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-21T19:48:06.206519+00:00",
-    "nextRefresh": "2026-05-21T19:48:06.206519+00:00",
+    "generatedAt": "2026-05-21T21:24:47.800242+00:00",
+    "nextRefresh": "2026-05-21T21:24:47.800242+00:00",
     "articlesAnalyzed": 357,
-    "matchedMentions": 188,
-    "uniquePersonalities": 47,
+    "matchedMentions": 194,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 49,
-    "negative": 29,
+    "positive": 51,
+    "negative": 27,
     "neutral": 22,
     "wordCloud": [
       {
@@ -175,17 +175,22 @@
       },
       {
         "word": "modi",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "csk",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "ipl",
-        "count": 9,
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pant",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -194,8 +199,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pant",
-        "count": 6,
+        "word": "reels",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -205,11 +210,6 @@
       },
       {
         "word": "dhoni",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "italy",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -244,6 +244,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "cabinet",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "tamil",
         "count": 4,
         "sentiment": "neutral"
@@ -254,12 +259,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
+        "word": "congress",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -269,17 +269,37 @@
         "sentiment": "neutral"
       },
       {
+        "word": "italy",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "goyal",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "cabinet",
+        "word": "future",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ministers",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
         "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "till",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -294,37 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "titans",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "joins",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "making",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reels",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-21T19:48:17.168098+00:00",
-    "nextRefresh": "2026-05-21T19:48:17.168098+00:00",
+    "generatedAt": "2026-05-21T21:25:01.283906+00:00",
+    "nextRefresh": "2026-05-21T21:25:01.283906+00:00",
     "articlesAnalyzed": 467,
-    "matchedMentions": 73,
-    "uniquePersonalities": 33,
+    "matchedMentions": 74,
+    "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
 }
