@@ -21,6 +21,7 @@ class WarDashboard {
     this.sentimentRefreshTimer = null;
     this.liveIncidents = [];
     this.liveAssets = [];
+    this.globalMetrics = null;
   }
 
   init() {
@@ -335,6 +336,24 @@ class WarDashboard {
         if (title && title.textContent === 'US - Iran Comparitives') {
           this.renderMilitaryComparison();
         }
+      }
+      
+      // Fetch global metrics
+      const metricsRes = await fetch('global-metrics.json?v=' + Date.now());
+      if (metricsRes.ok) {
+        this.globalMetrics = await metricsRes.json();
+        
+        // Re-render active tabs if necessary
+        const rTopTitle = document.getElementById('right-top-title');
+        if (rTopTitle && rTopTitle.textContent === 'Threat Assessment') this.renderThreatLevel();
+        if (rTopTitle && rTopTitle.textContent === 'Nuclear Program') this.renderNuclearStatus();
+        
+        const lBotTitle = document.getElementById('left-bottom-title');
+        if (lBotTitle && lBotTitle.textContent === 'Regional Proxies') this.renderProxyForces();
+        if (lBotTitle && lBotTitle.textContent === 'Sanctions & Economy') this.renderSanctions();
+        
+        const rBotTitle = document.getElementById('right-bottom-title');
+        if (rBotTitle && rBotTitle.textContent === 'Cyber Operations') this.renderCyberOps();
       }
     } catch (e) {
       console.log('Error fetching live OSINT data:', e);
@@ -854,26 +873,42 @@ class WarDashboard {
   // ── Threat Level ────────────────────────────────────────────────────────
   renderThreatLevel() {
     const content = document.getElementById('right-top-content');
+    
+    // Use dynamic metrics if available
+    let compositeScore = 7;
+    let label = "HIGH — ELEVATED";
+    let isLive = false;
+    
+    if (this.globalMetrics && this.globalMetrics.threat) {
+        compositeScore = this.globalMetrics.threat.level;
+        label = this.globalMetrics.threat.label;
+        isLive = true;
+    }
+    
+    const gaugeClass = compositeScore >= 9 ? 'critical' : compositeScore >= 7 ? 'high' : 'medium';
+    const gaugeColor = compositeScore >= 9 ? '#ef4444' : compositeScore >= 7 ? '#f97316' : '#f59e0b';
+    
     content.innerHTML = `
       <div class="threat-gauge-container">
+        ${isLive ? '<div style="position:absolute; top: 10px; right: 10px; font-size: 10px; font-weight: bold; color: #10b981;"><span class="status-dot live"></span> LIVE OSINT</div>' : ''}
         <div class="threat-gauge">
-          <div class="threat-gauge-fill high"></div>
+          <div class="threat-gauge-fill ${gaugeClass}" style="background: ${gaugeColor}"></div>
         </div>
-        <div class="threat-level-label high">HIGH — ELEVATED</div>
+        <div class="threat-level-label ${gaugeClass}" style="color: ${gaugeColor}">${label}</div>
       </div>
       <div class="threat-factors">
         <div class="sub-section-title">Threat Factors</div>
-        ${this.threatFactor('Nuclear Breakout Risk', 9, '#ef4444')}
-        ${this.threatFactor('Proxy Conflict Intensity', 8, '#f97316')}
-        ${this.threatFactor('Naval Confrontation', 7, '#f59e0b')}
+        ${this.threatFactor('Nuclear Breakout Risk', compositeScore >= 8 ? 9 : 8, '#ef4444')}
+        ${this.threatFactor('Proxy Conflict Intensity', compositeScore >= 8 ? 9 : 8, '#f97316')}
+        ${this.threatFactor('Naval Confrontation', compositeScore >= 7 ? 8 : 7, '#f59e0b')}
         ${this.threatFactor('Cyber Operations Tempo', 6, '#f59e0b')}
         ${this.threatFactor('Diplomatic Channels', 3, '#22c55e')}
         ${this.threatFactor('Economic Pressure', 8, '#f97316')}
-        ${this.threatFactor('Regional Instability', 8, '#ef4444')}
-        ${this.threatFactor('Direct Military Exchange', 7, '#f59e0b')}
+        ${this.threatFactor('Regional Instability', compositeScore, compositeScore >= 8 ? '#ef4444' : '#f97316')}
+        ${this.threatFactor('Direct Military Exchange', compositeScore - 1, '#f59e0b')}
         <div style="margin-top:10px; font-size:9px; color: var(--text-muted); font-family: var(--font-mono);">
-          Composite Score: <span style="color: var(--accent-red); font-weight:700;">7.0 / 10</span>
-          <br>Assessment: Sustained high tension with active proxy warfare
+          Composite Score: <span style="color: ${gaugeColor}; font-weight:700;">${compositeScore.toFixed(1)} / 10</span>
+          <br>Assessment: ${label.toLowerCase()}
         </div>
       </div>
     `;
@@ -1004,11 +1039,28 @@ class WarDashboard {
   // ── Proxy Forces ────────────────────────────────────────────────────────
   renderProxyForces() {
     const content = document.getElementById('left-bottom-content');
-    content.innerHTML = PROXY_FORCES.map(proxy => `
+    let liveProxyBadge = '';
+    
+    if (this.globalMetrics && this.globalMetrics.proxies) {
+      liveProxyBadge = '<div style="font-size: 10px; font-weight: bold; color: #10b981; margin-bottom: 8px;"><span class="status-dot live"></span> LIVE OSINT OVERRIDE</div>';
+      PROXY_FORCES.forEach(proxy => {
+        if (this.globalMetrics.proxies[proxy.name]) {
+            proxy.status = this.globalMetrics.proxies[proxy.name];
+        }
+      });
+    }
+
+    content.innerHTML = liveProxyBadge + PROXY_FORCES.map(proxy => {
+      const isElevated = proxy.status.toLowerCase().includes('elevated');
+      const isDegraded = proxy.status.toLowerCase().includes('degraded');
+      const statusClass = isElevated ? 'elevated' : (isDegraded ? 'degraded' : 'active');
+      const statusColor = isElevated ? '#ef4444' : (isDegraded ? '#64748b' : '#f59e0b');
+      
+      return `
       <div class="proxy-card" onclick="dashboard.map.flyTo([${proxy.pos}], 7)">
         <div class="proxy-header">
           <span class="proxy-name" style="color: ${proxy.color}">${proxy.name}</span>
-          <span class="proxy-status ${proxy.status.includes('Degraded') ? 'degraded' : 'active'}">${proxy.status.includes('Active') ? 'ACTIVE' : 'DEGRADED'}</span>
+          <span class="proxy-status ${statusClass}" style="color: ${statusColor}; border-color: ${statusColor}">${proxy.status.toUpperCase()}</span>
         </div>
         <div class="proxy-detail">
           <span>📍 ${proxy.country}</span> · <span>👥 ${proxy.personnel}</span><br>
@@ -1017,7 +1069,8 @@ class WarDashboard {
           ${proxy.subGroups ? `<br><span style="color: var(--text-muted)">Sub-groups: ${proxy.subGroups.join(', ')}</span>` : ''}
         </div>
       </div>
-    `).join('');
+      `;
+    }).join('');
   }
 
   // ── Strait of Hormuz ────────────────────────────────────────────────────
@@ -1079,8 +1132,12 @@ class WarDashboard {
           <span class="economic-stat-value" style="color: var(--accent-red)">${s.economicImpact.inflation}</span>
         </div>
         <div class="economic-stat">
+          <span class="economic-stat-label">Brent Crude Oil</span>
+          <span class="economic-stat-value" style="color: ${this.globalMetrics?.economy?.brentCrude ? '#10b981' : 'var(--accent-red)'}">${this.globalMetrics?.economy?.brentCrude ? '<span class="status-dot live"></span> $' + this.globalMetrics.economy.brentCrude : '$82.50 (Est)'}</span>
+        </div>
+        <div class="economic-stat">
           <span class="economic-stat-label">Rial (Official / Market)</span>
-          <span class="economic-stat-value" style="color: var(--accent-red)">${s.economicImpact.rialRate.official.toLocaleString()} / ${s.economicImpact.rialRate.market.toLocaleString()}</span>
+          <span class="economic-stat-value" style="color: var(--accent-red)">${s.economicImpact.rialRate.official.toLocaleString()} / <span style="${this.globalMetrics?.economy?.irrFreeMarket ? 'color:#10b981;' : ''}">${this.globalMetrics?.economy?.irrFreeMarket ? '<span class="status-dot live"></span>' + this.globalMetrics.economy.irrFreeMarket.toLocaleString() : s.economicImpact.rialRate.market.toLocaleString()}</span></span>
         </div>
         <div class="economic-stat">
           <span class="economic-stat-label">Unemployment (official / est.)</span>
@@ -1124,6 +1181,22 @@ class WarDashboard {
         </div>
       `).join('')}
     `;
+
+    if (this.globalMetrics && this.globalMetrics.cyber && this.globalMetrics.cyber.length > 0) {
+      content.innerHTML = `
+        <div class="cyber-section-title" style="color: #10b981; border-bottom: 1px solid #10b98155;"><span class="status-dot live"></span> LIVE CYBER THREAT INTEL</div>
+        <div style="margin-bottom: 12px; max-height: 150px; overflow-y: auto;">
+          ${this.globalMetrics.cyber.map(news => `
+            <div class="cyber-op" style="background: rgba(16,185,129,0.05); margin-bottom: 4px; padding: 6px;">
+              <div class="cyber-op-name" style="color: #60a5fa; font-size: 10px;">
+                <a href="${news.url}" target="_blank" style="color:inherit; text-decoration:none;">${news.title}</a>
+              </div>
+              <div style="font-size: 8px; color: var(--text-muted);">${news.published}</div>
+            </div>
+          `).join('')}
+        </div>
+      ` + content.innerHTML;
+    }
   }
 
   // ── Timeline ────────────────────────────────────────────────────────────
