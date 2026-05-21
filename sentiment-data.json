@@ -1,17 +1,32 @@
 {
   "us": {
-    "positive": 32,
-    "negative": 61,
-    "neutral": 7,
+    "positive": 35,
+    "negative": 60,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 76,
+        "count": 75,
         "sentiment": "neutral"
       },
       {
         "word": "autopsy",
-        "count": 20,
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dnc",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cuba",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -20,48 +35,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "putin",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cuba",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dnc",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
         "word": "raúl",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "won",
+        "word": "rubio",
         "count": 10,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
-        "word": "latest",
-        "count": 9,
+        "word": "putin",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -70,13 +55,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fund",
+        "word": "senate",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rubio",
-        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -85,37 +65,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "china",
+        "word": "loss",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "latest",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "former",
+        "word": "election",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "republican",
+        "word": "fund",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "funding",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "good",
-        "count": 8,
-        "sentiment": "positive"
-      },
-      {
-        "word": "musk",
+        "word": "martin",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -125,48 +95,78 @@
         "sentiment": "neutral"
       },
       {
+        "word": "arch",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "funding",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "republican",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gaza",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "musk",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "order",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cuban",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "amid",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ballroom",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "refrigerant",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "party",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "friends",
+        "count": 6,
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-21T21:24:47.800242+00:00",
-    "nextRefresh": "2026-05-21T21:24:47.800242+00:00",
-    "articlesAnalyzed": 357,
-    "matchedMentions": 194,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-05-21T23:00:16.189132+00:00",
+    "nextRefresh": "2026-05-21T23:00:16.189132+00:00",
+    "articlesAnalyzed": 353,
+    "matchedMentions": 198,
+    "uniquePersonalities": 54,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 51,
-    "negative": 27,
-    "neutral": 22,
+    "negative": 26,
+    "neutral": 23,
     "wordCloud": [
       {
         "word": "rahul",
@@ -175,7 +175,7 @@
       },
       {
         "word": "modi",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -279,11 +279,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "future",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ministers",
         "count": 3,
         "sentiment": "neutral"
@@ -309,22 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "captain",
+        "word": "joins",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "joins",
+        "word": "making",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "youth",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-21T21:25:01.283906+00:00",
-    "nextRefresh": "2026-05-21T21:25:01.283906+00:00",
+    "generatedAt": "2026-05-21T23:00:28.221746+00:00",
+    "nextRefresh": "2026-05-21T23:00:28.221746+00:00",
     "articlesAnalyzed": 467,
-    "matchedMentions": 74,
-    "uniquePersonalities": 31,
+    "matchedMentions": 70,
+    "uniquePersonalities": 28,
     "dataSource": "live-rss"
   }
 }
