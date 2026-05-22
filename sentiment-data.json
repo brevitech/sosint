@@ -1,48 +1,68 @@
 {
   "us": {
-    "positive": 37,
-    "negative": 54,
-    "neutral": 9,
+    "positive": 36,
+    "negative": 56,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 101,
+        "count": 97,
         "sentiment": "neutral"
       },
       {
         "word": "gabbard",
-        "count": 25,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
         "word": "intelligence",
-        "count": 19,
+        "count": 23,
         "sentiment": "positive"
       },
       {
         "word": "against",
-        "count": 19,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "rubio",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cuba",
-        "count": 16,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "director",
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cuba",
         "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "criminal",
+        "count": 14,
+        "sentiment": "negative"
+      },
+      {
+        "word": "judge",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kilmar",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "fund",
         "count": 13,
         "sentiment": "neutral"
+      },
+      {
+        "word": "charges",
+        "count": 11,
+        "sentiment": "negative"
       },
       {
         "word": "national",
@@ -55,17 +75,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "criminal",
-        "count": 11,
-        "sentiment": "negative"
-      },
-      {
-        "word": "judge",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "castro",
+        "word": "dismisses",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -75,12 +85,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 10,
-        "sentiment": "negative"
+        "word": "abrego",
+        "count": 9,
+        "sentiment": "neutral"
       },
       {
-        "word": "warsh",
+        "word": "garcia",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -100,12 +110,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "indictment",
+        "word": "allies",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "kilmar",
+        "word": "indictment",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -115,7 +125,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "war",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
         "word": "action",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "warsh",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -125,12 +145,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "putin",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "raúl",
+        "word": "castro",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -138,44 +153,29 @@
         "word": "chief",
         "count": 8,
         "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "charges",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "removed",
-        "count": 8,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-22T21:05:57.526253+00:00",
-    "nextRefresh": "2026-05-22T21:05:57.526253+00:00",
-    "articlesAnalyzed": 340,
-    "matchedMentions": 211,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-05-22T22:53:36.907151+00:00",
+    "nextRefresh": "2026-05-22T22:53:36.907151+00:00",
+    "articlesAnalyzed": 336,
+    "matchedMentions": 210,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 23,
+    "positive": 50,
+    "negative": 25,
     "neutral": 25,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "delhi",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -184,8 +184,28 @@
         "sentiment": "neutral"
       },
       {
+        "word": "bengal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "meets",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minister",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -195,16 +215,6 @@
       },
       {
         "word": "csk",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bengal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -229,17 +239,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "face",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cabinet",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -264,11 +264,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "poster",
         "count": 3,
         "sentiment": "neutral"
@@ -284,12 +279,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "boost",
+        "word": "dhoni",
         "count": 3,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
-        "word": "dhoni",
+        "word": "cabinet",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -317,14 +312,19 @@
         "word": "shield",
         "count": 2,
         "sentiment": "neutral"
+      },
+      {
+        "word": "common",
+        "count": 2,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-22T21:06:11.354894+00:00",
-    "nextRefresh": "2026-05-22T21:06:11.354894+00:00",
+    "generatedAt": "2026-05-22T22:53:49.513415+00:00",
+    "nextRefresh": "2026-05-22T22:53:49.513415+00:00",
     "articlesAnalyzed": 466,
-    "matchedMentions": 65,
-    "uniquePersonalities": 30,
+    "matchedMentions": 64,
+    "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
 }
