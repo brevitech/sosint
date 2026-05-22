@@ -1,23 +1,38 @@
 {
   "us": {
-    "positive": 35,
+    "positive": 37,
     "negative": 60,
-    "neutral": 5,
+    "neutral": 3,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 75,
+        "count": 68,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "autopsy",
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "election",
         "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "dnc",
-        "count": 14,
+        "count": 15,
         "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 15,
+        "sentiment": "negative"
       },
       {
         "word": "cuba",
@@ -25,17 +40,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "gaza",
         "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "castro",
-        "count": 13,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "raúl",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fund",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -50,12 +70,47 @@
         "sentiment": "neutral"
       },
       {
+        "word": "khanna",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "criticize",
+        "count": 10,
+        "sentiment": "negative"
+      },
+      {
+        "word": "postmortem",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mentioning",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "politics",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "harris",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "martin",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -75,17 +130,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "election",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fund",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "martin",
+        "word": "aoc",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -95,39 +140,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "arch",
+        "word": "republicans",
         "count": 7,
         "sentiment": "neutral"
-      },
-      {
-        "word": "funding",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republican",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gaza",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 7,
-        "sentiment": "negative"
       },
       {
         "word": "musk",
@@ -135,56 +150,36 @@
         "sentiment": "neutral"
       },
       {
-        "word": "order",
-        "count": 6,
+        "word": "gop",
+        "count": 7,
         "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "party",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "friends",
-        "count": 6,
-        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-21T23:00:16.189132+00:00",
-    "nextRefresh": "2026-05-21T23:00:16.189132+00:00",
+    "generatedAt": "2026-05-22T00:11:44.057722+00:00",
+    "nextRefresh": "2026-05-22T00:11:44.057722+00:00",
     "articlesAnalyzed": 353,
-    "matchedMentions": 198,
-    "uniquePersonalities": 54,
+    "matchedMentions": 207,
+    "uniquePersonalities": 55,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
-    "negative": 26,
+    "positive": 53,
+    "negative": 24,
     "neutral": 23,
     "wordCloud": [
+      {
+        "word": "modi",
+        "count": 12,
+        "sentiment": "neutral"
+      },
       {
         "word": "rahul",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "csk",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ipl",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -204,12 +199,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gaikwad",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dhoni",
+        "word": "ipl",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -244,17 +234,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cabinet",
+        "word": "ministers",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
+        "word": "gaikwad",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -279,12 +264,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ministers",
+        "word": "focus",
         "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "visit",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cabinet",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -295,6 +295,11 @@
       },
       {
         "word": "gill",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dhoni",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -312,18 +317,13 @@
         "word": "making",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "youth",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-21T23:00:28.221746+00:00",
-    "nextRefresh": "2026-05-21T23:00:28.221746+00:00",
+    "generatedAt": "2026-05-22T00:11:56.480918+00:00",
+    "nextRefresh": "2026-05-22T00:11:56.480918+00:00",
     "articlesAnalyzed": 467,
-    "matchedMentions": 70,
+    "matchedMentions": 68,
     "uniquePersonalities": 28,
     "dataSource": "live-rss"
   }
