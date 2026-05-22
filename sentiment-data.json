@@ -1,36 +1,46 @@
 {
   "us": {
-    "positive": 32,
-    "negative": 62,
-    "neutral": 6,
+    "positive": 31,
+    "negative": 65,
+    "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 73,
+        "count": 84,
         "sentiment": "neutral"
       },
       {
-        "word": "autopsy",
-        "count": 20,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 20,
+        "word": "cuba",
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 18,
+        "count": 21,
         "sentiment": "negative"
       },
       {
-        "word": "cuba",
-        "count": 15,
+        "word": "rubio",
+        "count": 21,
         "sentiment": "neutral"
       },
       {
-        "word": "dnc",
+        "word": "military",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "autopsy",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
         "count": 15,
         "sentiment": "neutral"
       },
@@ -38,6 +48,11 @@
         "word": "election",
         "count": 15,
         "sentiment": "neutral"
+      },
+      {
+        "word": "threat",
+        "count": 14,
+        "sentiment": "negative"
       },
       {
         "word": "fund",
@@ -50,13 +65,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "dnc",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
         "word": "raúl",
         "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 13,
+        "word": "action",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -65,27 +85,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "harris",
-        "count": 10,
+        "word": "putin",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "rubio",
-        "count": 10,
-        "sentiment": "neutral"
+        "word": "doubtful",
+        "count": 11,
+        "sentiment": "negative"
       },
       {
-        "word": "republicans",
-        "count": 10,
+        "word": "diplomacy",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "against",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "putin",
+        "word": "republicans",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -95,19 +115,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "martin",
+        "word": "israel",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "colbert",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "takeaways",
-        "count": 8,
+        "word": "martin",
+        "count": 9,
         "sentiment": "neutral"
-      },
-      {
-        "word": "loss",
-        "count": 8,
-        "sentiment": "negative"
       },
       {
         "word": "latest",
@@ -133,83 +153,73 @@
         "word": "mentioning",
         "count": 8,
         "sentiment": "neutral"
-      },
-      {
-        "word": "israel",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "military",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "anti-weaponization",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "colbert",
-        "count": 7,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-22T04:58:08.481820+00:00",
-    "nextRefresh": "2026-05-22T04:58:08.481820+00:00",
-    "articlesAnalyzed": 355,
-    "matchedMentions": 216,
-    "uniquePersonalities": 54,
+    "generatedAt": "2026-05-22T08:23:18.994837+00:00",
+    "nextRefresh": "2026-05-22T08:23:18.994837+00:00",
+    "articlesAnalyzed": 357,
+    "matchedMentions": 226,
+    "uniquePersonalities": 53,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
-    "negative": 30,
+    "positive": 36,
+    "negative": 38,
     "neutral": 26,
     "wordCloud": [
       {
-        "word": "modi",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ministers",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
+        "word": "ipl",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "cabinet",
+        "word": "csk",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ministers",
         "count": 9,
         "sentiment": "neutral"
       },
       {
+        "word": "vck",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cabinet",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "tamil",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "nadu",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "csk",
-        "count": 8,
+        "word": "rahul",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "ipl",
+        "word": "cockroach",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
+        "word": "dhoni",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -219,22 +229,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iuml",
+        "word": "india",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "vck",
+        "word": "delhi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "murder",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "convict",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "dhoni",
+        "word": "worked",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -269,62 +284,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "party",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "kohli",
+        "word": "opinion",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "cap",
+        "word": "opposition",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "list",
+        "word": "dmk",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "paper",
+        "word": "iuml",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "italy",
+        "word": "against",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "youth",
+        "word": "gaikwad",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "mlas",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "khan",
-        "count": 3,
+        "word": "actor",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-22T04:58:20.001146+00:00",
-    "nextRefresh": "2026-05-22T04:58:20.001146+00:00",
-    "articlesAnalyzed": 462,
-    "matchedMentions": 84,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-05-22T08:23:31.270066+00:00",
+    "nextRefresh": "2026-05-22T08:23:31.270066+00:00",
+    "articlesAnalyzed": 472,
+    "matchedMentions": 95,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
 }
