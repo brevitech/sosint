@@ -6,13 +6,18 @@
     "wordCloud": [
       {
         "word": "trump",
-        "count": 93,
+        "count": 85,
         "sentiment": "neutral"
       },
       {
         "word": "gabbard",
-        "count": 27,
+        "count": 28,
         "sentiment": "neutral"
+      },
+      {
+        "word": "intelligence",
+        "count": 24,
+        "sentiment": "positive"
       },
       {
         "word": "against",
@@ -20,29 +25,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "intelligence",
-        "count": 22,
-        "sentiment": "positive"
+        "word": "director",
+        "count": 19,
+        "sentiment": "neutral"
       },
       {
         "word": "rubio",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "director",
         "count": 17,
         "sentiment": "neutral"
-      },
-      {
-        "word": "cuba",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "criminal",
-        "count": 14,
-        "sentiment": "negative"
       },
       {
         "word": "judge",
@@ -55,14 +45,24 @@
         "sentiment": "neutral"
       },
       {
+        "word": "national",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cuba",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
         "word": "charges",
         "count": 11,
         "sentiment": "negative"
       },
       {
-        "word": "national",
+        "word": "resigns",
         "count": 11,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "dismisses",
@@ -90,16 +90,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "resigns",
-        "count": 9,
-        "sentiment": "negative"
-      },
-      {
         "word": "york",
         "count": 9,
         "sentiment": "neutral"
@@ -110,12 +100,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "military",
-        "count": 9,
-        "sentiment": "neutral"
+        "word": "criminal",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
-        "word": "action",
+        "word": "tulsi",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -125,71 +115,96 @@
         "sentiment": "neutral"
       },
       {
+        "word": "iran",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "castro",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "chief",
         "count": 8,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "removed",
+        "word": "happened",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "takes",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "credit",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "putin",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "citing",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chair",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tulsi",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-23T00:02:24.058855+00:00",
-    "nextRefresh": "2026-05-23T00:02:24.058855+00:00",
-    "articlesAnalyzed": 337,
-    "matchedMentions": 210,
-    "uniquePersonalities": 47,
+    "generatedAt": "2026-05-23T04:35:36.727425+00:00",
+    "nextRefresh": "2026-05-23T04:35:36.727425+00:00",
+    "articlesAnalyzed": 344,
+    "matchedMentions": 205,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 47,
-    "negative": 25,
-    "neutral": 28,
+    "positive": 55,
+    "negative": 21,
+    "neutral": 24,
     "wordCloud": [
+      {
+        "word": "delhi",
+        "count": 12,
+        "sentiment": "neutral"
+      },
       {
         "word": "modi",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
-        "count": 9,
+        "word": "rubio",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 7,
+        "word": "marco",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
-        "count": 7,
+        "word": "india",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "bengal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meets",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -199,27 +214,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
-        "count": 5,
+        "word": "kohli",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rubio",
-        "count": 5,
+        "word": "ipl",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "shah",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "csk",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -229,17 +234,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ipl",
-        "count": 5,
-        "sentiment": "neutral"
+        "word": "supreme",
+        "count": 4,
+        "sentiment": "positive"
       },
       {
-        "word": "india",
+        "word": "court",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "face",
+        "word": "bangladesh",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jaishankar",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "head",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "csk",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -249,82 +274,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "adani",
+        "word": "target",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "minister",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "missing",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "chief",
+        "word": "bjp",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "poster",
+        "word": "kolkata",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "campaign",
+        "word": "centre",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "abdullah",
+        "word": "tells",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "quad",
+        "word": "persons",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "west",
+        "word": "allegedly",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "suvendu",
+        "word": "pushed",
         "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "adhikari",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cap",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shield",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "common",
-        "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-23T00:02:52.756838+00:00",
-    "nextRefresh": "2026-05-23T00:02:52.756838+00:00",
-    "articlesAnalyzed": 466,
-    "matchedMentions": 64,
-    "uniquePersonalities": 30,
+    "generatedAt": "2026-05-23T04:35:48.523165+00:00",
+    "nextRefresh": "2026-05-23T04:35:48.523165+00:00",
+    "articlesAnalyzed": 481,
+    "matchedMentions": 75,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
