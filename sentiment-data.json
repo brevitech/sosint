@@ -1,8 +1,8 @@
 {
   "us": {
     "positive": 34,
-    "negative": 55,
-    "neutral": 11,
+    "negative": 56,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
@@ -45,6 +45,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "deal",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "largely",
         "count": 8,
         "sentiment": "neutral"
@@ -57,11 +62,6 @@
       {
         "word": "fund",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -150,27 +150,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "faces",
+        "word": "war",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-23T21:51:03.625007+00:00",
-    "nextRefresh": "2026-05-23T21:51:03.625007+00:00",
-    "articlesAnalyzed": 357,
-    "matchedMentions": 174,
+    "generatedAt": "2026-05-23T22:48:26.688932+00:00",
+    "nextRefresh": "2026-05-23T22:48:26.688932+00:00",
+    "articlesAnalyzed": 358,
+    "matchedMentions": 176,
     "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 51,
-    "negative": 35,
-    "neutral": 14,
+    "negative": 36,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 20,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
@@ -180,11 +180,6 @@
       },
       {
         "word": "rubio",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ipl",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -210,6 +205,11 @@
       },
       {
         "word": "delhi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ipl",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -274,7 +274,7 @@
         "sentiment": "positive"
       },
       {
-        "word": "meeting",
+        "word": "girl",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -309,22 +309,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trump",
+        "word": "meeting",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "invite",
+        "word": "trump",
         "count": 3,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-23T21:51:16.913384+00:00",
-    "nextRefresh": "2026-05-23T21:51:16.913384+00:00",
+    "generatedAt": "2026-05-23T22:48:38.582356+00:00",
+    "nextRefresh": "2026-05-23T22:48:38.582356+00:00",
     "articlesAnalyzed": 466,
-    "matchedMentions": 82,
-    "uniquePersonalities": 38,
+    "matchedMentions": 80,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
