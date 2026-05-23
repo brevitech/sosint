@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 37,
-    "negative": 54,
+    "positive": 38,
+    "negative": 53,
     "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 84,
+        "count": 88,
         "sentiment": "neutral"
       },
       {
         "word": "gabbard",
-        "count": 22,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
@@ -26,12 +26,17 @@
       },
       {
         "word": "intelligence",
-        "count": 18,
+        "count": 16,
         "sentiment": "positive"
       },
       {
+        "word": "cuba",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
         "word": "director",
-        "count": 13,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -45,13 +50,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cuba",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "fund",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -60,12 +60,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "charges",
-        "count": 9,
-        "sentiment": "negative"
+        "word": "takes",
+        "count": 8,
+        "sentiment": "neutral"
       },
       {
-        "word": "takes",
+        "word": "iran",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -75,9 +75,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "charges",
         "count": 8,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "happened",
@@ -106,11 +106,6 @@
       },
       {
         "word": "garcia",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "castro",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -153,34 +148,44 @@
         "word": "criminal",
         "count": 6,
         "sentiment": "negative"
+      },
+      {
+        "word": "castro",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-23T09:47:43.026806+00:00",
-    "nextRefresh": "2026-05-23T09:47:43.026806+00:00",
+    "generatedAt": "2026-05-23T11:06:40.476502+00:00",
+    "nextRefresh": "2026-05-23T11:06:40.476502+00:00",
     "articlesAnalyzed": 347,
-    "matchedMentions": 195,
-    "uniquePersonalities": 45,
+    "matchedMentions": 197,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 40,
-    "negative": 42,
-    "neutral": 18,
+    "positive": 48,
+    "negative": 39,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 23,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "rubio",
-        "count": 13,
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "marco",
-        "count": 12,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -189,27 +194,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kohli",
-        "count": 10,
+        "word": "meets",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "congress",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "head",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -229,17 +219,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
+        "word": "viral",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rai",
+        "word": "kohli",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -249,12 +234,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shortly",
+        "word": "delhi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "kolkata",
+        "word": "girl",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -264,28 +249,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fuel",
+        "word": "chief",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ajay",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "viral",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "handshake",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "girl",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -294,37 +259,72 @@
         "sentiment": "neutral"
       },
       {
+        "word": "murder",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
         "word": "mlas",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
+        "word": "questions",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "nadu",
+        "word": "ajay",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "remarks",
+        "word": "rai",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "rozgar",
+        "word": "fir",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "longer",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "raise",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "head",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-23T09:47:56.355101+00:00",
-    "nextRefresh": "2026-05-23T09:47:56.355101+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 96,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-05-23T11:06:52.962466+00:00",
+    "nextRefresh": "2026-05-23T11:06:52.962466+00:00",
+    "articlesAnalyzed": 481,
+    "matchedMentions": 82,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
