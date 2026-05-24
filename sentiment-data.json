@@ -1,32 +1,27 @@
 {
   "us": {
     "positive": 31,
-    "negative": 57,
-    "neutral": 12,
+    "negative": 58,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 80,
+        "count": 78,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 35,
+        "count": 38,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 16,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "rubio",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hormuz",
-        "count": 13,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
@@ -40,13 +35,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cuba",
+        "word": "hormuz",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "strait",
-        "count": 11,
+        "word": "cuba",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -55,8 +50,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "strait",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "gabbard",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -70,8 +75,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
-        "count": 6,
+        "word": "war",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "ceasefire",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -95,6 +110,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "end",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "trades",
         "count": 6,
         "sentiment": "neutral"
@@ -105,28 +125,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "ceasefire",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "gop",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attack",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "white",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -156,46 +156,51 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-24T09:18:57.754387+00:00",
-    "nextRefresh": "2026-05-24T09:18:57.754387+00:00",
-    "articlesAnalyzed": 366,
-    "matchedMentions": 180,
+    "generatedAt": "2026-05-24T11:12:45.538467+00:00",
+    "nextRefresh": "2026-05-24T11:12:45.538467+00:00",
+    "articlesAnalyzed": 367,
+    "matchedMentions": 184,
     "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 46,
-    "negative": 34,
-    "neutral": 20,
+    "negative": 35,
+    "neutral": 19,
     "wordCloud": [
       {
-        "word": "india",
-        "count": 14,
+        "word": "rahul",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "rubio",
-        "count": 14,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 11,
+        "word": "jaishankar",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "ipl",
+        "word": "gandhi",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 8,
+        "word": "sharma",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -204,52 +209,72 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jaishankar",
+        "word": "modi",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "sharma",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 7,
+        "word": "ipl",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "anarchy",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "slams",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "conspiracy",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "remark",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 5,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "talks",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trying",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "remark",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "twisha",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bumrah",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "neet",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trade",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leaders",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "death",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "govt",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -259,72 +284,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "grave",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "aimed",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "spreading",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "strategic",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
+        "word": "slams",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "trying",
+        "word": "congress",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "topple",
+        "word": "rest",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "education",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "twisha",
+        "word": "minister",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "death",
+        "word": "resigns",
         "count": 4,
         "sentiment": "negative"
-      },
-      {
-        "word": "case",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cji",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-24T09:19:10.429790+00:00",
-    "nextRefresh": "2026-05-24T09:19:10.429790+00:00",
-    "articlesAnalyzed": 478,
-    "matchedMentions": 101,
-    "uniquePersonalities": 54,
+    "generatedAt": "2026-05-24T11:12:57.634382+00:00",
+    "nextRefresh": "2026-05-24T11:12:57.634382+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 110,
+    "uniquePersonalities": 57,
     "dataSource": "live-rss"
   }
 }
