@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-24T21:53:07.949585+00:00",
+  "generated_at": "2026-05-24T22:54:16.402818+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "incident",
-      "title": "Israeli strikes pound Lebanon and Gaza, killing infant and police, as Iran deal nears",
-      "summary": "The Guardian and Reuters report Israeli bombardment is reducing buildings to craters in southern Lebanon while strikes in central Gaza killed a six-month-old boy with his parents and at least five police officers plus a 13-year-old (Al Jazeera, The National). The escalation runs parallel to reports of an emerging US-Iran framework, with Israeli officials publicly calling the deal 'bad' (Jerusalem Post).",
-      "region": "Lebanon / Gaza",
-      "source": "incidents",
+      "category": "diplomatic",
+      "title": "US official confirms US-Iran 'agreement in principle' to reopen Strait of Hormuz",
+      "summary": "The New York Times, citing a US official, reports Washington and Tehran have agreed in principle to a deal reopening the Strait of Hormuz, corroborated by BBC and PBS quoting Trump that the framework is 'largely negotiated.' DW.com describes both sides striking an 'upbeat tone,' though Trump simultaneously told negotiators 'not to rush' (BBC, Politico), signaling the text is not yet locked.",
+      "region": "Strait of Hormuz",
+      "source": "incidents,sentiment",
       "confidence": "high"
     },
     {
       "severity": "high",
+      "category": "nuclear",
+      "title": "Khamenei: enriched uranium must stay in Iran, clashing with Trump pledge to Israel",
+      "summary": "Reuters exclusive cites Iranian sources saying the Supreme Leader insists enriched uranium remain on Iranian soil, while ynetnews reports Trump assured Israel there would be no deal without dismantling the nuclear program. The Jerusalem Post and Haaretz flag contradictory US-Iran claims on the nuclear track as the central sticking point with breakout time still assessed at 1-2 weeks at 60% U-235.",
+      "region": "Iran",
+      "source": "global_metrics,incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "incident",
+      "title": "Houthi missile strike on Israel reignites fears of Red Sea shipping campaign",
+      "summary": "AP and The Times of Israel report a Houthi ballistic missile attack on Israel has revived concerns of renewed Ansar Allah strikes on Red Sea commercial shipping, with BBC and Global Security Review warning of potential global economic damage. Proxy status board lists Houthis as 'Elevated - Multiple Recent Attacks' while USS Eisenhower, Bataan, Carney, Mason and Laboon remain concentrated off the Yemeni coast.",
+      "region": "Red Sea / Yemen",
+      "source": "incidents,assets,global_metrics",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "asset_movement",
+      "title": "US deploys defensive 'umbrella' over Hormuz shipping as Trump weighs fresh Iran strikes",
+      "summary": "DefenseScoop reports the US is deploying an 'umbrella' of defense and tech assets to shield commercial ships in the Strait of Hormuz, while The New York Times says Trump is simultaneously weighing options for new strikes inside Iran even as the diplomatic track advances. USS Florida (SSGN) remains on station in the Persian Gulf and ynetnews characterizes the buildup as testing the regional balance of power.",
+      "region": "Persian Gulf / Strait of Hormuz",
+      "source": "global_metrics,assets,incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "medium",
       "category": "telegram_signal",
-      "title": "Russia launches one of war's largest barrages on Kyiv using Zircon and Oreshnik",
-      "summary": "Rybar (~40K views) reports overnight strikes on Kyiv described as one of the longest and most saturated attacks of the war, with Zircon hypersonic and Oreshnik missiles among the munitions used against aviation-repair and industrial targets. DeepState UA notes simultaneous drone and missile impacts in Sumy, Cherkasy and Dnipropetrovsk regions plus the Myrhorod oil depot.",
-      "region": "Ukraine",
+      "title": "NATO 'Arcade Strike' exercise rehearses deep strikes on Russia from London hub",
+      "summary": "DeepState UA (~196K views) reports NATO's British-led Allied Rapid Reaction Corps (ARRC) stood up a headquarters on the disused Charing Cross Underground platform to wargame deep strikes into Russia in response to a simulated attack on a Baltic ally, testing EW, comms-jamming and counter-drone capabilities. The exercise marks an unusually public NATO signal of contingency planning amid ongoing Zircon/Oreshnik strikes on Kyiv.",
+      "region": "United Kingdom / Russia",
       "source": "telegram",
       "confidence": "medium"
-    },
-    {
-      "severity": "high",
-      "category": "sentiment_shift",
-      "title": "Republican hawks openly revolt against Trump's Iran framework as 'nightmare for Israel'",
-      "summary": "US sentiment has swung to 57% negative with 'Massie', 'GOP', 'lawmakers', 'Republican' and 'criticism' surging in the word cloud alongside Rubio and Gabbard. Middle East Eye explicitly frames Republican hawks as attacking the emerging Iran deal as a 'nightmare for Israel,' marking an intra-coalition fracture as Trump simultaneously tells negotiators not to rush.",
-      "region": "United States",
-      "source": "sentiment,incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "medium",
-      "category": "diplomatic",
-      "title": "Iranian readout: draft deal bars US and allies from attacking Iran or its proxies",
-      "summary": "The Times of Israel cites an Iranian report stating the emerging agreement would commit the US and its allies not to attack Iran or its allies, with reciprocal Iranian restraint. Fortune separately reports Tehran is growing suspicious of Washington's generous ceasefire terms, fearing a setup for attack \u2014 a notable signal of fragility around the Hormuz framework.",
-      "region": "Iran",
-      "source": "incidents",
-      "confidence": "medium"
-    },
-    {
-      "severity": "medium",
-      "category": "incident",
-      "title": "Brent holds at $100 with threat level pinned at 9 'CRITICAL \u2014 Imminent Escalation'",
-      "summary": "Global metrics show Brent crude at $100.21 and the Iranian rial free-market rate at 1,322,792/USD while the dashboard threat indicator remains at 9/10 ('CRITICAL \u2014 IMMINENT ESCALATION'). Houthi and Iraqi Shiite Militia (PMF) statuses both stay 'Elevated,' and DefenseScoop reports the US is deploying an 'umbrella' of defense and tech assets to shield Strait of Hormuz shipping.",
-      "region": "Global / Strait of Hormuz",
-      "source": "global_metrics",
-      "confidence": "high"
     }
   ],
-  "analysis_note": "A fragile US-Iran Hormuz framework is being publicly attacked by Republican hawks and Israeli officials even as Israeli strikes intensify in Lebanon and Gaza and Russia executes one of its largest combined missile barrages on Kyiv \u2014 keeping the dashboard threat indicator at CRITICAL.",
+  "analysis_note": "Washington and Tehran appear hours from a Hormuz framework deal even as the nuclear-dismantlement question remains unresolved, Trump keeps a strike option open, and Houthi missiles plus a US defensive 'umbrella' over Gulf shipping show the military track running in parallel to diplomacy.",
   "meta": {
-    "input_tokens": 25618,
+    "input_tokens": 25391,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2558,
-    "cost_usd": 0.2162,
-    "wall_time_s": 41.5
+    "output_tokens": 2662,
+    "cost_usd": 0.2176,
+    "wall_time_s": 41.6
   }
 }
