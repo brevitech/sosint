@@ -1,17 +1,22 @@
 {
   "us": {
-    "positive": 34,
-    "negative": 56,
-    "neutral": 10,
+    "positive": 32,
+    "negative": 57,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 77,
+        "count": 80,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 29,
+        "count": 32,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -20,7 +25,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "largely",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "negotiated",
         "count": 12,
         "sentiment": "neutral"
       },
@@ -30,27 +40,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "largely",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "negotiated",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
         "word": "strait",
         "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "hormuz",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -65,12 +65,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "house",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "white",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -86,6 +86,11 @@
       },
       {
         "word": "troop",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -115,11 +120,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "white",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "india",
         "count": 5,
         "sentiment": "neutral"
@@ -128,11 +128,6 @@
         "word": "intelligence",
         "count": 5,
         "sentiment": "positive"
-      },
-      {
-        "word": "kilmar",
-        "count": 5,
-        "sentiment": "neutral"
       },
       {
         "word": "thousands",
@@ -153,55 +148,85 @@
         "word": "indictment",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "ebola",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-24T02:47:41.597741+00:00",
-    "nextRefresh": "2026-05-24T02:47:41.597741+00:00",
-    "articlesAnalyzed": 363,
-    "matchedMentions": 175,
+    "generatedAt": "2026-05-24T06:34:15.324211+00:00",
+    "nextRefresh": "2026-05-24T06:34:15.324211+00:00",
+    "articlesAnalyzed": 366,
+    "matchedMentions": 176,
     "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 54,
-    "negative": 36,
-    "neutral": 10,
+    "positive": 50,
+    "negative": 32,
+    "neutral": 18,
     "wordCloud": [
       {
-        "word": "modi",
+        "word": "india",
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rubio",
         "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 14,
+        "word": "modi",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "death",
-        "count": 10,
-        "sentiment": "negative"
+        "word": "marco",
+        "count": 9,
+        "sentiment": "neutral"
       },
       {
         "word": "sharma",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "twisha",
+        "word": "ipl",
         "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "case",
-        "count": 9,
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "death",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "twisha",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "global",
         "count": 7,
         "sentiment": "neutral"
+      },
+      {
+        "word": "jaishankar",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "party",
+        "count": 6,
+        "sentiment": "positive"
       },
       {
         "word": "supreme",
@@ -214,117 +239,92 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rubio",
-        "count": 5,
+        "word": "charan",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "ipl",
-        "count": 5,
-        "sentiment": "neutral"
+        "word": "apologises",
+        "count": 6,
+        "sentiment": "positive"
       },
       {
-        "word": "action",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "goyal",
-        "count": 4,
+        "word": "bumrah",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "visit",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "singh",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "suo",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "motu",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bengal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cockroach",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "janta",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "party",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "girl",
-        "count": 4,
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "takes",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pant",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cockroach",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "updates",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "cognisance",
+        "word": "never",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "cji",
+        "word": "near",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "dmk",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "eyes",
-        "count": 3,
+        "word": "rips",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "billion",
-        "count": 3,
+        "word": "congress",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "canada",
-        "count": 3,
+        "word": "support",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "allies",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trinamool",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-24T02:47:52.840214+00:00",
-    "nextRefresh": "2026-05-24T02:47:52.840214+00:00",
-    "articlesAnalyzed": 482,
-    "matchedMentions": 85,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-05-24T06:34:29.104832+00:00",
+    "nextRefresh": "2026-05-24T06:34:29.104832+00:00",
+    "articlesAnalyzed": 478,
+    "matchedMentions": 96,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   }
 }
