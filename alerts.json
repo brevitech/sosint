@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-24T11:54:50.110826+00:00",
+  "generated_at": "2026-05-24T13:16:10.573091+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
-      "severity": "critical",
-      "category": "telegram_signal",
-      "title": "Russia reportedly launches two hypersonic Oreshnik IRBMs at Kyiv region",
-      "summary": "Middle East Spectator (~46K views) reports Russia fired two nuclear-capable 'Oreshnik' IRBMs with MIRVs impacting the Kyiv region. The system is normally reserved for nuclear payloads and is considered near-impossible to intercept. No independent corroboration in Western incident feed yet; single-channel sourcing.",
-      "region": "Eastern Ukraine",
-      "source": "telegram",
-      "confidence": "medium"
-    },
-    {
       "severity": "high",
-      "category": "diplomatic",
-      "title": "Trump says US-Iran MoU 'largely negotiated'; Hormuz to reopen under Iranian management",
-      "summary": "Trump announced a Memorandum of Understanding with Iran is 'largely negotiated', corroborated across PBS, BBC, Iran International and ME Spectator (~42K views). Reported terms: end of regional war including Lebanon, lifting of US naval blockade, release of frozen Iranian assets, withdrawal of most US forces from the Middle East, and Hormuz reopening under Iranian administration. A 30-day window follows for a separate nuclear agreement.",
-      "region": "Persian Gulf / Strait of Hormuz",
-      "source": "incidents,telegram,sentiment",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "nuclear",
-      "title": "Khamenei rules out transferring 60% enriched uranium stockpile abroad",
-      "summary": "Reuters, Jerusalem Post and Al Jazeera report Iran's Supreme Leader insists the enriched uranium stockpile must remain in Iran, while Tehran denies any agreement to hand it over. With enrichment at 60% U-235 and breakout estimated at 1-2 weeks, the nuclear file remains the principal unresolved obstacle to the emerging US-Iran MoU.",
-      "region": "Iran",
-      "source": "global_metrics,incidents",
+      "category": "incident",
+      "title": "Houthi missile strike on Israel raises Red Sea shipping threat",
+      "summary": "AP and Times of Israel report a Houthi missile attack on Israel that has stoked fears of renewed Ansar Allah strikes on Red Sea commercial shipping. The attack lands amid the emerging US-Iran MoU and despite proxy-deescalation language; Houthi status in global_metrics remains 'Elevated - Multiple Recent Attacks', with USS Eisenhower, Bataan, Carney, Mason and Laboon all on station in the southern Red Sea.",
+      "region": "Red Sea / Israel",
+      "source": "incidents,assets,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israeli intelligence warns Tehran may be preparing surprise attack mid-talks",
-      "summary": "Jerusalem Post reports Israeli intelligence officials assess Iran could be planning a surprise attack even as US-Iran negotiations advance. The warning coincides with NYT reporting Trump weighing renewed strike options and CNBC noting he was 'an hour away' from ordering an Iran strike before postponing.",
-      "region": "Iran / Israel",
+      "title": "Israeli strikes continue in Gaza and southern Lebanon despite emerging MoU",
+      "summary": "Five incident reports document fresh Israeli strikes: a Gaza City strike killing five police officers and a 13-year-old (Al Jazeera), a residential strike killing an infant and two family members (Al Jazeera, Times of Israel), and heavy bombardment 'reducing buildings to craters' in southern Lebanon (Guardian). The continued operations directly contradict the MoU's reported 'end of regional war on all fronts, including Lebanon' clause.",
+      "region": "Gaza / Southern Lebanon",
       "source": "incidents",
-      "confidence": "medium"
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "telegram_signal",
+      "title": "Russian milblog corroborates Oreshnik strike, identifies target as Belaya Tserkva",
+      "summary": "Rybar (~178K views) now corroborates the ME Spectator Oreshnik report, identifying the target as Belaya Tserkva in Kyiv oblast and stating kinetic (non-explosive) submunitions were used \u2014 its third Oreshnik employment to date. The cross-channel confirmation upgrades confidence on Sunday's IRBM strike previously flagged as single-source, though Rybar concedes limited physical effect.",
+      "region": "Kyiv Oblast, Ukraine",
+      "source": "telegram",
+      "confidence": "high"
     },
     {
       "severity": "medium",
-      "category": "incident",
-      "title": "IDF soldier killed by Hezbollah FPV drone near Lebanon border",
-      "summary": "ME Spectator (~45K views, repeated post) confirms the IDF announced the death of Staff Sgt. Noam Hamburger, 23, of the 401st Armored Brigade's 9th Battalion, killed by a Hezbollah FPV drone in northern Israel. Coincides with Guardian reporting of Israeli bombardment leveling buildings in southern Lebanon \u2014 Hezbollah remains classified 'Active' in proxy tracker.",
-      "region": "Northern Israel / Southern Lebanon",
-      "source": "telegram,incidents",
+      "category": "diplomatic",
+      "title": "Republican hawks publicly attack Trump's emerging Iran MoU as 'nightmare for Israel'",
+      "summary": "Middle East Eye and i24NEWS report Republican hawks are openly opposing Trump's emerging Iran agreement, framing it as 'not remotely America First' and a 'nightmare for Israel'. US sentiment is 54% negative with 'rubio' (17) and 'gabbard' (11) trending alongside 'trump' (76) and 'hormuz' (13), suggesting an intra-administration split is gaining media oxygen as the 30-day nuclear window approaches.",
+      "region": "United States / Iran",
+      "source": "incidents,sentiment",
       "confidence": "high"
+    },
+    {
+      "severity": "medium",
+      "category": "asset_movement",
+      "title": "US deploys defensive 'umbrella' of tech assets to shield Hormuz shipping",
+      "summary": "DefenseScoop reports the US is deploying an 'umbrella' of defensive and technology assets to protect commercial shipping transiting the Strait of Hormuz, coinciding with the BBC survivor account of a prior Hormuz missile strike. USS Florida (SSGN) remains in the Persian Gulf and USS Abraham Lincoln in the Arabian Sea, suggesting hedging against MoU collapse even as negotiations advance.",
+      "region": "Strait of Hormuz",
+      "source": "global_metrics,incidents,assets",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "A precarious split-screen moment: a sweeping US-Iran MoU is reportedly hours away, yet the threat level remains CRITICAL with the uranium stockpile unresolved, Israeli intel warning of a possible Iranian surprise strike, Hezbollah killing an IDF soldier on the Lebanon border, and a reported Russian hypersonic MIRV strike on Kyiv.",
+  "analysis_note": "US-Iran MoU negotiations advance under a 30-day nuclear deadline, but live kinetic activity \u2014 Houthi missiles, Israeli strikes in Gaza and Lebanon, and a corroborated Russian Oreshnik strike on Kyiv oblast \u2014 continues to undermine the deescalation narrative as Republican hawks publicly oppose the deal.",
   "meta": {
-    "input_tokens": 18177,
+    "input_tokens": 21384,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2140,
-    "cost_usd": 0.1685,
-    "wall_time_s": 38.0
+    "output_tokens": 3440,
+    "cost_usd": 0.217,
+    "wall_time_s": 51.0
   }
 }
