@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-24T16:07:34.043477+00:00",
+  "generated_at": "2026-05-24T17:56:57.632329+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
-      "severity": "high",
-      "category": "diplomatic",
-      "title": "US and Iran reach agreement in principle to reopen Strait of Hormuz",
-      "summary": "NYT cites a US official confirming Washington and Tehran have agreed in principle to a deal reopening the Strait of Hormuz, with PBS and BBC quoting Trump that the broader Iran deal is 'largely negotiated.' Times of Israel reports the Iranian-circulated text stipulates mutual non-attack between the US/allies and Iran/its allies. Brent crude has eased to ~$100, though the nuclear stockpile question remains unresolved.",
-      "region": "Strait of Hormuz / Iran",
-      "source": "incidents,global_metrics",
+      "severity": "critical",
+      "category": "nuclear",
+      "title": "Khamenei reportedly demands enriched uranium stockpile remain inside Iran",
+      "summary": "Reuters cites Iranian sources saying Supreme Leader Khamenei insists Iran's ~60% enriched uranium stockpile must stay on Iranian soil, directly contradicting reported US assurances to Israel that no deal will proceed without dismantling the nuclear program. Haaretz and Jerusalem Post flag the nuclear question as the unresolved sticking point hours from a possible agreement; threat level remains at 9/10 (CRITICAL) and breakout time at ~1-2 weeks.",
+      "region": "Iran",
+      "source": "global_metrics,incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Houthi missile strike on Israel revives Red Sea shipping threat",
-      "summary": "AP and Times of Israel report a Houthi missile attack on Israel has stoked fears of renewed Ansar Allah strikes on Red Sea commercial shipping, with BBC and Global Security Review flagging escalation risk to the global economy. The strike comes as USS Eisenhower, Bataan, Carney, Mason and Laboon remain concentrated in the southern Red Sea, and proxy status for the Houthis is logged as 'Elevated \u2014 Multiple Recent Attacks.'",
-      "region": "Red Sea / Israel",
-      "source": "incidents,assets,global_metrics",
+      "title": "Secret Service kills gunman who opened fire near White House while Trump inside",
+      "summary": "Rybar (~110K views) reports Secret Service shot a 21-year-old, identified as Nasir Best, who opened fire at the intersection of 17th Street and Pennsylvania Avenue while President Trump was in residence; journalists on the lawn were evacuated to the briefing room. The suspect was reportedly previously detained for attempting to breach the White House perimeter last July. US sentiment word cloud shows 'secret' and 'service' newly trending, suggesting corroboration in US press.",
+      "region": "Washington D.C.",
+      "source": "telegram,sentiment",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
+      "category": "diplomatic",
+      "title": "Republican hawks publicly revolt against Trump's emerging Iran deal",
+      "summary": "Middle East Eye, citing Republican hawks, calls the emerging Iran agreement a 'nightmare for Israel,' with US sentiment data showing sharp upticks in 'hawks' (7), 'Tillis' (7), 'Hegseth' (9), 'Gabbard' (7) and 'GOP/Republican criticism' (18 combined) alongside 57% negative US sentiment. The intra-GOP backlash threatens domestic ratification of the Hormuz/non-attack framework even as Trump calls it 'largely negotiated.'",
+      "region": "United States",
+      "source": "incidents,sentiment",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "telegram_signal",
-      "title": "Russia reportedly fires two Oreshnik IRBMs with MIRVs at Kyiv region",
-      "summary": "Middle East Spectator (~52K views) reports Russia launched two hypersonic Oreshnik intermediate-range ballistic missiles at Ukraine, with footage showing multiple independently targetable reentry vehicles impacting the Kyiv region. Rybar separately discusses an Oreshnik strike on Bila Tserkva using kinetic (non-explosive) warheads, noting reduced public effect. The system is normally nuclear-capable and near-impossible to intercept; treat strike details as pending Western confirmation.",
-      "region": "Ukraine",
+      "title": "NATO rehearses deep strikes into Russia under 'Arcade Strike' exercise in London",
+      "summary": "DeepState UA (~189K views) reports NATO's Allied Rapid Reaction Corps (ARRC) set up a forward HQ on a disused platform at London's Charing Cross station to wargame deep strikes into Russian territory in response to a simulated Russian invasion of a Baltic state, testing EW, comms jamming and counter-drone capabilities. The exercise marks an unusually overt rehearsal of Article 5 retaliation against Moscow.",
+      "region": "NATO / Russia",
       "source": "telegram",
       "confidence": "medium"
     },
     {
       "severity": "medium",
       "category": "incident",
-      "title": "Israeli intelligence warns Tehran may be preparing a surprise attack",
-      "summary": "The Jerusalem Post reports Israeli intelligence officials assess that Iran could be planning a surprise attack even as Trump-Iran negotiations advance, a warning that runs counter to the 'largely negotiated' deal narrative. Haaretz separately reports religious norms are preventing deployment of a key IDF system at a Lebanon post, suggesting unresolved readiness gaps along the northern front.",
-      "region": "Iran / Northern Israel",
-      "source": "incidents",
+      "title": "Heavy overnight Russian missile barrage hits Kyiv industrial and admin sites",
+      "summary": "Rybar (~113K views) reports multiple missile impacts in Kyiv's Solomyansky district overnight, striking the 'Lahoda' business park, the Kyiv aviation plant, a former relay-and-automation plant and an armored-vehicles facility, with fires across the capital. The wave follows the disputed Oreshnik MIRV strikes flagged in prior cycles and signals sustained Russian targeting of Ukrainian defense-industrial infrastructure.",
+      "region": "Kyiv, Ukraine",
+      "source": "telegram",
       "confidence": "medium"
-    },
-    {
-      "severity": "medium",
-      "category": "sentiment_shift",
-      "title": "GOP hawks publicly break with Trump over emerging Iran deal",
-      "summary": "Forbes and Middle East Eye report a 'fiery' Republican backlash to the emerging Iran framework, with US sentiment data showing surging mentions of Senator Tillis, Hegseth, Gabbard and Rubio alongside 'criticism,' 'against' and 'war' in the top trending terms (US sentiment 59% negative). Middle East Eye characterizes the deal as a 'nightmare for Israel' per hawkish critics, signaling potential domestic political resistance to ratification.",
-      "region": "Washington DC",
-      "source": "sentiment,incidents",
-      "confidence": "high"
     }
   ],
-  "analysis_note": "The theater is bifurcating: a US-Iran Strait of Hormuz deal is now 'agreed in principle' and oil has retreated to ~$100, but a fresh Houthi strike on Israel, an Israeli warning of a possible Iranian surprise attack, and mounting GOP opposition keep threat level at 9/10 pending a signed text and resolution of the enriched uranium question.",
+  "analysis_note": "Despite a near-final US-Iran framework, Khamenei's reported insistence on retaining 60% enriched uranium, a GOP-hawk revolt in Washington, and a fresh White House shooting incident are pulling the strategic picture back toward crisis even as carriers remain forward-deployed and Russia escalates strikes on Kyiv.",
   "meta": {
-    "input_tokens": 24218,
+    "input_tokens": 24272,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2464,
-    "cost_usd": 0.2068,
-    "wall_time_s": 37.5
+    "output_tokens": 2944,
+    "cost_usd": 0.2191,
+    "wall_time_s": 49.5
   }
 }
