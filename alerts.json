@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-24T13:16:10.573091+00:00",
+  "generated_at": "2026-05-24T15:00:11.988452+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
-      "severity": "high",
-      "category": "incident",
-      "title": "Houthi missile strike on Israel raises Red Sea shipping threat",
-      "summary": "AP and Times of Israel report a Houthi missile attack on Israel that has stoked fears of renewed Ansar Allah strikes on Red Sea commercial shipping. The attack lands amid the emerging US-Iran MoU and despite proxy-deescalation language; Houthi status in global_metrics remains 'Elevated - Multiple Recent Attacks', with USS Eisenhower, Bataan, Carney, Mason and Laboon all on station in the southern Red Sea.",
-      "region": "Red Sea / Israel",
-      "source": "incidents,assets,global_metrics",
+      "severity": "critical",
+      "category": "nuclear",
+      "title": "Iran nuclear deal hits impasse over enriched uranium stockpile transfer",
+      "summary": "Reuters cites Iranian sources that Supreme Leader Khamenei has decreed enriched uranium must stay in Iran, while ynetnews reports Trump assured Israel there will be no deal without dismantling the program. Iran has publicly denied any agreement to hand over its stockpile (TradingView), with Haaretz framing the nuclear question as the central unresolved obstacle hours before a possible signing. Breakout estimate remains 1-2 weeks at 60% U-235.",
+      "region": "Iran",
+      "source": "global_metrics,incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Israeli strikes continue in Gaza and southern Lebanon despite emerging MoU",
-      "summary": "Five incident reports document fresh Israeli strikes: a Gaza City strike killing five police officers and a 13-year-old (Al Jazeera), a residential strike killing an infant and two family members (Al Jazeera, Times of Israel), and heavy bombardment 'reducing buildings to craters' in southern Lebanon (Guardian). The continued operations directly contradict the MoU's reported 'end of regional war on all fronts, including Lebanon' clause.",
-      "region": "Gaza / Southern Lebanon",
-      "source": "incidents",
+      "category": "diplomatic",
+      "title": "Trump says he was 'an hour away' from ordering Iran strike before postponing",
+      "summary": "CNBC reports Trump publicly disclosed he was one hour from a strike decision on Iran before holding off, with The Jerusalem Post citing Gulf State diplomatic pressure as the proximate cause of the pause. The revelation underscores how close the theater came to direct US-Iran kinetic action and adds urgency to the still-unfinalized MoU, even as threat level remains at 9/10 (CRITICAL).",
+      "region": "Iran / Washington",
+      "source": "incidents,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "telegram_signal",
-      "title": "Russian milblog corroborates Oreshnik strike, identifies target as Belaya Tserkva",
-      "summary": "Rybar (~178K views) now corroborates the ME Spectator Oreshnik report, identifying the target as Belaya Tserkva in Kyiv oblast and stating kinetic (non-explosive) submunitions were used \u2014 its third Oreshnik employment to date. The cross-channel confirmation upgrades confidence on Sunday's IRBM strike previously flagged as single-source, though Rybar concedes limited physical effect.",
-      "region": "Kyiv Oblast, Ukraine",
+      "title": "Reported shooting near White House, alleged second attempt on Trump",
+      "summary": "Rybar (~82K views) reports Secret Service shot a 21-year-old who opened fire at 17th Street and Pennsylvania Avenue while Trump was in residence, identifying the suspect as Nasir Best \u2014 previously detained for a July White House perimeter breach. Journalists on the lawn were reportedly evacuated to the briefing room. No Western-source corroboration in the current feed; treat as single-source pending confirmation.",
+      "region": "Washington DC",
       "source": "telegram",
-      "confidence": "high"
+      "confidence": "low"
     },
     {
       "severity": "medium",
-      "category": "diplomatic",
-      "title": "Republican hawks publicly attack Trump's emerging Iran MoU as 'nightmare for Israel'",
-      "summary": "Middle East Eye and i24NEWS report Republican hawks are openly opposing Trump's emerging Iran agreement, framing it as 'not remotely America First' and a 'nightmare for Israel'. US sentiment is 54% negative with 'rubio' (17) and 'gabbard' (11) trending alongside 'trump' (76) and 'hormuz' (13), suggesting an intra-administration split is gaining media oxygen as the 30-day nuclear window approaches.",
-      "region": "United States / Iran",
-      "source": "incidents,sentiment",
+      "category": "incident",
+      "title": "Bahrain sentences nine to life for alleged cooperation with IRGC",
+      "summary": "Al Jazeera reports Bahrain has handed down life sentences to nine defendants convicted of cooperating with Iran's Islamic Revolutionary Guard Corps. The ruling lands as Gulf states publicly push for diplomacy on the Trump-Iran MoU and signals that Manama is hedging \u2014 preserving a hard counter-IRGC judicial posture even as regional de-escalation language dominates headlines.",
+      "region": "Bahrain / Persian Gulf",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "medium",
       "category": "asset_movement",
-      "title": "US deploys defensive 'umbrella' of tech assets to shield Hormuz shipping",
-      "summary": "DefenseScoop reports the US is deploying an 'umbrella' of defensive and technology assets to protect commercial shipping transiting the Strait of Hormuz, coinciding with the BBC survivor account of a prior Hormuz missile strike. USS Florida (SSGN) remains in the Persian Gulf and USS Abraham Lincoln in the Arabian Sea, suggesting hedging against MoU collapse even as negotiations advance.",
+      "title": "US deploying defensive 'umbrella' to shield shipping in Strait of Hormuz",
+      "summary": "DefenseScoop reports the US is positioning an integrated defense and tech 'umbrella' around commercial shipping in the Strait of Hormuz, amid widespread GPS jamming reported across the region (The Week). The posture complements USS Florida's continued Persian Gulf deployment and follows a BBC survivor account of a recent Hormuz missile strike, suggesting hostile-environment hardening even as MoU talks advance.",
       "region": "Strait of Hormuz",
-      "source": "global_metrics,incidents,assets",
+      "source": "global_metrics,assets,incidents",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran MoU negotiations advance under a 30-day nuclear deadline, but live kinetic activity \u2014 Houthi missiles, Israeli strikes in Gaza and Lebanon, and a corroborated Russian Oreshnik strike on Kyiv oblast \u2014 continues to undermine the deescalation narrative as Republican hawks publicly oppose the deal.",
+  "analysis_note": "The US-Iran MoU is visibly fraying over the uranium-stockpile question even as Gulf diplomacy holds off a strike Trump now admits was an hour from execution; threat level remains at 9/10 with proxy and Ukraine theaters still actively kinetic.",
   "meta": {
-    "input_tokens": 21384,
+    "input_tokens": 24634,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 3440,
-    "cost_usd": 0.217,
-    "wall_time_s": 51.0
+    "output_tokens": 2883,
+    "cost_usd": 0.2194,
+    "wall_time_s": 46.4
   }
 }
