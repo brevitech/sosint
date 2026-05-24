@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-24T15:00:11.988452+00:00",
+  "generated_at": "2026-05-24T16:07:34.043477+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
-      "severity": "critical",
-      "category": "nuclear",
-      "title": "Iran nuclear deal hits impasse over enriched uranium stockpile transfer",
-      "summary": "Reuters cites Iranian sources that Supreme Leader Khamenei has decreed enriched uranium must stay in Iran, while ynetnews reports Trump assured Israel there will be no deal without dismantling the program. Iran has publicly denied any agreement to hand over its stockpile (TradingView), with Haaretz framing the nuclear question as the central unresolved obstacle hours before a possible signing. Breakout estimate remains 1-2 weeks at 60% U-235.",
-      "region": "Iran",
-      "source": "global_metrics,incidents",
-      "confidence": "high"
-    },
-    {
       "severity": "high",
       "category": "diplomatic",
-      "title": "Trump says he was 'an hour away' from ordering Iran strike before postponing",
-      "summary": "CNBC reports Trump publicly disclosed he was one hour from a strike decision on Iran before holding off, with The Jerusalem Post citing Gulf State diplomatic pressure as the proximate cause of the pause. The revelation underscores how close the theater came to direct US-Iran kinetic action and adds urgency to the still-unfinalized MoU, even as threat level remains at 9/10 (CRITICAL).",
-      "region": "Iran / Washington",
+      "title": "US and Iran reach agreement in principle to reopen Strait of Hormuz",
+      "summary": "NYT cites a US official confirming Washington and Tehran have agreed in principle to a deal reopening the Strait of Hormuz, with PBS and BBC quoting Trump that the broader Iran deal is 'largely negotiated.' Times of Israel reports the Iranian-circulated text stipulates mutual non-attack between the US/allies and Iran/its allies. Brent crude has eased to ~$100, though the nuclear stockpile question remains unresolved.",
+      "region": "Strait of Hormuz / Iran",
       "source": "incidents,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
+      "category": "incident",
+      "title": "Houthi missile strike on Israel revives Red Sea shipping threat",
+      "summary": "AP and Times of Israel report a Houthi missile attack on Israel has stoked fears of renewed Ansar Allah strikes on Red Sea commercial shipping, with BBC and Global Security Review flagging escalation risk to the global economy. The strike comes as USS Eisenhower, Bataan, Carney, Mason and Laboon remain concentrated in the southern Red Sea, and proxy status for the Houthis is logged as 'Elevated \u2014 Multiple Recent Attacks.'",
+      "region": "Red Sea / Israel",
+      "source": "incidents,assets,global_metrics",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
       "category": "telegram_signal",
-      "title": "Reported shooting near White House, alleged second attempt on Trump",
-      "summary": "Rybar (~82K views) reports Secret Service shot a 21-year-old who opened fire at 17th Street and Pennsylvania Avenue while Trump was in residence, identifying the suspect as Nasir Best \u2014 previously detained for a July White House perimeter breach. Journalists on the lawn were reportedly evacuated to the briefing room. No Western-source corroboration in the current feed; treat as single-source pending confirmation.",
-      "region": "Washington DC",
+      "title": "Russia reportedly fires two Oreshnik IRBMs with MIRVs at Kyiv region",
+      "summary": "Middle East Spectator (~52K views) reports Russia launched two hypersonic Oreshnik intermediate-range ballistic missiles at Ukraine, with footage showing multiple independently targetable reentry vehicles impacting the Kyiv region. Rybar separately discusses an Oreshnik strike on Bila Tserkva using kinetic (non-explosive) warheads, noting reduced public effect. The system is normally nuclear-capable and near-impossible to intercept; treat strike details as pending Western confirmation.",
+      "region": "Ukraine",
       "source": "telegram",
-      "confidence": "low"
+      "confidence": "medium"
     },
     {
       "severity": "medium",
       "category": "incident",
-      "title": "Bahrain sentences nine to life for alleged cooperation with IRGC",
-      "summary": "Al Jazeera reports Bahrain has handed down life sentences to nine defendants convicted of cooperating with Iran's Islamic Revolutionary Guard Corps. The ruling lands as Gulf states publicly push for diplomacy on the Trump-Iran MoU and signals that Manama is hedging \u2014 preserving a hard counter-IRGC judicial posture even as regional de-escalation language dominates headlines.",
-      "region": "Bahrain / Persian Gulf",
+      "title": "Israeli intelligence warns Tehran may be preparing a surprise attack",
+      "summary": "The Jerusalem Post reports Israeli intelligence officials assess that Iran could be planning a surprise attack even as Trump-Iran negotiations advance, a warning that runs counter to the 'largely negotiated' deal narrative. Haaretz separately reports religious norms are preventing deployment of a key IDF system at a Lebanon post, suggesting unresolved readiness gaps along the northern front.",
+      "region": "Iran / Northern Israel",
       "source": "incidents",
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "severity": "medium",
-      "category": "asset_movement",
-      "title": "US deploying defensive 'umbrella' to shield shipping in Strait of Hormuz",
-      "summary": "DefenseScoop reports the US is positioning an integrated defense and tech 'umbrella' around commercial shipping in the Strait of Hormuz, amid widespread GPS jamming reported across the region (The Week). The posture complements USS Florida's continued Persian Gulf deployment and follows a BBC survivor account of a recent Hormuz missile strike, suggesting hostile-environment hardening even as MoU talks advance.",
-      "region": "Strait of Hormuz",
-      "source": "global_metrics,assets,incidents",
-      "confidence": "medium"
+      "category": "sentiment_shift",
+      "title": "GOP hawks publicly break with Trump over emerging Iran deal",
+      "summary": "Forbes and Middle East Eye report a 'fiery' Republican backlash to the emerging Iran framework, with US sentiment data showing surging mentions of Senator Tillis, Hegseth, Gabbard and Rubio alongside 'criticism,' 'against' and 'war' in the top trending terms (US sentiment 59% negative). Middle East Eye characterizes the deal as a 'nightmare for Israel' per hawkish critics, signaling potential domestic political resistance to ratification.",
+      "region": "Washington DC",
+      "source": "sentiment,incidents",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "The US-Iran MoU is visibly fraying over the uranium-stockpile question even as Gulf diplomacy holds off a strike Trump now admits was an hour from execution; threat level remains at 9/10 with proxy and Ukraine theaters still actively kinetic.",
+  "analysis_note": "The theater is bifurcating: a US-Iran Strait of Hormuz deal is now 'agreed in principle' and oil has retreated to ~$100, but a fresh Houthi strike on Israel, an Israeli warning of a possible Iranian surprise attack, and mounting GOP opposition keep threat level at 9/10 pending a signed text and resolution of the enriched uranium question.",
   "meta": {
-    "input_tokens": 24634,
+    "input_tokens": 24218,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2883,
-    "cost_usd": 0.2194,
-    "wall_time_s": 46.4
+    "output_tokens": 2464,
+    "cost_usd": 0.2068,
+    "wall_time_s": 37.5
   }
 }
