@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 32,
-    "negative": 58,
+    "positive": 34,
+    "negative": 56,
     "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 76,
+        "count": 77,
         "sentiment": "neutral"
       },
       {
@@ -20,7 +20,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "deal",
         "count": 12,
         "sentiment": "neutral"
       },
@@ -30,27 +30,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "largely",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "negotiated",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
         "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "strait",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hormuz",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "largely",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "negotiated",
+        "word": "hormuz",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -65,17 +65,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "judge",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "house",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -120,6 +115,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "white",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "india",
         "count": 5,
         "sentiment": "neutral"
@@ -156,21 +156,21 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-23T23:53:49.282099+00:00",
-    "nextRefresh": "2026-05-23T23:53:49.282099+00:00",
-    "articlesAnalyzed": 357,
-    "matchedMentions": 179,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-05-24T02:47:41.597741+00:00",
+    "nextRefresh": "2026-05-24T02:47:41.597741+00:00",
+    "articlesAnalyzed": 363,
+    "matchedMentions": 175,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 50,
+    "positive": 54,
     "negative": 36,
-    "neutral": 14,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 18,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -179,52 +179,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rubio",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "death",
-        "count": 6,
+        "count": 10,
         "sentiment": "negative"
       },
       {
         "word": "sharma",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ipl",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "goyal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "singh",
-        "count": 5,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "twisha",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 5,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "case",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "supreme",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "court",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rubio",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ipl",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -234,7 +229,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "canada",
+        "word": "trade",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "goyal",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -244,32 +244,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "become",
+        "word": "singh",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "exporter",
+        "word": "suo",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "motu",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "good",
+        "word": "bengal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cockroach",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "janta",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "party",
         "count": 4,
         "sentiment": "positive"
       },
       {
-        "word": "delhi",
+        "word": "girl",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "girl",
+        "word": "takes",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cognisance",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cji",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -284,47 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "arms",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tvk",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "government",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bengal",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "man",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meeting",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trump",
+        "word": "canada",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-23T23:54:00.415081+00:00",
-    "nextRefresh": "2026-05-23T23:54:00.415081+00:00",
-    "articlesAnalyzed": 466,
-    "matchedMentions": 80,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-05-24T02:47:52.840214+00:00",
+    "nextRefresh": "2026-05-24T02:47:52.840214+00:00",
+    "articlesAnalyzed": 482,
+    "matchedMentions": 85,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
