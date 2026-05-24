@@ -35,13 +35,25 @@ jobs:
         run: python scripts/scrape_assets.py
 
       - name: Run Global Metrics Scraper (OSINT)
+        env:
+          FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
+          AISSTREAM_API_KEY: ${{ secrets.AISSTREAM_API_KEY }}
         run: python scripts/scrape_global_metrics.py
+
+      - name: Run Telegram Scraper (OSINT)
+        run: python scripts/scrape_telegram.py
+
+      - name: Send Telegram Alerts (if thresholds met)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/send_telegram_alerts.py
 
       - name: Commit updated OSINT data
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add sentiment-data.json incidents-data.json military-assets.json global-metrics.json
+          git add sentiment-data.json incidents-data.json military-assets.json global-metrics.json telegram-osint.json
           if git diff --staged --quiet; then
             echo "No changes to OSINT data."
           else

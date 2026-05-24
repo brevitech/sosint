@@ -21,7 +21,9 @@ class WarDashboard {
     this.sentimentRefreshTimer = null;
     this.liveIncidents = [];
     this.liveAssets = [];
+    this.liveAssets = [];
     this.globalMetrics = null;
+    this.telegramData = null;
   }
 
   init() {
@@ -126,6 +128,7 @@ class WarDashboard {
             <button class="tab-btn active" data-tab="proxies">Proxies</button>
             <button class="tab-btn" data-tab="strait">Hormuz</button>
             <button class="tab-btn" data-tab="sanctions">Sanctions</button>
+            <button class="tab-btn" data-tab="telegram">Telegram</button>
           </div>
           <div class="panel-content" id="left-bottom-content"></div>
         </div>
@@ -222,6 +225,10 @@ class WarDashboard {
       case 'sanctions':
         title.textContent = 'Sanctions & Economy';
         this.renderSanctions();
+        break;
+      case 'telegram':
+        title.textContent = 'Telegram OSINT';
+        this.renderTelegramIntel();
         break;
     }
   }
@@ -343,6 +350,10 @@ class WarDashboard {
       if (metricsRes.ok) {
         this.globalMetrics = await metricsRes.json();
         
+        // Render FIRMS and AIS
+        this.addFirmsHotspots();
+        this.addAisVessels();
+        
         // Re-render active tabs if necessary
         const rTopTitle = document.getElementById('right-top-title');
         if (rTopTitle && rTopTitle.textContent === 'Threat Assessment') this.renderThreatLevel();
@@ -354,6 +365,14 @@ class WarDashboard {
         
         const rBotTitle = document.getElementById('right-bottom-title');
         if (rBotTitle && rBotTitle.textContent === 'Cyber Operations') this.renderCyberOps();
+      }
+
+      // Fetch Telegram OSINT
+      const telRes = await fetch('telegram-osint.json?v=' + Date.now());
+      if (telRes.ok) {
+        this.telegramData = await telRes.json();
+        const lBotTitle = document.getElementById('left-bottom-title');
+        if (lBotTitle && lBotTitle.textContent === 'Telegram OSINT') this.renderTelegramIntel();
       }
     } catch (e) {
       console.log('Error fetching live OSINT data:', e);

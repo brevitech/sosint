@@ -10,6 +10,7 @@ import os
 import requests
 import feedparser
 from datetime import datetime, timezone
+import csv
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SCRIPT_DIR)
@@ -147,6 +148,84 @@ def fetch_nuclear_intel():
         
     return enrichment, breakout, news
 
+def fetch_firms_data():
+    print("[*] Fetching NASA FIRMS Thermal Anomalies...")
+    key = os.environ.get("FIRMS_MAP_KEY")
+    if not key:
+        print("  Skipping FIRMS: No FIRMS_MAP_KEY environment variable found.")
+        return {"status": "inactive", "message": "FIRMS_MAP_KEY required", "hotspots": []}
+
+    # Bounding box for the Middle East (roughly: West=30, South=12, East=65, North=42)
+    # Source: VIIRS_SNPP_NRT, Days: 1
+    url = f"https://firms.modaps.eosdis.nasa.gov/api/area/csv/{key}/VIIRS_SNPP_NRT/30,12,65,42/1"
+    
+    try:
+        res = requests.get(url, timeout=20)
+        res.raise_for_status()
+        
+        # Parse CSV
+        reader = csv.DictReader(res.text.strip().split("\n"))
+        high_intensity = []
+        night_detections = 0
+        total = 0
+        
+        for row in reader:
+            if not row: continue
+            total += 1
+            
+            # Count night detections (could be more suspicious)
+            if row.get("daynight") == "N":
+                night_detections += 1
+                
+            # Filter for High Fire Radiative Power (FRP > 10 MW)
+            try:
+                frp = float(row.get("frp", 0))
+                if frp > 10:
+                    high_intensity.append({
+                        "lat": float(row.get("latitude", 0)),
+                        "lon": float(row.get("longitude", 0)),
+                        "frp": frp,
+                        "date": row.get("acq_date", ""),
+                        "time": row.get("acq_time", ""),
+                        "confidence": row.get("confidence", "")
+                    })
+            except:
+                pass
+                
+        # Sort by FRP descending
+        high_intensity.sort(key=lambda x: x["frp"], reverse=True)
+        
+        return {
+            "status": "active",
+            "region": "Middle East",
+            "totalDetections": total,
+            "nightDetections": night_detections,
+            "highIntensityAnomalies": high_intensity[:15]  # Top 15 largest fires/explosions
+        }
+        
+    except Exception as e:
+        print(f"  ERROR fetching FIRMS: {e}")
+        return {"status": "error", "message": str(e), "hotspots": []}
+
+def fetch_ais_data():
+    print("[*] Fetching Maritime AIS Data...")
+    key = os.environ.get("AISSTREAM_API_KEY")
+    if not key:
+        print("  Skipping AIS: No AISSTREAM_API_KEY environment variable found.")
+        return {"status": "inactive", "message": "AISSTREAM_API_KEY required", "vessels": []}
+        
+    # We would theoretically connect to AISStream WebSocket here.
+    # However, since this script runs briefly via cron, we can't maintain a websocket.
+    # We will simulate the structure for now, as AISStream does not have a REST API for snapshots without a premium account.
+    # If a user provides an API key that allows REST queries or if we use an alternative REST provider, it would go here.
+    print("  AISStream requires a WebSocket connection. For this cron job, we are returning an empty active status until a REST endpoint is available.")
+    
+    return {
+        "status": "active_websocket_required",
+        "message": "Cron job cannot maintain websocket. Setup dedicated streaming server for live vessels.",
+        "vessels": []
+    }
+
 def run_pipeline():
     print("=" * 60)
     print("N8RA WARTRACKER — GLOBAL LIVE METRICS PIPELINE")
@@ -158,6 +237,8 @@ def run_pipeline():
     cyber_news = fetch_cyber_news()
     threat_level, threat_label, proxy_activity = analyze_threats_and_proxies()
     nuc_enrichment, nuc_breakout, nuc_news = fetch_nuclear_intel()
+    firms_data = fetch_firms_data()
+    ais_data = fetch_ais_data()
 
     now = datetime.now(timezone.utc)
     result = {
@@ -177,7 +258,9 @@ def run_pipeline():
             "enrichment": nuc_enrichment,
             "breakout": nuc_breakout,
             "news": nuc_news
-        }
+        },
+        "firms": firms_data,
+        "ais": ais_data
     }
 
     print(f"\n  Oil: ${oil_price} | IRR: {irr_rate} | Threat: {threat_level}/10")

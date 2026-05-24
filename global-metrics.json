@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T02:47:57.693653+00:00",
+  "generatedAt": "2026-05-23T17:44:03.583830+00:00",
   "dataSource": "live-osint",
   "economy": {
     "brentCrude": 100.21,
@@ -78,5 +78,15 @@
         "published": "Fri, 22 May 2026 03:52:00 GMT"
       }
     ]
+  },
+  "firms": {
+    "status": "inactive",
+    "message": "FIRMS_MAP_KEY required",
+    "hotspots": []
+  },
+  "ais": {
+    "status": "inactive",
+    "message": "AISSTREAM_API_KEY required",
+    "vessels": []
   }
 }
