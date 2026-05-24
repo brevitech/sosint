@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-24T17:56:57.632329+00:00",
+  "generated_at": "2026-05-24T19:15:08.165714+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "nuclear",
-      "title": "Khamenei reportedly demands enriched uranium stockpile remain inside Iran",
-      "summary": "Reuters cites Iranian sources saying Supreme Leader Khamenei insists Iran's ~60% enriched uranium stockpile must stay on Iranian soil, directly contradicting reported US assurances to Israel that no deal will proceed without dismantling the nuclear program. Haaretz and Jerusalem Post flag the nuclear question as the unresolved sticking point hours from a possible agreement; threat level remains at 9/10 (CRITICAL) and breakout time at ~1-2 weeks.",
-      "region": "Iran",
-      "source": "global_metrics,incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Secret Service kills gunman who opened fire near White House while Trump inside",
-      "summary": "Rybar (~110K views) reports Secret Service shot a 21-year-old, identified as Nasir Best, who opened fire at the intersection of 17th Street and Pennsylvania Avenue while President Trump was in residence; journalists on the lawn were evacuated to the briefing room. The suspect was reportedly previously detained for attempting to breach the White House perimeter last July. US sentiment word cloud shows 'secret' and 'service' newly trending, suggesting corroboration in US press.",
-      "region": "Washington D.C.",
-      "source": "telegram,sentiment",
+      "category": "telegram_signal",
+      "title": "Russia reportedly fires two 'Oreshnik' hypersonic IRBMs with MIRVs at Kiev region",
+      "summary": "ME Spectator (~54K views) reports Russia launched two Oreshnik intermediate-range ballistic missiles at Ukraine, with footage showing multiple independently targetable reentry vehicles (MIRVs) impacting the Kiev region. The platform is normally configured for nuclear payloads and is described as nearly impossible to intercept; Rybar separately confirms overnight strikes hit Kiev's Solomenskyi district, the Lahoda business park and an aviation plant, plus a fuel depot in Myrhorod.",
+      "region": "Ukraine",
+      "source": "telegram",
       "confidence": "medium"
     },
     {
       "severity": "high",
       "category": "diplomatic",
-      "title": "Republican hawks publicly revolt against Trump's emerging Iran deal",
-      "summary": "Middle East Eye, citing Republican hawks, calls the emerging Iran agreement a 'nightmare for Israel,' with US sentiment data showing sharp upticks in 'hawks' (7), 'Tillis' (7), 'Hegseth' (9), 'Gabbard' (7) and 'GOP/Republican criticism' (18 combined) alongside 57% negative US sentiment. The intra-GOP backlash threatens domestic ratification of the Hormuz/non-attack framework even as Trump calls it 'largely negotiated.'",
-      "region": "United States",
-      "source": "incidents,sentiment",
+      "title": "US official confirms Washington and Tehran agree in principle to reopen Strait of Hormuz",
+      "summary": "The New York Times, citing a US official, reports the United States and Iran have reached an in-principle agreement to reopen the Strait of Hormuz, with DW and BBC echoing an 'upbeat tone' on both sides. The Times of Israel adds the framework reportedly bars US and allied strikes on Iran and its proxies, and vice versa \u2014 a sweeping non-attack clause beyond shipping access.",
+      "region": "Strait of Hormuz",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "NATO rehearses deep strikes into Russia under 'Arcade Strike' exercise in London",
-      "summary": "DeepState UA (~189K views) reports NATO's Allied Rapid Reaction Corps (ARRC) set up a forward HQ on a disused platform at London's Charing Cross station to wargame deep strikes into Russian territory in response to a simulated Russian invasion of a Baltic state, testing EW, comms jamming and counter-drone capabilities. The exercise marks an unusually overt rehearsal of Article 5 retaliation against Moscow.",
-      "region": "NATO / Russia",
-      "source": "telegram",
+      "category": "incident",
+      "title": "Israeli intelligence warns Tehran may be preparing surprise attack amid talks",
+      "summary": "Jerusalem Post cites intelligence officials warning that Iran could be planning a surprise attack even as Hormuz/non-attack diplomacy advances, while Fortune reports the generous US terms are themselves making Tehran more suspicious of a setup. The warning lands as threat level holds at 9/10 (CRITICAL) and breakout time remains ~1-2 weeks.",
+      "region": "Iran",
+      "source": "incidents,global_metrics",
       "confidence": "medium"
+    },
+    {
+      "severity": "high",
+      "category": "asset_movement",
+      "title": "US deploys defense and tech 'umbrella' to shield commercial ships in Strait of Hormuz",
+      "summary": "DefenseScoop reports the US is deploying an integrated defense and technology 'umbrella' over shipping in the Strait of Hormuz, as ynetnews notes the US military build-up around Iran continues to 'test the balance of power' through the talks. USS Florida (SSGN) remains on station in the Persian Gulf alongside Red Sea carrier and amphibious groups (Eisenhower, Bataan, Carney, Mason, Laboon).",
+      "region": "Strait of Hormuz",
+      "source": "global_metrics,assets",
+      "confidence": "high"
     },
     {
       "severity": "medium",
       "category": "incident",
-      "title": "Heavy overnight Russian missile barrage hits Kyiv industrial and admin sites",
-      "summary": "Rybar (~113K views) reports multiple missile impacts in Kyiv's Solomyansky district overnight, striking the 'Lahoda' business park, the Kyiv aviation plant, a former relay-and-automation plant and an armored-vehicles facility, with fires across the capital. The wave follows the disputed Oreshnik MIRV strikes flagged in prior cycles and signals sustained Russian targeting of Ukrainian defense-industrial infrastructure.",
-      "region": "Kyiv, Ukraine",
-      "source": "telegram",
-      "confidence": "medium"
+      "title": "Israeli strikes kill Gaza infant, parents and five police officers in central Gaza",
+      "summary": "Reuters, Al Jazeera and The National report Israeli strikes in central Gaza killed a six-month-old boy and his parents, with a separate Reuters dispatch citing Gaza police saying five officers were also killed in a post-warning strike on a residential building. The Guardian additionally reports Israeli bombardment reducing buildings to craters in southern Lebanon, indicating continued multi-front kinetic activity even as Iran diplomacy proceeds.",
+      "region": "Gaza / Southern Lebanon",
+      "source": "incidents",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "Despite a near-final US-Iran framework, Khamenei's reported insistence on retaining 60% enriched uranium, a GOP-hawk revolt in Washington, and a fresh White House shooting incident are pulling the strategic picture back toward crisis even as carriers remain forward-deployed and Russia escalates strikes on Kyiv.",
+  "analysis_note": "US-Iran diplomacy is advancing toward a formal Hormuz/non-attack framework with NYT-level confirmation, but Israeli intel warns of an Iranian sucker-punch, Russia has reportedly used MIRV-capable Oreshnik IRBMs against Kiev, and Israeli kinetic operations against Gaza and southern Lebanon continue unabated \u2014 keeping the threat board at CRITICAL despite the diplomatic track.",
   "meta": {
-    "input_tokens": 24272,
+    "input_tokens": 24110,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2944,
-    "cost_usd": 0.2191,
-    "wall_time_s": 49.5
+    "output_tokens": 2496,
+    "cost_usd": 0.2071,
+    "wall_time_s": 38.1
   }
 }
