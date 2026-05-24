@@ -73,15 +73,16 @@ class WarDashboard {
           <div class="clock" id="clock">--:--:-- UTC</div>
         </div>
       </div>
-      <div id="ai-alerts-bar" class="ai-alerts-bar ai-alerts-empty">
-        <div class="ai-alerts-header">
-          <span class="ai-alerts-icon">⚠</span>
-          <span class="ai-alerts-title">AI ALERTS</span>
-          <span class="ai-alerts-badge">CLAUDE OPUS 4.7</span>
-          <span class="ai-alerts-note" id="ai-alerts-note">Awaiting first analysis…</span>
-          <span class="ai-alerts-timestamp" id="ai-alerts-timestamp"></span>
+      <div id="ai-marquee" class="ai-marquee ai-marquee-empty">
+        <div class="ai-marquee-label">
+          <span class="ai-marquee-icon">⚠</span>
+          <span class="ai-marquee-title">AI ALERTS</span>
+          <span class="ai-marquee-badge">CLAUDE OPUS 4.7</span>
         </div>
-        <div class="ai-alerts-cards" id="ai-alerts-cards"></div>
+        <div class="ai-marquee-viewport">
+          <div class="ai-marquee-track" id="ai-marquee-track"></div>
+        </div>
+        <div class="ai-marquee-meta" id="ai-marquee-meta"></div>
       </div>
       <div class="dashboard">
         <!-- Left Column -->
@@ -93,6 +94,7 @@ class WarDashboard {
           </div>
           <div class="news-filter-bar" style="padding: 4px 10px;">
             <button class="news-filter active" data-filter="all">All</button>
+            <button class="news-filter news-filter-ai" data-filter="ai"><span class="news-filter-ai-icon">⚠</span> AI</button>
             <button class="news-filter" data-filter="wire">News</button>
             <button class="news-filter" data-filter="intel">Defence</button>
             <button class="news-filter" data-filter="gov">Govt</button>
@@ -272,11 +274,16 @@ class WarDashboard {
   // ── News Filters ────────────────────────────────────────────────────────
   bindNewsFilters() {
     document.querySelector('.news-filter-bar')?.addEventListener('click', (e) => {
-      if (e.target.classList.contains('news-filter')) {
+      const btn = e.target.closest('.news-filter');
+      if (btn) {
         document.querySelectorAll('.news-filter').forEach(f => f.classList.remove('active'));
-        e.target.classList.add('active');
-        this.activeFilter = e.target.dataset.filter;
-        this.renderNews();
+        btn.classList.add('active');
+        this.activeFilter = btn.dataset.filter;
+        if (this.activeFilter === 'ai') {
+          this.renderAiAlertsList();
+        } else {
+          this.renderNews();
+        }
       }
     });
   }
@@ -351,49 +358,102 @@ class WarDashboard {
   }
 
   renderAiAlerts() {
-    const bar = document.getElementById('ai-alerts-bar');
-    const cards = document.getElementById('ai-alerts-cards');
-    const note = document.getElementById('ai-alerts-note');
-    const ts = document.getElementById('ai-alerts-timestamp');
-    if (!bar || !cards) return;
+    this.renderAiMarquee();
+    if (this.activeFilter === 'ai') {
+      this.renderAiAlertsList();
+    }
+  }
+
+  _aiEsc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  renderAiMarquee() {
+    const marquee = document.getElementById('ai-marquee');
+    const track = document.getElementById('ai-marquee-track');
+    const metaEl = document.getElementById('ai-marquee-meta');
+    if (!marquee || !track) return;
 
     const data = this.aiAlerts;
     if (!data || !Array.isArray(data.alerts) || data.alerts.length === 0) {
-      bar.classList.add('ai-alerts-empty');
+      marquee.classList.add('ai-marquee-empty');
       return;
     }
-    bar.classList.remove('ai-alerts-empty');
+    marquee.classList.remove('ai-marquee-empty');
 
-    if (note) note.textContent = data.analysis_note || '';
-    if (ts && data.generated_at) {
-      const d = new Date(data.generated_at);
-      const minsAgo = Math.max(0, Math.round((Date.now() - d.getTime()) / 60000));
-      ts.textContent = `Updated ${minsAgo}m ago`;
+    const esc = this._aiEsc.bind(this);
+    const bullet = ' &nbsp;<span class="ai-marquee-bullet">●</span>&nbsp; ';
+    const parts = [];
+    if (data.analysis_note) {
+      parts.push(`<span class="ai-marquee-note">${esc(data.analysis_note)}</span>`);
+    }
+    data.alerts.forEach(a => {
+      const sev = (a.severity || 'medium').toLowerCase();
+      parts.push(
+        `<span class="ai-marquee-item-sev ai-marquee-sev-${sev}">[${esc(sev.toUpperCase())}]</span> ` +
+        `<span class="ai-marquee-item-title">${esc(a.title)}</span>`
+      );
+    });
+    // Duplicate the content so the loop reads as continuous
+    const inner = parts.join(bullet);
+    track.innerHTML = inner + bullet + inner + bullet;
+
+    if (metaEl && data.generated_at) {
+      const minsAgo = Math.max(0, Math.round((Date.now() - new Date(data.generated_at).getTime()) / 60000));
+      metaEl.textContent = `${minsAgo}m ago`;
+    }
+  }
+
+  renderAiAlertsList() {
+    const content = document.getElementById('news-content');
+    if (!content) return;
+
+    const data = this.aiAlerts;
+    if (!data || !Array.isArray(data.alerts) || data.alerts.length === 0) {
+      content.innerHTML = `<div class="feed-loading">Awaiting first AI analysis…</div>`;
+      return;
     }
 
-    const esc = (s) => String(s == null ? '' : s)
-      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    const esc = this._aiEsc.bind(this);
+    const tsAgo = data.generated_at
+      ? Math.max(0, Math.round((Date.now() - new Date(data.generated_at).getTime()) / 60000))
+      : null;
+    const meta = data.meta || {};
+    const cost = (typeof meta.cost_usd === 'number') ? meta.cost_usd.toFixed(4) : null;
 
-    cards.innerHTML = data.alerts.map(a => {
-      const sev = (a.severity || 'medium').toLowerCase();
-      const conf = (a.confidence || 'medium').toLowerCase();
-      const cat = (a.category || '').replace(/_/g, ' ');
-      return `
-        <div class="ai-alert-card ai-alert-${sev}">
-          <div class="ai-alert-top">
-            <span class="ai-alert-sev ai-alert-sev-${sev}">${esc(sev.toUpperCase())}</span>
-            <span class="ai-alert-cat">${esc(cat)}</span>
-            <span class="ai-alert-region">${esc(a.region || '')}</span>
-          </div>
-          <div class="ai-alert-title">${esc(a.title)}</div>
-          <div class="ai-alert-summary">${esc(a.summary)}</div>
-          <div class="ai-alert-meta">
-            <span>source: ${esc(a.source || '')}</span>
-            <span class="ai-alert-conf ai-alert-conf-${conf}">conf: ${esc(conf)}</span>
-          </div>
+    content.innerHTML = `
+      <div class="ai-alerts-panel-header">
+        <div class="ai-alerts-panel-note">${esc(data.analysis_note || '')}</div>
+        <div class="ai-alerts-panel-meta">
+          ${tsAgo !== null ? `<span>Updated ${tsAgo}m ago</span>` : ''}
+          ${cost ? `<span>cost: $${cost}</span>` : ''}
+          <span class="ai-alerts-panel-model">${esc(data.model || 'claude-opus-4-7')} · ${esc(data.effort || 'xhigh')}</span>
         </div>
-      `;
-    }).join('');
+      </div>
+      <div class="ai-alerts-panel-list">
+        ${data.alerts.map(a => {
+          const sev = (a.severity || 'medium').toLowerCase();
+          const conf = (a.confidence || 'medium').toLowerCase();
+          const cat = (a.category || '').replace(/_/g, ' ');
+          return `
+            <div class="ai-alert-card ai-alert-${sev}">
+              <div class="ai-alert-top">
+                <span class="ai-alert-sev ai-alert-sev-${sev}">${esc(sev.toUpperCase())}</span>
+                <span class="ai-alert-cat">${esc(cat)}</span>
+                <span class="ai-alert-region">${esc(a.region || '')}</span>
+              </div>
+              <div class="ai-alert-title">${esc(a.title)}</div>
+              <div class="ai-alert-summary">${esc(a.summary)}</div>
+              <div class="ai-alert-meta">
+                <span>source: ${esc(a.source || '')}</span>
+                <span class="ai-alert-conf ai-alert-conf-${conf}">conf: ${esc(conf)}</span>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
   }
 
   async fetchLiveData() {
