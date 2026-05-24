@@ -17,10 +17,16 @@ ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 OUTPUT_FILE = os.path.join(ROOT_DIR, "telegram-osint.json")
 
 CHANNELS = [
-    {"id": "middleeastosint", "label": "Middle East OSINT"},
-    {"id": "intelslava", "label": "Intel Slava Z"},
-    {"id": "ukraine_frontline", "label": "Ukraine Frontline"},
-    {"id": "CIG_telegram", "label": "Conflict Intel Team"},
+    {"id": "osintdefender", "label": "OSINTdefender"},
+    {"id": "bellingcat", "label": "Bellingcat"},
+    {"id": "rybar", "label": "Rybar"},
+    {"id": "DeepStateUA", "label": "DeepState UA"},
+    {"id": "CITeam", "label": "Conflict Intel Team"},
+    {"id": "AuroraIntel", "label": "Aurora Intel"},
+    {"id": "Middle_East_Spectator", "label": "ME Spectator"},
+    {"id": "AlJazeeraEnglish", "label": "Al Jazeera"},
+    {"id": "timesofisrael", "label": "Times of Israel"},
+    {"id": "OsintTV", "label": "OsintTV"}
 ]
 
 URGENT_KEYWORDS = [
