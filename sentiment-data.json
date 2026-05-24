@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 32,
+    "positive": 31,
     "negative": 57,
-    "neutral": 11,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,16 +11,21 @@
       },
       {
         "word": "iran",
-        "count": 32,
+        "count": 35,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 15,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "rubio",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hormuz",
         "count": 13,
         "sentiment": "neutral"
       },
@@ -41,12 +46,7 @@
       },
       {
         "word": "strait",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hormuz",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -60,17 +60,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "judge",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "fund",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "house",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -90,11 +90,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "dismisses",
         "count": 6,
         "sentiment": "neutral"
@@ -110,6 +105,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "war",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
         "word": "ceasefire",
         "count": 6,
         "sentiment": "neutral"
@@ -120,7 +120,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "attack",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "white",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reopening",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -128,11 +138,6 @@
         "word": "intelligence",
         "count": 5,
         "sentiment": "positive"
-      },
-      {
-        "word": "thousands",
-        "count": 5,
-        "sentiment": "neutral"
       },
       {
         "word": "tied",
@@ -148,49 +153,39 @@
         "word": "indictment",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "ebola",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-24T06:34:15.324211+00:00",
-    "nextRefresh": "2026-05-24T06:34:15.324211+00:00",
+    "generatedAt": "2026-05-24T09:18:57.754387+00:00",
+    "nextRefresh": "2026-05-24T09:18:57.754387+00:00",
     "articlesAnalyzed": 366,
-    "matchedMentions": 176,
+    "matchedMentions": 180,
     "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 50,
-    "negative": 32,
-    "neutral": 18,
+    "positive": 46,
+    "negative": 34,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "india",
-        "count": 19,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "rubio",
-        "count": 15,
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "marco",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sharma",
-        "count": 9,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -199,18 +194,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "case",
+        "word": "rahul",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "death",
+        "word": "allies",
         "count": 8,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "twisha",
+        "word": "jaishankar",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sharma",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -219,112 +219,112 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jaishankar",
+        "word": "anarchy",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "party",
+        "word": "slams",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
-        "word": "supreme",
+        "word": "gandhi",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "conspiracy",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "remark",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "court",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "charan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "apologises",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "bumrah",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "takes",
+        "word": "talks",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "pant",
+        "word": "quote",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "cockroach",
-        "count": 5,
-        "sentiment": "neutral"
+        "word": "grave",
+        "count": 4,
+        "sentiment": "negative"
       },
       {
-        "word": "updates",
+        "word": "aimed",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "never",
+        "word": "spreading",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "near",
+        "word": "strategic",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "dmk",
+        "word": "trade",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "rips",
+        "word": "trying",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "topple",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "support",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "allies",
+        "word": "delhi",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "trinamool",
+        "word": "twisha",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "death",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "case",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cji",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-24T06:34:29.104832+00:00",
-    "nextRefresh": "2026-05-24T06:34:29.104832+00:00",
+    "generatedAt": "2026-05-24T09:19:10.429790+00:00",
+    "nextRefresh": "2026-05-24T09:19:10.429790+00:00",
     "articlesAnalyzed": 478,
-    "matchedMentions": 96,
-    "uniquePersonalities": 45,
+    "matchedMentions": 101,
+    "uniquePersonalities": 54,
     "dataSource": "live-rss"
   }
 }
