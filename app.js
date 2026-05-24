@@ -46,7 +46,11 @@ class WarDashboard {
     // Live OSINT Data (Incidents & Assets)
     this.fetchLiveData();
     setInterval(() => this.fetchLiveData(), 60000); // Live Data: 1 min
-    
+
+    // AI Alerts (refreshed when the cron run finishes — every ~hour)
+    this.fetchAiAlerts();
+    setInterval(() => this.fetchAiAlerts(), 5 * 60 * 1000); // poll every 5 min
+
     this.initSentimentRefresh();
   }
 
@@ -68,6 +72,16 @@ class WarDashboard {
           <div class="status-item"><span class="status-dot alert"></span> DEFCON 3</div>
           <div class="clock" id="clock">--:--:-- UTC</div>
         </div>
+      </div>
+      <div id="ai-alerts-bar" class="ai-alerts-bar ai-alerts-empty">
+        <div class="ai-alerts-header">
+          <span class="ai-alerts-icon">⚠</span>
+          <span class="ai-alerts-title">AI ALERTS</span>
+          <span class="ai-alerts-badge">CLAUDE OPUS 4.7</span>
+          <span class="ai-alerts-note" id="ai-alerts-note">Awaiting first analysis…</span>
+          <span class="ai-alerts-timestamp" id="ai-alerts-timestamp"></span>
+        </div>
+        <div class="ai-alerts-cards" id="ai-alerts-cards"></div>
       </div>
       <div class="dashboard">
         <!-- Left Column -->
@@ -321,6 +335,65 @@ class WarDashboard {
       { title: 'Oil prices surge 5% on fears of Strait of Hormuz disruption', source: 'Strait of Hormuz', tier: 'alert', date: new Date(Date.now() - 68400000), link: '#' },
     ];
     this.newsItems.push(...staticItems);
+  }
+
+  // ── AI Alerts (Claude Opus 4.7) ─────────────────────────────────────────
+  async fetchAiAlerts() {
+    try {
+      const res = await fetch('alerts.json?v=' + Date.now());
+      if (!res.ok) return;
+      const data = await res.json();
+      this.aiAlerts = data;
+      this.renderAiAlerts();
+    } catch (e) {
+      // alerts.json may not exist yet — that's fine
+    }
+  }
+
+  renderAiAlerts() {
+    const bar = document.getElementById('ai-alerts-bar');
+    const cards = document.getElementById('ai-alerts-cards');
+    const note = document.getElementById('ai-alerts-note');
+    const ts = document.getElementById('ai-alerts-timestamp');
+    if (!bar || !cards) return;
+
+    const data = this.aiAlerts;
+    if (!data || !Array.isArray(data.alerts) || data.alerts.length === 0) {
+      bar.classList.add('ai-alerts-empty');
+      return;
+    }
+    bar.classList.remove('ai-alerts-empty');
+
+    if (note) note.textContent = data.analysis_note || '';
+    if (ts && data.generated_at) {
+      const d = new Date(data.generated_at);
+      const minsAgo = Math.max(0, Math.round((Date.now() - d.getTime()) / 60000));
+      ts.textContent = `Updated ${minsAgo}m ago`;
+    }
+
+    const esc = (s) => String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+    cards.innerHTML = data.alerts.map(a => {
+      const sev = (a.severity || 'medium').toLowerCase();
+      const conf = (a.confidence || 'medium').toLowerCase();
+      const cat = (a.category || '').replace(/_/g, ' ');
+      return `
+        <div class="ai-alert-card ai-alert-${sev}">
+          <div class="ai-alert-top">
+            <span class="ai-alert-sev ai-alert-sev-${sev}">${esc(sev.toUpperCase())}</span>
+            <span class="ai-alert-cat">${esc(cat)}</span>
+            <span class="ai-alert-region">${esc(a.region || '')}</span>
+          </div>
+          <div class="ai-alert-title">${esc(a.title)}</div>
+          <div class="ai-alert-summary">${esc(a.summary)}</div>
+          <div class="ai-alert-meta">
+            <span>source: ${esc(a.source || '')}</span>
+            <span class="ai-alert-conf ai-alert-conf-${conf}">conf: ${esc(conf)}</span>
+          </div>
+        </div>
+      `;
+    }).join('');
   }
 
   async fetchLiveData() {
