@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-24T19:15:08.165714+00:00",
+  "generated_at": "2026-05-24T20:50:29.056340+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "telegram_signal",
-      "title": "Russia reportedly fires two 'Oreshnik' hypersonic IRBMs with MIRVs at Kiev region",
-      "summary": "ME Spectator (~54K views) reports Russia launched two Oreshnik intermediate-range ballistic missiles at Ukraine, with footage showing multiple independently targetable reentry vehicles (MIRVs) impacting the Kiev region. The platform is normally configured for nuclear payloads and is described as nearly impossible to intercept; Rybar separately confirms overnight strikes hit Kiev's Solomenskyi district, the Lahoda business park and an aviation plant, plus a fuel depot in Myrhorod.",
-      "region": "Ukraine",
-      "source": "telegram",
-      "confidence": "medium"
+      "category": "incident",
+      "title": "Houthi missile strikes Israel, raising fears of renewed Red Sea shipping war",
+      "summary": "AP News and The Times of Israel report a Houthi ballistic missile attack on Israel that has stoked fears of a renewed Houthi campaign against Red Sea shipping. The strike comes with USS Eisenhower, USS Bataan, and destroyers Carney, Mason and Laboon all on station off Yemen, and with Houthi status flagged 'Elevated \u2014 Multiple Recent Attacks' in global metrics.",
+      "region": "Red Sea / Israel",
+      "source": "incidents,assets,global_metrics",
+      "confidence": "high"
     },
     {
       "severity": "high",
       "category": "diplomatic",
-      "title": "US official confirms Washington and Tehran agree in principle to reopen Strait of Hormuz",
-      "summary": "The New York Times, citing a US official, reports the United States and Iran have reached an in-principle agreement to reopen the Strait of Hormuz, with DW and BBC echoing an 'upbeat tone' on both sides. The Times of Israel adds the framework reportedly bars US and allied strikes on Iran and its proxies, and vice versa \u2014 a sweeping non-attack clause beyond shipping access.",
-      "region": "Strait of Hormuz",
-      "source": "incidents",
+      "title": "Trump tells negotiators 'not to rush' Iran deal, walking back imminent-agreement signals",
+      "summary": "Politico and BBC report President Trump has instructed US negotiators not to rush into the Iran deal he previously described as 'largely negotiated,' a notable reversal from the in-principle Hormuz agreement reported earlier this cycle. NPR and PBS frame the move as Washington reassessing terms as Republican hawks publicly attack the emerging framework.",
+      "region": "Iran",
+      "source": "incidents,sentiment",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Israeli intelligence warns Tehran may be preparing surprise attack amid talks",
-      "summary": "Jerusalem Post cites intelligence officials warning that Iran could be planning a surprise attack even as Hormuz/non-attack diplomacy advances, while Fortune reports the generous US terms are themselves making Tehran more suspicious of a setup. The warning lands as threat level holds at 9/10 (CRITICAL) and breakout time remains ~1-2 weeks.",
+      "category": "nuclear",
+      "title": "Khamenei rules out uranium transfer, deadlocking US-Iran nuclear track",
+      "summary": "A Reuters exclusive cites Iranian sources saying Supreme Leader Khamenei has insisted Iran's 60% enriched uranium stockpile must remain inside the country, while Iran publicly denies any agreement to hand it over (TradingView). Ynetnews adds Trump assured Israel there would be 'no Iran deal without dismantling the nuclear program' \u2014 a direct collision point with breakout time still estimated at ~1\u20132 weeks.",
       "region": "Iran",
-      "source": "incidents,global_metrics",
+      "source": "global_metrics",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "telegram_signal",
+      "title": "NATO rehearses deep strikes into Russia in 'Arcade Strike' exercise from London HQ",
+      "summary": "DeepState UA (~195K views) reports NATO's British-led Allied Rapid Reaction Corps (ARRC) conducted Operation Arcade Strike from a mothballed platform at London's Charing Cross station, war-gaming deep strikes into Russia in response to a simulated Russian invasion of a Baltic state. The exercise included EW, comms suppression and counter-drone elements \u2014 a notable signal of NATO contingency posture amid ongoing Oreshnik strikes on Ukraine.",
+      "region": "Europe / Russia",
+      "source": "telegram",
       "confidence": "medium"
     },
     {
-      "severity": "high",
-      "category": "asset_movement",
-      "title": "US deploys defense and tech 'umbrella' to shield commercial ships in Strait of Hormuz",
-      "summary": "DefenseScoop reports the US is deploying an integrated defense and technology 'umbrella' over shipping in the Strait of Hormuz, as ynetnews notes the US military build-up around Iran continues to 'test the balance of power' through the talks. USS Florida (SSGN) remains on station in the Persian Gulf alongside Red Sea carrier and amphibious groups (Eisenhower, Bataan, Carney, Mason, Laboon).",
-      "region": "Strait of Hormuz",
-      "source": "global_metrics,assets",
-      "confidence": "high"
-    },
-    {
       "severity": "medium",
-      "category": "incident",
-      "title": "Israeli strikes kill Gaza infant, parents and five police officers in central Gaza",
-      "summary": "Reuters, Al Jazeera and The National report Israeli strikes in central Gaza killed a six-month-old boy and his parents, with a separate Reuters dispatch citing Gaza police saying five officers were also killed in a post-warning strike on a residential building. The Guardian additionally reports Israeli bombardment reducing buildings to craters in southern Lebanon, indicating continued multi-front kinetic activity even as Iran diplomacy proceeds.",
-      "region": "Gaza / Southern Lebanon",
-      "source": "incidents",
+      "category": "sentiment_shift",
+      "title": "GOP hawks publicly revolt against Trump's Iran framework as 'nightmare for Israel'",
+      "summary": "US news sentiment swings sharply negative (58%) with 'hawks', 'Hegseth', 'Gabbard', 'Rubio', 'GOP' and 'criticism' surging in the word cloud, while Middle East Eye reports Republican hawks are openly attacking Trump's emerging Iran deal as a 'nightmare for Israel.' The intra-administration fracture coincides with Trump's 'don't rush' instruction and lawmakers demanding briefings on the non-attack clause.",
+      "region": "United States",
+      "source": "sentiment,incidents",
       "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran diplomacy is advancing toward a formal Hormuz/non-attack framework with NYT-level confirmation, but Israeli intel warns of an Iranian sucker-punch, Russia has reportedly used MIRV-capable Oreshnik IRBMs against Kiev, and Israeli kinetic operations against Gaza and southern Lebanon continue unabated \u2014 keeping the threat board at CRITICAL despite the diplomatic track.",
+  "analysis_note": "The US-Iran Hormuz framework is visibly wobbling: Trump has pumped the brakes, Khamenei has hardened on uranium, GOP hawks are in open revolt, and a fresh Houthi missile strike on Israel underscores that proxy escalation has not paused for diplomacy.",
   "meta": {
-    "input_tokens": 24110,
+    "input_tokens": 25550,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2496,
-    "cost_usd": 0.2071,
-    "wall_time_s": 38.1
+    "output_tokens": 3341,
+    "cost_usd": 0.2354,
+    "wall_time_s": 48.6
   }
 }
