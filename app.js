@@ -2031,7 +2031,111 @@ class WarDashboard {
       return `<span class="wc-word ${colorClass}" style="font-size:${size.toFixed(1)}px;opacity:${opacity.toFixed(2)};animation-delay:${(i * 20)}ms">${w.word}</span>`;
     }).join('');
   }
+  renderTelegramIntel() {
+    const content = document.getElementById('left-bottom-content');
+    
+    if (!this.telegramData) {
+      content.innerHTML = `<div style="padding:20px; text-align:center; color:#64748b;">Loading Telegram OSINT...</div>`;
+      return;
+    }
+
+    const { topPosts, urgentPosts } = this.telegramData;
+    let html = `<div style="overflow-y:auto; height: 100%; padding: 10px;">`;
+    
+    if (urgentPosts && urgentPosts.length > 0) {
+      html += `<div style="margin-bottom:15px; border-bottom: 1px solid rgba(239, 68, 68, 0.3); padding-bottom:10px;">
+        <div style="color:var(--status-alert); font-weight:bold; margin-bottom:10px; font-size:12px;">🚨 URGENT ALERTS</div>`;
+      urgentPosts.slice(0, 3).forEach(post => {
+        html += `
+          <div style="background:rgba(239, 68, 68, 0.1); padding:10px; margin-bottom:8px; border-radius:4px; border-left:3px solid var(--status-alert);">
+            <div style="font-size:11px; color:var(--text-secondary); margin-bottom:4px;">@${post.channelLabel} • ${(post.views/1000).toFixed(1)}k views</div>
+            <div style="font-size:12px; line-height:1.4;">${post.text.substring(0, 150)}...</div>
+          </div>
+        `;
+      });
+      html += `</div>`;
+    }
+
+    html += `<div style="color:var(--text-secondary); font-weight:bold; margin-bottom:10px; font-size:12px;">TOP INTEL</div>`;
+    topPosts.slice(0, 10).forEach(post => {
+      html += `
+        <div style="background:rgba(255,255,255,0.02); padding:10px; margin-bottom:8px; border-radius:4px; border-left:3px solid #64748b;">
+          <div style="font-size:11px; color:var(--text-secondary); margin-bottom:4px;">@${post.channelLabel} • ${(post.views/1000).toFixed(1)}k views</div>
+          <div style="font-size:12px; line-height:1.4;">${post.text.substring(0, 120)}...</div>
+        </div>
+      `;
+    });
+
+    html += `</div>`;
+    content.innerHTML = html;
+  }
+
+  addFirmsHotspots() {
+    if (!this.globalMetrics || !this.globalMetrics.firms) return;
+    
+    if (!this.layerGroups['conflict-zones']) {
+      this.layerGroups['conflict-zones'] = L.layerGroup().addTo(this.map);
+    }
+    const group = this.layerGroups['conflict-zones'];
+    
+    const firms = this.globalMetrics.firms.highIntensityAnomalies || [];
+    firms.forEach(fire => {
+      const circle = L.circleMarker([fire.lat, fire.lon], {
+        radius: 6 + (fire.frp / 50),
+        fillColor: '#ef4444',
+        color: '#b91c1c',
+        weight: 1,
+        opacity: 0.8,
+        fillOpacity: 0.6,
+        className: 'pulse-slow'
+      });
+      
+      circle.bindPopup(`
+        <div style="font-family:'JetBrains Mono',monospace;">
+          <strong style="color:#ef4444;">THERMAL ANOMALY (FIRMS)</strong><br>
+          <strong>FRP:</strong> ${fire.frp} MW<br>
+          <strong>Date:</strong> ${fire.date} ${fire.time}<br>
+          <strong>Confidence:</strong> ${fire.confidence}
+        </div>
+      `, { className: 'custom-marker-popup' });
+      
+      circle.addTo(group);
+    });
+  }
+
+  addAisVessels() {
+    if (!this.globalMetrics || !this.globalMetrics.ais) return;
+    
+    if (!this.layerGroups['maritime']) {
+      this.layerGroups['maritime'] = L.layerGroup().addTo(this.map);
+    }
+    const group = this.layerGroups['maritime'];
+    
+    const vessels = this.globalMetrics.ais.vessels || [];
+    vessels.forEach(v => {
+      const marker = L.marker([v.lat, v.lon], {
+        icon: L.divIcon({
+          className: 'maritime-marker live-ais',
+          html: '<div style="color:#3b82f6; font-size:16px;">🚢</div>',
+          iconSize: [20, 20]
+        })
+      });
+      
+      marker.bindPopup(`
+        <div style="font-family:'JetBrains Mono',monospace;">
+          <strong style="color:#3b82f6;">AIS VESSEL</strong><br>
+          <strong>MMSI:</strong> ${v.mmsi}<br>
+          <strong>Name:</strong> ${v.name || 'Unknown'}<br>
+          <strong>Speed:</strong> ${v.speed || 0} kts<br>
+          <strong>Heading:</strong> ${v.heading || 0}°
+        </div>
+      `, { className: 'custom-marker-popup' });
+      
+      marker.addTo(group);
+    });
+  }
 }
+
 
 // ── Initialize ──────────────────────────────────────────────────────────────
 const dashboard = new WarDashboard();
