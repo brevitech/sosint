@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-25T19:23:37.808004+00:00",
+  "generated_at": "2026-05-25T21:01:36.339312+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
-      "severity": "critical",
+      "severity": "high",
       "category": "incident",
-      "title": "Iran rebuilding missile production and underground 'missile cities' faster than expected",
-      "summary": "The Times of Israel and Jerusalem Post report Iran is reconstituting ballistic missile production faster than US-Israeli planners anticipated. Rybar (~87K views, citing leaked NYT-stage US intelligence and satellite imagery) corroborates that the IRGC has 'practically restored' the underground missile-city tunnel entrances damaged in earlier US/Israeli strikes \u2014 undercutting the premise of the 'largely negotiated' Hormuz framework while threat level remains 9/CRITICAL.",
+      "title": "Trump reportedly weighing new strikes on Iran despite 'largely negotiated' deal",
+      "summary": "The New York Times reports President Trump is actively weighing options for fresh strikes on Iran even as he publicly claims the Hormuz/ceasefire deal is 'largely negotiated.' Rybar (~95K views) corroborates that US intelligence officials continue to push back against the president, with NYT-staged leaks since May 12 detailing simultaneous US-Israeli strike preparation. Fortune notes Tehran is growing more suspicious of generous ceasefire terms, suggesting both sides anticipate renewed kinetic action.",
       "region": "Iran",
       "source": "incidents,telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "Larestan missile base reportedly repaired and back in operation near Persian Gulf",
-      "summary": "Middle East Spectator (~54K views) reports that the entrance to the Larestan underground missile complex in southern Iran near the Persian Gulf has been repaired and the base is now operational again. The reactivation, paired with broader IRGC reconstitution reporting, places renewed missile threat directly on US naval assets in the Gulf, including USS Florida (SSGN) tracked at ~26\u00b0N, 51\u00b0E.",
-      "region": "Southern Iran / Persian Gulf",
-      "source": "telegram,assets",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Iran says Mojtaba Khamenei suffered only 'superficial' wounds in US-Israel strike",
-      "summary": "T\u00fcrkiye Today, The Straits Times and Breakingthenews.net report Iranian health officials confirming that Mojtaba Khamenei \u2014 son of and possible successor to the Supreme Leader \u2014 was wounded in a recent US-Israel strike, characterized by Tehran as 'superficial.' The acknowledgement is the first public Iranian confirmation that strikes reached the Supreme Leader's immediate family, a significant escalation threshold even as Tehran insists no deal is imminent.",
+      "category": "nuclear",
+      "title": "Khamenei sets red line: enriched uranium must remain inside Iran",
+      "summary": "A Reuters exclusive cited in the nuclear feed reports Iranian sources saying Supreme Leader Khamenei has personally ruled out transferring Iran's 60% U-235 stockpile out of the country \u2014 a core US demand. Russia's IAEA envoy publicly labeled the US nuclear conditions as NPT violations. With breakout estimated at 1-2 weeks, the position effectively forecloses the central nonproliferation plank of any deal.",
       "region": "Iran",
-      "source": "incidents",
+      "source": "global_metrics",
       "confidence": "high"
     },
     {
       "severity": "medium",
       "category": "diplomatic",
-      "title": "Republican hawks publicly attack Trump's emerging Iran deal as 'nightmare for Israel'",
-      "summary": "Middle East Eye and parallel NYT analysis report Republican hawks, joined by Rep. Massie (cited 6x in US sentiment word cloud), are openly attacking Trump's emerging Iran framework, with NYT framing Netanyahu as reduced from 'co-pilot' to 'mere passenger.' US sentiment remains 56% negative with 'trump,' 'iran,' and 'deal' dominating discourse, signaling domestic political constraints on any Hormuz-reopening agreement.",
-      "region": "United States",
-      "source": "incidents,sentiment",
+      "title": "Iran says US deal 'not imminent' as Trump tells negotiators 'not to rush'",
+      "summary": "BBC reports Iranian officials publicly stating a deal with Washington is not imminent, while a parallel BBC dispatch quotes Trump instructing US negotiators 'not to rush.' The dual messaging \u2014 alongside Israeli opposition leader Lapid calling the emerging framework 'bad for the region' (PBS) and a New Yorker piece framing any plausible deal as 'a humiliation' \u2014 points to deliberate slowing of the negotiating tempo on both sides.",
+      "region": "Iran / US",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "medium",
-      "category": "asset_movement",
-      "title": "US deploying defense 'umbrella' of tech and assets to shield Strait of Hormuz shipping",
-      "summary": "DefenseScoop reports the US is rolling out an integrated 'umbrella' of defensive and technology assets to protect commercial shipping transiting the Strait of Hormuz, as GPS jamming continues to disrupt navigation across the Middle East (The Week). The posture aligns with USS Abraham Lincoln deployed in the Arabian Sea (~21\u00b0N, 60\u00b0E) and USS Florida in the Persian Gulf, indicating Washington is hedging the deal track with hardened force protection.",
-      "region": "Strait of Hormuz",
-      "source": "global_metrics,assets",
+      "category": "incident",
+      "title": "Israeli strikes on Gaza displacement camps kill women, children, infant",
+      "summary": "Al Jazeera, TRT World, Anadolu and Yeni Safak report multiple Israeli strikes today on displaced-Palestinians tent camps in Gaza, killing a woman and child in one incident and three family members including an infant in another. The clustering of four geolocated strikes around 31.27\u201331.75N / 34.2\u201334.7E indicates a fresh tempo of operations against displacement sites despite the broader regional focus on Iran negotiations.",
+      "region": "Gaza",
+      "source": "incidents",
       "confidence": "high"
+    },
+    {
+      "severity": "medium",
+      "category": "telegram_signal",
+      "title": "FSB claims it foiled maritime sabotage on Belgian-origin gas tanker at Ust-Luga",
+      "summary": "Rybar (~114K views) reports the FSB intercepted an alleged sabotage attempt against the gas carrier 'Arrhenius,' which had arrived at Russia's Ust-Luga port from Antwerp, Belgium. Russian authorities say several maritime explosive devices were found in the engine room. The claim \u2014 paired with recent Ukrainian strikes on Ust-Luga infrastructure \u2014 signals a potential new front of underwater/port sabotage targeting Russia's gas logistics chain, with implications for Baltic shipping risk.",
+      "region": "Baltic Sea / Russia",
+      "source": "telegram",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran negotiations are visibly fraying as Tehran rebuilds missile infrastructure, confirms a strike wounded the Supreme Leader's son, and Republican hawks revolt against Trump's framework \u2014 even as the US hardens shipping defenses around Hormuz.",
+  "analysis_note": "Threat level remains CRITICAL at 9/10: even as Trump publicly markets a 'largely negotiated' Iran deal, NYT reporting and Khamenei's hardening uranium red line indicate both sides are simultaneously preparing for renewed strikes, while parallel maritime-sabotage signaling in the Baltic underscores that the Ukraine theater is also escalating in non-kinetic vectors.",
   "meta": {
-    "input_tokens": 25350,
+    "input_tokens": 27022,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2478,
-    "cost_usd": 0.2128,
-    "wall_time_s": 39.1
+    "output_tokens": 2953,
+    "cost_usd": 0.2331,
+    "wall_time_s": 47.3
   }
 }

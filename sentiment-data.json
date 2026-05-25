@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 34,
-    "negative": 56,
+    "positive": 35,
+    "negative": 55,
     "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 64,
+        "count": 66,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 47,
+        "count": 49,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 36,
+        "count": 37,
         "sentiment": "neutral"
       },
       {
@@ -35,16 +35,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "abraham",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "accords",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "peace",
         "count": 9,
         "sentiment": "positive"
@@ -55,12 +45,27 @@
         "sentiment": "negative"
       },
       {
-        "word": "us-iran",
+        "word": "amid",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abraham",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "accords",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "us-iran",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -70,12 +75,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "israel",
+        "word": "encyclical",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "encyclical",
+        "word": "oil",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "prices",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -83,11 +93,6 @@
         "word": "criticism",
         "count": 6,
         "sentiment": "negative"
-      },
-      {
-        "word": "massie",
-        "count": 6,
-        "sentiment": "neutral"
       },
       {
         "word": "regulation",
@@ -100,22 +105,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "oil",
+        "word": "against",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "prices",
+        "word": "down",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ebola",
+        "word": "rubio",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -125,7 +125,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "human",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "emerging",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "gop",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "massie",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -133,34 +153,14 @@
         "word": "autopsy",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "robust",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "manifesto",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ponders",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "future",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-25T19:23:08.619193+00:00",
-    "nextRefresh": "2026-05-25T19:23:08.619193+00:00",
-    "articlesAnalyzed": 344,
-    "matchedMentions": 153,
-    "uniquePersonalities": 47,
+    "generatedAt": "2026-05-25T21:01:12.046077+00:00",
+    "nextRefresh": "2026-05-25T21:01:12.046077+00:00",
+    "articlesAnalyzed": 346,
+    "matchedMentions": 159,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
@@ -169,32 +169,17 @@
     "neutral": 19,
     "wordCloud": [
       {
-        "word": "mann",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ndtv",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "punjab",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
         "word": "party",
-        "count": 9,
+        "count": 11,
         "sentiment": "positive"
       },
       {
-        "word": "padma",
-        "count": 8,
+        "word": "rahul",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "ipl",
+        "word": "congress",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -204,18 +189,58 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 7,
-        "sentiment": "neutral"
+        "word": "support",
+        "count": 6,
+        "sentiment": "positive"
       },
       {
-        "word": "congress",
+        "word": "gandhi",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "kohli",
+        "word": "delhi",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ndtv",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "punjab",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mann",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cji",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cockroach",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "janta",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "padma",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "karnataka",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -224,13 +249,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "team",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "team",
+        "word": "kohli",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ipl",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shivakumar",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -269,47 +304,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "exclusive",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "delhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "centre",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "karnataka",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cbse",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "row",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "singh",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "man",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-25T19:23:23.559755+00:00",
-    "nextRefresh": "2026-05-25T19:23:23.559755+00:00",
+    "generatedAt": "2026-05-25T21:01:25.199323+00:00",
+    "nextRefresh": "2026-05-25T21:01:25.199323+00:00",
     "articlesAnalyzed": 468,
-    "matchedMentions": 101,
-    "uniquePersonalities": 49,
+    "matchedMentions": 95,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
 }
