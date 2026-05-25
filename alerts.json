@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-25T03:39:20.882058+00:00",
+  "generated_at": "2026-05-25T08:16:34.919235+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "nuclear",
-      "title": "Khamenei reportedly insists enriched uranium must remain in Iran, contradicting leaked MoU",
-      "summary": "Reuters exclusive (cited in global_metrics nuclear headlines) reports Iran's Supreme Leader Khamenei told sources that Iran's enriched uranium stockpile must stay inside the country \u2014 directly contradicting the previously leaked MoU clause requiring HEU removal. The Jerusalem Post and Haaretz corroborate that US and Iranian negotiators are making contradicting public claims on the nuclear file with hours allegedly remaining before a deal. Breakout estimate remains ~1-2 weeks at 60% U-235.",
+      "category": "incident",
+      "title": "Khamenei reportedly cut off from direct contact amid US strike fears",
+      "summary": "CBS reporting (via arabnews.jp) indicates Iran's Supreme Leader has been isolated from direct contact over fears of a US decapitation strike, even as NYT reports Trump is actively weighing options for new strikes against Iran in parallel with negotiations. The threat level remains at 9/10 with breakout still estimated at 1-2 weeks; combined signals suggest Washington is preserving a kinetic option despite Rubio's diplomatic tone.",
       "region": "Iran",
-      "source": "global_metrics,incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "diplomatic",
-      "title": "Trump tells US negotiators 'not to rush' Iran deal after signaling agreement was imminent",
-      "summary": "BBC and Politico report Trump has instructed US negotiators not to rush into a deal with Iran, a marked walk-back from his earlier statement that the agreement \u2014 including reopening the Strait of Hormuz \u2014 was 'largely negotiated.' Fortune notes Iranian negotiators are growing more suspicious as US terms appear more generous, while ynetnews reports Trump privately assured Israel no deal would proceed without dismantling Iran's nuclear program.",
-      "region": "Strait of Hormuz / Iran",
       "source": "incidents,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Israel strikes Beirut for first time since ceasefire announcement",
-      "summary": "Council on Foreign Relations and The Guardian report Israeli aircraft struck Beirut for the first time since the Israel-Hezbollah ceasefire was announced, with separate bombardment reducing buildings to craters in southern Lebanon. The strike comes as IDF maintains a high alert level despite the potential US-Iran deal, per The Jerusalem Post, raising the risk of a renewed northern front.",
-      "region": "Lebanon",
+      "category": "telegram_signal",
+      "title": "Russia reportedly fires two Oreshnik IRBMs in single night against Ukraine",
+      "summary": "Rybar (~116K views) reports that for the first time since the start of the SVO, Russian forces conducted two Oreshnik intermediate-range ballistic missile launches in a single night, striking targets in Bila Tserkva and frontline Druzhkivka alongside Tsirkon strikes on Kyiv. Combined Telegram engagement across Rybar posts exceeds 500K views, with DeepState UA confirming one of the largest sustained overnight attacks on Kyiv.",
+      "region": "Ukraine",
+      "source": "telegram",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
+      "category": "diplomatic",
+      "title": "Rubio signals 'solid' Iran deal could land Monday as GOP hawks revolt",
+      "summary": "BBC reports Secretary of State Rubio said a 'solid' US-Iran deal may be announced Monday, providing the first specific timeline. Middle East Eye reports Republican hawks are publicly attacking the emerging framework as a 'nightmare for Israel,' and NYT notes Netanyahu has been reduced from 'co-pilot' to 'passenger' in Trump's Iran strategy \u2014 pointing to a domestic political fight regardless of outcome.",
+      "region": "Washington / Iran",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "medium",
-      "category": "incident",
-      "title": "Israeli strikes kill six-month-old, parents and Gaza police officers in single day",
-      "summary": "Reuters, Haaretz, Al Jazeera and The National report a cluster of Israeli strikes across Gaza killed five police officers and a 13-year-old boy at a northern Gaza police post, a six-month-old infant and his parents in central Gaza, and three additional civilians including a one-year-old. The casualty surge coincides with Hamas being assessed as 'Degraded' but PIJ still 'Active' in global_metrics proxy tracking.",
-      "region": "Gaza",
-      "source": "incidents,global_metrics",
-      "confidence": "high"
+      "category": "telegram_signal",
+      "title": "Iran's Larestan underground missile base reportedly back in operation",
+      "summary": "Middle East Spectator (~44K views) reports the entrance to Iran's Larestan underground missile complex in southern Iran near the Persian Gulf has been repaired and the facility is again operational. The reconstitution of a strike-capable base within range of Gulf shipping lanes comes as US deploys an 'umbrella' of defense and tech assets to shield Strait of Hormuz traffic, per DefenseScoop.",
+      "region": "Southern Iran / Persian Gulf",
+      "source": "telegram,global_metrics",
+      "confidence": "medium"
     },
     {
       "severity": "medium",
-      "category": "telegram_signal",
-      "title": "Japanese Terra A2 drone-interceptors reportedly deployed with Ukrainian forces in Kharkiv",
-      "summary": "Rybar (~135K views) reports Japan's Terra Drone Corporation, jointly with Ukrainian WinnyLab LLC, has begun deploying the Terra A2 drone-interceptor in Ukraine \u2014 at minimum in Kharkiv oblast. The platform reportedly reaches 312 km/h with 75 km range and optional radar payload, follows the earlier Terra A1 anti-Shahed system, and marks deepening Japanese industrial involvement in the war. Ukrainian MoD separately claims Shahed shootdowns have doubled in four months (DeepState UA, ~192K views).",
-      "region": "Ukraine",
-      "source": "telegram",
-      "confidence": "medium"
+      "category": "incident",
+      "title": "Israeli strikes kill medics in Lebanon as fragile truce frays further",
+      "summary": "NYT and The Guardian report fresh Israeli bombardment of southern Lebanon killed medics and reduced buildings to craters, expanding on yesterday's Beirut strike. IDF is maintaining high alert and only modestly demobilizing reservists despite a potential US-Iran deal, per The Jerusalem Post, suggesting the northern front remains a likely flashpoint regardless of the Iran track.",
+      "region": "Southern Lebanon",
+      "source": "incidents",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "The US-Iran deal narrative is fracturing in real time \u2014 Khamenei's reported refusal to relinquish HEU and Trump's 'don't rush' reversal directly contradict the MoU terms leaked 24 hours earlier, even as Israel resumes strikes on Beirut and Gaza casualties mount.",
+  "analysis_note": "US-Iran diplomacy and military escalation are running on parallel tracks: Rubio floats a Monday deal while Trump weighs strikes and Khamenei reportedly goes into hiding, even as Iran rebuilds a Gulf missile base and Israel keeps the Lebanon front hot.",
   "meta": {
-    "input_tokens": 25458,
+    "input_tokens": 24091,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2168,
-    "cost_usd": 0.2056,
-    "wall_time_s": 36.5
+    "output_tokens": 2325,
+    "cost_usd": 0.2027,
+    "wall_time_s": 38.9
   }
 }
