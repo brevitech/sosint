@@ -168,10 +168,17 @@ async def collect(api_key: str, duration: int) -> dict:
 
 
 def main() -> int:
-    api_key = os.environ.get("AISSTREAM_API_KEY")
+    raw_key = os.environ.get("AISSTREAM_API_KEY", "")
+    api_key = raw_key.strip()
     if not api_key:
         print("ERROR: AISSTREAM_API_KEY not set", file=sys.stderr)
         return 1
+    # Diagnostic: confirm key is present without leaking it
+    print(f"[*] API key loaded: length={len(api_key)} prefix={api_key[:4]}…", flush=True)
+    if len(api_key) < 20:
+        print(f"[!] API key suspiciously short ({len(api_key)} chars) — likely truncated/typo'd", flush=True)
+    if raw_key != api_key:
+        print(f"[!] API key had surrounding whitespace (stripped {len(raw_key) - len(api_key)} chars)", flush=True)
 
     t0 = time.monotonic()
     try:
@@ -180,6 +187,15 @@ def main() -> int:
         print(f"ERROR connecting to AISStream: {e}", file=sys.stderr)
         return 2
     elapsed = time.monotonic() - t0
+
+    if not all_vessels:
+        print(
+            "[!] Received zero messages during listen window. Most likely causes:\n"
+            "    1. API key invalid/inactive — re-issue at https://aisstream.io/apikeys\n"
+            "    2. API key not confirmed via email (check your aisstream.io signup email)\n"
+            "    3. AISStream service issue — see https://status.aisstream.io",
+            file=sys.stderr,
+        )
 
     # Energy corridor filter: ShipType in tanker range, with a known position
     tankers = [
