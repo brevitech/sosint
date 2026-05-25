@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-25T17:39:57.641370+00:00",
+  "generated_at": "2026-05-25T19:23:37.808004+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Trump weighs fresh strikes on Iran as Tehran says deal 'not imminent'",
-      "summary": "The New York Times reports Trump is actively weighing options for new strikes inside Iran, while BBC quotes Iran stating any US agreement is 'not imminent' \u2014 directly contradicting Trump's earlier 'largely negotiated' framing. A senior US official also told Fox News (via ME Spectator, ~41K views) no deal will be signed 'today or tomorrow,' citing a 'No Dust, No Dollars' posture, indicating the Hormuz framework is fraying as threat level holds at 9/CRITICAL.",
-      "region": "Iran / Persian Gulf",
-      "source": "incidents,telegram,global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "IDF chief urges cabinet to strike Beirut buildings over Hezbollah drone attacks",
-      "summary": "The Jerusalem Post reports Israel's IDF chief told the security cabinet that Israel must strike buildings inside Beirut in response to recent Hezbollah drone activity \u2014 a significant threshold beyond current south-Lebanon strike patterns. The recommendation comes as Hezbollah remains flagged 'Active' in proxy metrics and risks reopening a second front while US-Iran talks falter.",
-      "region": "Lebanon / Northern Israel",
-      "source": "incidents,global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Houthi missile strike on Israel revives Red Sea shipping threat",
-      "summary": "AP News and The Times of Israel report a fresh Houthi missile attack on Israel has stoked fears of renewed strikes on Red Sea commercial shipping, with BBC and Global Security Review publishing parallel threat assessments. Houthi status in proxy metrics is 'Elevated \u2014 Multiple Recent Attacks'; USS Eisenhower, Bataan, Carney, Mason and Laboon are all concentrated in the southern Red Sea around 15-16\u00b0N near the Bab el-Mandeb.",
-      "region": "Red Sea / Bab el-Mandeb",
-      "source": "incidents,assets,global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "nuclear",
-      "title": "Khamenei: enriched uranium must stay in Iran; Tehran rejects nuclear commitments",
-      "summary": "Reuters exclusive reports Supreme Leader Khamenei has ruled that Iran's enriched uranium stockpile must remain inside the country, while Iran's semi-official Tasnim (via ME Spectator, ~46K views) states Tehran has made 'zero commitments on nuclear issues' and demands at least half of frozen assets be released up front. With enrichment at 60% U-235 and breakout estimated at 1-2 weeks, the public hardening directly contradicts US claims of an 'understanding' on the stockpile.",
+      "title": "Iran rebuilding missile production and underground 'missile cities' faster than expected",
+      "summary": "The Times of Israel and Jerusalem Post report Iran is reconstituting ballistic missile production faster than US-Israeli planners anticipated. Rybar (~87K views, citing leaked NYT-stage US intelligence and satellite imagery) corroborates that the IRGC has 'practically restored' the underground missile-city tunnel entrances damaged in earlier US/Israeli strikes \u2014 undercutting the premise of the 'largely negotiated' Hormuz framework while threat level remains 9/CRITICAL.",
       "region": "Iran",
-      "source": "global_metrics,telegram",
+      "source": "incidents,telegram",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "telegram_signal",
+      "title": "Larestan missile base reportedly repaired and back in operation near Persian Gulf",
+      "summary": "Middle East Spectator (~54K views) reports that the entrance to the Larestan underground missile complex in southern Iran near the Persian Gulf has been repaired and the base is now operational again. The reactivation, paired with broader IRGC reconstitution reporting, places renewed missile threat directly on US naval assets in the Gulf, including USS Florida (SSGN) tracked at ~26\u00b0N, 51\u00b0E.",
+      "region": "Southern Iran / Persian Gulf",
+      "source": "telegram,assets",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
+      "category": "incident",
+      "title": "Iran says Mojtaba Khamenei suffered only 'superficial' wounds in US-Israel strike",
+      "summary": "T\u00fcrkiye Today, The Straits Times and Breakingthenews.net report Iranian health officials confirming that Mojtaba Khamenei \u2014 son of and possible successor to the Supreme Leader \u2014 was wounded in a recent US-Israel strike, characterized by Tehran as 'superficial.' The acknowledgement is the first public Iranian confirmation that strikes reached the Supreme Leader's immediate family, a significant escalation threshold even as Tehran insists no deal is imminent.",
+      "region": "Iran",
+      "source": "incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "medium",
+      "category": "diplomatic",
+      "title": "Republican hawks publicly attack Trump's emerging Iran deal as 'nightmare for Israel'",
+      "summary": "Middle East Eye and parallel NYT analysis report Republican hawks, joined by Rep. Massie (cited 6x in US sentiment word cloud), are openly attacking Trump's emerging Iran framework, with NYT framing Netanyahu as reduced from 'co-pilot' to 'mere passenger.' US sentiment remains 56% negative with 'trump,' 'iran,' and 'deal' dominating discourse, signaling domestic political constraints on any Hormuz-reopening agreement.",
+      "region": "United States",
+      "source": "incidents,sentiment",
       "confidence": "high"
     },
     {
       "severity": "medium",
       "category": "asset_movement",
-      "title": "US deploys defensive 'umbrella' of tech and assets over Strait of Hormuz shipping",
-      "summary": "DefenseScoop reports the US is fielding a layered defense and technology 'umbrella' to shield commercial vessels transiting the Strait of Hormuz, amid widespread GPS jamming across the Middle East (The Week) and Iran-linked hacker activity targeting US interests (PBS). USS Florida (SSGN) remains positioned in the Persian Gulf at ~25.5\u00b0N, 51.8\u00b0E, consistent with sustained deterrent posture as Brent holds at $100.21.",
+      "title": "US deploying defense 'umbrella' of tech and assets to shield Strait of Hormuz shipping",
+      "summary": "DefenseScoop reports the US is rolling out an integrated 'umbrella' of defensive and technology assets to protect commercial shipping transiting the Strait of Hormuz, as GPS jamming continues to disrupt navigation across the Middle East (The Week). The posture aligns with USS Abraham Lincoln deployed in the Arabian Sea (~21\u00b0N, 60\u00b0E) and USS Florida in the Persian Gulf, indicating Washington is hedging the deal track with hardened force protection.",
       "region": "Strait of Hormuz",
       "source": "global_metrics,assets",
-      "confidence": "medium"
+      "confidence": "high"
     }
   ],
-  "analysis_note": "The US-Iran framework is visibly fracturing \u2014 Trump is weighing renewed strikes while Tehran publicly rejects nuclear commitments and hardens on uranium custody \u2014 even as Hezbollah, Houthi, and Hormuz pressure points simultaneously escalate.",
+  "analysis_note": "US-Iran negotiations are visibly fraying as Tehran rebuilds missile infrastructure, confirms a strike wounded the Supreme Leader's son, and Republican hawks revolt against Trump's framework \u2014 even as the US hardens shipping defenses around Hormuz.",
   "meta": {
-    "input_tokens": 22237,
+    "input_tokens": 25350,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2434,
-    "cost_usd": 0.1962,
-    "wall_time_s": 37.5
+    "output_tokens": 2478,
+    "cost_usd": 0.2128,
+    "wall_time_s": 39.1
   }
 }

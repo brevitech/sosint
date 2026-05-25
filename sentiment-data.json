@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 33,
-    "negative": 57,
+    "positive": 34,
+    "negative": 56,
     "neutral": 10,
     "wordCloud": [
       {
@@ -11,22 +11,22 @@
       },
       {
         "word": "iran",
-        "count": 43,
+        "count": 47,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 35,
+        "count": 36,
         "sentiment": "neutral"
       },
       {
         "word": "pope",
-        "count": 15,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "leo",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -35,9 +35,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 10,
-        "sentiment": "negative"
+        "word": "abraham",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "accords",
+        "count": 9,
+        "sentiment": "neutral"
       },
       {
         "word": "peace",
@@ -45,19 +50,9 @@
         "sentiment": "positive"
       },
       {
-        "word": "gop",
+        "word": "war",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abraham",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "accords",
-        "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "us-iran",
@@ -65,13 +60,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "emerging",
+        "word": "amid",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "manifesto",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -80,7 +70,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
+        "word": "israel",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "encyclical",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -90,22 +85,17 @@
         "sentiment": "negative"
       },
       {
+        "word": "massie",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "regulation",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "democrats",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "any",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -120,7 +110,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rubio",
+        "word": "chief",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -135,7 +125,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "massie",
+        "word": "gop",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -145,42 +135,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
-        "count": 5,
+        "word": "robust",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "manifesto",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "hegseth",
-        "count": 5,
+        "word": "ponders",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "future",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-25T17:39:33.483277+00:00",
-    "nextRefresh": "2026-05-25T17:39:33.483277+00:00",
+    "generatedAt": "2026-05-25T19:23:08.619193+00:00",
+    "nextRefresh": "2026-05-25T19:23:08.619193+00:00",
     "articlesAnalyzed": 344,
-    "matchedMentions": 156,
-    "uniquePersonalities": 49,
+    "matchedMentions": 153,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 55,
-    "negative": 31,
-    "neutral": 14,
+    "positive": 52,
+    "negative": 29,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "mann",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "punjab",
-        "count": 15,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "ndtv",
-        "count": 14,
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "punjab",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -189,22 +189,17 @@
         "sentiment": "positive"
       },
       {
-        "word": "ipl",
-        "count": 9,
+        "word": "padma",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "kejriwal",
-        "count": 8,
+        "word": "ipl",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "padma",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -224,27 +219,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "kejriwal",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "bjp",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "battle",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "rcb",
+        "word": "team",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -274,11 +259,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bhagwant",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "super",
         "count": 4,
         "sentiment": "positive"
@@ -289,19 +269,24 @@
         "sentiment": "negative"
       },
       {
-        "word": "arvind",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "exclusive",
         "count": 4,
         "sentiment": "positive"
       },
       {
-        "word": "won",
+        "word": "delhi",
         "count": 4,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "centre",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "karnataka",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
         "word": "cbse",
@@ -309,22 +294,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fuel",
+        "word": "row",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "days",
+        "word": "singh",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "man",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "full",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-25T17:39:45.876805+00:00",
-    "nextRefresh": "2026-05-25T17:39:45.876805+00:00",
-    "articlesAnalyzed": 481,
-    "matchedMentions": 118,
-    "uniquePersonalities": 52,
+    "generatedAt": "2026-05-25T19:23:23.559755+00:00",
+    "nextRefresh": "2026-05-25T19:23:23.559755+00:00",
+    "articlesAnalyzed": 468,
+    "matchedMentions": 101,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   }
 }
