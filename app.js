@@ -40,7 +40,7 @@ class WarDashboard {
     this.loadAirTraffic();
     // Refresh intervals
     setInterval(() => this.loadNewsFeeds(), 300000);    // News: 5 min
-    setInterval(() => this.loadAirTraffic(), 15000);    // Air: 15 sec
+    setInterval(() => this.loadAirTraffic(), 60000);    // Air: 60s (server-side scraper updates every 10 min)
     setInterval(() => this.updateMaritimePositions(), 3000); // Ships: 3 sec
     
     // Live OSINT Data (Incidents & Assets)
@@ -949,6 +949,16 @@ class WarDashboard {
         }
       });
     });
+
+    // Re-apply stored live counts (legend HTML rebuilds reset them to 0)
+    this.refreshLegendCounts();
+  }
+
+  refreshLegendCounts() {
+    const air = document.getElementById('count-air-traffic');
+    if (air && this._airTrafficCountLabel != null) air.textContent = this._airTrafficCountLabel;
+    const sea = document.getElementById('count-maritime');
+    if (sea && this._maritimeCountLabel != null) sea.textContent = this._maritimeCountLabel;
   }
 
   // ── Military Comparison ─────────────────────────────────────────────────
@@ -1452,68 +1462,32 @@ class WarDashboard {
       this.layerGroups['air-traffic'] = L.layerGroup().addTo(this.map);
     }
 
-    // Bounding boxes for both straits + wider theater + India corridor
-    const regions = [
-      // Strait of Hormuz + Persian Gulf
-      { name: 'hormuz', lamin: 24.0, lomin: 50.0, lamax: 28.0, lomax: 58.0 },
-      // Bab al-Mandab + Red Sea
-      { name: 'mandab', lamin: 11.0, lomin: 41.0, lamax: 16.0, lomax: 46.0 },
-      // Gulf of Oman / Arabian Sea approach
-      { name: 'oman', lamin: 22.0, lomin: 57.0, lamax: 26.5, lomax: 62.0 },
-      // Arabian Sea mid-corridor (Oman → India)
-      { name: 'arabian-sea', lamin: 16.0, lomin: 60.0, lamax: 22.0, lomax: 68.0 },
-      // Indian West Coast approaches (Gujarat → Kerala)
-      { name: 'india-coast', lamin: 8.0, lomin: 68.0, lamax: 24.0, lomax: 77.0 },
-      // Arabian Sea south (Lakshadweep / Maldives corridor)
-      { name: 'india-south', lamin: 8.0, lomin: 60.0, lamax: 16.0, lomax: 68.0 },
-    ];
-
-    const PROXY = 'https://api.allorigins.win/raw?url=';
+    // Live data is now produced server-side by scripts/scrape_air_traffic.py
+    // (cron */10) — frontend just reads the committed JSON. This eliminates
+    // CORS/proxy flakiness and OpenSky's per-browser-IP rate limits.
     let allAircraft = [];
+    let isLive = false;
+    let snapshotAgeMin = null;
 
-    for (const region of regions) {
-      try {
-        const url = `https://opensky-network.org/api/states/all?lamin=${region.lamin}&lomin=${region.lomin}&lamax=${region.lamax}&lomax=${region.lomax}`;
-        const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 10000);
-
-        // Try direct first (may fail due to CORS)
-        let res;
-        try {
-          res = await fetch(url, { signal: controller.signal });
-        } catch(e) {
-          // Fallback to CORS proxy
-          res = await fetch(PROXY + encodeURIComponent(url), { signal: controller.signal });
+    try {
+      const res = await fetch('air-traffic.json?v=' + Date.now());
+      if (res.ok) {
+        const data = await res.json();
+        allAircraft = (data.aircraft || []).filter(a => a.lat && a.lon);
+        if (data.generatedAt) {
+          snapshotAgeMin = Math.max(0,
+            Math.round((Date.now() - new Date(data.generatedAt).getTime()) / 60000));
         }
-        clearTimeout(timeout);
-
-        if (res.ok) {
-          const data = await res.json();
-          if (data.states) {
-            allAircraft.push(...data.states.map(s => ({
-              icao: s[0],
-              callsign: (s[1] || '').trim(),
-              country: s[2],
-              lon: s[5],
-              lat: s[6],
-              altitude: s[7] || s[13] || 0,
-              onGround: s[8],
-              velocity: s[9],
-              heading: s[10] || 0,
-              vertRate: s[11],
-              category: s[17] || 0,
-              region: region.name,
-            })));
-          }
-        }
-      } catch (e) {
-        // Silent fail — will use fallback
+        if (allAircraft.length > 0) isLive = true;
       }
+    } catch (e) {
+      // air-traffic.json missing — fall through to simulation
     }
 
-    // If API fails, use simulated air traffic
-    if (allAircraft.length === 0) {
+    // Fallback to simulated traffic when the live snapshot is missing/empty/stale
+    if (allAircraft.length === 0 || (snapshotAgeMin != null && snapshotAgeMin > 60)) {
       allAircraft = this.generateSimulatedAirTraffic();
+      isLive = false;
     }
 
     // Filter out ground vehicles and aircraft without position
@@ -1560,9 +1534,14 @@ class WarDashboard {
         .addTo(group);
     });
 
-    // Update count in legend
+    // Compose count label and apply (survives legend re-renders via refreshLegendCounts)
+    this._airTrafficCountLabel = this.airTrafficCount + (
+      isLive
+        ? ` · LIVE${snapshotAgeMin != null ? ` (${snapshotAgeMin}m)` : ''}`
+        : ' · SIM'
+    );
     const countEl = document.getElementById('count-air-traffic');
-    if (countEl) countEl.textContent = this.airTrafficCount;
+    if (countEl) countEl.textContent = this._airTrafficCountLabel;
   }
 
   generateSimulatedAirTraffic() {
@@ -2004,9 +1983,10 @@ class WarDashboard {
         .addTo(group);
     });
 
-    // Update counts in legend
+    // Update counts in legend (survives legend re-renders via refreshLegendCounts)
+    this._maritimeCountLabel = String(this.maritimeCount);
     const countEl = document.getElementById('count-maritime');
-    if (countEl) countEl.textContent = this.maritimeCount;
+    if (countEl) countEl.textContent = this._maritimeCountLabel;
     const indiaCountEl = document.getElementById('count-india');
     if (indiaCountEl) indiaCountEl.textContent = indianCount.ships;
   }
