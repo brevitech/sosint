@@ -8,14 +8,11 @@ class WarDashboard {
     this.newsItems = [];
     this.activeFilter = 'all';
     this.layerGroups = {};
-    this.activeLayers = new Set(['us-bases', 'iran-bases', 'iran-missiles', 'iran-nuclear', 'us-navy', 'iran-navy', 'proxy-forces', 'air-defense', 'conflict-zones', 'air-traffic', 'maritime']);
+    this.activeLayers = new Set(['us-bases', 'iran-bases', 'iran-missiles', 'iran-nuclear', 'us-navy', 'iran-navy', 'proxy-forces', 'air-defense', 'conflict-zones', 'air-traffic']);
     this.feedErrors = 0;
     this.feedSuccesses = 0;
     this.airTrafficMarkers = [];
-    this.maritimeMarkers = [];
-    this.maritimeVessels = [];
     this.airTrafficCount = 0;
-    this.maritimeCount = 0;
     this.sentimentMode = 'us';
     this.sentimentData = null;
     this.sentimentRefreshTimer = null;
@@ -36,12 +33,10 @@ class WarDashboard {
     this.renderSentimentPanel();     // right-bottom: Sentiment tab (default)
     this.loadNewsFeeds();
     // Initialize live tracking layers
-    this.initMaritimeSimulation();
     this.loadAirTraffic();
     // Refresh intervals
     setInterval(() => this.loadNewsFeeds(), 300000);    // News: 5 min
     setInterval(() => this.loadAirTraffic(), 60000);    // Air: 60s (server-side scraper updates every 10 min)
-    setInterval(() => this.updateMaritimePositions(), 3000); // Ships: 3 sec
     
     // Live OSINT Data (Incidents & Assets)
     this.fetchLiveData();
@@ -483,10 +478,9 @@ class WarDashboard {
       if (metricsRes.ok) {
         this.globalMetrics = await metricsRes.json();
         
-        // Render FIRMS and AIS
+        // Render FIRMS hotspots
         this.addFirmsHotspots();
-        this.addAisVessels();
-        
+
         // Re-render active tabs if necessary
         const rTopTitle = document.getElementById('right-top-title');
         if (rTopTitle && rTopTitle.textContent === 'Threat Assessment') this.renderThreatLevel();
@@ -923,7 +917,6 @@ class WarDashboard {
       { key: 'proxy-forces', label: 'Proxies', color: '#f97316', icon: '💥' },
       { key: 'air-defense', label: 'Air Def', color: '#8b5cf6', icon: '🛡️' },
       { key: 'air-traffic', label: 'Air Traffic', color: '#06b6d4', icon: '✈️', dynamic: true },
-      { key: 'maritime', label: 'Ships', color: '#10b981', icon: '🚢', dynamic: true },
       { key: 'india', label: '🇮🇳 India', color: '#ff9933', icon: '🇮🇳', dynamic: true, infoOnly: true },
     ];
 
@@ -957,8 +950,6 @@ class WarDashboard {
   refreshLegendCounts() {
     const air = document.getElementById('count-air-traffic');
     if (air && this._airTrafficCountLabel != null) air.textContent = this._airTrafficCountLabel;
-    const sea = document.getElementById('count-maritime');
-    if (sea && this._maritimeCountLabel != null) sea.textContent = this._maritimeCountLabel;
   }
 
   // ── Military Comparison ─────────────────────────────────────────────────
@@ -1713,283 +1704,6 @@ class WarDashboard {
     return aircraft;
   }
 
-  // ═══════════════════════════════════════════════════════════════════════
-  // CIVILIAN MARITIME TRAFFIC — Simulated AIS Data
-  // ═══════════════════════════════════════════════════════════════════════
-
-  initMaritimeSimulation() {
-    if (!this.layerGroups['maritime']) {
-      this.layerGroups['maritime'] = L.layerGroup().addTo(this.map);
-    }
-
-    // Shipping lane waypoints
-    const hormuzLane = [
-      [26.90, 56.10], [26.55, 56.30], [26.40, 56.50], [26.15, 56.80],
-      [25.80, 57.20], [25.40, 57.70], [25.20, 58.30], [25.00, 59.00],
-      [24.70, 59.80], [24.30, 60.50], [23.80, 61.50],
-    ];
-    const hormuzLaneReverse = [...hormuzLane].reverse().map(p => [p[0] + 0.05, p[1] - 0.05]);
-
-    const mandabLane = [
-      [12.40, 43.30], [12.55, 43.40], [12.70, 43.55], [12.90, 43.50],
-      [13.10, 43.30], [13.40, 43.10], [13.70, 42.80], [14.20, 42.50],
-      [14.80, 42.10], [15.50, 41.60], [16.20, 41.10],
-    ];
-    const mandabLaneReverse = [...mandabLane].reverse().map(p => [p[0] - 0.03, p[1] + 0.04]);
-
-    // Persian Gulf internal shipping
-    const gulfLane = [
-      [29.30, 48.50], [28.80, 49.30], [28.20, 50.00], [27.50, 50.80],
-      [27.00, 51.50], [26.50, 52.50], [26.10, 53.50], [25.80, 54.50],
-      [25.60, 55.50], [25.50, 56.00], [26.00, 56.30],
-    ];
-
-    // ── Indian Ocean / Arabian Sea shipping lanes ─────────────────────────
-    // Hormuz → Mumbai/JNPT (primary crude oil import route for India)
-    const hormuzToMumbai = [
-      [23.80, 61.50], [23.00, 62.50], [22.00, 64.00], [21.00, 66.00],
-      [20.50, 68.00], [20.00, 70.00], [19.50, 71.50], [19.10, 72.80],
-    ];
-    // Mumbai/JNPT → Hormuz (return / ballast)
-    const mumbaiToHormuz = [...hormuzToMumbai].reverse().map(p => [p[0] - 0.08, p[1] + 0.05]);
-
-    // Hormuz → Mundra/Kandla (Gujarat crude terminals)
-    const hormuzToKandla = [
-      [23.80, 61.50], [23.50, 63.00], [23.20, 64.50], [23.00, 66.00],
-      [22.80, 67.50], [22.70, 69.00], [22.80, 69.80], [23.00, 70.10],
-    ];
-    const kandlaToHormuz = [...hormuzToKandla].reverse().map(p => [p[0] + 0.06, p[1] - 0.04]);
-
-    // Arabian Sea → Cochin (Kerala, LNG & container)
-    const hormuzToCochin = [
-      [23.80, 61.50], [22.00, 63.00], [20.00, 65.00], [18.00, 67.00],
-      [16.00, 69.50], [14.00, 72.00], [12.00, 74.00], [10.00, 76.20],
-    ];
-    const cochinToHormuz = [...hormuzToCochin].reverse().map(p => [p[0] + 0.06, p[1] - 0.06]);
-
-    // Arabian Sea → Mangalore (Karnataka, crude & LPG)
-    const hormuzToMangalore = [
-      [23.80, 61.50], [22.50, 63.50], [21.00, 65.50], [19.00, 68.00],
-      [17.00, 70.50], [15.00, 73.00], [13.00, 74.80],
-    ];
-
-    // Bab al-Mandab → India west coast (Suez Canal route)
-    const mandabToIndia = [
-      [12.40, 43.30], [12.00, 46.00], [12.50, 49.00], [13.50, 52.00],
-      [15.00, 56.00], [16.50, 60.00], [17.50, 64.00], [18.50, 68.00],
-      [19.00, 71.00], [19.10, 72.80],
-    ];
-    const indiaToMandab = [...mandabToIndia].reverse().map(p => [p[0] - 0.06, p[1] + 0.05]);
-
-    const vesselTypes = [
-      { type: 'VLCC Tanker', icon: '🛢️', size: 16, category: 'tanker', color: '#f59e0b' },
-      { type: 'Suezmax Tanker', icon: '🛢️', size: 14, category: 'tanker', color: '#f59e0b' },
-      { type: 'Aframax Tanker', icon: '🛢️', size: 14, category: 'tanker', color: '#f59e0b' },
-      { type: 'LNG Carrier', icon: '⛽', size: 15, category: 'lng', color: '#06b6d4' },
-      { type: 'Container Ship', icon: '📦', size: 14, category: 'container', color: '#10b981' },
-      { type: 'Bulk Carrier', icon: '🚢', size: 14, category: 'bulk', color: '#8b5cf6' },
-      { type: 'General Cargo', icon: '🚢', size: 12, category: 'cargo', color: '#64748b' },
-      { type: 'Vehicle Carrier', icon: '🚗', size: 13, category: 'roro', color: '#ec4899' },
-      { type: 'Chemical Tanker', icon: '⚗️', size: 13, category: 'chemical', color: '#eab308' },
-    ];
-
-    const flagStates = [
-      { flag: '🇱🇷', country: 'Liberia' },
-      { flag: '🇵🇦', country: 'Panama' },
-      { flag: '🇲🇭', country: 'Marshall Islands' },
-      { flag: '🇭🇰', country: 'Hong Kong' },
-      { flag: '🇸🇬', country: 'Singapore' },
-      { flag: '🇧🇸', country: 'Bahamas' },
-      { flag: '🇲🇹', country: 'Malta' },
-      { flag: '🇬🇷', country: 'Greece' },
-      { flag: '🇳🇴', country: 'Norway' },
-      { flag: '🇨🇳', country: 'China' },
-      { flag: '🇯🇵', country: 'Japan' },
-      { flag: '🇰🇷', country: 'South Korea' },
-      { flag: '🇮🇳', country: 'India' },
-      { flag: '🇸🇦', country: 'Saudi Arabia' },
-      { flag: '🇦🇪', country: 'UAE' },
-      { flag: '🇮🇷', country: 'Iran' },
-      { flag: '🇬🇧', country: 'United Kingdom' },
-      { flag: '🇩🇪', country: 'Germany' },
-      { flag: '🇹🇷', country: 'Turkey' },
-      { flag: '🇮🇹', country: 'Italy' },
-    ];
-
-    // Indian-specific flag for dedicated India lanes
-    const indianFlag = { flag: '🇮🇳', country: 'India' };
-
-    const vesselNames = [
-      'Pacific Explorer', 'Arabian Star', 'Gulf Harmony', 'Eastern Promise', 'Ocean Grace',
-      'Hormuz Spirit', 'Desert Pearl', 'Coral Enterprise', 'Sapphire Express', 'Golden Phoenix',
-      'Maritime Pioneer', 'Star of Dubai', 'Orient Venture', 'Neptune Glory', 'Emerald Seas',
-      'Brave Voyager', 'Silver Dawn', 'Royal Fortune', 'Crimson Tide', 'Blue Horizon',
-      'Fortune Bridge', 'Asia Progress', 'Suez Challenger', 'Olympic Spirit', 'Aegean Dignity',
-      'Fujairah Bay', 'Ras Tanura', 'Jebel Ali Star', 'Basra Pioneer', 'Muscat Trader',
-      'Bengal Tiger', 'Karachi Express', 'Mumbai Star', 'Colombo Pearl', 'Chennai Spirit',
-      'Aden Voyager', 'Djibouti Gate', 'Eritrea Sun', 'Yanbu Promise', 'Jeddah Merchant',
-      // Indian vessel names
-      'SCI Yamuna', 'SCI Delhi', 'Desh Apna', 'Maharaja Agrasen', 'Swarna Krishna',
-      'Desh Rakshak', 'Vishva Kaumudi', 'Ratna Shruti', 'Desh Vibhor', 'Jag Lalit',
-      'SCI Nalanda', 'Great Eastern Sun', 'Essar Mumbai', 'Adani Mundra', 'Kandla Spirit',
-      'INS Supply', 'Reliance Gujarat', 'Mangalore Express', 'Cochin Gateway', 'Malabar Coast',
-    ];
-
-    // Create vessels along all lanes
-    const allLanes = [
-      { lane: hormuzLane, name: 'Hormuz Inbound', count: 18 },
-      { lane: hormuzLaneReverse, name: 'Hormuz Outbound', count: 16 },
-      { lane: mandabLane, name: 'Bab al-Mandab North', count: 12 },
-      { lane: mandabLaneReverse, name: 'Bab al-Mandab South', count: 10 },
-      { lane: gulfLane, name: 'Persian Gulf', count: 14 },
-      // Indian Ocean routes — India-bound
-      { lane: hormuzToMumbai, name: 'Hormuz → Mumbai/JNPT', count: 12, indianRoute: true },
-      { lane: mumbaiToHormuz, name: 'Mumbai → Hormuz (Ballast)', count: 8, indianRoute: true },
-      { lane: hormuzToKandla, name: 'Hormuz → Mundra/Kandla', count: 10, indianRoute: true },
-      { lane: kandlaToHormuz, name: 'Kandla → Hormuz', count: 6, indianRoute: true },
-      { lane: hormuzToCochin, name: 'Arabian Sea → Cochin', count: 8, indianRoute: true },
-      { lane: cochinToHormuz, name: 'Cochin → Arabian Sea', count: 5, indianRoute: true },
-      { lane: hormuzToMangalore, name: 'Hormuz → Mangalore', count: 6, indianRoute: true },
-      { lane: mandabToIndia, name: 'Red Sea → India W.Coast', count: 8, indianRoute: true },
-      { lane: indiaToMandab, name: 'India → Red Sea/Suez', count: 6, indianRoute: true },
-    ];
-
-    let nameIdx = 0;
-    allLanes.forEach(({ lane, name: laneName, count, indianRoute }) => {
-      for (let i = 0; i < count; i++) {
-        const progress = Math.random(); // 0-1 along the lane
-        const vType = vesselTypes[Math.floor(Math.random() * vesselTypes.length)];
-        // Indian routes: 50% chance Indian flag, rest random
-        let flagState;
-        if (indianRoute && Math.random() < 0.5) {
-          flagState = indianFlag;
-        } else {
-          flagState = flagStates[Math.floor(Math.random() * flagStates.length)];
-        }
-        const vesselName = vesselNames[nameIdx % vesselNames.length];
-        nameIdx++;
-
-        const pos = this.interpolateLane(lane, progress);
-        const speed = 8 + Math.random() * 8; // 8-16 knots
-        const imo = 9000000 + Math.floor(Math.random() * 999999);
-        // Indian MMSI range: 419xxxxxx
-        const mmsi = flagState.country === 'India'
-          ? 419000000 + Math.floor(Math.random() * 999999)
-          : 200000000 + Math.floor(Math.random() * 799999999);
-
-        const isIndianVessel = flagState.country === 'India';
-
-        this.maritimeVessels.push({
-          name: vesselName,
-          type: vType.type,
-          icon: vType.icon,
-          size: isIndianVessel ? vType.size + 2 : vType.size,
-          category: vType.category,
-          color: isIndianVessel ? '#ff9933' : vType.color,
-          flag: flagState.flag,
-          country: flagState.country,
-          lane,
-          laneName,
-          progress,
-          speed, // knots
-          speedIncrement: (0.0001 + Math.random() * 0.0003) * (laneName.includes('Outbound') || laneName.includes('South') || laneName.includes('→ Hormuz') || laneName.includes('→ Red') || laneName.includes('→ Arabian') || laneName.includes('Ballast') ? -1 : 1),
-          imo: `IMO ${imo}`,
-          mmsi: mmsi.toString(),
-          pos,
-          heading: 0,
-          isIndian: isIndianVessel,
-          indianRoute: !!indianRoute,
-        });
-      }
-    });
-
-    this.maritimeCount = this.maritimeVessels.length;
-    this.renderMaritimeLayer();
-  }
-
-  interpolateLane(lane, progress) {
-    const totalSegments = lane.length - 1;
-    const segFloat = progress * totalSegments;
-    const segIdx = Math.min(Math.floor(segFloat), totalSegments - 1);
-    const t = segFloat - segIdx;
-
-    const p1 = lane[segIdx];
-    const p2 = lane[segIdx + 1];
-    return [
-      p1[0] + (p2[0] - p1[0]) * t + (Math.random() - 0.5) * 0.02,
-      p1[1] + (p2[1] - p1[1]) * t + (Math.random() - 0.5) * 0.02,
-    ];
-  }
-
-  getHeading(p1, p2) {
-    const dLon = (p2[1] - p1[1]) * Math.PI / 180;
-    const lat1 = p1[0] * Math.PI / 180;
-    const lat2 = p2[0] * Math.PI / 180;
-    const y = Math.sin(dLon) * Math.cos(lat2);
-    const x = Math.cos(lat1) * Math.sin(lat2) - Math.sin(lat1) * Math.cos(lat2) * Math.cos(dLon);
-    return ((Math.atan2(y, x) * 180 / Math.PI) + 360) % 360;
-  }
-
-  updateMaritimePositions() {
-    this.maritimeVessels.forEach(v => {
-      v.progress += v.speedIncrement;
-      // Wrap around
-      if (v.progress > 1) v.progress = 0;
-      if (v.progress < 0) v.progress = 1;
-
-      const oldPos = v.pos;
-      v.pos = this.interpolateLane(v.lane, Math.abs(v.progress));
-      v.heading = this.getHeading(oldPos, v.pos);
-    });
-
-    this.renderMaritimeLayer();
-  }
-
-  renderMaritimeLayer() {
-    const group = this.layerGroups['maritime'];
-    if (!group) return;
-    group.clearLayers();
-
-    const indianCount = { ships: 0, aircraft: 0 };
-
-    this.maritimeVessels.forEach(v => {
-      if (v.isIndian) indianCount.ships++;
-
-      const glowIntensity = v.isIndian ? '0 0 6px' : '0 0 3px';
-      const icon = L.divIcon({
-        html: `<div style="font-size:${v.size}px; text-align:center; line-height:1; filter: drop-shadow(${glowIntensity} ${v.color});">${v.icon}</div>`,
-        className: v.isIndian ? 'maritime-icon india-vessel' : 'maritime-icon',
-        iconSize: [v.size + 4, v.size + 4],
-        iconAnchor: [(v.size + 4) / 2, (v.size + 4) / 2],
-      });
-
-      const indianBadge = v.isIndian ? '<span style="background:rgba(255,153,51,0.2); border:1px solid #ff9933; padding:1px 5px; border-radius:3px; font-size:8px; color:#ff9933; font-weight:700;">🇮🇳 INDIAN VESSEL</span><br>' : '';
-      const routeTag = v.indianRoute ? `<span style="color:#ff9933; font-size:8px;">🇮🇳 India Route</span><br>` : '';
-
-      L.marker(v.pos, { icon })
-        .bindPopup(`
-          <div class="map-popup-title">${v.flag} ${v.name}</div>
-          <div class="map-popup-detail">
-            ${indianBadge}
-            <strong>Type:</strong> ${v.type}<br>
-            <strong>Flag:</strong> ${v.flag} ${v.country}<br>
-            <strong>Speed:</strong> ${v.speed.toFixed(1)} kts<br>
-            <strong>Heading:</strong> ${Math.round(v.heading)}°<br>
-            <strong>Route:</strong> ${v.laneName}<br>
-            ${routeTag}
-            <strong>${v.imo}</strong> · MMSI ${v.mmsi}
-          </div>
-        `, { className: 'custom-marker-popup' })
-        .addTo(group);
-    });
-
-    // Update counts in legend (survives legend re-renders via refreshLegendCounts)
-    this._maritimeCountLabel = String(this.maritimeCount);
-    const countEl = document.getElementById('count-maritime');
-    if (countEl) countEl.textContent = this._maritimeCountLabel;
-    const indiaCountEl = document.getElementById('count-india');
-    if (indiaCountEl) indiaCountEl.textContent = indianCount.ships;
-  }
 
   // ═══════════════════════════════════════════════════════════════════════
   // GLOBAL SENTIMENT ANALYSIS — INFOGRAPHIC & WORD CLOUD
@@ -2216,37 +1930,6 @@ class WarDashboard {
     });
   }
 
-  addAisVessels() {
-    if (!this.globalMetrics || !this.globalMetrics.ais) return;
-    
-    if (!this.layerGroups['maritime']) {
-      this.layerGroups['maritime'] = L.layerGroup().addTo(this.map);
-    }
-    const group = this.layerGroups['maritime'];
-    
-    const vessels = this.globalMetrics.ais.vessels || [];
-    vessels.forEach(v => {
-      const marker = L.marker([v.lat, v.lon], {
-        icon: L.divIcon({
-          className: 'maritime-marker live-ais',
-          html: '<div style="color:#3b82f6; font-size:16px;">🚢</div>',
-          iconSize: [20, 20]
-        })
-      });
-      
-      marker.bindPopup(`
-        <div style="font-family:'JetBrains Mono',monospace;">
-          <strong style="color:#3b82f6;">AIS VESSEL</strong><br>
-          <strong>MMSI:</strong> ${v.mmsi}<br>
-          <strong>Name:</strong> ${v.name || 'Unknown'}<br>
-          <strong>Speed:</strong> ${v.speed || 0} kts<br>
-          <strong>Heading:</strong> ${v.heading || 0}°
-        </div>
-      `, { className: 'custom-marker-popup' });
-      
-      marker.addTo(group);
-    });
-  }
 }
 
 
