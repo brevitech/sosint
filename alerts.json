@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-25T08:16:34.919235+00:00",
+  "generated_at": "2026-05-25T12:25:22.692686+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Khamenei reportedly cut off from direct contact amid US strike fears",
-      "summary": "CBS reporting (via arabnews.jp) indicates Iran's Supreme Leader has been isolated from direct contact over fears of a US decapitation strike, even as NYT reports Trump is actively weighing options for new strikes against Iran in parallel with negotiations. The threat level remains at 9/10 with breakout still estimated at 1-2 weeks; combined signals suggest Washington is preserving a kinetic option despite Rubio's diplomatic tone.",
-      "region": "Iran",
+      "title": "Trump reportedly called off Tuesday Iran strike at Gulf allies' request",
+      "summary": "PBS reports Trump confirmed he scrubbed a planned Tuesday strike against Iran after intervention from Gulf state partners, while NYT reports he continues to weigh new strike options. The disclosure indicates US forces were within hours of kinetic action and that Gulf capitals \u2014 not Israel \u2014 are now the decisive moderating voice in Washington's targeting cycle.",
+      "region": "Iran / Persian Gulf",
       "source": "incidents,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "Russia reportedly fires two Oreshnik IRBMs in single night against Ukraine",
-      "summary": "Rybar (~116K views) reports that for the first time since the start of the SVO, Russian forces conducted two Oreshnik intermediate-range ballistic missile launches in a single night, striking targets in Bila Tserkva and frontline Druzhkivka alongside Tsirkon strikes on Kyiv. Combined Telegram engagement across Rybar posts exceeds 500K views, with DeepState UA confirming one of the largest sustained overnight attacks on Kyiv.",
-      "region": "Ukraine",
-      "source": "telegram",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
-      "category": "diplomatic",
-      "title": "Rubio signals 'solid' Iran deal could land Monday as GOP hawks revolt",
-      "summary": "BBC reports Secretary of State Rubio said a 'solid' US-Iran deal may be announced Monday, providing the first specific timeline. Middle East Eye reports Republican hawks are publicly attacking the emerging framework as a 'nightmare for Israel,' and NYT notes Netanyahu has been reduced from 'co-pilot' to 'passenger' in Trump's Iran strategy \u2014 pointing to a domestic political fight regardless of outcome.",
-      "region": "Washington / Iran",
-      "source": "incidents",
+      "category": "nuclear",
+      "title": "Khamenei sets uranium red line as Iran denies deal is imminent",
+      "summary": "Reuters exclusive cites Iranian sources saying Supreme Leader Khamenei has insisted enriched uranium must remain inside Iran, directly contradicting the US position (per ynetnews) that Trump assured Israel no deal without dismantling the nuclear program. BBC reports Iran now says a deal is 'not imminent,' walking back Rubio's earlier Monday timeline as Trump tells negotiators 'not to rush.'",
+      "region": "Iran",
+      "source": "global_metrics,incidents",
       "confidence": "high"
     },
     {
-      "severity": "medium",
-      "category": "telegram_signal",
-      "title": "Iran's Larestan underground missile base reportedly back in operation",
-      "summary": "Middle East Spectator (~44K views) reports the entrance to Iran's Larestan underground missile complex in southern Iran near the Persian Gulf has been repaired and the facility is again operational. The reconstitution of a strike-capable base within range of Gulf shipping lanes comes as US deploys an 'umbrella' of defense and tech assets to shield Strait of Hormuz traffic, per DefenseScoop.",
-      "region": "Southern Iran / Persian Gulf",
-      "source": "telegram,global_metrics",
-      "confidence": "medium"
+      "severity": "high",
+      "category": "asset_movement",
+      "title": "US deploying defensive 'umbrella' over Strait of Hormuz shipping",
+      "summary": "DefenseScoop reports the US is fielding a layered 'umbrella' of defense and technology assets to shield commercial vessels transiting the Strait of Hormuz, even as Trump claims a deal to reopen the strait is 'largely negotiated' (PBS). USS Florida (SSGN) remains forward-deployed in the Persian Gulf alongside three Red Sea destroyers, indicating posture is being reinforced, not drawn down, during talks.",
+      "region": "Strait of Hormuz",
+      "source": "global_metrics,assets",
+      "confidence": "high"
     },
     {
       "severity": "medium",
       "category": "incident",
-      "title": "Israeli strikes kill medics in Lebanon as fragile truce frays further",
-      "summary": "NYT and The Guardian report fresh Israeli bombardment of southern Lebanon killed medics and reduced buildings to craters, expanding on yesterday's Beirut strike. IDF is maintaining high alert and only modestly demobilizing reservists despite a potential US-Iran deal, per The Jerusalem Post, suggesting the northern front remains a likely flashpoint regardless of the Iran track.",
+      "title": "Israeli strikes kill medics in Lebanon; Hezbollah affirms Iran will not abandon it",
+      "summary": "NYT and Guardian report Israeli bombardment of southern Lebanon killed medics and reduced buildings to craters despite the existing fragile truce, while France 24 reports Hezbollah publicly declared Iran 'will not abandon' the group. The strikes plus the Iran-Hezbollah signaling raise the risk of a second-front complication just as US-Iran negotiations enter their most sensitive phase.",
       "region": "Southern Lebanon",
       "source": "incidents",
       "confidence": "high"
+    },
+    {
+      "severity": "medium",
+      "category": "cyber",
+      "title": "Israel claims it destroyed Iran's cyber warfare headquarters",
+      "summary": "Politico reports Israeli officials have announced the destruction of Iran's cyber warfare headquarters, a claim that \u2014 if accurate \u2014 represents a significant degradation of Tehran's offensive cyber capability against Gulf shipping and regional infrastructure. Coupled with Israeli officials calling the emerging US-Iran framework a 'bad deal' (Jerusalem Post), the disclosure appears timed to harden Washington's terms.",
+      "region": "Iran / Israel",
+      "source": "global_metrics,incidents",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran diplomacy and military escalation are running on parallel tracks: Rubio floats a Monday deal while Trump weighs strikes and Khamenei reportedly goes into hiding, even as Iran rebuilds a Gulf missile base and Israel keeps the Lebanon front hot.",
+  "analysis_note": "The US-Iran track is in a high-volatility holding pattern: Trump has confirmed a Tuesday strike was aborted at Gulf urging, yet defensive posture around Hormuz is being reinforced and Khamenei's uranium red line directly collides with US dismantlement demands \u2014 while Israeli kinetic and cyber actions appear designed to constrain any emerging deal.",
   "meta": {
-    "input_tokens": 24091,
+    "input_tokens": 24139,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2325,
-    "cost_usd": 0.2027,
-    "wall_time_s": 38.9
+    "output_tokens": 2540,
+    "cost_usd": 0.2083,
+    "wall_time_s": 39.2
   }
 }
