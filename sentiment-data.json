@@ -1,37 +1,27 @@
 {
   "us": {
-    "positive": 32,
-    "negative": 57,
-    "neutral": 11,
+    "positive": 33,
+    "negative": 55,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 79,
+        "count": 81,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 55,
+        "count": 57,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 44,
+        "count": 48,
         "sentiment": "neutral"
       },
       {
         "word": "rubio",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 12,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -40,13 +30,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
+        "word": "white",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "hormuz",
-        "count": 10,
+        "word": "house",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -60,8 +55,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "hormuz",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "republican",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "oil",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -85,7 +90,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "negotiated",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "gabbard",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "prices",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -95,12 +110,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "renews",
+        "word": "amid",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "oil",
+        "word": "renews",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -130,11 +145,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "hegseth",
         "count": 6,
         "sentiment": "neutral"
@@ -143,89 +153,59 @@
         "word": "tillis",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "progress",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "secret",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-24T23:56:30.356235+00:00",
-    "nextRefresh": "2026-05-24T23:56:30.356235+00:00",
-    "articlesAnalyzed": 364,
-    "matchedMentions": 186,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-05-25T03:38:58.230476+00:00",
+    "nextRefresh": "2026-05-25T03:38:58.230476+00:00",
+    "articlesAnalyzed": 367,
+    "matchedMentions": 189,
+    "uniquePersonalities": 52,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 57,
-    "negative": 27,
-    "neutral": 16,
+    "positive": 53,
+    "negative": 33,
+    "neutral": 14,
     "wordCloud": [
       {
         "word": "india",
-        "count": 14,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rubio",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "marco",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "rubio",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jadeja",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jaishankar",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trump",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leaders",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "concerns",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "banerjee",
-        "count": 5,
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ipl",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trump",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "marco",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -234,52 +214,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "bumrah",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "game",
+        "word": "count",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "visa",
+        "word": "leaders",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "slams",
+        "word": "jaishankar",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "pandya",
+        "word": "ucc",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ipl",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "riyan",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "early",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "remark",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "next",
+        "word": "tribals",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -289,42 +249,82 @@
         "sentiment": "positive"
       },
       {
+        "word": "questions",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "record",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trade",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ashwin",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "verdict",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "assures",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
         "word": "adani",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "likely",
+        "word": "national",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "attack",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "mamata",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "embassy",
+        "word": "bjp",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "campaign",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "govt",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-24T23:56:41.345561+00:00",
-    "nextRefresh": "2026-05-24T23:56:41.345561+00:00",
-    "articlesAnalyzed": 465,
-    "matchedMentions": 89,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-05-25T03:39:10.158951+00:00",
+    "nextRefresh": "2026-05-25T03:39:10.158951+00:00",
+    "articlesAnalyzed": 478,
+    "matchedMentions": 95,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   }
 }

@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-24T23:56:53.139041+00:00",
+  "generated_at": "2026-05-25T03:39:20.882058+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
+      "category": "nuclear",
+      "title": "Khamenei reportedly insists enriched uranium must remain in Iran, contradicting leaked MoU",
+      "summary": "Reuters exclusive (cited in global_metrics nuclear headlines) reports Iran's Supreme Leader Khamenei told sources that Iran's enriched uranium stockpile must stay inside the country \u2014 directly contradicting the previously leaked MoU clause requiring HEU removal. The Jerusalem Post and Haaretz corroborate that US and Iranian negotiators are making contradicting public claims on the nuclear file with hours allegedly remaining before a deal. Breakout estimate remains ~1-2 weeks at 60% U-235.",
+      "region": "Iran",
+      "source": "global_metrics,incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
       "category": "diplomatic",
-      "title": "Leaked MoU terms: 60-day ceasefire, Iran to clear Hormuz mines, US to lift naval blockade",
-      "summary": "Middle East Spectator, citing Axios, lists detailed terms of the emerging US-Iran Memorandum of Understanding: a 60-day ceasefire extension, reopening of the Strait of Hormuz with no tolls, US lifting its naval blockade on Iranian ports, Iranian mine-clearing operations, Tehran committing to negotiations on suspending enrichment and removing its HEU stockpile, a pledge never to pursue nuclear weapons, and US sanctions waivers allowing Iranian oil sales. Post drew ~43K views and represents the most granular leak of deal text to date.",
+      "title": "Trump tells US negotiators 'not to rush' Iran deal after signaling agreement was imminent",
+      "summary": "BBC and Politico report Trump has instructed US negotiators not to rush into a deal with Iran, a marked walk-back from his earlier statement that the agreement \u2014 including reopening the Strait of Hormuz \u2014 was 'largely negotiated.' Fortune notes Iranian negotiators are growing more suspicious as US terms appear more generous, while ynetnews reports Trump privately assured Israel no deal would proceed without dismantling Iran's nuclear program.",
       "region": "Strait of Hormuz / Iran",
-      "source": "telegram,incidents",
-      "confidence": "medium"
+      "source": "incidents,global_metrics",
+      "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "Russia strikes Kyiv with 'Tsirkon' hypersonics and 'Oreshnik' IRBM in overnight barrage",
-      "summary": "Rybar reports that the night of 24 May saw one of the most sustained strikes on Kyiv to date, with Tsirkon hypersonic cruise missiles and the Oreshnik intermediate-range ballistic missile employed against aviation-repair and industrial targets. Follow-on Rybar post (~108K views) confirms strikes also hit Sumy, Cherkasy, Dnipropetrovsk regions and an oil depot in Myrhorod, with energy and transport nodes targeted.",
-      "region": "Ukraine",
-      "source": "telegram",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
-      "category": "telegram_signal",
-      "title": "NATO rehearses deep strikes into Russia in 'Arcade Strike' exercise from London bunker",
-      "summary": "DeepState UA (~197K views) reports NATO's Allied Rapid Reaction Corps (ARRC) stood up a headquarters in a mothballed platform of Charing Cross Underground station to wargame deep strikes on Russia in response to a simulated attack on a Baltic ally. Exercise tested EW, comms suppression and counter-drone operations, signaling NATO's posture for an Article 5 Baltic contingency.",
-      "region": "Europe / Baltic",
-      "source": "telegram",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
-      "category": "diplomatic",
-      "title": "Israeli officials and GOP hawks brand emerging Iran deal a 'nightmare' and 'bad deal'",
-      "summary": "The Jerusalem Post quotes Israeli officials labeling the emerging US-Iran agreement a 'bad deal,' while Middle East Eye and PBS report Republican hawks attacking Trump's framework as a 'nightmare for Israel.' The New York Times notes Netanyahu has been reduced from 'co-pilot' to 'passenger,' and US sentiment shows a 57% negative skew with 'criticism,' 'GOP,' and 'lawmakers' surging in the word cloud \u2014 signaling domestic political risk to the framework.",
-      "region": "Israel / Washington",
-      "source": "incidents,sentiment",
+      "category": "incident",
+      "title": "Israel strikes Beirut for first time since ceasefire announcement",
+      "summary": "Council on Foreign Relations and The Guardian report Israeli aircraft struck Beirut for the first time since the Israel-Hezbollah ceasefire was announced, with separate bombardment reducing buildings to craters in southern Lebanon. The strike comes as IDF maintains a high alert level despite the potential US-Iran deal, per The Jerusalem Post, raising the risk of a renewed northern front.",
+      "region": "Lebanon",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "medium",
       "category": "incident",
-      "title": "Israeli strikes kill infant, 13-year-old, and five Gaza police; Nabatieh facility destroyed",
-      "summary": "Reuters, Al Jazeera and The National report Israeli strikes in central Gaza killed a six-month-old boy and his parents, while a separate strike killed a 13-year-old and five police officers. The Times of Israel confirms Lebanon's civil defense facility in Nabatieh was destroyed in an IDF strike (personnel evacuated), and The Guardian documents continued Israeli bombardment reducing buildings to craters in southern Lebanon \u2014 indicating the Israel-Lebanon track remains hot even as Iran diplomacy advances.",
-      "region": "Gaza / Southern Lebanon",
-      "source": "incidents",
+      "title": "Israeli strikes kill six-month-old, parents and Gaza police officers in single day",
+      "summary": "Reuters, Haaretz, Al Jazeera and The National report a cluster of Israeli strikes across Gaza killed five police officers and a 13-year-old boy at a northern Gaza police post, a six-month-old infant and his parents in central Gaza, and three additional civilians including a one-year-old. The casualty surge coincides with Hamas being assessed as 'Degraded' but PIJ still 'Active' in global_metrics proxy tracking.",
+      "region": "Gaza",
+      "source": "incidents,global_metrics",
       "confidence": "high"
+    },
+    {
+      "severity": "medium",
+      "category": "telegram_signal",
+      "title": "Japanese Terra A2 drone-interceptors reportedly deployed with Ukrainian forces in Kharkiv",
+      "summary": "Rybar (~135K views) reports Japan's Terra Drone Corporation, jointly with Ukrainian WinnyLab LLC, has begun deploying the Terra A2 drone-interceptor in Ukraine \u2014 at minimum in Kharkiv oblast. The platform reportedly reaches 312 km/h with 75 km range and optional radar payload, follows the earlier Terra A1 anti-Shahed system, and marks deepening Japanese industrial involvement in the war. Ukrainian MoD separately claims Shahed shootdowns have doubled in four months (DeepState UA, ~192K views).",
+      "region": "Ukraine",
+      "source": "telegram",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran diplomacy has moved from 'agreement in principle' to leaked operational text (60-day ceasefire, mine-clearing, sanctions waivers), but Israeli and GOP-hawk backlash threatens ratification even as Russia escalates hypersonic strikes on Kyiv and NATO openly rehearses deep-strike contingencies.",
+  "analysis_note": "The US-Iran deal narrative is fracturing in real time \u2014 Khamenei's reported refusal to relinquish HEU and Trump's 'don't rush' reversal directly contradict the MoU terms leaked 24 hours earlier, even as Israel resumes strikes on Beirut and Gaza casualties mount.",
   "meta": {
-    "input_tokens": 23874,
+    "input_tokens": 25458,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2542,
-    "cost_usd": 0.2071,
-    "wall_time_s": 37.3
+    "output_tokens": 2168,
+    "cost_usd": 0.2056,
+    "wall_time_s": 36.5
   }
 }
