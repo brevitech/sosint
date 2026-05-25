@@ -48,30 +48,23 @@ jobs:
             echo "No ais-india.json produced; nothing to commit."
             exit 0
           fi
-          VESSEL_COUNT=$(python3 -c "import json; print(json.load(open('ais-india.json'))['vesselCount'])" 2>/dev/null || echo "0")
-          if [ "$VESSEL_COUNT" = "0" ]; then
-            echo "Scrape returned 0 vessels — skipping commit."
-            exit 0
-          fi
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          # Stash → reset to latest main → re-apply: avoids 'cannot pull with rebase: index dirty'
-          mv ais-india.json /tmp/ais-india.json
-          git fetch origin main
-          git reset --hard origin/main
-          mv /tmp/ais-india.json ais-india.json
           git add ais-india.json
           if git diff --staged --quiet; then
-            echo "No AIS changes vs latest main."
-            exit 0
-          fi
-          git commit -m "data: AIS snapshot $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          for i in 1 2 3 4; do
-            if git push origin main; then exit 0; fi
-            echo "push failed, retrying in $((i*2))s..."
-            sleep $((i*2))
+            echo "No AIS changes."
+          else
+            # Rebase against latest main to minimize push conflicts with the
+            # hourly OSINT scraper running in parallel
             git fetch origin main
-            git rebase origin/main || git rebase --abort
-          done
-          echo "push failed after retries"
-          exit 1
+            git pull --rebase origin main || true
+            git commit -m "data: AIS snapshot $(date -u +%Y-%m-%dT%H:%M:%SZ)" --allow-empty=false || exit 0
+            for i in 1 2 3 4; do
+              if git push origin main; then exit 0; fi
+              echo "push failed, retrying in $((i*2))s..."
+              sleep $((i*2))
+              git pull --rebase origin main || true
+            done
+            echo "push failed after retries"
+            exit 1
+          fi
