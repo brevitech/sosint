@@ -83,18 +83,19 @@ async def collect(api_key: str, duration: int) -> dict:
     sub = {
         "APIKey": api_key,
         "BoundingBoxes": BOUNDING_BOXES,
-        "FilterMessageTypes": ["PositionReport", "ShipStaticData"],
     }
 
     vessels: dict[str, dict] = {}
     static_cache: dict[str, dict] = {}
+    type_counter: dict[str, int] = {}
 
     async with websockets.connect(WS_URL, ping_interval=20, ping_timeout=10) as ws:
         await ws.send(json.dumps(sub))
-        print(f"[*] Subscribed; listening {duration}s", flush=True)
+        print(f"[*] Subscribed (bbox={BOUNDING_BOXES[0]}); listening {duration}s", flush=True)
 
         deadline = time.monotonic() + duration
         msg_count = 0
+        first_raw_logged = 0
 
         while time.monotonic() < deadline:
             remaining = max(0.5, deadline - time.monotonic())
@@ -108,12 +109,25 @@ async def collect(api_key: str, duration: int) -> dict:
                 continue
 
             msg_count += 1
+            mtype = msg.get("MessageType", "unknown")
+            type_counter[mtype] = type_counter.get(mtype, 0) + 1
+
+            # Surface server-side errors loudly (auth failure, invalid bbox, etc.)
+            if mtype == "Error" or "error" in msg or "Error" in msg:
+                err = msg.get("Error") or msg.get("error") or msg.get("Message") or str(msg)
+                print(f"[!] AISStream error: {err}", flush=True)
+                continue
+
+            # Log first 2 raw messages for diagnostic visibility
+            if first_raw_logged < 2:
+                print(f"[debug] sample message: {json.dumps(msg)[:300]}", flush=True)
+                first_raw_logged += 1
+
             metadata = msg.get("MetaData", {}) or {}
             mmsi = metadata.get("MMSI")
             if mmsi is None:
                 continue
             mmsi = str(mmsi)
-            mtype = msg.get("MessageType")
             ts = metadata.get("time_utc")
 
             if mtype == "PositionReport":
@@ -147,6 +161,8 @@ async def collect(api_key: str, duration: int) -> dict:
                     vessels[mmsi].update(static)
 
         print(f"[*] Received {msg_count} messages, {len(vessels)} unique vessels", flush=True)
+        if type_counter:
+            print(f"[*] Message type breakdown: {type_counter}", flush=True)
 
     return vessels
 
