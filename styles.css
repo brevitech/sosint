@@ -1760,12 +1760,6 @@ body::before {
   text-shadow: 0 0 6px rgba(6, 182, 212, 0.4);
 }
 
-/* ── Maritime Icons ────────────────────────────────────────────────────────── */
-.maritime-icon {
-  background: none !important;
-  border: none !important;
-}
-
 /* ── Shipping Lanes Overlay ────────────────────────────────────────────────── */
 .shipping-lane-label {
   background: var(--bg-panel) !important;
@@ -1781,10 +1775,6 @@ body::before {
 .india-aircraft div {
   color: #ff9933 !important;
   text-shadow: 0 0 8px rgba(255, 153, 51, 0.6) !important;
-}
-
-.india-vessel div {
-  filter: drop-shadow(0 0 6px rgba(255, 153, 51, 0.6)) !important;
 }
 
 .legend-item[data-layer="india"] {
