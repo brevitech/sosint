@@ -160,6 +160,7 @@ class WarDashboard {
             <button class="tab-btn" data-tab="timeline">Timeline</button>
             <button class="tab-btn" data-tab="cyber">Cyber Ops</button>
             <button class="tab-btn" data-tab="naval">Naval</button>
+            <button class="tab-btn" data-tab="live-maritime">🚢 Live Ships</button>
           </div>
           <div class="panel-content" id="right-bottom-content"></div>
         </div>
@@ -268,7 +269,72 @@ class WarDashboard {
         title.textContent = 'Global Sentiment';
         this.renderSentimentPanel();
         break;
+      case 'live-maritime':
+        title.textContent = 'Live Maritime Traffic';
+        this.renderLiveMaritime();
+        break;
     }
+  }
+
+  // ── Live Maritime (MarineTraffic iframe embed) ──────────────────────────
+  renderLiveMaritime() {
+    const content = document.getElementById('right-bottom-content');
+    if (!content) return;
+
+    const views = [
+      { key: 'hormuz',  label: 'Hormuz',        lat: 26.5, lon: 56.5, zoom: 7 },
+      { key: 'gulf',    label: 'Persian Gulf',  lat: 26.5, lon: 51.5, zoom: 6 },
+      { key: 'arabian', label: 'Arabian Sea',   lat: 19.0, lon: 64.0, zoom: 5 },
+      { key: 'india',   label: 'India W. Coast', lat: 19.0, lon: 71.0, zoom: 5 },
+      { key: 'red-sea', label: 'Red Sea',       lat: 18.0, lon: 41.5, zoom: 5 },
+    ];
+
+    const buildSrc = (v) =>
+      `https://www.marinetraffic.com/en/ais/embed/zoom:${v.zoom}` +
+      `/centery:${v.lat}/centerx:${v.lon}/maptype:4/shownames:false` +
+      `/mmsi:0/shipid:0/fleet:0/fleet_id:0/vtypes:0/showmenu:false/remember:false`;
+
+    const buildOpen = (v) =>
+      `https://www.marinetraffic.com/en/ais/home/centerx:${v.lon}/centery:${v.lat}/zoom:${v.zoom}/maptype:4`;
+
+    const initial = views[0];
+
+    content.innerHTML = `
+      <div class="live-maritime-container">
+        <div class="live-maritime-viewbar" id="live-maritime-viewbar">
+          ${views.map((v, i) => `
+            <button class="live-maritime-viewbtn${i === 0 ? ' active' : ''}" data-view="${v.key}">${v.label}</button>
+          `).join('')}
+          <a class="live-maritime-open" id="live-maritime-open" href="${buildOpen(initial)}" target="_blank" rel="noopener">Fullscreen ↗</a>
+        </div>
+        <iframe
+          id="live-maritime-iframe"
+          src="${buildSrc(initial)}"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="MarineTraffic live AIS map">
+        </iframe>
+        <div class="live-maritime-footer">
+          Live AIS data via <a href="https://www.marinetraffic.com" target="_blank" rel="noopener">MarineTraffic</a> ·
+          Free-tier coverage of the Gulf is partial
+        </div>
+      </div>
+    `;
+
+    const bar = document.getElementById('live-maritime-viewbar');
+    const iframe = document.getElementById('live-maritime-iframe');
+    const openLink = document.getElementById('live-maritime-open');
+    bar?.addEventListener('click', (e) => {
+      const btn = e.target.closest('.live-maritime-viewbtn');
+      if (!btn) return;
+      const v = views.find((vv) => vv.key === btn.dataset.view);
+      if (!v) return;
+      bar.querySelectorAll('.live-maritime-viewbtn').forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      iframe.src = buildSrc(v);
+      if (openLink) openLink.href = buildOpen(v);
+    });
   }
 
   // ── News Filters ────────────────────────────────────────────────────────
