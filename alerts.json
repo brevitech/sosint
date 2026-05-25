@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-25T15:48:03.863807+00:00",
+  "generated_at": "2026-05-25T17:39:57.641370+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran confirms Khamenei wounded in prior US-Israel strike",
-      "summary": "An Iranian health official publicly stated Supreme Leader Khamenei sustained 'superficial' wounds during the recent US-Israel strike campaign (reported by Breakingthenews, Straits Times, Vanguard). The first official acknowledgment that a strike physically reached Khamenei marks a major disclosure mid-negotiation and reframes Tehran's domestic posture as Khamenei simultaneously hardens uranium red lines.",
-      "region": "Iran",
-      "source": "incidents",
+      "title": "Trump weighs fresh strikes on Iran as Tehran says deal 'not imminent'",
+      "summary": "The New York Times reports Trump is actively weighing options for new strikes inside Iran, while BBC quotes Iran stating any US agreement is 'not imminent' \u2014 directly contradicting Trump's earlier 'largely negotiated' framing. A senior US official also told Fox News (via ME Spectator, ~41K views) no deal will be signed 'today or tomorrow,' citing a 'No Dust, No Dollars' posture, indicating the Hormuz framework is fraying as threat level holds at 9/CRITICAL.",
+      "region": "Iran / Persian Gulf",
+      "source": "incidents,telegram,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Iran reconstituting missile capability; Larestan underground base back online",
-      "summary": "Times of Israel reports Iran is rebuilding missile production faster than US/Israeli analysts expected, while ME Spectator (~52K views) says the entrance to the Larestan underground missile complex in southern Iran near the Persian Gulf has been repaired and the base is operational again. The reconstitution is occurring concurrently with the 'largely negotiated' Hormuz deal, suggesting Tehran is hedging rather than de-escalating.",
-      "region": "Southern Iran / Persian Gulf",
-      "source": "incidents,telegram",
+      "title": "IDF chief urges cabinet to strike Beirut buildings over Hezbollah drone attacks",
+      "summary": "The Jerusalem Post reports Israel's IDF chief told the security cabinet that Israel must strike buildings inside Beirut in response to recent Hezbollah drone activity \u2014 a significant threshold beyond current south-Lebanon strike patterns. The recommendation comes as Hezbollah remains flagged 'Active' in proxy metrics and risks reopening a second front while US-Iran talks falter.",
+      "region": "Lebanon / Northern Israel",
+      "source": "incidents,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "Russia reportedly fires two 'Oreshnik' IRBMs at Ukraine in single night",
-      "summary": "Rybar (~143K views) reports that during the May 24 strikes on Kyiv, Bila Tserkva and Druzhkovka, Russian forces conducted two 'Oreshnik' intermediate-range ballistic missile launches alongside 'Tsirkon' hypersonics \u2014 described as the first dual-Oreshnik employment of the war. DeepState UA separately notes NATO's ARRC rehearsed deep-strike contingencies against Russia from a London bunker under 'Operation Arcade Strike,' indicating both sides are signaling escalation dominance.",
-      "region": "Ukraine / Russia",
-      "source": "telegram",
-      "confidence": "medium"
+      "category": "incident",
+      "title": "Houthi missile strike on Israel revives Red Sea shipping threat",
+      "summary": "AP News and The Times of Israel report a fresh Houthi missile attack on Israel has stoked fears of renewed strikes on Red Sea commercial shipping, with BBC and Global Security Review publishing parallel threat assessments. Houthi status in proxy metrics is 'Elevated \u2014 Multiple Recent Attacks'; USS Eisenhower, Bataan, Carney, Mason and Laboon are all concentrated in the southern Red Sea around 15-16\u00b0N near the Bab el-Mandeb.",
+      "region": "Red Sea / Bab el-Mandeb",
+      "source": "incidents,assets,global_metrics",
+      "confidence": "high"
     },
     {
-      "severity": "medium",
-      "category": "diplomatic",
-      "title": "GOP hawks revolt against Trump's emerging Iran deal",
-      "summary": "Middle East Eye reports Republican hawks are publicly attacking the emerging US-Iran framework as a 'nightmare for Israel,' with US sentiment data showing 'gop,' 'criticism,' 'tillis,' and 'hegseth' all spiking in coverage. NYT separately frames Netanyahu as reduced from 'co-pilot' to 'passenger' in Trump's Iran policy, suggesting the deal faces a domestic political squeeze even before it is signed.",
-      "region": "United States",
-      "source": "incidents,sentiment",
+      "severity": "high",
+      "category": "nuclear",
+      "title": "Khamenei: enriched uranium must stay in Iran; Tehran rejects nuclear commitments",
+      "summary": "Reuters exclusive reports Supreme Leader Khamenei has ruled that Iran's enriched uranium stockpile must remain inside the country, while Iran's semi-official Tasnim (via ME Spectator, ~46K views) states Tehran has made 'zero commitments on nuclear issues' and demands at least half of frozen assets be released up front. With enrichment at 60% U-235 and breakout estimated at 1-2 weeks, the public hardening directly contradicts US claims of an 'understanding' on the stockpile.",
+      "region": "Iran",
+      "source": "global_metrics,telegram",
       "confidence": "high"
     },
     {
       "severity": "medium",
-      "category": "diplomatic",
-      "title": "Iran's Tasnim outlines hardline MoU terms; US official sets 'No Dust, No Dollars' rule",
-      "summary": "ME Spectator (~45K views) cites Iran's semi-official Tasnim demanding at least half of frozen Iranian assets be released up front, zero nuclear commitments, and a full Lebanon ceasefire with no breaches. A senior US official told Fox News no agreement will be signed 'today or tomorrow,' citing a 'No Dust, No Dollars' policy \u2014 confirming the two sides remain far apart on sequencing despite Trump's 'largely negotiated' framing.",
-      "region": "Iran / United States",
-      "source": "telegram",
+      "category": "asset_movement",
+      "title": "US deploys defensive 'umbrella' of tech and assets over Strait of Hormuz shipping",
+      "summary": "DefenseScoop reports the US is fielding a layered defense and technology 'umbrella' to shield commercial vessels transiting the Strait of Hormuz, amid widespread GPS jamming across the Middle East (The Week) and Iran-linked hacker activity targeting US interests (PBS). USS Florida (SSGN) remains positioned in the Persian Gulf at ~25.5\u00b0N, 51.8\u00b0E, consistent with sustained deterrent posture as Brent holds at $100.21.",
+      "region": "Strait of Hormuz",
+      "source": "global_metrics,assets",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran talks are publicly converging on a Hormuz/sanctions framework while both sides quietly harden: Iran has disclosed Khamenei was wounded, is rebuilding missile infrastructure, and is demanding upfront asset releases, while Trump faces a GOP hawk revolt \u2014 all against a Threat Level 9 backdrop with Brent at $100 and Russia debuting dual-Oreshnik strikes on Ukraine.",
+  "analysis_note": "The US-Iran framework is visibly fracturing \u2014 Trump is weighing renewed strikes while Tehran publicly rejects nuclear commitments and hardens on uranium custody \u2014 even as Hezbollah, Houthi, and Hormuz pressure points simultaneously escalate.",
   "meta": {
-    "input_tokens": 22256,
+    "input_tokens": 22237,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 3142,
-    "cost_usd": 0.214,
-    "wall_time_s": 47.4
+    "output_tokens": 2434,
+    "cost_usd": 0.1962,
+    "wall_time_s": 37.5
   }
 }
