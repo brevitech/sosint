@@ -2406,38 +2406,20 @@ body::before {
   height: 100%;
   background: var(--bg-primary);
 }
-.live-maritime-viewbar {
+.live-maritime-topbar {
   display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
+  align-items: center;
+  gap: 8px;
   padding: 6px 8px;
   background: var(--bg-panel-header);
   border-bottom: 1px solid var(--border-color);
-  align-items: center;
   font-family: var(--font-mono);
 }
-.live-maritime-viewbtn {
-  background: transparent;
-  border: 1px solid var(--border-color);
-  color: var(--text-secondary);
-  padding: 3px 8px;
-  border-radius: 3px;
-  cursor: pointer;
+.live-maritime-label {
   font-size: 10px;
-  font-family: inherit;
-  letter-spacing: 0.04em;
-  transition: var(--transition);
-}
-.live-maritime-viewbtn:hover {
-  border-color: var(--accent-amber);
-  color: var(--text-primary);
-  background: var(--bg-hover);
-}
-.live-maritime-viewbtn.active {
-  border-color: var(--accent-amber);
-  background: rgba(245, 158, 11, 0.15);
-  color: var(--accent-amber);
-  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  text-transform: uppercase;
 }
 .live-maritime-open {
   margin-left: auto;
