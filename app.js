@@ -6,7 +6,7 @@ class WarDashboard {
   constructor() {
     this.map = null;
     this.newsItems = [];
-    this.activeFilter = 'all';
+    this.activeFilter = 'ai';
     this.layerGroups = {};
     this.activeLayers = new Set(['us-bases', 'iran-bases', 'iran-missiles', 'iran-nuclear', 'us-navy', 'iran-navy', 'proxy-forces', 'air-defense', 'conflict-zones', 'air-traffic']);
     this.feedErrors = 0;
@@ -21,6 +21,13 @@ class WarDashboard {
     this.liveAssets = [];
     this.globalMetrics = null;
     this.telegramData = null;
+    this.aiAlerts = null;
+    // Warm-start AI alerts from last-cached payload so the panel paints
+    // instantly on page load while the fresh fetch runs in the background.
+    try {
+      const raw = localStorage.getItem('sosint.ai.alerts.v1');
+      if (raw) this.aiAlerts = JSON.parse(raw);
+    } catch (e) { /* localStorage unavailable */ }
   }
 
   init() {
@@ -31,20 +38,23 @@ class WarDashboard {
     this.renderMilitaryComparison(); // right-top: Assets tab (default)
     this.renderProxyForces();        // left-bottom: Proxies tab (default)
     this.renderSentimentPanel();     // right-bottom: Sentiment tab (default)
+
+    // AI Alerts is the default Strat Intel Feed tab — paint cached payload
+    // immediately, then kick the network refresh.
+    this.renderAiAlerts();
+    this.fetchAiAlerts();
+    setInterval(() => this.fetchAiAlerts(), 5 * 60 * 1000); // poll every 5 min
+
     this.loadNewsFeeds();
     // Initialize live tracking layers
     this.loadAirTraffic();
     // Refresh intervals
     setInterval(() => this.loadNewsFeeds(), 300000);    // News: 5 min
     setInterval(() => this.loadAirTraffic(), 60000);    // Air: 60s (server-side scraper updates every 10 min)
-    
+
     // Live OSINT Data (Incidents & Assets)
     this.fetchLiveData();
     setInterval(() => this.fetchLiveData(), 60000); // Live Data: 1 min
-
-    // AI Alerts (refreshed when the cron run finishes — every ~hour)
-    this.fetchAiAlerts();
-    setInterval(() => this.fetchAiAlerts(), 5 * 60 * 1000); // poll every 5 min
 
     this.initSentimentRefresh();
   }
@@ -88,8 +98,8 @@ class WarDashboard {
             <span class="panel-badge live">LIVE</span>
           </div>
           <div class="news-filter-bar" style="padding: 4px 10px;">
-            <button class="news-filter active" data-filter="all">All</button>
-            <button class="news-filter news-filter-ai" data-filter="ai"><span class="news-filter-ai-icon">⚠</span> AI</button>
+            <button class="news-filter" data-filter="all">All</button>
+            <button class="news-filter news-filter-ai active" data-filter="ai"><span class="news-filter-ai-icon">⚠</span> AI</button>
             <button class="news-filter" data-filter="wire">News</button>
             <button class="news-filter" data-filter="intel">Defence</button>
             <button class="news-filter" data-filter="gov">Govt</button>
@@ -332,19 +342,20 @@ class WarDashboard {
     // Seed with static intel items so dashboard is always populated
     if (this.newsItems.length === 0) {
       this.seedStaticNews();
-      this.renderNews();
+      if (this.activeFilter !== 'ai') this.renderNews();
     }
 
     const allFeeds = Object.values(NEWS_FEEDS).flat();
     const feedCount = document.getElementById('feed-count');
     if (feedCount) feedCount.textContent = allFeeds.length;
 
-    // Load feeds concurrently in batches
+    // Load feeds concurrently in batches. Skip repainting when the AI tab
+    // is active so the news loader doesn't clobber the cached AI panel.
     const batchSize = 4;
     for (let i = 0; i < allFeeds.length; i += batchSize) {
       const batch = allFeeds.slice(i, i + batchSize);
       await Promise.allSettled(batch.map(feed => this.fetchFeed(feed)));
-      this.renderNews();
+      if (this.activeFilter !== 'ai') this.renderNews();
     }
 
     // Update status based on results
@@ -386,8 +397,14 @@ class WarDashboard {
       const res = await fetch('alerts.json?v=' + Date.now());
       if (!res.ok) return;
       const data = await res.json();
+      // Skip re-render when the cached payload is already up-to-date —
+      // avoids a DOM flicker on every 5-min poll.
+      const unchanged = this.aiAlerts
+        && this.aiAlerts.generated_at === data.generated_at
+        && (this.aiAlerts.alerts || []).length === (data.alerts || []).length;
       this.aiAlerts = data;
-      this.renderAiAlerts();
+      try { localStorage.setItem('sosint.ai.alerts.v1', JSON.stringify(data)); } catch (e) {}
+      if (!unchanged) this.renderAiAlerts();
     } catch (e) {
       // alerts.json may not exist yet — that's fine
     }
