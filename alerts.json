@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-25T12:25:22.692686+00:00",
+  "generated_at": "2026-05-25T15:48:03.863807+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Trump reportedly called off Tuesday Iran strike at Gulf allies' request",
-      "summary": "PBS reports Trump confirmed he scrubbed a planned Tuesday strike against Iran after intervention from Gulf state partners, while NYT reports he continues to weigh new strike options. The disclosure indicates US forces were within hours of kinetic action and that Gulf capitals \u2014 not Israel \u2014 are now the decisive moderating voice in Washington's targeting cycle.",
-      "region": "Iran / Persian Gulf",
-      "source": "incidents,global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "nuclear",
-      "title": "Khamenei sets uranium red line as Iran denies deal is imminent",
-      "summary": "Reuters exclusive cites Iranian sources saying Supreme Leader Khamenei has insisted enriched uranium must remain inside Iran, directly contradicting the US position (per ynetnews) that Trump assured Israel no deal without dismantling the nuclear program. BBC reports Iran now says a deal is 'not imminent,' walking back Rubio's earlier Monday timeline as Trump tells negotiators 'not to rush.'",
+      "title": "Iran confirms Khamenei wounded in prior US-Israel strike",
+      "summary": "An Iranian health official publicly stated Supreme Leader Khamenei sustained 'superficial' wounds during the recent US-Israel strike campaign (reported by Breakingthenews, Straits Times, Vanguard). The first official acknowledgment that a strike physically reached Khamenei marks a major disclosure mid-negotiation and reframes Tehran's domestic posture as Khamenei simultaneously hardens uranium red lines.",
       "region": "Iran",
-      "source": "global_metrics,incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "asset_movement",
-      "title": "US deploying defensive 'umbrella' over Strait of Hormuz shipping",
-      "summary": "DefenseScoop reports the US is fielding a layered 'umbrella' of defense and technology assets to shield commercial vessels transiting the Strait of Hormuz, even as Trump claims a deal to reopen the strait is 'largely negotiated' (PBS). USS Florida (SSGN) remains forward-deployed in the Persian Gulf alongside three Red Sea destroyers, indicating posture is being reinforced, not drawn down, during talks.",
-      "region": "Strait of Hormuz",
-      "source": "global_metrics,assets",
-      "confidence": "high"
-    },
-    {
-      "severity": "medium",
-      "category": "incident",
-      "title": "Israeli strikes kill medics in Lebanon; Hezbollah affirms Iran will not abandon it",
-      "summary": "NYT and Guardian report Israeli bombardment of southern Lebanon killed medics and reduced buildings to craters despite the existing fragile truce, while France 24 reports Hezbollah publicly declared Iran 'will not abandon' the group. The strikes plus the Iran-Hezbollah signaling raise the risk of a second-front complication just as US-Iran negotiations enter their most sensitive phase.",
-      "region": "Southern Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
+      "severity": "high",
+      "category": "incident",
+      "title": "Iran reconstituting missile capability; Larestan underground base back online",
+      "summary": "Times of Israel reports Iran is rebuilding missile production faster than US/Israeli analysts expected, while ME Spectator (~52K views) says the entrance to the Larestan underground missile complex in southern Iran near the Persian Gulf has been repaired and the base is operational again. The reconstitution is occurring concurrently with the 'largely negotiated' Hormuz deal, suggesting Tehran is hedging rather than de-escalating.",
+      "region": "Southern Iran / Persian Gulf",
+      "source": "incidents,telegram",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "telegram_signal",
+      "title": "Russia reportedly fires two 'Oreshnik' IRBMs at Ukraine in single night",
+      "summary": "Rybar (~143K views) reports that during the May 24 strikes on Kyiv, Bila Tserkva and Druzhkovka, Russian forces conducted two 'Oreshnik' intermediate-range ballistic missile launches alongside 'Tsirkon' hypersonics \u2014 described as the first dual-Oreshnik employment of the war. DeepState UA separately notes NATO's ARRC rehearsed deep-strike contingencies against Russia from a London bunker under 'Operation Arcade Strike,' indicating both sides are signaling escalation dominance.",
+      "region": "Ukraine / Russia",
+      "source": "telegram",
+      "confidence": "medium"
+    },
+    {
       "severity": "medium",
-      "category": "cyber",
-      "title": "Israel claims it destroyed Iran's cyber warfare headquarters",
-      "summary": "Politico reports Israeli officials have announced the destruction of Iran's cyber warfare headquarters, a claim that \u2014 if accurate \u2014 represents a significant degradation of Tehran's offensive cyber capability against Gulf shipping and regional infrastructure. Coupled with Israeli officials calling the emerging US-Iran framework a 'bad deal' (Jerusalem Post), the disclosure appears timed to harden Washington's terms.",
-      "region": "Iran / Israel",
-      "source": "global_metrics,incidents",
+      "category": "diplomatic",
+      "title": "GOP hawks revolt against Trump's emerging Iran deal",
+      "summary": "Middle East Eye reports Republican hawks are publicly attacking the emerging US-Iran framework as a 'nightmare for Israel,' with US sentiment data showing 'gop,' 'criticism,' 'tillis,' and 'hegseth' all spiking in coverage. NYT separately frames Netanyahu as reduced from 'co-pilot' to 'passenger' in Trump's Iran policy, suggesting the deal faces a domestic political squeeze even before it is signed.",
+      "region": "United States",
+      "source": "incidents,sentiment",
+      "confidence": "high"
+    },
+    {
+      "severity": "medium",
+      "category": "diplomatic",
+      "title": "Iran's Tasnim outlines hardline MoU terms; US official sets 'No Dust, No Dollars' rule",
+      "summary": "ME Spectator (~45K views) cites Iran's semi-official Tasnim demanding at least half of frozen Iranian assets be released up front, zero nuclear commitments, and a full Lebanon ceasefire with no breaches. A senior US official told Fox News no agreement will be signed 'today or tomorrow,' citing a 'No Dust, No Dollars' policy \u2014 confirming the two sides remain far apart on sequencing despite Trump's 'largely negotiated' framing.",
+      "region": "Iran / United States",
+      "source": "telegram",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "The US-Iran track is in a high-volatility holding pattern: Trump has confirmed a Tuesday strike was aborted at Gulf urging, yet defensive posture around Hormuz is being reinforced and Khamenei's uranium red line directly collides with US dismantlement demands \u2014 while Israeli kinetic and cyber actions appear designed to constrain any emerging deal.",
+  "analysis_note": "US-Iran talks are publicly converging on a Hormuz/sanctions framework while both sides quietly harden: Iran has disclosed Khamenei was wounded, is rebuilding missile infrastructure, and is demanding upfront asset releases, while Trump faces a GOP hawk revolt \u2014 all against a Threat Level 9 backdrop with Brent at $100 and Russia debuting dual-Oreshnik strikes on Ukraine.",
   "meta": {
-    "input_tokens": 24139,
+    "input_tokens": 22256,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2540,
-    "cost_usd": 0.2083,
-    "wall_time_s": 39.2
+    "output_tokens": 3142,
+    "cost_usd": 0.214,
+    "wall_time_s": 47.4
   }
 }
