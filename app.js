@@ -51,6 +51,12 @@ class WarDashboard {
     this.fetchAiAlerts();
     setInterval(() => this.fetchAiAlerts(), 5 * 60 * 1000); // poll every 5 min
 
+    // Live AIS — Hormuz→India energy corridor (refreshed every 15 min by cron)
+    this.aisIndia = null;
+    this.aisIndiaMarkers = [];
+    this.fetchAisIndia();
+    setInterval(() => this.fetchAisIndia(), 60 * 1000); // poll every 60s
+
     this.initSentimentRefresh();
   }
 
@@ -1970,10 +1976,15 @@ class WarDashboard {
     const group = this.layerGroups['maritime'];
     if (!group) return;
     group.clearLayers();
+    // Live AIS markers are owned by this.aisIndiaMarkers and get re-added below
+    this.aisIndiaMarkers = [];
 
     const indianCount = { ships: 0, aircraft: 0 };
+    // Suppress simulated India-route vessels when we have live AIS coverage
+    const hasLiveCoverage = !!(this.aisIndia && Array.isArray(this.aisIndia.vessels) && this.aisIndia.vessels.length > 0);
 
     this.maritimeVessels.forEach(v => {
+      if (hasLiveCoverage && v.indianRoute) return;
       if (v.isIndian) indianCount.ships++;
 
       const glowIntensity = v.isIndian ? '0 0 6px' : '0 0 3px';
@@ -2003,6 +2014,11 @@ class WarDashboard {
         `, { className: 'custom-marker-popup' })
         .addTo(group);
     });
+
+    // Re-overlay live AIS markers (owned by renderAisIndia, kept in sync after clearLayers)
+    if (hasLiveCoverage) {
+      this.renderAisIndia();
+    }
 
     // Update counts in legend
     const countEl = document.getElementById('count-maritime');
@@ -2237,35 +2253,106 @@ class WarDashboard {
   }
 
   addAisVessels() {
-    if (!this.globalMetrics || !this.globalMetrics.ais) return;
-    
+    // Legacy no-op: live AIS now comes from ais-india.json (fetchAisIndia / renderAisIndia).
+    // The global-metrics.json ais field is kept for backward-compat but unused.
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════
+  // LIVE AIS — Hormuz → India Energy Corridor (refreshed every 15 min by cron)
+  // ═══════════════════════════════════════════════════════════════════════
+  async fetchAisIndia() {
+    try {
+      const res = await fetch('ais-india.json?v=' + Date.now());
+      if (!res.ok) return;
+      const data = await res.json();
+      this.aisIndia = data;
+      this.renderAisIndia();
+      // Re-render simulation to suppress simulated India-route vessels now that we have live data
+      this.renderMaritimeLayer();
+    } catch (e) {
+      // ais-india.json may not exist yet — that's fine
+    }
+  }
+
+  renderAisIndia() {
+    if (!this.aisIndia || !Array.isArray(this.aisIndia.vessels)) return;
     if (!this.layerGroups['maritime']) {
       this.layerGroups['maritime'] = L.layerGroup().addTo(this.map);
     }
     const group = this.layerGroups['maritime'];
-    
-    const vessels = this.globalMetrics.ais.vessels || [];
-    vessels.forEach(v => {
+
+    // Clear previous live markers
+    this.aisIndiaMarkers.forEach(m => group.removeLayer(m));
+    this.aisIndiaMarkers = [];
+
+    const esc = (s) => String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+    const navStatusMap = {
+      0: 'Under way using engine', 1: 'At anchor', 2: 'Not under command',
+      3: 'Restricted manoeuvrability', 4: 'Constrained by draught', 5: 'Moored',
+      6: 'Aground', 7: 'Engaged in fishing', 8: 'Under way sailing',
+      15: 'Undefined',
+    };
+
+    const now = Date.now();
+    const stamp = this.aisIndia.generatedAt ? new Date(this.aisIndia.generatedAt).getTime() : now;
+    const ageMin = Math.max(0, Math.round((now - stamp) / 60000));
+
+    this.aisIndia.vessels.forEach(v => {
+      if (v.lat == null || v.lon == null) return;
+      const isIndia = !!v.indiaBound;
+      const isLNG = v.shipType === 84;
+      // color: bright green for India-bound, cyan for other tankers in corridor
+      const color = isIndia ? '#10b981' : '#06b6d4';
+      const icon = isLNG ? '⛽' : '🛢️';
+      const cog = (v.cog != null && v.cog >= 0 && v.cog < 360) ? Math.round(v.cog) : null;
+
       const marker = L.marker([v.lat, v.lon], {
         icon: L.divIcon({
-          className: 'maritime-marker live-ais',
-          html: '<div style="color:#3b82f6; font-size:16px;">🚢</div>',
-          iconSize: [20, 20]
-        })
+          className: 'maritime-marker live-ais' + (isIndia ? ' live-ais-india' : ''),
+          html: `<div class="live-ais-icon" style="color:${color};">${icon}</div>`,
+          iconSize: [22, 22],
+          iconAnchor: [11, 11],
+        }),
+        zIndexOffset: isIndia ? 1000 : 500,
       });
-      
+
+      const navStatusLabel = (v.navStatus != null) ? (navStatusMap[v.navStatus] || `Status ${v.navStatus}`) : '—';
+      const lastUpd = v.lastUpdate ? new Date(v.lastUpdate).toUTCString().replace(' GMT', 'Z') : '—';
+
       marker.bindPopup(`
-        <div style="font-family:'JetBrains Mono',monospace;">
-          <strong style="color:#3b82f6;">AIS VESSEL</strong><br>
-          <strong>MMSI:</strong> ${v.mmsi}<br>
-          <strong>Name:</strong> ${v.name || 'Unknown'}<br>
-          <strong>Speed:</strong> ${v.speed || 0} kts<br>
-          <strong>Heading:</strong> ${v.heading || 0}°
+        <div style="font-family:'JetBrains Mono',monospace; font-size:11px; line-height:1.4;">
+          <div style="color:${color}; font-weight:700; letter-spacing:0.08em; margin-bottom:4px;">
+            ${isIndia ? '🇮🇳 LIVE AIS · INDIA-BOUND' : 'LIVE AIS'}
+          </div>
+          <div style="font-weight:600; color:#e2e8f0; margin-bottom:2px;">${esc(v.name)}</div>
+          <div style="color:#94a3b8;">${esc(v.shipTypeLabel || 'Tanker')}</div>
+          <hr style="border:none; border-top:1px solid rgba(100,116,139,0.3); margin:4px 0;">
+          <div><span style="color:#64748b;">MMSI:</span> ${esc(v.mmsi)}</div>
+          ${v.imo ? `<div><span style="color:#64748b;">IMO:</span> ${esc(v.imo)}</div>` : ''}
+          ${v.callsign ? `<div><span style="color:#64748b;">Callsign:</span> ${esc(v.callsign)}</div>` : ''}
+          <div><span style="color:#64748b;">Speed:</span> ${(v.sog != null) ? v.sog.toFixed(1) + ' kts' : '—'}</div>
+          <div><span style="color:#64748b;">Course:</span> ${cog != null ? cog + '°' : '—'}</div>
+          <div><span style="color:#64748b;">Status:</span> ${esc(navStatusLabel)}</div>
+          ${v.destination ? `<div><span style="color:#64748b;">Destination:</span> ${esc(v.destination)}</div>` : ''}
+          <hr style="border:none; border-top:1px solid rgba(100,116,139,0.3); margin:4px 0;">
+          <div style="color:#64748b; font-size:10px;">AIS update: ${esc(lastUpd)}</div>
+          <div style="color:#64748b; font-size:10px;">Snapshot age: ${ageMin}m</div>
         </div>
       `, { className: 'custom-marker-popup' });
-      
+
       marker.addTo(group);
+      this.aisIndiaMarkers.push(marker);
     });
+
+    // Update on-map counter
+    const countEl = document.getElementById('count-maritime');
+    if (countEl) {
+      const total = this.maritimeCount + this.aisIndia.vessels.length;
+      const liveTag = ` · ${this.aisIndia.vessels.length} LIVE`;
+      countEl.textContent = total + liveTag;
+    }
   }
 }
 
