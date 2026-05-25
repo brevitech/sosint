@@ -1,12 +1,12 @@
 {
   "us": {
     "positive": 35,
-    "negative": 55,
-    "neutral": 10,
+    "negative": 56,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 66,
+        "count": 67,
         "sentiment": "neutral"
       },
       {
@@ -16,22 +16,27 @@
       },
       {
         "word": "deal",
-        "count": 37,
+        "count": 38,
         "sentiment": "neutral"
       },
       {
         "word": "pope",
-        "count": 16,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "leo",
-        "count": 12,
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "calls",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -50,23 +55,23 @@
         "sentiment": "neutral"
       },
       {
+        "word": "us-iran",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "abraham",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "accords",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "israel",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "us-iran",
-        "count": 7,
+        "word": "netanyahu",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -95,8 +100,8 @@
         "sentiment": "negative"
       },
       {
-        "word": "regulation",
-        "count": 5,
+        "word": "house",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -120,9 +125,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "warns",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "human",
@@ -148,19 +153,14 @@
         "word": "talks",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "autopsy",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-25T21:01:12.046077+00:00",
-    "nextRefresh": "2026-05-25T21:01:12.046077+00:00",
+    "generatedAt": "2026-05-25T22:56:45.507616+00:00",
+    "nextRefresh": "2026-05-25T22:56:45.507616+00:00",
     "articlesAnalyzed": 346,
-    "matchedMentions": 159,
-    "uniquePersonalities": 49,
+    "matchedMentions": 165,
+    "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
@@ -169,14 +169,14 @@
     "neutral": 19,
     "wordCloud": [
       {
-        "word": "party",
-        "count": 11,
-        "sentiment": "positive"
-      },
-      {
         "word": "rahul",
         "count": 9,
         "sentiment": "neutral"
+      },
+      {
+        "word": "party",
+        "count": 9,
+        "sentiment": "positive"
       },
       {
         "word": "congress",
@@ -189,32 +189,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "support",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
         "word": "gandhi",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "delhi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ndtv",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "punjab",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mann",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -244,7 +224,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kejriwal",
+        "word": "mann",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -264,47 +244,37 @@
         "sentiment": "neutral"
       },
       {
+        "word": "support",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
         "word": "shivakumar",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "nava",
+        "word": "ndtv",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "summit",
+        "word": "punjab",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "highlights",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "aap",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "national",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "super",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "charges",
-        "count": 4,
-        "sentiment": "negative"
       },
       {
         "word": "centre",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -314,17 +284,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "full",
+        "word": "case",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "remarks",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sharma",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "farmers",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "announces",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kejriwal",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dmk",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-25T21:01:25.199323+00:00",
-    "nextRefresh": "2026-05-25T21:01:25.199323+00:00",
-    "articlesAnalyzed": 468,
-    "matchedMentions": 95,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-05-25T22:56:59.127177+00:00",
+    "nextRefresh": "2026-05-25T22:56:59.127177+00:00",
+    "articlesAnalyzed": 467,
+    "matchedMentions": 93,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }

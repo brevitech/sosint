@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-25T21:01:36.339312+00:00",
+  "generated_at": "2026-05-25T22:57:10.588137+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
+      "severity": "critical",
+      "category": "incident",
+      "title": "Explosions reported in Bandar Abbas; Iran's Mehr says situation 'under control'",
+      "summary": "Reuters reports explosions heard in Iran, with state-affiliated Mehr agency stating the situation at Bandar Abbas \u2014 Iran's main port on the Strait of Hormuz and a critical naval/logistics hub \u2014 is 'under control.' The blasts come amid ongoing US-Iran deal talks Trump claims are 'largely negotiated' and follow Rybar reporting (~109K views) of continued US/Israeli strike preparation. No cause or casualty figures yet released.",
+      "region": "Bandar Abbas / Strait of Hormuz",
+      "source": "incidents,telegram",
+      "confidence": "medium"
+    },
+    {
       "severity": "high",
       "category": "incident",
-      "title": "Trump reportedly weighing new strikes on Iran despite 'largely negotiated' deal",
-      "summary": "The New York Times reports President Trump is actively weighing options for fresh strikes on Iran even as he publicly claims the Hormuz/ceasefire deal is 'largely negotiated.' Rybar (~95K views) corroborates that US intelligence officials continue to push back against the president, with NYT-staged leaks since May 12 detailing simultaneous US-Israeli strike preparation. Fortune notes Tehran is growing more suspicious of generous ceasefire terms, suggesting both sides anticipate renewed kinetic action.",
+      "title": "Iran reportedly rebuilding IRGC missile 'cities' faster than US/Israeli estimates",
+      "summary": "The Times of Israel cites assessments that Iran is reconstructing its ballistic missile production at a pace exceeding expectations. Rybar (~109K views) corroborates with US satellite-intelligence reporting that the IRGC has 'practically restored' underground missile cities whose tunnel entrances were damaged in earlier US and Israeli strikes. Combined with Iran's top security official vowing 'no retreat' (Iran International), the rebuild signals Tehran is preparing for a renewed kinetic phase rather than capitulation.",
       "region": "Iran",
       "source": "incidents,telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "nuclear",
-      "title": "Khamenei sets red line: enriched uranium must remain inside Iran",
-      "summary": "A Reuters exclusive cited in the nuclear feed reports Iranian sources saying Supreme Leader Khamenei has personally ruled out transferring Iran's 60% U-235 stockpile out of the country \u2014 a core US demand. Russia's IAEA envoy publicly labeled the US nuclear conditions as NPT violations. With breakout estimated at 1-2 weeks, the position effectively forecloses the central nonproliferation plank of any deal.",
-      "region": "Iran",
-      "source": "global_metrics",
+      "category": "incident",
+      "title": "Houthi missile attack on Israel revives Red Sea shipping-strike fears",
+      "summary": "AP News reports a fresh Houthi missile attack on Israel, with BBC, CFR and Global Security Review all flagging renewed risk to Red Sea commercial shipping. The strike comes with USS Eisenhower, USS Bataan, and three destroyers (Carney, Mason, Laboon) still concentrated in the southern Red Sea around 15-16\u00b0N. Houthi proxy status remains 'Elevated \u2014 Multiple Recent Attacks' in global metrics.",
+      "region": "Red Sea / Israel",
+      "source": "incidents,assets,global_metrics",
       "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "incident",
+      "title": "Iranian source: Khamenei sustained 'superficial' wounds in US-Israel strike",
+      "summary": "Breakingthenews.net reports Iranian sources stating Supreme Leader Khamenei was physically wounded \u2014 described as superficial \u2014 in the earlier US-Israel strike campaign. The acknowledgment, if accurate, is the first confirmation that the strikes reached the Supreme Leader personally and reframes Khamenei's hardened red lines on uranium retention (previously reported by Reuters) as a personal as well as ideological stance.",
+      "region": "Iran",
+      "source": "incidents",
+      "confidence": "low"
     },
     {
       "severity": "medium",
       "category": "diplomatic",
-      "title": "Iran says US deal 'not imminent' as Trump tells negotiators 'not to rush'",
-      "summary": "BBC reports Iranian officials publicly stating a deal with Washington is not imminent, while a parallel BBC dispatch quotes Trump instructing US negotiators 'not to rush.' The dual messaging \u2014 alongside Israeli opposition leader Lapid calling the emerging framework 'bad for the region' (PBS) and a New Yorker piece framing any plausible deal as 'a humiliation' \u2014 points to deliberate slowing of the negotiating tempo on both sides.",
-      "region": "Iran / US",
-      "source": "incidents",
+      "title": "Republican hawks publicly break with Trump over emerging Iran framework",
+      "summary": "Middle East Eye reports Republican hawks attacking Trump's emerging Iran deal as a 'nightmare for Israel,' joining Israeli opposition leader Lapid's earlier criticism. The Jerusalem Post analysis argues the agreement 'weakens Iran but doesn't end its threat,' and The New Yorker frames any plausible deal as 'a humiliation.' US sentiment is 56% negative with 'criticism,' 'republican' and 'house' rising in the word cloud \u2014 indicating domestic political constraint on Trump's negotiating room.",
+      "region": "United States",
+      "source": "incidents,sentiment",
       "confidence": "high"
-    },
-    {
-      "severity": "medium",
-      "category": "incident",
-      "title": "Israeli strikes on Gaza displacement camps kill women, children, infant",
-      "summary": "Al Jazeera, TRT World, Anadolu and Yeni Safak report multiple Israeli strikes today on displaced-Palestinians tent camps in Gaza, killing a woman and child in one incident and three family members including an infant in another. The clustering of four geolocated strikes around 31.27\u201331.75N / 34.2\u201334.7E indicates a fresh tempo of operations against displacement sites despite the broader regional focus on Iran negotiations.",
-      "region": "Gaza",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "medium",
-      "category": "telegram_signal",
-      "title": "FSB claims it foiled maritime sabotage on Belgian-origin gas tanker at Ust-Luga",
-      "summary": "Rybar (~114K views) reports the FSB intercepted an alleged sabotage attempt against the gas carrier 'Arrhenius,' which had arrived at Russia's Ust-Luga port from Antwerp, Belgium. Russian authorities say several maritime explosive devices were found in the engine room. The claim \u2014 paired with recent Ukrainian strikes on Ust-Luga infrastructure \u2014 signals a potential new front of underwater/port sabotage targeting Russia's gas logistics chain, with implications for Baltic shipping risk.",
-      "region": "Baltic Sea / Russia",
-      "source": "telegram",
-      "confidence": "medium"
     }
   ],
-  "analysis_note": "Threat level remains CRITICAL at 9/10: even as Trump publicly markets a 'largely negotiated' Iran deal, NYT reporting and Khamenei's hardening uranium red line indicate both sides are simultaneously preparing for renewed strikes, while parallel maritime-sabotage signaling in the Baltic underscores that the Ukraine theater is also escalating in non-kinetic vectors.",
+  "analysis_note": "Threat level holds at 9/10 with explosions reported in Bandar Abbas and Iran reportedly rebuilding missile production faster than expected, even as Trump publicly pursues a 'largely negotiated' deal that his own intelligence community, Republican hawks, and Tehran's security establishment are all signaling will not hold.",
   "meta": {
-    "input_tokens": 27022,
+    "input_tokens": 27234,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2953,
-    "cost_usd": 0.2331,
-    "wall_time_s": 47.3
+    "output_tokens": 2470,
+    "cost_usd": 0.222,
+    "wall_time_s": 37.3
   }
 }
