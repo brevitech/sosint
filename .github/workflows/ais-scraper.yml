@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '*/15 * * * *'   # every 15 min
   workflow_dispatch:
+    inputs:
+      bbox:
+        description: "Override bounding box: lat_min,lon_min,lat_max,lon_max (blank = corridor default)"
+        required: false
+        default: ""
 
 # Prevent overlapping runs (each listens 75s, but better safe)
 concurrency:
@@ -35,6 +40,7 @@ jobs:
       - name: Scrape AIS for Hormuz→India energy corridor
         env:
           AISSTREAM_API_KEY: ${{ secrets.AISSTREAM_API_KEY }}
+          AIS_BBOX: ${{ inputs.bbox }}
         run: |
           if [ -z "$AISSTREAM_API_KEY" ]; then
             echo "AISSTREAM_API_KEY secret not set; skipping AIS scrape."

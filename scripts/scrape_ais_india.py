@@ -25,9 +25,20 @@ LISTEN_SECONDS = int(os.environ.get("AIS_LISTEN_SECONDS", "75"))
 
 # Bounding box covering Hormuz → India energy corridor (Arabian Sea + W. India coast)
 # AISStream format: list of [[lat_min, lon_min], [lat_max, lon_max]]
-BOUNDING_BOXES = [
-    [[8.0, 50.0], [27.0, 78.0]],
-]
+# Override via AIS_BBOX env: "lat_min,lon_min,lat_max,lon_max"
+_DEFAULT_BBOX = [[8.0, 50.0], [27.0, 78.0]]
+_bbox_env = os.environ.get("AIS_BBOX", "").strip()
+if _bbox_env:
+    try:
+        _p = [float(x) for x in _bbox_env.split(",")]
+        if len(_p) == 4:
+            BOUNDING_BOXES = [[[_p[0], _p[1]], [_p[2], _p[3]]]]
+        else:
+            BOUNDING_BOXES = [_DEFAULT_BBOX]
+    except ValueError:
+        BOUNDING_BOXES = [_DEFAULT_BBOX]
+else:
+    BOUNDING_BOXES = [_DEFAULT_BBOX]
 
 # ITU-R M.1371 ShipType codes for tankers (80-89: tanker, all variants including LNG/LPG)
 TANKER_SHIPTYPES = set(range(80, 90))
