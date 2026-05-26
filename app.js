@@ -2,13 +2,29 @@
 // US-IRAN WAR INTELLIGENCE DASHBOARD — APPLICATION ENGINE
 // ============================================================================
 
+// Map-mode layer partitioning.
+// STATIC: hardcoded order-of-battle reference (bases, missiles, nuclear sites,
+//   proxies, air-defense). Only visible in 'oob' mode.
+// LIVE:   data-driven layers (conflict zones, air traffic). The 'live-incidents'
+//   layer is added dynamically when incidents load, so it isn't listed here —
+//   it auto-enables itself in both modes via addLiveIncidents().
+const STATIC_LAYER_KEYS = ['us-bases', 'us-navy', 'iran-bases', 'iran-missiles', 'iran-nuclear', 'iran-navy', 'proxy-forces', 'air-defense'];
+const LIVE_LAYER_KEYS = ['conflict-zones', 'air-traffic'];
+
 class WarDashboard {
   constructor() {
     this.map = null;
     this.newsItems = [];
     this.activeFilter = 'ai';
     this.layerGroups = {};
-    this.activeLayers = new Set(['us-bases', 'iran-bases', 'iran-missiles', 'iran-nuclear', 'us-navy', 'iran-navy', 'proxy-forces', 'air-defense', 'conflict-zones', 'air-traffic']);
+    // Map mode: 'threat' (live events only) or 'oob' (full order of battle).
+    // Persisted across sessions; threat is the default for new visitors.
+    try {
+      this.mapMode = localStorage.getItem('sosint.map.mode') === 'oob' ? 'oob' : 'threat';
+    } catch (e) { this.mapMode = 'threat'; }
+    this.activeLayers = new Set(
+      this.mapMode === 'oob' ? [...STATIC_LAYER_KEYS, ...LIVE_LAYER_KEYS] : [...LIVE_LAYER_KEYS]
+    );
     this.feedErrors = 0;
     this.feedSuccesses = 0;
     this.airTrafficMarkers = [];
@@ -692,6 +708,60 @@ class WarDashboard {
     this.addProxyMarkers();
     this.addAirDefenseOverlay();
     this.addStraitOfHormuz();
+    this.addMapModeControl();
+    this.renderMapLegend();
+  }
+
+  // ── Map Mode (Threat ↔ OOB) ─────────────────────────────────────────────
+  addMapModeControl() {
+    const self = this;
+    const Control = L.Control.extend({
+      options: { position: 'topright' },
+      onAdd() {
+        const div = L.DomUtil.create('div', 'map-mode-toggle');
+        div.innerHTML = `
+          <button class="map-mode-btn${self.mapMode === 'threat' ? ' active' : ''}" data-mode="threat" title="Live events only (incidents, conflict zones, air traffic)">⚡ THREAT</button>
+          <button class="map-mode-btn${self.mapMode === 'oob' ? ' active' : ''}" data-mode="oob" title="Order of Battle — show all hardcoded infrastructure">🛡 OOB</button>
+        `;
+        L.DomEvent.disableClickPropagation(div);
+        L.DomEvent.disableScrollPropagation(div);
+        div.addEventListener('click', (e) => {
+          const btn = e.target.closest('.map-mode-btn');
+          if (btn) self.setMapMode(btn.dataset.mode);
+        });
+        return div;
+      }
+    });
+    this._mapModeControl = new Control();
+    this._mapModeControl.addTo(this.map);
+  }
+
+  setMapMode(mode) {
+    if (mode !== 'threat' && mode !== 'oob') return;
+    if (mode === this.mapMode) return;
+    this.mapMode = mode;
+    try { localStorage.setItem('sosint.map.mode', mode); } catch (e) {}
+
+    const showStatic = mode === 'oob';
+    STATIC_LAYER_KEYS.forEach(key => {
+      const group = this.layerGroups[key];
+      if (!group) return;
+      if (showStatic) {
+        this.activeLayers.add(key);
+        if (!this.map.hasLayer(group)) this.map.addLayer(group);
+      } else {
+        this.activeLayers.delete(key);
+        if (this.map.hasLayer(group)) this.map.removeLayer(group);
+      }
+    });
+
+    // Re-sync the toggle button states and legend dim states.
+    const toggleEl = document.querySelector('.map-mode-toggle');
+    if (toggleEl) {
+      toggleEl.querySelectorAll('.map-mode-btn').forEach(b => {
+        b.classList.toggle('active', b.dataset.mode === mode);
+      });
+    }
     this.renderMapLegend();
   }
 
@@ -710,17 +780,29 @@ class WarDashboard {
       L.rectangle(zone.bounds, {
         color: zone.color,
         fillColor: zone.color,
-        fillOpacity: 0.1,
+        fillOpacity: 0.04,
         weight: 1,
+        opacity: 0.5,
         dashArray: '5, 5',
       }).bindTooltip(zone.name, { className: 'custom-marker-popup' }).addTo(group);
     });
-    group.addTo(this.map);
+    if (this.activeLayers.has('conflict-zones')) group.addTo(this.map);
     this.layerGroups['conflict-zones'] = group;
   }
 
+  // Cluster options shared by all static OOB layers — keeps overlapping
+  // markers manageable when zoomed out across the whole theater.
+  _staticClusterOpts() {
+    return {
+      maxClusterRadius: 38,
+      spiderfyOnMaxZoom: true,
+      showCoverageOnHover: false,
+      zoomToBoundsOnClick: true,
+    };
+  }
+
   addUSBases() {
-    const group = L.layerGroup();
+    const group = L.markerClusterGroup(this._staticClusterOpts());
     US_MILITARY.airForce.regionalBases.forEach(base => {
       L.marker(base.pos, { icon: this.createIcon('🇺🇸', 16) })
         .bindPopup(`
@@ -733,12 +815,12 @@ class WarDashboard {
         `, { className: 'custom-marker-popup' })
         .addTo(group);
     });
-    group.addTo(this.map);
+    if (this.activeLayers.has('us-bases')) group.addTo(this.map);
     this.layerGroups['us-bases'] = group;
   }
 
   addUSNavy() {
-    const group = L.layerGroup();
+    const group = L.markerClusterGroup(this._staticClusterOpts());
     US_MILITARY.navy.carriers.forEach(ship => {
       L.marker(ship.pos, { icon: this.createIcon('⚓', 18) })
         .bindPopup(`
@@ -774,12 +856,12 @@ class WarDashboard {
         `, { className: 'custom-marker-popup' })
         .addTo(group);
     });
-    group.addTo(this.map);
+    if (this.activeLayers.has('us-navy')) group.addTo(this.map);
     this.layerGroups['us-navy'] = group;
   }
 
   addIranBases() {
-    const group = L.layerGroup();
+    const group = L.markerClusterGroup(this._staticClusterOpts());
     IRAN_MILITARY.airForce.bases.forEach(base => {
       L.marker(base.pos, { icon: this.createIcon('🇮🇷', 16) })
         .bindPopup(`
@@ -790,12 +872,12 @@ class WarDashboard {
         `, { className: 'custom-marker-popup' })
         .addTo(group);
     });
-    group.addTo(this.map);
+    if (this.activeLayers.has('iran-bases')) group.addTo(this.map);
     this.layerGroups['iran-bases'] = group;
   }
 
   addIranMissiles() {
-    const group = L.layerGroup();
+    const group = L.markerClusterGroup(this._staticClusterOpts());
     IRAN_MILITARY.missiles.missileSites.forEach(site => {
       L.marker(site.pos, { icon: this.createIcon('🚀', 16) })
         .bindPopup(`
@@ -806,22 +888,13 @@ class WarDashboard {
           </div>
         `, { className: 'custom-marker-popup' })
         .addTo(group);
-
-      // Add range ring for longest-range missile (Sejjil-2, 2500km)
-      L.circle(site.pos, {
-        radius: 2500000,
-        color: 'rgba(239, 68, 68, 0.2)',
-        fillColor: 'rgba(239, 68, 68, 0.03)',
-        weight: 1,
-        dashArray: '4, 4',
-      }).addTo(group);
     });
-    group.addTo(this.map);
+    if (this.activeLayers.has('iran-missiles')) group.addTo(this.map);
     this.layerGroups['iran-missiles'] = group;
   }
 
   addIranNuclear() {
-    const group = L.layerGroup();
+    const group = L.markerClusterGroup(this._staticClusterOpts());
     IRAN_MILITARY.nuclear.facilities.forEach(fac => {
       L.marker(fac.pos, { icon: this.createIcon('☢️', 18) })
         .bindPopup(`
@@ -834,12 +907,12 @@ class WarDashboard {
         `, { className: 'custom-marker-popup' })
         .addTo(group);
     });
-    group.addTo(this.map);
+    if (this.activeLayers.has('iran-nuclear')) group.addTo(this.map);
     this.layerGroups['iran-nuclear'] = group;
   }
 
   addIranNavy() {
-    const group = L.layerGroup();
+    const group = L.markerClusterGroup(this._staticClusterOpts());
     IRAN_MILITARY.navy.irgcn.bases.forEach(base => {
       L.marker(base.pos, { icon: this.createIcon('⛵', 14) })
         .bindPopup(`
@@ -851,12 +924,12 @@ class WarDashboard {
         `, { className: 'custom-marker-popup' })
         .addTo(group);
     });
-    group.addTo(this.map);
+    if (this.activeLayers.has('iran-navy')) group.addTo(this.map);
     this.layerGroups['iran-navy'] = group;
   }
 
   addProxyMarkers() {
-    const group = L.layerGroup();
+    const group = L.markerClusterGroup(this._staticClusterOpts());
     PROXY_FORCES.forEach(proxy => {
       L.marker(proxy.pos, { icon: this.createIcon('💥', 16) })
         .bindPopup(`
@@ -870,7 +943,7 @@ class WarDashboard {
         `, { className: 'custom-marker-popup' })
         .addTo(group);
     });
-    group.addTo(this.map);
+    if (this.activeLayers.has('proxy-forces')) group.addTo(this.map);
     this.layerGroups['proxy-forces'] = group;
   }
 
@@ -924,7 +997,7 @@ class WarDashboard {
   }
 
   addAirDefenseOverlay() {
-    const group = L.layerGroup();
+    const group = L.markerClusterGroup(this._staticClusterOpts());
     IRAN_MILITARY.airDefense.sites.forEach(site => {
       L.marker(site.pos, { icon: this.createIcon('🛡️', 14) })
         .bindPopup(`
@@ -934,17 +1007,8 @@ class WarDashboard {
           </div>
         `, { className: 'custom-marker-popup' })
         .addTo(group);
-
-      // 200km range ring for S-300
-      L.circle(site.pos, {
-        radius: 200000,
-        color: 'rgba(139, 92, 246, 0.25)',
-        fillColor: 'rgba(139, 92, 246, 0.05)',
-        weight: 1,
-        dashArray: '3, 3',
-      }).addTo(group);
     });
-    group.addTo(this.map);
+    if (this.activeLayers.has('air-defense')) group.addTo(this.map);
     this.layerGroups['air-defense'] = group;
   }
 
@@ -1508,7 +1572,10 @@ class WarDashboard {
 
   async loadAirTraffic() {
     if (!this.layerGroups['air-traffic']) {
-      this.layerGroups['air-traffic'] = L.layerGroup().addTo(this.map);
+      this.layerGroups['air-traffic'] = L.layerGroup();
+      if (this.activeLayers.has('air-traffic')) {
+        this.layerGroups['air-traffic'].addTo(this.map);
+      }
     }
 
     // Live data is now produced server-side by scripts/scrape_air_traffic.py
@@ -1554,12 +1621,15 @@ class WarDashboard {
       const isIndian = ac.country === 'India' || (ac.callsign && /^(AIC|IGO|6E|SEJ|SG|ALI|VTI|GOW|JAI)/.test(ac.callsign));
 
       // Indian aircraft get saffron/orange glow; others get cyan
-      const glowColor = isIndian ? 'rgba(255,153,51,0.8)' : 'rgba(6,182,212,0.6)';
+      const glowColor = isIndian ? 'rgba(255,153,51,0.8)' : 'rgba(6,182,212,0.5)';
       const planeColor = isIndian ? '#ff9933' : '#06b6d4';
-      const planeSize = isIndian ? 16 : 14;
+      const planeSize = isIndian ? 14 : 9;
+      // Non-Indian aircraft are visually subordinate so the live-incident
+      // and OOB markers remain the primary signal.
+      const planeOpacity = isIndian ? 1 : 0.55;
 
       const icon = L.divIcon({
-        html: `<div style="transform: rotate(${heading}deg); font-size:${planeSize}px; color:${planeColor}; filter: drop-shadow(0 0 4px ${glowColor}); text-align:center; line-height:1;">${isIndian ? '✈' : '✈'}</div>`,
+        html: `<div style="transform: rotate(${heading}deg); opacity:${planeOpacity}; font-size:${planeSize}px; color:${planeColor}; filter: drop-shadow(0 0 4px ${glowColor}); text-align:center; line-height:1;">${isIndian ? '✈' : '✈'}</div>`,
         className: isIndian ? 'air-traffic-icon india-aircraft' : 'air-traffic-icon',
         iconSize: [planeSize + 4, planeSize + 4],
         iconAnchor: [(planeSize + 4) / 2, (planeSize + 4) / 2],
