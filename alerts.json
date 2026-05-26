@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-25T19:23:37.808004+00:00",
+  "generated_at": "2026-05-26T05:00:05.953742+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran rebuilding missile production and underground 'missile cities' faster than expected",
-      "summary": "The Times of Israel and Jerusalem Post report Iran is reconstituting ballistic missile production faster than US-Israeli planners anticipated. Rybar (~87K views, citing leaked NYT-stage US intelligence and satellite imagery) corroborates that the IRGC has 'practically restored' the underground missile-city tunnel entrances damaged in earlier US/Israeli strikes \u2014 undercutting the premise of the 'largely negotiated' Hormuz framework while threat level remains 9/CRITICAL.",
-      "region": "Iran",
-      "source": "incidents,telegram",
-      "confidence": "high"
+      "title": "Iran says Khamenei sustained 'superficial' wounds in US-Israel strike",
+      "summary": "Iranian state-affiliated outlet reports Supreme Leader Ali Khamenei was wounded \u2014 described as 'superficial' \u2014 in a US-Israel strike, an unprecedented direct hit on Iran's apex decision-maker if confirmed. Geolocation places the reporting near Yazd/Isfahan (31.73\u00b0N, 52.85\u00b0E), overlapping the CENTCOM strike box. Single-source via Breakingthenews.net; no IRGC or Supreme Leader's office confirmation yet, but if accurate represents a regime-survival-level event.",
+      "region": "Central Iran",
+      "source": "incidents",
+      "confidence": "low"
     },
     {
-      "severity": "high",
-      "category": "telegram_signal",
-      "title": "Larestan missile base reportedly repaired and back in operation near Persian Gulf",
-      "summary": "Middle East Spectator (~54K views) reports that the entrance to the Larestan underground missile complex in southern Iran near the Persian Gulf has been repaired and the base is now operational again. The reactivation, paired with broader IRGC reconstitution reporting, places renewed missile threat directly on US naval assets in the Gulf, including USS Florida (SSGN) tracked at ~26\u00b0N, 51\u00b0E.",
-      "region": "Southern Iran / Persian Gulf",
-      "source": "telegram,assets",
+      "severity": "critical",
+      "category": "incident",
+      "title": "Three explosions reported in Bandar Abbas; two IRGC Navy speedboats struck",
+      "summary": "Middle East Spectator (~34K views) confirms three explosions east of Bandar Abbas toward the airport, smoke columns, and air defenses activating overnight 25 May. Two IRGC Navy fast-attack craft were reportedly targeted by US forces in the preceding hours. Bandar Abbas is IRGC Navy headquarters and the operational hub controlling the Strait of Hormuz; this is a direct escalation beyond the southern Iran 'self-defense' strike box.",
+      "region": "Bandar Abbas / Strait of Hormuz",
+      "source": "telegram,incidents",
       "confidence": "medium"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Iran says Mojtaba Khamenei suffered only 'superficial' wounds in US-Israel strike",
-      "summary": "T\u00fcrkiye Today, The Straits Times and Breakingthenews.net report Iranian health officials confirming that Mojtaba Khamenei \u2014 son of and possible successor to the Supreme Leader \u2014 was wounded in a recent US-Israel strike, characterized by Tehran as 'superficial.' The acknowledgement is the first public Iranian confirmation that strikes reached the Supreme Leader's immediate family, a significant escalation threshold even as Tehran insists no deal is imminent.",
-      "region": "Iran",
+      "category": "diplomatic",
+      "title": "Tehran tells Washington any Israeli strike on Beirut will collapse negotiations",
+      "summary": "Times of Israel reports Iran has formally messaged the US that an Israeli strike inside Beirut would jeopardize the Qatar talks. The warning lands as Netanyahu vows to 'intensify' attacks on Lebanon and UPI reports fresh IDF strikes near Hermel (34.09\u00b0N, 36.02\u00b0E). Tehran is explicitly linking Hezbollah's survival to its willingness to continue nuclear/Hormuz diplomacy.",
+      "region": "Iran / Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
-      "severity": "medium",
+      "severity": "high",
       "category": "diplomatic",
-      "title": "Republican hawks publicly attack Trump's emerging Iran deal as 'nightmare for Israel'",
-      "summary": "Middle East Eye and parallel NYT analysis report Republican hawks, joined by Rep. Massie (cited 6x in US sentiment word cloud), are openly attacking Trump's emerging Iran framework, with NYT framing Netanyahu as reduced from 'co-pilot' to 'mere passenger.' US sentiment remains 56% negative with 'trump,' 'iran,' and 'deal' dominating discourse, signaling domestic political constraints on any Hormuz-reopening agreement.",
-      "region": "United States",
-      "source": "incidents,sentiment",
+      "title": "Iran Foreign Ministry: unfrozen funds will produce 'more missiles and drones'",
+      "summary": "Iran's Foreign Ministry publicly stated funds expected to be unfrozen under any US deal will be used to manufacture additional missiles and drones, per ME Spectator (~33K views). The statement directly undercuts Trump's narrative that an agreement is 'largely negotiated' and complicates congressional support for sanctions relief. Pairs with Rybar/NYT reporting that IRGC has nearly rebuilt the underground missile 'cities' damaged in earlier US-Israeli strikes.",
+      "region": "Iran",
+      "source": "telegram,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "medium",
-      "category": "asset_movement",
-      "title": "US deploying defense 'umbrella' of tech and assets to shield Strait of Hormuz shipping",
-      "summary": "DefenseScoop reports the US is rolling out an integrated 'umbrella' of defensive and technology assets to protect commercial shipping transiting the Strait of Hormuz, as GPS jamming continues to disrupt navigation across the Middle East (The Week). The posture aligns with USS Abraham Lincoln deployed in the Arabian Sea (~21\u00b0N, 60\u00b0E) and USS Florida in the Persian Gulf, indicating Washington is hedging the deal track with hardened force protection.",
-      "region": "Strait of Hormuz",
-      "source": "global_metrics,assets",
+      "category": "cyber",
+      "title": "US deploys defensive 'umbrella' over Hormuz shipping as Iran-linked hackers threaten troops",
+      "summary": "DefenseScoop reports the US is layering defense and tech assets to shield commercial shipping in the Strait of Hormuz, while Stars and Stripes confirms US service members are receiving threatening messages from an Iran-linked hacker group. Brent crude has firmed further to $95.47 (from $94.40 prior cycle) and the rial free-market rate sits at 1,321,649/USD, indicating markets are pricing in sustained closure risk despite ongoing Qatar talks.",
+      "region": "Strait of Hormuz / Global",
+      "source": "global_metrics",
       "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran negotiations are visibly fraying as Tehran rebuilds missile infrastructure, confirms a strike wounded the Supreme Leader's son, and Republican hawks revolt against Trump's framework \u2014 even as the US hardens shipping defenses around Hormuz.",
+  "analysis_note": "US strikes have expanded from the southern Iran 'self-defense' box into Bandar Abbas itself with reported hits on IRGC Navy assets and unverified claims of injury to Khamenei, even as Qatar talks continue and Tehran links Hezbollah's survival to diplomatic continuity.",
   "meta": {
-    "input_tokens": 25350,
+    "input_tokens": 23926,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2478,
-    "cost_usd": 0.2128,
-    "wall_time_s": 39.1
+    "output_tokens": 3135,
+    "cost_usd": 0.2221,
+    "wall_time_s": 44.2
   }
 }
