@@ -41,6 +41,8 @@ jobs:
         run: python scripts/scrape_global_metrics.py
 
       - name: Run Telegram Scraper (OSINT)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/scrape_telegram.py
 
       - name: Send Telegram Alerts (if thresholds met)
