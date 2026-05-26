@@ -433,6 +433,7 @@ body::before {
   background: var(--bg-panel-header);
   border-top: 1px solid var(--border-color);
   font-size: 9px;
+  flex-shrink: 0;
 }
 
 .legend-item {
@@ -457,6 +458,79 @@ body::before {
 
 .legend-item.inactive {
   opacity: 0.3;
+}
+
+/* Map mode toggle (Threat ↔ OOB) — top-right Leaflet control */
+.map-mode-toggle {
+  display: flex;
+  background: rgba(10, 14, 23, 0.88);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  overflow: hidden;
+  font-family: var(--font-mono);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.map-mode-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  padding: 5px 9px;
+  font-size: 10px;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  font-family: inherit;
+  transition: var(--transition);
+}
+.map-mode-btn + .map-mode-btn {
+  border-left: 1px solid var(--border-color);
+}
+.map-mode-btn:hover {
+  color: var(--text-primary);
+  background: var(--bg-hover);
+}
+.map-mode-btn.active {
+  background: rgba(245, 158, 11, 0.18);
+  color: var(--accent-amber);
+}
+
+/* AI alert markers (Claude-prioritized alerts plotted on the theater map).
+   Severity color is injected via the --sev-color custom property by the
+   marker's inline style so the same rule serves all severities. */
+.ai-alert-marker {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: rgba(10, 14, 23, 0.85);
+  border: 2px solid var(--sev-color, #f59e0b);
+  box-shadow: 0 0 8px var(--sev-color, #f59e0b),
+              inset 0 0 4px rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--sev-color, #f59e0b);
+}
+.ai-alert-letter { line-height: 1; }
+
+/* MarkerCluster overrides — match the dashboard's dark/amber palette */
+.marker-cluster {
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.5);
+}
+.marker-cluster div {
+  background: rgba(245, 158, 11, 0.55);
+  color: #0a0e17;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  border: none;
+}
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+  background-clip: padding-box;
 }
 
 /* ── News Feed ─────────────────────────────────────────────────────────────── */
