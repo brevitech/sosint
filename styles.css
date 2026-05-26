@@ -433,6 +433,7 @@ body::before {
   background: var(--bg-panel-header);
   border-top: 1px solid var(--border-color);
   font-size: 9px;
+  flex-shrink: 0;
 }
 
 .legend-item {
