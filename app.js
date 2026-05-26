@@ -801,8 +801,17 @@ class WarDashboard {
     };
   }
 
+  // Build a clustered layer for static OOB markers. Falls back to a plain
+  // L.layerGroup if the markercluster CDN failed to load so the map still
+  // works (just without clustering).
+  _createStaticGroup() {
+    return typeof L.markerClusterGroup === 'function'
+      ? L.markerClusterGroup(this._staticClusterOpts())
+      : L.layerGroup();
+  }
+
   addUSBases() {
-    const group = L.markerClusterGroup(this._staticClusterOpts());
+    const group = this._createStaticGroup();
     US_MILITARY.airForce.regionalBases.forEach(base => {
       L.marker(base.pos, { icon: this.createIcon('🇺🇸', 16) })
         .bindPopup(`
@@ -820,7 +829,7 @@ class WarDashboard {
   }
 
   addUSNavy() {
-    const group = L.markerClusterGroup(this._staticClusterOpts());
+    const group = this._createStaticGroup();
     US_MILITARY.navy.carriers.forEach(ship => {
       L.marker(ship.pos, { icon: this.createIcon('⚓', 18) })
         .bindPopup(`
@@ -861,7 +870,7 @@ class WarDashboard {
   }
 
   addIranBases() {
-    const group = L.markerClusterGroup(this._staticClusterOpts());
+    const group = this._createStaticGroup();
     IRAN_MILITARY.airForce.bases.forEach(base => {
       L.marker(base.pos, { icon: this.createIcon('🇮🇷', 16) })
         .bindPopup(`
@@ -877,7 +886,7 @@ class WarDashboard {
   }
 
   addIranMissiles() {
-    const group = L.markerClusterGroup(this._staticClusterOpts());
+    const group = this._createStaticGroup();
     IRAN_MILITARY.missiles.missileSites.forEach(site => {
       L.marker(site.pos, { icon: this.createIcon('🚀', 16) })
         .bindPopup(`
@@ -894,7 +903,7 @@ class WarDashboard {
   }
 
   addIranNuclear() {
-    const group = L.markerClusterGroup(this._staticClusterOpts());
+    const group = this._createStaticGroup();
     IRAN_MILITARY.nuclear.facilities.forEach(fac => {
       L.marker(fac.pos, { icon: this.createIcon('☢️', 18) })
         .bindPopup(`
@@ -912,7 +921,7 @@ class WarDashboard {
   }
 
   addIranNavy() {
-    const group = L.markerClusterGroup(this._staticClusterOpts());
+    const group = this._createStaticGroup();
     IRAN_MILITARY.navy.irgcn.bases.forEach(base => {
       L.marker(base.pos, { icon: this.createIcon('⛵', 14) })
         .bindPopup(`
@@ -929,7 +938,7 @@ class WarDashboard {
   }
 
   addProxyMarkers() {
-    const group = L.markerClusterGroup(this._staticClusterOpts());
+    const group = this._createStaticGroup();
     PROXY_FORCES.forEach(proxy => {
       L.marker(proxy.pos, { icon: this.createIcon('💥', 16) })
         .bindPopup(`
@@ -997,7 +1006,7 @@ class WarDashboard {
   }
 
   addAirDefenseOverlay() {
-    const group = L.markerClusterGroup(this._staticClusterOpts());
+    const group = this._createStaticGroup();
     IRAN_MILITARY.airDefense.sites.forEach(site => {
       L.marker(site.pos, { icon: this.createIcon('🛡️', 14) })
         .bindPopup(`
