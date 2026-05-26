@@ -185,30 +185,47 @@ def translate_posts_inplace(posts):
         "additionalProperties": False,
     }
 
-    user_content = (
-        "Translate each Telegram OSINT post below into clear, faithful English. "
-        "Preserve proper nouns, place names, unit designators, dates, and numbers "
-        "exactly. Keep line breaks where meaningful. Drop decorative emojis but "
-        "keep emojis that carry meaning (flag emojis, weapon icons). Output one "
-        "translation per input id.\n\n"
-        + json.dumps(needs, ensure_ascii=False)
-    )
+    # Batch the requests. We previously sent all 40 posts in one call with
+    # max_tokens=8192 and the response got truncated mid-JSON, breaking
+    # json.loads(). 12-post batches give roughly 10K-output-token headroom
+    # per call and isolate failures so a single bad batch doesn't lose the
+    # whole pass.
+    BATCH_SIZE = 12
+    client = anthropic.Anthropic(api_key=api_key)
+    translations = {}
 
-    try:
-        client = anthropic.Anthropic(api_key=api_key)
-        message = client.messages.create(
-            model=TRANSLATION_MODEL,
-            max_tokens=8192,
-            output_config={
-                "format": {"type": "json_schema", "schema": schema},
-            },
-            messages=[{"role": "user", "content": user_content}],
+    for batch_start in range(0, len(needs), BATCH_SIZE):
+        batch = needs[batch_start:batch_start + BATCH_SIZE]
+        user_content = (
+            "Translate each Telegram OSINT post below into clear, faithful English. "
+            "Preserve proper nouns, place names, unit designators, dates, and numbers "
+            "exactly. Keep line breaks where meaningful. Drop decorative emojis but "
+            "keep emojis that carry meaning (flag emojis, weapon icons). Output one "
+            "translation per input id.\n\n"
+            + json.dumps(batch, ensure_ascii=False)
         )
-        text = "".join(b.text for b in message.content if getattr(b, "type", "") == "text")
-        data = json.loads(text)
-        translations = {t["id"]: t["en"] for t in data.get("translations", []) if t.get("id") and t.get("en")}
-    except Exception as e:
-        print(f"[translate] translation call failed: {e}", file=sys.stderr)
+
+        try:
+            message = client.messages.create(
+                model=TRANSLATION_MODEL,
+                max_tokens=16000,
+                output_config={
+                    "format": {"type": "json_schema", "schema": schema},
+                },
+                messages=[{"role": "user", "content": user_content}],
+            )
+            text = "".join(b.text for b in message.content if getattr(b, "type", "") == "text")
+            data = json.loads(text)
+            for t in data.get("translations", []):
+                if t.get("id") and t.get("en"):
+                    translations[t["id"]] = t["en"]
+            print(f"[translate] batch {batch_start // BATCH_SIZE + 1}: ok ({len(batch)} posts)")
+        except Exception as e:
+            print(f"[translate] batch {batch_start // BATCH_SIZE + 1} failed: {e}", file=sys.stderr)
+            # Continue with the next batch instead of aborting the whole pass.
+
+    if not translations:
+        print("[translate] no translations produced")
         return
 
     applied = 0
