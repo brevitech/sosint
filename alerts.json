@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-25T22:57:10.588137+00:00",
+  "generated_at": "2026-05-26T00:05:42.109141+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Explosions reported in Bandar Abbas; Iran's Mehr says situation 'under control'",
-      "summary": "Reuters reports explosions heard in Iran, with state-affiliated Mehr agency stating the situation at Bandar Abbas \u2014 Iran's main port on the Strait of Hormuz and a critical naval/logistics hub \u2014 is 'under control.' The blasts come amid ongoing US-Iran deal talks Trump claims are 'largely negotiated' and follow Rybar reporting (~109K views) of continued US/Israeli strike preparation. No cause or casualty figures yet released.",
-      "region": "Bandar Abbas / Strait of Hormuz",
-      "source": "incidents,telegram",
+      "title": "US and Israel reportedly strike Iranian vessels at Larak Island in Strait of Hormuz; 3 killed",
+      "summary": "The Straits Times and Crypto Briefing report a joint US-Israeli strike on Iranian vessels near Larak Island in the Strait of Hormuz, with three reported killed. Larak sits astride the world's most critical oil chokepoint and hosts IRGC Navy fast-attack craft. The strike occurred hours after Iranian officials arrived in Qatar to resume talks, marking a sharp escalation despite Trump's claim a deal is 'largely negotiated.'",
+      "region": "Strait of Hormuz / Larak Island",
+      "source": "incidents",
       "confidence": "medium"
     },
     {
-      "severity": "high",
+      "severity": "critical",
       "category": "incident",
-      "title": "Iran reportedly rebuilding IRGC missile 'cities' faster than US/Israeli estimates",
-      "summary": "The Times of Israel cites assessments that Iran is reconstructing its ballistic missile production at a pace exceeding expectations. Rybar (~109K views) corroborates with US satellite-intelligence reporting that the IRGC has 'practically restored' underground missile cities whose tunnel entrances were damaged in earlier US and Israeli strikes. Combined with Iran's top security official vowing 'no retreat' (Iran International), the rebuild signals Tehran is preparing for a renewed kinetic phase rather than capitulation.",
-      "region": "Iran",
-      "source": "incidents,telegram",
+      "title": "US CENTCOM confirms 'self-defense' strikes on targets in southern Iran",
+      "summary": "NBC News, Jerusalem Post and CENTCOM confirm renewed American strikes in southern Iran, framed as troop-protection actions. Strikes are geolocated around 31.7-32.1\u00b0N / 52.7-53.2\u00b0E and came just hours after senior Iranian officials landed in Qatar for talks. Threat level on the dashboard is now 9/10 ('CRITICAL \u2014 IMMINENT ESCALATION'); Brent has firmed to $94.40.",
+      "region": "Southern Iran",
+      "source": "incidents,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Houthi missile attack on Israel revives Red Sea shipping-strike fears",
-      "summary": "AP News reports a fresh Houthi missile attack on Israel, with BBC, CFR and Global Security Review all flagging renewed risk to Red Sea commercial shipping. The strike comes with USS Eisenhower, USS Bataan, and three destroyers (Carney, Mason, Laboon) still concentrated in the southern Red Sea around 15-16\u00b0N. Houthi proxy status remains 'Elevated \u2014 Multiple Recent Attacks' in global metrics.",
-      "region": "Red Sea / Israel",
-      "source": "incidents,assets,global_metrics",
+      "category": "diplomatic",
+      "title": "Iran says deal 'not imminent'; Khamenei demands enriched uranium stay in country",
+      "summary": "BBC reports Tehran publicly contradicting Trump's claim that an agreement \u2014 including reopening the Strait of Hormuz \u2014 is 'largely negotiated.' A Reuters exclusive cites Iranian sources saying Supreme Leader Khamenei insists the 60% enriched uranium stockpile must remain inside Iran, while Russia's IAEA envoy calls US demands an NPT violation. Breakout estimate holds at ~1-2 weeks.",
+      "region": "Iran / Qatar",
+      "source": "incidents,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Iranian source: Khamenei sustained 'superficial' wounds in US-Israel strike",
-      "summary": "Breakingthenews.net reports Iranian sources stating Supreme Leader Khamenei was physically wounded \u2014 described as superficial \u2014 in the earlier US-Israel strike campaign. The acknowledgment, if accurate, is the first confirmation that the strikes reached the Supreme Leader personally and reframes Khamenei's hardened red lines on uranium retention (previously reported by Reuters) as a personal as well as ideological stance.",
-      "region": "Iran",
-      "source": "incidents",
-      "confidence": "low"
+      "category": "sentiment_shift",
+      "title": "US sentiment turns sharply negative as 'deal,' 'war,' 'oil prices' dominate news cycle",
+      "summary": "VADER sentiment on US news flips to 55% negative / 36% positive, with 'trump' (65), 'iran' (48), 'deal' (38), 'war' (11), 'oil/prices' (12 combined) leading the word cloud. The shift coincides with CENTCOM strikes, the Larak Island incident, and Brent crude at $94.40 \u2014 indicating mainstream coverage has pivoted from negotiation optimism to active-conflict framing.",
+      "region": "United States / Global",
+      "source": "sentiment,global_metrics",
+      "confidence": "high"
     },
     {
       "severity": "medium",
       "category": "diplomatic",
-      "title": "Republican hawks publicly break with Trump over emerging Iran framework",
-      "summary": "Middle East Eye reports Republican hawks attacking Trump's emerging Iran deal as a 'nightmare for Israel,' joining Israeli opposition leader Lapid's earlier criticism. The Jerusalem Post analysis argues the agreement 'weakens Iran but doesn't end its threat,' and The New Yorker frames any plausible deal as 'a humiliation.' US sentiment is 56% negative with 'criticism,' 'republican' and 'house' rising in the word cloud \u2014 indicating domestic political constraint on Trump's negotiating room.",
-      "region": "United States",
-      "source": "incidents,sentiment",
-      "confidence": "high"
+      "title": "Republican hawks publicly revolt against Trump's emerging Iran framework",
+      "summary": "Middle East Eye reports Republican hawks calling Trump's draft Iran deal a 'nightmare for Israel,' while Israeli opposition leader Yair Lapid (via PBS) labels it 'bad for the region.' The New Yorker frames any plausible deal as 'a humiliation' for Trump. Combined with Iran rebuilding IRGC missile cities faster than expected, the domestic political backlash narrows the White House's room to de-escalate.",
+      "region": "Washington / Israel",
+      "source": "incidents",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "Threat level holds at 9/10 with explosions reported in Bandar Abbas and Iran reportedly rebuilding missile production faster than expected, even as Trump publicly pursues a 'largely negotiated' deal that his own intelligence community, Republican hawks, and Tehran's security establishment are all signaling will not hold.",
+  "analysis_note": "Despite ongoing Qatar talks, the theater has crossed into active kinetic exchange \u2014 confirmed US CENTCOM strikes in southern Iran and a reported US-Israeli naval strike at Larak Island (3 killed) coincide with Iran publicly rejecting Trump's deal framing and Khamenei refusing to surrender enriched uranium, pushing the dashboard threat level to 9/10.",
   "meta": {
-    "input_tokens": 27234,
+    "input_tokens": 27210,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2470,
-    "cost_usd": 0.222,
-    "wall_time_s": 37.3
+    "output_tokens": 2349,
+    "cost_usd": 0.2189,
+    "wall_time_s": 35.3
   }
 }
