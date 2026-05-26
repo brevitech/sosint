@@ -98,8 +98,8 @@ class WarDashboard {
             <span class="panel-badge live">LIVE</span>
           </div>
           <div class="news-filter-bar" style="padding: 4px 10px;">
-            <button class="news-filter" data-filter="all">All</button>
             <button class="news-filter news-filter-ai active" data-filter="ai"><span class="news-filter-ai-icon">⚠</span> AI</button>
+            <button class="news-filter" data-filter="all">All</button>
             <button class="news-filter" data-filter="wire">News</button>
             <button class="news-filter" data-filter="intel">Defence</button>
             <button class="news-filter" data-filter="gov">Govt</button>
