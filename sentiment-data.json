@@ -1,28 +1,33 @@
 {
   "us": {
     "positive": 36,
-    "negative": 55,
-    "neutral": 9,
+    "negative": 54,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 65,
+        "count": 58,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 48,
+        "count": 46,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 38,
+        "count": 32,
         "sentiment": "neutral"
       },
       {
         "word": "pope",
-        "count": 16,
+        "count": 15,
         "sentiment": "neutral"
+      },
+      {
+        "word": "peace",
+        "count": 13,
+        "sentiment": "positive"
       },
       {
         "word": "leo",
@@ -31,18 +36,18 @@
       },
       {
         "word": "war",
-        "count": 11,
+        "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "israel",
-        "count": 10,
+        "word": "amid",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "peace",
-        "count": 10,
-        "sentiment": "positive"
+        "word": "talks",
+        "count": 9,
+        "sentiment": "neutral"
       },
       {
         "word": "calls",
@@ -55,12 +60,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
-        "count": 8,
+        "word": "netanyahu",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "netanyahu",
+        "word": "israel",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hezbollah",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -70,12 +80,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "strikes",
         "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "rubio",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -100,9 +115,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "criticism",
+        "word": "house",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "emerging",
@@ -110,27 +125,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abraham",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "accords",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hezbollah",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
+        "word": "sites",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -140,9 +135,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "criticism",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "warns",
@@ -153,178 +148,183 @@
         "word": "human",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "mistake",
+        "count": 5,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-05-26T00:05:17.100164+00:00",
-    "nextRefresh": "2026-05-26T00:05:17.100164+00:00",
-    "articlesAnalyzed": 345,
-    "matchedMentions": 167,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-05-26T04:59:37.107355+00:00",
+    "nextRefresh": "2026-05-26T04:59:37.107355+00:00",
+    "articlesAnalyzed": 344,
+    "matchedMentions": 160,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
-    "negative": 29,
-    "neutral": 20,
+    "positive": 58,
+    "negative": 32,
+    "neutral": 10,
     "wordCloud": [
       {
-        "word": "rahul",
+        "word": "ipl",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lost",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "kohli",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "party",
-        "count": 9,
-        "sentiment": "positive"
+        "word": "jaishankar",
+        "count": 8,
+        "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "quad",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
+        "word": "points",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "cji",
+        "word": "qualifier",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "cockroach",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "janta",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "padma",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "karnataka",
+        "word": "banerjee",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "global",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "mann",
+        "word": "shares",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "support",
-        "count": 4,
         "sentiment": "positive"
       },
       {
-        "word": "ndtv",
+        "word": "gill",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "updates",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "punjab",
+        "word": "address",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "centre",
+        "word": "connectivity",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "team",
+        "word": "choke",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "issues",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
+        "word": "leaders",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "nadu",
+        "word": "game",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "row",
+        "word": "deal",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "case",
+        "word": "india",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "remarks",
+        "word": "daughter",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "farmers",
+        "word": "chair",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "announces",
-        "count": 3,
+        "word": "kar",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "shivakumar",
-        "count": 3,
+        "word": "victim",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "mother",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "kejriwal",
-        "count": 3,
+        "word": "financial",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "dmk",
-        "count": 3,
+        "word": "gets",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
-        "count": 3,
+        "word": "nod",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "stalin",
-        "count": 3,
+        "word": "star",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "aiadmk",
-        "count": 3,
+        "word": "crore",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-05-26T00:05:28.405013+00:00",
-    "nextRefresh": "2026-05-26T00:05:28.405013+00:00",
-    "articlesAnalyzed": 467,
-    "matchedMentions": 90,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-05-26T04:59:51.249727+00:00",
+    "nextRefresh": "2026-05-26T04:59:51.249727+00:00",
+    "articlesAnalyzed": 481,
+    "matchedMentions": 96,
+    "uniquePersonalities": 50,
     "dataSource": "live-rss"
   }
 }

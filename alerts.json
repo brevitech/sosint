@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-26T00:05:42.109141+00:00",
+  "generated_at": "2026-05-26T05:00:05.953742+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "US and Israel reportedly strike Iranian vessels at Larak Island in Strait of Hormuz; 3 killed",
-      "summary": "The Straits Times and Crypto Briefing report a joint US-Israeli strike on Iranian vessels near Larak Island in the Strait of Hormuz, with three reported killed. Larak sits astride the world's most critical oil chokepoint and hosts IRGC Navy fast-attack craft. The strike occurred hours after Iranian officials arrived in Qatar to resume talks, marking a sharp escalation despite Trump's claim a deal is 'largely negotiated.'",
-      "region": "Strait of Hormuz / Larak Island",
+      "title": "Iran says Khamenei sustained 'superficial' wounds in US-Israel strike",
+      "summary": "Iranian state-affiliated outlet reports Supreme Leader Ali Khamenei was wounded \u2014 described as 'superficial' \u2014 in a US-Israel strike, an unprecedented direct hit on Iran's apex decision-maker if confirmed. Geolocation places the reporting near Yazd/Isfahan (31.73\u00b0N, 52.85\u00b0E), overlapping the CENTCOM strike box. Single-source via Breakingthenews.net; no IRGC or Supreme Leader's office confirmation yet, but if accurate represents a regime-survival-level event.",
+      "region": "Central Iran",
       "source": "incidents",
-      "confidence": "medium"
+      "confidence": "low"
     },
     {
       "severity": "critical",
       "category": "incident",
-      "title": "US CENTCOM confirms 'self-defense' strikes on targets in southern Iran",
-      "summary": "NBC News, Jerusalem Post and CENTCOM confirm renewed American strikes in southern Iran, framed as troop-protection actions. Strikes are geolocated around 31.7-32.1\u00b0N / 52.7-53.2\u00b0E and came just hours after senior Iranian officials landed in Qatar for talks. Threat level on the dashboard is now 9/10 ('CRITICAL \u2014 IMMINENT ESCALATION'); Brent has firmed to $94.40.",
-      "region": "Southern Iran",
-      "source": "incidents,global_metrics",
+      "title": "Three explosions reported in Bandar Abbas; two IRGC Navy speedboats struck",
+      "summary": "Middle East Spectator (~34K views) confirms three explosions east of Bandar Abbas toward the airport, smoke columns, and air defenses activating overnight 25 May. Two IRGC Navy fast-attack craft were reportedly targeted by US forces in the preceding hours. Bandar Abbas is IRGC Navy headquarters and the operational hub controlling the Strait of Hormuz; this is a direct escalation beyond the southern Iran 'self-defense' strike box.",
+      "region": "Bandar Abbas / Strait of Hormuz",
+      "source": "telegram,incidents",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
+      "category": "diplomatic",
+      "title": "Tehran tells Washington any Israeli strike on Beirut will collapse negotiations",
+      "summary": "Times of Israel reports Iran has formally messaged the US that an Israeli strike inside Beirut would jeopardize the Qatar talks. The warning lands as Netanyahu vows to 'intensify' attacks on Lebanon and UPI reports fresh IDF strikes near Hermel (34.09\u00b0N, 36.02\u00b0E). Tehran is explicitly linking Hezbollah's survival to its willingness to continue nuclear/Hormuz diplomacy.",
+      "region": "Iran / Lebanon",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "diplomatic",
-      "title": "Iran says deal 'not imminent'; Khamenei demands enriched uranium stay in country",
-      "summary": "BBC reports Tehran publicly contradicting Trump's claim that an agreement \u2014 including reopening the Strait of Hormuz \u2014 is 'largely negotiated.' A Reuters exclusive cites Iranian sources saying Supreme Leader Khamenei insists the 60% enriched uranium stockpile must remain inside Iran, while Russia's IAEA envoy calls US demands an NPT violation. Breakout estimate holds at ~1-2 weeks.",
-      "region": "Iran / Qatar",
-      "source": "incidents,global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "sentiment_shift",
-      "title": "US sentiment turns sharply negative as 'deal,' 'war,' 'oil prices' dominate news cycle",
-      "summary": "VADER sentiment on US news flips to 55% negative / 36% positive, with 'trump' (65), 'iran' (48), 'deal' (38), 'war' (11), 'oil/prices' (12 combined) leading the word cloud. The shift coincides with CENTCOM strikes, the Larak Island incident, and Brent crude at $94.40 \u2014 indicating mainstream coverage has pivoted from negotiation optimism to active-conflict framing.",
-      "region": "United States / Global",
-      "source": "sentiment,global_metrics",
+      "title": "Iran Foreign Ministry: unfrozen funds will produce 'more missiles and drones'",
+      "summary": "Iran's Foreign Ministry publicly stated funds expected to be unfrozen under any US deal will be used to manufacture additional missiles and drones, per ME Spectator (~33K views). The statement directly undercuts Trump's narrative that an agreement is 'largely negotiated' and complicates congressional support for sanctions relief. Pairs with Rybar/NYT reporting that IRGC has nearly rebuilt the underground missile 'cities' damaged in earlier US-Israeli strikes.",
+      "region": "Iran",
+      "source": "telegram,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "medium",
-      "category": "diplomatic",
-      "title": "Republican hawks publicly revolt against Trump's emerging Iran framework",
-      "summary": "Middle East Eye reports Republican hawks calling Trump's draft Iran deal a 'nightmare for Israel,' while Israeli opposition leader Yair Lapid (via PBS) labels it 'bad for the region.' The New Yorker frames any plausible deal as 'a humiliation' for Trump. Combined with Iran rebuilding IRGC missile cities faster than expected, the domestic political backlash narrows the White House's room to de-escalate.",
-      "region": "Washington / Israel",
-      "source": "incidents",
-      "confidence": "medium"
+      "category": "cyber",
+      "title": "US deploys defensive 'umbrella' over Hormuz shipping as Iran-linked hackers threaten troops",
+      "summary": "DefenseScoop reports the US is layering defense and tech assets to shield commercial shipping in the Strait of Hormuz, while Stars and Stripes confirms US service members are receiving threatening messages from an Iran-linked hacker group. Brent crude has firmed further to $95.47 (from $94.40 prior cycle) and the rial free-market rate sits at 1,321,649/USD, indicating markets are pricing in sustained closure risk despite ongoing Qatar talks.",
+      "region": "Strait of Hormuz / Global",
+      "source": "global_metrics",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "Despite ongoing Qatar talks, the theater has crossed into active kinetic exchange \u2014 confirmed US CENTCOM strikes in southern Iran and a reported US-Israeli naval strike at Larak Island (3 killed) coincide with Iran publicly rejecting Trump's deal framing and Khamenei refusing to surrender enriched uranium, pushing the dashboard threat level to 9/10.",
+  "analysis_note": "US strikes have expanded from the southern Iran 'self-defense' box into Bandar Abbas itself with reported hits on IRGC Navy assets and unverified claims of injury to Khamenei, even as Qatar talks continue and Tehran links Hezbollah's survival to diplomatic continuity.",
   "meta": {
-    "input_tokens": 27210,
+    "input_tokens": 23926,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2349,
-    "cost_usd": 0.2189,
-    "wall_time_s": 35.3
+    "output_tokens": 3135,
+    "cost_usd": 0.2221,
+    "wall_time_s": 44.2
   }
 }
