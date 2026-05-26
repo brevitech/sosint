@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-26T08:39:06.633145+00:00",
+  "generated_at": "2026-05-26T15:01:56.377389+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
+      "severity": "critical",
+      "category": "incident",
+      "title": "Israeli strike kills 12 in eastern Lebanon village as IDF calls up additional troops",
+      "summary": "NBC News and Euronews report an Israeli strike on a village in eastern Lebanon (~34.0\u00b0N, 36.0\u00b0E) killed at least 12 people, with the IDF simultaneously mobilizing additional reservists for the Lebanon front. Middle East Eye reports parallel strikes on Kafr Sir in southern Lebanon and an attack near Lebanon's largest dam targeting an ambulance team, marking a sharp escalation alongside the US-Iran kinetic track.",
+      "region": "Eastern/Southern Lebanon",
+      "source": "incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "telegram_signal",
+      "title": "Russian MFA declares start of 'systematic bombing' campaign against Kyiv",
+      "summary": "Rybar's 26 May morning sitrep (~155K views) reports the Russian Foreign Ministry has announced the start of systematic strikes on infrastructure in Kyiv Oblast and called on foreign nationals to leave the region. Rybar separately notes Ukrainian negotiators are now requesting only 5\u201310 air-defense interceptors per tranche, citing shortages after US PAC-3 stockpile diversion to the Iran war.",
+      "region": "Kyiv / Ukraine",
+      "source": "telegram",
+      "confidence": "medium"
+    },
+    {
       "severity": "high",
       "category": "diplomatic",
-      "title": "Iran rejects imminent deal at Qatar talks, vows to fund more missiles and drones",
-      "summary": "BBC reports Tehran says a deal with the US is 'not imminent' even as delegations gather in Doha. Iran's Foreign Ministry, relayed via ME Spectator (~41K views), stated unfrozen funds will 'definitely' be used to 'produce more missiles and drones' \u2014 signaling the Qatar track is hardening rather than de-escalating despite Trump's public peace messaging.",
-      "region": "Doha / Tehran",
-      "source": "incidents,telegram",
+      "title": "Iran formally accuses US of 'gross violation' of ceasefire after fresh strikes",
+      "summary": "BBC, Yahoo and Al Jazeera report Tehran has officially condemned the new wave of US strikes on southern Iran as a 'gross violation' of the standing ceasefire, with Al Jazeera asking openly whether the truce is over. The Iranian protest comes as delegations remain in Doha and as NYT confirms the strikes hit Iran's Gulf coast (~32\u00b0N, 53\u00b0E) during active negotiations.",
+      "region": "Iran / Doha",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "CENTCOM confirms fresh strikes on Iranian missile sites and mine-laying boats",
-      "summary": "PBS, BBC, NYT, NPR and Guardian report a new wave of US 'self-defense' strikes across southern Iran (~32\u00b0N, 53\u00b0E) targeting missile launch sites and small boats attempting to emplace sea mines. CENTCOM's spokesman confirmed the action to Fox News, framing it as restraint under ceasefire \u2014 but the strikes coincide with the Doha talks and Iran-coast operations near the Strait of Hormuz.",
-      "region": "Southern Iran / Strait of Hormuz",
-      "source": "incidents,telegram",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "nuclear",
-      "title": "Khamenei reportedly rules out transferring 60% enriched uranium out of Iran",
-      "summary": "A Reuters exclusive cited by global_metrics says Supreme Leader Khamenei has told Iranian sources the country's enriched uranium stockpile 'must stay in Iran,' directly rejecting Trump's Truth Social ultimatum demanding the material be surrendered or destroyed in place under IAEA-equivalent supervision. Breakout estimate remains ~1\u20132 weeks at 60% U-235.",
-      "region": "Iran",
-      "source": "global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "medium",
       "category": "cyber",
-      "title": "Iran-linked hacker group sending threatening messages directly to US troops",
-      "summary": "Stars and Stripes (via global_metrics cyber headlines) reports US service members are receiving direct threatening messages from an Iran-linked hacker group, coinciding with reports of GPS jamming disrupting Middle East navigation and CENTCOM deploying a defensive 'umbrella' of tech assets around shipping in the Strait of Hormuz.",
-      "region": "Middle East / CENTCOM AOR",
+      "title": "Israel claims it destroyed Iran's cyber warfare headquarters",
+      "summary": "Politico, surfaced via global_metrics cyber headlines, reports Israel says it has knocked out Iran's central cyber warfare headquarters. The claim arrives amid ongoing Iran-linked hacker harassment of US service members and CENTCOM's deployment of a defensive tech 'umbrella' over Strait of Hormuz shipping (DefenseScoop), suggesting a deliberate Israeli move to degrade Iranian retaliatory cyber capacity during the Doha track.",
+      "region": "Iran / Israel",
       "source": "global_metrics",
       "confidence": "medium"
     },
     {
       "severity": "medium",
       "category": "telegram_signal",
-      "title": "NATO ARRC rehearses deep strikes into Russia in 'Arcade Strike' exercise",
-      "summary": "DeepState UA (~218K views) reports NATO's UK-led Allied Rapid Reaction Corps stood up a wartime HQ on a disused Charing Cross Underground platform to wargame deep strikes into Russia in response to a simulated attack on a Baltic state. Exercise tested electronic warfare, comms suppression and counter-drone tasks \u2014 a notable signal of NATO posture as the Ukraine and Iran fronts run concurrently.",
-      "region": "United Kingdom / NATO",
+      "title": "NATO rehearsed deep strikes into Russia in 'Arcade Strike' exercise from London bunker",
+      "summary": "DeepState UA (~227K views) reports NATO's Allied Rapid Reaction Corps (ARRC) ran Operation Arcade Strike from a mothballed platform at Charing Cross Underground station, simulating deep strikes on Russian territory in response to a hypothetical Russian attack on a Baltic state. The exercise included EW, comms-suppression and counter-UAS drills under a modeled Baltic invasion scenario.",
+      "region": "UK / NATO\u2013Russia",
       "source": "telegram",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "Despite Doha talks underway, both sides are hardening: Iran rules out surrendering uranium and pledges to rearm with unfrozen funds while CENTCOM continues striking southern Iran \u2014 keeping threat level at 9 and Brent near $96.",
+  "analysis_note": "The US-Iran ceasefire is fraying in real time \u2014 fresh CENTCOM strikes on Iran's Gulf coast during the Doha talks have drawn a formal Iranian violation charge, while a parallel Israeli escalation in Lebanon (12 killed, reservists called up) and a declared Russian 'systematic' bombing campaign against Kyiv point to simultaneous escalation on three theaters at threat level 9.",
   "meta": {
-    "input_tokens": 15958,
-    "cache_creation_input_tokens": 0,
-    "cache_read_input_tokens": 2413,
-    "output_tokens": 2754,
-    "cost_usd": 0.1498,
-    "wall_time_s": 37.9
+    "input_tokens": 27056,
+    "cache_creation_input_tokens": 2413,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 2695,
+    "cost_usd": 0.2268,
+    "wall_time_s": 39.9
   }
 }
