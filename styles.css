@@ -2462,10 +2462,49 @@ body::before {
   margin-top: auto;
   padding-top: 4px;
   border-top: 1px dashed rgba(100, 116, 139, 0.2);
+  gap: 8px;
+  flex-wrap: wrap;
 }
 .ai-alert-conf-high   { color: var(--accent-green); }
 .ai-alert-conf-medium { color: var(--accent-amber); }
 .ai-alert-conf-low    { color: var(--text-muted); }
+
+/* Clickable AI alert cards (when a heuristic source URL was found) */
+.ai-alert-clickable { cursor: pointer; transition: var(--transition); }
+.ai-alert-clickable:hover {
+  border-color: var(--accent-amber);
+  background: var(--bg-hover);
+}
+.ai-alert-link {
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+
+/* Telegram items in the Strat Intel Feed (filter = telegram) */
+.news-item-telegram {
+  border-left: 2px solid rgba(34, 211, 238, 0.45);
+  padding-left: 8px;
+}
+.news-item-telegram .news-title {
+  font-style: normal;
+  white-space: pre-line;
+}
+.news-tg-flags {
+  color: var(--accent-amber);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.news-tg-lang {
+  display: inline-block;
+  padding: 0 4px;
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  border-radius: 2px;
+  color: var(--accent-amber);
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-left: 2px;
+}
 
 @media (max-width: 768px) {
   .ai-marquee { font-size: 10px; padding: 4px 10px; height: 24px; }

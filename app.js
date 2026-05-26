@@ -155,6 +155,7 @@ class WarDashboard {
           <div class="news-filter-bar" style="padding: 4px 10px;">
             <button class="news-filter news-filter-ai active" data-filter="ai"><span class="news-filter-ai-icon">⚠</span> AI</button>
             <button class="news-filter" data-filter="all">All</button>
+            <button class="news-filter" data-filter="telegram">Telegram</button>
             <button class="news-filter" data-filter="wire">News</button>
             <button class="news-filter" data-filter="intel">Defence</button>
             <button class="news-filter" data-filter="gov">Govt</button>
@@ -204,7 +205,6 @@ class WarDashboard {
             <button class="tab-btn active" data-tab="proxies">Proxies</button>
             <button class="tab-btn" data-tab="strait">Hormuz</button>
             <button class="tab-btn" data-tab="sanctions">Sanctions</button>
-            <button class="tab-btn" data-tab="telegram">Telegram</button>
           </div>
           <div class="panel-content" id="left-bottom-content"></div>
         </div>
@@ -303,10 +303,6 @@ class WarDashboard {
         title.textContent = 'Sanctions & Economy';
         this.renderSanctions();
         break;
-      case 'telegram':
-        title.textContent = 'Telegram OSINT';
-        this.renderTelegramIntel();
-        break;
     }
   }
 
@@ -355,7 +351,7 @@ class WarDashboard {
       <div class="live-maritime-container">
         <div class="live-maritime-topbar">
           <span class="live-maritime-label">Arabian Sea · India W. Coast · live AIS</span>
-          <a class="live-maritime-open" href="${openUrl}" target="_blank" rel="noopener">Fullscreen ↗</a>
+          <a class="live-maritime-open" href="${openUrl}" target="_blank" rel="noopener noreferrer">Fullscreen ↗</a>
         </div>
         <iframe
           id="live-maritime-iframe"
@@ -366,7 +362,7 @@ class WarDashboard {
           title="MarineTraffic live AIS map">
         </iframe>
         <div class="live-maritime-footer">
-          Live AIS data via <a href="https://www.marinetraffic.com" target="_blank" rel="noopener">MarineTraffic</a>
+          Live AIS data via <a href="https://www.marinetraffic.com" target="_blank" rel="noopener noreferrer">MarineTraffic</a>
         </div>
       </div>
     `;
@@ -382,11 +378,95 @@ class WarDashboard {
         this.activeFilter = btn.dataset.filter;
         if (this.activeFilter === 'ai') {
           this.renderAiAlertsList();
+        } else if (this.activeFilter === 'telegram') {
+          this.renderTelegramFeed();
         } else {
           this.renderNews();
         }
       }
     });
+  }
+
+  // Render telegram OSINT posts into the Strat Intel Feed panel.
+  // Mirrors the news-item visual style with relative timestamps and a
+  // direct t.me link (derived from postId). If the scraper produced an
+  // English translation (`textEn`), prefer it; otherwise show the
+  // original text with a language hint.
+  renderTelegramFeed() {
+    const container = document.getElementById('news-content');
+    if (!container) return;
+
+    const data = this.telegramData;
+    if (!data) {
+      container.innerHTML = `<div class="feed-loading"><div class="spinner"></div> Loading Telegram OSINT…</div>`;
+      return;
+    }
+
+    const urgent = (data.urgentPosts || []).map(p => ({ ...p, _urgent: true }));
+    const top = data.topPosts || [];
+    const seen = new Set();
+    const all = [...urgent, ...top].filter(p => {
+      if (!p || !p.postId) return false;
+      if (seen.has(p.postId)) return false;
+      seen.add(p.postId);
+      return true;
+    });
+
+    if (all.length === 0) {
+      container.innerHTML = `<div class="feed-loading">No Telegram posts captured this cycle.</div>`;
+      return;
+    }
+
+    const esc = this._aiEsc.bind(this);
+    container.innerHTML = all.slice(0, 50).map(post => {
+      const url = this._telegramPostUrl(post);
+      const date = post.date ? new Date(post.date) : null;
+      const ago = date ? this.timeAgo(date) : '';
+      const views = (typeof post.views === 'number' && post.views > 0)
+        ? `${(post.views / 1000).toFixed(1)}k views`
+        : '';
+      const tierClass = post._urgent ? 'alert' : 'intel';
+      const flags = Array.isArray(post.urgentFlags) && post.urgentFlags.length
+        ? `<span class="news-tg-flags">${post.urgentFlags.slice(0, 3).map(esc).join(' · ')}</span>`
+        : '';
+      const en = typeof post.textEn === 'string' && post.textEn.trim().length > 0;
+      const body = en ? post.textEn : (post.text || '');
+      const lang = en ? '' : this._telegramLangBadge(post.text);
+      const trunc = body.length > 280 ? body.substring(0, 280).trim() + '…' : body;
+      const openUrl = url ? url.replace(/'/g, '&apos;') : '';
+
+      return `
+        <div class="news-item news-item-telegram" data-url="${esc(openUrl)}">
+          <div class="news-source ${tierClass}">@${esc(post.channelLabel || post.channel || 'telegram')}</div>
+          <div class="news-title">${esc(trunc)}</div>
+          <div class="news-time">${ago}${views ? ` · ${views}` : ''}${lang}${flags ? ` · ${flags}` : ''}</div>
+        </div>
+      `;
+    }).join('');
+
+    // Wire clicks — open the t.me URL in a new tab.
+    container.querySelectorAll('.news-item-telegram').forEach(el => {
+      el.addEventListener('click', () => {
+        const u = el.dataset.url;
+        if (u) window.open(u, '_blank', 'noopener,noreferrer');
+      });
+    });
+  }
+
+  _telegramPostUrl(post) {
+    if (!post || !post.postId) return '';
+    // postId format: "<channel>/<numeric_id>" — maps directly to https://t.me/<channel>/<id>
+    return `https://t.me/${post.postId}`;
+  }
+
+  _telegramLangBadge(text) {
+    if (!text) return '';
+    // Detect non-Latin scripts so the user knows a translation is pending.
+    if (/[Ѐ-ӿ]/.test(text)) return ' · <span class="news-tg-lang">RU/UK</span>';
+    if (/[֐-׿]/.test(text)) return ' · <span class="news-tg-lang">HE</span>';
+    if (/[؀-ۿ]/.test(text)) return ' · <span class="news-tg-lang">AR/FA</span>';
+    if (/[一-鿿]/.test(text)) return ' · <span class="news-tg-lang">ZH</span>';
+    return '';
   }
 
   // ── News Loading ────────────────────────────────────────────────────────
@@ -397,7 +477,7 @@ class WarDashboard {
     // Seed with static intel items so dashboard is always populated
     if (this.newsItems.length === 0) {
       this.seedStaticNews();
-      if (this.activeFilter !== 'ai') this.renderNews();
+      if (this.activeFilter !== 'ai' && this.activeFilter !== 'telegram') this.renderNews();
     }
 
     const allFeeds = Object.values(NEWS_FEEDS).flat();
@@ -410,7 +490,7 @@ class WarDashboard {
     for (let i = 0; i < allFeeds.length; i += batchSize) {
       const batch = allFeeds.slice(i, i + batchSize);
       await Promise.allSettled(batch.map(feed => this.fetchFeed(feed)));
-      if (this.activeFilter !== 'ai') this.renderNews();
+      if (this.activeFilter !== 'ai' && this.activeFilter !== 'telegram') this.renderNews();
     }
 
     // Update status based on results
@@ -608,44 +688,90 @@ class WarDashboard {
     }
 
     const esc = this._aiEsc.bind(this);
-    const tsAgo = data.generated_at
-      ? Math.max(0, Math.round((Date.now() - new Date(data.generated_at).getTime()) / 60000))
+    const generatedAt = data.generated_at ? new Date(data.generated_at) : null;
+    const tsAgo = generatedAt
+      ? this.timeAgo(generatedAt)
       : null;
-    const meta = data.meta || {};
-    const cost = (typeof meta.cost_usd === 'number') ? meta.cost_usd.toFixed(4) : null;
+
+    const cardsHtml = data.alerts.map((a, idx) => {
+      const sev = (a.severity || 'medium').toLowerCase();
+      const conf = (a.confidence || 'medium').toLowerCase();
+      const cat = (a.category || '').replace(/_/g, ' ');
+      const sourceUrl = this._resolveAlertSourceUrl(a);
+      const ago = generatedAt ? this.timeAgo(generatedAt) : '';
+      const clickable = sourceUrl ? ' ai-alert-clickable' : '';
+      return `
+        <div class="ai-alert-card ai-alert-${sev}${clickable}" data-url="${esc(sourceUrl || '')}" data-idx="${idx}">
+          <div class="ai-alert-top">
+            <span class="ai-alert-sev ai-alert-sev-${sev}">${esc(sev.toUpperCase())}</span>
+            <span class="ai-alert-cat">${esc(cat)}</span>
+            <span class="ai-alert-region">${esc(a.region || '')}</span>
+          </div>
+          <div class="ai-alert-title">${esc(a.title)}</div>
+          <div class="ai-alert-summary">${esc(a.summary)}</div>
+          <div class="ai-alert-meta">
+            <span>${ago ? `updated ${esc(ago)}` : ''}</span>
+            <span>source: ${esc(a.source || '')}${sourceUrl ? ` · <span class="ai-alert-link">open ↗</span>` : ''}</span>
+            <span class="ai-alert-conf ai-alert-conf-${conf}">conf: ${esc(conf)}</span>
+          </div>
+        </div>
+      `;
+    }).join('');
 
     content.innerHTML = `
       <div class="ai-alerts-panel-header">
         <div class="ai-alerts-panel-note">${esc(data.analysis_note || '')}</div>
         <div class="ai-alerts-panel-meta">
-          ${tsAgo !== null ? `<span>Updated ${tsAgo}m ago</span>` : ''}
-          ${cost ? `<span>cost: $${cost}</span>` : ''}
+          ${tsAgo !== null ? `<span>Updated ${esc(tsAgo)}</span>` : ''}
           <span class="ai-alerts-panel-model">${esc(data.model || 'claude-opus-4-7')} · ${esc(data.effort || 'xhigh')}</span>
         </div>
       </div>
-      <div class="ai-alerts-panel-list">
-        ${data.alerts.map(a => {
-          const sev = (a.severity || 'medium').toLowerCase();
-          const conf = (a.confidence || 'medium').toLowerCase();
-          const cat = (a.category || '').replace(/_/g, ' ');
-          return `
-            <div class="ai-alert-card ai-alert-${sev}">
-              <div class="ai-alert-top">
-                <span class="ai-alert-sev ai-alert-sev-${sev}">${esc(sev.toUpperCase())}</span>
-                <span class="ai-alert-cat">${esc(cat)}</span>
-                <span class="ai-alert-region">${esc(a.region || '')}</span>
-              </div>
-              <div class="ai-alert-title">${esc(a.title)}</div>
-              <div class="ai-alert-summary">${esc(a.summary)}</div>
-              <div class="ai-alert-meta">
-                <span>source: ${esc(a.source || '')}</span>
-                <span class="ai-alert-conf ai-alert-conf-${conf}">conf: ${esc(conf)}</span>
-              </div>
-            </div>
-          `;
-        }).join('')}
-      </div>
+      <div class="ai-alerts-panel-list">${cardsHtml}</div>
     `;
+
+    content.querySelectorAll('.ai-alert-clickable').forEach(el => {
+      el.addEventListener('click', () => {
+        const u = el.dataset.url;
+        if (u) window.open(u, '_blank', 'noopener,noreferrer');
+      });
+    });
+  }
+
+  // Best-effort source URL for an AI alert. The current alerts.json schema
+  // doesn't carry a per-alert URL, so we heuristically match against the
+  // datasets the alert was synthesized from (this.liveIncidents and
+  // this.telegramData). If neither has a strong title/text overlap, returns
+  // an empty string and the card stays non-clickable.
+  _resolveAlertSourceUrl(alert) {
+    if (!alert) return '';
+    const sources = String(alert.source || '').toLowerCase();
+    const haystack = ((alert.title || '') + ' ' + (alert.summary || '')).toLowerCase();
+    const keywords = haystack.split(/\W+/).filter(w => w.length >= 5);
+    const scoreMatch = (txt) => {
+      const t = String(txt || '').toLowerCase();
+      let score = 0;
+      for (const kw of keywords) if (t.includes(kw)) score++;
+      return score;
+    };
+
+    if (sources.includes('incidents') && Array.isArray(this.liveIncidents)) {
+      let best = null, bestScore = 2;
+      for (const inc of this.liveIncidents) {
+        const s = scoreMatch(inc.title);
+        if (s > bestScore) { bestScore = s; best = inc; }
+      }
+      if (best && best.url) return best.url;
+    }
+    if (sources.includes('telegram') && this.telegramData) {
+      const posts = [...(this.telegramData.urgentPosts || []), ...(this.telegramData.topPosts || [])];
+      let best = null, bestScore = 2;
+      for (const p of posts) {
+        const s = scoreMatch(p.text);
+        if (s > bestScore) { bestScore = s; best = p; }
+      }
+      if (best) return this._telegramPostUrl(best);
+    }
+    return '';
   }
 
   async fetchLiveData() {
@@ -695,8 +821,7 @@ class WarDashboard {
       const telRes = await fetch('telegram-osint.json?v=' + Date.now());
       if (telRes.ok) {
         this.telegramData = await telRes.json();
-        const lBotTitle = document.getElementById('left-bottom-title');
-        if (lBotTitle && lBotTitle.textContent === 'Telegram OSINT') this.renderTelegramIntel();
+        if (this.activeFilter === 'telegram') this.renderTelegramFeed();
       }
     } catch (e) {
       console.log('Error fetching live OSINT data:', e);
@@ -786,13 +911,23 @@ class WarDashboard {
       return;
     }
 
-    container.innerHTML = items.slice(0, 100).map(item => `
-      <div class="news-item" onclick="window.open('${item.link}', '_blank')">
-        <div class="news-source ${item.tier}">${item.source}</div>
-        <div class="news-title">${item.title}</div>
+    const esc = this._aiEsc.bind(this);
+    container.innerHTML = items.slice(0, 100).map(item => {
+      const safeLink = String(item.link || '').replace(/'/g, '&apos;');
+      return `
+      <div class="news-item" data-url="${esc(safeLink)}">
+        <div class="news-source ${esc(item.tier || '')}">${esc(item.source || '')}</div>
+        <div class="news-title">${esc(item.title || '')}</div>
         <div class="news-time">${this.timeAgo(item.date)}</div>
-      </div>
-    `).join('');
+      </div>`;
+    }).join('');
+
+    container.querySelectorAll('.news-item').forEach(el => {
+      el.addEventListener('click', () => {
+        const u = el.dataset.url;
+        if (u && u !== '#') window.open(u, '_blank', 'noopener,noreferrer');
+      });
+    });
   }
 
   timeAgo(date) {
@@ -1115,7 +1250,7 @@ class WarDashboard {
           <div class="map-popup-detail">
             <strong>Source:</strong> ${incident.domain}<br>
             <strong>Category:</strong> ${incident.category.toUpperCase()}<br>
-            <a href="${incident.url}" target="_blank" style="color:#60a5fa;text-decoration:none;font-size:11px;margin-top:4px;display:inline-block;">Read Full Report ↗</a>
+            <a href="${incident.url}" target="_blank" rel="noopener noreferrer" style="color:#60a5fa;text-decoration:none;font-size:11px;margin-top:4px;display:inline-block;">Read Full Report ↗</a>
           </div>
         `, { className: 'custom-marker-popup' })
         .addTo(group);
@@ -1614,7 +1749,7 @@ class WarDashboard {
           ${this.globalMetrics.cyber.map(news => `
             <div class="cyber-op" style="background: rgba(16,185,129,0.05); margin-bottom: 4px; padding: 6px;">
               <div class="cyber-op-name" style="color: #60a5fa; font-size: 10px;">
-                <a href="${news.url}" target="_blank" style="color:inherit; text-decoration:none;">${news.title}</a>
+                <a href="${news.url}" target="_blank" rel="noopener noreferrer" style="color:inherit; text-decoration:none;">${news.title}</a>
               </div>
               <div style="font-size: 8px; color: var(--text-muted);">${news.published}</div>
             </div>
