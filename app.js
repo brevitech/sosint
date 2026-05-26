@@ -9,7 +9,46 @@
 //   layer is added dynamically when incidents load, so it isn't listed here —
 //   it auto-enables itself in both modes via addLiveIncidents().
 const STATIC_LAYER_KEYS = ['us-bases', 'us-navy', 'iran-bases', 'iran-missiles', 'iran-nuclear', 'iran-navy', 'proxy-forces', 'air-defense'];
-const LIVE_LAYER_KEYS = ['conflict-zones', 'air-traffic'];
+const LIVE_LAYER_KEYS = ['conflict-zones', 'air-traffic', 'ai-alerts'];
+
+// Fallback geocoder for AI alerts whose summary text doesn't embed an
+// explicit lat/lon. Most specific names go first so substring matching
+// resolves "Bandar Abbas, Iran" to Bandar Abbas instead of the Iran
+// catch-all centroid.
+const REGION_COORDS = {
+  'bandar abbas':      [27.18, 56.27],
+  'strait of hormuz':  [26.57, 56.25],
+  'natanz':            [33.72, 51.73],
+  'fordow':            [34.88, 50.99],
+  'bushehr':           [28.97, 50.84],
+  'isfahan':           [32.65, 51.67],
+  'yazd':              [31.90, 54.37],
+  'tehran':            [35.69, 51.42],
+  'larak':             [26.85, 56.36],
+  'hermel':            [34.39, 36.39],
+  'beirut':            [33.89, 35.50],
+  'damascus':          [33.51, 36.29],
+  'baghdad':           [33.32, 44.36],
+  "sana'a":            [15.35, 44.21],
+  'sanaa':             [15.35, 44.21],
+  'doha':              [25.29, 51.53],
+  'qatar':             [25.35, 51.20],
+  'bab al-mandab':     [12.60, 43.30],
+  'red sea':           [18.00, 41.00],
+  'persian gulf':      [26.50, 51.50],
+  'gaza':              [31.50, 34.45],
+  'west bank':         [32.00, 35.30],
+  'lebanon':           [33.85, 35.85],
+  'syria':             [34.80, 38.80],
+  'iraq':              [33.30, 44.40],
+  'yemen':             [15.55, 48.50],
+  'israel':            [31.50, 34.80],
+  'central iran':      [32.00, 53.00],
+  'southern iran':     [28.50, 53.00],
+  'northern iran':     [37.50, 49.00],
+  'eastern iran':      [31.00, 60.00],
+  'iran':              [32.00, 53.00],
+};
 
 class WarDashboard {
   constructor() {
@@ -428,9 +467,93 @@ class WarDashboard {
 
   renderAiAlerts() {
     this.renderAiMarquee();
+    this.addAiAlertsToMap();
     if (this.activeFilter === 'ai') {
       this.renderAiAlertsList();
     }
+  }
+
+  // Resolve an alert to [lat, lon] or null. Two strategies in order:
+  //   1. Coordinates embedded inline in the summary text by the model
+  //      (e.g. "near Yazd (31.73°N, 52.85°E)") — highest precision.
+  //   2. Region-name lookup against REGION_COORDS — substring match,
+  //      most specific keys appear first so "Bandar Abbas / Strait of
+  //      Hormuz" pins on Bandar Abbas rather than the wider strait.
+  // Non-geographic alerts (cyber, sentiment, generic 'global') return
+  // null and are intentionally skipped — the AI panel still shows them.
+  _resolveAlertCoords(alert) {
+    const summary = String(alert && alert.summary || '');
+    const coordRe = /(\d{1,2}(?:\.\d+)?)\s*°?\s*([NS])\s*[,/]?\s*(\d{1,3}(?:\.\d+)?)\s*°?\s*([EW])/i;
+    const m = summary.match(coordRe);
+    if (m) {
+      const lat = parseFloat(m[1]) * (m[2].toUpperCase() === 'S' ? -1 : 1);
+      const lon = parseFloat(m[3]) * (m[4].toUpperCase() === 'W' ? -1 : 1);
+      if (!isNaN(lat) && !isNaN(lon)) return [lat, lon];
+    }
+    const region = String(alert && alert.region || '').toLowerCase();
+    for (const [key, coords] of Object.entries(REGION_COORDS)) {
+      if (region.includes(key)) return coords;
+    }
+    return null;
+  }
+
+  addAiAlertsToMap() {
+    if (!this.map) return;
+
+    if (this.layerGroups['ai-alerts']) {
+      this.map.removeLayer(this.layerGroups['ai-alerts']);
+    }
+
+    const group = L.layerGroup();
+    const alerts = (this.aiAlerts && this.aiAlerts.alerts) || [];
+    const sevColor = {
+      critical: '#ef4444',
+      high:     '#f97316',
+      medium:   '#f59e0b',
+      low:      '#06b6d4',
+    };
+    const esc = this._aiEsc.bind(this);
+    let mapped = 0;
+
+    alerts.forEach(alert => {
+      const coords = this._resolveAlertCoords(alert);
+      if (!coords) return;
+      const sev = String(alert.severity || 'medium').toLowerCase();
+      const color = sevColor[sev] || sevColor.medium;
+      const letter = sev.charAt(0).toUpperCase();
+      const cat = String(alert.category || '').replace(/_/g, ' ');
+
+      const icon = L.divIcon({
+        html: `<div class="ai-alert-marker" style="--sev-color:${color};"><span class="ai-alert-letter">${letter}</span></div>`,
+        className: '',
+        iconSize: [22, 22],
+        iconAnchor: [11, 11],
+      });
+
+      L.marker(coords, { icon })
+        .bindPopup(`
+          <div class="map-popup-title" style="color:${color};">[${esc(sev.toUpperCase())}] ${esc(alert.title)}</div>
+          <div class="map-popup-detail">
+            <div style="margin-bottom:6px;font-size:11px;line-height:1.5;">${esc(alert.summary)}</div>
+            <div style="font-size:10px;color:#94a3b8;display:flex;gap:8px;flex-wrap:wrap;">
+              <span><strong>region:</strong> ${esc(alert.region || 'unknown')}</span>
+              <span><strong>category:</strong> ${esc(cat)}</span>
+              <span><strong>conf:</strong> ${esc(alert.confidence || 'medium')}</span>
+              <span><strong>source:</strong> ${esc(alert.source || '')}</span>
+            </div>
+          </div>
+        `, { className: 'custom-marker-popup', maxWidth: 360 })
+        .addTo(group);
+      mapped++;
+    });
+
+    if (this.activeLayers.has('ai-alerts')) group.addTo(this.map);
+    this.layerGroups['ai-alerts'] = group;
+    this._aiAlertsCountLabel = alerts.length === 0
+      ? '0'
+      : `${mapped}/${alerts.length}`;
+    const countEl = document.getElementById('count-ai-alerts');
+    if (countEl) countEl.textContent = this._aiAlertsCountLabel;
   }
 
   _aiEsc(s) {
@@ -1039,6 +1162,7 @@ class WarDashboard {
   renderMapLegend() {
     const legend = document.getElementById('map-legend');
     const items = [
+      { key: 'ai-alerts', label: 'AI Alerts', color: '#ef4444', icon: '⚠', dynamic: true },
       { key: 'us-bases', label: 'US Bases', color: '#3b82f6', icon: '🇺🇸' },
       { key: 'us-navy', label: 'US Navy', color: '#3b82f6', icon: '⚓' },
       { key: 'iran-bases', label: 'Iran AF', color: '#ef4444', icon: '🇮🇷' },
@@ -1081,6 +1205,8 @@ class WarDashboard {
   refreshLegendCounts() {
     const air = document.getElementById('count-air-traffic');
     if (air && this._airTrafficCountLabel != null) air.textContent = this._airTrafficCountLabel;
+    const ai = document.getElementById('count-ai-alerts');
+    if (ai && this._aiAlertsCountLabel != null) ai.textContent = this._aiAlertsCountLabel;
   }
 
   // ── Military Comparison ─────────────────────────────────────────────────
