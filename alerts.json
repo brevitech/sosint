@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-26T08:31:31.861551+00:00",
+  "generated_at": "2026-05-26T08:39:06.633145+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
-      "severity": "critical",
-      "category": "incident",
-      "title": "US-Israeli strike on Iran's Larak Island kills three in Strait of Hormuz",
-      "summary": "Multiple outlets (Straits Times, Crypto Briefing, Anadolu) report a joint US-Israeli strike on Larak Island and Iranian vessels at the Strait of Hormuz, with three reported killed. Larak hosts IRGC Navy missile-boat and submarine infrastructure ~26.5\u00b0N, 56.2\u00b0E \u2014 striking it materially escalates beyond the southern Iran 'self-defense' box and puts the world's most critical oil chokepoint at direct risk. Brent crude is now at $96.14.",
-      "region": "Strait of Hormuz / Larak Island",
-      "source": "incidents",
+      "severity": "high",
+      "category": "diplomatic",
+      "title": "Iran rejects imminent deal at Qatar talks, vows to fund more missiles and drones",
+      "summary": "BBC reports Tehran says a deal with the US is 'not imminent' even as delegations gather in Doha. Iran's Foreign Ministry, relayed via ME Spectator (~41K views), stated unfrozen funds will 'definitely' be used to 'produce more missiles and drones' \u2014 signaling the Qatar track is hardening rather than de-escalating despite Trump's public peace messaging.",
+      "region": "Doha / Tehran",
+      "source": "incidents,telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Multiple US MQ-9 Reaper drones reportedly downed near Bandar Abbas",
-      "summary": "Middle East Spectator (~38K views) reports multiple American drones, likely MQ-9 Reapers, were shot down near Bandar Abbas while attempting to locate Iranian missile launch sites targeting US warships. If confirmed, this represents the first significant US airframe losses of the current exchange and signals improved Iranian air-defense targeting against ISR assets supporting CENTCOM's strike campaign.",
-      "region": "Bandar Abbas / Persian Gulf",
-      "source": "telegram",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Israeli strike on eastern Lebanon village kills 12; IDF calls up more troops",
-      "summary": "WKRG and Middle East Eye report an Israeli strike on a village in eastern Lebanon killed 12, with additional IDF strikes hitting Kafr Sir in the south as Netanyahu vows to intensify operations. Israel has called up further reserves for the Lebanon front, expanding the second-front escalation Tehran warned would 'collapse' the Qatar talks.",
-      "region": "Eastern/Southern Lebanon",
-      "source": "incidents",
+      "title": "CENTCOM confirms fresh strikes on Iranian missile sites and mine-laying boats",
+      "summary": "PBS, BBC, NYT, NPR and Guardian report a new wave of US 'self-defense' strikes across southern Iran (~32\u00b0N, 53\u00b0E) targeting missile launch sites and small boats attempting to emplace sea mines. CENTCOM's spokesman confirmed the action to Fox News, framing it as restraint under ceasefire \u2014 but the strikes coincide with the Doha talks and Iran-coast operations near the Strait of Hormuz.",
+      "region": "Southern Iran / Strait of Hormuz",
+      "source": "incidents,telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "nuclear",
-      "title": "Trump issues ultimatum: Iran's enriched uranium must be surrendered or destroyed in place",
-      "summary": "On Truth Social (relayed via ME Spectator, ~43K views), President Trump demanded Iran's 60% enriched uranium stockpile be 'immediately turned over' to the US for destruction, or destroyed in place under IAEA-equivalent supervision. The ultimatum directly contradicts Reuters reporting that Khamenei insists enriched material must remain in Iran, and lands with breakout time still estimated at 1\u20132 weeks.",
-      "region": "Iran / Global",
-      "source": "telegram,global_metrics",
+      "title": "Khamenei reportedly rules out transferring 60% enriched uranium out of Iran",
+      "summary": "A Reuters exclusive cited by global_metrics says Supreme Leader Khamenei has told Iranian sources the country's enriched uranium stockpile 'must stay in Iran,' directly rejecting Trump's Truth Social ultimatum demanding the material be surrendered or destroyed in place under IAEA-equivalent supervision. Breakout estimate remains ~1\u20132 weeks at 60% U-235.",
+      "region": "Iran",
+      "source": "global_metrics",
       "confidence": "high"
     },
     {
       "severity": "medium",
       "category": "cyber",
-      "title": "Iran-linked hackers send direct threat messages to US service members",
-      "summary": "Stars and Stripes reports US troops are receiving threatening messages from an Iran-linked hacker group, coinciding with documented GPS jamming across the Middle East and CENTCOM deploying a defensive 'umbrella' of EW/tech assets to shield shipping in the Strait of Hormuz (DefenseScoop). The personalized targeting of individual servicemembers marks a shift from broad infrastructure attacks toward direct psychological-cyber pressure on deployed forces.",
-      "region": "CENTCOM AOR",
+      "title": "Iran-linked hacker group sending threatening messages directly to US troops",
+      "summary": "Stars and Stripes (via global_metrics cyber headlines) reports US service members are receiving direct threatening messages from an Iran-linked hacker group, coinciding with reports of GPS jamming disrupting Middle East navigation and CENTCOM deploying a defensive 'umbrella' of tech assets around shipping in the Strait of Hormuz.",
+      "region": "Middle East / CENTCOM AOR",
       "source": "global_metrics",
+      "confidence": "medium"
+    },
+    {
+      "severity": "medium",
+      "category": "telegram_signal",
+      "title": "NATO ARRC rehearses deep strikes into Russia in 'Arcade Strike' exercise",
+      "summary": "DeepState UA (~218K views) reports NATO's UK-led Allied Rapid Reaction Corps stood up a wartime HQ on a disused Charing Cross Underground platform to wargame deep strikes into Russia in response to a simulated attack on a Baltic state. Exercise tested electronic warfare, comms suppression and counter-drone tasks \u2014 a notable signal of NATO posture as the Ukraine and Iran fronts run concurrently.",
+      "region": "United Kingdom / NATO",
+      "source": "telegram",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran kinetic exchange has expanded into the Strait of Hormuz proper with the Larak Island strike and reported MQ-9 losses, even as Trump issues a public nuclear ultimatum and Israel escalates a parallel Lebanon front \u2014 threat level remains at 9/10 with diplomacy and combat now running in tandem.",
+  "analysis_note": "Despite Doha talks underway, both sides are hardening: Iran rules out surrendering uranium and pledges to rearm with unfrozen funds while CENTCOM continues striking southern Iran \u2014 keeping threat level at 9 and Brent near $96.",
   "meta": {
-    "input_tokens": 15925,
-    "cache_creation_input_tokens": 2413,
-    "cache_read_input_tokens": 0,
-    "output_tokens": 2271,
-    "cost_usd": 0.1605,
-    "wall_time_s": 35.6
+    "input_tokens": 15958,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2413,
+    "output_tokens": 2754,
+    "cost_usd": 0.1498,
+    "wall_time_s": 37.9
   }
 }
