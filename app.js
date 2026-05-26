@@ -6,7 +6,7 @@ class WarDashboard {
   constructor() {
     this.map = null;
     this.newsItems = [];
-    this.activeFilter = 'all';
+    this.activeFilter = 'ai';
     this.layerGroups = {};
     this.activeLayers = new Set(['us-bases', 'iran-bases', 'iran-missiles', 'iran-nuclear', 'us-navy', 'iran-navy', 'proxy-forces', 'air-defense', 'conflict-zones', 'air-traffic']);
     this.feedErrors = 0;
@@ -21,6 +21,13 @@ class WarDashboard {
     this.liveAssets = [];
     this.globalMetrics = null;
     this.telegramData = null;
+    this.aiAlerts = null;
+    // Warm-start AI alerts from last-cached payload so the panel paints
+    // instantly on page load while the fresh fetch runs in the background.
+    try {
+      const raw = localStorage.getItem('sosint.ai.alerts.v1');
+      if (raw) this.aiAlerts = JSON.parse(raw);
+    } catch (e) { /* localStorage unavailable */ }
   }
 
   init() {
@@ -31,20 +38,23 @@ class WarDashboard {
     this.renderMilitaryComparison(); // right-top: Assets tab (default)
     this.renderProxyForces();        // left-bottom: Proxies tab (default)
     this.renderSentimentPanel();     // right-bottom: Sentiment tab (default)
+
+    // AI Alerts is the default Strat Intel Feed tab — paint cached payload
+    // immediately, then kick the network refresh.
+    this.renderAiAlerts();
+    this.fetchAiAlerts();
+    setInterval(() => this.fetchAiAlerts(), 5 * 60 * 1000); // poll every 5 min
+
     this.loadNewsFeeds();
     // Initialize live tracking layers
     this.loadAirTraffic();
     // Refresh intervals
     setInterval(() => this.loadNewsFeeds(), 300000);    // News: 5 min
     setInterval(() => this.loadAirTraffic(), 60000);    // Air: 60s (server-side scraper updates every 10 min)
-    
+
     // Live OSINT Data (Incidents & Assets)
     this.fetchLiveData();
     setInterval(() => this.fetchLiveData(), 60000); // Live Data: 1 min
-
-    // AI Alerts (refreshed when the cron run finishes — every ~hour)
-    this.fetchAiAlerts();
-    setInterval(() => this.fetchAiAlerts(), 5 * 60 * 1000); // poll every 5 min
 
     this.initSentimentRefresh();
   }
@@ -88,8 +98,8 @@ class WarDashboard {
             <span class="panel-badge live">LIVE</span>
           </div>
           <div class="news-filter-bar" style="padding: 4px 10px;">
-            <button class="news-filter active" data-filter="all">All</button>
-            <button class="news-filter news-filter-ai" data-filter="ai"><span class="news-filter-ai-icon">⚠</span> AI</button>
+            <button class="news-filter news-filter-ai active" data-filter="ai"><span class="news-filter-ai-icon">⚠</span> AI</button>
+            <button class="news-filter" data-filter="all">All</button>
             <button class="news-filter" data-filter="wire">News</button>
             <button class="news-filter" data-filter="intel">Defence</button>
             <button class="news-filter" data-filter="gov">Govt</button>
@@ -276,60 +286,35 @@ class WarDashboard {
     const content = document.getElementById('right-bottom-content');
     if (!content) return;
 
-    const views = [
-      { key: 'hormuz',  label: 'Hormuz',        lat: 26.5, lon: 56.5, zoom: 7 },
-      { key: 'gulf',    label: 'Persian Gulf',  lat: 26.5, lon: 51.5, zoom: 6 },
-      { key: 'arabian', label: 'Arabian Sea',   lat: 19.0, lon: 64.0, zoom: 5 },
-      { key: 'india',   label: 'India W. Coast', lat: 19.0, lon: 71.0, zoom: 5 },
-      { key: 'red-sea', label: 'Red Sea',       lat: 18.0, lon: 41.5, zoom: 5 },
-    ];
+    const view = { lat: 20.4, lon: 67.6, zoom: 6 };
 
-    const buildSrc = (v) =>
-      `https://www.marinetraffic.com/en/ais/embed/zoom:${v.zoom}` +
-      `/centery:${v.lat}/centerx:${v.lon}/maptype:4/shownames:false` +
+    const src =
+      `https://www.marinetraffic.com/en/ais/embed/zoom:${view.zoom}` +
+      `/centery:${view.lat}/centerx:${view.lon}/maptype:4/shownames:false` +
       `/mmsi:0/shipid:0/fleet:0/fleet_id:0/vtypes:0/showmenu:false/remember:false`;
 
-    const buildOpen = (v) =>
-      `https://www.marinetraffic.com/en/ais/home/centerx:${v.lon}/centery:${v.lat}/zoom:${v.zoom}/maptype:4`;
-
-    const initial = views[0];
+    const openUrl =
+      `https://www.marinetraffic.com/en/ais/home/centerx:${view.lon}/centery:${view.lat}/zoom:${view.zoom}/maptype:4`;
 
     content.innerHTML = `
       <div class="live-maritime-container">
-        <div class="live-maritime-viewbar" id="live-maritime-viewbar">
-          ${views.map((v, i) => `
-            <button class="live-maritime-viewbtn${i === 0 ? ' active' : ''}" data-view="${v.key}">${v.label}</button>
-          `).join('')}
-          <a class="live-maritime-open" id="live-maritime-open" href="${buildOpen(initial)}" target="_blank" rel="noopener">Fullscreen ↗</a>
+        <div class="live-maritime-topbar">
+          <span class="live-maritime-label">Arabian Sea · India W. Coast · live AIS</span>
+          <a class="live-maritime-open" href="${openUrl}" target="_blank" rel="noopener">Fullscreen ↗</a>
         </div>
         <iframe
           id="live-maritime-iframe"
-          src="${buildSrc(initial)}"
+          src="${src}"
           allowfullscreen
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           title="MarineTraffic live AIS map">
         </iframe>
         <div class="live-maritime-footer">
-          Live AIS data via <a href="https://www.marinetraffic.com" target="_blank" rel="noopener">MarineTraffic</a> ·
-          Free-tier coverage of the Gulf is partial
+          Live AIS data via <a href="https://www.marinetraffic.com" target="_blank" rel="noopener">MarineTraffic</a>
         </div>
       </div>
     `;
-
-    const bar = document.getElementById('live-maritime-viewbar');
-    const iframe = document.getElementById('live-maritime-iframe');
-    const openLink = document.getElementById('live-maritime-open');
-    bar?.addEventListener('click', (e) => {
-      const btn = e.target.closest('.live-maritime-viewbtn');
-      if (!btn) return;
-      const v = views.find((vv) => vv.key === btn.dataset.view);
-      if (!v) return;
-      bar.querySelectorAll('.live-maritime-viewbtn').forEach((b) => b.classList.remove('active'));
-      btn.classList.add('active');
-      iframe.src = buildSrc(v);
-      if (openLink) openLink.href = buildOpen(v);
-    });
   }
 
   // ── News Filters ────────────────────────────────────────────────────────
@@ -357,19 +342,20 @@ class WarDashboard {
     // Seed with static intel items so dashboard is always populated
     if (this.newsItems.length === 0) {
       this.seedStaticNews();
-      this.renderNews();
+      if (this.activeFilter !== 'ai') this.renderNews();
     }
 
     const allFeeds = Object.values(NEWS_FEEDS).flat();
     const feedCount = document.getElementById('feed-count');
     if (feedCount) feedCount.textContent = allFeeds.length;
 
-    // Load feeds concurrently in batches
+    // Load feeds concurrently in batches. Skip repainting when the AI tab
+    // is active so the news loader doesn't clobber the cached AI panel.
     const batchSize = 4;
     for (let i = 0; i < allFeeds.length; i += batchSize) {
       const batch = allFeeds.slice(i, i + batchSize);
       await Promise.allSettled(batch.map(feed => this.fetchFeed(feed)));
-      this.renderNews();
+      if (this.activeFilter !== 'ai') this.renderNews();
     }
 
     // Update status based on results
@@ -411,8 +397,14 @@ class WarDashboard {
       const res = await fetch('alerts.json?v=' + Date.now());
       if (!res.ok) return;
       const data = await res.json();
+      // Skip re-render when the cached payload is already up-to-date —
+      // avoids a DOM flicker on every 5-min poll.
+      const unchanged = this.aiAlerts
+        && this.aiAlerts.generated_at === data.generated_at
+        && (this.aiAlerts.alerts || []).length === (data.alerts || []).length;
       this.aiAlerts = data;
-      this.renderAiAlerts();
+      try { localStorage.setItem('sosint.ai.alerts.v1', JSON.stringify(data)); } catch (e) {}
+      if (!unchanged) this.renderAiAlerts();
     } catch (e) {
       // alerts.json may not exist yet — that's fine
     }
