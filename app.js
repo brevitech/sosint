@@ -405,15 +405,22 @@ class WarDashboard {
     const urgent = (data.urgentPosts || []).map(p => ({ ...p, _urgent: true }));
     const top = data.topPosts || [];
     const seen = new Set();
+    const weekAgoMs = Date.now() - 7 * 24 * 60 * 60 * 1000;
     const all = [...urgent, ...top].filter(p => {
       if (!p || !p.postId) return false;
       if (seen.has(p.postId)) return false;
+      // Drop anything older than 7 days — channels surface evergreen
+      // posts that aren't actionable intel anymore.
+      const ts = p.date ? Date.parse(p.date) : NaN;
+      if (!isNaN(ts) && ts < weekAgoMs) return false;
       seen.add(p.postId);
       return true;
     });
+    // Newest first.
+    all.sort((a, b) => (Date.parse(b.date || 0) || 0) - (Date.parse(a.date || 0) || 0));
 
     if (all.length === 0) {
-      container.innerHTML = `<div class="feed-loading">No Telegram posts captured this cycle.</div>`;
+      container.innerHTML = `<div class="feed-loading">No Telegram posts in the last 7 days.</div>`;
       return;
     }
 
