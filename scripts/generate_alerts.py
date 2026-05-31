@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """
-Generate AI-prioritized alerts from latest OSINT data using Claude Opus 4.7.
+Generate AI-prioritized alerts from latest OSINT data using Claude Haiku 4.5.
 
-Reads the freshly-scraped data files, sends a trimmed view to Claude with
-adaptive thinking + xhigh effort, gets back the top 5 alert-worthy items
-in structured JSON, writes them to alerts.json for the website to render.
+Reads the freshly-scraped data files, sends a trimmed view to Claude, gets
+back the top 5 alert-worthy items in structured JSON, writes them to
+alerts.json for the website to render. Runs only every 6 hours (00/06/12/18
+UTC) and short-circuits when the trimmed input is unchanged since the last
+run, to keep API spend minimal.
 """
 
+import hashlib
 import json
 import os
 import re
@@ -25,7 +28,7 @@ DATA_FILES = {
     "telegram": ROOT / "telegram-osint.json",
 }
 ALERTS_OUTPUT = ROOT / "alerts.json"
-MODEL = "claude-opus-4-7"
+MODEL = "claude-haiku-4-5-20251001"
 
 SYSTEM_PROMPT = """You are an OSINT analyst for the N8RA WarTracker dashboard — a public-facing real-time intelligence dashboard monitoring the US-Iran conflict theater, regional proxy activity (Hezbollah, Houthis, Hamas, PIJ, Iraqi Shiite Militias), and adjacent conflicts (Russia-Ukraine, Israel-Lebanon).
 
@@ -262,21 +265,21 @@ def trim_data(data: dict) -> dict:
 
 def report_cost(usage, sec: float) -> dict:
     """Print cost breakdown and return totals."""
-    # Opus 4.7 pricing per 1M tokens (as of 2026-05):
-    #   input          $5.00
-    #   output         $25.00
-    #   cache read     $0.50   (10% of input)
-    #   cache write 5m $6.25   (1.25x input)
-    #   cache write 1h $10.00  (2x input)
+    # Haiku 4.5 pricing per 1M tokens (as of 2026-05):
+    #   input          $1.00
+    #   output         $5.00
+    #   cache read     $0.10   (10% of input)
+    #   cache write 5m $1.25   (1.25x input)
+    #   cache write 1h $2.00   (2x input)
     input_uncached = usage.input_tokens
     cache_write = getattr(usage, "cache_creation_input_tokens", 0) or 0
     cache_read = getattr(usage, "cache_read_input_tokens", 0) or 0
     output_tokens = usage.output_tokens
 
-    cost_input = input_uncached * 5.00 / 1_000_000
-    cost_cwrite = cache_write * 10.00 / 1_000_000  # 1h TTL used
-    cost_cread = cache_read * 0.50 / 1_000_000
-    cost_output = output_tokens * 25.00 / 1_000_000
+    cost_input = input_uncached * 1.00 / 1_000_000
+    cost_cwrite = cache_write * 1.25 / 1_000_000  # 5m TTL used
+    cost_cread = cache_read * 0.10 / 1_000_000
+    cost_output = output_tokens * 5.00 / 1_000_000
     total = cost_input + cost_cwrite + cost_cread + cost_output
 
     total_input = input_uncached + cache_write + cache_read
@@ -317,6 +320,12 @@ def main() -> int:
         print("ERROR: ANTHROPIC_API_KEY not set in environment", file=sys.stderr)
         return 1
 
+    # Cost control: only run every 6 hours (00/06/12/18 UTC).
+    # Override for manual runs with FORCE_ALERTS=1.
+    if not os.environ.get("FORCE_ALERTS") and datetime.now(timezone.utc).hour % 6 != 0:
+        print("[skip] not in 6-hourly window (00/06/12/18 UTC); set FORCE_ALERTS=1 to override.")
+        return 0
+
     client = anthropic.Anthropic(api_key=api_key)
 
     raw_data = load_data()
@@ -327,12 +336,24 @@ def main() -> int:
     trimmed = trim_data(raw_data)
     now_iso = datetime.now(timezone.utc).isoformat()
 
+    # Cost control: skip the API call entirely when scrapers produced no new data.
+    data_hash = hashlib.sha256(
+        json.dumps(trimmed, sort_keys=True).encode()
+    ).hexdigest()
+
     existing_alerts = []
+    prev_hash = None
     if ALERTS_OUTPUT.exists():
         try:
-            existing_alerts = json.loads(ALERTS_OUTPUT.read_text()).get("alerts", [])
+            prev = json.loads(ALERTS_OUTPUT.read_text())
+            existing_alerts = prev.get("alerts", [])
+            prev_hash = (prev.get("meta") or {}).get("data_hash")
         except Exception:
             pass
+
+    if prev_hash == data_hash:
+        print("[skip] data unchanged since last run; reusing existing alerts.json.")
+        return 0
 
     user_content = (
         f"Current UTC time: {now_iso}\n\n"
@@ -348,17 +369,15 @@ def main() -> int:
 
     with client.messages.stream(
         model=MODEL,
-        max_tokens=32000,
-        thinking={"type": "adaptive"},
+        max_tokens=8000,
         output_config={
-            "effort": "xhigh",
             "format": {"type": "json_schema", "schema": ALERTS_SCHEMA},
         },
         system=[
             {
                 "type": "text",
                 "text": SYSTEM_PROMPT,
-                "cache_control": {"type": "ephemeral", "ttl": "1h"},
+                "cache_control": {"type": "ephemeral", "ttl": "5m"},
             }
         ],
         messages=[{"role": "user", "content": user_content}],
@@ -381,6 +400,7 @@ def main() -> int:
         return 1
 
     cost = report_cost(final.usage, elapsed)
+    cost["data_hash"] = data_hash
 
     output = {
         "generated_at": now_iso,
