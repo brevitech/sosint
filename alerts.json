@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-06-01T00:12:24.835400+00:00",
+  "generated_at": "2026-06-01T06:01:52.434825+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
-      "severity": "critical",
+      "severity": "high",
       "category": "incident",
-      "title": "Iran may have used Chinese-supplied missile to down US fighter jet",
-      "summary": "NBC News reports sources indicate Iran may have used a Chinese-made surface-to-air missile to shoot down a US fighter jet over Iranian airspace (~32.2\u00b0N, 52.8\u00b0E). If confirmed, the incident introduces direct Chinese hardware into the kinetic exchange and marks the first reported US combat aircraft loss of the conflict, with significant implications for great-power involvement.",
-      "region": "Central Iran",
+      "title": "US and Iran trade new strikes: Sirik Island hit, IRGC claims attack on US air base",
+      "summary": "Reuters, NBC, BBC and Anadolu report a fresh kinetic exchange in which US forces struck Iranian drone, radar and missile sites \u2014 including a reported attack on Sirik Island near the Strait of Hormuz (~26.7\u00b0N, 56.3\u00b0E) \u2014 and Iran's IRGC retaliated with a missile strike on a US air base. The Jerusalem Post adds Kuwait simultaneously defended against incoming drones and missiles, marking a clear breakdown of the prior ceasefire framework.",
+      "region": "Strait of Hormuz / Persian Gulf",
+      "source": "incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "incident",
+      "title": "Israeli strike in Beirut reportedly kills IRGC Imam Hossein Division missile commander",
+      "summary": "Long War Journal reports an Israeli airstrike in Beirut (~34.11\u00b0N, 35.45\u00b0E) targeted and reportedly killed the missile commander of the IRGC's Imam Hossein Division. The decapitation strike against a senior Iranian officer on Lebanese soil represents a direct escalation against IRGC command and risks broadening Hezbollah-Iran retaliation against Israeli and US targets.",
+      "region": "Beirut, Lebanon",
       "source": "incidents",
       "confidence": "medium"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Iran reopens 18 underground missile sites struck during US bombing campaign",
-      "summary": "Times of Israel, CNN, Haaretz and Jerusalem Post report satellite imagery shows Iran has cleared and reopened most entrances to 18 underground missile facilities targeted in earlier US strikes (~31.8\u00b0N, 52.8\u00b0E). Iranian officials say the arsenal is again ready to fire across the Middle East, undercutting the strategic value of the US bombing plan and signaling residual second-strike capacity.",
-      "region": "Central Iran",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "IDF captures Beaufort Castle in deepest Lebanon incursion since 2000",
-      "summary": "BBC, CBC and Middle East Spectator (~33K views) confirm Israeli ground forces have seized Beaufort Castle in southern Lebanon (~33.8\u00b0N, 35.58\u00b0E), the deepest IDF push into the country in over 25 years. ME Spectator reports the advance is being preceded by indiscriminate bombardment and alleged white phosphorus use, while Hezbollah FPV drones are inflicting growing IDF casualties.",
-      "region": "Southern Lebanon",
-      "source": "incidents,telegram",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Kuwait struck by missile; US declares Iranian ceasefire violation, launches fresh strikes",
-      "summary": "PBS reports US Central Command has accused Iran of violating the ceasefire after a missile attack on Kuwait, prompting new US 'self-defense' strikes on Iranian missile sites and IRGC boats laying mines (~31.7\u00b0N, 53.2\u00b0E). LiveNOW from FOX adds that the US fired on a cargo vessel attempting to breach an Iranian port blockade, broadening the kinetic footprint beyond previously reported strike zones.",
-      "region": "Kuwait / Persian Gulf",
-      "source": "incidents",
-      "confidence": "high"
+      "category": "telegram_signal",
+      "title": "Hezbollah suicide drone hits IDF base at Beit Hillel, serious injuries reported",
+      "summary": "ME Spectator (~42K views) reports a Hezbollah suicide drone impacted an IDF base in Beit Hillel in Northern Israel, with serious injuries at the scene. The strike reinforces a pattern of Hezbollah FPV/loitering munitions inflicting growing IDF casualties as Israeli forces push deeper into southern Lebanon following the Beaufort Castle seizure.",
+      "region": "Northern Israel",
+      "source": "telegram",
+      "confidence": "medium"
     },
     {
       "severity": "medium",
-      "category": "diplomatic",
-      "title": "Kazakhstan offers to take custody of Iran's enriched uranium stockpile",
-      "summary": "Financial Times, Kurdistan24 and Shafaq News, surfaced via global_metrics nuclear headlines, report IAEA Director General Grossi has revealed Kazakhstan is willing to hold Iran's 60% enriched uranium stockpile as part of a potential deal. The proposal emerges as Rybar (~121K views) reports Trump has hardened US terms in the revised draft sent to Tehran, with breakout time still estimated at 1\u20132 weeks.",
+      "category": "telegram_signal",
+      "title": "US KC-135 tanker returns to UK with heavy shrapnel damage, possibly struck at Ben Gurion",
+      "summary": "ME Spectator (~40K views) reports a US KC-135 aerial refueling tanker (tail 63-8028), previously stationed in Tel Aviv during the war, was observed returning to the UK with heavy shrapnel damage and likely out of service. The channel assesses the aircraft was most likely hit on the ground at Ben Gurion Airport by a cluster or airburst warhead, or possibly by an Iranian SAM \u2014 implying a previously undisclosed loss of a US strategic asset.",
+      "region": "Israel / United Kingdom",
+      "source": "telegram",
+      "confidence": "low"
+    },
+    {
+      "severity": "medium",
+      "category": "nuclear",
+      "title": "Kazakhstan offers to hold Iran's enriched uranium stockpile, IAEA chief says",
+      "summary": "Financial Times, Kurdistan24 and Shafaq News report IAEA Director General Grossi has disclosed that Kazakhstan is willing to take custody of Iran's stockpile of 60% enriched uranium. With breakout time still assessed at ~1-2 weeks and Iran signaling it will amend the US draft text rather than accept it, the Astana option represents the first concrete third-party off-ramp to emerge in the nuclear talks.",
       "region": "Iran / Kazakhstan",
-      "source": "global_metrics,telegram",
+      "source": "global_metrics,incidents",
       "confidence": "high"
     }
   ],
-  "analysis_note": "Threat level holds at 9/10 as the US-Iran ceasefire visibly fractures\u2014Kuwait struck, fresh US strikes launched, Iran's underground missile arsenal reconstituted, and a possible Chinese-missile downing of a US jet\u2014even as Kazakhstan emerges as a potential nuclear off-ramp and Israel pushes its deepest into Lebanon since 2000.",
+  "analysis_note": "Threat level remains at 9/10 with active US-Iran strike exchanges across the Gulf, Israeli decapitation strikes against IRGC commanders in Beirut, and Hezbollah drones inflicting IDF casualties \u2014 even as a Kazakhstan-mediated nuclear off-ramp tentatively emerges.",
   "meta": {
-    "input_tokens": 25496,
+    "input_tokens": 22333,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2604,
-    "cost_usd": 0.2167,
-    "wall_time_s": 43.2
+    "output_tokens": 2885,
+    "cost_usd": 0.2079,
+    "wall_time_s": 43.3
   }
 }
