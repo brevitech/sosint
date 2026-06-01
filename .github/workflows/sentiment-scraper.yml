@@ -52,6 +52,7 @@ jobs:
         run: python scripts/send_telegram_alerts.py
 
       - name: Generate AI Alerts (Claude Opus 4.7, xhigh)
+        continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |

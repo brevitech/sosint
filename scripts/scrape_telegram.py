@@ -21,6 +21,8 @@ OUTPUT_FILE = os.path.join(ROOT_DIR, "telegram-osint.json")
 # Opus-level reasoning here. ~$1/1M input, ~$5/1M output as of Jan 2026.
 TRANSLATION_MODEL = "claude-haiku-4-5-20251001"
 TRANSLATION_THRESHOLD = 20  # min non-Latin chars before we consider translating
+TRANSLATION_CACHE_FILE = os.path.join(SCRIPT_DIR, ".translation-cache.json")
+TRANSLATION_CACHE_MAX = 2000  # LRU cap so the cache file stays small
 
 CHANNELS = [
     {"id": "osintdefender", "label": "OSINTdefender"},
@@ -115,6 +117,26 @@ def scrape_channel(channel):
             
     return messages
 
+def _load_translation_cache():
+    """Load on-disk postId -> English-text cache from prior runs."""
+    try:
+        with open(TRANSLATION_CACHE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def _save_translation_cache(cache):
+    """Persist cache, trimming to the most recent TRANSLATION_CACHE_MAX entries."""
+    if len(cache) > TRANSLATION_CACHE_MAX:
+        cache = dict(list(cache.items())[-TRANSLATION_CACHE_MAX:])
+    try:
+        with open(TRANSLATION_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False)
+    except Exception as e:
+        print(f"[translate] cache save failed: {e}", file=sys.stderr)
+
+
 def _needs_translation(text):
     """True if the text contains enough non-Latin script characters to warrant
     a translation pass. We don't translate predominantly-English posts."""
@@ -144,9 +166,13 @@ def translate_posts_inplace(posts):
         print("[translate] anthropic SDK not installed; skipping translation")
         return
 
+    # Load on-disk memo so previously-translated posts skip the API entirely.
+    cache = _load_translation_cache()
+
     # Dedupe by postId so a post that's in both top + urgent only translates once.
     seen = set()
     needs = []
+    cache_hits = 0
     for p in posts:
         pid = p.get("postId")
         if not pid or pid in seen:
@@ -156,11 +182,19 @@ def translate_posts_inplace(posts):
         if not isinstance(text, str) or p.get("textEn"):
             continue
         if _needs_translation(text):
+            cached = cache.get(pid)
+            if cached:
+                p["textEn"] = cached
+                cache_hits += 1
+                continue
             # Truncate so a single payload doesn't blow our token budget.
             needs.append({"id": pid, "text": text[:1500]})
 
+    if cache_hits:
+        print(f"[translate] cache hits: {cache_hits}")
+
     if not needs:
-        print("[translate] all posts appear to be English; nothing to translate")
+        print("[translate] all posts already translated or English; nothing to send")
         return
 
     print(f"[translate] translating {len(needs)} posts via {TRANSLATION_MODEL}...")
@@ -219,6 +253,7 @@ def translate_posts_inplace(posts):
             for t in data.get("translations", []):
                 if t.get("id") and t.get("en"):
                     translations[t["id"]] = t["en"]
+                    cache[t["id"]] = t["en"]
             print(f"[translate] batch {batch_start // BATCH_SIZE + 1}: ok ({len(batch)} posts)")
         except Exception as e:
             print(f"[translate] batch {batch_start // BATCH_SIZE + 1} failed: {e}", file=sys.stderr)
@@ -235,6 +270,7 @@ def translate_posts_inplace(posts):
             p["textEn"] = en
             applied += 1
     print(f"[translate] applied {applied} translations")
+    _save_translation_cache(cache)
 
 
 def run_pipeline():
@@ -257,7 +293,8 @@ def run_pipeline():
 
     # Translate non-English posts so the dashboard always renders English.
     # In-place adds textEn to each translated post; no-op if API unavailable.
-    translate_posts_inplace(top_posts + urgent_posts)
+    # Capped at top 12 (down from ~47) and memoized on disk to keep API spend tiny.
+    translate_posts_inplace(top_posts[:12])
 
     result = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
