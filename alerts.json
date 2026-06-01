@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-06-01T06:01:52.434825+00:00",
+  "generated_at": "2026-06-01T11:44:46.908970+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "high",
       "category": "incident",
-      "title": "US and Iran trade new strikes: Sirik Island hit, IRGC claims attack on US air base",
-      "summary": "Reuters, NBC, BBC and Anadolu report a fresh kinetic exchange in which US forces struck Iranian drone, radar and missile sites \u2014 including a reported attack on Sirik Island near the Strait of Hormuz (~26.7\u00b0N, 56.3\u00b0E) \u2014 and Iran's IRGC retaliated with a missile strike on a US air base. The Jerusalem Post adds Kuwait simultaneously defended against incoming drones and missiles, marking a clear breakdown of the prior ceasefire framework.",
-      "region": "Strait of Hormuz / Persian Gulf",
+      "title": "Netanyahu orders IDF strikes on Beirut's Dahieh; Hezbollah front expands",
+      "summary": "Reuters, BBC, Al-Monitor, Times of Israel, ynetnews and Chinese state media report PM Netanyahu and DM Katz have ordered the IDF to strike targets in Beirut's southern suburbs (Dahieh), citing Hezbollah 'ceasefire violations.' The order expands beyond prior decapitation strikes to systematic targeting of Hezbollah's urban stronghold, raising risk of mass-casualty events and broader Iranian retaliation.",
+      "region": "Beirut, Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israeli strike in Beirut reportedly kills IRGC Imam Hossein Division missile commander",
-      "summary": "Long War Journal reports an Israeli airstrike in Beirut (~34.11\u00b0N, 35.45\u00b0E) targeted and reportedly killed the missile commander of the IRGC's Imam Hossein Division. The decapitation strike against a senior Iranian officer on Lebanese soil represents a direct escalation against IRGC command and risks broadening Hezbollah-Iran retaliation against Israeli and US targets.",
-      "region": "Beirut, Lebanon",
+      "title": "US intel: Iran restored entry to 18 bombed missile sites, 'exceeded all timelines'",
+      "summary": "Times of Israel and The Media Line cite US intelligence assessments that Iran has reopened most entrances to 18 underground missile sites struck during the war, with reconstitution pace 'exceeding all timelines.' Combined with Jerusalem Post reporting that Iran is 'ready to fire missiles across Middle East after digging out bombed tunnels,' the development materially shortens warning time for a renewed Iranian salvo.",
+      "region": "Iran (central)",
       "source": "incidents",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
-      "category": "telegram_signal",
-      "title": "Hezbollah suicide drone hits IDF base at Beit Hillel, serious injuries reported",
-      "summary": "ME Spectator (~42K views) reports a Hezbollah suicide drone impacted an IDF base in Beit Hillel in Northern Israel, with serious injuries at the scene. The strike reinforces a pattern of Hezbollah FPV/loitering munitions inflicting growing IDF casualties as Israeli forces push deeper into southern Lebanon following the Beaufort Castle seizure.",
-      "region": "Northern Israel",
-      "source": "telegram",
-      "confidence": "medium"
-    },
-    {
-      "severity": "medium",
-      "category": "telegram_signal",
-      "title": "US KC-135 tanker returns to UK with heavy shrapnel damage, possibly struck at Ben Gurion",
-      "summary": "ME Spectator (~40K views) reports a US KC-135 aerial refueling tanker (tail 63-8028), previously stationed in Tel Aviv during the war, was observed returning to the UK with heavy shrapnel damage and likely out of service. The channel assesses the aircraft was most likely hit on the ground at Ben Gurion Airport by a cluster or airburst warhead, or possibly by an Iranian SAM \u2014 implying a previously undisclosed loss of a US strategic asset.",
-      "region": "Israel / United Kingdom",
-      "source": "telegram",
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "severity": "medium",
       "category": "nuclear",
-      "title": "Kazakhstan offers to hold Iran's enriched uranium stockpile, IAEA chief says",
-      "summary": "Financial Times, Kurdistan24 and Shafaq News report IAEA Director General Grossi has disclosed that Kazakhstan is willing to take custody of Iran's stockpile of 60% enriched uranium. With breakout time still assessed at ~1-2 weeks and Iran signaling it will amend the US draft text rather than accept it, the Astana option represents the first concrete third-party off-ramp to emerge in the nuclear talks.",
+      "title": "Kazakhstan offers to take custody of Iran's enriched uranium stockpile",
+      "summary": "Financial Times, Times of Israel and Kurdistan24 report IAEA Director-General Rafael Grossi disclosed Kazakhstan's willingness to store Iran's HEU stockpile if a deal is reached. With Iranian enrichment at 60% U-235 and breakout estimated at 1\u20132 weeks, the Astana offer represents the first concrete off-ramp for the nuclear file amid active US-Iran kinetic exchanges.",
       "region": "Iran / Kazakhstan",
       "source": "global_metrics,incidents",
       "confidence": "high"
+    },
+    {
+      "severity": "medium",
+      "category": "diplomatic",
+      "title": "Trump personally editing draft US-Iran deal on uranium and Strait of Hormuz",
+      "summary": "CBS News reports a source close to the talks says President Trump has personally revised text of a possible US-Iran agreement covering enriched uranium limits and Strait of Hormuz access. The disclosure runs in parallel to fresh kinetic exchanges, suggesting a track-two diplomatic channel remains open despite the PBS-reported US accusation that Iran violated the ceasefire by striking Kuwait.",
+      "region": "Strait of Hormuz / Washington",
+      "source": "incidents",
+      "confidence": "medium"
+    },
+    {
+      "severity": "medium",
+      "category": "incident",
+      "title": "IDF names Staff-Sgt Adam Tzarfati killed in Hezbollah drone strike in south Lebanon",
+      "summary": "Haaretz and Jerusalem Post report the IDF has named Staff-Sergeant Adam Tzarfati as killed by a Hezbollah drone explosion in southern Lebanon (~33.5\u00b0N, 35.7\u00b0E). The named KIA corroborates the prior ME Spectator (~46K views) report of a Hezbollah suicide drone at Beit Hillel and reinforces a sustained pattern of Hezbollah FPV/loitering munitions inflicting IDF casualties during the ground push.",
+      "region": "Southern Lebanon",
+      "source": "incidents,telegram",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "Threat level remains at 9/10 with active US-Iran strike exchanges across the Gulf, Israeli decapitation strikes against IRGC commanders in Beirut, and Hezbollah drones inflicting IDF casualties \u2014 even as a Kazakhstan-mediated nuclear off-ramp tentatively emerges.",
+  "analysis_note": "Threat level remains at 9/10 with Brent at $93.7; Israel is widening the Lebanon front into Beirut's Dahieh as US intelligence concedes Iran's missile-site reconstitution has outpaced expectations, even as a Kazakhstan-mediated uranium off-ramp and Trump-edited deal text suggest a parallel diplomatic track.",
   "meta": {
-    "input_tokens": 22333,
+    "input_tokens": 20639,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2885,
-    "cost_usd": 0.2079,
-    "wall_time_s": 43.3
+    "output_tokens": 2768,
+    "cost_usd": 0.1965,
+    "wall_time_s": 37.3
   }
 }
