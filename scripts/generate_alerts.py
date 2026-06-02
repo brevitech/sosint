@@ -4,9 +4,9 @@ Generate AI-prioritized alerts from latest OSINT data using Claude Haiku 4.5.
 
 Reads the freshly-scraped data files, sends a trimmed view to Claude, gets
 back the top 5 alert-worthy items in structured JSON, writes them to
-alerts.json for the website to render. Runs only every 6 hours (00/06/12/18
-UTC) and short-circuits when the trimmed input is unchanged since the last
-run, to keep API spend minimal.
+alerts.json for the website to render. Skips when the previous alerts.json
+is less than 5 hours old or when the trimmed input is unchanged since the
+last run, to keep API spend minimal.
 """
 
 import hashlib
@@ -320,11 +320,22 @@ def main() -> int:
         print("ERROR: ANTHROPIC_API_KEY not set in environment", file=sys.stderr)
         return 1
 
-    # Cost control: only run every 6 hours (00/06/12/18 UTC).
+    # Cost control: only run if at least 5 hours have passed since the last
+    # alerts.json was generated. Robust to GitHub Actions schedule slippage,
+    # where scheduled runs rarely fire exactly on the 00/06/12/18 UTC hour.
     # Override for manual runs with FORCE_ALERTS=1.
-    if not os.environ.get("FORCE_ALERTS") and datetime.now(timezone.utc).hour % 6 != 0:
-        print("[skip] not in 6-hourly window (00/06/12/18 UTC); set FORCE_ALERTS=1 to override.")
-        return 0
+    MIN_INTERVAL_H = 5
+    if not os.environ.get("FORCE_ALERTS") and ALERTS_OUTPUT.exists():
+        try:
+            prev_gen = datetime.fromisoformat(
+                json.loads(ALERTS_OUTPUT.read_text())["generated_at"]
+            )
+            age_h = (datetime.now(timezone.utc) - prev_gen).total_seconds() / 3600
+            if age_h < MIN_INTERVAL_H:
+                print(f"[skip] last alert was {age_h:.1f}h ago (< {MIN_INTERVAL_H}h); set FORCE_ALERTS=1 to override.")
+                return 0
+        except Exception as e:
+            print(f"[warn] could not read previous alert timestamp ({e}); proceeding with API call.")
 
     client = anthropic.Anthropic(api_key=api_key)
 
