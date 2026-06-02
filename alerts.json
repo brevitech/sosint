@@ -1,61 +1,62 @@
 {
-  "generated_at": "2026-06-01T11:44:46.908970+00:00",
-  "model": "claude-opus-4-7",
+  "generated_at": "2026-06-02T12:39:13.927135+00:00",
+  "model": "claude-haiku-4-5-20251001",
   "effort": "xhigh",
   "alerts": [
     {
+      "severity": "critical",
+      "category": "incident",
+      "title": "US and Iran trade direct strikes; missile defense systems activated in Gulf",
+      "summary": "PBS, AP News, and BBC report US military struck Iranian radar and military sites while Iran fired missiles at US troops in Kuwait. Multiple sources confirm active air defense operations and incident escalation beyond prior kinetic exchanges. Threat level raised to 9 (CRITICAL \u2014 IMMINENT ESCALATION) per global_metrics.",
+      "region": "Iran / Persian Gulf / Kuwait",
+      "source": "incidents,global_metrics",
+      "confidence": "high"
+    },
+    {
       "severity": "high",
       "category": "incident",
-      "title": "Netanyahu orders IDF strikes on Beirut's Dahieh; Hezbollah front expands",
-      "summary": "Reuters, BBC, Al-Monitor, Times of Israel, ynetnews and Chinese state media report PM Netanyahu and DM Katz have ordered the IDF to strike targets in Beirut's southern suburbs (Dahieh), citing Hezbollah 'ceasefire violations.' The order expands beyond prior decapitation strikes to systematic targeting of Hezbollah's urban stronghold, raising risk of mass-casualty events and broader Iranian retaliation.",
+      "title": "Trump halts Netanyahu's Beirut offensive; partial Lebanon ceasefire announced",
+      "summary": "Reuters, Times of Israel, Washington Post, and Time Magazine report Trump directly intervened to postpone Israeli strikes on Beirut, with Netanyahu appearing to back down. Lebanon announces partial ceasefire between Israel and Hezbollah, though limited attacks continue. Development marks sharp reversal from previous order to strike Dahieh suburbs.",
       "region": "Beirut, Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "US intel: Iran restored entry to 18 bombed missile sites, 'exceeded all timelines'",
-      "summary": "Times of Israel and The Media Line cite US intelligence assessments that Iran has reopened most entrances to 18 underground missile sites struck during the war, with reconstitution pace 'exceeding all timelines.' Combined with Jerusalem Post reporting that Iran is 'ready to fire missiles across Middle East after digging out bombed tunnels,' the development materially shortens warning time for a renewed Iranian salvo.",
-      "region": "Iran (central)",
-      "source": "incidents",
-      "confidence": "high"
+      "category": "cyber",
+      "title": "Iran-linked hackers escalate cyber retaliation after US-Israel strikes",
+      "summary": "PBS and Industrial Cyber report surge in cyber retaliation campaigns by Iran-linked threat actors targeting US and allied government, defense, and critical infrastructure sectors. Timing coincides with kinetic US strikes on Iranian military sites, indicating coordinated multi-domain response.",
+      "region": "Global",
+      "source": "global_metrics",
+      "confidence": "medium"
     },
     {
       "severity": "medium",
       "category": "nuclear",
-      "title": "Kazakhstan offers to take custody of Iran's enriched uranium stockpile",
-      "summary": "Financial Times, Times of Israel and Kurdistan24 report IAEA Director-General Rafael Grossi disclosed Kazakhstan's willingness to store Iran's HEU stockpile if a deal is reached. With Iranian enrichment at 60% U-235 and breakout estimated at 1\u20132 weeks, the Astana offer represents the first concrete off-ramp for the nuclear file amid active US-Iran kinetic exchanges.",
-      "region": "Iran / Kazakhstan",
-      "source": "global_metrics,incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "medium",
-      "category": "diplomatic",
-      "title": "Trump personally editing draft US-Iran deal on uranium and Strait of Hormuz",
-      "summary": "CBS News reports a source close to the talks says President Trump has personally revised text of a possible US-Iran agreement covering enriched uranium limits and Strait of Hormuz access. The disclosure runs in parallel to fresh kinetic exchanges, suggesting a track-two diplomatic channel remains open despite the PBS-reported US accusation that Iran violated the ceasefire by striking Kuwait.",
-      "region": "Strait of Hormuz / Washington",
-      "source": "incidents",
+      "title": "Iran declares talks suspended, threatens Strait of Hormuz closure and breakout acceleration",
+      "summary": "Rybar (2 June, ~123K views) cites Iranian IRGC statement declaring cessation of negotiations, announcing full closure of Strait of Hormuz, and Bab el-Mandeb blockade plans in response to US-Israel 'provocations.' Nuclear breakout timeline remains 1-2 weeks at 60% enrichment per global_metrics.",
+      "region": "Iran / Strait of Hormuz",
+      "source": "telegram,global_metrics",
       "confidence": "medium"
     },
     {
       "severity": "medium",
       "category": "incident",
-      "title": "IDF names Staff-Sgt Adam Tzarfati killed in Hezbollah drone strike in south Lebanon",
-      "summary": "Haaretz and Jerusalem Post report the IDF has named Staff-Sergeant Adam Tzarfati as killed by a Hezbollah drone explosion in southern Lebanon (~33.5\u00b0N, 35.7\u00b0E). The named KIA corroborates the prior ME Spectator (~46K views) report of a Hezbollah suicide drone at Beit Hillel and reinforces a sustained pattern of Hezbollah FPV/loitering munitions inflicting IDF casualties during the ground push.",
-      "region": "Southern Lebanon",
-      "source": "incidents,telegram",
+      "title": "Iran restores 18 underground missile sites; reconstitution pace exceeds US expectations",
+      "summary": "CNN, Times of Israel, and Jerusalem Post confirm Iran has reopened entrances to 18 missile bases struck during prior US campaign, with reconstruction timeline 'exceeding all expectations.' Development materially reduces warning time for renewed Iranian ballistic missile salvos against regional targets.",
+      "region": "Iran (central)",
+      "source": "incidents",
       "confidence": "high"
     }
   ],
-  "analysis_note": "Threat level remains at 9/10 with Brent at $93.7; Israel is widening the Lebanon front into Beirut's Dahieh as US intelligence concedes Iran's missile-site reconstitution has outpaced expectations, even as a Kazakhstan-mediated uranium off-ramp and Trump-edited deal text suggest a parallel diplomatic track.",
+  "analysis_note": "US-Iran direct kinetic exchange, Trump's emergency intervention in Israel-Lebanon theater, and Iranian cyber and nuclear escalation amid collapsed diplomacy signal high-risk multi-front instability with reduced diplomatic off-ramps.",
   "meta": {
-    "input_tokens": 20639,
-    "cache_creation_input_tokens": 2413,
+    "input_tokens": 23773,
+    "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2768,
-    "cost_usd": 0.1965,
-    "wall_time_s": 37.3
+    "output_tokens": 633,
+    "cost_usd": 0.0269,
+    "wall_time_s": 19.3,
+    "data_hash": "dd894fb31646c49cb6a11dbdb391c64afc5045dc336270735c593995834a5657"
   }
 }
