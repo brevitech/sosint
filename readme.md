@@ -1,7 +1,7 @@
 # N8RA
 ### Aggregated Strategic OSINT Platform
 
-> N8RA is our aggregated strategic open-source intelligence platform, purpose-built to deliver real-time situational awareness across active conflict theaters. Our inaugural deployment focuses on the US-Iran theater, architected with the same rigor and design philosophy behind our WorldMonitor project.
+> N8RA is our aggregated strategic osint platform, purpose-built to deliver real-time situational awareness across active conflict theaters. Our inaugural deployment focuses on the US-Iran theater, architected with the same rigor and design philosophy behind our WorldMonitor project.
 
 ---
 
@@ -77,7 +77,6 @@ N8RA aggregates from a curated mix of wire services, defense outlets, regional p
 
 ## ⚡ Key Features
 
-- 🔓 **Zero API Key Requirement** — Our RSS proxy layer eliminates authentication barriers entirely
 - 💾 **Offline-Capable** — All military and asset data is embedded directly in the build
 - 🎨 **Dark Military Theme** — Glassmorphism, scan lines, and our signature amber and red accents
 - 📐 **Responsive Grid Layout** — A draggable, modular panel system

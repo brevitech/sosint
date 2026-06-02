@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-26T15:01:56.377389+00:00",
+  "generated_at": "2026-06-01T11:44:46.908970+00:00",
   "model": "claude-opus-4-7",
   "effort": "xhigh",
   "alerts": [
     {
-      "severity": "critical",
+      "severity": "high",
       "category": "incident",
-      "title": "Israeli strike kills 12 in eastern Lebanon village as IDF calls up additional troops",
-      "summary": "NBC News and Euronews report an Israeli strike on a village in eastern Lebanon (~34.0\u00b0N, 36.0\u00b0E) killed at least 12 people, with the IDF simultaneously mobilizing additional reservists for the Lebanon front. Middle East Eye reports parallel strikes on Kafr Sir in southern Lebanon and an attack near Lebanon's largest dam targeting an ambulance team, marking a sharp escalation alongside the US-Iran kinetic track.",
-      "region": "Eastern/Southern Lebanon",
+      "title": "Netanyahu orders IDF strikes on Beirut's Dahieh; Hezbollah front expands",
+      "summary": "Reuters, BBC, Al-Monitor, Times of Israel, ynetnews and Chinese state media report PM Netanyahu and DM Katz have ordered the IDF to strike targets in Beirut's southern suburbs (Dahieh), citing Hezbollah 'ceasefire violations.' The order expands beyond prior decapitation strikes to systematic targeting of Hezbollah's urban stronghold, raising risk of mass-casualty events and broader Iranian retaliation.",
+      "region": "Beirut, Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "Russian MFA declares start of 'systematic bombing' campaign against Kyiv",
-      "summary": "Rybar's 26 May morning sitrep (~155K views) reports the Russian Foreign Ministry has announced the start of systematic strikes on infrastructure in Kyiv Oblast and called on foreign nationals to leave the region. Rybar separately notes Ukrainian negotiators are now requesting only 5\u201310 air-defense interceptors per tranche, citing shortages after US PAC-3 stockpile diversion to the Iran war.",
-      "region": "Kyiv / Ukraine",
-      "source": "telegram",
-      "confidence": "medium"
+      "category": "incident",
+      "title": "US intel: Iran restored entry to 18 bombed missile sites, 'exceeded all timelines'",
+      "summary": "Times of Israel and The Media Line cite US intelligence assessments that Iran has reopened most entrances to 18 underground missile sites struck during the war, with reconstitution pace 'exceeding all timelines.' Combined with Jerusalem Post reporting that Iran is 'ready to fire missiles across Middle East after digging out bombed tunnels,' the development materially shortens warning time for a renewed Iranian salvo.",
+      "region": "Iran (central)",
+      "source": "incidents",
+      "confidence": "high"
     },
     {
-      "severity": "high",
+      "severity": "medium",
+      "category": "nuclear",
+      "title": "Kazakhstan offers to take custody of Iran's enriched uranium stockpile",
+      "summary": "Financial Times, Times of Israel and Kurdistan24 report IAEA Director-General Rafael Grossi disclosed Kazakhstan's willingness to store Iran's HEU stockpile if a deal is reached. With Iranian enrichment at 60% U-235 and breakout estimated at 1\u20132 weeks, the Astana offer represents the first concrete off-ramp for the nuclear file amid active US-Iran kinetic exchanges.",
+      "region": "Iran / Kazakhstan",
+      "source": "global_metrics,incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "medium",
       "category": "diplomatic",
-      "title": "Iran formally accuses US of 'gross violation' of ceasefire after fresh strikes",
-      "summary": "BBC, Yahoo and Al Jazeera report Tehran has officially condemned the new wave of US strikes on southern Iran as a 'gross violation' of the standing ceasefire, with Al Jazeera asking openly whether the truce is over. The Iranian protest comes as delegations remain in Doha and as NYT confirms the strikes hit Iran's Gulf coast (~32\u00b0N, 53\u00b0E) during active negotiations.",
-      "region": "Iran / Doha",
+      "title": "Trump personally editing draft US-Iran deal on uranium and Strait of Hormuz",
+      "summary": "CBS News reports a source close to the talks says President Trump has personally revised text of a possible US-Iran agreement covering enriched uranium limits and Strait of Hormuz access. The disclosure runs in parallel to fresh kinetic exchanges, suggesting a track-two diplomatic channel remains open despite the PBS-reported US accusation that Iran violated the ceasefire by striking Kuwait.",
+      "region": "Strait of Hormuz / Washington",
       "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "cyber",
-      "title": "Israel claims it destroyed Iran's cyber warfare headquarters",
-      "summary": "Politico, surfaced via global_metrics cyber headlines, reports Israel says it has knocked out Iran's central cyber warfare headquarters. The claim arrives amid ongoing Iran-linked hacker harassment of US service members and CENTCOM's deployment of a defensive tech 'umbrella' over Strait of Hormuz shipping (DefenseScoop), suggesting a deliberate Israeli move to degrade Iranian retaliatory cyber capacity during the Doha track.",
-      "region": "Iran / Israel",
-      "source": "global_metrics",
       "confidence": "medium"
     },
     {
       "severity": "medium",
-      "category": "telegram_signal",
-      "title": "NATO rehearsed deep strikes into Russia in 'Arcade Strike' exercise from London bunker",
-      "summary": "DeepState UA (~227K views) reports NATO's Allied Rapid Reaction Corps (ARRC) ran Operation Arcade Strike from a mothballed platform at Charing Cross Underground station, simulating deep strikes on Russian territory in response to a hypothetical Russian attack on a Baltic state. The exercise included EW, comms-suppression and counter-UAS drills under a modeled Baltic invasion scenario.",
-      "region": "UK / NATO\u2013Russia",
-      "source": "telegram",
-      "confidence": "medium"
+      "category": "incident",
+      "title": "IDF names Staff-Sgt Adam Tzarfati killed in Hezbollah drone strike in south Lebanon",
+      "summary": "Haaretz and Jerusalem Post report the IDF has named Staff-Sergeant Adam Tzarfati as killed by a Hezbollah drone explosion in southern Lebanon (~33.5\u00b0N, 35.7\u00b0E). The named KIA corroborates the prior ME Spectator (~46K views) report of a Hezbollah suicide drone at Beit Hillel and reinforces a sustained pattern of Hezbollah FPV/loitering munitions inflicting IDF casualties during the ground push.",
+      "region": "Southern Lebanon",
+      "source": "incidents,telegram",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "The US-Iran ceasefire is fraying in real time \u2014 fresh CENTCOM strikes on Iran's Gulf coast during the Doha talks have drawn a formal Iranian violation charge, while a parallel Israeli escalation in Lebanon (12 killed, reservists called up) and a declared Russian 'systematic' bombing campaign against Kyiv point to simultaneous escalation on three theaters at threat level 9.",
+  "analysis_note": "Threat level remains at 9/10 with Brent at $93.7; Israel is widening the Lebanon front into Beirut's Dahieh as US intelligence concedes Iran's missile-site reconstitution has outpaced expectations, even as a Kazakhstan-mediated uranium off-ramp and Trump-edited deal text suggest a parallel diplomatic track.",
   "meta": {
-    "input_tokens": 27056,
+    "input_tokens": 20639,
     "cache_creation_input_tokens": 2413,
     "cache_read_input_tokens": 0,
-    "output_tokens": 2695,
-    "cost_usd": 0.2268,
-    "wall_time_s": 39.9
+    "output_tokens": 2768,
+    "cost_usd": 0.1965,
+    "wall_time_s": 37.3
   }
 }
