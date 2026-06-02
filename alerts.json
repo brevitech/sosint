@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-02T12:39:13.927135+00:00",
+  "generated_at": "2026-06-02T20:42:15.107724+00:00",
   "model": "claude-haiku-4-5-20251001",
   "effort": "xhigh",
   "alerts": [
     {
-      "severity": "critical",
+      "severity": "high",
       "category": "incident",
-      "title": "US and Iran trade direct strikes; missile defense systems activated in Gulf",
-      "summary": "PBS, AP News, and BBC report US military struck Iranian radar and military sites while Iran fired missiles at US troops in Kuwait. Multiple sources confirm active air defense operations and incident escalation beyond prior kinetic exchanges. Threat level raised to 9 (CRITICAL \u2014 IMMINENT ESCALATION) per global_metrics.",
-      "region": "Iran / Persian Gulf / Kuwait",
+      "title": "Iran nuclear talks collapse; enrichment remains at 60% U-235 with 1-2 week breakout window",
+      "summary": "NBC News, Reuters, and global_metrics confirm Iranian suspension of negotiations with US following Israeli airstrikes in Lebanon. Iran maintains 60% uranium enrichment at 1-2 week breakout timeline. Multiple headlines from Reuters, Euronews, and Kurdistan24 reference Kazakhstan's offer to host Iranian uranium stockpile as diplomatic pressure point.",
+      "region": "Iran / Global",
       "source": "incidents,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Trump halts Netanyahu's Beirut offensive; partial Lebanon ceasefire announced",
-      "summary": "Reuters, Times of Israel, Washington Post, and Time Magazine report Trump directly intervened to postpone Israeli strikes on Beirut, with Netanyahu appearing to back down. Lebanon announces partial ceasefire between Israel and Hezbollah, though limited attacks continue. Development marks sharp reversal from previous order to strike Dahieh suburbs.",
-      "region": "Beirut, Lebanon",
+      "title": "Israel-Hezbollah ceasefire partially holds despite continued southern Lebanon strikes",
+      "summary": "Reuters, BBC, and Al Jazeera report Israel killing 8 civilians in southern Lebanon attacks despite Trump-brokered partial ceasefire. Netanyahu initially ordered Beirut strike but reversed course after US intervention. Limited clashes continue along Israel-Lebanon border despite formal de-escalation announcement.",
+      "region": "Southern Lebanon / Israel",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "cyber",
-      "title": "Iran-linked hackers escalate cyber retaliation after US-Israel strikes",
-      "summary": "PBS and Industrial Cyber report surge in cyber retaliation campaigns by Iran-linked threat actors targeting US and allied government, defense, and critical infrastructure sectors. Timing coincides with kinetic US strikes on Iranian military sites, indicating coordinated multi-domain response.",
+      "category": "sentiment_shift",
+      "title": "US political sentiment on Iran remains polarized; Trump dominance in news cycle",
+      "summary": "Sentiment analysis shows US discourse at 46% positive / 44% negative split with 'Trump' as dominant keyword (96 occurrences). Intelligence community language and Rubio citations suggest internal policy realignment. Word cloud shift reflects ongoing debate over Iran nuclear deal feasibility amid kinetic operations.",
       "region": "Global",
-      "source": "global_metrics",
+      "source": "sentiment",
       "confidence": "medium"
     },
     {
       "severity": "medium",
       "category": "nuclear",
-      "title": "Iran declares talks suspended, threatens Strait of Hormuz closure and breakout acceleration",
-      "summary": "Rybar (2 June, ~123K views) cites Iranian IRGC statement declaring cessation of negotiations, announcing full closure of Strait of Hormuz, and Bab el-Mandeb blockade plans in response to US-Israel 'provocations.' Nuclear breakout timeline remains 1-2 weeks at 60% enrichment per global_metrics.",
-      "region": "Iran / Strait of Hormuz",
-      "source": "telegram,global_metrics",
+      "title": "Kazakhstan emerges as potential diplomatic hub for Iran uranium stockpile transfers",
+      "summary": "Reuters, Euronews, Kurdistan24, and Financial Times report Kazakhstan offering to host Iranian highly enriched uranium stockpile as part of prospective nuclear agreement. Development represents significant diplomatic opening amid current crisis and breakout-timeline pressure. Indicates behind-scenes negotiation channel activation despite public suspension of talks.",
+      "region": "Iran / Kazakhstan",
+      "source": "global_metrics",
       "confidence": "medium"
     },
     {
       "severity": "medium",
-      "category": "incident",
-      "title": "Iran restores 18 underground missile sites; reconstitution pace exceeds US expectations",
-      "summary": "CNN, Times of Israel, and Jerusalem Post confirm Iran has reopened entrances to 18 missile bases struck during prior US campaign, with reconstruction timeline 'exceeding all expectations.' Development materially reduces warning time for renewed Iranian ballistic missile salvos against regional targets.",
-      "region": "Iran (central)",
-      "source": "incidents",
-      "confidence": "high"
+      "category": "cyber",
+      "title": "Multi-domain Iranian retaliation escalates; cyber operations coupled with kinetic strikes",
+      "summary": "Global_metrics and multiple cyber-security headlines (DW, Resecurity, World Economic Forum) confirm Iran-linked cyber campaigns targeting US and allied government, defense, and critical infrastructure sectors. Timing synchronized with kinetic US strikes indicates coordinated kinetic-cyber-electronic warfare response strategy across multiple domains.",
+      "region": "Global",
+      "source": "global_metrics",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran direct kinetic exchange, Trump's emergency intervention in Israel-Lebanon theater, and Iranian cyber and nuclear escalation amid collapsed diplomacy signal high-risk multi-front instability with reduced diplomatic off-ramps.",
+  "analysis_note": "US-Iran conflict remains at critical threshold (threat level 9) with nuclear diplomacy stalled, proxy activity elevated across three theaters (Iraq, Lebanon, Yemen), and coordinated multi-domain Iranian retaliation (kinetic, cyber, economic) offsetting temporary ceasefire momentum in Israel-Lebanon theater.",
   "meta": {
-    "input_tokens": 23773,
+    "input_tokens": 22249,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 633,
-    "cost_usd": 0.0269,
-    "wall_time_s": 19.3,
-    "data_hash": "dd894fb31646c49cb6a11dbdb391c64afc5045dc336270735c593995834a5657"
+    "output_tokens": 646,
+    "cost_usd": 0.0255,
+    "wall_time_s": 10.1,
+    "data_hash": "7d8f4e0e719fd942694ae2f93d251597a0bb84b2c49c8a115cc9585e3301f43e"
   }
 }
