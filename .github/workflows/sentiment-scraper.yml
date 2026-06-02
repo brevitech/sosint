@@ -25,6 +25,14 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
+      - name: Restore Telegram translation cache
+        uses: actions/cache@v4
+        with:
+          path: scripts/.translation-cache.json
+          key: translation-cache-${{ github.run_id }}
+          restore-keys: |
+            translation-cache-
+
       - name: Run Sentiment Scraper (RSS + VADER)
         run: python scripts/scrape_sentiment.py
 
