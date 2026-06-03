@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-03T11:53:52.556836+00:00",
-  "model": "claude-haiku-4-5-20251001",
+  "generated_at": "2026-06-03T20:03:24.276630+00:00",
+  "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "incident",
-      "title": "Iran launches ballistic missiles and drones at Kuwait, Bahrain, and regional targets",
-      "summary": "Iran launched multiple ballistic missiles and drone strikes targeting Kuwait airport (lat 32.13, lon 53.21), Bahrain (lat 32.16, lon 53.2), and allegedly UAE facilities on June 2-3. CENTCOM confirmed US forces intercepted missiles headed for Kuwait and Bahrain; however, Kuwait's Defense Ministry officially confirmed airport strike damage. Rybar Telegram (~110K views) reports escalation continuing nightly in Persian Gulf with no de-escalation signals.",
-      "region": "Persian Gulf / Kuwait / Bahrain",
-      "source": "incidents,telegram",
+      "category": "nuclear",
+      "title": "Iran enrichment accelerates to 60% U-235; nuclear breakout window narrows to 1-2 weeks",
+      "summary": "Global metrics confirm Iran has enriched uranium to 60% U-235 purity with estimated nuclear breakout time of 1-2 weeks. Multiple nuclear-focused headlines (NYT, Reuters, Caspian News, WANA) report on Iranian uranium stockpile negotiations and breakout risk. This represents a material acceleration toward weapons-usable material amid broader Persian Gulf escalation.",
+      "region": "Global",
+      "source": "global_metrics",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Kuwait airport sustains direct Iranian drone and missile strike damage",
-      "summary": "Multiple credible sources (BBC, Guardian, Al-Monitor, Reuters, Washington Post) report Iranian drone and missile attack on Kuwait International Airport (lat 32.13, lon 53.21), with confirmed infrastructure damage. Kuwait Defense Ministry officially acknowledged strike. Incident marks direct attack on US-allied civilian infrastructure and signals Iran expanding target set beyond military assets.",
-      "region": "Kuwait",
+      "title": "Multiple Israeli strikes on Lebanon kill 17+ as ceasefire collapses; Hezbollah exchanges continue",
+      "summary": "Incidents feed reports at least 8-17 deaths across multiple Israeli strikes on southern Lebanon (lat 33.5-34.05, lon 35.2-36.08) including attacks near Beirut, Jabal Amel Hospital, and Beaufort Castle. Hezbollah video-confirmed counter-strikes on Israeli forces. Reuters reports partial ceasefire announced but active fighting persists, contradicting de-escalation claims.",
+      "region": "Northern Israel / Southern Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "US retaliates with strikes on Iranian oil tanker and Qeshm Island radar sites",
-      "summary": "Reuters and multiple outlets report US fired Hellfire missile at Iranian blockade-busting tanker (lat 31.94, lon 53.26) near Strait of Hormuz. CENTCOM confirmed self-defense strikes on Qeshm Island (lat 32.3, lon 52.95) radar and communications infrastructure in response to Iranian attacks. IRGC claimed counterstrikes on US Fifth Fleet HQ and airbase, escalating tit-for-tat exchange.",
-      "region": "Strait of Hormuz / Qeshm Island / Persian Gulf",
+      "title": "Iran sustains multi-target campaign: Camp Buehring, Ali Al-Salem airbase, Kuwait airport struck",
+      "summary": "Middle East Spectator Telegram (~34K views) confirms Iran attack hits include drone/helicopter shelter and 4 barracks destroyed at Camp Buehring, 1 aircraft shelter at Ali Al-Salem Airbase, and airport terminal severely damaged at Kuwait Intl. Airport (lat 32.13, lon 52.83). Prior alert noted 1 killed, 63 injured at airport; this escalation shows sustained targeting of US-allied military infrastructure across multiple facilities.",
+      "region": "Kuwait / Persian Gulf",
       "source": "incidents,telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "sentiment_shift",
-      "title": "Trump administration rhetoric escalates on Iran nuclear deal; ceasefire collapse imminent",
-      "summary": "US sentiment analysis shows 'trump' (58 hits) and 'iran' (12 hits) among top trending terms amid primaries and tariffs discussion. Time Magazine reports Trump stating it is time 'one way or another' for Iran to make deal while insisting talks ongoing\u2014contradicting reports of suspended negotiations. Sentiment remains near parity (45% positive, 46% negative), but Trump's hardline language signals administration willingness to pursue military escalation without diplomatic off-ramp.",
-      "region": "Global",
-      "source": "sentiment,incidents",
-      "confidence": "medium"
+      "category": "asset_movement",
+      "title": "US maintains three-carrier presence in critical zones amid escalation; Eisenhower in Red Sea",
+      "summary": "Assets feed confirms USS Dwight D. Eisenhower (Carrier, Red Sea, lat 15.27, lon 41.74), USS Abraham Lincoln (Carrier, Arabian Sea, lat 20.83, lon 60.38), and USS Gerald R. Ford (Carrier, Mediterranean, lat 34.48, lon 29.85) all deployed. Submarine USS Florida confirmed in Persian Gulf (lat 26.33, lon 51.94). Positioning reflects sustained US force readiness amid Iran-led regional strike campaign.",
+      "region": "Red Sea / Persian Gulf / Arabian Sea / Mediterranean",
+      "source": "assets",
+      "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "asset_movement",
-      "title": "Three-carrier task force sustains forward deployment; USS Gerald R. Ford joins Mediterranean",
-      "summary": "Assets feed confirms USS Gerald R. Ford (Carrier) newly deployed to Mediterranean (lat 34.36, lon 29.71) alongside continued presence of USS Abraham Lincoln (Arabian Sea, lat 20.53, lon 60.24) and USS Dwight D. Eisenhower (Red Sea, lat 15.41, lon 41.91). Three-carrier global posture with supporting destroyers (Carney, Mason, Laboon) and amphibious assault ship USS Bataan maintains maximum forward presence across three theaters during critical escalation window.",
-      "region": "Arabian Sea / Red Sea / Mediterranean / Persian Gulf",
-      "source": "assets",
+      "category": "telegram_signal",
+      "title": "Rybar reports nightly Persian Gulf escalation cycle; no ceasefire signals detected",
+      "summary": "Rybar Telegram (~137K views, dated 2026-06-03) states 'Every night in Persian Gulf brings new escalation cycle' with Iran attacking Kuwait and Bahrain in response to US strikes. Posts note Patriot air-defense footage circulating across social media and Kuwait Defense Ministry officially confirming attack defense operations. Assessment: escalation loop continues without off-ramps.",
+      "region": "Persian Gulf / Kuwait / Bahrain",
+      "source": "telegram",
       "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran military escalation has entered sustained tit-for-tat phase with no diplomatic off-ramp; Iran at 60% enrichment with 1-2 week breakout timeline; threat level remains critical (9/10); three US carriers forward-deployed; ceasefire collapsed following Israeli operations in Lebanon.",
+  "analysis_note": "Iran has crossed into nuclear weapons-threshold territory (60% enrichment, 1-2 week breakout) while executing sustained multi-country strike campaign on US allies; Israel-Hezbollah ceasefire has collapsed into active ground/air exchanges; US maintains three-carrier strike presence but regional conflict shows no de-escalation signals.",
   "meta": {
-    "input_tokens": 20491,
+    "input_tokens": 24547,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 922,
-    "cost_usd": 0.0251,
-    "wall_time_s": 12.0,
-    "data_hash": "72503eebf2e45ff4a244869082696105ea4fcf581d412153b888a7e34f3aa9ef"
+    "output_tokens": 864,
+    "cost_usd": 0.0289,
+    "wall_time_s": 13.5,
+    "data_hash": "9d042ee3b0c1ebfd3d8cf03fe8d841362c1cc8d25c5be23f06ca12af3e2a67a0"
   }
 }
