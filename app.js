@@ -730,7 +730,7 @@ class WarDashboard {
         <div class="ai-alerts-panel-note">${esc(data.analysis_note || '')}</div>
         <div class="ai-alerts-panel-meta">
           ${tsAgo !== null ? `<span>Updated ${esc(tsAgo)}</span>` : ''}
-          <span class="ai-alerts-panel-model">${esc(data.model || 'claude-opus-4-7')} · ${esc(data.effort || 'xhigh')}</span>
+          <span class="ai-alerts-panel-model">${esc(data.model || '≅ Opus 4.7')} · ${esc(data.effort || 'xhigh')}</span>
         </div>
       </div>
       <div class="ai-alerts-panel-list">${cardsHtml}</div>
