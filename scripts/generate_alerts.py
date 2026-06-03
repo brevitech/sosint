@@ -415,7 +415,7 @@ def main() -> int:
 
     output = {
         "generated_at": now_iso,
-        "model": MODEL,
+        "model": "≅ Opus 4.7",
         "effort": "xhigh",
         "alerts": parsed.get("alerts", []),
         "analysis_note": parsed.get("analysis_note", ""),
