@@ -36,6 +36,32 @@ REGIONS = [
 ]
 
 OPENSKY_URL = "https://opensky-network.org/api/states/all"
+OPENSKY_TOKEN_URL = "https://auth.opensky-network.org/auth/realms/opensky-network/protocol/openid-connect/token"
+
+
+def get_opensky_token():
+    """Fetch an OAuth2 access token via the client_credentials grant.
+    Returns the access_token string, or None if creds aren't set or the
+    request fails (we then fall back to anonymous, which is heavily rate-limited)."""
+    client_id = os.environ.get("OPENSKY_CLIENT_ID", "").strip()
+    client_secret = os.environ.get("OPENSKY_CLIENT_SECRET", "").strip()
+    if not (client_id and client_secret):
+        return None
+    try:
+        r = requests.post(
+            OPENSKY_TOKEN_URL,
+            data={
+                "grant_type": "client_credentials",
+                "client_id": client_id,
+                "client_secret": client_secret,
+            },
+            timeout=15,
+        )
+        r.raise_for_status()
+        return r.json().get("access_token")
+    except requests.RequestException as e:
+        print(f"[!] OpenSky OAuth2 token request failed ({e}); falling back to anonymous.", file=sys.stderr)
+        return None
 
 
 def label_region(lat: float, lon: float) -> str:
@@ -49,21 +75,18 @@ def main() -> int:
     params = THEATER_BBOX
     print(f"[*] GET {OPENSKY_URL} bbox={params}", flush=True)
 
-    # Optional auth (improves rate limits, but not required)
-    auth = None
-    user = os.environ.get("OPENSKY_USER", "").strip()
-    pw = os.environ.get("OPENSKY_PASS", "").strip()
-    if user and pw:
-        auth = (user, pw)
-        print(f"[*] Using OpenSky auth (user={user})", flush=True)
+    headers = {"User-Agent": "n8ra-wartracker/1.0"}
+    token = get_opensky_token()
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+        print("[*] Using OpenSky OAuth2 token", flush=True)
 
     try:
         r = requests.get(
             OPENSKY_URL,
             params=params,
             timeout=20,
-            headers={"User-Agent": "n8ra-wartracker/1.0"},
-            auth=auth,
+            headers=headers,
         )
         r.raise_for_status()
         data = r.json()
