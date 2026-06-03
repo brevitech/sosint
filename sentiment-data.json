@@ -1,12 +1,12 @@
 {
   "us": {
     "positive": 46,
-    "negative": 45,
-    "neutral": 9,
+    "negative": 46,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 86,
+        "count": 84,
         "sentiment": "neutral"
       },
       {
@@ -15,8 +15,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "netanyahu",
-        "count": 17,
+        "word": "iran",
+        "count": 18,
         "sentiment": "neutral"
       },
       {
@@ -25,13 +25,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "bill",
         "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "primary",
-        "count": 13,
+        "word": "netanyahu",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -55,7 +55,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
+        "word": "primary",
         "count": 12,
         "sentiment": "neutral"
       },
@@ -65,7 +65,7 @@
         "sentiment": "positive"
       },
       {
-        "word": "confirms",
+        "word": "house",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -75,24 +75,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "crazy",
-        "count": 9,
-        "sentiment": "negative"
-      },
-      {
         "word": "politics",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "immigration",
+        "word": "confirms",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "california",
+        "word": "war",
         "count": 8,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "mcconnell",
@@ -120,7 +115,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "immigration",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -130,7 +130,7 @@
         "sentiment": "positive"
       },
       {
-        "word": "calling",
+        "word": "california",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -140,33 +140,33 @@
         "sentiment": "neutral"
       },
       {
-        "word": "enforcement",
+        "word": "crazy",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "cbs",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "control",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-03T20:03:02.009781+00:00",
-    "nextRefresh": "2026-06-03T20:03:02.009781+00:00",
+    "generatedAt": "2026-06-03T20:15:53.618551+00:00",
+    "nextRefresh": "2026-06-03T20:15:53.618551+00:00",
     "articlesAnalyzed": 347,
-    "matchedMentions": 196,
+    "matchedMentions": 195,
     "uniquePersonalities": 54,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 35,
+    "positive": 36,
     "negative": 42,
-    "neutral": 23,
+    "neutral": 22,
     "wordCloud": [
       {
         "word": "banerjee",
@@ -175,7 +175,7 @@
       },
       {
         "word": "leader",
-        "count": 13,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -320,10 +320,10 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-03T20:03:12.792707+00:00",
-    "nextRefresh": "2026-06-03T20:03:12.792707+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 83,
+    "generatedAt": "2026-06-03T20:16:05.676317+00:00",
+    "nextRefresh": "2026-06-03T20:16:05.676317+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 84,
     "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
