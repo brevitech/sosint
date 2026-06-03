@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 """
-Snapshot live ADS-B aircraft positions for the US-Iran theater via OpenSky Network.
+Snapshot live ADS-B aircraft positions for the US-Iran theater via the adsb.lol
+community ADS-B aggregator.
 
-Fetches the theater bounding box (Red Sea / Persian Gulf / Arabian Sea / India W. coast),
-filters out grounded / position-less aircraft, tags each with the most-specific sub-region,
-writes air-traffic.json.
+Why adsb.lol instead of OpenSky: OpenSky deprecated basic-auth in favour of
+OAuth2 and their /api/states/all endpoint became flaky from GitHub-runner IPs
+(40%+ failure rate via connect timeouts). adsb.lol is community-fed, free,
+no auth required, and accepts radius queries large enough to cover our theater
+in a single call.
 
-OpenSky anonymous rate limits: ~400 req/day, 1 req/10s. We make 1 req/run at */10 cadence
-= 144 req/day. Well within limits.
+We make one request per run (every 10 min) which is well within their
+reasonable-use guidelines.
 """
 
 import json
-import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -21,8 +23,7 @@ import requests
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "air-traffic.json"
 
-# Big theater bounding box covering everything strategic:
-# Red Sea (10N, 40E) → North India coast (30N, 80E)
+# Theater bounding box (Red Sea / Persian Gulf / Arabian Sea / India W. coast)
 THEATER_BBOX = {"lamin": 8.0, "lomin": 40.0, "lamax": 30.0, "lomax": 80.0}
 
 # Sub-regions for tagging each aircraft with the most-specific theater zone
@@ -35,33 +36,55 @@ REGIONS = [
     {"name": "india-south", "lamin": 8.0,  "lomin": 60.0, "lamax": 16.0, "lomax": 68.0},
 ]
 
-OPENSKY_URL = "https://opensky-network.org/api/states/all"
-OPENSKY_TOKEN_URL = "https://auth.opensky-network.org/auth/realms/opensky-network/protocol/openid-connect/token"
+# Single radius query large enough to encompass the entire theater bbox.
+# Worst-case corner distance from (19N, 60E) is ~1312 NM; 1500 NM gives margin.
+ADSB_CENTRE_LAT = 19
+ADSB_CENTRE_LON = 60
+ADSB_RADIUS_NM = 1500
+ADSB_URL = f"https://api.adsb.lol/v2/lat/{ADSB_CENTRE_LAT}/lon/{ADSB_CENTRE_LON}/dist/{ADSB_RADIUS_NM}"
 
 
-def get_opensky_token():
-    """Fetch an OAuth2 access token via the client_credentials grant.
-    Returns the access_token string, or None if creds aren't set or the
-    request fails (we then fall back to anonymous, which is heavily rate-limited)."""
-    client_id = os.environ.get("OPENSKY_CLIENT_ID", "").strip()
-    client_secret = os.environ.get("OPENSKY_CLIENT_SECRET", "").strip()
-    if not (client_id and client_secret):
-        return None
-    try:
-        r = requests.post(
-            OPENSKY_TOKEN_URL,
-            data={
-                "grant_type": "client_credentials",
-                "client_id": client_id,
-                "client_secret": client_secret,
-            },
-            timeout=15,
-        )
-        r.raise_for_status()
-        return r.json().get("access_token")
-    except requests.RequestException as e:
-        print(f"[!] OpenSky OAuth2 token request failed ({e}); falling back to anonymous.", file=sys.stderr)
-        return None
+# adsb.lol returns altitude in feet, ground speed in knots, vertical rate in
+# ft/min. Convert to the OpenSky-compatible units (metres, m/s) that the
+# frontend already expects, so app.js needs no changes.
+def _ft_to_m(v):
+    return None if v is None else round(v * 0.3048, 1)
+
+
+def _kts_to_ms(v):
+    return None if v is None else round(v * 0.514444, 2)
+
+
+def _fpm_to_ms(v):
+    return None if v is None else round(v * 0.00508, 3)
+
+
+# Minimal registration-prefix -> country lookup. The frontend's "isIndian"
+# check also looks at airline callsigns (AIC/IGO/6E/SEJ/SG/...), so most
+# Indian carriers stay flagged even with country blank — this lookup just
+# adds nationality info for the popup and the country-equality path.
+_REG_PREFIXES = [
+    ("VT-", "India"),
+    ("A6-", "United Arab Emirates"),
+    ("HZ-", "Saudi Arabia"),
+    ("EP-", "Iran"),
+    ("EK-", "Armenia"),
+    ("4X-", "Israel"),
+    ("4R-", "Sri Lanka"),
+    ("SU-", "Egypt"),
+    ("OO-", "Belgium"),
+    ("G-",  "United Kingdom"),
+    ("N",   "United States"),
+]
+
+
+def _country_from_reg(reg):
+    if not reg:
+        return ""
+    for pref, country in _REG_PREFIXES:
+        if reg.startswith(pref):
+            return country
+    return ""
 
 
 def label_region(lat: float, lon: float) -> str:
@@ -72,66 +95,65 @@ def label_region(lat: float, lon: float) -> str:
 
 
 def main() -> int:
-    params = THEATER_BBOX
-    print(f"[*] GET {OPENSKY_URL} bbox={params}", flush=True)
-
-    headers = {"User-Agent": "n8ra-wartracker/1.0"}
-    token = get_opensky_token()
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
-        print("[*] Using OpenSky OAuth2 token", flush=True)
+    print(f"[*] GET {ADSB_URL}", flush=True)
 
     try:
         r = requests.get(
-            OPENSKY_URL,
-            params=params,
+            ADSB_URL,
             timeout=20,
-            headers=headers,
+            # adsb.lol's ODbL guard 451s UAs that embed a project URL; keep it bare.
+            headers={"User-Agent": "n8ra-wartracker/1.0"},
         )
         r.raise_for_status()
         data = r.json()
     except requests.RequestException as e:
-        print(f"ERROR fetching OpenSky: {e}", file=sys.stderr)
+        print(f"ERROR fetching adsb.lol: {e}", file=sys.stderr)
         return 1
 
-    states = data.get("states") or []
-    print(f"[*] Received {len(states)} raw states from OpenSky", flush=True)
+    # adsb.lol returns the aircraft list under "ac" (tar1090 format).
+    raw = data.get("ac") or data.get("aircraft") or []
+    print(f"[*] Received {len(raw)} aircraft from adsb.lol", flush=True)
 
+    bbox = THEATER_BBOX
     aircraft = []
-    for s in states:
-        # OpenSky state vector format:
-        # [icao24, callsign, origin_country, time_position, last_contact, longitude,
-        #  latitude, baro_altitude, on_ground, velocity, true_track, vertical_rate,
-        #  sensors, geo_altitude, squawk, spi, position_source, category]
-        if len(s) < 17:
+    for a in raw:
+        lat = a.get("lat")
+        lon = a.get("lon")
+        if lat is None or lon is None:
             continue
-        icao, callsign, country, _tp, _lc, lon, lat, baro_alt, on_ground, velocity, heading, vert_rate, _sensors, geo_alt = s[:14]
-        category = s[17] if len(s) > 17 else 0
+        # Clip the radius result down to our theater bbox.
+        if not (bbox["lamin"] <= lat <= bbox["lamax"] and bbox["lomin"] <= lon <= bbox["lomax"]):
+            continue
+        # adsb.lol uses the string "ground" for grounded aircraft in alt_baro.
+        alt_baro = a.get("alt_baro")
+        if alt_baro == "ground":
+            continue
 
-        if on_ground or lat is None or lon is None:
-            continue
+        # Prefer baro altitude; fall back to geometric if baro is missing.
+        alt_ft = alt_baro if isinstance(alt_baro, (int, float)) else a.get("alt_geom")
 
         aircraft.append({
-            "icao": icao,
-            "callsign": (callsign or "").strip(),
-            "country": country or "",
+            "icao": a.get("hex"),
+            "callsign": (a.get("flight") or "").strip(),
+            "country": _country_from_reg(a.get("r") or ""),
             "lat": round(lat, 5),
             "lon": round(lon, 5),
-            "altitude": baro_alt if baro_alt is not None else geo_alt,
-            "velocity": velocity,
-            "heading": heading or 0,
-            "vertRate": vert_rate,
-            "category": category,
+            "altitude": _ft_to_m(alt_ft),
+            "velocity": _kts_to_ms(a.get("gs")),
+            "heading": a.get("track") or 0,
+            "vertRate": _fpm_to_ms(a.get("baro_rate")),
+            "category": a.get("category", 0),
             "region": label_region(lat, lon),
         })
 
-    print(f"[*] {len(aircraft)} airborne aircraft after filtering", flush=True)
+    print(f"[*] {len(aircraft)} airborne aircraft inside theater bbox", flush=True)
 
     output = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
-        "source": "opensky-network.org",
+        "source": "adsb.lol",
         "theaterBoundingBox": THEATER_BBOX,
-        "openSkyTime": data.get("time"),
+        # Keep the legacy field name so the frontend doesn't notice the source swap.
+        "openSkyTime": data.get("now"),
         "aircraftCount": len(aircraft),
         "aircraft": aircraft,
     }

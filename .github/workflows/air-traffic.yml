@@ -31,10 +31,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Scrape OpenSky air traffic
-        env:
-          OPENSKY_CLIENT_ID: ${{ secrets.OPENSKY_CLIENT_ID }}
-          OPENSKY_CLIENT_SECRET: ${{ secrets.OPENSKY_CLIENT_SECRET }}
+      - name: Scrape adsb.lol air traffic
         run: python scripts/scrape_air_traffic.py
 
       - name: Commit air-traffic.json
