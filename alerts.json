@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-03T01:43:06.948015+00:00",
+  "generated_at": "2026-06-03T06:49:04.848470+00:00",
   "model": "claude-haiku-4-5-20251001",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "US strikes Iran-bound oil tanker; Iran launches ballistic missiles at Kuwait, Bahrain",
-      "summary": "US military disabled Botswana-flagged tanker near Kharg Island and conducted strikes on Qeshm Island (lat 32.3, lon 52.95) in response to Iranian ballistic missile and drone attacks on June 2-3. Iran fired multiple ballistic missiles toward Kuwait and Bahrain; US reports all intercepted or failed to reach targets. Escalation marks breakdown of ceasefire negotiations and direct US-Iran military exchange. Incidents feed reports from BBC, Reuters, The Guardian, PBS, The Hill; ME Spectator Telegram post (16.7K views) confirms CENTCOM defensive actions.",
-      "region": "Persian Gulf / Strait of Hormuz",
+      "title": "Iran suspends US nuclear talks after Israeli strikes on Lebanon escalate",
+      "summary": "Iranian officials announced suspension of nuclear negotiations with the US following Israeli military strikes on southern Lebanon and Beirut suburbs (lat 34.08, lon 35.68). NBC News reports Tehran cited Israeli attacks as reason for halting dialogue. Development occurs amid active Persian Gulf hostilities and 60% uranium enrichment status, effectively removing diplomatic off-ramp during peak military tension.",
+      "region": "Iran / Lebanon / Global",
       "source": "incidents,telegram,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran maintains 60% uranium enrichment; 1-2 week nuclear breakout window active",
-      "summary": "Global metrics confirm Iranian enrichment at 60% U-235 with estimated 1-2 week breakout timeline as nuclear talks remain suspended following Israeli strikes in Lebanon. Kazakhstan continues offering to host Iranian uranium stockpile as diplomatic pressure point (Reuters, Euronews, Kurdistan24, Financial Times sources cited in global_metrics). No substantive US-Iran negotiations underway despite Trump administration pressure. Nuclear breakout risk elevated against backdrop of kinetic escalation.",
+      "title": "Iran uranium enrichment at 60% U-235; 1-2 week breakout window active",
+      "summary": "Global metrics confirm Iranian enrichment sustained at 60% U-235 with estimated 1-2 week nuclear breakout timeline. Kazakhstan continues offering to host Iranian uranium stockpile as diplomatic pressure point (Reuters, Euronews, Financial Times). Breakout risk critical following ceasefire collapse and suspension of US-Iran talks as of June 3 UTC.",
       "region": "Iran / Global",
       "source": "global_metrics,incidents",
       "confidence": "high"
@@ -24,39 +24,39 @@
     {
       "severity": "high",
       "category": "incident",
-      "title": "Ceasefire collapses; US-Iran hostilities resume across multiple theaters",
-      "summary": "Multiple incidents confirm active strikes across Persian Gulf theater June 2-3: US fired Hellfire missiles at Iran-bound tankers (multiple sources: BBC, Reuters, The Hill, Anadolu Ajans); Iran responded with ballistic missile and drone attacks on US positions in Kuwait and regional allies. Negotiations officially stalled. Incidents geo-clustered around Strait of Hormuz (lat 31.88-32.30, lon 52.71-53.2) and Persian Gulf indicate sustained military exchange, not isolated incidents.",
+      "title": "US strikes Qeshm Island radar sites; Iran targets Fifth Fleet HQ in Kuwait",
+      "summary": "CENTCOM confirmed US self-defense strikes on Iranian radar sites and communications infrastructure on Qeshm Island (lat 32.3, lon 52.95) in response to Iranian ballistic missile and drone attacks. Iran's IRGC claimed strikes on US Fifth Fleet headquarters and airbase near Kuwait (lat 31.73, lon 52.87). Multiple incidents geo-clustered in Persian Gulf confirm sustained military exchange; ceasefire collapsed.",
       "region": "Persian Gulf / Strait of Hormuz / Kuwait",
-      "source": "incidents",
+      "source": "incidents,telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "asset_movement",
-      "title": "US maintains three-carrier posture in Red Sea, Arabian Sea amid escalation",
-      "summary": "Asset data confirms USS Dwight D. Eisenhower (Red Sea, lat 15.27), USS Abraham Lincoln (Arabian Sea, lat 20.88), and USS Gerald R. Ford (Mediterranean, lat 34.13) deployed with supporting destroyers (USS Carney, USS Mason, USS Laboon in Red Sea) and submarine USS Florida in Persian Gulf. Concentrated surface and subsurface presence enables rapid strike capability in response to Iranian escalation. Amphibious assault ships (USS Bataan) positioned in Red Sea for regional contingencies.",
-      "region": "Red Sea / Persian Gulf / Arabian Sea",
+      "title": "Two US carrier strike groups positioned in Arabian Sea and Red Sea theater",
+      "summary": "Assets feed confirms USS Abraham Lincoln (Carrier) deployed in Arabian Sea (lat 20.65, lon 59.65) and USS Dwight D. Eisenhower (Carrier) in Red Sea (lat 15.61, lon 42.42), supported by destroyers USS Carney, USS Mason, USS Laboon, and amphibious assault ship USS Bataan. Dual-carrier deployment maintains forward presence amid active hostilities and nuclear escalation risks.",
+      "region": "Arabian Sea / Red Sea / Persian Gulf",
       "source": "assets,incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "cyber",
-      "title": "Iran escalates multi-domain warfare; cyber operations converge with kinetic strikes",
-      "summary": "Global metrics cite five recent cyber-focused headlines warning of Iran's cyber threat to US critical infrastructure amid kinetic Middle East conflict (Resecurity, WEF, Industrial Cyber, S&P Global, CSIS sources). Reports describe 'multi-domain phase' convergence of cyber, electronic, and kinetic operations. Escalation pattern matches kinetic missile/drone exchange, suggesting coordinated Iranian cyber operations may accompany or follow ballistic attacks on regional targets and US infrastructure.",
+      "category": "sentiment_shift",
+      "title": "US negative sentiment spike on Iran conflict amid domestic political noise",
+      "summary": "Sentiment analysis shows US negative sentiment at 49% (vs. 42% positive) with 'iran' and 'strikes' keywords surging in prominence. Word cloud dominated by 'trump' (59 mentions), 'iran' (23), and primary election terms, indicating conflict coverage competing with domestic political coverage. Spike in military-related keywords ('strikes,' 'airstrike') reflects escalation narrative penetration in American discourse.",
       "region": "Global",
-      "source": "global_metrics",
+      "source": "sentiment,incidents",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran direct military conflict has resumed with exchanges of strikes and ballistic missiles across Persian Gulf theater; nuclear breakout timeline remains critical (1-2 weeks); ceasefire framework collapsed; multi-domain Iranian escalation (kinetic + cyber) underway amid stalled diplomacy.",
+  "analysis_note": "The US-Iran conflict has entered a critical escalation phase with active kinetic operations in the Persian Gulf, suspension of nuclear talks, and Iranian enrichment at 60% U-235 creating a 1-2 week breakout window\u2014while dual US carrier strike groups remain forward-deployed and threat level remains at 9/10 CRITICAL.",
   "meta": {
-    "input_tokens": 25440,
+    "input_tokens": 22278,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 978,
-    "cost_usd": 0.0303,
-    "wall_time_s": 13.8,
-    "data_hash": "376044ca96ff3e3876abe59f508aaa738fe2d4f44f5982084314152771b67937"
+    "output_tokens": 797,
+    "cost_usd": 0.0263,
+    "wall_time_s": 11.5,
+    "data_hash": "ec1eb3fc834ed3ce3cea88aec6c239910647663ca7fb4d73b28e59f67f195551"
   }
 }
