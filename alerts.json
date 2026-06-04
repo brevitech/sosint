@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-03T20:03:24.276630+00:00",
+  "generated_at": "2026-06-04T03:33:47.112569+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "nuclear",
-      "title": "Iran enrichment accelerates to 60% U-235; nuclear breakout window narrows to 1-2 weeks",
-      "summary": "Global metrics confirm Iran has enriched uranium to 60% U-235 purity with estimated nuclear breakout time of 1-2 weeks. Multiple nuclear-focused headlines (NYT, Reuters, Caspian News, WANA) report on Iranian uranium stockpile negotiations and breakout risk. This represents a material acceleration toward weapons-usable material amid broader Persian Gulf escalation.",
+      "category": "incident",
+      "title": "House passes war powers resolution directing Trump to end Iran hostilities",
+      "summary": "U.S. House of Representatives has passed a war powers resolution instructing President Trump to terminate hostilities with Iran, signaling congressional pressure to de-escalate. This represents a major shift in domestic U.S. political posture amid active Persian Gulf military operations. Incidents feed and sentiment data confirm passage; sentiment shows \"trump\" as dominant term (88 mentions) amid elevated negative sentiment (45%).",
       "region": "Global",
-      "source": "global_metrics",
+      "source": "incidents,sentiment",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Multiple Israeli strikes on Lebanon kill 17+ as ceasefire collapses; Hezbollah exchanges continue",
-      "summary": "Incidents feed reports at least 8-17 deaths across multiple Israeli strikes on southern Lebanon (lat 33.5-34.05, lon 35.2-36.08) including attacks near Beirut, Jabal Amel Hospital, and Beaufort Castle. Hezbollah video-confirmed counter-strikes on Israeli forces. Reuters reports partial ceasefire announced but active fighting persists, contradicting de-escalation claims.",
+      "title": "Kuwait, Bahrain, Iran clash escalates: multiple strikes across Gulf states",
+      "summary": "Active multi-location attack campaign across Persian Gulf with Iran claiming strikes on Camp Buehring (Kuwait), Ali Al-Salem Airbase, and Kuwait International Airport (lat 32.1-32.2, lon 52.8-52.9). U.S. military reports it defeated Iranian missile/drone attacks; simultaneously U.S. fired Hellfire missiles at tanker bound for Iran. Kuwait labeled Iran action 'heinous aggression.' Multiple corroborating reports (Reuters, Al Jazeera, Japan Times) confirm active kinetic exchange.",
+      "region": "Kuwait / Persian Gulf",
+      "source": "incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "sentiment_shift",
+      "title": "U.S. domestic sentiment increasingly negative on Iran conflict; Trump policy shift signals",
+      "summary": "U.S. sentiment analysis shows 45% negative vs 43% positive on Middle East conflict, with 'trump' (88 mentions), 'war' (20 mentions), 'resolution' (13 mentions) dominating. WSJ exclusive reports Trump tells aides he will not resume all-out war unless U.S. troops killed\u2014a material policy constraint. Sentiment shift toward restraint paired with congressional war powers action suggests potential de-escalation trajectory despite active kinetic operations.",
+      "region": "Global",
+      "source": "sentiment,incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "incident",
+      "title": "Israel-Lebanon ceasefire partially implemented but fighting persists; Beirut at risk",
+      "summary": "Multiple sources report Israel-Lebanon ceasefire agreement with conditions, yet attacks continue. 9 confirmed deaths in Lebanese strikes reaching Beirut outskirts (lat 33.8-34.1, lon 35.4-35.8). Hezbollah confirmed exchanging strikes with Israeli forces. INSS researcher warns Trump-Netanyahu call and restraint on Beirut signals 'Iranian victory.' Active incidents cluster across Lebanon border indicates ceasefire fragility despite diplomatic agreement.",
       "region": "Northern Israel / Southern Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Iran sustains multi-target campaign: Camp Buehring, Ali Al-Salem airbase, Kuwait airport struck",
-      "summary": "Middle East Spectator Telegram (~34K views) confirms Iran attack hits include drone/helicopter shelter and 4 barracks destroyed at Camp Buehring, 1 aircraft shelter at Ali Al-Salem Airbase, and airport terminal severely damaged at Kuwait Intl. Airport (lat 32.13, lon 52.83). Prior alert noted 1 killed, 63 injured at airport; this escalation shows sustained targeting of US-allied military infrastructure across multiple facilities.",
-      "region": "Kuwait / Persian Gulf",
-      "source": "incidents,telegram",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "asset_movement",
-      "title": "US maintains three-carrier presence in critical zones amid escalation; Eisenhower in Red Sea",
-      "summary": "Assets feed confirms USS Dwight D. Eisenhower (Carrier, Red Sea, lat 15.27, lon 41.74), USS Abraham Lincoln (Carrier, Arabian Sea, lat 20.83, lon 60.38), and USS Gerald R. Ford (Carrier, Mediterranean, lat 34.48, lon 29.85) all deployed. Submarine USS Florida confirmed in Persian Gulf (lat 26.33, lon 51.94). Positioning reflects sustained US force readiness amid Iran-led regional strike campaign.",
-      "region": "Red Sea / Persian Gulf / Arabian Sea / Mediterranean",
-      "source": "assets",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
       "category": "telegram_signal",
-      "title": "Rybar reports nightly Persian Gulf escalation cycle; no ceasefire signals detected",
-      "summary": "Rybar Telegram (~137K views, dated 2026-06-03) states 'Every night in Persian Gulf brings new escalation cycle' with Iran attacking Kuwait and Bahrain in response to US strikes. Posts note Patriot air-defense footage circulating across social media and Kuwait Defense Ministry officially confirming attack defense operations. Assessment: escalation loop continues without off-ramps.",
-      "region": "Persian Gulf / Kuwait / Bahrain",
+      "title": "Ukraine launches ~354 drone strikes on Russian targets; St. Petersburg hit amid PMEF",
+      "summary": "Rybar Telegram (~238K-316K views on duplicate posts) reports Ukrainian forces conducted mass drone attack targeting Leningrad Oblast and St. Petersburg on opening day of Russian PMEF conference. Russian Ministry of Defense claims ~59 of 354 drones intercepted over Leningrad Oblast; infrastructure damage reported in Kronstadt, Kirovskyy, Krasnoselysk districts. Signal indicates escalation of Ukrainian deep-strike capability amid broader conflict intensification.",
+      "region": "Eastern Europe / Russia",
       "source": "telegram",
-      "confidence": "high"
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "Iran has crossed into nuclear weapons-threshold territory (60% enrichment, 1-2 week breakout) while executing sustained multi-country strike campaign on US allies; Israel-Hezbollah ceasefire has collapsed into active ground/air exchanges; US maintains three-carrier strike presence but regional conflict shows no de-escalation signals.",
+  "analysis_note": "Escalation pauses amid political friction: U.S. Congress and Trump administration signal restrain on Iran conflict even as kinetic operations persist across Persian Gulf; Israel-Lebanon ceasefire fragile; nuclear breakout window remains critical ~1-2 weeks; Ukraine sustains deep-strike tempo against Russian rear areas.",
   "meta": {
-    "input_tokens": 24547,
+    "input_tokens": 26225,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 864,
-    "cost_usd": 0.0289,
-    "wall_time_s": 13.5,
-    "data_hash": "9d042ee3b0c1ebfd3d8cf03fe8d841362c1cc8d25c5be23f06ca12af3e2a67a0"
+    "output_tokens": 834,
+    "cost_usd": 0.0304,
+    "wall_time_s": 12.5,
+    "data_hash": "307fa3707b241a0059acb2a46d16c7d71bbea954a9300a7e2cca5dc67341d847"
   }
 }

@@ -1,42 +1,47 @@
 {
   "us": {
-    "positive": 46,
+    "positive": 43,
     "negative": 45,
-    "neutral": 9,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 94,
+        "count": 88,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 24,
+        "count": 29,
         "sentiment": "neutral"
       },
       {
         "word": "house",
-        "count": 22,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 21,
+        "count": 20,
         "sentiment": "negative"
       },
       {
         "word": "pulte",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 13,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "resolution",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "netanyahu",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -45,23 +50,13 @@
         "sentiment": "positive"
       },
       {
-        "word": "fund",
+        "word": "powers",
         "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "passes",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "netanyahu",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "powers",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -75,22 +70,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "politics",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "california",
+        "word": "ipo",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "primary",
+        "word": "fund",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "tariffs",
+        "word": "republicans",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -105,17 +100,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "johnson",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "rebuke",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "governor",
+        "word": "spacex",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "california",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tariffs",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lebanon",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -126,11 +131,6 @@
       },
       {
         "word": "halt",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "military",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -150,97 +150,57 @@
         "sentiment": "negative"
       },
       {
-        "word": "iowa",
+        "word": "minutes",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-03T23:02:38.831971+00:00",
-    "nextRefresh": "2026-06-03T23:02:38.831971+00:00",
-    "articlesAnalyzed": 347,
-    "matchedMentions": 192,
-    "uniquePersonalities": 51,
+    "generatedAt": "2026-06-04T03:33:21.284907+00:00",
+    "nextRefresh": "2026-06-04T03:33:21.284907+00:00",
+    "articlesAnalyzed": 348,
+    "matchedMentions": 182,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 28,
-    "negative": 51,
-    "neutral": 21,
+    "positive": 46,
+    "negative": 39,
+    "neutral": 15,
     "wordCloud": [
       {
-        "word": "banerjee",
-        "count": 17,
+        "word": "tmc",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
+        "word": "banerjee",
         "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "mayor",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leader",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "firhad",
+        "word": "abhishek",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hakim",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kolkata",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hotel",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crisis",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "congress",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mamata",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "fire",
-        "count": 6,
+        "count": 7,
         "sentiment": "negative"
       },
       {
-        "word": "abhishek",
+        "word": "modi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "major",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "aide",
-        "count": 5,
+        "word": "india",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -249,17 +209,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "arrested",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "delhi",
+        "word": "mayor",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "trinamool",
+        "word": "mamata",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leader",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -269,62 +229,102 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bengal",
+        "word": "loyalists",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "rahul",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
+        "word": "bajaj",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "captaincy",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "yadav",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hotel",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "firhad",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hakim",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kolkata",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrested",
         "count": 4,
         "sentiment": "negative"
       },
       {
-        "word": "eye",
+        "word": "ties",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "upcoming",
+        "word": "summons",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "polls",
+        "word": "ipl",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "plans",
+        "word": "mps",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "organisational",
+        "word": "nudge",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "reshuffle",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "close",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "quit",
+        "word": "mantris",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-03T23:02:52.438271+00:00",
-    "nextRefresh": "2026-06-03T23:02:52.438271+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 85,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-06-04T03:33:34.406621+00:00",
+    "nextRefresh": "2026-06-04T03:33:34.406621+00:00",
+    "articlesAnalyzed": 463,
+    "matchedMentions": 93,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
