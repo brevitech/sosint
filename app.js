@@ -154,13 +154,11 @@ class WarDashboard {
           </div>
           <div class="news-filter-bar" style="padding: 4px 10px;">
             <button class="news-filter news-filter-ai active" data-filter="ai"><span class="news-filter-ai-icon">⚠</span> AI</button>
+            <button class="news-filter" data-filter="alert">Alert</button>
             <button class="news-filter" data-filter="all">All</button>
             <button class="news-filter" data-filter="telegram">Telegram</button>
-            <button class="news-filter" data-filter="wire">News</button>
             <button class="news-filter" data-filter="intel">Defence</button>
             <button class="news-filter" data-filter="gov">Govt</button>
-            <button class="news-filter" data-filter="alert">Alert</button>
-            <button class="news-filter" data-filter="mainstream">Media</button>
           </div>
           <div class="panel-content" id="news-content">
             <div class="feed-loading"><div class="spinner"></div> Loading intelligence feeds...</div>
@@ -908,7 +906,33 @@ class WarDashboard {
     });
 
     if (this.activeFilter !== 'all') {
-      items = items.filter(i => i.tier === this.activeFilter);
+      // Per-tab time window (hours).
+      const windowH = { intel: 48, gov: 48, alert: 72 }[this.activeFilter];
+      if (windowH) {
+        const cutoff = Date.now() - windowH * 3600 * 1000;
+        items = items.filter(i => {
+          const d = i.date instanceof Date ? i.date.getTime() : new Date(i.date).getTime();
+          return !isNaN(d) && d >= cutoff;
+        });
+      }
+      // Per-tab routing: Defence/Govt pull from media items too when title keywords match.
+      const DEFENCE_KW = /\b(milit|defen[cs]e|weapon|missile|carrier|naval|warship|fighter|F-?(15|16|18|22|35)|IRGC|IDF|airstrike|drone\s*strike|special\s*forces|CENTCOM|deployment|reservist|JCPOA|interceptor|Patriot|THAAD|battalion|brigade|squadron|destroyer|submarine|jet)\b/i;
+      const GOV_KW = /\b(White\s*House|State\s*(Department|Dept)|Pentagon|Foreign\s*Minist(er|ry)|Foreign\s*Sec|IAEA|UN\s*Security|UNSC|sanctions?|Treasury|Embassy|MEA\s*India|External\s*Affairs|FCDO|EEAS|Khamenei|Pezeshkian|Netanyahu|Erdogan|Macron|Biden|Trump|Blinken|spokesperson|press\s*briefing)\b/i;
+      if (this.activeFilter === 'intel') {
+        items = items.filter(i => i.tier === 'intel' || (i.tier === 'all' && DEFENCE_KW.test(i.title || '')));
+      } else if (this.activeFilter === 'gov') {
+        items = items.filter(i => i.tier === 'gov' || (i.tier === 'all' && GOV_KW.test(i.title || '')));
+      } else {
+        items = items.filter(i => i.tier === this.activeFilter);
+      }
+    } else {
+      // All tab: only the big-media tier, last 24h.
+      const cutoff = Date.now() - 24 * 3600 * 1000;
+      items = items.filter(i => {
+        if (i.tier !== 'all') return false;
+        const d = i.date instanceof Date ? i.date.getTime() : new Date(i.date).getTime();
+        return !isNaN(d) && d >= cutoff;
+      });
     }
 
     if (items.length === 0) {

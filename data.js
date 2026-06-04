@@ -6,43 +6,61 @@ const FEED_PROXY = 'https://api.allorigins.win/raw?url=';
 const GOOGLE_NEWS_RSS = 'https://news.google.com/rss/search?';
 
 // ── News Feed Sources ────────────────────────────────────────────────────────
+// Tier conventions (drive the Strat Intel Feed tab routing in app.js):
+//   'all'   → big credible media houses; shown in All (24h), and also in
+//             Defence/Govt when title keywords match.
+//   'intel' → defence-specific publications/think tanks; shown in Defence (48h).
+//   'gov'   → government / official-source aggregations; shown in Govt (48h).
+//   'alert' → mid-East public-alert search queries; shown in Alert (72h).
 const NEWS_FEEDS = {
-  wire: [
-    { name: 'Reuters ME', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:reuters.com+(Iran+OR+"Middle+East"+OR+"Persian+Gulf")&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'wire' },
-    { name: 'AP Iran', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:apnews.com+Iran&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'wire' },
+  // ── All tab: big credible media houses, 24h window ──
+  media: [
+    { name: 'Reuters', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:reuters.com+(Iran+OR+"Middle+East"+OR+"Persian+Gulf"+OR+Israel)+when:1d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'all' },
+    { name: 'AP', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:apnews.com+(Iran+OR+"Middle+East"+OR+Israel+OR+"Persian+Gulf")+when:1d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'all' },
+    { name: 'AFP', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:afp.com+(Iran+OR+"Middle+East"+OR+Israel)+when:1d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'all' },
+    { name: 'BBC ME', url: `${FEED_PROXY}${encodeURIComponent('https://feeds.bbci.co.uk/news/world/middle_east/rss.xml')}`, tier: 'all' },
+    { name: 'Al Jazeera', url: `${FEED_PROXY}${encodeURIComponent('https://www.aljazeera.com/xml/rss/all.xml')}`, tier: 'all' },
+    { name: 'NYT World', url: `${FEED_PROXY}${encodeURIComponent('https://rss.nytimes.com/services/xml/rss/nyt/MiddleEast.xml')}`, tier: 'all' },
+    { name: 'WaPo World', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:washingtonpost.com+(Iran+OR+"Middle+East"+OR+Israel)+when:1d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'all' },
+    { name: 'DW', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:dw.com+(Iran+OR+"Middle+East"+OR+Israel)+when:1d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'all' },
   ],
-  defense: [
-    { name: 'Defense One', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:defenseone.com+(Iran+OR+CENTCOM+OR+"Middle+East")+when:3d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
-    { name: 'Breaking Defense', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:breakingdefense.com+(Iran+OR+"Persian+Gulf")+when:3d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
-    { name: 'The War Zone', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:thedrive.com/the-war-zone+(Iran+OR+"Strait+of+Hormuz")+when:7d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
-    { name: 'Military Times', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:militarytimes.com+Iran+when:7d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
-    { name: 'USNI News', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:news.usni.org+(Iran+OR+"Persian+Gulf"+OR+CENTCOM)+when:7d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
-  ],
-  middleeast: [
-    { name: 'BBC Middle East', url: `${FEED_PROXY}${encodeURIComponent('https://feeds.bbci.co.uk/news/world/middle_east/rss.xml')}`, tier: 'mainstream' },
-    { name: 'Al Jazeera', url: `${FEED_PROXY}${encodeURIComponent('https://www.aljazeera.com/xml/rss/all.xml')}`, tier: 'mainstream' },
+  // ── Defence tab: defence-specific media + think tanks, 48h window ──
+  defence: [
+    { name: 'Defense One', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:defenseone.com+(Iran+OR+CENTCOM+OR+"Middle+East")+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
+    { name: 'Breaking Defense', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:breakingdefense.com+(Iran+OR+"Persian+Gulf"+OR+CENTCOM)+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
+    { name: 'The War Zone', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:thedrive.com/the-war-zone+(Iran+OR+"Strait+of+Hormuz"+OR+CENTCOM)+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
+    { name: 'USNI News', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:news.usni.org+(Iran+OR+"Persian+Gulf"+OR+CENTCOM)+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
+    { name: 'Naval News', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:navalnews.com+(Iran+OR+"Persian+Gulf"+OR+"Middle+East")+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
+    { name: 'Military Times', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:militarytimes.com+(Iran+OR+"Middle+East")+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
+    { name: 'Defense News', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:defensenews.com+(Iran+OR+"Middle+East"+OR+Israel)+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
+    { name: 'IISS', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:iiss.org+(Iran+OR+"Middle+East")+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
+    { name: 'Atlantic Council', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:atlanticcouncil.org+(Iran+OR+"Middle+East")+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
+    { name: 'CSIS', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:csis.org+(Iran+OR+"Middle+East")+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
+    { name: 'War on the Rocks', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:warontherocks.com+(Iran+OR+"Persian+Gulf"+OR+"Middle+East")+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
     { name: 'Iran International', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:iranintl.com+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
-    { name: 'Fars News', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:farsnews.ir+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'state' },
   ],
+  // ── Govt tab: government / official sources, 48h window ──
   gov: [
-    { name: 'Pentagon', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=(Pentagon+OR+CENTCOM+OR+"US+military")+(Iran+OR+"Middle+East")+when:3d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'gov' },
-    { name: 'State Dept', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q="State+Department"+(Iran+OR+sanctions+OR+"nuclear+deal")+when:3d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'gov' },
-    { name: 'IAEA', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=IAEA+(Iran+OR+uranium+OR+enrichment+OR+nuclear)+when:7d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'gov' },
-    { name: 'White House', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q="White+House"+(Iran+OR+"Persian+Gulf"+OR+sanctions)+when:7d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'gov' },
+    { name: 'Pentagon', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=(Pentagon+OR+CENTCOM+OR+"DoD")+(Iran+OR+"Middle+East"+OR+Israel)+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'gov' },
+    { name: 'State Dept', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=("State+Department"+OR+"Secretary+of+State")+(Iran+OR+sanctions+OR+"nuclear+deal"+OR+"Middle+East")+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'gov' },
+    { name: 'White House', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=("White+House"+OR+"National+Security+Council")+(Iran+OR+sanctions+OR+"Middle+East")+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'gov' },
+    { name: 'IAEA', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=IAEA+(Iran+OR+uranium+OR+enrichment+OR+nuclear)+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'gov' },
+    { name: 'UN', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=("UN+Security+Council"+OR+UNSC+OR+"United+Nations")+(Iran+OR+"Middle+East")+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'gov' },
+    { name: 'IDF', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=(IDF+OR+"Israel+Defense+Forces"+OR+"Israeli+military")+(Iran+OR+Lebanon+OR+Hezbollah+OR+Hamas)+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'gov' },
+    { name: 'MEA India', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=("MEA+India"+OR+"External+Affairs"+OR+"India+government")+(Iran+OR+"Middle+East"+OR+Israel)+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'gov' },
+    { name: 'UK FCDO', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=(FCDO+OR+"Foreign+Office"+OR+"UK+Foreign+Secretary")+(Iran+OR+"Middle+East")+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'gov' },
+    { name: 'EU EEAS', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=(EEAS+OR+"European+External+Action"+OR+"EU+Foreign+Affairs")+(Iran+OR+sanctions+OR+"Middle+East")+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'gov' },
   ],
-  thinktanks: [
-    { name: 'CSIS', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:csis.org+Iran+when:14d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
-    { name: 'Atlantic Council', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:atlanticcouncil.org+Iran+when:14d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
-    { name: 'War on the Rocks', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:warontherocks.com+(Iran+OR+"Persian+Gulf")+when:14d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
-    { name: 'Foreign Policy', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=site:foreignpolicy.com+Iran+when:14d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'intel' },
-  ],
-  conflict: [
-    { name: 'US-Iran Tensions', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=("US+Iran"+OR+"Iran+attack"+OR+"Iran+missile"+OR+"Iran+drone"+OR+"IRGC")+when:2d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'alert' },
-    { name: 'Strait of Hormuz', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=("Strait+of+Hormuz"+OR+"oil+tanker"+OR+"Persian+Gulf"+shipping)+when:3d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'alert' },
-    { name: 'Iran Nuclear', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=(Iran+nuclear+OR+Iran+enrichment+OR+Iran+uranium+OR+JCPOA)+when:3d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'alert' },
-    { name: 'Proxy Forces', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=(Hezbollah+OR+Houthi+OR+"Iraqi+militia"+OR+"Iran+proxy")+when:3d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'alert' },
-    { name: 'Iran Sanctions', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=(Iran+sanctions+OR+"Iran+oil"+OR+"Iran+economy")+when:3d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'alert' },
-    { name: 'Cyber Warfare', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=(Iran+cyber+OR+"Iranian+hackers"+OR+Iran+cyberattack)+when:7d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'alert' },
+  // ── Alert tab: mid-East public-alert search queries, 72h window ──
+  alert: [
+    { name: 'US-Iran Tensions', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=("US+Iran"+OR+"Iran+attack"+OR+"Iran+missile"+OR+"Iran+drone"+OR+IRGC)+when:3d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'alert' },
+    { name: 'Strait of Hormuz', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=("Strait+of+Hormuz"+OR+"oil+tanker"+OR+"Persian+Gulf+shipping")+when:3d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'alert' },
+    { name: 'Iran Nuclear', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=("Iran+nuclear"+OR+"Iran+enrichment"+OR+"Iran+uranium"+OR+JCPOA)+when:3d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'alert' },
+    { name: 'Proxy Forces', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=(Hezbollah+OR+Houthi+OR+"Iraqi+militia"+OR+"Iran+proxy"+OR+"Axis+of+Resistance")+when:3d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'alert' },
+    { name: 'Israel-Lebanon', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=("Israel+Lebanon"+OR+"Northern+Israel"+OR+"Hezbollah+strike"+OR+"Israeli+airstrike+Lebanon")+when:3d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'alert' },
+    { name: 'Red Sea Shipping', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=("Red+Sea"+OR+"Bab+el-Mandeb"+OR+"Houthi+ship"+OR+"commercial+vessel")+when:3d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'alert' },
+    { name: 'Iran Sanctions', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=("Iran+sanctions"+OR+"Iran+oil+export"+OR+"OFAC+Iran"+OR+"SDN+list+Iran")+when:3d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'alert' },
+    { name: 'Gaza', url: `${FEED_PROXY}${encodeURIComponent(`${GOOGLE_NEWS_RSS}q=(Gaza+OR+Hamas+OR+"Gaza+strip")+(Israel+OR+ceasefire+OR+Iran)+when:3d&hl=en-US&gl=US&ceid=US:en`)}`, tier: 'alert' },
   ]
 };
 
