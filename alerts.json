@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T11:48:50.038937+00:00",
+  "generated_at": "2026-06-04T17:43:04.911394+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
@@ -7,7 +7,7 @@
       "severity": "critical",
       "category": "nuclear",
       "title": "Iran enrichment reaches 60% U-235; breakout timeline 1-2 weeks",
-      "summary": "Iran's uranium enrichment level has reached 60% U-235 with estimated nuclear breakout time of 1-2 weeks, per global_metrics. Multiple headlines confirm US concern over uranium transfers to undisclosed sites. This represents a material shortening of breakout capability amid active Persian Gulf hostilities.",
+      "summary": "Iran's uranium enrichment level remains at 60% U-235 with estimated nuclear breakout time of 1-2 weeks per global_metrics. IAEA reports Iran barred inspectors for nearly one year and flagged proliferation risk. Multiple nuclear headlines confirm escalating concern over enriched uranium stockpiles and undisclosed transfers amid active Persian Gulf hostilities.",
       "region": "Global",
       "source": "global_metrics",
       "confidence": "high"
@@ -15,48 +15,48 @@
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Shahed-136 drone confirmed striking Kuwait International Airport Terminal 1",
-      "summary": "CCTV footage confirms Iranian Shahed-136 drone struck Terminal 1 of Kuwait International Airport on June 3, with 1 killed and 63 wounded reported. Multiple Telegram sources (ME Spectator, ~44K-54K views) and incidents feed (Guardian, Jerusalem Post) corroborate the strike. This represents continued kinetic escalation despite ceasefire talks.",
-      "region": "Kuwait / Persian Gulf",
-      "source": "telegram,incidents",
+      "title": "Houthis kill 3 in Red Sea merchant vessel attack; escalation ongoing",
+      "summary": "Yemen's Houthi rebels conducted fatal attack on commercial shipping in Red Sea (lat 15.7, lon 40.77), killing 3 crew members per incidents feed (Courthouse News). Multiple sources (AP News, BBC, Times of Israel) report renewed Houthi missile strikes on both Red Sea shipping and Israel, with forecasts of further disruption to global maritime commerce. Pattern indicates sustained proxy escalation despite ceasefire talks.",
+      "region": "Red Sea / Yemen",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "asset_movement",
-      "title": "USS Florida submarine positioned in Persian Gulf amid active escalation",
-      "summary": "USS Florida submarine deployed to Persian Gulf (lat 25.67, lon 51.55) per assets feed. Positioning coincides with active US-Iran kinetic exchange, including reported Hellfire strikes on Iranian-bound tankers and US strikes on Iranian radar sites in the region.",
-      "region": "Persian Gulf",
-      "source": "assets",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
       "category": "incident",
-      "title": "Israel-Lebanon ceasefire violations continue; 9 killed in strikes near Beirut",
-      "summary": "Despite ceasefire agreement announced June 3, Israeli drone and airstrike operations continue in southern Lebanon and near Beirut outskirts (lat 33.66-33.97, lon 35.5-36.08). Nine confirmed deaths reported, including paramedic. Multiple sources (Al Jazeera, AzerNews, Hasht-e Subh Daily) document ceasefire violations and Israeli military preparations for expanded strikes.",
+      "title": "Israel-Lebanon ceasefire violations widen; 9+ killed in continued strikes",
+      "summary": "Despite June 3 ceasefire agreement, Israeli drone and airstrike operations continue across southern Lebanon and Beirut vicinity (lat 33.62-33.87, lon 35.46-36.04). Nine confirmed deaths reported including paramedic; two additional casualties from separate strike on Syrians and Bangladeshis per incidents feed (Middle East Eye, Al Jazeera). Hezbollah leadership rejects ceasefire absent Israeli withdrawal, signaling agreement breakdown.",
       "region": "Northern Israel / Lebanon border",
       "source": "incidents",
       "confidence": "high"
     },
     {
-      "severity": "medium",
-      "category": "sentiment_shift",
-      "title": "US sentiment stabilizes on Iran conflict amid Trump restraint signals",
-      "summary": "US sentiment analysis shows 48% positive vs 43% negative (improved from 45% negative in prior cycle), with 'trump' remaining dominant (75 mentions vs 88 prior). Congressional war powers resolution passed, and reporting indicates Trump policy stance constrains escalation unless US troops killed. Sentiment shift reflects mixed public posture: active kinetic ops paired with rhetorical de-escalation.",
+      "severity": "high",
+      "category": "telegram_signal",
+      "title": "Threat level escalates to critical; Trump administration balancing Iran response",
+      "summary": "US sentiment remains elevated at 51% negative vs. 42% positive, with 'Trump' as dominant keyword (65 mentions) alongside 'war,' 'Bolton,' and 'unpatriotic' per sentiment feed. Telegram engagement on ceasefire breaches and Kuwait airport strike remains high (~44K-49K views, ME Spectator). Strategic moment reflects internal US debate over restraint vs. escalation amid nuclear timeline pressure.",
       "region": "Global",
-      "source": "sentiment",
-      "confidence": "high"
+      "source": "sentiment,telegram",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
+      "category": "asset_movement",
+      "title": "Three US carrier strike groups positioned across Middle East theaters",
+      "summary": "USS Dwight D. Eisenhower deployed Red Sea (lat 15.15, lon 42.32), USS Abraham Lincoln in Arabian Sea (lat 20.67, lon 60.16), and USS Gerald R. Ford in Mediterranean (lat 33.66, lon 29.99) per assets feed. Positioning coincides with active Houthi Red Sea strikes, ongoing Iran-US Gulf exchange, and Israel-Lebanon ceasefire violations, suggesting sustained deterrence posture amid 1-2 week nuclear breakout window.",
+      "region": "Red Sea, Persian Gulf, Mediterranean",
+      "source": "assets",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "The conflict theater exhibits acute nuclear and kinetic tension: Iran approaches 1-2 week nuclear breakout window while simultaneously executing confirmed drone and missile strikes on Gulf infrastructure, forcing US and regional military responses. Parallel Israel-Lebanon ceasefire is collapsing under continued IDF operations. Trump administration signals restraint but maintains active military posture, creating strategic ambiguity that prolongs high-threat equilibrium.",
+  "analysis_note": "Iran approaches nuclear breakout within 1-2 weeks while proxy escalation (Houthis, Hezbollah) continues despite ceasefire agreements; US maintains regional military presence amid Trump administration debate over restraint vs. kinetic response.",
   "meta": {
-    "input_tokens": 20580,
+    "input_tokens": 19063,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 731,
-    "cost_usd": 0.0242,
-    "wall_time_s": 13.1,
-    "data_hash": "f48b2bfd851508aa497492076841d932f0c9b8ab717ae4c3afda9b50624231c4"
+    "output_tokens": 798,
+    "cost_usd": 0.0231,
+    "wall_time_s": 12.0,
+    "data_hash": "215be4d86f41826b62c6aef4f218ec6c58a11cf3a9fbdf653047ec9577235158"
   }
 }
