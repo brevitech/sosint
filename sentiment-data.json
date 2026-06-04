@@ -1,28 +1,23 @@
 {
   "us": {
     "positive": 47,
-    "negative": 45,
-    "neutral": 8,
+    "negative": 43,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 78,
+        "count": 77,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 26,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "fund",
-        "count": 24,
+        "count": 18,
         "sentiment": "neutral"
-      },
-      {
-        "word": "block",
-        "count": 17,
-        "sentiment": "negative"
       },
       {
         "word": "republicans",
@@ -31,7 +26,22 @@
       },
       {
         "word": "iran",
-        "count": 15,
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 14,
+        "sentiment": "negative"
+      },
+      {
+        "word": "block",
+        "count": 14,
+        "sentiment": "negative"
+      },
+      {
+        "word": "putin",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -45,22 +55,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 11,
-        "sentiment": "negative"
-      },
-      {
-        "word": "coal",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
+        "word": "letter",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "putin",
+        "word": "ukraine",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "center",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zelenskyy",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "negotiations",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -75,18 +100,23 @@
         "sentiment": "neutral"
       },
       {
+        "word": "pulte",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "ban",
         "count": 8,
         "sentiment": "negative"
       },
       {
-        "word": "biden",
+        "word": "coal",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "ice",
-        "count": 7,
+        "word": "biden",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -95,77 +125,47 @@
         "sentiment": "neutral"
       },
       {
+        "word": "judge",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "plead",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "guilty",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
         "word": "president",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "letter",
+        "word": "public",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "plead",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "guilty",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "bill",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "permanent",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chief",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wartime",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "powers",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "narrowly",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bid",
+        "word": "face-to-face",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-04T21:47:42.206329+00:00",
-    "nextRefresh": "2026-06-04T21:47:42.206329+00:00",
+    "generatedAt": "2026-06-04T23:06:04.346559+00:00",
+    "nextRefresh": "2026-06-04T23:06:04.346559+00:00",
     "articlesAnalyzed": 353,
-    "matchedMentions": 193,
-    "uniquePersonalities": 56,
+    "matchedMentions": 192,
+    "uniquePersonalities": 59,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 38,
-    "negative": 36,
+    "positive": 39,
+    "negative": 35,
     "neutral": 26,
     "wordCloud": [
       {
@@ -180,16 +180,16 @@
       },
       {
         "word": "kharge",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 7,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "congress",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -209,12 +209,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minister",
+        "word": "khera",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -229,7 +224,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kohli",
+        "word": "rahul",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -249,6 +244,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "minister",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "expelled",
         "count": 4,
         "sentiment": "negative"
@@ -259,7 +259,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "khera",
+        "word": "pawan",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -279,13 +279,28 @@
         "sentiment": "negative"
       },
       {
-        "word": "gandhi",
+        "word": "economic",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "cricket",
+        "word": "kohli",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shivakumar",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "keeps",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "finance",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -302,29 +317,14 @@
         "word": "sarma",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "cabinet",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "oath",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tomorrow",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-04T21:47:54.406375+00:00",
-    "nextRefresh": "2026-06-04T21:47:54.406375+00:00",
-    "articlesAnalyzed": 466,
-    "matchedMentions": 88,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-06-04T23:06:18.847137+00:00",
+    "nextRefresh": "2026-06-04T23:06:18.847137+00:00",
+    "articlesAnalyzed": 467,
+    "matchedMentions": 84,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
