@@ -1,62 +1,47 @@
 {
   "us": {
-    "positive": 46,
-    "negative": 44,
-    "neutral": 10,
+    "positive": 48,
+    "negative": 43,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 87,
+        "count": 75,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 27,
+        "count": 24,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 20,
+        "count": 15,
         "sentiment": "negative"
       },
       {
-        "word": "house",
-        "count": 20,
-        "sentiment": "neutral"
-      },
-      {
         "word": "pulte",
-        "count": 14,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "netanyahu",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "intelligence",
-        "count": 11,
-        "sentiment": "positive"
-      },
-      {
-        "word": "passes",
+        "word": "white",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "resolution",
+        "word": "republicans",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "director",
-        "count": 9,
+        "word": "allies",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -65,32 +50,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "republicans",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rubio",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "happened",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mcconnell",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "national",
+        "word": "bill",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -100,37 +60,42 @@
         "sentiment": "neutral"
       },
       {
+        "word": "happened",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "resolution",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "intelligence",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "director",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "california",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "allies",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "powers",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crazy",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "talks",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "lebanon",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "passes",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mcconnell",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,29 +118,69 @@
         "word": "unfit",
         "count": 6,
         "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-06-04T08:16:37.209249+00:00",
-    "nextRefresh": "2026-06-04T08:16:37.209249+00:00",
-    "articlesAnalyzed": 349,
-    "matchedMentions": 177,
-    "uniquePersonalities": 45,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 41,
-    "negative": 44,
-    "neutral": 15,
-    "wordCloud": [
+      },
       {
-        "word": "modi",
-        "count": 17,
+        "word": "national",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "kohli",
-        "count": 16,
+        "word": "role",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bessent",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "presidential",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "votes",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "spacex",
+        "count": 5,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-06-04T11:48:20.693624+00:00",
+    "nextRefresh": "2026-06-04T11:48:20.693624+00:00",
+    "articlesAnalyzed": 339,
+    "matchedMentions": 164,
+    "uniquePersonalities": 46,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 37,
+    "negative": 47,
+    "neutral": 16,
+    "wordCloud": [
+      {
+        "word": "modi",
+        "count": 21,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -184,32 +189,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "bjp",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kohli",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "collapse",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "opinion",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lalit",
-        "count": 8,
+        "word": "mayor",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "afghanistan",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trinamool",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -219,37 +224,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "against",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "selling",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "claim",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "amid",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "death",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "trinamool",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meets",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "discusses",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "system",
+        "word": "another",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -259,7 +254,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "loss",
+        "word": "system",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sharma",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sam",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "altman",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mamata",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "death",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "row",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "suicide",
         "count": 5,
         "sentiment": "negative"
       },
@@ -274,57 +309,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "suicide",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "ipl",
+        "word": "short",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fire",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "puri",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "green",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "petrol",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "yadav",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "anatomy",
+        "word": "quits",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-04T08:16:49.570038+00:00",
-    "nextRefresh": "2026-06-04T08:16:49.570038+00:00",
-    "articlesAnalyzed": 481,
-    "matchedMentions": 124,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-06-04T11:48:35.633225+00:00",
+    "nextRefresh": "2026-06-04T11:48:35.633225+00:00",
+    "articlesAnalyzed": 496,
+    "matchedMentions": 121,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   }
 }

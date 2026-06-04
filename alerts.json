@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-04T03:33:47.112569+00:00",
+  "generated_at": "2026-06-04T11:48:50.038937+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "incident",
-      "title": "House passes war powers resolution directing Trump to end Iran hostilities",
-      "summary": "U.S. House of Representatives has passed a war powers resolution instructing President Trump to terminate hostilities with Iran, signaling congressional pressure to de-escalate. This represents a major shift in domestic U.S. political posture amid active Persian Gulf military operations. Incidents feed and sentiment data confirm passage; sentiment shows \"trump\" as dominant term (88 mentions) amid elevated negative sentiment (45%).",
+      "category": "nuclear",
+      "title": "Iran enrichment reaches 60% U-235; breakout timeline 1-2 weeks",
+      "summary": "Iran's uranium enrichment level has reached 60% U-235 with estimated nuclear breakout time of 1-2 weeks, per global_metrics. Multiple headlines confirm US concern over uranium transfers to undisclosed sites. This represents a material shortening of breakout capability amid active Persian Gulf hostilities.",
       "region": "Global",
-      "source": "incidents,sentiment",
+      "source": "global_metrics",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Kuwait, Bahrain, Iran clash escalates: multiple strikes across Gulf states",
-      "summary": "Active multi-location attack campaign across Persian Gulf with Iran claiming strikes on Camp Buehring (Kuwait), Ali Al-Salem Airbase, and Kuwait International Airport (lat 32.1-32.2, lon 52.8-52.9). U.S. military reports it defeated Iranian missile/drone attacks; simultaneously U.S. fired Hellfire missiles at tanker bound for Iran. Kuwait labeled Iran action 'heinous aggression.' Multiple corroborating reports (Reuters, Al Jazeera, Japan Times) confirm active kinetic exchange.",
+      "title": "Shahed-136 drone confirmed striking Kuwait International Airport Terminal 1",
+      "summary": "CCTV footage confirms Iranian Shahed-136 drone struck Terminal 1 of Kuwait International Airport on June 3, with 1 killed and 63 wounded reported. Multiple Telegram sources (ME Spectator, ~44K-54K views) and incidents feed (Guardian, Jerusalem Post) corroborate the strike. This represents continued kinetic escalation despite ceasefire talks.",
       "region": "Kuwait / Persian Gulf",
-      "source": "incidents",
+      "source": "telegram,incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "sentiment_shift",
-      "title": "U.S. domestic sentiment increasingly negative on Iran conflict; Trump policy shift signals",
-      "summary": "U.S. sentiment analysis shows 45% negative vs 43% positive on Middle East conflict, with 'trump' (88 mentions), 'war' (20 mentions), 'resolution' (13 mentions) dominating. WSJ exclusive reports Trump tells aides he will not resume all-out war unless U.S. troops killed\u2014a material policy constraint. Sentiment shift toward restraint paired with congressional war powers action suggests potential de-escalation trajectory despite active kinetic operations.",
-      "region": "Global",
-      "source": "sentiment,incidents",
-      "confidence": "high"
+      "category": "asset_movement",
+      "title": "USS Florida submarine positioned in Persian Gulf amid active escalation",
+      "summary": "USS Florida submarine deployed to Persian Gulf (lat 25.67, lon 51.55) per assets feed. Positioning coincides with active US-Iran kinetic exchange, including reported Hellfire strikes on Iranian-bound tankers and US strikes on Iranian radar sites in the region.",
+      "region": "Persian Gulf",
+      "source": "assets",
+      "confidence": "medium"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel-Lebanon ceasefire partially implemented but fighting persists; Beirut at risk",
-      "summary": "Multiple sources report Israel-Lebanon ceasefire agreement with conditions, yet attacks continue. 9 confirmed deaths in Lebanese strikes reaching Beirut outskirts (lat 33.8-34.1, lon 35.4-35.8). Hezbollah confirmed exchanging strikes with Israeli forces. INSS researcher warns Trump-Netanyahu call and restraint on Beirut signals 'Iranian victory.' Active incidents cluster across Lebanon border indicates ceasefire fragility despite diplomatic agreement.",
-      "region": "Northern Israel / Southern Lebanon",
+      "title": "Israel-Lebanon ceasefire violations continue; 9 killed in strikes near Beirut",
+      "summary": "Despite ceasefire agreement announced June 3, Israeli drone and airstrike operations continue in southern Lebanon and near Beirut outskirts (lat 33.66-33.97, lon 35.5-36.08). Nine confirmed deaths reported, including paramedic. Multiple sources (Al Jazeera, AzerNews, Hasht-e Subh Daily) document ceasefire violations and Israeli military preparations for expanded strikes.",
+      "region": "Northern Israel / Lebanon border",
       "source": "incidents",
       "confidence": "high"
     },
     {
-      "severity": "high",
-      "category": "telegram_signal",
-      "title": "Ukraine launches ~354 drone strikes on Russian targets; St. Petersburg hit amid PMEF",
-      "summary": "Rybar Telegram (~238K-316K views on duplicate posts) reports Ukrainian forces conducted mass drone attack targeting Leningrad Oblast and St. Petersburg on opening day of Russian PMEF conference. Russian Ministry of Defense claims ~59 of 354 drones intercepted over Leningrad Oblast; infrastructure damage reported in Kronstadt, Kirovskyy, Krasnoselysk districts. Signal indicates escalation of Ukrainian deep-strike capability amid broader conflict intensification.",
-      "region": "Eastern Europe / Russia",
-      "source": "telegram",
-      "confidence": "medium"
+      "severity": "medium",
+      "category": "sentiment_shift",
+      "title": "US sentiment stabilizes on Iran conflict amid Trump restraint signals",
+      "summary": "US sentiment analysis shows 48% positive vs 43% negative (improved from 45% negative in prior cycle), with 'trump' remaining dominant (75 mentions vs 88 prior). Congressional war powers resolution passed, and reporting indicates Trump policy stance constrains escalation unless US troops killed. Sentiment shift reflects mixed public posture: active kinetic ops paired with rhetorical de-escalation.",
+      "region": "Global",
+      "source": "sentiment",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "Escalation pauses amid political friction: U.S. Congress and Trump administration signal restrain on Iran conflict even as kinetic operations persist across Persian Gulf; Israel-Lebanon ceasefire fragile; nuclear breakout window remains critical ~1-2 weeks; Ukraine sustains deep-strike tempo against Russian rear areas.",
+  "analysis_note": "The conflict theater exhibits acute nuclear and kinetic tension: Iran approaches 1-2 week nuclear breakout window while simultaneously executing confirmed drone and missile strikes on Gulf infrastructure, forcing US and regional military responses. Parallel Israel-Lebanon ceasefire is collapsing under continued IDF operations. Trump administration signals restraint but maintains active military posture, creating strategic ambiguity that prolongs high-threat equilibrium.",
   "meta": {
-    "input_tokens": 26225,
+    "input_tokens": 20580,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 834,
-    "cost_usd": 0.0304,
-    "wall_time_s": 12.5,
-    "data_hash": "307fa3707b241a0059acb2a46d16c7d71bbea954a9300a7e2cca5dc67341d847"
+    "output_tokens": 731,
+    "cost_usd": 0.0242,
+    "wall_time_s": 13.1,
+    "data_hash": "f48b2bfd851508aa497492076841d932f0c9b8ab717ae4c3afda9b50624231c4"
   }
 }
