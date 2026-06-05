@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 36,
-    "negative": 56,
-    "neutral": 8,
+    "positive": 34,
+    "negative": 59,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,21 +11,36 @@
       },
       {
         "word": "putin",
-        "count": 16,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 11,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "immigration",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 11,
+        "sentiment": "negative"
+      },
+      {
+        "word": "ukraine",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nowak",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -40,23 +55,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 9,
-        "sentiment": "negative"
-      },
-      {
-        "word": "nowak",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "senate",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -65,9 +65,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "intelligence",
+        "word": "murder",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "agenda",
         "count": 7,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "strikes",
@@ -80,7 +85,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "platner",
+        "word": "bill",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "point",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -95,17 +105,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ice",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "department",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minutes",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -115,22 +115,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "wisconsin",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "intelligence",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
         "word": "federal",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sanctions",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "point",
+        "word": "passes",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -140,12 +140,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "republicans",
+        "word": "talks",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "doj",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -156,21 +156,21 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-05T21:21:35.987727+00:00",
-    "nextRefresh": "2026-06-05T21:21:35.987727+00:00",
+    "generatedAt": "2026-06-05T23:03:09.040647+00:00",
+    "nextRefresh": "2026-06-05T23:03:09.040647+00:00",
     "articlesAnalyzed": 347,
-    "matchedMentions": 179,
+    "matchedMentions": 174,
     "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 42,
-    "negative": 38,
-    "neutral": 20,
+    "positive": 41,
+    "negative": 36,
+    "neutral": 23,
     "wordCloud": [
       {
         "word": "banerjee",
-        "count": 22,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
@@ -185,7 +185,7 @@
       },
       {
         "word": "mamata",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -204,6 +204,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "india",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "kolkata",
         "count": 8,
         "sentiment": "neutral"
@@ -214,12 +219,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 7,
+        "word": "mps",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "against",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -244,7 +254,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "project",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -254,12 +269,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "abhishek",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "trouble",
         "count": 5,
         "sentiment": "negative"
       },
       {
-        "word": "mps",
+        "word": "shah",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -294,37 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "kharge",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "files",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nomination",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rajya",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-05T21:21:48.410846+00:00",
-    "nextRefresh": "2026-06-05T21:21:48.410846+00:00",
-    "articlesAnalyzed": 466,
-    "matchedMentions": 96,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-06-05T23:03:19.508605+00:00",
+    "nextRefresh": "2026-06-05T23:03:19.508605+00:00",
+    "articlesAnalyzed": 467,
+    "matchedMentions": 98,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
