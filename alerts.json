@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-05T07:06:12.610290+00:00",
+  "generated_at": "2026-06-05T14:39:44.433657+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran targets US forces in Kuwait; US retaliates with strikes on Iranian radar",
-      "summary": "US military reports Iran launched multiple drones and missiles at American positions in Kuwait on June 4-5, with US forces conducting counter-strikes on Iranian radar installations per incidents feed (BBC, The Hill). Event represents active kinetic escalation between US and Iran forces, distinct from proxy activity. Occurs amid ongoing ceasefire negotiations and elevated threat level (9/10 CRITICAL).",
+      "title": "Iran attacks Kuwait airport; US retaliates with strikes on radar sites",
+      "summary": "Iran launched multiple drones and missiles at Kuwait International Airport and US military positions on June 4-5, killing 1 and injuring 63 per incidents feed (The Guardian, CBS News). US forces conducted counter-strikes on Iranian radar installations. CCTV footage confirms Shahed-136 drone struck Terminal 1. Active kinetic escalation represents material breach of ceasefire negotiations with threat level at 9/10 CRITICAL.",
       "region": "Persian Gulf / Kuwait",
-      "source": "incidents,global_metrics",
+      "source": "incidents,telegram,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Hezbollah rejects ceasefire; resumes extensive rocket, drone attacks on northern Israel",
-      "summary": "Despite June 3 US-brokered Israel-Lebanon ceasefire agreement, Hezbollah launched sustained rocket and drone strikes on Kiryat Shmona, Nahariyya, Shlomi, and Mediterranean positions per Telegram (ME Spectator, ~50K-66K views across posts). New development shows ceasefire collapse within 24-48 hours, marking material escalation cycle. FPV drones targeted IDF command vehicles, narrowly missing Major General Rafi Milo two weeks prior.",
+      "title": "Hezbollah collapses Israel-Lebanon ceasefire within 48 hours; launches sustained attacks",
+      "summary": "Despite US-brokered June 3 ceasefire agreement, Hezbollah resumed extensive rocket and drone strikes on Kiryat Shmona, Nahariyya, Shlomi and Mediterranean positions per Telegram (ME Spectator, 50K-68K views). FPV drones targeted IDF command vehicles. Major escalation cycle shows ceasefire framework failure and new threat phase emerging in northern theater.",
       "region": "Northern Israel / Lebanon border",
       "source": "incidents,telegram",
       "confidence": "high"
@@ -24,39 +24,39 @@
     {
       "severity": "high",
       "category": "incident",
-      "title": "Iran exploits Iraq's Umm Qasr port to circumvent US economic blockade",
-      "summary": "Iran reportedly establishing Umm Qasr (southern Iraq) as logistics hub to bypass US sanctions and blockade per incidents feed (Iran International). Development represents economic escalation and potential sanction-evasion network activation amid active hostilities. Suggests preparation for sustained conflict operations and Iranian supply-chain resilience.",
-      "region": "Persian Gulf / Iraq",
+      "title": "Iran damaged US air operations center in Qatar during initial phase of conflict",
+      "summary": "Air & Space Forces Magazine reports Iran successfully struck US air operations center in Qatar early in the conflict per incidents feed. Development confirms Iranian capability to penetrate critical US military infrastructure in theater and represents significant operational success that aligns with escalation pattern.",
+      "region": "Persian Gulf / Qatar",
       "source": "incidents",
       "confidence": "medium"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "Houthi-Al-Shabaab coordination threatens Red Sea shipping chokepoint",
-      "summary": "Asia Times and CFR reports indicate Houthis and Al-Shabaab terrorist organization are coordinating to disrupt Red Sea maritime routes per incidents feed. Multiple Red Sea shipping attack warnings from AP News, BBC corroborate Houthi escalation. Development signals proxy coordination across Indian Ocean-Red Sea axis and threat to global maritime commerce (Brent crude at $95.1 per global_metrics).",
-      "region": "Red Sea / Yemen",
-      "source": "incidents,global_metrics",
+      "category": "incident",
+      "title": "Iran pressuring Houthis to attack Red Sea tankers; proxy coordination escalates",
+      "summary": "South China Morning Post reports Iran directing Houthi missile and naval attacks on Red Sea shipping per incidents feed. Multiple coordinated naval incidents confirmed (Courthouse News, BBC, AP News) with 3 killed in recent attack. Houthis and Al-Shabaab reportedly coordinating to choke maritime routes, signaling proxy network activation for sustained economic disruption.",
+      "region": "Red Sea / Global Maritime",
+      "source": "incidents",
       "confidence": "medium"
     },
     {
-      "severity": "medium",
-      "category": "sentiment_shift",
-      "title": "US domestic political polarization surges amid Iran crisis; Trump dominates discourse",
-      "summary": "Sentiment analysis shows near-parity negative/positive (46% neg vs 45% pos) in US news with 'Trump' appearing 68 times in top trending terms, followed by 'senate', 'iran', 'republicans', 'putin'. Word frequency spike on partisan actors (Trump, Senate, Republicans, Graham, Biden) indicates domestic political divisions overshadowing unified Iran response. Strategic concern: fractured US domestic consensus weakens negotiating position amid active conflict.",
-      "region": "United States",
-      "source": "sentiment",
-      "confidence": "medium"
+      "severity": "high",
+      "category": "nuclear",
+      "title": "Iran nuclear enrichment at 60% U-235; breakout timeline 1-2 weeks estimated",
+      "summary": "Global metrics report Iran maintaining 60% uranium enrichment with breakout time estimated at 1-2 weeks per IAEA reports (Reuters, JNS.org, The Hill). IAEA unable to inspect facilities damaged in war. Nuclear program relatively unchanged since conflict onset but breakout window remains critically compressed amid active hostilities and escalating US-Iran kinetic operations.",
+      "region": "Global / Iran",
+      "source": "global_metrics",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "Threat level remains CRITICAL (9/10) with concurrent kinetic escalation between US-Iran, ceasefire collapse on Israel-Hezbollah front, proxy coordination in Red Sea, and Iranian nuclear program static at 60% U-235 with 1-2 week breakout window.",
+  "analysis_note": "US-Iran direct kinetic exchange now active with ceasefire frameworks collapsing across Israel-Lebanon and Gaza; nuclear breakout window at 1-2 weeks with proxy escalation in Red Sea and Persian Gulf creating multi-front pressure on US assets and allies.",
   "meta": {
-    "input_tokens": 12550,
+    "input_tokens": 15782,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 851,
-    "cost_usd": 0.0168,
-    "wall_time_s": 12.7,
-    "data_hash": "d264327151596cfe4a476c6e4f39cac57a30408c9fd9e97ed644a4694eac34b6"
+    "output_tokens": 718,
+    "cost_usd": 0.0194,
+    "wall_time_s": 11.0,
+    "data_hash": "74a24b0a7216041bb224faa2335ac8f68b6daf6493e1de26dda4463d85759e52"
   }
 }

@@ -1,136 +1,121 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 48,
-    "neutral": 10,
+    "positive": 46,
+    "negative": 46,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 70,
+        "count": 71,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 19,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "putin",
         "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "bill",
         "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "block",
-        "count": 12,
-        "sentiment": "negative"
-      },
-      {
-        "word": "platner",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fund",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vote",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
         "word": "republicans",
-        "count": 11,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 11,
-        "sentiment": "negative"
-      },
-      {
-        "word": "face-to-face",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ballroom",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pulte",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gop",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "letter",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zelenskyy",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senators",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "graham",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "maine",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "passes",
-        "count": 6,
+        "word": "putin",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "immigration",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fund",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "enforcement",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "passes",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "platner",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zelensky",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vote",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "politics",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "intelligence",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "power",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sanctions",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "blocks",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "surveillance",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "permanent",
+        "word": "pick",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ballroom",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -140,76 +125,141 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
+        "word": "war",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "pass",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
+        "word": "authorizing",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "intelligence",
+        "word": "vote-a-rama",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "anti-weaponization",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pulte",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-05T11:23:15.438106+00:00",
-    "nextRefresh": "2026-06-05T11:23:15.438106+00:00",
-    "articlesAnalyzed": 361,
-    "matchedMentions": 191,
-    "uniquePersonalities": 55,
+    "generatedAt": "2026-06-05T14:39:00.781485+00:00",
+    "nextRefresh": "2026-06-05T14:39:00.781485+00:00",
+    "articlesAnalyzed": 353,
+    "matchedMentions": 183,
+    "uniquePersonalities": 56,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 38,
-    "negative": 39,
-    "neutral": 23,
+    "positive": 37,
+    "negative": 37,
+    "neutral": 26,
     "wordCloud": [
       {
-        "word": "modi",
-        "count": 17,
+        "word": "tmc",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
+        "word": "banerjee",
         "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 8,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "banerjee",
-        "count": 8,
+        "word": "party",
+        "count": 11,
+        "sentiment": "positive"
+      },
+      {
+        "word": "modi",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "ritabrata",
-        "count": 7,
+        "word": "kolkata",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "mamata",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indian",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "firhad",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "rebel",
+        "word": "hakim",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mayor",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fire",
         "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "party",
-        "count": 5,
-        "sentiment": "positive"
+        "word": "ritabrata",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
-        "word": "claims",
+        "word": "tata",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "held",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cockroach",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "ahead",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -219,112 +269,62 @@
         "sentiment": "negative"
       },
       {
-        "word": "delhi",
+        "word": "resigns",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "claim",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "makes",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ipl",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crisis",
-        "count": 4,
         "sentiment": "negative"
       },
       {
-        "word": "indian",
+        "word": "mlas",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "fire",
+        "word": "mps",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "protest",
+        "word": "home",
         "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "any",
-        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "political",
-        "count": 3,
+        "word": "key",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "support",
-        "count": 3,
+        "word": "clarifies",
+        "count": 4,
         "sentiment": "positive"
       },
       {
-        "word": "health",
-        "count": 3,
+        "word": "crore",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "amit",
-        "count": 3,
+        "word": "phase",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "rebels",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "putin",
-        "count": 3,
+        "word": "trade",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ties",
-        "count": 3,
+        "word": "next",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-05T11:23:29.636220+00:00",
-    "nextRefresh": "2026-06-05T11:23:29.636220+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 95,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-06-05T14:39:14.848198+00:00",
+    "nextRefresh": "2026-06-05T14:39:14.848198+00:00",
+    "articlesAnalyzed": 481,
+    "matchedMentions": 105,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   }
 }
