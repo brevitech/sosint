@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-04T23:06:33.962304+00:00",
+  "generated_at": "2026-06-05T07:06:12.610290+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran drone strike kills 1, injures 63 at Kuwait International Airport",
-      "summary": "Iranian Shahed-136 drone confirmed via CCTV striking Terminal 1 of Kuwait International Airport early June 4, with 1 fatality and 63 injured per incidents feed (The Guardian, Scripps News). Multiple Telegram posts (ME Spectator, ~48K-52K views) document strike with video evidence. Event marks direct Iranian attack on critical civilian infrastructure in US-allied nation amid active ceasefire negotiations.",
+      "title": "Iran targets US forces in Kuwait; US retaliates with strikes on Iranian radar",
+      "summary": "US military reports Iran launched multiple drones and missiles at American positions in Kuwait on June 4-5, with US forces conducting counter-strikes on Iranian radar installations per incidents feed (BBC, The Hill). Event represents active kinetic escalation between US and Iran forces, distinct from proxy activity. Occurs amid ongoing ceasefire negotiations and elevated threat level (9/10 CRITICAL).",
       "region": "Persian Gulf / Kuwait",
-      "source": "incidents,telegram",
+      "source": "incidents,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "critical",
-      "category": "nuclear",
-      "title": "Iran enrichment steady at 60% U-235; 1-2 week breakout window persists",
-      "summary": "Iran maintains uranium enrichment at 60% U-235 with estimated 1-2 week nuclear breakout timeline per global_metrics. IAEA reports continued Iranian non-compliance, barred inspections, and proliferation concerns. Five nuclear headlines (NYT, Bloomberg, France 24, The Hill, Times of Israel) corroborate escalating concern over undisclosed enriched uranium stockpiles amid active Persian Gulf hostilities.",
-      "region": "Global",
-      "source": "global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
       "category": "incident",
-      "title": "Hezbollah rejects Lebanon-Israel ceasefire; strikes resume across northern Israel",
-      "summary": "Despite June 3 ceasefire agreement, Hezbollah resumed rocket and drone attacks on Kiryat Shmona, Nahariyya, Shlomi and northern Israeli settlements, and deployed FPV drones targeting Mediterranean positions per Telegram (ME Spectator, ~44K-46K views). Israel continued operations in southern Lebanon hours after ceasefire renewal per incidents feed (France 24, BBC). Agreement breakdown signals escalation cycle continuation.",
+      "title": "Hezbollah rejects ceasefire; resumes extensive rocket, drone attacks on northern Israel",
+      "summary": "Despite June 3 US-brokered Israel-Lebanon ceasefire agreement, Hezbollah launched sustained rocket and drone strikes on Kiryat Shmona, Nahariyya, Shlomi, and Mediterranean positions per Telegram (ME Spectator, ~50K-66K views across posts). New development shows ceasefire collapse within 24-48 hours, marking material escalation cycle. FPV drones targeted IDF command vehicles, narrowly missing Major General Rafi Milo two weeks prior.",
       "region": "Northern Israel / Lebanon border",
       "source": "incidents,telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "asset_movement",
-      "title": "US Navy maintains triple-carrier posture amid Iran tensions; submarine deployed to Persian Gulf",
-      "summary": "USS Dwight D. Eisenhower, USS Abraham Lincoln, and USS Gerald R. Ford remain deployed across Red Sea, Arabian Sea, and Mediterranean respectively per assets feed. USS Florida submarine positioned in Persian Gulf. Three Red Sea destroyers (USS Carney, USS Mason, USS Laboon) and amphibious ships (USS Bataan) provide sustained forward presence. Configuration reflects heightened readiness posture amid Kuwait airport strike and ceasefire violations.",
-      "region": "Persian Gulf / Red Sea / Arabian Sea",
-      "source": "assets",
-      "confidence": "high"
+      "category": "incident",
+      "title": "Iran exploits Iraq's Umm Qasr port to circumvent US economic blockade",
+      "summary": "Iran reportedly establishing Umm Qasr (southern Iraq) as logistics hub to bypass US sanctions and blockade per incidents feed (Iran International). Development represents economic escalation and potential sanction-evasion network activation amid active hostilities. Suggests preparation for sustained conflict operations and Iranian supply-chain resilience.",
+      "region": "Persian Gulf / Iraq",
+      "source": "incidents",
+      "confidence": "medium"
     },
     {
       "severity": "high",
+      "category": "telegram_signal",
+      "title": "Houthi-Al-Shabaab coordination threatens Red Sea shipping chokepoint",
+      "summary": "Asia Times and CFR reports indicate Houthis and Al-Shabaab terrorist organization are coordinating to disrupt Red Sea maritime routes per incidents feed. Multiple Red Sea shipping attack warnings from AP News, BBC corroborate Houthi escalation. Development signals proxy coordination across Indian Ocean-Red Sea axis and threat to global maritime commerce (Brent crude at $95.1 per global_metrics).",
+      "region": "Red Sea / Yemen",
+      "source": "incidents,global_metrics",
+      "confidence": "medium"
+    },
+    {
+      "severity": "medium",
       "category": "sentiment_shift",
-      "title": "US political debate intensifies on Iran response; Trump dominance in discourse peaks",
-      "summary": "US sentiment remains elevated negative at 43% vs. positive 47% per sentiment feed. 'Trump' dominates keyword analysis (77 mentions), followed by 'senate,' 'fund,' 'republicans,' 'iran,' 'war,' 'bolton,' indicating fractious domestic debate over administration Iran policy and ceasefire negotiations. Shift reflects politicization of conflict response and internal US alignment tensions.",
-      "region": "Global",
+      "title": "US domestic political polarization surges amid Iran crisis; Trump dominates discourse",
+      "summary": "Sentiment analysis shows near-parity negative/positive (46% neg vs 45% pos) in US news with 'Trump' appearing 68 times in top trending terms, followed by 'senate', 'iran', 'republicans', 'putin'. Word frequency spike on partisan actors (Trump, Senate, Republicans, Graham, Biden) indicates domestic political divisions overshadowing unified Iran response. Strategic concern: fractured US domestic consensus weakens negotiating position amid active conflict.",
+      "region": "United States",
       "source": "sentiment",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "Strategic moment reflects simultaneous escalation on three fronts\u2014Iranian direct strike on Kuwait airport, Hezbollah ceasefire rejection with resumed operations, and persistent nuclear breakout risk\u2014amid fractious US domestic political debate and maintained high naval deterrent posture, with threat level at critical (9/10).",
+  "analysis_note": "Threat level remains CRITICAL (9/10) with concurrent kinetic escalation between US-Iran, ceasefire collapse on Israel-Hezbollah front, proxy coordination in Red Sea, and Iranian nuclear program static at 60% U-235 with 1-2 week breakout window.",
   "meta": {
-    "input_tokens": 15625,
+    "input_tokens": 12550,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 802,
-    "cost_usd": 0.0196,
-    "wall_time_s": 11.9,
-    "data_hash": "1d732efc09b068276c9bab4b939cf6745814b4cec726f00c7f3f67cd84dbe632"
+    "output_tokens": 851,
+    "cost_usd": 0.0168,
+    "wall_time_s": 12.7,
+    "data_hash": "d264327151596cfe4a476c6e4f39cac57a30408c9fd9e97ed644a4694eac34b6"
   }
 }
