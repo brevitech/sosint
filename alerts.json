@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-05T14:39:44.433657+00:00",
+  "generated_at": "2026-06-05T19:48:41.272434+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "incident",
-      "title": "Iran attacks Kuwait airport; US retaliates with strikes on radar sites",
-      "summary": "Iran launched multiple drones and missiles at Kuwait International Airport and US military positions on June 4-5, killing 1 and injuring 63 per incidents feed (The Guardian, CBS News). US forces conducted counter-strikes on Iranian radar installations. CCTV footage confirms Shahed-136 drone struck Terminal 1. Active kinetic escalation represents material breach of ceasefire negotiations with threat level at 9/10 CRITICAL.",
-      "region": "Persian Gulf / Kuwait",
-      "source": "incidents,telegram,global_metrics",
+      "category": "nuclear",
+      "title": "Iran's uranium enrichment accelerates; breakout window narrows to 1-2 weeks",
+      "summary": "IAEA reports Iran maintains 60% U-235 enrichment with estimated breakout time of 1-2 weeks per global_metrics nuclear headlines. Multiple sources (Reuters, The Hill, JNS, Ynetnews) confirm inspectors unable to verify stockpile since conflict began, creating verification gap in nuclear oversight. Represents material acceleration of nuclear weapons capability during active hostilities.",
+      "region": "Iran",
+      "source": "global_metrics,incidents",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Hezbollah collapses Israel-Lebanon ceasefire within 48 hours; launches sustained attacks",
-      "summary": "Despite US-brokered June 3 ceasefire agreement, Hezbollah resumed extensive rocket and drone strikes on Kiryat Shmona, Nahariyya, Shlomi and Mediterranean positions per Telegram (ME Spectator, 50K-68K views). FPV drones targeted IDF command vehicles. Major escalation cycle shows ceasefire framework failure and new threat phase emerging in northern theater.",
-      "region": "Northern Israel / Lebanon border",
-      "source": "incidents,telegram",
+      "title": "Iranian Navy blocks Persian Gulf; third US destroyer repulsion in sustained blockade",
+      "summary": "Iranian Navy reportedly targeted two Arleigh Burke-class destroyers (USS Truxton, USS Mason) with suicide drones and anti-ship missiles, forcing retreat to Sea of Oman per Telegram (ME Spectator, ~35K views). Third such blockade attempt indicates systematic Iranian strategy to deny US Gulf access and represent escalation of anti-access operations in strategic waterway.",
+      "region": "Persian Gulf / Strait of Hormuz",
+      "source": "telegram,incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "asset_movement",
+      "title": "US deploys third carrier strike group; USS Gerald R. Ford repositioned to Mediterranean",
+      "summary": "Assets feed confirms USS Gerald R. Ford carrier positioned in eastern Mediterranean (34.24\u00b0N, 30.26\u00b0E) alongside USS Dwight D. Eisenhower in Red Sea and USS Abraham Lincoln in Arabian Sea. Three-carrier deployment represents largest US naval concentration in theater since conflict onset and signals sustained operational readiness for regional escalation.",
+      "region": "Mediterranean / Persian Gulf / Red Sea",
+      "source": "assets",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Iran damaged US air operations center in Qatar during initial phase of conflict",
-      "summary": "Air & Space Forces Magazine reports Iran successfully struck US air operations center in Qatar early in the conflict per incidents feed. Development confirms Iranian capability to penetrate critical US military infrastructure in theater and represents significant operational success that aligns with escalation pattern.",
-      "region": "Persian Gulf / Qatar",
-      "source": "incidents",
+      "title": "Hezbollah targets IDF Northern Command; drone strike narrowly misses senior general",
+      "summary": "Telegram (ME Spectator, ~47K views) reports Hezbollah FPV drone directly struck vehicle carrying Maj. Gen. Rafi Milo (IDF Northern Command) during southern Lebanon visit two weeks prior. General exited vehicle minutes before impact; incident demonstrates precision targeting capability against high-value military leadership and elevated threat to IDF command structure.",
+      "region": "Northern Israel / Lebanon border",
+      "source": "telegram,incidents",
       "confidence": "medium"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Iran pressuring Houthis to attack Red Sea tankers; proxy coordination escalates",
-      "summary": "South China Morning Post reports Iran directing Houthi missile and naval attacks on Red Sea shipping per incidents feed. Multiple coordinated naval incidents confirmed (Courthouse News, BBC, AP News) with 3 killed in recent attack. Houthis and Al-Shabaab reportedly coordinating to choke maritime routes, signaling proxy network activation for sustained economic disruption.",
-      "region": "Red Sea / Global Maritime",
-      "source": "incidents",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
-      "category": "nuclear",
-      "title": "Iran nuclear enrichment at 60% U-235; breakout timeline 1-2 weeks estimated",
-      "summary": "Global metrics report Iran maintaining 60% uranium enrichment with breakout time estimated at 1-2 weeks per IAEA reports (Reuters, JNS.org, The Hill). IAEA unable to inspect facilities damaged in war. Nuclear program relatively unchanged since conflict onset but breakout window remains critically compressed amid active hostilities and escalating US-Iran kinetic operations.",
-      "region": "Global / Iran",
-      "source": "global_metrics",
+      "category": "sentiment_shift",
+      "title": "US media sentiment plummets to 57% negative; war-related keywords surge in coverage",
+      "summary": "Sentiment analysis shows US news environment at 57% negative (36% positive) with 'trump' (81 mentions), 'putin' (13), 'ukraine' (10), 'war' (8), and 'strikes' (7) dominating discourse per sentiment feed. Sustained negative polarity reflects domestic political polarization over Iran-proxy conflict management and Ukraine support amid active Middle East escalation.",
+      "region": "Global",
+      "source": "sentiment",
       "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran direct kinetic exchange now active with ceasefire frameworks collapsing across Israel-Lebanon and Gaza; nuclear breakout window at 1-2 weeks with proxy escalation in Red Sea and Persian Gulf creating multi-front pressure on US assets and allies.",
+  "analysis_note": "The conflict remains at critical threat level (9/10) with Iran pursuing nuclear acceleration, naval blockade of the Gulf, and proxy network activation while US sustains three-carrier presence; ceasefires are collapsing (Lebanon-Israel) and political pressure is mounting domestically.",
   "meta": {
-    "input_tokens": 15782,
+    "input_tokens": 15705,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 718,
+    "output_tokens": 737,
     "cost_usd": 0.0194,
-    "wall_time_s": 11.0,
-    "data_hash": "74a24b0a7216041bb224faa2335ac8f68b6daf6493e1de26dda4463d85759e52"
+    "wall_time_s": 11.5,
+    "data_hash": "c11426d9993272eccacc9849869ceddc364793688096d8bfb30a04b823e38f04"
   }
 }
