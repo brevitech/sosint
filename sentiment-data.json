@@ -1,12 +1,17 @@
 {
   "us": {
     "positive": 36,
-    "negative": 57,
-    "neutral": 7,
+    "negative": 56,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 81,
+        "count": 71,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "putin",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -16,42 +21,17 @@
       },
       {
         "word": "house",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "putin",
-        "count": 13,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "immigration",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ukraine",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ballroom",
-        "count": 10,
+        "word": "down",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -60,22 +40,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "block",
+        "word": "ukraine",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
         "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "war",
-        "count": 8,
-        "sentiment": "negative"
+        "word": "nowak",
+        "count": 9,
+        "sentiment": "neutral"
       },
       {
-        "word": "nowak",
+        "word": "senate",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "zelenskyy",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -90,17 +75,22 @@
         "sentiment": "negative"
       },
       {
-        "word": "down",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "administration",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
+        "word": "platner",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ballroom",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -110,8 +100,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pulte",
+        "word": "department",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minutes",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "federal",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -120,7 +125,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "passes",
+        "word": "bill",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -130,43 +135,38 @@
         "sentiment": "neutral"
       },
       {
+        "word": "meeting",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "republicans",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "zelenskyy",
+        "word": "iran",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "authority",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "doj",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lawyer",
+        "word": "court",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-05T19:48:09.406994+00:00",
-    "nextRefresh": "2026-06-05T19:48:09.406994+00:00",
-    "articlesAnalyzed": 348,
-    "matchedMentions": 183,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-06-05T21:21:35.987727+00:00",
+    "nextRefresh": "2026-06-05T21:21:35.987727+00:00",
+    "articlesAnalyzed": 347,
+    "matchedMentions": 179,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 40,
-    "neutral": 19,
+    "positive": 42,
+    "negative": 38,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "banerjee",
@@ -194,12 +194,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "home",
-        "count": 9,
+        "word": "modi",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "home",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -249,6 +249,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "rejig",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "trouble",
         "count": 5,
         "sentiment": "negative"
@@ -289,11 +294,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "adani",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "gandhi",
         "count": 4,
         "sentiment": "neutral"
@@ -304,26 +304,26 @@
         "sentiment": "neutral"
       },
       {
+        "word": "files",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nomination",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "rajya",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sabha",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "calls",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-05T19:48:21.963668+00:00",
-    "nextRefresh": "2026-06-05T19:48:21.963668+00:00",
-    "articlesAnalyzed": 467,
-    "matchedMentions": 94,
+    "generatedAt": "2026-06-05T21:21:48.410846+00:00",
+    "nextRefresh": "2026-06-05T21:21:48.410846+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 96,
     "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
