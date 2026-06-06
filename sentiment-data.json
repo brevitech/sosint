@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 35,
-    "negative": 57,
-    "neutral": 8,
+    "positive": 32,
+    "negative": 59,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 63,
+        "count": 62,
         "sentiment": "neutral"
       },
       {
@@ -16,7 +16,7 @@
       },
       {
         "word": "putin",
-        "count": 15,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -25,7 +25,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "immigration",
+        "word": "down",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -35,17 +35,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "down",
+        "word": "immigration",
         "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "race",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ukraine",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -60,8 +55,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 8,
+        "word": "ukraine",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -81,6 +76,11 @@
       },
       {
         "word": "administration",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -107,16 +107,6 @@
       {
         "word": "department",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minutes",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mayor",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -153,54 +143,59 @@
         "word": "talks",
         "count": 6,
         "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-06-06T02:42:23.745609+00:00",
-    "nextRefresh": "2026-06-06T02:42:23.745609+00:00",
-    "articlesAnalyzed": 347,
-    "matchedMentions": 174,
-    "uniquePersonalities": 50,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 58,
-    "negative": 22,
-    "neutral": 20,
-    "wordCloud": [
+      },
       {
-        "word": "banerjee",
-        "count": 25,
+        "word": "gop",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
-        "count": 11,
+        "word": "policy",
+        "count": 5,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-06-06T06:26:31.547636+00:00",
+    "nextRefresh": "2026-06-06T06:26:31.547636+00:00",
+    "articlesAnalyzed": 353,
+    "matchedMentions": 169,
+    "uniquePersonalities": 51,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 56,
+    "negative": 33,
+    "neutral": 11,
+    "wordCloud": [
+      {
+        "word": "banerjee",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "party",
-        "count": 10,
+        "count": 12,
         "sentiment": "positive"
       },
       {
-        "word": "mamata",
-        "count": 10,
+        "word": "tmc",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "abhishek",
+        "word": "india",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "cockroach",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mlas",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -209,68 +204,103 @@
         "sentiment": "neutral"
       },
       {
+        "word": "janta",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "norway",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chess",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mlas",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "mps",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "home",
+        "word": "mamata",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "london",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "kolkata",
+        "word": "abhijeet",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "project",
+        "word": "dipke",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cjp",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indian",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "jantar",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "ritabrata",
+        "word": "mantar",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "rajya",
+        "word": "yadav",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "sabha",
+        "word": "abhishek",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "norway",
-        "count": 5,
+        "word": "event",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "chess",
-        "count": 5,
+        "word": "trinamool",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "karnataka",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rejig",
-        "count": 5,
+        "word": "attended",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -279,52 +309,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "clarifies",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "who-is-real-trinamool",
+        "word": "chief",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "fight",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "pushback",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "planned",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "polls",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "title",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "defence",
+        "word": "justice",
         "count": 4,
         "sentiment": "positive"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-06T02:42:36.594872+00:00",
-    "nextRefresh": "2026-06-06T02:42:36.594872+00:00",
-    "articlesAnalyzed": 479,
+    "generatedAt": "2026-06-06T06:26:42.413985+00:00",
+    "nextRefresh": "2026-06-06T06:26:42.413985+00:00",
+    "articlesAnalyzed": 478,
     "matchedMentions": 96,
-    "uniquePersonalities": 42,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   }
 }
