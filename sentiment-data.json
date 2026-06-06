@@ -6,17 +6,17 @@
     "wordCloud": [
       {
         "word": "trump",
-        "count": 54,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 10,
+        "count": 53,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 10,
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -30,14 +30,14 @@
         "sentiment": "neutral"
       },
       {
+        "word": "war",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
         "word": "senate",
         "count": 9,
         "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 8,
-        "sentiment": "negative"
       },
       {
         "word": "leaders",
@@ -75,6 +75,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "administration",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "convicted",
         "count": 5,
         "sentiment": "neutral"
@@ -90,22 +95,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "say",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "women",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "end",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "europe",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -118,11 +113,6 @@
         "word": "speech",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "dangerous",
-        "count": 5,
-        "sentiment": "negative"
       },
       {
         "word": "maine",
@@ -150,27 +140,37 @@
         "sentiment": "negative"
       },
       {
+        "word": "down",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "former",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congressman",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-06T20:59:09.510195+00:00",
-    "nextRefresh": "2026-06-06T20:59:09.510195+00:00",
+    "generatedAt": "2026-06-06T22:07:57.463104+00:00",
+    "nextRefresh": "2026-06-06T22:07:57.463104+00:00",
     "articlesAnalyzed": 344,
     "matchedMentions": 157,
     "uniquePersonalities": 53,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
-    "negative": 40,
-    "neutral": 16,
+    "positive": 41,
+    "negative": 39,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "india",
-        "count": 21,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -180,11 +180,16 @@
       },
       {
         "word": "modi",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "banerjee",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cjp",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -194,7 +199,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cjp",
+        "word": "amid",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -214,7 +219,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pradhan",
+        "word": "nepal",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -229,37 +234,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gets",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nepal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "abhishek",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "adani",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "surya",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "t20i",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -272,6 +252,11 @@
         "word": "protest",
         "count": 4,
         "sentiment": "negative"
+      },
+      {
+        "word": "pradhan",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
         "word": "mamata",
@@ -317,14 +302,29 @@
         "word": "green",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "ties",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jaishankar",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "surya",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-06T20:59:22.130519+00:00",
-    "nextRefresh": "2026-06-06T20:59:22.130519+00:00",
-    "articlesAnalyzed": 465,
-    "matchedMentions": 82,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-06-06T22:08:07.890810+00:00",
+    "nextRefresh": "2026-06-06T22:08:07.890810+00:00",
+    "articlesAnalyzed": 464,
+    "matchedMentions": 76,
+    "uniquePersonalities": 33,
     "dataSource": "live-rss"
   }
 }
