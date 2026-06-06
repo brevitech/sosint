@@ -1,22 +1,27 @@
 {
   "us": {
-    "positive": 34,
-    "negative": 59,
-    "neutral": 7,
+    "positive": 35,
+    "negative": 57,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 71,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "putin",
-        "count": 17,
+        "count": 63,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 16,
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "putin",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -30,12 +35,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "ukraine",
+        "word": "down",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "race",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ukraine",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -45,22 +55,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "down",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "countries",
         "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zelenskyy",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -85,16 +85,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "point",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "white",
         "count": 7,
         "sentiment": "neutral"
@@ -105,17 +95,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "doj",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "department",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "minutes",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "wisconsin",
+        "word": "mayor",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -130,7 +130,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "passes",
+        "word": "platner",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -140,76 +140,56 @@
         "sentiment": "neutral"
       },
       {
+        "word": "henry",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zelenskyy",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "talks",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "doj",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-05T23:03:09.040647+00:00",
-    "nextRefresh": "2026-06-05T23:03:09.040647+00:00",
+    "generatedAt": "2026-06-06T02:42:23.745609+00:00",
+    "nextRefresh": "2026-06-06T02:42:23.745609+00:00",
     "articlesAnalyzed": 347,
     "matchedMentions": 174,
-    "uniquePersonalities": 47,
+    "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 36,
-    "neutral": 23,
+    "positive": 58,
+    "negative": 22,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "banerjee",
-        "count": 24,
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "tmc",
-        "count": 20,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "party",
-        "count": 12,
-        "sentiment": "positive"
-      },
-      {
-        "word": "mamata",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "ritabrata",
+        "word": "party",
+        "count": 10,
+        "sentiment": "positive"
+      },
+      {
+        "word": "mamata",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "home",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kolkata",
+        "word": "abhishek",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -219,37 +199,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "against",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "mps",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "home",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "congress",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "karnataka",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "firhad",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hakim",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mayor",
+        "word": "kolkata",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -259,28 +234,43 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "shah",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ritabrata",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rajya",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sabha",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "norway",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chess",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "karnataka",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "rejig",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trouble",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "shah",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -314,17 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kharge",
+        "word": "polls",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "title",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "defence",
+        "count": 4,
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-05T23:03:19.508605+00:00",
-    "nextRefresh": "2026-06-05T23:03:19.508605+00:00",
-    "articlesAnalyzed": 467,
-    "matchedMentions": 98,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-06-06T02:42:36.594872+00:00",
+    "nextRefresh": "2026-06-06T02:42:36.594872+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 96,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
 }
