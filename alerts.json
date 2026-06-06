@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-06T02:43:32.904656+00:00",
+  "generated_at": "2026-06-06T09:23:19.687283+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran launches coordinated drone and missile attack on Strait of Hormuz; US intercepts multiple weapons",
-      "summary": "Iran fired drones toward Strait of Hormuz with US military confirming interception of at least 4 unmanned systems per incidents feed. Attack follows escalation pattern; Trump administration claims Iran retains only 21-22% of missile stockpile post-US strikes. Incident represents direct Iranian action against US naval presence in critical chokepoint.",
+      "title": "US-Iran exchange escalates in Persian Gulf; ceasefire talks stall amid repeated strikes",
+      "summary": "US and Iran conducted reciprocal military strikes in Persian Gulf and around Strait of Hormuz on 6 June, with CENTCOM confirming defeat of Iranian missiles and drones per incidents feed. Multiple outlets (BBC, RFE/RL, Reuters, Guardian) report ceasefire already imperiled by exchange; Trump administration states Iran retains only 21-22% of missile stockpile. This cycle represents direct escalation despite ongoing diplomatic negotiations.",
       "region": "Strait of Hormuz / Persian Gulf",
       "source": "incidents,global_metrics",
       "confidence": "high"
@@ -15,8 +15,8 @@
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran's uranium enrichment remains at 60% U-235; breakout window estimated 1-2 weeks",
-      "summary": "IAEA reports Iran maintains 60% uranium enrichment with ~1-2 week breakout timeline per global_metrics nuclear headlines. Multiple sources (Reuters, JNS, NYT) confirm inspectors unable to verify enriched uranium stockpile since conflict began, creating critical verification gap. Nuclear program acceleration during active hostilities poses imminent proliferation risk.",
+      "title": "Iran nuclear breakout window narrows to 1-2 weeks; IAEA verification gap widens",
+      "summary": "IAEA reports Iran maintains 60% U-235 enrichment with ~1-2 week breakout timeline per global_metrics nuclear headlines (Reuters, JNS, NYT, The Hill). Inspectors unable to verify enriched uranium stockpile since fighting began, creating critical information blackout. Nuclear program status unchanged despite active conflict, indicating continued advancement parallel to military operations.",
       "region": "Iran",
       "source": "global_metrics,incidents",
       "confidence": "high"
@@ -24,8 +24,8 @@
     {
       "severity": "high",
       "category": "incident",
-      "title": "Iran attacks Kuwait airport; one killed, 63 injured in regional escalation",
-      "summary": "Iran reportedly launched attack on Kuwait airport with one fatality and 63 wounded per incidents feed (CBS News, Guardian, NYT sources). Incident marks direct Iranian strike on Gulf state infrastructure outside primary conflict zone and signals willingness to target broader regional allies during ceasefire negotiations.",
+      "title": "Second Iranian attack on Gulf infrastructure; Kuwait airport hit with 1 killed, 63 wounded",
+      "summary": "Iran launched attack on Kuwait airport on 6 June per incidents feed (CBS News, Guardian), killing one and injuring 63. Attack follows drone/missile exchange with US and marks expansion of Iranian strikes beyond Israel-focused targets into broader Gulf state infrastructure during ceasefire negotiations. Signals Iranian willingness to target allied civilian facilities.",
       "region": "Kuwait / Persian Gulf",
       "source": "incidents",
       "confidence": "high"
@@ -33,30 +33,30 @@
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel maintains strikes despite Lebanon ceasefire; Hezbollah rejects deal, tensions escalate",
-      "summary": "Multiple incidents reports confirm Israeli strikes killing 9+ in Lebanon and reaching Beirut outskirts despite US-brokered ceasefire agreement. Hezbollah formally rejects Israel-Lebanon accord per NYT source; Iran declares support for Hezbollah as deal collapses. Ceasefire failure signals proxy escalation and weakening diplomatic architecture.",
+      "title": "Hezbollah formally rejects Israel-Lebanon ceasefire; Iran declares support for militant group",
+      "summary": "Hezbollah rejected US-brokered Israel-Lebanon ceasefire agreement per incidents feed (NYT, CBS News, Reuters), with Iran publicly declaring support for the organization. Israeli strikes continue despite accord, killing 9+ in Lebanon and reaching Beirut outskirts. Ceasefire collapse signals diplomatic architecture failure and proxy escalation as Iran doubles down on regional allies.",
       "region": "Northern Israel / Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
-      "severity": "high",
+      "severity": "medium",
       "category": "sentiment_shift",
-      "title": "US negative sentiment surges to 57%; 'war' and 'strikes' keywords spike amid Iran-Israel tensions",
-      "summary": "Sentiment analysis shows US negative sentiment at 57% (vs 35% positive) with 'war' appearing 11 times and 'strikes' 7 times in trending keywords. Trump dominates discourse (63 mentions) alongside Putin (15) and Ukraine (10), indicating public anxiety over multi-theater conflict escalation and potential US military involvement.",
+      "title": "US media sentiment deteriorates amid Trump-Netanyahu tensions and peace talk doubts",
+      "summary": "US news sentiment declined to 35% positive / 56% negative per sentiment feed, with 'Trump' (60 mentions) and 'war' (11 mentions) dominating word cloud. Trump acknowledged calling Netanyahu 'crazy' and accused Israel of complicating Iran peace talks per PBS source in incidents feed. Negative sentiment spike reflects public and media skepticism toward de-escalation amid multiple simultaneous conflicts.",
       "region": "Global",
-      "source": "sentiment",
+      "source": "sentiment,incidents",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "Iran accelerates nuclear enrichment and executes coordinated regional strikes while Israel-Lebanon ceasefire collapses and proxy forces reject diplomatic resolution; three-carrier US deployment and critical threat-level 9 rating reflect imminent escalation risk across multiple theaters.",
+  "analysis_note": "Regional ceasefire architecture is collapsing under Iranian and proxy escalation while nuclear breakout window narrows to weeks; US diplomatic leverage weakened by internal disagreements and demonstrated inability to enforce agreed-upon terms.",
   "meta": {
-    "input_tokens": 26991,
+    "input_tokens": 23717,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 694,
-    "cost_usd": 0.0305,
-    "wall_time_s": 10.6,
-    "data_hash": "893030ee8641366d0f6979cc21f1c76a4907c418071021deafcdbf95eccf2b0d"
+    "output_tokens": 733,
+    "cost_usd": 0.0274,
+    "wall_time_s": 11.0,
+    "data_hash": "f27eec536f687c0b517be50062498ee6db291f112f425a664c5268af3eec5499"
   }
 }

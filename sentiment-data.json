@@ -1,31 +1,21 @@
 {
   "us": {
-    "positive": 32,
-    "negative": 59,
+    "positive": 35,
+    "negative": 56,
     "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 15,
+        "count": 60,
         "sentiment": "neutral"
       },
       {
         "word": "putin",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "down",
+        "word": "race",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -35,13 +25,13 @@
         "sentiment": "negative"
       },
       {
-        "word": "immigration",
-        "count": 10,
+        "word": "house",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "race",
-        "count": 10,
+        "word": "judge",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -50,32 +40,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "countries",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ukraine",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "murder",
+        "word": "talks",
         "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "agenda",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "strikes",
-        "count": 7,
-        "sentiment": "negative"
+        "word": "down",
+        "count": 8,
+        "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "agenda",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -85,14 +65,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "murder",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ballroom",
-        "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "doj",
@@ -110,27 +85,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "intelligence",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "federal",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "platner",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meeting",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "henry",
+        "word": "governor",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -140,7 +95,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "california",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "platner",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "henry",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "immigration",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ballroom",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "countries",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -150,91 +135,76 @@
         "sentiment": "neutral"
       },
       {
-        "word": "policy",
+        "word": "altman",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "public",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mayor",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-06T06:26:31.547636+00:00",
-    "nextRefresh": "2026-06-06T06:26:31.547636+00:00",
-    "articlesAnalyzed": 353,
-    "matchedMentions": 169,
-    "uniquePersonalities": 51,
+    "generatedAt": "2026-06-06T09:22:53.681435+00:00",
+    "nextRefresh": "2026-06-06T09:22:53.681435+00:00",
+    "articlesAnalyzed": 355,
+    "matchedMentions": 170,
+    "uniquePersonalities": 53,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 56,
-    "negative": 33,
-    "neutral": 11,
+    "positive": 53,
+    "negative": 29,
+    "neutral": 18,
     "wordCloud": [
       {
-        "word": "banerjee",
-        "count": 14,
+        "word": "india",
+        "count": 23,
         "sentiment": "neutral"
       },
       {
-        "word": "party",
-        "count": 12,
-        "sentiment": "positive"
+        "word": "sooryavanshi",
+        "count": 9,
+        "sentiment": "neutral"
       },
       {
         "word": "tmc",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 11,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "protest",
-        "count": 9,
+        "count": 8,
         "sentiment": "negative"
       },
       {
-        "word": "cockroach",
+        "word": "indian",
         "count": 8,
         "sentiment": "neutral"
       },
       {
+        "word": "t20i",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "modi",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "janta",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "norway",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chess",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mlas",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mamata",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -244,37 +214,67 @@
         "sentiment": "neutral"
       },
       {
-        "word": "abhijeet",
+        "word": "indecorous",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "dipke",
+        "word": "party",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cjp",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indian",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "jantar",
-        "count": 5,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "mantar",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "condemns",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "disruption",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "surya",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kant",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "norway",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chess",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "test",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "afghanistan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "event",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -289,17 +289,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "event",
-        "count": 4,
+        "word": "kohli",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "trinamool",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attended",
+        "word": "chairs",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -317,14 +312,19 @@
         "word": "justice",
         "count": 4,
         "sentiment": "positive"
+      },
+      {
+        "word": "lecture",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-06T06:26:42.413985+00:00",
-    "nextRefresh": "2026-06-06T06:26:42.413985+00:00",
-    "articlesAnalyzed": 478,
-    "matchedMentions": 96,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-06-06T09:23:07.130336+00:00",
+    "nextRefresh": "2026-06-06T09:23:07.130336+00:00",
+    "articlesAnalyzed": 480,
+    "matchedMentions": 109,
+    "uniquePersonalities": 53,
     "dataSource": "live-rss"
   }
 }
