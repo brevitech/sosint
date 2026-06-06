@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-06T15:10:50.944903+00:00",
+  "generated_at": "2026-06-06T20:59:44.046990+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran expands strikes beyond Persian Gulf; targets Kuwait airport, killing 1 and wounding 63",
-      "summary": "Iran launched coordinated attacks on Kuwait airport and Bahrain on 6 June, killing one and injuring 63 at Kuwait facility per incidents feed (Guardian, CBS News). Attack marks escalation beyond US-Iran direct exchange to broader Gulf infrastructure targeting. CENTCOM reports 7 ballistic missiles fired; 6 intercepted, 1 failed to reach target. Signals Iranian willingness to strike civilian infrastructure of regional allies during ceasefire talks.",
-      "region": "Kuwait / Persian Gulf",
+      "title": "US and Iran exchange strikes in Gulf; ceasefire fragility tested",
+      "summary": "On 6 June, US and Iran conducted reciprocal military strikes in Persian Gulf region. CENTCOM reports Iran fired 7 ballistic missiles at Kuwait and Bahrain; 6 intercepted, 1 failed to reach target. US responded with airstrikes on Iranian radar and telecommunications facilities in Sirik and Qeshm Island, killing 1 Iranian and causing minimal civilian casualties per incidents feed (AP News, BBC, CENTCOM). Escalation occurs despite ongoing ceasefire negotiations, signaling both sides testing each other's red lines.",
+      "region": "Persian Gulf / Kuwait / Bahrain",
       "source": "incidents,telegram",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran nuclear breakout window remains 1-2 weeks; IAEA unable to verify enriched uranium stockpile",
-      "summary": "IAEA reports Iran maintains 60% U-235 enrichment with ~1-2 week weapons-grade breakout timeline per global_metrics nuclear headlines (Reuters, JNS, NYT). UN inspectors unable to verify enriched uranium inventories since fighting began, creating critical intelligence gap. IAEA charges Iran with politicizing nuclear assessments. Nuclear advancement continues parallel to active military operations without verification oversight.",
+      "title": "Iran maintains 60% U-235 enrichment; IAEA verification gap widens",
+      "summary": "IAEA unable to verify Iran's enriched uranium stockpile since fighting escalated, per global_metrics nuclear headlines (Reuters, NYT, MSN). Iran continues 60% U-235 enrichment with ~1-2 week weapons-grade breakout window. UN inspectors lack access to inventory data, creating critical intelligence gap. IAEA reports Iran charges inspectors with politicizing assessments, while enrichment continues unmonitored parallel to active military operations.",
       "region": "Iran",
       "source": "global_metrics,incidents",
       "confidence": "high"
@@ -24,8 +24,8 @@
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel continues strikes in Lebanon despite renewed US-brokered ceasefire agreement",
-      "summary": "Israeli military maintains offensive operations in southern Lebanon and Beirut region despite new ceasefire accord per incidents feed (Al Jazeera, BBC, Jerusalem Post). At least 10+ killed in recent strikes including 3 Lebanese soldiers and civilians at Gaza wedding. Hezbollah formally rejected ceasefire terms with Iranian backing. Israeli strikes undermine diplomatic efforts and risk wider regional escalation.",
+      "title": "Israeli strikes in Lebanon kill 10 soldiers despite new US-brokered ceasefire",
+      "summary": "Israeli military continued offensive operations in southern Lebanon on 6 June despite renewed ceasefire agreement, killing at least 10 people including 3 Lebanese Army soldiers per incidents feed (Al Jazeera, Jerusalem Post). Strikes target Lebanese military positions in violation of diplomatic accord. Hezbollah formally rejected ceasefire with Iranian backing. Israeli operations undermine US diplomatic efforts and risk wider regional conflagration.",
       "region": "Northern Israel / Lebanon",
       "source": "incidents",
       "confidence": "high"
@@ -33,30 +33,30 @@
     {
       "severity": "high",
       "category": "telegram_signal",
-      "title": "Houthis coordinate with Al-Shabaab; escalate Red Sea shipping attacks with missiles",
-      "summary": "Middle East Spectator reports Houthis and Al-Shabaab conspiring to choke Red Sea maritime routes per telegram feed. Houthis launched missile attack on Red Sea vessel and conducted secondary strike on Israel, opening new operational front. Telegram posts show ~35-40K combined views on Red Sea threat. Escalation threatens global shipping and signals proxy coordination against US interests.",
-      "region": "Red Sea / Yemen",
+      "title": "US Sirik surveillance strike kills Iranian personnel; testing restraint strategy",
+      "summary": "Middle East Spectator Telegram post (~47K views) reports US airstrike on Sirik telecommunications and surveillance facility killed 1 Iranian military personnel. OSINT analysis notes strikes are 'militarily insignificant and mostly symbolic in nature, testing Iran's restraint.' Escalation pattern suggests deliberate calibration to avoid nuclear-level response while maintaining pressure on Iranian military infrastructure.",
+      "region": "Persian Gulf / Iran",
       "source": "telegram,incidents",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "cyber",
-      "title": "Iran escalates cyber operations as kinetic conflict expands; preview of hybrid warfare tactics",
-      "summary": "Global_metrics cyber headlines highlight Iran's cyber playbook convergence with China's tactics and escalating threat to US critical infrastructure per CSIS and Resecurity analysis. Cyber operations running parallel to kinetic strikes in Persian Gulf and Red Sea. Indicates Iran pursuing multi-domain warfare strategy combining conventional, drone, missile, and cyber attacks simultaneously.",
-      "region": "Global",
-      "source": "global_metrics",
+      "category": "sentiment_shift",
+      "title": "US sentiment on Iran conflict sharply negative; Trump dominates war discourse",
+      "summary": "US sentiment analysis shows 55% negative vs 41% positive on conflict, with 'Trump' (54 mentions), 'war' (8), and 'talks' (7) dominating trending terms per sentiment feed. Sharp negative shift reflects 100+ days of sustained operations, domestic political friction over escalation strategy, and failed diplomatic breakthroughs. Sentiment polarity increasingly pessimistic on near-term resolution despite ceasefire negotiation claims.",
+      "region": "Global / United States",
+      "source": "sentiment",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran conflict has entered active kinetic phase with Iran expanding strikes into Gulf ally territory; nuclear breakout window narrows to 1-2 weeks amid IAEA verification blackout; Israel undermines ceasefire diplomacy with continued Lebanon strikes; proxy escalation (Houthis, Hezbollah) and emerging cyber coordination signal multi-domain Iranian strategy.",
+  "analysis_note": "The US-Iran conflict remains in critical escalation phase with fragile ceasefire framework repeatedly tested by reciprocal strikes, nuclear advancement unmonitored, and proxy operations (Hezbollah, Houthis) sustaining pressure across multiple theaters while global oil markets remain volatile at $93/bbl.",
   "meta": {
-    "input_tokens": 18732,
+    "input_tokens": 20344,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 772,
-    "cost_usd": 0.0226,
-    "wall_time_s": 12.2,
-    "data_hash": "3c019246f67a4450098ab550884938f3ccd9b8848989802ba0c32ff088b6881a"
+    "output_tokens": 814,
+    "cost_usd": 0.0244,
+    "wall_time_s": 11.8,
+    "data_hash": "a53cb76f34bbe0a0bb1c9b1d26e61a1670744fce5a532ae04c3cfeedaceea23b"
   }
 }

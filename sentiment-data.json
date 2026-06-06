@@ -1,12 +1,17 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 56,
-    "neutral": 5,
+    "positive": 41,
+    "negative": 55,
+    "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
         "count": 54,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -15,14 +20,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "hegseth",
+        "word": "pope",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "spain",
         "count": 9,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "senate",
@@ -30,19 +35,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pope",
+        "word": "war",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ukraine",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "spain",
-        "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "leaders",
@@ -55,7 +50,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "putin",
+        "word": "republican",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leo",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -67,6 +67,26 @@
       {
         "word": "starmer",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ukraine",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "convicted",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "insider",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trading",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -85,12 +105,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "leo",
+        "word": "europe",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "meeting",
+        "word": "d-day",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "speech",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -98,11 +123,6 @@
         "word": "dangerous",
         "count": 5,
         "sentiment": "negative"
-      },
-      {
-        "word": "down",
-        "count": 5,
-        "sentiment": "neutral"
       },
       {
         "word": "maine",
@@ -125,62 +145,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
+        "word": "warns",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "republican",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "career",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "secularized",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "polarized",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "catholic",
+        "word": "former",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-06T19:14:29.210695+00:00",
-    "nextRefresh": "2026-06-06T19:14:29.210695+00:00",
-    "articlesAnalyzed": 359,
-    "matchedMentions": 158,
-    "uniquePersonalities": 55,
+    "generatedAt": "2026-06-06T20:59:09.510195+00:00",
+    "nextRefresh": "2026-06-06T20:59:09.510195+00:00",
+    "articlesAnalyzed": 344,
+    "matchedMentions": 157,
+    "uniquePersonalities": 53,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 44,
-    "neutral": 15,
+    "positive": 44,
+    "negative": 40,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "india",
-        "count": 20,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -189,32 +184,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "banerjee",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "afghanistan",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sourav",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ganguly",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "cjp",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pathan",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pradhan",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -224,32 +204,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kohli",
+        "word": "sourav",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "norway",
+        "word": "ganguly",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pradhan",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "chess",
+        "word": "exit",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "yusuf",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "resign",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "mamata",
+        "word": "pathan",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -264,22 +239,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "team",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "nepal",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "abhishek",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trinamool",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -309,22 +274,57 @@
         "sentiment": "negative"
       },
       {
-        "word": "exit",
+        "word": "mamata",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
+        "word": "team",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "yadav",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "highlights",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minority",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cell",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leader",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "quits",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "green",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-06T19:14:41.807774+00:00",
-    "nextRefresh": "2026-06-06T19:14:41.807774+00:00",
+    "generatedAt": "2026-06-06T20:59:22.130519+00:00",
+    "nextRefresh": "2026-06-06T20:59:22.130519+00:00",
     "articlesAnalyzed": 465,
-    "matchedMentions": 94,
-    "uniquePersonalities": 38,
+    "matchedMentions": 82,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
