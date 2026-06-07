@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-06T20:59:44.046990+00:00",
+  "generated_at": "2026-06-07T05:18:53.541992+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "US and Iran exchange strikes in Gulf; ceasefire fragility tested",
-      "summary": "On 6 June, US and Iran conducted reciprocal military strikes in Persian Gulf region. CENTCOM reports Iran fired 7 ballistic missiles at Kuwait and Bahrain; 6 intercepted, 1 failed to reach target. US responded with airstrikes on Iranian radar and telecommunications facilities in Sirik and Qeshm Island, killing 1 Iranian and causing minimal civilian casualties per incidents feed (AP News, BBC, CENTCOM). Escalation occurs despite ongoing ceasefire negotiations, signaling both sides testing each other's red lines.",
+      "title": "Trump claims Iran retains only 21% of missile capacity after US airstrikes",
+      "summary": "Trump administration asserts Iran's ballistic missile stockpile has been reduced to 21-22% of pre-conflict levels following recent US strikes on Iranian radar and telecommunications facilities. Claims appear designed to signal degradation of Iranian strike capability and underscore US military superiority. Statement from Jerusalem Post and Anadolu Ajans suggests either propaganda messaging or genuine assessment of Iranian losses\u2014critical for understanding remaining Iranian conventional threat.",
+      "region": "Iran / Persian Gulf",
+      "source": "incidents,telegram",
+      "confidence": "medium"
+    },
+    {
+      "severity": "critical",
+      "category": "incident",
+      "title": "Iran fires 7 ballistic missiles at Kuwait and Bahrain; US intercepts 6",
+      "summary": "Iran launched 7 ballistic missiles targeting Kuwait airport and Bahrain on 6 June. CENTCOM reports 6 missiles intercepted and 1 failed to reach target. Attack killed 1 person and injured 63 at Kuwait airport per Guardian and CBS News. Escalation occurs despite active ceasefire negotiations, marking direct Iranian response to earlier US strikes on Sirik and Qeshm Island facilities.",
       "region": "Persian Gulf / Kuwait / Bahrain",
       "source": "incidents,telegram",
       "confidence": "high"
     },
     {
-      "severity": "critical",
+      "severity": "high",
+      "category": "incident",
+      "title": "Houthis escalate Red Sea attacks; Iran pressuring missile and drone strikes",
+      "summary": "Houthis conducting multiple attacks on Red Sea shipping and Israel, with reports indicating Iran is pressuring group to target oil tankers. Four separate incidents reported killing 3 crew members and destroying vessels. Attacks threaten global shipping routes and signal Iranian coordination with proxies despite ceasefire talks. Red Sea operational tempo increasing per AP News, BBC, France 24.",
+      "region": "Red Sea / Yemen",
+      "source": "incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
       "category": "nuclear",
-      "title": "Iran maintains 60% U-235 enrichment; IAEA verification gap widens",
-      "summary": "IAEA unable to verify Iran's enriched uranium stockpile since fighting escalated, per global_metrics nuclear headlines (Reuters, NYT, MSN). Iran continues 60% U-235 enrichment with ~1-2 week weapons-grade breakout window. UN inspectors lack access to inventory data, creating critical intelligence gap. IAEA reports Iran charges inspectors with politicizing assessments, while enrichment continues unmonitored parallel to active military operations.",
+      "title": "IAEA verification gap widens; Iran maintains 60% U-235 enrichment unmonitored",
+      "summary": "UN inspectors unable to verify Iran's enriched uranium inventory since fighting escalated, per Reuters/NYT/MSN nuclear headlines in global_metrics. Iran continues 60% U-235 enrichment with ~1-2 week weapons-grade breakout window. IAEA reports inability to inspect facilities hit in recent strikes, creating critical intelligence blind spot. Iran formally accusing IAEA of politicizing assessments while enrichment continues parallel to active military operations.",
       "region": "Iran",
       "source": "global_metrics,incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Israeli strikes in Lebanon kill 10 soldiers despite new US-brokered ceasefire",
-      "summary": "Israeli military continued offensive operations in southern Lebanon on 6 June despite renewed ceasefire agreement, killing at least 10 people including 3 Lebanese Army soldiers per incidents feed (Al Jazeera, Jerusalem Post). Strikes target Lebanese military positions in violation of diplomatic accord. Hezbollah formally rejected ceasefire with Iranian backing. Israeli operations undermine US diplomatic efforts and risk wider regional conflagration.",
-      "region": "Northern Israel / Lebanon",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "telegram_signal",
-      "title": "US Sirik surveillance strike kills Iranian personnel; testing restraint strategy",
-      "summary": "Middle East Spectator Telegram post (~47K views) reports US airstrike on Sirik telecommunications and surveillance facility killed 1 Iranian military personnel. OSINT analysis notes strikes are 'militarily insignificant and mostly symbolic in nature, testing Iran's restraint.' Escalation pattern suggests deliberate calibration to avoid nuclear-level response while maintaining pressure on Iranian military infrastructure.",
-      "region": "Persian Gulf / Iran",
-      "source": "telegram,incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
       "category": "sentiment_shift",
-      "title": "US sentiment on Iran conflict sharply negative; Trump dominates war discourse",
-      "summary": "US sentiment analysis shows 55% negative vs 41% positive on conflict, with 'Trump' (54 mentions), 'war' (8), and 'talks' (7) dominating trending terms per sentiment feed. Sharp negative shift reflects 100+ days of sustained operations, domestic political friction over escalation strategy, and failed diplomatic breakthroughs. Sentiment polarity increasingly pessimistic on near-term resolution despite ceasefire negotiation claims.",
-      "region": "Global / United States",
+      "title": "US news sentiment darkens sharply; 'Trump,' 'war,' 'talks' dominate discourse",
+      "summary": "US sentiment analysis shows negative sentiment spike to 56% (up from prior baseline), with 'Trump' (48 mentions), 'war' (10), and 'talks' (9) as top trending terms. Spike reflects uncertainty over ceasefire durability, missile defense successes, and Trump administration messaging on Iran campaign. Word cloud shift suggests public focus on whether negotiations or further escalation will prevail. Contrast with India's more balanced sentiment (49% positive) indicates US domestic polarization.",
+      "region": "Global",
       "source": "sentiment",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "The US-Iran conflict remains in critical escalation phase with fragile ceasefire framework repeatedly tested by reciprocal strikes, nuclear advancement unmonitored, and proxy operations (Hezbollah, Houthis) sustaining pressure across multiple theaters while global oil markets remain volatile at $93/bbl.",
+  "analysis_note": "The US-Iran ceasefire is fragile and tested hourly by reciprocal strikes, missile interceptions, and proxy escalations; nuclear verification gaps and Iranian enrichment continuation create imminent breakout risk while Trump administration signals both restraint-testing and continued pressure.",
   "meta": {
-    "input_tokens": 20344,
+    "input_tokens": 20275,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 814,
-    "cost_usd": 0.0244,
+    "output_tokens": 789,
+    "cost_usd": 0.0242,
     "wall_time_s": 11.8,
-    "data_hash": "a53cb76f34bbe0a0bb1c9b1d26e61a1670744fce5a532ae04c3cfeedaceea23b"
+    "data_hash": "7602c5db7c5302ab797cfca688f99ad31118d9a54ff8ae18db5d2832a10b94e5"
   }
 }
