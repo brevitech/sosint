@@ -1,22 +1,22 @@
 {
   "us": {
     "positive": 40,
-    "negative": 55,
-    "neutral": 5,
+    "negative": 52,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 42,
+        "count": 43,
         "sentiment": "neutral"
       },
       {
         "word": "ukraine",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "drone",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -35,8 +35,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pope",
-        "count": 7,
+        "word": "near",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -45,17 +45,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "russian",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "near",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
+        "word": "fuel",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -65,7 +60,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "pope",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hits",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -75,28 +80,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "russian",
+        "word": "nuclear",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "china",
         "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "experts",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fuel",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -153,39 +143,44 @@
         "word": "europe",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "immigration",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 5,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-07T13:43:05.348520+00:00",
-    "nextRefresh": "2026-06-07T13:43:05.348520+00:00",
-    "articlesAnalyzed": 318,
-    "matchedMentions": 139,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-06-07T15:21:14.002370+00:00",
+    "nextRefresh": "2026-06-07T15:21:14.002370+00:00",
+    "articlesAnalyzed": 348,
+    "matchedMentions": 145,
+    "uniquePersonalities": 56,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 54,
-    "negative": 25,
-    "neutral": 21,
+    "positive": 56,
+    "negative": 28,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "india",
-        "count": 24,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 14,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bloc",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -194,37 +189,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "eyes",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "help",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "minister",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dipke",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "suthar",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -239,17 +209,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meeting",
+        "word": "cbse",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -259,9 +219,29 @@
         "sentiment": "neutral"
       },
       {
+        "word": "bloc",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "tomorrow",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "polls",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dmk",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "help",
+        "count": 4,
+        "sentiment": "positive"
       },
       {
         "word": "frenemy",
@@ -269,42 +249,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mamata",
+        "word": "congress",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "cjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lpg",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cockroach",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "party",
-        "count": 4,
-        "sentiment": "positive"
       },
       {
         "word": "debut",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "test",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hai",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -314,17 +264,67 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cbse",
+        "word": "target",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "plan",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nurses",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minister",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "singh",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "policy",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cockroach",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "party",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "dipke",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "manav",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "stars",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-07T13:43:16.708093+00:00",
-    "nextRefresh": "2026-06-07T13:43:16.708093+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 84,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-06-07T15:21:24.555010+00:00",
+    "nextRefresh": "2026-06-07T15:21:24.555010+00:00",
+    "articlesAnalyzed": 478,
+    "matchedMentions": 64,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
