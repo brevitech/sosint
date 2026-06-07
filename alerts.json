@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-07T05:18:53.541992+00:00",
+  "generated_at": "2026-06-07T11:06:18.294826+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Trump claims Iran retains only 21% of missile capacity after US airstrikes",
-      "summary": "Trump administration asserts Iran's ballistic missile stockpile has been reduced to 21-22% of pre-conflict levels following recent US strikes on Iranian radar and telecommunications facilities. Claims appear designed to signal degradation of Iranian strike capability and underscore US military superiority. Statement from Jerusalem Post and Anadolu Ajans suggests either propaganda messaging or genuine assessment of Iranian losses\u2014critical for understanding remaining Iranian conventional threat.",
-      "region": "Iran / Persian Gulf",
-      "source": "incidents,telegram",
-      "confidence": "medium"
+      "title": "US downs Iranian drones over Strait of Hormuz amid ceasefire fragility",
+      "summary": "US military shot down 2 Iranian drones above the Strait of Hormuz on 6 June, escalating tensions despite ongoing ceasefire negotiations. Multiple incidents reported near critical chokepoint per Anadolu Agensi and WQAD. Repeated drone incursions signal Iranian pressure-testing of US air defenses and threat to global shipping.",
+      "region": "Strait of Hormuz",
+      "source": "incidents",
+      "confidence": "high"
     },
     {
       "severity": "critical",
-      "category": "incident",
-      "title": "Iran fires 7 ballistic missiles at Kuwait and Bahrain; US intercepts 6",
-      "summary": "Iran launched 7 ballistic missiles targeting Kuwait airport and Bahrain on 6 June. CENTCOM reports 6 missiles intercepted and 1 failed to reach target. Attack killed 1 person and injured 63 at Kuwait airport per Guardian and CBS News. Escalation occurs despite active ceasefire negotiations, marking direct Iranian response to earlier US strikes on Sirik and Qeshm Island facilities.",
-      "region": "Persian Gulf / Kuwait / Bahrain",
-      "source": "incidents,telegram",
+      "category": "nuclear",
+      "title": "IAEA verification gap widens as Iran maintains 60% enrichment unmonitored",
+      "summary": "UN nuclear inspectors unable to verify Iran's enriched uranium inventory since fighting escalated, per Reuters and NYT nuclear headlines. Iran continues 60% U-235 enrichment with estimated 1-2 week weapons-grade breakout window. Lack of IAEA oversight creates acute proliferation risk amid active conflict.",
+      "region": "Iran",
+      "source": "global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Houthis escalate Red Sea attacks; Iran pressuring missile and drone strikes",
-      "summary": "Houthis conducting multiple attacks on Red Sea shipping and Israel, with reports indicating Iran is pressuring group to target oil tankers. Four separate incidents reported killing 3 crew members and destroying vessels. Attacks threaten global shipping routes and signal Iranian coordination with proxies despite ceasefire talks. Red Sea operational tempo increasing per AP News, BBC, France 24.",
-      "region": "Red Sea / Yemen",
+      "title": "Israel and Lebanon renew ceasefire as Israeli strikes kill 12 officers in southern Lebanon",
+      "summary": "Israel and Lebanon agree to ceasefire renewal amid ongoing military operations. Israeli attacks in southern Lebanon killed 12 people including high-ranking officers on 6 June per Al Jazeera. Ceasefire fragility evident with simultaneous Israeli-Lebanese strikes suggesting renewed escalation cycle.",
+      "region": "Northern Israel / Lebanon border",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "nuclear",
-      "title": "IAEA verification gap widens; Iran maintains 60% U-235 enrichment unmonitored",
-      "summary": "UN inspectors unable to verify Iran's enriched uranium inventory since fighting escalated, per Reuters/NYT/MSN nuclear headlines in global_metrics. Iran continues 60% U-235 enrichment with ~1-2 week weapons-grade breakout window. IAEA reports inability to inspect facilities hit in recent strikes, creating critical intelligence blind spot. Iran formally accusing IAEA of politicizing assessments while enrichment continues parallel to active military operations.",
-      "region": "Iran",
-      "source": "global_metrics,incidents",
+      "category": "incident",
+      "title": "Houthis intensify Red Sea shipping attacks; Iran pressure campaign confirmed",
+      "summary": "Houthis conducting multiple Red Sea attacks on shipping and Israel, with confirmed reporting that Iran is pressuring group to target oil tankers. Four separate maritime incidents reported; 3 crew killed per Ahram Online, SCMP, and Courthouse News. Houthi-Iranian coordination threatens global commerce and signals escalating proxy pressure.",
+      "region": "Red Sea / Yemen",
+      "source": "incidents",
       "confidence": "high"
     },
     {
-      "severity": "high",
+      "severity": "medium",
       "category": "sentiment_shift",
-      "title": "US news sentiment darkens sharply; 'Trump,' 'war,' 'talks' dominate discourse",
-      "summary": "US sentiment analysis shows negative sentiment spike to 56% (up from prior baseline), with 'Trump' (48 mentions), 'war' (10), and 'talks' (9) as top trending terms. Spike reflects uncertainty over ceasefire durability, missile defense successes, and Trump administration messaging on Iran campaign. Word cloud shift suggests public focus on whether negotiations or further escalation will prevail. Contrast with India's more balanced sentiment (49% positive) indicates US domestic polarization.",
+      "title": "US negative sentiment reaches 54%; conflict-related keywords dominate discourse",
+      "summary": "US news sentiment swung sharply negative to 54% versus 40% positive, with 'Trump,' 'war,' 'Iran,' and 'talks' topping word-frequency analysis. Shift reflects public anxiety over ongoing US-Iran hostilities and ceasefire volatility. Sentiment data from current OSINT feed shows deteriorating domestic consensus on conflict trajectory.",
       "region": "Global",
       "source": "sentiment",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "The US-Iran ceasefire is fragile and tested hourly by reciprocal strikes, missile interceptions, and proxy escalations; nuclear verification gaps and Iranian enrichment continuation create imminent breakout risk while Trump administration signals both restraint-testing and continued pressure.",
+  "analysis_note": "The US-Iran conflict theater remains in critical escalation phase with active kinetic operations, nuclear proliferation acceleration, and proxy coordination intensifying despite formal ceasefire talks\u2014threat level locked at 9 (imminent)\u2014while US arsenal depletion and regional diplomatic fragmentation compound medium-term strategic risk.",
   "meta": {
-    "input_tokens": 20275,
+    "input_tokens": 20434,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 789,
-    "cost_usd": 0.0242,
-    "wall_time_s": 11.8,
-    "data_hash": "7602c5db7c5302ab797cfca688f99ad31118d9a54ff8ae18db5d2832a10b94e5"
+    "output_tokens": 675,
+    "cost_usd": 0.0238,
+    "wall_time_s": 9.7,
+    "data_hash": "5045a14fe5bd2d58ddee4a027d7533f5b5947d6702c0a0f3fd1dda7aa870b1fd"
   }
 }
