@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-07T11:06:18.294826+00:00",
+  "generated_at": "2026-06-07T17:11:06.126846+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "US downs Iranian drones over Strait of Hormuz amid ceasefire fragility",
-      "summary": "US military shot down 2 Iranian drones above the Strait of Hormuz on 6 June, escalating tensions despite ongoing ceasefire negotiations. Multiple incidents reported near critical chokepoint per Anadolu Agensi and WQAD. Repeated drone incursions signal Iranian pressure-testing of US air defenses and threat to global shipping.",
-      "region": "Strait of Hormuz",
+      "title": "Iran launches attack on Kuwait; ceasefire frays across multiple fronts",
+      "summary": "Iran reportedly launched a direct attack on Kuwait airport as Israel and Lebanon renew ceasefire amid simultaneous Israeli strikes killing 12 including officers, per CBS News, Al Jazeera, and AP News. Multiple concurrent exchanges in Persian Gulf and Israel-Lebanon border indicate cascade of ceasefire violations and escalating proxy pressure.",
+      "region": "Persian Gulf / Northern Israel-Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "IAEA verification gap widens as Iran maintains 60% enrichment unmonitored",
-      "summary": "UN nuclear inspectors unable to verify Iran's enriched uranium inventory since fighting escalated, per Reuters and NYT nuclear headlines. Iran continues 60% U-235 enrichment with estimated 1-2 week weapons-grade breakout window. Lack of IAEA oversight creates acute proliferation risk amid active conflict.",
+      "title": "Iran 60% enrichment unmonitored; IAEA verification gap persists amid conflict",
+      "summary": "UN nuclear inspectors remain unable to verify Iran's enriched uranium stockpile and enrichment activities since fighting escalated, per Reuters and multiple nuclear headlines. Iran maintains 60% U-235 enrichment with estimated 1-2 week weapons-grade breakout window. US drafting IAEA resolution demanding Iran account for bombed nuclear sites, but verification gap creates acute proliferation risk.",
       "region": "Iran",
-      "source": "global_metrics",
+      "source": "global_metrics,incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel and Lebanon renew ceasefire as Israeli strikes kill 12 officers in southern Lebanon",
-      "summary": "Israel and Lebanon agree to ceasefire renewal amid ongoing military operations. Israeli attacks in southern Lebanon killed 12 people including high-ranking officers on 6 June per Al Jazeera. Ceasefire fragility evident with simultaneous Israeli-Lebanese strikes suggesting renewed escalation cycle.",
-      "region": "Northern Israel / Lebanon border",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Houthis intensify Red Sea shipping attacks; Iran pressure campaign confirmed",
-      "summary": "Houthis conducting multiple Red Sea attacks on shipping and Israel, with confirmed reporting that Iran is pressuring group to target oil tankers. Four separate maritime incidents reported; 3 crew killed per Ahram Online, SCMP, and Courthouse News. Houthi-Iranian coordination threatens global commerce and signals escalating proxy pressure.",
+      "title": "Houthis escalate Red Sea attacks; Iran coordination confirmed on tanker targeting",
+      "summary": "Houthis conducting sustained maritime attacks in Red Sea with confirmed reporting that Iran pressures group to target oil tankers specifically, per South China Morning Post and Courthouse News. Four separate incidents reported with 3 crew killed; Houthi-Iranian coordination signals deliberate economic pressure on global shipping and proxy escalation signal.",
       "region": "Red Sea / Yemen",
       "source": "incidents",
       "confidence": "high"
     },
     {
-      "severity": "medium",
-      "category": "sentiment_shift",
-      "title": "US negative sentiment reaches 54%; conflict-related keywords dominate discourse",
-      "summary": "US news sentiment swung sharply negative to 54% versus 40% positive, with 'Trump,' 'war,' 'Iran,' and 'talks' topping word-frequency analysis. Shift reflects public anxiety over ongoing US-Iran hostilities and ceasefire volatility. Sentiment data from current OSINT feed shows deteriorating domestic consensus on conflict trajectory.",
-      "region": "Global",
-      "source": "sentiment",
+      "severity": "high",
+      "category": "asset_movement",
+      "title": "US concentrates three destroyers in Red Sea as Houthi threat escalates",
+      "summary": "USS Carney, USS Mason, and USS Laboon positioned in Red Sea alongside USS Eisenhower carrier and USS Bataan amphibious ship, per OSINT asset tracking. Destroyer concentration signals US readiness to defend shipping lanes against intensifying Houthi-Iranian maritime campaign.",
+      "region": "Red Sea",
+      "source": "assets",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
+      "category": "incident",
+      "title": "Trump claims Iran retains only 21-22% of missile capacity after US strikes",
+      "summary": "Former President Trump stated Iran has lost 78-79% of its missile and drone capacity in recent air campaign, per TODAY.com and Jerusalem Post. If accurate, claim indicates significant degradation of Iranian strike capability, though assessment awaiting independent ISW or US military confirmation. Statement may signal US confidence in weakening Iranian retaliation options.",
+      "region": "Iran",
+      "source": "incidents",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "The US-Iran conflict theater remains in critical escalation phase with active kinetic operations, nuclear proliferation acceleration, and proxy coordination intensifying despite formal ceasefire talks\u2014threat level locked at 9 (imminent)\u2014while US arsenal depletion and regional diplomatic fragmentation compound medium-term strategic risk.",
+  "analysis_note": "The US-Iran conflict theater shows critical fragmentation: nuclear breakout window narrowing amid verification gaps, ceasefire mechanics failing across three regional fronts (Persian Gulf, Israel-Lebanon, Red Sea), and proxy coordination intensifying while Iran's conventional strike capacity reportedly degraded\u2014creating asymmetric escalation pressure.",
   "meta": {
-    "input_tokens": 20434,
+    "input_tokens": 27357,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 675,
-    "cost_usd": 0.0238,
-    "wall_time_s": 9.7,
-    "data_hash": "5045a14fe5bd2d58ddee4a027d7533f5b5947d6702c0a0f3fd1dda7aa870b1fd"
+    "output_tokens": 673,
+    "cost_usd": 0.0307,
+    "wall_time_s": 10.9,
+    "data_hash": "f4fe596ef5d8fc1cc2b14c055b46d274f29e7df17e46a5ae7761b158edcefc29"
   }
 }

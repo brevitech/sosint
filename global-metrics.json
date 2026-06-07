@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T15:21:29.295656+00:00",
+  "generatedAt": "2026-06-07T17:10:52.520948+00:00",
   "dataSource": "live-osint",
   "economy": {
     "brentCrude": 93.09,
@@ -32,9 +32,9 @@
       "published": "Tue, 17 Mar 2026 07:00:00 GMT"
     },
     {
-      "title": "When the war in Iran comes home: Why the US isn’t ready for increasing hybrid threats - Bulletin of the Atomic Scientists",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMUtPS3liSTRLUGdOWmVfYWkxdFFuaGIwamhXWmZTam11dTlzcnpmZk85aVVxbmhLVGROSmJJbmJkM25NQWFxWGFxZ3Z6YXJZT0t6MTBJR3prUG53NmxXVl83WkJIY1VuYXZqVENpbmpwVUw5LW0yYXNPeWF6a0kwb1hvenhKbkpuLVdsb1BrZjFSelllOUpoR3h3eDYzZUdXQnN1N2l1WTVPTVdmTENSS1gtdGV5b00?oc=5",
-      "published": "Sun, 12 Apr 2026 07:00:00 GMT"
+      "title": "Cyber Brief: The Middle East Conflict Is Also A Cyberwar That Has Increased Digital Risk - S&P Global",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZUExd0pxb2ZtY2tQWTd2akRtRjBqY0ZFNlJuRzFxajdwTDhkTTZ1WFc0LTMzQ3lDaGRveE1teV9ySXJVUzdJaFE0anZIRnVTWlBoNEVHUHdRa1o2R2JjUzAyVDhxdG4yMmQtT0RVeEY2NTNJTFlHdFVuQV8yX01HeHVqTUhfbE1HOV9CYzJNdkdvMTNmNGpIN2llaFp5bmtNR1ZPY01sTUUtbUpFXzI1ekhSSTM5enNiSkpsUGx1RWkwLUpzWWdsVHpENjZ6dlVvNFdJTFBQVDdkNjB4X19BY0o3VWpYaGJL?oc=5",
+      "published": "Thu, 12 Mar 2026 07:00:00 GMT"
     }
   ],
   "threat": {
@@ -42,7 +42,7 @@
     "label": "CRITICAL — IMMINENT ESCALATION"
   },
   "proxies": {
-    "Hezbollah": "Active",
+    "Hezbollah": "Elevated - Active Exchanges",
     "Houthis (Ansar Allah)": "Elevated - Multiple Recent Attacks",
     "Iraqi Shiite Militias (PMF)": "Elevated - Base Strikes Detected",
     "Hamas": "Degraded",
@@ -53,9 +53,14 @@
     "breakout": "~1-2 weeks (estimated)",
     "news": [
       {
-        "title": "US resolution draft at IAEA demands Iran open up on sites, uranium stocks - Reuters",
+        "title": "US draft resolution at IAEA demands Iran open up on sites, uranium stocks - Reuters",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWUM3R3dKX21nNlNJX0RpUlpmRTlGWGc5THZwYXZjdXE2Z0M0dUVfaVpPTVhhajZZQTZIQ3JfTzNKMkZ6UUpMazRFbzFlSmRSdDFaVnRSbFl1OV9fSUs3QWU1S1RHMUJoVVQwbm9KejJnMXFOUXpudVhZaXd6a0lDV1pJYk5RdG1UaWhZOFE2b3poUU5RcFVnVmRPUFRNWmwtdi1jeGc4MXZmQWlkNVBQeGcyckRZSTh5SWRZ?oc=5",
-        "published": "Sun, 07 Jun 2026 13:20:27 GMT"
+        "published": "Sun, 07 Jun 2026 15:26:42 GMT"
+      },
+      {
+        "title": "US lobbying for draft resolution forcing Iran to reveal fate of nuclear sites - The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1tRFNsX19Md0Q0QjkyNEtRSE1CSExJdl9RbTRvcExjZk9hbnN2Mm1XX1RNU2kxb2poMlBLNzJYNFdaRmplRENOcklrTTdTSlFYZThwcmhkbmZBSWt3VW5aVXVNYlFCTXlDLXc?oc=5",
+        "published": "Sun, 07 Jun 2026 15:46:13 GMT"
       },
       {
         "title": "US Drafts IAEA Resolution Demanding Iran Account For Bombed Nuclear Sites - Report - i24NEWS",
@@ -63,19 +68,14 @@
         "published": "Sun, 07 Jun 2026 14:05:00 GMT"
       },
       {
-        "title": "US resolution text at IAEA demands Iran open up on sites, uranium stocks - Al Arabiya English",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMFdXNnd4bm5uSDEyLUYxQjZzRVpfa1hVd0ZlUGRNMzZkRVJja3ktMnNmaVpZYTZNczBMT2luM1VRTGJDZDRpTGVZUjNlVDVIS2dyQXpEUFZaOFZPcXVFTlppTlVLQ1MxdWgtR1NvcUJNazBXdS1RNThZN3BFQU94ZEl2N3VUSlFZaXlwTk90Q1M2N0VJRkZYS3FjSDVKSEk4bmdWUEVkeElLeEhGN2pnLVNieE1tMGFmX1VrWlZvM3VodVRqZWtQdNIBzgFBVV95cUxQV0hGLWdBVVVtbDFtRlVJeWMyLTVJcVNTN0o1Z3VKWWtuQzJJSHozV2RoT0ZEZ0h4ZFYxejhPVzQ5UG40Y09PRTllOFczZXl6OEw5SEt3THd5eS0xenNrU2c1RHRiaGpZOHNZN3ctZzdJWkw3eTBUd09WMjY2bEtTVWRzaUp4SlhKOVBXOTVqU1BCdWc0NlJrNWJDdERrTHpFM2ZYQV9vYXRFT0RGZDB2S244UDI4ZFlZeFhWQnRSZmZFcW9SaVFLV0RKZGhoQQ?oc=5",
-        "published": "Sun, 07 Jun 2026 12:44:00 GMT"
-      },
-      {
         "title": "IAEA report shows little change in Iran nuclear program despite conflict - The Journal Record",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPanVJOXgyNXh3RUItb3QtOHl6N1pIam1LQUQ5MFJXNFl3ZHd1cVhtX0hCWl9seUhad3hhWEZmdlZtc2kxU3o0RTc2a0NjZW92QzFiaXNSaXRoazh3OU1LbEdpUmg2UXBVNmxoZS0yOFNmeXV4SXg4UGdpN1J1X1hlb1dYQmlxRUxIcEtHYXFRUQ?oc=5",
         "published": "Thu, 04 Jun 2026 18:19:39 GMT"
       },
       {
-        "title": "IAEA has been unable to inspect Iran's nuclear facilities hit in war - Ynetnews",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGYmtGamgzeFB2Rm9uSXVGNjkybEd5c3NRRmtlLUxhQTZTZk44dGt1di1zZ3VTbVZiNS1QOXFpM1pZMHd5Zk1KVWVlT21sLVVQRUpGeTdB?oc=5",
-        "published": "Fri, 05 Jun 2026 03:03:25 GMT"
+        "title": "Iran nuclear program relatively unchanged since start of war: IAEA - The Hill",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xTXo5QkZxZVRVcnhMQWRxTUxaUnd6ZXpLNWZDVmpGTm9XSWxKQng1VmdLZmVPeS00QUhiajYwODBZeThuZXRPMEhZOS13LUlBNFNMOVk2REpoMl93bGZyeE9JWG1sM1BCWTZzcG9VTdIBdEFVX3lxTE9pQWMzQ19QazhVd0EySFhFbHVTQmZScGFGR2dsVVh4WHdPcGJIUFd0eExKZEJhY2xQS19FbzRrVWwtTWcyVmN2U1U1bFRxcEl4a19wa0NhTUk4VlJtRmNxV2JMWWlZSjQ3cURZT2xubDNIRS1h?oc=5",
+        "published": "Thu, 04 Jun 2026 19:18:00 GMT"
       }
     ]
   },
