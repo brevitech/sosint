@@ -1,37 +1,32 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 56,
+    "positive": 37,
+    "negative": 58,
     "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 48,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 10,
+        "count": 46,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 10,
+        "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "leaders",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "talks",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 9,
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -40,38 +35,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pope",
+        "word": "leaders",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "spain",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "starmer",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "host",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republican",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "insider",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trading",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -100,22 +65,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "former",
+        "word": "pope",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "convicted",
+        "word": "center",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "women",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "end",
+        "word": "china",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -135,7 +95,12 @@
         "sentiment": "positive"
       },
       {
-        "word": "deal",
+        "word": "insider",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trading",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -150,42 +115,77 @@
         "sentiment": "neutral"
       },
       {
+        "word": "republican",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "democrats",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "warns",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "gop",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "spain",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leo",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attacks",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "invasion",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-07T05:18:31.009429+00:00",
-    "nextRefresh": "2026-06-07T05:18:31.009429+00:00",
-    "articlesAnalyzed": 346,
-    "matchedMentions": 155,
-    "uniquePersonalities": 52,
+    "generatedAt": "2026-06-07T08:49:49.341409+00:00",
+    "nextRefresh": "2026-06-07T08:49:49.341409+00:00",
+    "articlesAnalyzed": 350,
+    "matchedMentions": 142,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 49,
-    "negative": 33,
-    "neutral": 18,
+    "positive": 40,
+    "negative": 39,
+    "neutral": 21,
     "wordCloud": [
       {
         "word": "india",
-        "count": 20,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
-        "count": 8,
+        "word": "singh",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "afghanistan",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "yadav",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -194,92 +194,82 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sourav",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ganguly",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shreyas",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
+        "word": "cjp",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "team",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "arrest",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "nepal",
-        "count": 4,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "border",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "price",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dipke",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shreyas",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "resigns",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "pradhan",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "yusuf",
+        "word": "amid",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "pathan",
+        "word": "khan",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "cjp",
+        "word": "khanna",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "shaktimaan",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
+        "word": "co-star",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "captain",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kohli",
+        "word": "reacts",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -289,42 +279,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pressure",
+        "word": "yadav",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "engineers",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abhishek",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "party",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "collapse",
+        "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "projects",
+        "word": "bjp",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "singh",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minister",
+        "word": "lpg",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-07T05:18:42.294660+00:00",
-    "nextRefresh": "2026-06-07T05:18:42.294660+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 93,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-06-07T08:50:02.513045+00:00",
+    "nextRefresh": "2026-06-07T08:50:02.513045+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 84,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
