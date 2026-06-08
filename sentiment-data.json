@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 30,
-    "negative": 64,
-    "neutral": 6,
+    "positive": 27,
+    "negative": 66,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,6 +11,11 @@
       },
       {
         "word": "iran",
+        "count": 22,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
         "count": 15,
         "sentiment": "neutral"
       },
@@ -20,43 +25,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "election",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "israel",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "platner",
+        "word": "house",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "congress",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "clash",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "election",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lawsuit",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "against",
-        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -65,8 +45,38 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "clash",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strikes",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "seeks",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "platner",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "allies",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -75,32 +85,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "despite",
+        "word": "deal",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "campaign",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seeks",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ufc",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "drone",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "netanyahu",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "exchange",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -110,12 +110,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "khanna",
+        "word": "block",
         "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "lawsuit",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "china",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "graham",
+        "word": "talks",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "maine",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "voters",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "campaign",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -125,76 +150,101 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fight",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "south",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hits",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "allies",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "peace",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "claim",
+        "word": "nba",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-08T05:27:29.751337+00:00",
-    "nextRefresh": "2026-06-08T05:27:29.751337+00:00",
-    "articlesAnalyzed": 341,
-    "matchedMentions": 160,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-06-08T10:28:17.305022+00:00",
+    "nextRefresh": "2026-06-08T10:28:17.305022+00:00",
+    "articlesAnalyzed": 340,
+    "matchedMentions": 164,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 50,
-    "negative": 27,
-    "neutral": 23,
+    "positive": 49,
+    "negative": 32,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "india",
-        "count": 24,
+        "count": 22,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mps",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "bloc",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "suthar",
+        "word": "tmc",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "takes",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rajya",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sabha",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minister",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chess",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trinamool",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "sukhendu",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ray",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bengal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -204,29 +254,39 @@
         "sentiment": "neutral"
       },
       {
-        "word": "afghanistan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "film",
+        "word": "vijay",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "takes",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
+        "word": "banerjee",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "indian",
+        "word": "attends",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "parallel",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "huddle",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "khan",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrested",
+        "count": 4,
+        "sentiment": "negative"
       },
       {
         "word": "meeting",
@@ -234,97 +294,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "kharge",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "praggnanandhaa",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
-        "count": 3,
+        "word": "game",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "help",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "collection",
-        "count": 3,
+        "word": "lakh",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "peddi",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "charan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sanjay",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jha",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "idea",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "exchange",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "destroyed",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "alliance",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kejriwal",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rajasthan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jadeja",
-        "count": 3,
+        "word": "puri",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-08T05:27:43.055799+00:00",
-    "nextRefresh": "2026-06-08T05:27:43.055799+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 74,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-06-08T10:28:32.739590+00:00",
+    "nextRefresh": "2026-06-08T10:28:32.739590+00:00",
+    "articlesAnalyzed": 480,
+    "matchedMentions": 91,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   }
 }

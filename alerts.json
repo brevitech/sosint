@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-08T05:28:28.737443+00:00",
+  "generated_at": "2026-06-08T10:29:00.567815+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran launches second ballistic missile salvo at Israel; ceasefire unraveling",
-      "summary": "Iranian forces fired at least 12 additional ballistic missiles at northern Israel in a second wave within 15 minutes of the first strike, according to Israeli media reports and Rybar Telegram analysis. Launches originated from Tabriz and Isfahan; Israeli air defenses reported active interception over Haifa. This marks sustained escalation following Israeli strikes on Beirut's Hezbollah headquarters (Ad-Dakhieh) that killed civilians, signaling ceasefire collapse and potential entry into direct Iran-Israel kinetic war phase.",
+      "title": "Israel strikes Iran after direct ballistic missile attack; ceasefire collapses",
+      "summary": "Iran launched at least 4 ballistic missiles at northern Israel in response to Israeli strikes on Beirut's Ad-Dakhieh Hezbollah headquarters, per Rybar and Israeli media. Israel conducted retaliatory strikes on Iranian targets including petrochemical facilities. This marks the first direct Iran-Israel kinetic exchange since April ceasefire, signaling collapse of de-escalation efforts and entry into sustained direct warfare phase.",
       "region": "Israel / Iran",
       "source": "incidents, telegram",
       "confidence": "high"
@@ -15,48 +15,48 @@
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran nuclear enrichment at 60% U-235; breakout window narrows to 1-2 weeks",
-      "summary": "US intelligence and IAEA reporting confirm Iranian uranium enrichment has reached 60% U-235 purity with estimated breakout time of 1-2 weeks, per multiple sources in global_metrics nuclear headlines. Simultaneous US draft IAEA resolution demands Iran account for bombed nuclear sites and uranium stocks. Escalation in kinetic theater combined with accelerated nuclear timeline creates compounding strategic crisis.",
+      "title": "Iran uranium enrichment reaches 60% U-235; breakout window 1-2 weeks",
+      "summary": "US intelligence and IAEA confirm Iranian uranium enrichment at 60% U-235 purity with estimated breakout time narrowed to 1-2 weeks, per global_metrics nuclear headlines. Simultaneous US draft IAEA resolution demands Iran disclose fate of bombed nuclear sites and uranium stocks. Kinetic escalation combined with accelerated nuclear timeline creates compounding strategic crisis.",
       "region": "Global",
       "source": "global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
+      "category": "telegram_signal",
+      "title": "Trump orders Netanyahu to cease Iran retaliation; directive ignored overnight",
+      "summary": "Trump stated he would call Netanyahu and demand Israel not strike Iran in response to Iranian missile attack, per Rybar Telegram analysis (~125K views). Despite Trump's de-escalation messaging and claims war would 'soon end,' Israel conducted ~20 strikes on Iranian military targets overnight across Tehran, Tabriz, Isfahan, Qeredagh, and Kermanshah. Signals US-Israel alignment fracture and failed diplomatic constraint.",
+      "region": "Global",
+      "source": "telegram",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
       "category": "sentiment_shift",
-      "title": "US sentiment collapses to 64% negative amid Iran escalation and Trump diplomacy debate",
-      "summary": "Negative sentiment in US news spiked to 64% (up from baseline) with Trump dominating trending terms (67 mentions). Word frequencies show 'clash,' 'deal,' and 'drone' rising sharply alongside Iran and Israel mentions, reflecting public anxiety over escalation control and Trump's de-escalation messaging versus military realities. Sentiment swing indicates domestic political fracture over conflict posture.",
+      "title": "US domestic sentiment collapses to 66% negative as Iran escalation dominates",
+      "summary": "Negative sentiment in US news increased to 66% with Trump dominating trending terms (67 mentions alongside 'clash' and 'strikes'). Word frequency analysis shows 'interview,' 'deal,' and 'election' rising sharply, reflecting public anxiety over escalation control versus Trump's diplomatic posturing. Sentiment swing indicates deep domestic political division over conflict posture and credibility.",
       "region": "Global",
       "source": "sentiment",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Israel strikes Beirut's Ad-Dakhieh Hezbollah center despite Trump restraint appeal",
-      "summary": "Israeli warplanes struck Hezbollah's historic headquarters in southern Beirut suburb using US-supplied GBU precision munitions, killing at least 2 civilians, per Al Jazeera and New York Times. Strike occurred after Trump's explicit public statement urging Netanyahu 'not to strike back' and calling Iran missile response 'enough.' Israeli defiance of Trump's restraint call signals Netanyahu's rejection of de-escalation and direct challenge to US diplomatic authority.",
-      "region": "Lebanon",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
       "category": "asset_movement",
-      "title": "Threat level jumps to 9/10 CRITICAL; three carrier strike groups maintain forward posture amid dual escalation",
-      "summary": "Global threat meter escalated to 9/10 (CRITICAL\u2014IMMINENT ESCALATION) per global_metrics. USS Dwight D. Eisenhower, USS Abraham Lincoln, and USS Gerald R. Ford remain deployed across Red Sea, Arabian Sea, and Mediterranean; USS Florida submarine positioned in Persian Gulf. Brent crude spiked to $97.35/bbl; Iranian rial weakened to 1.37M/USD. Proxy status elevated: Hezbollah active, Houthis conducting multiple recent attacks, Iraqi Shiite militias elevated with detected base strikes.",
-      "region": "Global",
-      "source": "global_metrics, assets",
-      "confidence": "high"
+      "title": "US carrier strike groups maintain critical positioning amid direct Iran-Israel war",
+      "summary": "USS Dwight D. Eisenhower (Carrier) remains deployed in Red Sea; USS Abraham Lincoln (Carrier) positioned in Arabian Sea; USS Gerald R. Ford (Carrier) in Mediterranean; three destroyers (Carney, Mason, Laboon) maintain Red Sea stations; USS Florida (Submarine) in Persian Gulf. No repositioning detected, but sustained presence in all three crisis zones signals readiness for rapid escalation or evacuation operations during active Iran-Israel hostilities.",
+      "region": "Red Sea / Persian Gulf / Mediterranean",
+      "source": "assets",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran ceasefire framework has collapsed in real-time as Israel defied Trump's de-escalation calls and Iran responded with sustained ballistic barrages; nuclear breakout window narrowing to weeks while three US carrier groups maintain battle stations and Trump attempts diplomatic override of military momentum.",
+  "analysis_note": "Direct Iran-Israel kinetic conflict has begun with ballistic missile and retaliatory strike exchanges following Israeli attack on Beirut; nuclear breakout window critically compressed to 1-2 weeks; Trump de-escalation messaging ineffective; ceasefire formally collapsed.",
   "meta": {
-    "input_tokens": 26895,
+    "input_tokens": 26625,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 916,
-    "cost_usd": 0.0315,
-    "wall_time_s": 12.6,
-    "data_hash": "d7e4fcf601ed07a173b02014cd31b1e2253f6ab3c99f5cade2fac106f4b8ae3e"
+    "output_tokens": 756,
+    "cost_usd": 0.0304,
+    "wall_time_s": 11.5,
+    "data_hash": "11afa303fc718b66d1c403f3c6ba7248b9e443782bb27523549d2c7031d24a5d"
   }
 }
