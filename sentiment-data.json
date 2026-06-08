@@ -6,11 +6,16 @@
     "wordCloud": [
       {
         "word": "trump",
-        "count": 61,
+        "count": 62,
         "sentiment": "neutral"
       },
       {
         "word": "house",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -21,11 +26,6 @@
       },
       {
         "word": "white",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -75,12 +75,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ufc",
+        "word": "seeks",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "say",
+        "word": "ufc",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -115,12 +115,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "republican",
+        "word": "campaign",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "seeks",
+        "word": "republican",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -128,6 +128,11 @@
         "word": "fight",
         "count": 5,
         "sentiment": "negative"
+      },
+      {
+        "word": "israel",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "peace",
@@ -148,29 +153,24 @@
         "word": "claim",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-07T23:00:11.949729+00:00",
-    "nextRefresh": "2026-06-07T23:00:11.949729+00:00",
-    "articlesAnalyzed": 342,
-    "matchedMentions": 160,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-06-08T00:18:36.332967+00:00",
+    "nextRefresh": "2026-06-08T00:18:36.332967+00:00",
+    "articlesAnalyzed": 338,
+    "matchedMentions": 162,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 62,
+    "positive": 58,
     "negative": 22,
-    "neutral": 16,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "india",
-        "count": 14,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -181,11 +181,6 @@
       {
         "word": "rahul",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "afghanistan",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -214,11 +209,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "suthar",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "centuries",
         "count": 6,
         "sentiment": "neutral"
@@ -240,6 +230,11 @@
       },
       {
         "word": "tvk",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "management",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -317,13 +312,18 @@
         "word": "lpg",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "price",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-07T23:00:23.955222+00:00",
-    "nextRefresh": "2026-06-07T23:00:23.955222+00:00",
+    "generatedAt": "2026-06-08T00:18:49.155863+00:00",
+    "nextRefresh": "2026-06-08T00:18:49.155863+00:00",
     "articlesAnalyzed": 465,
-    "matchedMentions": 73,
+    "matchedMentions": 72,
     "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
