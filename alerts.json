@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-07T23:00:35.780535+00:00",
+  "generated_at": "2026-06-08T05:28:28.737443+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran launches missile barrage at Israel; ceasefire collapses amid Beirut strikes",
-      "summary": "Iran reportedly fired multiple missiles at Israel in the first direct attack since ceasefire began in April, reportedly in response to Israeli strikes on Beirut that killed at least 2 civilians, per NPR, Al Jazeera, Times of Israel, and AP News. Simultaneous Israeli bombardment of Hezbollah-controlled southern Beirut suburbs signals rapid escalation across Israel-Lebanon and Iran-Israel fronts with ceasefire framework failing.",
-      "region": "Israel / Lebanon / Iran",
-      "source": "incidents",
+      "title": "Iran launches second ballistic missile salvo at Israel; ceasefire unraveling",
+      "summary": "Iranian forces fired at least 12 additional ballistic missiles at northern Israel in a second wave within 15 minutes of the first strike, according to Israeli media reports and Rybar Telegram analysis. Launches originated from Tabriz and Isfahan; Israeli air defenses reported active interception over Haifa. This marks sustained escalation following Israeli strikes on Beirut's Hezbollah headquarters (Ad-Dakhieh) that killed civilians, signaling ceasefire collapse and potential entry into direct Iran-Israel kinetic war phase.",
+      "region": "Israel / Iran",
+      "source": "incidents, telegram",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iranian air defense downs US/Israeli drone over Iraq amid missile attack",
-      "summary": "Iranian air defenses shot down an Hermes-900 reconnaissance drone that reportedly crashed in Iraqi territory during Iran's missile barrage on Israel, per Middle East Spectator Telegram (~31-37K views). Interception suggests Iran operating advanced air defense systems and monitoring US-Israeli surveillance posture in real-time during active escalation.",
-      "region": "Iraq / Iran",
-      "source": "telegram",
-      "confidence": "medium"
+      "title": "Iran nuclear enrichment at 60% U-235; breakout window narrows to 1-2 weeks",
+      "summary": "US intelligence and IAEA reporting confirm Iranian uranium enrichment has reached 60% U-235 purity with estimated breakout time of 1-2 weeks, per multiple sources in global_metrics nuclear headlines. Simultaneous US draft IAEA resolution demands Iran account for bombed nuclear sites and uranium stocks. Escalation in kinetic theater combined with accelerated nuclear timeline creates compounding strategic crisis.",
+      "region": "Global",
+      "source": "global_metrics",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "sentiment_shift",
+      "title": "US sentiment collapses to 64% negative amid Iran escalation and Trump diplomacy debate",
+      "summary": "Negative sentiment in US news spiked to 64% (up from baseline) with Trump dominating trending terms (67 mentions). Word frequencies show 'clash,' 'deal,' and 'drone' rising sharply alongside Iran and Israel mentions, reflecting public anxiety over escalation control and Trump's de-escalation messaging versus military realities. Sentiment swing indicates domestic political fracture over conflict posture.",
+      "region": "Global",
+      "source": "sentiment",
+      "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Trump urges Netanyahu restraint after Iran missile attack; diplomacy signals emerge",
-      "summary": "US President Trump publicly called Netanyahu 'right now' to tell him not to retaliate for Iran's missile strikes and stated 'That's enough, back to the table and make a deal,' per Times of Israel and Axios. Trump also expressed unhappiness with Israeli strikes on Lebanon, signaling potential US pivot toward de-escalation and negotiation amid active hostilities.",
-      "region": "Global",
+      "title": "Israel strikes Beirut's Ad-Dakhieh Hezbollah center despite Trump restraint appeal",
+      "summary": "Israeli warplanes struck Hezbollah's historic headquarters in southern Beirut suburb using US-supplied GBU precision munitions, killing at least 2 civilians, per Al Jazeera and New York Times. Strike occurred after Trump's explicit public statement urging Netanyahu 'not to strike back' and calling Iran missile response 'enough.' Israeli defiance of Trump's restraint call signals Netanyahu's rejection of de-escalation and direct challenge to US diplomatic authority.",
+      "region": "Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "asset_movement",
-      "title": "Three US carrier strike groups maintain forward posture amid escalating theater tensions",
-      "summary": "USS Dwight D. Eisenhower, USS Abraham Lincoln, and USS Gerald R. Ford carrier groups remain deployed across Red Sea, Arabian Sea, and Mediterranean respectively, per live OSINT asset tracking. USS Bataan amphibious ship and destroyers USS Carney, Mason, and Laboon concentrated in Red Sea maintain US readiness for sustained multi-front operations if ceasefire fully collapses.",
-      "region": "Red Sea / Arabian Sea / Mediterranean",
-      "source": "assets",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
-      "category": "nuclear",
-      "title": "US presses IAEA to demand Iran accounting for bombed nuclear sites and enriched uranium",
-      "summary": "US has drafted IAEA resolution forcing Iran to publicly disclose status of nuclear facilities and enriched uranium stockpile following escalation, per Reuters, Jerusalem Post, and Al-Monitor. Iran maintains 60% U-235 enrichment with 1-2 week estimated weapons-grade breakout window while international verification remains blocked by conflict, creating acute proliferation risk.",
-      "region": "Iran",
-      "source": "global_metrics,incidents",
+      "title": "Threat level jumps to 9/10 CRITICAL; three carrier strike groups maintain forward posture amid dual escalation",
+      "summary": "Global threat meter escalated to 9/10 (CRITICAL\u2014IMMINENT ESCALATION) per global_metrics. USS Dwight D. Eisenhower, USS Abraham Lincoln, and USS Gerald R. Ford remain deployed across Red Sea, Arabian Sea, and Mediterranean; USS Florida submarine positioned in Persian Gulf. Brent crude spiked to $97.35/bbl; Iranian rial weakened to 1.37M/USD. Proxy status elevated: Hezbollah active, Houthis conducting multiple recent attacks, Iraqi Shiite militias elevated with detected base strikes.",
+      "region": "Global",
+      "source": "global_metrics, assets",
       "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran direct conflict has breached ceasefire framework with Iranian missile barrage on Israel and Israeli retaliation in Beirut; concurrent nuclear verification gaps, Trump de-escalation signals, and forward-deployed US maritime assets create volatile multi-vector crisis requiring urgent diplomatic intervention.",
+  "analysis_note": "US-Iran ceasefire framework has collapsed in real-time as Israel defied Trump's de-escalation calls and Iran responded with sustained ballistic barrages; nuclear breakout window narrowing to weeks while three US carrier groups maintain battle stations and Trump attempts diplomatic override of military momentum.",
   "meta": {
-    "input_tokens": 22723,
+    "input_tokens": 26895,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 720,
-    "cost_usd": 0.0263,
-    "wall_time_s": 11.4,
-    "data_hash": "e5aab8c2f162bf876c7cea462135b63c22f7712b6aeb19ce61ca9c7e108845b1"
+    "output_tokens": 916,
+    "cost_usd": 0.0315,
+    "wall_time_s": 12.6,
+    "data_hash": "d7e4fcf601ed07a173b02014cd31b1e2253f6ab3c99f5cade2fac106f4b8ae3e"
   }
 }

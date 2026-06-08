@@ -1,12 +1,22 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 54,
-    "neutral": 8,
+    "positive": 30,
+    "negative": 64,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
+        "count": 67,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "interview",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -15,8 +25,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 11,
+        "word": "israel",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -30,7 +40,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "interview",
+        "word": "clash",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "election",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -40,12 +55,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "drone",
+        "word": "against",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "fund",
+        "word": "nbc",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -55,22 +70,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
+        "word": "fund",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "hits",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
+        "word": "despite",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "campaign",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -85,12 +100,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nuclear",
+        "word": "drone",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "near",
+        "word": "nuclear",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -100,22 +115,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "anti-weaponization",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ceasefire",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "graham",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "campaign",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -130,7 +130,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "israel",
+        "word": "south",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hits",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "allies",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -140,42 +150,37 @@
         "sentiment": "positive"
       },
       {
-        "word": "clash",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "election",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "claim",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-08T00:18:36.332967+00:00",
-    "nextRefresh": "2026-06-08T00:18:36.332967+00:00",
-    "articlesAnalyzed": 338,
-    "matchedMentions": 162,
-    "uniquePersonalities": 49,
+    "generatedAt": "2026-06-08T05:27:29.751337+00:00",
+    "nextRefresh": "2026-06-08T05:27:29.751337+00:00",
+    "articlesAnalyzed": 341,
+    "matchedMentions": 160,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 58,
-    "negative": 22,
-    "neutral": 20,
+    "positive": 50,
+    "negative": 27,
+    "neutral": 23,
     "wordCloud": [
       {
         "word": "india",
-        "count": 11,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 11,
+        "word": "bloc",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -184,27 +189,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dmk",
+        "word": "suthar",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "indian",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "three",
+        "word": "target",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -214,117 +204,127 @@
         "sentiment": "neutral"
       },
       {
-        "word": "help",
+        "word": "afghanistan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "film",
         "count": 5,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "takes",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jaishankar",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tvk",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "management",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "months",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bid",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "left",
+        "word": "indian",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "brothers",
+        "word": "meeting",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "detention",
+        "word": "delhi",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "help",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "collection",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "peddi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "charan",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sanjay",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jha",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "idea",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "exchange",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "destroyed",
+        "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "saudi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "arabia",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "foreign",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minister",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bilateral",
-        "count": 4,
+        "word": "alliance",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "banerjee",
-        "count": 4,
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "friend",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "frenemy",
-        "count": 4,
+        "word": "kejriwal",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "indeed",
-        "count": 4,
+        "word": "rajasthan",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "lpg",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "price",
-        "count": 4,
+        "word": "jadeja",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-08T00:18:49.155863+00:00",
-    "nextRefresh": "2026-06-08T00:18:49.155863+00:00",
-    "articlesAnalyzed": 465,
-    "matchedMentions": 72,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-06-08T05:27:43.055799+00:00",
+    "nextRefresh": "2026-06-08T05:27:43.055799+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 74,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
