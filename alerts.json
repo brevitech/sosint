@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-08T17:49:48.544444+00:00",
+  "generated_at": "2026-06-09T00:02:18.678307+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran-Israel missile exchanges escalate; both sides signal operational pause",
-      "summary": "Iran and Israel exchanged multiple waves of ballistic missiles and airstrikes overnight (June 7-8). Iran launched 12+ missiles from Tabriz and Isfahan; Israel conducted ~20 retaliatory strikes across Tehran, Tabriz, Isfahan, Qeredagh, and Kermanshah. Both sides announced operational halts per Khatam Al-Anbiyaa Central Command and Israeli media, but ceasefire fragility remains acute. This continues the kinetic direct warfare phase first breached in previous alert cycle.",
-      "region": "Israel / Iran",
-      "source": "incidents, telegram",
+      "title": "Iraqi militias, Hezbollah threaten U.S. bases amid escalating proxy attacks",
+      "summary": "Iran-backed Iraqi Shiite militias and Hezbollah issued threats to attack U.S. military bases in Iraq if Washington joins Iranian strikes. Drone attacks on U.S. bases in Iraq confirmed by Al Jazeera and BBC (reporting 28 attacks in single day on one base). Iraqi government summoned U.S. diplomat. This signals rapid proxy force escalation coordinated with Iran's kinetic campaign. Source: incidents feed (multiple outlets including NYT, BBC, Al Jazeera).",
+      "region": "Iraq / Persian Gulf",
+      "source": "incidents",
       "confidence": "high"
     },
     {
-      "severity": "critical",
-      "category": "nuclear",
-      "title": "Iran nuclear breakout timeline remains 1-2 weeks at 60% U-235 enrichment",
-      "summary": "IAEA and US intelligence confirm Iranian uranium enrichment unchanged at 60% U-235 purity with breakout window estimated at 1-2 weeks, per global_metrics nuclear headlines. US draft IAEA resolution demands Iran disclose fate of previously bombed nuclear sites and current uranium stocks. Simultaneous kinetic escalation and unchanged accelerated nuclear timeline present compounding strategic crisis.",
-      "region": "Global",
-      "source": "global_metrics",
+      "severity": "high",
+      "category": "asset_movement",
+      "title": "U.S. deploys submarine to Persian Gulf as threat level reaches 8/10 SEVERE",
+      "summary": "USS Florida submarine deployed to Persian Gulf (26.29\u00b0N, 52.35\u00b0E) per assets feed. Concurrent with threat level rising to 8/10 (SEVERE \u2014 ONGOING ESCALATION) and three carrier battle groups now forward-deployed (Eisenhower in Red Sea, Lincoln in Arabian Sea, Ford in Mediterranean). Submarine deployment indicates preparation for undersea contingency operations in critical chokepoint.",
+      "region": "Persian Gulf",
+      "source": "assets, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Houthis renew Red Sea blockade declaration against Israeli shipping",
-      "summary": "Iran-backed Houthis issued renewed threats to block Israeli vessels from Red Sea transit, per multiple incident reports (Reuters, Jerusalem Post, Al-Monitor). Declaration follows Iran-Israel escalation and signals proxy force coordination. Four Houthi-attributed naval incident reports clustered in same reporting cycle indicate elevated operational posture.",
-      "region": "Red Sea",
+      "title": "Houthis impose total naval blockade on Israeli shipping across Red Sea",
+      "summary": "Yemen's Iran-backed Houthis declared total ban on Israeli vessels in Red Sea and vow to attack Israel-affiliated ships, per 14+ independent sources (Reuters, Jerusalem Post, Al Arabiya, Al Jazeera, others) clustered in single reporting cycle. Hezbollah statement confirms coordination: 'Houthis join Iran war fight.' Dual blockade threat now extends from Strait of Hormuz (Iran) to Bab el-Mandeb (Houthis), choking two critical maritime corridors. Source: incidents feed.",
+      "region": "Red Sea / Bab el-Mandeb",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "telegram_signal",
-      "title": "Trump diverges from Netanyahu over Iran retaliation; doctrine inconsistency exposed",
-      "summary": "Rybar Telegram analysis (~146K views) reports Trump told Netanyahu 'war will soon end' and called for de-escalation, yet Israel proceeded with ~20 strikes on Iranian targets overnight. Trump also stated Netanyahu 'will have no choice but to accept a deal with Iran,' but Israeli operations continued unabated. Signal of fractured US-Israel strategic alignment on escalation control.",
+      "title": "Israel continues strikes despite Trump de-escalation call; fractured messaging",
+      "summary": "Rybar (~78K views) reports Israel launched additional airstrikes deep inside Iran on June 8, even after Trump told Netanyahu 'war will soon end' and called for de-escalation. Iranian officials claim Hormuz blockade now active and supported by Houthis per Rybar (~122K views, date-flagged). Signal of coalition fracture: U.S. seeks pause; Israel/Iran escalation cycle continuing unabated. Breakdown of unified Western messaging on conflict termination.",
       "region": "Global",
       "source": "telegram",
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "severity": "medium",
       "category": "sentiment_shift",
-      "title": "US negative sentiment holds at 51% as Trump dominance persists in news cycle",
-      "summary": "US sentiment analysis shows negative sentiment at 51% (vs 42% positive). Word frequency analysis shows 'Trump' leading all terms (63 mentions) alongside 'Iran' (18) and 'house/white' (12/10), reflecting continued focus on Trump statements regarding Iran conflict. Sentiment remains elevated but stable from prior cycle, indicating public anxiety persists without dramatic swing.",
-      "region": "United States",
+      "title": "U.S. domestic sentiment sharply negative; Iran/Israel dominate news cycle",
+      "summary": "U.S. sentiment analysis shows 53% negative vs. 38% positive (15-point negative swing). Word frequency dominated by 'Trump' (88 mentions), 'Iran' (17), 'Netanyahu' (14), 'Israel' (10), 'war' (8). Domestic political crisis (judge, Senate, election, attorney terms prevalent) intertwined with conflict escalation, indicating deepening polarization and distraction from strategic coordination. Sentiment shift suggests erosion of domestic consensus for Middle East policy. Source: sentiment feed.",
+      "region": "Global",
       "source": "sentiment",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "Direct Iran-Israel kinetic exchange continues with both sides declaring operational pauses; nuclear breakout timeline unchanged at 1-2 weeks; Houthi proxy activation compounds theater escalation; US-Israel alignment fractures over escalation doctrine.",
+  "analysis_note": "Iran and Israel remain locked in active kinetic exchange with announced operational pauses but no ceasefire; proxy forces (Houthis, Iraqi militias, Hezbollah) escalating in parallel; U.S. military presence maximal (3 carriers, submarine, Red Sea task force); nuclear breakout window 1-2 weeks; oil at $94.37/bbl; threat level 8/10; Trump-Netanyahu messaging rift widening amid continued Israeli operations.",
   "meta": {
-    "input_tokens": 20024,
+    "input_tokens": 22244,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 721,
-    "cost_usd": 0.0236,
-    "wall_time_s": 12.2,
-    "data_hash": "e49722437dc94c7805b0cf6c9649799548541aa679d784fce74c591dac7f2267"
+    "output_tokens": 917,
+    "cost_usd": 0.0268,
+    "wall_time_s": 13.9,
+    "data_hash": "f7b94ed5f1ed74ba6583428f446499f06f1f9120fa163a58fd782ec5ccea8564"
   }
 }
