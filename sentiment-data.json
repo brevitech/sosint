@@ -1,41 +1,56 @@
 {
   "us": {
-    "positive": 47,
-    "negative": 44,
+    "positive": 42,
+    "negative": 49,
     "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 87,
+        "count": 75,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 17,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 13,
+        "word": "house",
+        "count": 19,
         "sentiment": "neutral"
       },
       {
-        "word": "zelenskyy",
-        "count": 13,
+        "word": "vance",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
-        "count": 12,
+        "word": "war",
+        "count": 11,
+        "sentiment": "negative"
+      },
+      {
+        "word": "nba",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "putin",
+        "word": "white",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "finals",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zelenskyy",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -45,102 +60,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nba",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "finals",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "california",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "israel",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
+        "word": "fraud",
         "count": 8,
         "sentiment": "negative"
       },
       {
-        "word": "election",
+        "word": "president",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "h-1b",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fee",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "china",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "york",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "party",
+        "word": "better",
         "count": 7,
         "sentiment": "positive"
       },
       {
-        "word": "race",
+        "word": "israel",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "raman",
+        "word": "putin",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "strikes",
+        "word": "senate",
         "count": 7,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "pratt",
+        "word": "calls",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "mayor",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nithya",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "interview",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
+        "word": "defy",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -150,41 +105,91 @@
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
+        "word": "claims",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "platner",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "california",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strikes",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "judge",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "h-1b",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fee",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reconciliation",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fisa",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-09T12:32:40.139061+00:00",
-    "nextRefresh": "2026-06-09T12:32:40.139061+00:00",
-    "articlesAnalyzed": 344,
+    "generatedAt": "2026-06-09T15:51:05.470356+00:00",
+    "nextRefresh": "2026-06-09T15:51:05.470356+00:00",
+    "articlesAnalyzed": 347,
     "matchedMentions": 186,
-    "uniquePersonalities": 49,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 43,
-    "negative": 38,
-    "neutral": 19,
+    "positive": 46,
+    "negative": 34,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "india",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tmc",
-        "count": 13,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -194,47 +199,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "signature",
+        "word": "govt",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "case",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mamata",
+        "word": "tmc",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "probe",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mamata",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minister",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "reaches",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "residence",
+        "word": "home",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "party",
+        "word": "bjp",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
-        "word": "kakoli",
+        "word": "gill",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -244,17 +244,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "west",
+        "word": "questions",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "forgery",
+        "word": "kolkata",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "kakoli",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -264,67 +264,67 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cji",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kant",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mediation",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hurdles",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "afghanistan",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
+        "word": "search",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "vijayan",
+        "word": "signature",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "daughter",
+        "word": "scandal",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "west",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bengal",
+        "word": "searches",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
+        "word": "forged",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "congress",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sonia",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "adani",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "women",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-09T12:32:50.724121+00:00",
-    "nextRefresh": "2026-06-09T12:32:50.724121+00:00",
-    "articlesAnalyzed": 465,
-    "matchedMentions": 99,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-06-09T15:51:20.524796+00:00",
+    "nextRefresh": "2026-06-09T15:51:20.524796+00:00",
+    "articlesAnalyzed": 478,
+    "matchedMentions": 100,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   }
 }

@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-09T09:34:10.006441+00:00",
+  "generated_at": "2026-06-09T15:52:04.541919+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
+      "category": "incident",
+      "title": "Iran declares full Strait of Hormuz blockade; Houthis enforce Red Sea closure",
+      "summary": "Iran announced complete closure of Strait of Hormuz to all shipping connected to US-Israel coalition, with Houthis simultaneously blocking Bab el-Mandeb strait. Rybar (147K views, June 8) confirms Iran declared full blockade canceling all prior transit exceptions. Combined closures threaten ~30% of global oil transit and trigger sharp Brent crude spike to $90.97/bbl. Houthis declared total ban on Israeli shipping in Red Sea per incidents feed.",
+      "region": "Strait of Hormuz, Red Sea, Persian Gulf",
+      "source": "telegram, incidents, global_metrics",
+      "confidence": "high"
+    },
+    {
+      "severity": "critical",
       "category": "nuclear",
-      "title": "Iran nuclear breakout window narrows to 1-2 weeks as enrichment hits 60%",
-      "summary": "Iran's uranium enrichment has reached 60% U-235 purity with estimated breakout time now 1-2 weeks, per global_metrics nuclear feed. IAEA reports indicate Western nations are escalating pressure via UN resolutions demanding Iran restart nuclear cooperation and open bombed sites to inspection. Concurrent with threat level elevation to 9/10 (CRITICAL \u2014 IMMINENT ESCALATION), signaling potential nuclear contingency preparation.",
+      "title": "Iran nuclear enrichment reaches 60% amid escalated IAEA pressure campaign",
+      "summary": "Iran's uranium enrichment confirmed at 60% U-235 with breakout window narrowing to 1-2 weeks, per global_metrics nuclear feed. US draft resolution at IAEA demands Iran open bombed sites and restart cooperation. Five concurrent nuclear headlines (Reuters, Jerusalem Post, Al Jazeera) indicate coordinated Western pressure campaign intensifying concurrent with missile exchange.",
       "region": "Iran / Global",
       "source": "global_metrics, incidents",
       "confidence": "high"
     },
     {
-      "severity": "critical",
+      "severity": "high",
       "category": "incident",
-      "title": "Threat level escalates to 9/10 CRITICAL as Israel-Iran direct exchange concluded",
-      "summary": "US threat assessment jumped from 8/10 to 9/10 (CRITICAL \u2014 IMMINENT ESCALATION) following confirmed Iran-Israel missile exchange on June 8. Multiple outlets (Reuters, BBC, Washington Post, NPR) report both sides have signaled halt to strikes 'for now,' but fragile ceasefire remains vulnerable. Trump intervention appears to have prevented larger Israeli retaliation, per Axios and Times of Israel reporting. Region remains primed for renewed escalation.",
+      "title": "Iran and Israel exchange direct missile strikes; fragile ceasefire holds with Trump intervention",
+      "summary": "Iran initiated barrage of missiles at Israel on June 8; Israel responded with airstrikes on Iranian military targets same day. Multiple tier-1 outlets (Reuters, NYT, WSJ, BBC) confirm both sides declared halt to strikes 'for now.' Trump warned Netanyahu against major retaliation, reportedly threatening to leave Israel 'on its own' if escalation continued. Ceasefire remains fragile and vulnerable to proxy action.",
       "region": "Israel / Iran",
-      "source": "incidents, global_metrics",
+      "source": "incidents, telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Yemen Houthi drones penetrate Israeli air defenses; alert system failures reported",
-      "summary": "Telegram channel ME Spectator (~47K views) reports drone from Yemen intercepted in Eilat without activation of air-defense alerts, indicating potential system gaps. Separate reports confirm Patriot interception above Erbil. Houthis continue escalation with declared total ban on Israeli shipping in Red Sea per incidents feed, extending blockade threat alongside Iranian Strait of Hormuz closure.",
-      "region": "Israel / Red Sea / Yemen",
-      "source": "telegram, incidents",
-      "confidence": "high"
+      "category": "cyber",
+      "title": "Tehran-linked cyber unit claims widespread Israeli radar penetration attack",
+      "summary": "Iranian cyber operators asserted 'widespread' penetration of Israeli radar systems per Shafaq News (cyber_headlines feed). Report appears coordinated with kinetic missile exchange, suggesting hybrid warfare escalation. Concurrent with broader CSIS analysis on how Middle East conflict reshapes global cyber landscape, indicating structural shift in conflict methodology.",
+      "region": "Israel / Iran",
+      "source": "global_metrics",
+      "confidence": "medium"
     },
     {
       "severity": "high",
       "category": "asset_movement",
-      "title": "US maintains three-carrier posture and submarine deployment in Persian Gulf",
-      "summary": "Assets feed confirms USS Eisenhower (Red Sea), USS Abraham Lincoln (Arabian Sea), USS Gerald R. Ford (Mediterranean) remain forward-deployed alongside USS Florida submarine in Persian Gulf (25.97\u00b0N, 52.50\u00b0E). Additionally USS Bataan, destroyers Carney, Mason, and Laboon positioned in Red Sea. Configuration supports potential contingency operations across dual chokepoints (Hormuz and Red Sea) amid 9/10 threat level.",
-      "region": "Persian Gulf / Red Sea / Mediterranean",
+      "title": "US maintains three-carrier combat posture amid nuclear and maritime threats",
+      "summary": "Assets feed confirms USS Eisenhower (Red Sea), USS Abraham Lincoln (Arabian Sea), and USS Gerald R. Ford (Mediterranean) remain deployed alongside USS Florida submarine in Persian Gulf (26.20\u00b0N, 51.56\u00b0E). Triple-carrier presence designed to deter Iranian escalation and protect oil chokepoint. Concurrent with Houthi and Iranian blockade threats to regional shipping.",
+      "region": "Persian Gulf, Red Sea, Arabian Sea",
       "source": "assets, global_metrics",
       "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "sentiment_shift",
-      "title": "US media sentiment plunges to 51% negative amid Trump-Netanyahu tensions",
-      "summary": "Sentiment analysis shows US negative sentiment reached 51% (up from baseline), with 'trump' (87 mentions), 'netanyahu' (12), 'israel' (11), and 'strikes' (8) dominating word cloud. Reflects acute focus on Trump's public pressure on Netanyahu not to escalate against Iran, fracturing US-Israel messaging alignment at critical moment. Brent crude at $92.19; Iranian rial at 1,374,955 free-market rate indicating economic stress.",
-      "region": "Global",
-      "source": "sentiment, global_metrics",
-      "confidence": "medium"
     }
   ],
-  "analysis_note": "Iran-Israel direct exchange has de-escalated tactically but strategic nuclear timeline is collapsing (1-2 week breakout window); US threat posture remains elevated at 9/10 with three-carrier deployment, while proxy forces (Houthis, Iraqi militias) maintain offensive pressure and Trump's de-escalation messaging creates diplomatic fracture with Israel.",
+  "analysis_note": "Iran-Israel direct exchange and dual maritime blockade declarations signal shift from proxy warfare to state-level confrontation; nuclear enrichment at 60% and 1-2 week breakout window create structural time pressure for Western intervention or negotiated settlement within days.",
   "meta": {
-    "input_tokens": 13676,
+    "input_tokens": 26795,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 854,
-    "cost_usd": 0.0179,
-    "wall_time_s": 13.6,
-    "data_hash": "c3cc35eec731926b55719caa7b05ea7d9b27527dbd9d7bd6990203ee03a40813"
+    "output_tokens": 762,
+    "cost_usd": 0.0306,
+    "wall_time_s": 11.5,
+    "data_hash": "651748ebd44ce83e09c7165cef9acb728d82cad5be4a7c179e9bc36424cd5790"
   }
 }
