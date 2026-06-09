@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-09T15:52:04.541919+00:00",
+  "generated_at": "2026-06-09T22:21:21.290464+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran declares full Strait of Hormuz blockade; Houthis enforce Red Sea closure",
-      "summary": "Iran announced complete closure of Strait of Hormuz to all shipping connected to US-Israel coalition, with Houthis simultaneously blocking Bab el-Mandeb strait. Rybar (147K views, June 8) confirms Iran declared full blockade canceling all prior transit exceptions. Combined closures threaten ~30% of global oil transit and trigger sharp Brent crude spike to $90.97/bbl. Houthis declared total ban on Israeli shipping in Red Sea per incidents feed.",
-      "region": "Strait of Hormuz, Red Sea, Persian Gulf",
-      "source": "telegram, incidents, global_metrics",
+      "title": "Iran shoots down U.S. military helicopter near Strait of Hormuz; Trump demands response",
+      "summary": "Iran shot down a U.S. military helicopter over the Strait of Hormuz on June 9, per multiple tier-1 outlets (NPR, BBC, CNBC, Bloomberg). Trump confirmed the incident and stated the U.S. 'must' respond, escalating tensions after the June 8 Iran-Israel missile exchange. This marks direct U.S.-Iran kinetic engagement, a new threshold beyond the proxy dynamics of the prior ceasefire period.",
+      "region": "Strait of Hormuz, Persian Gulf",
+      "source": "incidents, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran nuclear enrichment reaches 60% amid escalated IAEA pressure campaign",
-      "summary": "Iran's uranium enrichment confirmed at 60% U-235 with breakout window narrowing to 1-2 weeks, per global_metrics nuclear feed. US draft resolution at IAEA demands Iran open bombed sites and restart cooperation. Five concurrent nuclear headlines (Reuters, Jerusalem Post, Al Jazeera) indicate coordinated Western pressure campaign intensifying concurrent with missile exchange.",
+      "title": "Iran enrichment reaches 60% U-235; nuclear breakout window shrinks to 1-2 weeks",
+      "summary": "Iran's uranium enrichment confirmed at 60% U-235 with estimated breakout time of 1-2 weeks, per global_metrics nuclear feed. Five concurrent headlines (Reuters, Jerusalem Post, Al Jazeera, CSIS, World Nuclear Association) document coordinated IAEA and U.S. pressure campaign. Concurrent with active missile exchange, this represents dual escalation\u2014kinetic and nuclear.",
       "region": "Iran / Global",
       "source": "global_metrics, incidents",
       "confidence": "high"
@@ -24,39 +24,39 @@
     {
       "severity": "high",
       "category": "incident",
-      "title": "Iran and Israel exchange direct missile strikes; fragile ceasefire holds with Trump intervention",
-      "summary": "Iran initiated barrage of missiles at Israel on June 8; Israel responded with airstrikes on Iranian military targets same day. Multiple tier-1 outlets (Reuters, NYT, WSJ, BBC) confirm both sides declared halt to strikes 'for now.' Trump warned Netanyahu against major retaliation, reportedly threatening to leave Israel 'on its own' if escalation continued. Ceasefire remains fragile and vulnerable to proxy action.",
-      "region": "Israel / Iran",
-      "source": "incidents, telegram",
+      "title": "Israel strikes Tyre in Lebanon; eight killed as Hezbollah-Israel border escalates",
+      "summary": "Israeli airstrikes on Tyre, Lebanon killed eight civilians on June 9 and prompted evacuation orders for the Christian quarter, per The Guardian and Axios. Incident follows Hezbollah attack on Israel and represents spillover of Iran-Israel tensions into Lebanon theater. Risk of Hezbollah retaliation and broader regional conflagration elevated.",
+      "region": "Northern Israel, Lebanon",
+      "source": "incidents",
       "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "cyber",
-      "title": "Tehran-linked cyber unit claims widespread Israeli radar penetration attack",
-      "summary": "Iranian cyber operators asserted 'widespread' penetration of Israeli radar systems per Shafaq News (cyber_headlines feed). Report appears coordinated with kinetic missile exchange, suggesting hybrid warfare escalation. Concurrent with broader CSIS analysis on how Middle East conflict reshapes global cyber landscape, indicating structural shift in conflict methodology.",
-      "region": "Israel / Iran",
-      "source": "global_metrics",
-      "confidence": "medium"
     },
     {
       "severity": "high",
       "category": "asset_movement",
-      "title": "US maintains three-carrier combat posture amid nuclear and maritime threats",
-      "summary": "Assets feed confirms USS Eisenhower (Red Sea), USS Abraham Lincoln (Arabian Sea), and USS Gerald R. Ford (Mediterranean) remain deployed alongside USS Florida submarine in Persian Gulf (26.20\u00b0N, 51.56\u00b0E). Triple-carrier presence designed to deter Iranian escalation and protect oil chokepoint. Concurrent with Houthi and Iranian blockade threats to regional shipping.",
-      "region": "Persian Gulf, Red Sea, Arabian Sea",
-      "source": "assets, global_metrics",
+      "title": "U.S. carrier strike groups and amphibious assets maintain critical zone deployments amid escalation",
+      "summary": "USS Dwight D. Eisenhower, USS Bataan, and three destroyers (Carney, Mason, Laboon) remain deployed in Red Sea; USS Abraham Lincoln in Arabian Sea; USS Florida submarine in Persian Gulf per assets feed (June 9). Concurrent with active U.S.-Iran kinetic exchange and threat level 9 (CRITICAL), naval posture indicates preparation for sustained regional conflict or rapid strike capability.",
+      "region": "Red Sea, Arabian Sea, Persian Gulf",
+      "source": "assets",
       "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "telegram_signal",
+      "title": "Global aviation costs spike as Hormuz blockade and conflict redirect air routes; fuel costs double year-over-year",
+      "summary": "Rybar Telegram post (~116K views, June 9) reports U.S. airlines burned ~$6.5 billion on fuel in April alone due to Hormuz transit restrictions and conflict surcharges. International Air Transport Association sharply cut profit forecasts. Oil prices now at $92.46/bbl (up from baseline), and aviation jet fuel costs roughly doubled vs. prior year, cascading economic impact across supply chains.",
+      "region": "Global",
+      "source": "telegram, global_metrics",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "Iran-Israel direct exchange and dual maritime blockade declarations signal shift from proxy warfare to state-level confrontation; nuclear enrichment at 60% and 1-2 week breakout window create structural time pressure for Western intervention or negotiated settlement within days.",
+  "analysis_note": "U.S.-Iran direct kinetic escalation (helicopter shootdown), nuclear breakout threshold collapse (60% enrichment, 1-2 week breakout), and spillover into Lebanon signal imminent multi-front regional war risk despite ceasefire rhetoric; economic shock (oil, aviation costs) already transmitting globally.",
   "meta": {
-    "input_tokens": 26795,
+    "input_tokens": 26927,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 762,
-    "cost_usd": 0.0306,
-    "wall_time_s": 11.5,
-    "data_hash": "651748ebd44ce83e09c7165cef9acb728d82cad5be4a7c179e9bc36424cd5790"
+    "output_tokens": 879,
+    "cost_usd": 0.0313,
+    "wall_time_s": 11.7,
+    "data_hash": "ff887e812463af6aefc52ac084d7d0d3cb552c2ff7caa47e7a61451434e0ab72"
   }
 }
