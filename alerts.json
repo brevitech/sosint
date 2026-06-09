@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-09T00:02:18.678307+00:00",
+  "generated_at": "2026-06-09T09:34:10.006441+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
+      "category": "nuclear",
+      "title": "Iran nuclear breakout window narrows to 1-2 weeks as enrichment hits 60%",
+      "summary": "Iran's uranium enrichment has reached 60% U-235 purity with estimated breakout time now 1-2 weeks, per global_metrics nuclear feed. IAEA reports indicate Western nations are escalating pressure via UN resolutions demanding Iran restart nuclear cooperation and open bombed sites to inspection. Concurrent with threat level elevation to 9/10 (CRITICAL \u2014 IMMINENT ESCALATION), signaling potential nuclear contingency preparation.",
+      "region": "Iran / Global",
+      "source": "global_metrics, incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "critical",
       "category": "incident",
-      "title": "Iraqi militias, Hezbollah threaten U.S. bases amid escalating proxy attacks",
-      "summary": "Iran-backed Iraqi Shiite militias and Hezbollah issued threats to attack U.S. military bases in Iraq if Washington joins Iranian strikes. Drone attacks on U.S. bases in Iraq confirmed by Al Jazeera and BBC (reporting 28 attacks in single day on one base). Iraqi government summoned U.S. diplomat. This signals rapid proxy force escalation coordinated with Iran's kinetic campaign. Source: incidents feed (multiple outlets including NYT, BBC, Al Jazeera).",
-      "region": "Iraq / Persian Gulf",
-      "source": "incidents",
+      "title": "Threat level escalates to 9/10 CRITICAL as Israel-Iran direct exchange concluded",
+      "summary": "US threat assessment jumped from 8/10 to 9/10 (CRITICAL \u2014 IMMINENT ESCALATION) following confirmed Iran-Israel missile exchange on June 8. Multiple outlets (Reuters, BBC, Washington Post, NPR) report both sides have signaled halt to strikes 'for now,' but fragile ceasefire remains vulnerable. Trump intervention appears to have prevented larger Israeli retaliation, per Axios and Times of Israel reporting. Region remains primed for renewed escalation.",
+      "region": "Israel / Iran",
+      "source": "incidents, global_metrics",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "incident",
+      "title": "Yemen Houthi drones penetrate Israeli air defenses; alert system failures reported",
+      "summary": "Telegram channel ME Spectator (~47K views) reports drone from Yemen intercepted in Eilat without activation of air-defense alerts, indicating potential system gaps. Separate reports confirm Patriot interception above Erbil. Houthis continue escalation with declared total ban on Israeli shipping in Red Sea per incidents feed, extending blockade threat alongside Iranian Strait of Hormuz closure.",
+      "region": "Israel / Red Sea / Yemen",
+      "source": "telegram, incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "asset_movement",
-      "title": "U.S. deploys submarine to Persian Gulf as threat level reaches 8/10 SEVERE",
-      "summary": "USS Florida submarine deployed to Persian Gulf (26.29\u00b0N, 52.35\u00b0E) per assets feed. Concurrent with threat level rising to 8/10 (SEVERE \u2014 ONGOING ESCALATION) and three carrier battle groups now forward-deployed (Eisenhower in Red Sea, Lincoln in Arabian Sea, Ford in Mediterranean). Submarine deployment indicates preparation for undersea contingency operations in critical chokepoint.",
-      "region": "Persian Gulf",
+      "title": "US maintains three-carrier posture and submarine deployment in Persian Gulf",
+      "summary": "Assets feed confirms USS Eisenhower (Red Sea), USS Abraham Lincoln (Arabian Sea), USS Gerald R. Ford (Mediterranean) remain forward-deployed alongside USS Florida submarine in Persian Gulf (25.97\u00b0N, 52.50\u00b0E). Additionally USS Bataan, destroyers Carney, Mason, and Laboon positioned in Red Sea. Configuration supports potential contingency operations across dual chokepoints (Hormuz and Red Sea) amid 9/10 threat level.",
+      "region": "Persian Gulf / Red Sea / Mediterranean",
       "source": "assets, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Houthis impose total naval blockade on Israeli shipping across Red Sea",
-      "summary": "Yemen's Iran-backed Houthis declared total ban on Israeli vessels in Red Sea and vow to attack Israel-affiliated ships, per 14+ independent sources (Reuters, Jerusalem Post, Al Arabiya, Al Jazeera, others) clustered in single reporting cycle. Hezbollah statement confirms coordination: 'Houthis join Iran war fight.' Dual blockade threat now extends from Strait of Hormuz (Iran) to Bab el-Mandeb (Houthis), choking two critical maritime corridors. Source: incidents feed.",
-      "region": "Red Sea / Bab el-Mandeb",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "telegram_signal",
-      "title": "Israel continues strikes despite Trump de-escalation call; fractured messaging",
-      "summary": "Rybar (~78K views) reports Israel launched additional airstrikes deep inside Iran on June 8, even after Trump told Netanyahu 'war will soon end' and called for de-escalation. Iranian officials claim Hormuz blockade now active and supported by Houthis per Rybar (~122K views, date-flagged). Signal of coalition fracture: U.S. seeks pause; Israel/Iran escalation cycle continuing unabated. Breakdown of unified Western messaging on conflict termination.",
-      "region": "Global",
-      "source": "telegram",
-      "confidence": "medium"
-    },
-    {
-      "severity": "medium",
       "category": "sentiment_shift",
-      "title": "U.S. domestic sentiment sharply negative; Iran/Israel dominate news cycle",
-      "summary": "U.S. sentiment analysis shows 53% negative vs. 38% positive (15-point negative swing). Word frequency dominated by 'Trump' (88 mentions), 'Iran' (17), 'Netanyahu' (14), 'Israel' (10), 'war' (8). Domestic political crisis (judge, Senate, election, attorney terms prevalent) intertwined with conflict escalation, indicating deepening polarization and distraction from strategic coordination. Sentiment shift suggests erosion of domestic consensus for Middle East policy. Source: sentiment feed.",
+      "title": "US media sentiment plunges to 51% negative amid Trump-Netanyahu tensions",
+      "summary": "Sentiment analysis shows US negative sentiment reached 51% (up from baseline), with 'trump' (87 mentions), 'netanyahu' (12), 'israel' (11), and 'strikes' (8) dominating word cloud. Reflects acute focus on Trump's public pressure on Netanyahu not to escalate against Iran, fracturing US-Israel messaging alignment at critical moment. Brent crude at $92.19; Iranian rial at 1,374,955 free-market rate indicating economic stress.",
       "region": "Global",
-      "source": "sentiment",
+      "source": "sentiment, global_metrics",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "Iran and Israel remain locked in active kinetic exchange with announced operational pauses but no ceasefire; proxy forces (Houthis, Iraqi militias, Hezbollah) escalating in parallel; U.S. military presence maximal (3 carriers, submarine, Red Sea task force); nuclear breakout window 1-2 weeks; oil at $94.37/bbl; threat level 8/10; Trump-Netanyahu messaging rift widening amid continued Israeli operations.",
+  "analysis_note": "Iran-Israel direct exchange has de-escalated tactically but strategic nuclear timeline is collapsing (1-2 week breakout window); US threat posture remains elevated at 9/10 with three-carrier deployment, while proxy forces (Houthis, Iraqi militias) maintain offensive pressure and Trump's de-escalation messaging creates diplomatic fracture with Israel.",
   "meta": {
-    "input_tokens": 22244,
+    "input_tokens": 13676,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 917,
-    "cost_usd": 0.0268,
-    "wall_time_s": 13.9,
-    "data_hash": "f7b94ed5f1ed74ba6583428f446499f06f1f9120fa163a58fd782ec5ccea8564"
+    "output_tokens": 854,
+    "cost_usd": 0.0179,
+    "wall_time_s": 13.6,
+    "data_hash": "c3cc35eec731926b55719caa7b05ea7d9b27527dbd9d7bd6990203ee03a40813"
   }
 }
