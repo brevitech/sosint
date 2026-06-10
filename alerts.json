@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-09T22:21:21.290464+00:00",
+  "generated_at": "2026-06-10T05:13:55.053013+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran shoots down U.S. military helicopter near Strait of Hormuz; Trump demands response",
-      "summary": "Iran shot down a U.S. military helicopter over the Strait of Hormuz on June 9, per multiple tier-1 outlets (NPR, BBC, CNBC, Bloomberg). Trump confirmed the incident and stated the U.S. 'must' respond, escalating tensions after the June 8 Iran-Israel missile exchange. This marks direct U.S.-Iran kinetic engagement, a new threshold beyond the proxy dynamics of the prior ceasefire period.",
-      "region": "Strait of Hormuz, Persian Gulf",
+      "title": "U.S. launches retaliatory strikes on Iran following helicopter downing; mutual escalation cycle accelerates",
+      "summary": "Following Iran's downing of a U.S. Army helicopter over the Strait of Hormuz on June 9, the U.S. conducted retaliatory airstrikes against Iranian targets on June 10. Iran subsequently struck Bahrain, Kuwait, and Jordan in response, marking the first direct U.S.-Iran kinetic exchange of the conflict theater. Multiple tier-1 outlets (NPR, AP News, Reuters, Bloomberg, WSJ) confirm active strike cycle. Threat level remains at 9 (CRITICAL).",
+      "region": "Strait of Hormuz, Persian Gulf, Bahrain, Kuwait, Jordan",
       "source": "incidents, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran enrichment reaches 60% U-235; nuclear breakout window shrinks to 1-2 weeks",
-      "summary": "Iran's uranium enrichment confirmed at 60% U-235 with estimated breakout time of 1-2 weeks, per global_metrics nuclear feed. Five concurrent headlines (Reuters, Jerusalem Post, Al Jazeera, CSIS, World Nuclear Association) document coordinated IAEA and U.S. pressure campaign. Concurrent with active missile exchange, this represents dual escalation\u2014kinetic and nuclear.",
+      "title": "Iran uranium enrichment confirmed at 60% U-235; nuclear breakout window narrows to 1-2 weeks",
+      "summary": "Iran's uranium enrichment level confirmed at 60% U-235 with estimated breakout time of approximately 1-2 weeks, per global_metrics nuclear feed and coordinated IAEA/Western pressure campaign (Reuters, Jerusalem Post, Al Jazeera, CSIS). Concurrent with active U.S.-Iran kinetic engagement and elevated proxy activity, Iran now faces dual escalation pathways: immediate military and near-term nuclear threshold crossing. IAEA and U.S. draft resolutions demand Iranian transparency on nuclear sites.",
       "region": "Iran / Global",
       "source": "global_metrics, incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
+      "category": "cyber",
+      "title": "Tehran-linked cyber unit claims widespread Israeli radar system compromise; escalation to cyber domain underway",
+      "summary": "Iranian cyber actors have asserted responsibility for penetrating Israeli radar systems, per cyber_headlines in global_metrics feed (Shafagh News). This represents coordinated escalation across kinetic, nuclear, and cyber domains following June 8-10 missile exchanges. CSIS and Industrial Cyber reports document surge in cyber retaliation targeting government, defense, and critical infrastructure sectors in Middle East theater.",
+      "region": "Global, Israel, Iran",
+      "source": "global_metrics",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
       "category": "incident",
-      "title": "Israel strikes Tyre in Lebanon; eight killed as Hezbollah-Israel border escalates",
-      "summary": "Israeli airstrikes on Tyre, Lebanon killed eight civilians on June 9 and prompted evacuation orders for the Christian quarter, per The Guardian and Axios. Incident follows Hezbollah attack on Israel and represents spillover of Iran-Israel tensions into Lebanon theater. Risk of Hezbollah retaliation and broader regional conflagration elevated.",
+      "title": "Israel kills 14 in southern Lebanon airstrike; Hezbollah escalation risk elevated amid Iran-Israel cycle",
+      "summary": "Israeli airstrikes on southern Lebanon killed 14 individuals on June 9-10, per Al Jazeera and Guardian reporting, following earlier strike on Tyre that killed eight. Evacuation orders issued for Lebanese Christian quarter. Incidents cluster with broader Iran-Israel missile exchange and directly implicate Hezbollah theater as spillover zone. Risk of Hezbollah retaliation and broader regional conflagration elevated.",
       "region": "Northern Israel, Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "asset_movement",
-      "title": "U.S. carrier strike groups and amphibious assets maintain critical zone deployments amid escalation",
-      "summary": "USS Dwight D. Eisenhower, USS Bataan, and three destroyers (Carney, Mason, Laboon) remain deployed in Red Sea; USS Abraham Lincoln in Arabian Sea; USS Florida submarine in Persian Gulf per assets feed (June 9). Concurrent with active U.S.-Iran kinetic exchange and threat level 9 (CRITICAL), naval posture indicates preparation for sustained regional conflict or rapid strike capability.",
-      "region": "Red Sea, Arabian Sea, Persian Gulf",
-      "source": "assets",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "telegram_signal",
-      "title": "Global aviation costs spike as Hormuz blockade and conflict redirect air routes; fuel costs double year-over-year",
-      "summary": "Rybar Telegram post (~116K views, June 9) reports U.S. airlines burned ~$6.5 billion on fuel in April alone due to Hormuz transit restrictions and conflict surcharges. International Air Transport Association sharply cut profit forecasts. Oil prices now at $92.46/bbl (up from baseline), and aviation jet fuel costs roughly doubled vs. prior year, cascading economic impact across supply chains.",
-      "region": "Global",
-      "source": "telegram, global_metrics",
+      "category": "sentiment_shift",
+      "title": "U.S. domestic political discourse dominated by Iran crisis; negative sentiment spike amid escalation",
+      "summary": "Sentiment analysis shows U.S. news corpus at 47% negative, 45% positive with dominant keywords 'trump,' 'iran,' and 'strikes' (50, 20, 9 mentions respectively). Helicopter incident dominates U.S. discourse alongside domestic political coverage (Maine primary, Senate races). Rapid sentiment polarity shift reflects acute public concern over kinetic escalation and nuclear timeline.",
+      "region": "United States",
+      "source": "sentiment",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "U.S.-Iran direct kinetic escalation (helicopter shootdown), nuclear breakout threshold collapse (60% enrichment, 1-2 week breakout), and spillover into Lebanon signal imminent multi-front regional war risk despite ceasefire rhetoric; economic shock (oil, aviation costs) already transmitting globally.",
+  "analysis_note": "The U.S.-Iran conflict theater has entered acute kinetic and nuclear crisis phase with direct military exchange, 60% uranium enrichment, cyber retaliation, and Hezbollah spillover all active simultaneously; threat level critical (9/10) with breakout window measured in weeks.",
   "meta": {
-    "input_tokens": 26927,
+    "input_tokens": 27076,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 879,
+    "output_tokens": 850,
     "cost_usd": 0.0313,
-    "wall_time_s": 11.7,
-    "data_hash": "ff887e812463af6aefc52ac084d7d0d3cb552c2ff7caa47e7a61451434e0ab72"
+    "wall_time_s": 12.2,
+    "data_hash": "60fe209ecf7e2be33b1b3ee2a25296c59262fdfaca78b53a78c83f5ee7e11e6e"
   }
 }
