@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-10T12:53:17.839661+00:00",
+  "generated_at": "2026-06-10T19:31:43.068592+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
-      "severity": "critical",
+      "severity": "high",
       "category": "incident",
-      "title": "Israel and Iran declare mutual ceasefire after direct missile exchanges; escalation cycle pauses",
-      "summary": "Following tit-for-tat strikes on June 9-10, Israel and Iran have both announced halts to further strikes, per multiple tier-1 sources (AP News, Reuters, NPR, WSJ, New York Times). U.S. retaliatory strikes on Iranian targets preceded Iranian counterattacks on Bahrain, Kuwait, and Jordan. The mutual pause suggests both sides are reassessing risk, though threat level remains at 9 (CRITICAL). Netanyahu reportedly called off a major follow-on strike after Trump warned Israel would act independently.",
+      "title": "Israel and Iran escalation resumes; mutual ceasefire holds but fragile",
+      "summary": "After declaring mutual ceasefire on June 9-10, Israel and Iran have halted further strikes, though both sides maintain elevated readiness. Reuters, AP News, and NPR confirm the pause following Apache helicopter downing and retaliatory US strikes on Iranian targets. Threat level remains CRITICAL (9/10) with Netanyahu having called off major follow-on strike after Trump warning. Risk of renewed cycle remains acute.",
       "region": "Strait of Hormuz, Persian Gulf, Israel, Iran",
       "source": "incidents, global_metrics",
       "confidence": "high"
@@ -15,48 +15,48 @@
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran uranium enrichment at 60% U-235; 1-2 week nuclear breakout window confirmed",
-      "summary": "Iran's uranium enrichment confirmed at 60% U-235 with estimated breakout time of 1-2 weeks per global_metrics nuclear feed and coordinated IAEA/Western diplomatic campaign (Reuters, Jerusalem Post, CSIS). U.S. draft resolution at IAEA demands Iran reveal nuclear sites and stockpile status. Concurrent kinetic escalation creates dual-domain crisis: immediate military hostilities overlapping near-term nuclear threshold crossing.",
+      "title": "Iran uranium enrichment confirmed at 60% U-235; 1-2 week breakout window",
+      "summary": "Iran's uranium enrichment at 60% U-235 with breakout time estimated at 1-2 weeks per IAEA coordination and Western diplomatic sources (Reuters, Jerusalem Post, CSIS, IranWire). IAEA board passed resolution demanding Iran report uranium stockpile transparency. Concurrent kinetic escalation overlaps with near-term nuclear threshold crossing, creating dual-domain crisis.",
       "region": "Iran / Global",
       "source": "global_metrics, incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "U.S. completes retaliatory strikes on Iran following Apache helicopter downing; mutual escalation cycle underway",
-      "summary": "U.S. military conducted retaliatory airstrikes against Iranian targets in response to Iran's downing of a U.S. Army Apache helicopter over the Strait of Hormuz on June 9, per incidents feed (CNBC, PBS, DW, Reuters, AP News, Washington Post). Iran subsequently launched missile attacks on U.S. bases and allied positions in Bahrain, Kuwait, and Jordan. Multiple strikes across southern Iranian territory reported targeting air defense, radar, and command-control infrastructure.",
-      "region": "Strait of Hormuz, Persian Gulf, Bahrain, Kuwait, Jordan",
-      "source": "incidents",
-      "confidence": "high"
+      "category": "asset_movement",
+      "title": "U.S. carrier strike groups remain positioned across Persian Gulf and Arabian Sea",
+      "summary": "USS Dwight D. Eisenhower deployed to Red Sea, USS Abraham Lincoln to Arabian Sea, with supporting destroyers USS Carney, Mason, and Laboon maintaining presence. USS Florida submarine reported in Persian Gulf. Multiple amphibious assets (USS Bataan) supporting operations. Asset positioning reflects sustained U.S. force projection in response to Iranian escalation cycle.",
+      "region": "Red Sea, Arabian Sea, Persian Gulf, Mediterranean",
+      "source": "assets",
+      "confidence": "medium"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "U.S. official claims 'nearly all' Iranian missiles intercepted; suggests some penetrated defenses",
-      "summary": "Middle East Spectator Telegram post (45.5K views) citing U.S. official statement to New York Times claims 'nearly all Iranian missiles and drones were intercepted,' with the caveat in parentheses that 'some of them were not intercepted.' Jordan separately claims it intercepted all 5 missiles at Muwaffaq Salti airbase. Suggests partial success of air defenses but acknowledgment of penetration by Iranian precision munitions.",
-      "region": "Persian Gulf, Jordan",
-      "source": "telegram",
-      "confidence": "medium"
+      "category": "incident",
+      "title": "Trump threatens Iran with 'very hard' strikes; oil prices spike on escalation rhetoric",
+      "summary": "Trump issued public warning that Iran will 'pay the price' for stalled negotiations and military actions, per ME Spectator Telegram post (~49.5K views, June 10). CNBC reports oil prices rose following Trump's threat rhetoric. Escalation language from U.S. leadership raises risk of renewed kinetic cycle despite current ceasefire.",
+      "region": "Global, Iran",
+      "source": "incidents, telegram_signal",
+      "confidence": "high"
     },
     {
       "severity": "medium",
-      "category": "sentiment_shift",
-      "title": "Trump dominating U.S. political discourse amid Iran escalation; domestic polarization on conflict response",
-      "summary": "Sentiment analysis shows U.S. news split 48% positive / 47% negative with 'Trump' (57 mentions) and 'Iran' (21 mentions) as top keywords, alongside domestic political terms ('Maine,' 'primary,' 'Senate,' 'Graham'). Trump statement that Iran will 'pay the price' for stalled talks signals continued escalatory rhetoric. Domestic political divisions over conflict response visible across sentiment feeds, suggesting potential constraint on sustained U.S. military commitment.",
-      "region": "Global (U.S. domestic)",
-      "source": "sentiment, incidents",
-      "confidence": "medium"
+      "category": "incident",
+      "title": "Israeli strikes in southern Lebanon kill 13-17; proxy escalation continues",
+      "summary": "BBC and Reuters report Israeli airstrikes on southern Lebanon killed 13-17 civilians on June 10. Strikes represent continuation of Israel-Hezbollah escalation cycle even as Israel-Iran direct exchange pauses. Regional proxy activity (Hezbollah, Houthis, Iraqi Shiite Militias) remains elevated per global_metrics, indicating broader theater instability.",
+      "region": "Northern Israel, Southern Lebanon",
+      "source": "incidents, global_metrics",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "U.S.-Iran mutual escalation cycle has entered active kinetic phase with helicopter downing triggering strike-counterstrike exchanges; simultaneous nuclear breakout timeline compression (1-2 weeks) creates acute dual crisis requiring immediate diplomatic off-ramp, though Trump administration rhetoric suggests continued hawkish posture.",
+  "analysis_note": "Israel-Iran mutual ceasefire holds provisionally after tit-for-tat strikes (June 9-10), but Trump escalation rhetoric and Iranian 60% uranium enrichment (1-2 week breakout window) create overlapping kinetic and nuclear crises; regional proxy activity persists with Israeli strikes on Lebanon and heightened Hezbollah/Houthi/PMF status.",
   "meta": {
-    "input_tokens": 23635,
+    "input_tokens": 19425,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 913,
-    "cost_usd": 0.0282,
-    "wall_time_s": 13.5,
-    "data_hash": "b536610a7b1d15ba658e8b6a7e040adb1ebd0d2ca5572bec45fcd6f1c9b6d4be"
+    "output_tokens": 783,
+    "cost_usd": 0.0233,
+    "wall_time_s": 11.9,
+    "data_hash": "955f5de3850aecdb6270127869bf92d54c61ac09d161f1dbd8aefe3c94e08d36"
   }
 }
