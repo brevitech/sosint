@@ -1,22 +1,27 @@
 {
   "us": {
     "positive": 45,
-    "negative": 47,
-    "neutral": 8,
+    "negative": 49,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 50,
+        "count": 53,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 20,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
         "word": "maine",
-        "count": 18,
+        "count": 21,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -25,22 +30,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "primary",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "graham",
+        "word": "south",
         "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "south",
+        "word": "primary",
         "count": 14,
         "sentiment": "neutral"
       },
@@ -50,19 +45,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 12,
-        "sentiment": "neutral"
+        "word": "strikes",
+        "count": 10,
+        "sentiment": "negative"
       },
       {
-        "word": "democratic",
+        "word": "graham",
         "count": 10,
         "sentiment": "neutral"
-      },
-      {
-        "word": "strikes",
-        "count": 9,
-        "sentiment": "negative"
       },
       {
         "word": "race",
@@ -70,8 +60,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
-        "count": 8,
+        "word": "senate",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -85,12 +75,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "bill",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "epstein",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "republican",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "white",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "primaries",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -105,17 +115,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "downed",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "middle",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "east",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democratic",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -130,201 +145,186 @@
         "sentiment": "neutral"
       },
       {
-        "word": "wins",
+        "word": "republicans",
         "count": 5,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "collins",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "risk",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "calls",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wanted",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-10T05:13:20.247190+00:00",
-    "nextRefresh": "2026-06-10T05:13:20.247190+00:00",
-    "articlesAnalyzed": 359,
-    "matchedMentions": 165,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-06-10T09:50:14.245849+00:00",
+    "nextRefresh": "2026-06-10T09:50:14.245849+00:00",
+    "articlesAnalyzed": 357,
+    "matchedMentions": 166,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 37,
-    "negative": 27,
-    "neutral": 36,
+    "positive": 36,
+    "negative": 34,
+    "neutral": 30,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 25,
+        "count": 24,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sushmita",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dev",
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nehru",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "longest-serving",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meets",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "yadav",
-        "count": 4,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "banerjee",
-        "count": 4,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "record",
-        "count": 4,
+        "word": "rajya",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
-        "count": 4,
+        "word": "sabha",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "indian",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "becomes",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "summit",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "france",
-        "count": 4,
+        "word": "trinamool",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "meeting",
-        "count": 4,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "sonia",
-        "count": 4,
+        "word": "longest-serving",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "cid",
-        "count": 4,
+        "word": "tmc",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "searches",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kolkata",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "land",
-        "count": 3,
+        "word": "future",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "mamata",
-        "count": 3,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
-        "count": 3,
+        "word": "resigns",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "days",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "milestone",
-        "count": 3,
+        "word": "meets",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "leaders",
-        "count": 3,
+        "word": "congress",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "inside",
-        "count": 3,
+        "word": "party",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "meloni",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "odi",
-        "count": 3,
+        "word": "office",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "quits",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sarma",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cabinet",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attend",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pitched",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rebels",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "bengal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "story",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "exit",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ambani",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-10T05:13:31.346469+00:00",
-    "nextRefresh": "2026-06-10T05:13:31.346469+00:00",
-    "articlesAnalyzed": 481,
-    "matchedMentions": 83,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-06-10T09:50:26.911214+00:00",
+    "nextRefresh": "2026-06-10T09:50:26.911214+00:00",
+    "articlesAnalyzed": 478,
+    "matchedMentions": 111,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   }
 }
