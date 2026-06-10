@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-10T05:13:55.053013+00:00",
+  "generated_at": "2026-06-10T12:53:17.839661+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "U.S. launches retaliatory strikes on Iran following helicopter downing; mutual escalation cycle accelerates",
-      "summary": "Following Iran's downing of a U.S. Army helicopter over the Strait of Hormuz on June 9, the U.S. conducted retaliatory airstrikes against Iranian targets on June 10. Iran subsequently struck Bahrain, Kuwait, and Jordan in response, marking the first direct U.S.-Iran kinetic exchange of the conflict theater. Multiple tier-1 outlets (NPR, AP News, Reuters, Bloomberg, WSJ) confirm active strike cycle. Threat level remains at 9 (CRITICAL).",
-      "region": "Strait of Hormuz, Persian Gulf, Bahrain, Kuwait, Jordan",
+      "title": "Israel and Iran declare mutual ceasefire after direct missile exchanges; escalation cycle pauses",
+      "summary": "Following tit-for-tat strikes on June 9-10, Israel and Iran have both announced halts to further strikes, per multiple tier-1 sources (AP News, Reuters, NPR, WSJ, New York Times). U.S. retaliatory strikes on Iranian targets preceded Iranian counterattacks on Bahrain, Kuwait, and Jordan. The mutual pause suggests both sides are reassessing risk, though threat level remains at 9 (CRITICAL). Netanyahu reportedly called off a major follow-on strike after Trump warned Israel would act independently.",
+      "region": "Strait of Hormuz, Persian Gulf, Israel, Iran",
       "source": "incidents, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran uranium enrichment confirmed at 60% U-235; nuclear breakout window narrows to 1-2 weeks",
-      "summary": "Iran's uranium enrichment level confirmed at 60% U-235 with estimated breakout time of approximately 1-2 weeks, per global_metrics nuclear feed and coordinated IAEA/Western pressure campaign (Reuters, Jerusalem Post, Al Jazeera, CSIS). Concurrent with active U.S.-Iran kinetic engagement and elevated proxy activity, Iran now faces dual escalation pathways: immediate military and near-term nuclear threshold crossing. IAEA and U.S. draft resolutions demand Iranian transparency on nuclear sites.",
+      "title": "Iran uranium enrichment at 60% U-235; 1-2 week nuclear breakout window confirmed",
+      "summary": "Iran's uranium enrichment confirmed at 60% U-235 with estimated breakout time of 1-2 weeks per global_metrics nuclear feed and coordinated IAEA/Western diplomatic campaign (Reuters, Jerusalem Post, CSIS). U.S. draft resolution at IAEA demands Iran reveal nuclear sites and stockpile status. Concurrent kinetic escalation creates dual-domain crisis: immediate military hostilities overlapping near-term nuclear threshold crossing.",
       "region": "Iran / Global",
       "source": "global_metrics, incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "cyber",
-      "title": "Tehran-linked cyber unit claims widespread Israeli radar system compromise; escalation to cyber domain underway",
-      "summary": "Iranian cyber actors have asserted responsibility for penetrating Israeli radar systems, per cyber_headlines in global_metrics feed (Shafagh News). This represents coordinated escalation across kinetic, nuclear, and cyber domains following June 8-10 missile exchanges. CSIS and Industrial Cyber reports document surge in cyber retaliation targeting government, defense, and critical infrastructure sectors in Middle East theater.",
-      "region": "Global, Israel, Iran",
-      "source": "global_metrics",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
       "category": "incident",
-      "title": "Israel kills 14 in southern Lebanon airstrike; Hezbollah escalation risk elevated amid Iran-Israel cycle",
-      "summary": "Israeli airstrikes on southern Lebanon killed 14 individuals on June 9-10, per Al Jazeera and Guardian reporting, following earlier strike on Tyre that killed eight. Evacuation orders issued for Lebanese Christian quarter. Incidents cluster with broader Iran-Israel missile exchange and directly implicate Hezbollah theater as spillover zone. Risk of Hezbollah retaliation and broader regional conflagration elevated.",
-      "region": "Northern Israel, Lebanon",
+      "title": "U.S. completes retaliatory strikes on Iran following Apache helicopter downing; mutual escalation cycle underway",
+      "summary": "U.S. military conducted retaliatory airstrikes against Iranian targets in response to Iran's downing of a U.S. Army Apache helicopter over the Strait of Hormuz on June 9, per incidents feed (CNBC, PBS, DW, Reuters, AP News, Washington Post). Iran subsequently launched missile attacks on U.S. bases and allied positions in Bahrain, Kuwait, and Jordan. Multiple strikes across southern Iranian territory reported targeting air defense, radar, and command-control infrastructure.",
+      "region": "Strait of Hormuz, Persian Gulf, Bahrain, Kuwait, Jordan",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
+      "category": "telegram_signal",
+      "title": "U.S. official claims 'nearly all' Iranian missiles intercepted; suggests some penetrated defenses",
+      "summary": "Middle East Spectator Telegram post (45.5K views) citing U.S. official statement to New York Times claims 'nearly all Iranian missiles and drones were intercepted,' with the caveat in parentheses that 'some of them were not intercepted.' Jordan separately claims it intercepted all 5 missiles at Muwaffaq Salti airbase. Suggests partial success of air defenses but acknowledgment of penetration by Iranian precision munitions.",
+      "region": "Persian Gulf, Jordan",
+      "source": "telegram",
+      "confidence": "medium"
+    },
+    {
+      "severity": "medium",
       "category": "sentiment_shift",
-      "title": "U.S. domestic political discourse dominated by Iran crisis; negative sentiment spike amid escalation",
-      "summary": "Sentiment analysis shows U.S. news corpus at 47% negative, 45% positive with dominant keywords 'trump,' 'iran,' and 'strikes' (50, 20, 9 mentions respectively). Helicopter incident dominates U.S. discourse alongside domestic political coverage (Maine primary, Senate races). Rapid sentiment polarity shift reflects acute public concern over kinetic escalation and nuclear timeline.",
-      "region": "United States",
-      "source": "sentiment",
+      "title": "Trump dominating U.S. political discourse amid Iran escalation; domestic polarization on conflict response",
+      "summary": "Sentiment analysis shows U.S. news split 48% positive / 47% negative with 'Trump' (57 mentions) and 'Iran' (21 mentions) as top keywords, alongside domestic political terms ('Maine,' 'primary,' 'Senate,' 'Graham'). Trump statement that Iran will 'pay the price' for stalled talks signals continued escalatory rhetoric. Domestic political divisions over conflict response visible across sentiment feeds, suggesting potential constraint on sustained U.S. military commitment.",
+      "region": "Global (U.S. domestic)",
+      "source": "sentiment, incidents",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "The U.S.-Iran conflict theater has entered acute kinetic and nuclear crisis phase with direct military exchange, 60% uranium enrichment, cyber retaliation, and Hezbollah spillover all active simultaneously; threat level critical (9/10) with breakout window measured in weeks.",
+  "analysis_note": "U.S.-Iran mutual escalation cycle has entered active kinetic phase with helicopter downing triggering strike-counterstrike exchanges; simultaneous nuclear breakout timeline compression (1-2 weeks) creates acute dual crisis requiring immediate diplomatic off-ramp, though Trump administration rhetoric suggests continued hawkish posture.",
   "meta": {
-    "input_tokens": 27076,
+    "input_tokens": 23635,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 850,
-    "cost_usd": 0.0313,
-    "wall_time_s": 12.2,
-    "data_hash": "60fe209ecf7e2be33b1b3ee2a25296c59262fdfaca78b53a78c83f5ee7e11e6e"
+    "output_tokens": 913,
+    "cost_usd": 0.0282,
+    "wall_time_s": 13.5,
+    "data_hash": "b536610a7b1d15ba658e8b6a7e040adb1ebd0d2ca5572bec45fcd6f1c9b6d4be"
   }
 }
