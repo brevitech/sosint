@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-11T08:41:41.191401+00:00",
+  "generated_at": "2026-06-11T16:50:35.041501+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "U.S.-Iran kinetic escalation continues into second full day; ceasefire fully collapsed",
-      "summary": "U.S. and Iranian forces exchanged sustained strikes for second consecutive day (June 10-11), with U.S. launching multiple attacks on Iranian targets while Iran retaliated against Bahrain, Kuwait, and Jordan. Multiple credible sources (NPR, PBS, BBC, AP, WSJ, Reuters) confirm ongoing dual-axis strikes clustered around Persian Gulf and central Iran (31.7-32.2\u00b0N, 52.7-53.3\u00b0E). Secretary Hegseth signaled intention to continue strikes.",
-      "region": "Iran, Strait of Hormuz, Persian Gulf, Bahrain, Kuwait, Jordan",
-      "source": "incidents, global_metrics, sentiment",
+      "title": "Trump orders new strikes on Iran oil infrastructure; threatens seizure of Kharg Island",
+      "summary": "President Trump ordered continued U.S. strikes on Iranian targets and explicitly threatened to seize Kharg Island and take \"total control\" of Iran's oil industry. Multiple sources (PBS, CNBC, The Guardian, AP News) confirm threat statements issued June 11. Strikes clustered around Persian Gulf oil infrastructure (31.7-32.2\u00b0N, 52.7-53.3\u00b0E) with intent to coerce Iranian capitulation on nuclear deal terms.",
+      "region": "Iran, Persian Gulf, Strait of Hormuz",
+      "source": "incidents, sentiment",
       "confidence": "high"
     },
     {
       "severity": "critical",
+      "category": "incident",
+      "title": "Iran strikes Muwaffaq Salti airbase in Jordan with 12 ballistic missiles; F-35s targeted",
+      "summary": "IRGC confirmed targeting of Muwaffaq Salti (Al-Azraq) airbase in Jordan with 12 ballistic missiles on June 11, reportedly destroying hangar facilities housing F-35, F-16, and F-15 fighter jets, plus command-and-control center. Multiple Telegram sources (ME Spectator, Rybar) confirm visual impacts and Iranian claims of high effectiveness. Represents regional escalation beyond Iran-Israel axis into U.S. ally territory.",
+      "region": "Jordan (Muwaffaq Salti Airbase)",
+      "source": "telegram, incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "incident",
+      "title": "U.S. launches 49 Tomahawk missiles at Iranian targets in overnight strike",
+      "summary": "Israeli Channel 12 media confirmed U.S. military conducted overnight strike on Iranian targets with 49 Tomahawk cruise missiles on June 11. Telegram sources (ME Spectator) corroborate missile count and overnight timing. Represents sustained dual-axis bombardment continuing second consecutive day of kinetic escalation without ceasefire restoration.",
+      "region": "Iran",
+      "source": "telegram, incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
       "category": "nuclear",
-      "title": "Iran uranium enrichment at 60% U-235; breakout window 1-2 weeks amid active conflict",
-      "summary": "IAEA confirmed Iran's uranium enrichment at 60% U-235 with breakout time narrowing to 1-2 weeks (Reuters, Jerusalem Post, IranWire). IAEA board passed resolution demanding Iran report uranium stockpiles and grant inspector access. Enrichment threshold poses imminent proliferation risk now concurrent with active kinetic escalation and collapsed ceasefire, creating unprecedented dual-track crisis.",
+      "title": "Iran uranium enrichment holds at 60% U-235; IAEA demands stockpile transparency amid kinetic war",
+      "summary": "IAEA confirms Iran maintains uranium enrichment at 60% U-235 with breakout window of 1-2 weeks concurrent with active U.S.-Iran strikes and collapsed ceasefire (per global_metrics, incidents feeds). IAEA board passed resolution demanding Iran report stockpiles and grant inspector access. Dual-track crisis creates unprecedented proliferation risk during active hostilities.",
       "region": "Iran / Global",
       "source": "global_metrics, incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Israeli airstrikes in southern Lebanon kill 17 civilians in Tyre, Sidon",
-      "summary": "Israeli Defense Forces conducted airstrikes on southern Lebanon killing at least 17 civilians in Tyre and Sidon (June 10-11), with eight killed in single Tyre strike per BBC and Guardian. Strikes targeted populated civilian quarters, prompting evacuation orders for Christian quarter. Escalation broadens beyond Iran-Israel axis to include direct Israel-Hezbollah kinetic phase.",
-      "region": "Southern Lebanon (Tyre, Sidon)",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Iran fires barrage of missiles at Israel; first direct attack since April ceasefire",
-      "summary": "Iran launched direct ballistic and cruise missile attack on Israel (June 10-11), marking first such bombardment since April ceasefire framework. IRGC claimed strikes targeted Israeli military installations. Israel responded with counter-strikes on Iranian targets. Both sides signaled escalatory intent if provocations continue. Attack represents critical threshold breach in April detente.",
-      "region": "Israel-Iran axis",
-      "source": "incidents, telegram",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "asset_movement",
-      "title": "U.S. maintains three carrier strike groups in critical zones; threat level rises to 9/10",
-      "summary": "Global threat assessment level raised to 9/10 (CRITICAL \u2014 IMMINENT ESCALATION) per real-time metrics. USS Dwight D. Eisenhower, USS Abraham Lincoln, and USS Gerald R. Ford remain deployed in Red Sea, Arabian Sea, and Mediterranean respectively. Three destroyer escort vessels (USS Carney, Mason, Laboon) and USS Florida submarine positioned in Red Sea and Persian Gulf. Brent crude spiked to $92.41/bbl amid escalation; Iranian rial free-market rate at 1.375M/USD signaling economic stress.",
-      "region": "Red Sea, Arabian Sea, Persian Gulf, Mediterranean",
-      "source": "assets, global_metrics",
-      "confidence": "high"
+      "category": "sentiment_shift",
+      "title": "U.S. sentiment sharply negative at 53%; Trump dominance in discourse signals political escalation support",
+      "summary": "U.S. sentiment analysis shows 53% negative vs. 42% positive sentiment (5% neutral) with \"Trump\" appearing 58 times in top word frequency\u2014far above baseline. Emergence of \"Kharg Island\" (10 mentions) and oil-control framing indicates domestic political narrative shift toward resource-seizure justification. Sentiment swing reflects public opinion tracking operational escalation trajectory.",
+      "region": "Global",
+      "source": "sentiment",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "U.S.-Iran direct kinetic exchange now sustained into day two with collapsed ceasefire, concurrent 60% uranium enrichment at 1-2 week breakout threshold, Israeli-Lebanese escalation, and U.S. carrier positioning at maximum readiness create quadruple-layer crisis with imminent proliferation and regional war risks.",
+  "analysis_note": "The U.S.-Iran conflict has entered a second full day of sustained kinetic escalation with Trump personally directing strikes on Iranian oil infrastructure and explicitly threatening territorial seizure, while Iran retaliates against regional U.S. allies in Jordan and the Gulf, all amid a 60% uranium enrichment threshold and 1-2 week nuclear breakout window.",
   "meta": {
-    "input_tokens": 25319,
+    "input_tokens": 16743,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 875,
-    "cost_usd": 0.0297,
-    "wall_time_s": 13.4,
-    "data_hash": "180d99da018a35d29159a1d7153770ac0358a67b43dffb7b3318057a6da858d9"
+    "output_tokens": 826,
+    "cost_usd": 0.0209,
+    "wall_time_s": 19.1,
+    "data_hash": "310a4f9f2681c2df4443046b26746d1e36d9d68cf9ba1ece4c9859baa7c7e50f"
   }
 }
