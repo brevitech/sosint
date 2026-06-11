@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-11T16:50:35.041501+00:00",
+  "generated_at": "2026-06-11T21:59:53.696341+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "incident",
-      "title": "Trump orders new strikes on Iran oil infrastructure; threatens seizure of Kharg Island",
-      "summary": "President Trump ordered continued U.S. strikes on Iranian targets and explicitly threatened to seize Kharg Island and take \"total control\" of Iran's oil industry. Multiple sources (PBS, CNBC, The Guardian, AP News) confirm threat statements issued June 11. Strikes clustered around Persian Gulf oil infrastructure (31.7-32.2\u00b0N, 52.7-53.3\u00b0E) with intent to coerce Iranian capitulation on nuclear deal terms.",
-      "region": "Iran, Persian Gulf, Strait of Hormuz",
-      "source": "incidents, sentiment",
+      "category": "diplomatic",
+      "title": "Trump announces framework for Iran negotiations; halts threatened strikes",
+      "summary": "President Trump declared June 11 that he will no longer conduct bombing operations against Iran tonight, citing approval of a negotiation framework by both sides (per ME Spectator Telegram, ~42K views). Statement represents sharp reversal from earlier threats to seize Kharg Island and strike oil infrastructure, signaling possible de-escalation or tactical pause after two days of kinetic exchanges. High-confidence source: multiple Telegram channels and mainstream outlets (PBS, AP, Axios) confirm announcement.",
+      "region": "Iran, Persian Gulf, Global",
+      "source": "telegram, incidents, sentiment",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran strikes Muwaffaq Salti airbase in Jordan with 12 ballistic missiles; F-35s targeted",
-      "summary": "IRGC confirmed targeting of Muwaffaq Salti (Al-Azraq) airbase in Jordan with 12 ballistic missiles on June 11, reportedly destroying hangar facilities housing F-35, F-16, and F-15 fighter jets, plus command-and-control center. Multiple Telegram sources (ME Spectator, Rybar) confirm visual impacts and Iranian claims of high effectiveness. Represents regional escalation beyond Iran-Israel axis into U.S. ally territory.",
-      "region": "Jordan (Muwaffaq Salti Airbase)",
-      "source": "telegram, incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "U.S. launches 49 Tomahawk missiles at Iranian targets in overnight strike",
-      "summary": "Israeli Channel 12 media confirmed U.S. military conducted overnight strike on Iranian targets with 49 Tomahawk cruise missiles on June 11. Telegram sources (ME Spectator) corroborate missile count and overnight timing. Represents sustained dual-axis bombardment continuing second consecutive day of kinetic escalation without ceasefire restoration.",
-      "region": "Iran",
-      "source": "telegram, incidents",
+      "title": "Iran closes Strait of Hormuz following continued U.S.-Iran strike exchange",
+      "summary": "Iran has closed the Strait of Hormuz amid ongoing U.S. bombardment campaigns on June 11 (per Al Jazeera incident report). Action represents escalatory response to sustained U.S. kinetic operations and signals Tehran's willingness to weaponize critical global chokepoint. Closure threatens ~30% of world seaborne oil trade and correlates with Brent crude holding at $89.09/barrel and Iranian rial free-market rate at 1,375,155 IRR/USD.",
+      "region": "Strait of Hormuz, Persian Gulf",
+      "source": "incidents, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "nuclear",
-      "title": "Iran uranium enrichment holds at 60% U-235; IAEA demands stockpile transparency amid kinetic war",
-      "summary": "IAEA confirms Iran maintains uranium enrichment at 60% U-235 with breakout window of 1-2 weeks concurrent with active U.S.-Iran strikes and collapsed ceasefire (per global_metrics, incidents feeds). IAEA board passed resolution demanding Iran report stockpiles and grant inspector access. Dual-track crisis creates unprecedented proliferation risk during active hostilities.",
-      "region": "Iran / Global",
-      "source": "global_metrics, incidents",
+      "title": "Iran uranium enrichment remains at 60% U-235; 1-2 week breakout window intact amid kinetic war",
+      "summary": "IAEA continues to confirm Iran maintains 60% uranium enrichment with estimated 1-2 week nuclear breakout timeline despite active U.S.-Iran military operations (per global_metrics, nuclear headline sources). IAEA board passed resolution demanding Iran provide full stockpile reporting transparency. Concurrent nuclear advancement and kinetic escalation represent compounding strategic risk.",
+      "region": "Iran",
+      "source": "global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "sentiment_shift",
-      "title": "U.S. sentiment sharply negative at 53%; Trump dominance in discourse signals political escalation support",
-      "summary": "U.S. sentiment analysis shows 53% negative vs. 42% positive sentiment (5% neutral) with \"Trump\" appearing 58 times in top word frequency\u2014far above baseline. Emergence of \"Kharg Island\" (10 mentions) and oil-control framing indicates domestic political narrative shift toward resource-seizure justification. Sentiment swing reflects public opinion tracking operational escalation trajectory.",
-      "region": "Global",
+      "title": "U.S. sentiment toward Iran conflict turns sharply negative; Trump dominates discourse",
+      "summary": "U.S. sentiment analysis shows 49% negative vs. 44% positive polarization on June 11, with 'Trump' (88 instances), 'Iran' (18), 'Clayton' (17), and 'war' (9) dominating word cloud. Negative sentiment spike reflects second straight day of U.S. strike operations and public concern over nuclear/escalation risk. Sentiment shift indicates domestic political pressure on Trump administration to justify continued military action.",
+      "region": "Global (U.S. Media)",
       "source": "sentiment",
-      "confidence": "medium"
+      "confidence": "high"
+    },
+    {
+      "severity": "medium",
+      "category": "incident",
+      "title": "Israeli strikes in southern Lebanon kill 17; proxy escalation persists amid ceasefire",
+      "summary": "Israeli military conducted strikes on southern Lebanon June 11, resulting in 17 reported fatalities (per BBC incident report, lat 33.52\u00b0N, lon 36.08\u00b0E). Attack occurred during fragile Israel-Iran ceasefire period and signals ongoing proxy-axis tensions despite Trump's negotiation framework announcement. Demonstrates that regional de-escalation remains incomplete across all conflict vectors.",
+      "region": "Northern Israel, Southern Lebanon",
+      "source": "incidents",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "The U.S.-Iran conflict has entered a second full day of sustained kinetic escalation with Trump personally directing strikes on Iranian oil infrastructure and explicitly threatening territorial seizure, while Iran retaliates against regional U.S. allies in Jordan and the Gulf, all amid a 60% uranium enrichment threshold and 1-2 week nuclear breakout window.",
+  "analysis_note": "The theater remains in acute flux: Trump's negotiation framework announcement and strike halt create opening for possible U.S.-Iran talks, but Iran's closure of the Strait of Hormuz, maintained 60% enrichment, and Israeli-Hezbollah kinetic activity indicate preparedness for continued escalation if diplomacy fails. Threat level remains at 9/10 (critical).",
   "meta": {
-    "input_tokens": 16743,
+    "input_tokens": 23493,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 826,
-    "cost_usd": 0.0209,
-    "wall_time_s": 19.1,
-    "data_hash": "310a4f9f2681c2df4443046b26746d1e36d9d68cf9ba1ece4c9859baa7c7e50f"
+    "output_tokens": 900,
+    "cost_usd": 0.028,
+    "wall_time_s": 12.2,
+    "data_hash": "17016bf16cd54d46f6f070837ec591db0d8ffd7c350eb7b050976a90a92a5c8f"
   }
 }
