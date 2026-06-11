@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-06-11T03:29:07.478676+00:00",
+  "generated_at": "2026-06-11T08:41:41.191401+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "U.S. and Iran resume kinetic escalation; ceasefire collapses June 10-11",
-      "summary": "After June 9-10 ceasefire, U.S. military launched new strikes on multiple Iranian targets June 10-11 (NPR, PBS, Axios, CNBC). Iran retaliated with attacks on Bahrain, Kuwait, and Jordan. Secretary Hegseth announced intention to strike Iran again. Multiple incidents clustered around Persian Gulf and central Iran (31.8\u00b0N, 52.8\u00b0E). Ceasefire has definitively broken.",
+      "title": "U.S.-Iran kinetic escalation continues into second full day; ceasefire fully collapsed",
+      "summary": "U.S. and Iranian forces exchanged sustained strikes for second consecutive day (June 10-11), with U.S. launching multiple attacks on Iranian targets while Iran retaliated against Bahrain, Kuwait, and Jordan. Multiple credible sources (NPR, PBS, BBC, AP, WSJ, Reuters) confirm ongoing dual-axis strikes clustered around Persian Gulf and central Iran (31.7-32.2\u00b0N, 52.7-53.3\u00b0E). Secretary Hegseth signaled intention to continue strikes.",
       "region": "Iran, Strait of Hormuz, Persian Gulf, Bahrain, Kuwait, Jordan",
-      "source": "incidents, global_metrics",
+      "source": "incidents, global_metrics, sentiment",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran enrichment at 60% U-235; breakout window narrows to 1-2 weeks",
-      "summary": "IAEA confirmed Iran's uranium enrichment at 60% U-235 with breakout time estimated at 1-2 weeks (Reuters, Jerusalem Post, IAEA board resolution, IranWire). IAEA board demanded Iran report uranium stockpile transparency and grant inspector access. Enrichment threshold now poses imminent proliferation risk concurrent with active kinetic escalation.",
+      "title": "Iran uranium enrichment at 60% U-235; breakout window 1-2 weeks amid active conflict",
+      "summary": "IAEA confirmed Iran's uranium enrichment at 60% U-235 with breakout time narrowing to 1-2 weeks (Reuters, Jerusalem Post, IranWire). IAEA board passed resolution demanding Iran report uranium stockpiles and grant inspector access. Enrichment threshold poses imminent proliferation risk now concurrent with active kinetic escalation and collapsed ceasefire, creating unprecedented dual-track crisis.",
       "region": "Iran / Global",
-      "source": "global_metrics",
+      "source": "global_metrics, incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israeli strikes in southern Lebanon kill 17; Tyre and Sidon targeted",
-      "summary": "Israeli airstrikes on southern Lebanon killed at least 17 civilians in Tyre and Sidon areas, with eight killed in single Tyre attack per BBC and Guardian reports (June 10-11). Strikes targeted populated civilian quarters, prompting evacuation orders. Represents escalation of Israel-Hezbollah kinetic phase beyond Iran-Israel axis.",
+      "title": "Israeli airstrikes in southern Lebanon kill 17 civilians in Tyre, Sidon",
+      "summary": "Israeli Defense Forces conducted airstrikes on southern Lebanon killing at least 17 civilians in Tyre and Sidon (June 10-11), with eight killed in single Tyre strike per BBC and Guardian. Strikes targeted populated civilian quarters, prompting evacuation orders for Christian quarter. Escalation broadens beyond Iran-Israel axis to include direct Israel-Hezbollah kinetic phase.",
       "region": "Southern Lebanon (Tyre, Sidon)",
       "source": "incidents",
       "confidence": "high"
@@ -33,30 +33,30 @@
     {
       "severity": "high",
       "category": "incident",
-      "title": "Iran fires missiles at Israel during June 10-11 escalation cycle",
-      "summary": "Iran launched direct missile attack on Israel on June 10-11, breaking April ceasefire framework (NPR, Axios, Washington Post, New York Times). Attack marked first such direct bombardment since fragile ceasefire took effect. Israel responded with counter-strikes on Iranian targets. Both sides signaled intent to continue if provoked.",
+      "title": "Iran fires barrage of missiles at Israel; first direct attack since April ceasefire",
+      "summary": "Iran launched direct ballistic and cruise missile attack on Israel (June 10-11), marking first such bombardment since April ceasefire framework. IRGC claimed strikes targeted Israeli military installations. Israel responded with counter-strikes on Iranian targets. Both sides signaled escalatory intent if provocations continue. Attack represents critical threshold breach in April detente.",
       "region": "Israel-Iran axis",
-      "source": "incidents",
+      "source": "incidents, telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "sentiment_shift",
-      "title": "U.S. sentiment on Iran conflict spikes negative to 58%; threat level peaks at CRITICAL (9/10)",
-      "summary": "U.S. sentiment analysis shows 58% negative vs. 38% positive (4% neutral) with 'trump,' 'iran,' 'strikes,' and 'military' dominating trending terms (78, 31, 16, and 9 mentions respectively). Global threat level elevated to CRITICAL (9/10) per metrics dashboard. Brent crude oil at $94.50/bbl reflects escalation premium. Proxy forces (Hezbollah, Houthis, PMF) all elevated or active.",
-      "region": "Global",
-      "source": "sentiment, global_metrics",
+      "category": "asset_movement",
+      "title": "U.S. maintains three carrier strike groups in critical zones; threat level rises to 9/10",
+      "summary": "Global threat assessment level raised to 9/10 (CRITICAL \u2014 IMMINENT ESCALATION) per real-time metrics. USS Dwight D. Eisenhower, USS Abraham Lincoln, and USS Gerald R. Ford remain deployed in Red Sea, Arabian Sea, and Mediterranean respectively. Three destroyer escort vessels (USS Carney, Mason, Laboon) and USS Florida submarine positioned in Red Sea and Persian Gulf. Brent crude spiked to $92.41/bbl amid escalation; Iranian rial free-market rate at 1.375M/USD signaling economic stress.",
+      "region": "Red Sea, Arabian Sea, Persian Gulf, Mediterranean",
+      "source": "assets, global_metrics",
       "confidence": "high"
     }
   ],
-  "analysis_note": "The U.S.-Iran ceasefire has definitively collapsed as of June 10-11 with renewed U.S. strikes, Iranian retaliation on Gulf states and Israel, and Israeli counter-escalation into Lebanon; nuclear breakout window has compressed to 1-2 weeks, creating a dual-domain crisis (kinetic + proliferation) at maximum strategic risk.",
+  "analysis_note": "U.S.-Iran direct kinetic exchange now sustained into day two with collapsed ceasefire, concurrent 60% uranium enrichment at 1-2 week breakout threshold, Israeli-Lebanese escalation, and U.S. carrier positioning at maximum readiness create quadruple-layer crisis with imminent proliferation and regional war risks.",
   "meta": {
-    "input_tokens": 26236,
+    "input_tokens": 25319,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 828,
-    "cost_usd": 0.0304,
-    "wall_time_s": 11.5,
-    "data_hash": "ec194a744674cf24250caded2a99810760d6371ea9c7cb98d80e166a972aacd0"
+    "output_tokens": 875,
+    "cost_usd": 0.0297,
+    "wall_time_s": 13.4,
+    "data_hash": "180d99da018a35d29159a1d7153770ac0358a67b43dffb7b3318057a6da858d9"
   }
 }
