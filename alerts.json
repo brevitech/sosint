@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-12T12:15:50.897817+00:00",
+  "generated_at": "2026-06-12T19:02:01.748987+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "incident",
-      "title": "Iran launches missiles at Israel; ceasefire framework collapses amid multiple strikes",
-      "summary": "Multiple sources confirm Iran fired missiles at Israel for the first time since April ceasefire (incidents feed, June 12, 12:15 UTC). Axios, Politico, AP News, and ABC7 report direct Iranian bombardment, contradicting Trump's June 11 announcement of de-escalation framework. Simultaneous Israeli strikes on Lebanon (13 killed in Tyre region per Reuters) signal multi-front escalation.",
-      "region": "Israel, Iran, Southern Lebanon",
-      "source": "incidents",
+      "category": "nuclear",
+      "title": "Iran uranium enrichment reaches 60% U-235; breakout window narrows to 1-2 weeks",
+      "summary": "Global metrics nuclear headlines confirm Iran has achieved 60% uranium enrichment with estimated breakout time of 1-2 weeks (global_metrics, June 12). IAEA board passed resolution demanding Iran declare uranium stockpiles and grant inspectors access. France and multiple governments warn Iran has continuously violated NPT commitments. This represents material acceleration toward weapons-grade material.",
+      "region": "Global",
+      "source": "global_metrics",
       "confidence": "high"
     },
     {
       "severity": "critical",
-      "category": "telegram_signal",
-      "title": "Explosions in Sirik and Bandar Abbas; Iran launches anti-ship systems toward Strait of Hormuz",
-      "summary": "ME Spectator Telegram channel reports explosions in Sirik (June 11, 21:11 UTC, ~54K views) and Bandar Abbas (June 11, 22:00 UTC, ~53K views) with analysis indicating anti-ship missile or drone launches toward Strait of Hormuz. Posts flagged for missile and explosion keywords. Timing suggests Iranian response capability intact despite diplomatic pause.",
-      "region": "Strait of Hormuz, Southern Iran",
-      "source": "telegram",
-      "confidence": "medium"
+      "category": "incident",
+      "title": "Iran-Israel ceasefire collapses; Trump calls off strike threats amid conflicting deal narratives",
+      "summary": "Incidents feed reports contradictory messaging June 12: Trump announced calling off threatened strikes citing breakthrough in US-Iran talks (PBS, AP News), while simultaneously denying Iran's account of deal terms and calling Iranians 'dishonorable' (CNBC). Pakistani PM claims final peace deal text reached (RFE/RL). Meanwhile, Israeli officials state Iran's 14-point proposal demands $300B 'recovery plan' and complete US troop withdrawal while leaving missile program off negotiation table (Media Line). Diplomatic chaos signals framework instability despite public de-escalation rhetoric.",
+      "region": "Iran, Israel, Global",
+      "source": "incidents",
+      "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Houthis announce blockade of Israeli shipping in Red Sea; escalate proxy naval threat",
-      "summary": "Multiple outlets (Long War Journal, Reuters, NYT, Jerusalem Post) report Houthis declaring ban on Israeli vessels in Red Sea with threats to widen Iran war (incidents feed, June 12, 12:15 UTC). Combined with Hezbollah active status and Iraqi militia base strikes, proxy network shows coordinated escalation despite ceasefire framework.",
-      "region": "Red Sea, Yemen",
+      "title": "Indian sailors killed in Hormuz as ceasefire framework fails for third-party maritime traffic",
+      "summary": "Multiple outlets (Al Jazeera, CNN, June 12) report Indian sailors becoming 'collateral damage' in Trump's Iran war, with vessels attacked in Strait of Hormuz despite supposed ceasefire. Highlights gap between US-Iran diplomatic pause and ongoing proxy/asymmetric threats to neutral shipping. Critical infrastructure vulnerability persists even if kinetic US-Iran exchanges pause.",
+      "region": "Strait of Hormuz",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "cyber",
-      "title": "Iran-linked cyber groups claim hacks of FBI drones and California water systems in retaliation",
-      "summary": "Global metrics cyber headlines report Iran-linked groups claiming responsibility for California water system hack in retaliation for Iran strikes and theft of FBI drone systems (Al Arabiya, Middle East Eye, June 12). Represents asymmetric response escalation and critical infrastructure targeting during kinetic tensions.",
+      "title": "Iran-linked cyber groups claim FBI drone system theft and California water infrastructure compromise",
+      "summary": "Global metrics cyber headlines report Iran-linked groups claiming hacks of FBI drone systems and California water systems in direct retaliation for Iran strikes (CBS News, Middle East Eye, June 12). Claims represent escalation into critical infrastructure targeting and asymmetric response during kinetic pause. Threat level maintained at 9/10 (CRITICAL\u2014IMMINENT ESCALATION) per global_metrics.",
       "region": "Global",
       "source": "global_metrics",
       "confidence": "medium"
     },
     {
       "severity": "high",
-      "category": "sentiment_shift",
-      "title": "U.S. negative sentiment surges to 47% amid contradictory Trump signals on Iran strikes",
-      "summary": "Sentiment feed shows U.S. negative sentiment at 47% with 'trump' and 'iran' dominant keywords alongside 'deal' and 'peace' (June 12, 12:15 UTC). High-frequency Trump references reflect public confusion over June 11 strike cancellation followed by June 12 Israeli-Iranian escalation, indicating policy volatility and strategic uncertainty.",
-      "region": "Global",
-      "source": "sentiment",
+      "category": "asset_movement",
+      "title": "US maintains ~30 warships in Middle East theater despite diplomatic talks; carriers remain positioned for rapid escalation",
+      "summary": "Assets feed confirms USS Dwight D. Eisenhower, USS Abraham Lincoln, and USS Gerald R. Ford deployed across Red Sea, Arabian Sea, and Mediterranean with multiple destroyer and submarine support (Carney, Mason, Laboon in Red Sea; Florida in Persian Gulf). Fleet composition unchanged despite Trump's announced de-escalation, signaling contingency readiness. Rybar Telegram post (~88K views, June 12, 14:31 UTC) notes American naval grouping 'has not changed position' despite diplomatic theater.",
+      "region": "Red Sea, Arabian Sea, Persian Gulf, Mediterranean",
+      "source": "assets, telegram",
       "confidence": "high"
     }
   ],
-  "analysis_note": "The purported U.S.-Iran de-escalation framework announced June 11 has collapsed within 24 hours; Iran has launched direct strikes on Israel, Israel has escalated in Lebanon, Houthis have declared Red Sea blockade, and cyber retaliation has commenced, signaling multi-front regional escalation with imminent risk of wider conflict.",
+  "analysis_note": "Iran's nuclear program has accelerated to weapons-adjacent thresholds (60% enrichment, 1-2 week breakout) while US-Iran diplomatic framework collapses into competing narratives; kinetic pauses mask persistent proxy escalation, cyber retaliation, and third-party casualty risks as Trump administration maintains full military positioning.",
   "meta": {
-    "input_tokens": 13951,
+    "input_tokens": 22957,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 755,
-    "cost_usd": 0.0177,
-    "wall_time_s": 11.8,
-    "data_hash": "b0ebc3b7baa2fcaaa54da1e8d353425445b4c0f8ee20b8c62951ee4093bf1a09"
+    "output_tokens": 838,
+    "cost_usd": 0.0271,
+    "wall_time_s": 12.6,
+    "data_hash": "6705a785d74e3a4e5c625980c3b93f9fa737fb6ad4bed3ed93895c3dd403d729"
   }
 }
