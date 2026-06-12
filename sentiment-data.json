@@ -1,117 +1,82 @@
 {
   "us": {
-    "positive": 45,
-    "negative": 47,
-    "neutral": 8,
+    "positive": 43,
+    "negative": 52,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 80,
+        "count": 81,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 26,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "spacex",
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
+        "count": 21,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "anti-weaponization",
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fund",
         "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "spacex",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vance",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "musk",
-        "count": 9,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "ipo",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "block",
+        "count": 14,
+        "sentiment": "negative"
+      },
+      {
+        "word": "musk",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "extends",
+        "count": 13,
+        "sentiment": "positive"
+      },
+      {
+        "word": "trillionaire",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "name",
-        "count": 9,
+        "word": "billion",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "cup",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "peace",
-        "count": 9,
-        "sentiment": "positive"
-      },
-      {
-        "word": "bill",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "claims",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "spy",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "demand",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "clayton",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kennedy",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "center",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "board",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "oil",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 7,
+        "count": 8,
         "sentiment": "negative"
       },
       {
@@ -120,57 +85,102 @@
         "sentiment": "neutral"
       },
       {
+        "word": "order",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lawmakers",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "us-iran",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "powers",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "legal",
-        "count": 7,
-        "sentiment": "positive"
-      },
-      {
-        "word": "intelligence",
-        "count": 7,
-        "sentiment": "positive"
-      },
-      {
-        "word": "trillionaire",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "prices",
-        "count": 6,
+        "word": "officials",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
-        "count": 6,
+        "word": "become",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "national",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "close",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "demand",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "expire",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "york",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blocks",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "tells",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "life",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-12T12:15:04.275097+00:00",
-    "nextRefresh": "2026-06-12T12:15:04.275097+00:00",
-    "articlesAnalyzed": 360,
-    "matchedMentions": 195,
-    "uniquePersonalities": 54,
+    "generatedAt": "2026-06-12T16:14:08.312421+00:00",
+    "nextRefresh": "2026-06-12T16:14:08.312421+00:00",
+    "articlesAnalyzed": 337,
+    "matchedMentions": 178,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 39,
-    "negative": 41,
-    "neutral": 20,
+    "positive": 34,
+    "negative": 50,
+    "neutral": 16,
     "wordCloud": [
       {
+        "word": "banerjee",
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
         "word": "against",
-        "count": 14,
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -179,79 +189,74 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "odi",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "afghanistan",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seek",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bengal",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lok",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sabha",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "slams",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tamil",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dies",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leaders",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "mamata",
-        "count": 6,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "rebel",
-        "count": 6,
+        "count": 10,
         "sentiment": "negative"
+      },
+      {
+        "word": "odi",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "afghanistan",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "left",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "speech",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "magic",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "number",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "trinamool",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "satabdi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "roy",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fir",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "kohli",
@@ -259,7 +264,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "indian",
+        "word": "trouble",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "leader",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "probe",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bengal",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "remarks",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -269,62 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "real",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trouble",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "jaspal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rana",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shooting",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
+        "word": "behind",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "fuel",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
+        "word": "battling",
         "count": 4,
         "sentiment": "negative"
+      },
+      {
+        "word": "revolt",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-12T12:15:23.259823+00:00",
-    "nextRefresh": "2026-06-12T12:15:23.259823+00:00",
-    "articlesAnalyzed": 461,
-    "matchedMentions": 109,
-    "uniquePersonalities": 56,
+    "generatedAt": "2026-06-12T16:14:22.698894+00:00",
+    "nextRefresh": "2026-06-12T16:14:22.698894+00:00",
+    "articlesAnalyzed": 480,
+    "matchedMentions": 103,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   }
 }
