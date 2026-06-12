@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-11T21:59:53.696341+00:00",
+  "generated_at": "2026-06-12T03:28:22.140555+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "diplomatic",
-      "title": "Trump announces framework for Iran negotiations; halts threatened strikes",
-      "summary": "President Trump declared June 11 that he will no longer conduct bombing operations against Iran tonight, citing approval of a negotiation framework by both sides (per ME Spectator Telegram, ~42K views). Statement represents sharp reversal from earlier threats to seize Kharg Island and strike oil infrastructure, signaling possible de-escalation or tactical pause after two days of kinetic exchanges. High-confidence source: multiple Telegram channels and mainstream outlets (PBS, AP, Axios) confirm announcement.",
-      "region": "Iran, Persian Gulf, Global",
-      "source": "telegram, incidents, sentiment",
+      "category": "incident",
+      "title": "Israel-Lebanon border escalation; 17 killed in southern Lebanon strikes",
+      "summary": "Israeli military conducted overnight strikes across southern Lebanon, killing at least 17 civilians according to BBC and Guardian reports (incidents feed, June 12, 03:28 UTC). Strikes targeted Tyre and surrounding areas, prompting evacuation orders. This represents active kinetic escalation on the northern front concurrent with Iran-U.S. de-escalation signals, raising risk of multi-front conflict.",
+      "region": "Northern Israel, Southern Lebanon",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "critical",
-      "category": "incident",
-      "title": "Iran closes Strait of Hormuz following continued U.S.-Iran strike exchange",
-      "summary": "Iran has closed the Strait of Hormuz amid ongoing U.S. bombardment campaigns on June 11 (per Al Jazeera incident report). Action represents escalatory response to sustained U.S. kinetic operations and signals Tehran's willingness to weaponize critical global chokepoint. Closure threatens ~30% of world seaborne oil trade and correlates with Brent crude holding at $89.09/barrel and Iranian rial free-market rate at 1,375,155 IRR/USD.",
-      "region": "Strait of Hormuz, Persian Gulf",
-      "source": "incidents, global_metrics",
+      "category": "telegram_signal",
+      "title": "Explosions detected in Sirik, Iran; anti-ship missiles reportedly launched toward Strait of Hormuz",
+      "summary": "ME Spectator Telegram channel reports explosions in Sirik, southern Iran (June 11, 21:11 UTC, ~41K views), with analysis suggesting possible anti-ship missile or drone launches targeting the Strait of Hormuz. Alert follows Trump's announcement of de-escalation framework, indicating either delayed Iranian response or tactical probing of U.S. commitment.",
+      "region": "Strait of Hormuz, Southern Iran",
+      "source": "telegram",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
+      "category": "asset_movement",
+      "title": "U.S. maintains three carrier strike groups in active theater; Red Sea presence sustained",
+      "summary": "Current assets data confirms USS Dwight D. Eisenhower (Red Sea), USS Abraham Lincoln (Arabian Sea), and USS Gerald R. Ford (Mediterranean) deployed across theater (assets feed, June 12, 03:28 UTC). Deployment pattern supports sustained force posture despite diplomatic pause, with three destroyers (Carney, Mason, Laboon) and amphibious assets (USS Bataan) reinforcing chokepoint control.",
+      "region": "Red Sea, Arabian Sea, Persian Gulf",
+      "source": "assets",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "nuclear",
-      "title": "Iran uranium enrichment remains at 60% U-235; 1-2 week breakout window intact amid kinetic war",
-      "summary": "IAEA continues to confirm Iran maintains 60% uranium enrichment with estimated 1-2 week nuclear breakout timeline despite active U.S.-Iran military operations (per global_metrics, nuclear headline sources). IAEA board passed resolution demanding Iran provide full stockpile reporting transparency. Concurrent nuclear advancement and kinetic escalation represent compounding strategic risk.",
+      "title": "IAEA demands Iran report full uranium stockpile as enrichment remains at 60% U-235",
+      "summary": "UN watchdog continues demanding transparency on uranium stockpile amid Iran's maintenance of 60% enrichment with ~1-2 week breakout window (global_metrics, June 12, 03:28 UTC). IAEA board resolution underscores verification crisis: Iran's refusal to provide reporting compounds breakout-window risk despite kinetic pause.",
       "region": "Iran",
       "source": "global_metrics",
       "confidence": "high"
     },
     {
-      "severity": "high",
-      "category": "sentiment_shift",
-      "title": "U.S. sentiment toward Iran conflict turns sharply negative; Trump dominates discourse",
-      "summary": "U.S. sentiment analysis shows 49% negative vs. 44% positive polarization on June 11, with 'Trump' (88 instances), 'Iran' (18), 'Clayton' (17), and 'war' (9) dominating word cloud. Negative sentiment spike reflects second straight day of U.S. strike operations and public concern over nuclear/escalation risk. Sentiment shift indicates domestic political pressure on Trump administration to justify continued military action.",
-      "region": "Global (U.S. Media)",
-      "source": "sentiment",
-      "confidence": "high"
-    },
-    {
       "severity": "medium",
-      "category": "incident",
-      "title": "Israeli strikes in southern Lebanon kill 17; proxy escalation persists amid ceasefire",
-      "summary": "Israeli military conducted strikes on southern Lebanon June 11, resulting in 17 reported fatalities (per BBC incident report, lat 33.52\u00b0N, lon 36.08\u00b0E). Attack occurred during fragile Israel-Iran ceasefire period and signals ongoing proxy-axis tensions despite Trump's negotiation framework announcement. Demonstrates that regional de-escalation remains incomplete across all conflict vectors.",
-      "region": "Northern Israel, Southern Lebanon",
-      "source": "incidents",
-      "confidence": "high"
+      "category": "sentiment_shift",
+      "title": "U.S. domestic discourse remains polarized on Iran conflict; Trump dominance peaks at 102 mentions",
+      "summary": "Sentiment analysis shows U.S. opinion split 47% negative vs. 45% positive (sentiment feed, June 12, 03:28 UTC), with 'Trump' appearing 102 times in top-word analysis\u2014up from 88 in previous cycle. Keyword emergence of 'clayton,' 'vance,' 'spacex' (combined 39 mentions) indicates White House personnel and policy focus now competing with Iran conflict narrative for attention.",
+      "region": "Global",
+      "source": "sentiment",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "The theater remains in acute flux: Trump's negotiation framework announcement and strike halt create opening for possible U.S.-Iran talks, but Iran's closure of the Strait of Hormuz, maintained 60% enrichment, and Israeli-Hezbollah kinetic activity indicate preparedness for continued escalation if diplomacy fails. Threat level remains at 9/10 (critical).",
+  "analysis_note": "U.S.-Iran kinetic exchange has paused following Trump's negotiation framework announcement, but tactical probes (Iran missile activity, Israeli Lebanon strikes) and nuclear enrichment persistence suggest underlying escalation risk remains acute; multi-theater activity and IAEA uranium reporting crisis compound strategic volatility.",
   "meta": {
-    "input_tokens": 23493,
+    "input_tokens": 15284,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 900,
-    "cost_usd": 0.028,
-    "wall_time_s": 12.2,
-    "data_hash": "17016bf16cd54d46f6f070837ec591db0d8ffd7c350eb7b050976a90a92a5c8f"
+    "output_tokens": 779,
+    "cost_usd": 0.0192,
+    "wall_time_s": 11.1,
+    "data_hash": "8d12361cbf45bcf8f8dc2eb154930e4a0224cb71cd58d7e6cf208bd77741b7cd"
   }
 }
