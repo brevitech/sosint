@@ -15,6 +15,7 @@ reasonable-use guidelines.
 
 import json
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -97,17 +98,32 @@ def label_region(lat: float, lon: float) -> str:
 def main() -> int:
     print(f"[*] GET {ADSB_URL}", flush=True)
 
-    try:
-        r = requests.get(
-            ADSB_URL,
-            timeout=20,
-            # adsb.lol's ODbL guard 451s UAs that embed a project URL; keep it bare.
-            headers={"User-Agent": "n8ra-wartracker/1.0"},
-        )
-        r.raise_for_status()
-        data = r.json()
-    except requests.RequestException as e:
-        print(f"ERROR fetching adsb.lol: {e}", file=sys.stderr)
+    # adsb.lol is community infrastructure and occasionally times out for
+    # 20-30s. Retry up to 3x with 5s/10s backoff before giving up so a single
+    # transient blip doesn't fail the workflow run.
+    data = None
+    last_err = None
+    for attempt in range(1, 4):
+        try:
+            r = requests.get(
+                ADSB_URL,
+                timeout=20,
+                # adsb.lol's ODbL guard 451s UAs that embed a project URL; keep it bare.
+                headers={"User-Agent": "n8ra-wartracker/1.0"},
+            )
+            r.raise_for_status()
+            data = r.json()
+            break
+        except requests.RequestException as e:
+            last_err = e
+            print(f"[!] attempt {attempt}/3 failed: {e}", file=sys.stderr)
+            if attempt < 3:
+                wait_s = 5 * attempt
+                print(f"[!] retrying in {wait_s}s...", file=sys.stderr)
+                time.sleep(wait_s)
+
+    if data is None:
+        print(f"ERROR fetching adsb.lol after 3 attempts: {last_err}", file=sys.stderr)
         return 1
 
     # adsb.lol returns the aircraft list under "ac" (tar1090 format).

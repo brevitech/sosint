@@ -1,4 +1,4 @@
-name: Air Traffic Tracker (OpenSky)
+name: Air Traffic Tracker (adsb.lol)
 
 on:
   schedule:
@@ -32,6 +32,7 @@ jobs:
         run: pip install -r scripts/requirements.txt
 
       - name: Scrape adsb.lol air traffic
+        continue-on-error: true
         run: python scripts/scrape_air_traffic.py
 
       - name: Commit air-traffic.json
