@@ -1,17 +1,22 @@
 {
   "us": {
     "positive": 45,
-    "negative": 48,
-    "neutral": 7,
+    "negative": 45,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 85,
+        "count": 92,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 28,
+        "count": 24,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 21,
         "sentiment": "neutral"
       },
       {
@@ -30,27 +35,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "iran",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
         "word": "musk",
         "count": 16,
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
         "word": "white",
-        "count": 15,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "house",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
         "count": 14,
         "sentiment": "neutral"
       },
@@ -61,13 +61,13 @@
       },
       {
         "word": "leader",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "ufc",
-        "count": 11,
-        "sentiment": "neutral"
+        "word": "block",
+        "count": 10,
+        "sentiment": "negative"
       },
       {
         "word": "gang",
@@ -80,9 +80,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "block",
-        "count": 9,
-        "sentiment": "negative"
+        "word": "ufc",
+        "count": 10,
+        "sentiment": "neutral"
       },
       {
         "word": "tren",
@@ -115,14 +115,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "killed",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
         "word": "justice",
         "count": 8,
         "sentiment": "positive"
+      },
+      {
+        "word": "us-iran",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "signed",
+        "count": 8,
+        "sentiment": "neutral"
       },
       {
         "word": "orders",
@@ -140,72 +145,72 @@
         "sentiment": "neutral"
       },
       {
+        "word": "killed",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
         "word": "department",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "paramount",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "warner",
         "count": 7,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-13T17:18:24.144102+00:00",
-    "nextRefresh": "2026-06-13T17:18:24.144102+00:00",
-    "articlesAnalyzed": 344,
-    "matchedMentions": 180,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-06-13T19:18:28.163243+00:00",
+    "nextRefresh": "2026-06-13T19:18:28.163243+00:00",
+    "articlesAnalyzed": 345,
+    "matchedMentions": 185,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 36,
-    "negative": 40,
-    "neutral": 24,
+    "positive": 34,
+    "negative": 46,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "india",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 11,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "gill",
-        "count": 10,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 9,
+        "word": "modi",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "odi",
-        "count": 9,
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -219,27 +224,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "tmc",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abhishek",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "france",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rubio",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hormuz",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "jaishankar",
+        "word": "house",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -249,12 +249,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "afghanistan",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
+        "word": "indian",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -264,12 +264,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "meets",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "won",
         "count": 5,
         "sentiment": "positive"
       },
       {
-        "word": "remarks",
+        "word": "aide",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sudip",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bandyopadhyay",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bloc",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -279,52 +299,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "remarks",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rubio",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "sharma",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "leader",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "police",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "blockade",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tolerated",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "son",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kalyan",
+        "word": "punjab",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-13T17:18:34.940556+00:00",
-    "nextRefresh": "2026-06-13T17:18:34.940556+00:00",
-    "articlesAnalyzed": 476,
-    "matchedMentions": 107,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-06-13T19:18:41.553633+00:00",
+    "nextRefresh": "2026-06-13T19:18:41.553633+00:00",
+    "articlesAnalyzed": 463,
+    "matchedMentions": 111,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
 }
