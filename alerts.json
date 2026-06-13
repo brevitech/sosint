@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-13T15:30:54.104390+00:00",
+  "generated_at": "2026-06-13T21:10:35.306385+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "nuclear",
-      "title": "Iran nuclear breakout window narrows to 1-2 weeks amid escalation",
-      "summary": "Global metrics confirm Iran's uranium enrichment at 60% U-235 with breakout timeline estimated at 1-2 weeks. IAEA board passed resolution demanding Iran report uranium stocks and grant inspector access (Reuters, BBC). Coincides with active Israel-Iran missile exchanges and US threat level at 9/10 (critical-imminent escalation).",
-      "region": "Global",
-      "source": "global_metrics, incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "critical",
       "category": "incident",
-      "title": "Iran and Israel trade direct missile strikes; ceasefire fractures after June 13 exchanges",
-      "summary": "Incidents feed reports Iran launched missiles at Israel in first bombardment since April ceasefire; Israel responded with air strikes on Lebanon. Multiple sources (NPR, PBS, BBC, AP News, WSJ) confirm exchange of fire. Trump stated he called off further Iran strikes citing negotiation progress, but active kinetic exchanges contradict de-escalation claims (incidents, 25 reports analyzed).",
+      "title": "Iran-Israel ceasefire fractures as direct missile exchanges resume",
+      "summary": "Iran launched missiles at Israel in first bombardment since April ceasefire; Israel responded with air strikes on Lebanon. Multiple sources (NPR, BBC, AP News, PBS, WSJ, Al Jazeera) confirm kinetic exchanges. Despite Trump's stated calls to de-escalate, active missile and air strikes contradict negotiation narrative (incidents feed, 25+ reports).",
       "region": "Israel, Iran, Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
+      "severity": "critical",
+      "category": "nuclear",
+      "title": "Iran nuclear breakout window remains 1-2 weeks amid active escalation",
+      "summary": "Iran maintains 60% U-235 enrichment with estimated 1-2 week breakout timeline. IAEA board passed resolution demanding uranium stock reporting and inspector access. Escalation in kinetic exchanges compresses negotiation window and raises proliferation risk (global_metrics, incidents).",
+      "region": "Global",
+      "source": "global_metrics, incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "diplomatic",
+      "title": "Trump claims US-Iran deal imminent; conflicting signals undermine credibility",
+      "summary": "Trump stated US-Iran deal scheduled for signing Sunday and repeatedly cited 'progress in talks,' yet concurrent Iran missile strikes and Israeli airstrikes on Lebanon undermine de-escalation claims. Iran downplayed peace-agreement claims via Radio Free Europe, signaling skepticism (incidents feed).",
+      "region": "Global",
+      "source": "incidents",
+      "confidence": "medium"
+    },
+    {
       "severity": "high",
       "category": "incident",
-      "title": "Houthis announce ban on Israeli vessels, escalate Red Sea naval threats",
-      "summary": "Long War Journal and Reuters report Iran-backed Houthis announced complete ban on Israeli shipping in Red Sea and threatened new attacks on Israel and regional shipping. Represents proxy escalation despite claimed US-Iran deal proximity (Long War Journal, Reuters). Coincides with elevated proxy status across Hezbollah, Iraqi Shiite Militias, and PIJ.",
-      "region": "Red Sea, Yemen",
+      "title": "Israel issues forced displacement orders in south Lebanon amid escalating strikes",
+      "summary": "Al Jazeera reports five killed as Israel hits south Lebanon and issues forced displacement orders. Coincides with Hezbollah elevated status and active fire exchanges (incidents feed). Represents potential expansion of conflict footprint beyond Israel-Iran direct engagement.",
+      "region": "Northern Israel, Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "cyber",
-      "title": "Iran-linked group claims hack of FBI drones; threatens World Cup sabotage",
-      "summary": "Multiple sources (Middle East Eye, France 24, CBS News) report Iran-linked cyber group claimed successful hack of FBI drone systems and threatened disruption of 2026 World Cup. Represents escalation of cyber dimension alongside kinetic conflict and potential civilians-facing threats. Part of broader cyber campaign including California water system attack claims.",
-      "region": "Global",
-      "source": "global_metrics",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
-      "category": "sentiment_shift",
-      "title": "US public anxiety peaks amid Iran deal uncertainty and Trump messaging contradictions",
-      "summary": "US sentiment analysis shows 48% negative (up from ~45% baseline), with 'trump' (83 mentions), 'iran' (14 mentions), and 'deal' (14 mentions) dominating word cloud. Reflects public concern over conflicting signals: Trump claims progress in talks while active missile exchanges and nuclear breakout timeline shorten (sentiment, June 13).",
-      "region": "Global",
-      "source": "sentiment",
+      "category": "asset_movement",
+      "title": "Three US carriers and amphibious assets maintain critical theater positioning",
+      "summary": "USS Dwight D. Eisenhower (Red Sea), USS Abraham Lincoln (Arabian Sea), and USS Gerald R. Ford (Mediterranean) remain deployed with supporting destroyers (Carney, Mason, Laboon) and amphibious asset USS Bataan in Red Sea. USS Florida submarine positioned in Persian Gulf. Asset concentration reflects sustained US readiness posture amid Iran-Israel escalation (assets feed, 54 articles analyzed).",
+      "region": "Red Sea, Arabian Sea, Persian Gulf, Mediterranean",
+      "source": "assets",
       "confidence": "high"
     }
   ],
-  "analysis_note": "The fragile April ceasefire between Israel and Iran has collapsed into direct kinetic exchange on June 13, while Iran's nuclear enrichment accelerates toward breakout (1-2 weeks), regional proxies escalate, and cyber threats emerge\u2014creating a multi-domain crisis amid contradictory US diplomatic and military signaling.",
+  "analysis_note": "Iran-Israel direct missile exchanges shatter April ceasefire despite Trump's de-escalation rhetoric; nuclear breakout window compresses to 1-2 weeks while diplomatic claims lose credibility amid active hostilities and expanded Lebanon strikes.",
   "meta": {
-    "input_tokens": 20996,
+    "input_tokens": 26759,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 701,
-    "cost_usd": 0.0245,
-    "wall_time_s": 10.6,
-    "data_hash": "2171821e4f08a0e6c9ecf9e135b2bc284347a04f4aba06f3012ecce658047fcd"
+    "output_tokens": 635,
+    "cost_usd": 0.0299,
+    "wall_time_s": 9.9,
+    "data_hash": "fcfb8e9409472e52b60901d2d4f2c171cd41d89d3dd2bb435a853913d9bb98f8"
   }
 }
