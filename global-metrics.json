@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T13:50:05.365532+00:00",
+  "generatedAt": "2026-06-13T15:30:27.901783+00:00",
   "dataSource": "live-osint",
   "economy": {
     "brentCrude": 87.33,
@@ -7,14 +7,14 @@
   },
   "cyber": [
     {
-      "title": "Iran-linked group claims hack of FBI drones, threatens World Cup, monitor reports - France 24",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeFdtZFlwQ0twUU81YTByak96Y3ZLNi1weThRa1FGRmFrUE9WdlNGMjczbm9TSkVpTjRZQ2JkVkdxQnlFR0djUXQ3OHY1a0N4VDQtcXh1UXVZb3JkTkd2NzNPcFFxamZLQmJOcG5uMXlUWGJmX2Z4TVZIQUl1MDJReHhDZzg5QU5mTHZCbURwRkhBOTZyc2hHUWZ0eHV6dFQyYVNlZEROTTVqV3lwZmYwdkZpeVpZaHhHZGd4UVdfRGtQS28?oc=5",
-      "published": "Fri, 12 Jun 2026 17:21:51 GMT"
-    },
-    {
       "title": "Cyber group claims California water system hack in retaliation for Iran strikes - Middle East Eye",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbnZmbDRpZWNnZUZHcU1EblNmZEdPZlYwT2RBcVJGQ2duMVFRMFVjOUw2ZTRrWG1VU3pINFA1a1VnME9iNGV3SjQyWkZabGsyb1JULU1vY3dma0FVWUNQMFlLRHZzalFfM3kyUS1jNjBuT0JqNG5xQ25hYzhGZnZCTlIwUk92d2gzMno5NFZQdHEyUzhJTE5EZFpOSWIzSlhfeFNQaUYzZFhmMnNtZ19JY2o5YU9CV05UOFI2OXJQZmNkOTJvanVabQ?oc=5",
       "published": "Fri, 12 Jun 2026 06:07:00 GMT"
+    },
+    {
+      "title": "Iran-linked group claims hack of FBI drones, threatens World Cup, monitor reports - France 24",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeFdtZFlwQ0twUU81YTByak96Y3ZLNi1weThRa1FGRmFrUE9WdlNGMjczbm9TSkVpTjRZQ2JkVkdxQnlFR0djUXQ3OHY1a0N4VDQtcXh1UXVZb3JkTkd2NzNPcFFxamZLQmJOcG5uMXlUWGJmX2Z4TVZIQUl1MDJReHhDZzg5QU5mTHZCbURwRkhBOTZyc2hHUWZ0eHV6dFQyYVNlZEROTTVqV3lwZmYwdkZpeVpZaHhHZGd4UVdfRGtQS28?oc=5",
+      "published": "Fri, 12 Jun 2026 17:21:51 GMT"
     },
     {
       "title": "Iran-linked group claims hack of FBI drones, threatens World Cup, monitor says - CBS News",
@@ -42,7 +42,7 @@
     "label": "CRITICAL — IMMINENT ESCALATION"
   },
   "proxies": {
-    "Hezbollah": "Active",
+    "Hezbollah": "Elevated - Active Exchanges",
     "Houthis (Ansar Allah)": "Elevated - Multiple Recent Attacks",
     "Iraqi Shiite Militias (PMF)": "Elevated - Base Strikes Detected",
     "Hamas": "Degraded",
@@ -52,6 +52,11 @@
     "enrichment": "60% U-235",
     "breakout": "~1-2 weeks (estimated)",
     "news": [
+      {
+        "title": "The nuclear challenge at the heart of Trump's Iran negotiations - BBC",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sRGc0X3BidmtYZndzMkdaSWJGNzBzaFMtczNZSWhhWFRWYXlfVmxQbDFCUU03dmVORGVPVFQ1ZU5nMVJ0RmM2X25kTlVqWWczNzJxZDlXT3I1dw?oc=5",
+        "published": "Sat, 13 Jun 2026 14:01:20 GMT"
+      },
       {
         "title": "Iran has continuously violated its commitments - France ONU",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FNnpnNkREdTJ5QnBOR2M1LXdrcUNkSk5UUnZWNkJRUXdmVU5pQ2c2emRnRGt6T3BUQWxac3hEWUdnYjFUX0RTN2ZjRlJMT3dXcklBNC1DN0xIYWNzbFY0Q25hMmRHZ1Y4US1sWFh4eDZQZjhOMHl2eXRPZjdzOVU?oc=5",
@@ -71,11 +76,6 @@
         "title": "IAEA board demands Iran report uranium stocks, grant inspectors access to facilities - The Times of Israel",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSmwwNUVQVHIzZXJ3ZzlEemhWWDluUXdiUUNudEJiOEFydDc5MGxJckk4Q0dGbUFoUDR6ZEtacEIwdTJLencxY3A0ZjBWcTFnZlJqa2swbURmejdZVzZpN0daN0Q0YWhfVUhORzVaanFpZWZ0X2Z0Y2RVQ01zanJfNHVwN0tiM3gtRUhIVVMyeE1aLUFFY0k3VHpuaVJ3MU1FaXdYZG1OTDNHZTZkWFNZQ0NrTVXSAboBQVVfeXFMT1Azci12blo2bmIyMFlrQVI2UVdFOHBDTWRCYXJaNkR4VTVsZkxoMlB3dVdJS0xTczZVX051ekxUVFlEbVpvYmtWRXZtdG5yLXhHU3FEeE1qSVZYeEc1aU1XSVZBVUlpS1dqZW52c1FUOEJuUWltM2Ric2J5RUo0eFpQazdQOFVlY0NnQjJ1eGJfeGdKRXNrLW1pdGdUeVdaWjZHTWdXVWdCU3dQTWVldW9GTkkwNWJLbzNB?oc=5",
         "published": "Wed, 10 Jun 2026 20:55:00 GMT"
-      },
-      {
-        "title": "IAEA Board Passes Resolution Demanding Iran Declare Uranium Stockpiles - i24NEWS",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeFl0cEpjNFdhcDVxOU1PSnNEUjdLMWhqNGdxTTVxTzVKaGdMVGdqLUYzbVNfXzk5MGI1VFhxbHlpQWotNDVBM0RBUjk4Y0NiSEV3UnFkTjVRYVY3OGdBc0NabVc0V3haU1hNc2RoQk1fekd2SUwwYmp3YmdkakdVRE01SXJxS0FXNHJ5eEZGY1BkLVc0MGdUcnp1R2JmY3hzMWpCa3lia25aTVg1YnFBSE9xOHgzRUtIZXZBWk5qbV9EVWtvYmFxYkdaMWlWTmdsM3BNdw?oc=5",
-        "published": "Wed, 10 Jun 2026 15:37:00 GMT"
       }
     ]
   },

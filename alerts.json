@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-13T09:56:50.085357+00:00",
+  "generated_at": "2026-06-13T15:30:54.104390+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "incident",
-      "title": "Iran launches one-way attack drones at Strait of Hormuz; US intercepts all",
-      "summary": "US Central Command reported Iran launched multiple one-way attack drones targeting commercial shipping in the Strait of Hormuz on June 13. All drones were downed by US forces; international trade corridor remains open (ME Spectator, ~35K views). This marks sustained Iranian escalation despite ceasefire framework discussions and represents direct threat to global commerce.",
-      "region": "Strait of Hormuz",
-      "source": "telegram",
+      "category": "nuclear",
+      "title": "Iran nuclear breakout window narrows to 1-2 weeks amid escalation",
+      "summary": "Global metrics confirm Iran's uranium enrichment at 60% U-235 with breakout timeline estimated at 1-2 weeks. IAEA board passed resolution demanding Iran report uranium stocks and grant inspector access (Reuters, BBC). Coincides with active Israel-Iran missile exchanges and US threat level at 9/10 (critical-imminent escalation).",
+      "region": "Global",
+      "source": "global_metrics, incidents",
       "confidence": "high"
+    },
+    {
+      "severity": "critical",
+      "category": "incident",
+      "title": "Iran and Israel trade direct missile strikes; ceasefire fractures after June 13 exchanges",
+      "summary": "Incidents feed reports Iran launched missiles at Israel in first bombardment since April ceasefire; Israel responded with air strikes on Lebanon. Multiple sources (NPR, PBS, BBC, AP News, WSJ) confirm exchange of fire. Trump stated he called off further Iran strikes citing negotiation progress, but active kinetic exchanges contradict de-escalation claims (incidents, 25 reports analyzed).",
+      "region": "Israel, Iran, Lebanon",
+      "source": "incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "incident",
+      "title": "Houthis announce ban on Israeli vessels, escalate Red Sea naval threats",
+      "summary": "Long War Journal and Reuters report Iran-backed Houthis announced complete ban on Israeli shipping in Red Sea and threatened new attacks on Israel and regional shipping. Represents proxy escalation despite claimed US-Iran deal proximity (Long War Journal, Reuters). Coincides with elevated proxy status across Hezbollah, Iraqi Shiite Militias, and PIJ.",
+      "region": "Red Sea, Yemen",
+      "source": "incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "cyber",
+      "title": "Iran-linked group claims hack of FBI drones; threatens World Cup sabotage",
+      "summary": "Multiple sources (Middle East Eye, France 24, CBS News) report Iran-linked cyber group claimed successful hack of FBI drone systems and threatened disruption of 2026 World Cup. Represents escalation of cyber dimension alongside kinetic conflict and potential civilians-facing threats. Part of broader cyber campaign including California water system attack claims.",
+      "region": "Global",
+      "source": "global_metrics",
+      "confidence": "medium"
     },
     {
       "severity": "high",
       "category": "sentiment_shift",
-      "title": "US negative sentiment spikes to 54% amid Iran tensions and Trump messaging",
-      "summary": "Sentiment analysis shows US negative sentiment reached 54% (from baseline ~48%), with 'trump' (103 mentions), 'iran' (17 mentions), and 'deal' (15 mentions) dominating word cloud on June 13. Coincides with Iran drone attacks and contradictory US-Iran diplomatic signaling, indicating public anxiety over ceasefire stability and escalation risk.",
+      "title": "US public anxiety peaks amid Iran deal uncertainty and Trump messaging contradictions",
+      "summary": "US sentiment analysis shows 48% negative (up from ~45% baseline), with 'trump' (83 mentions), 'iran' (14 mentions), and 'deal' (14 mentions) dominating word cloud. Reflects public concern over conflicting signals: Trump claims progress in talks while active missile exchanges and nuclear breakout timeline shorten (sentiment, June 13).",
       "region": "Global",
       "source": "sentiment",
       "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "asset_movement",
-      "title": "Three US carriers and amphibious task force maintain maximum posture in Middle East",
-      "summary": "Assets feed confirms USS Dwight D. Eisenhower (Red Sea), USS Abraham Lincoln (Arabian Sea), and USS Gerald R. Ford (Mediterranean) remain deployed with destroyer and submarine support (USS Florida in Persian Gulf, USS Bataan in Red Sea). Sustained high-end force composition indicates no de-escalation despite diplomatic claims (assets, 54 articles analyzed).",
-      "region": "Persian Gulf, Red Sea, Arabian Sea",
-      "source": "assets",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "telegram_signal",
-      "title": "Ukraine deep-strike drone campaign intensifies; Rybar reports 60% decoy tactics",
-      "summary": "Rybar posted high-engagement analysis (144K views, June 12) on Ukrainian BLA drone operations across Russian territory, noting shift to precision tactics by mid-2026. New development: 60% of May drones launched were decoys to deplete Russian air defense\u2014strategic evolution beyond volume saturation (Rybar, tagged 'strike' keyword).",
-      "region": "Eastern Ukraine, Russia",
-      "source": "telegram",
-      "confidence": "medium"
-    },
-    {
-      "severity": "medium",
-      "category": "diplomatic",
-      "title": "Brent crude holds at $87.33 amid ceasefire uncertainty; Iranian rial remains volatile",
-      "summary": "Global metrics show Brent crude at $87.33 (stable) and Iranian rial free-market rate at 1,375,255 (high volatility). Threat level registered at 7/10 (HIGH-ELEVATED). Despite tactical ceasefire claims, economic indicators reflect sustained uncertainty over Iran's willingness to honor commitments and risk of renewed escalation.",
-      "region": "Global",
-      "source": "global_metrics",
-      "confidence": "medium"
     }
   ],
-  "analysis_note": "Iran is conducting measured but repeated escalations (drone attacks on Hormuz shipping) while ostensibly negotiating with the US; Trump administration maintains maximum military posture while pursuing diplomatic off-ramps; Ukraine continues tactical innovation in deep-strike campaigns; regional stability remains fragile with multiple potential flashpoints active.",
+  "analysis_note": "The fragile April ceasefire between Israel and Iran has collapsed into direct kinetic exchange on June 13, while Iran's nuclear enrichment accelerates toward breakout (1-2 weeks), regional proxies escalate, and cyber threats emerge\u2014creating a multi-domain crisis amid contradictory US diplomatic and military signaling.",
   "meta": {
-    "input_tokens": 17315,
+    "input_tokens": 20996,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 727,
-    "cost_usd": 0.0209,
-    "wall_time_s": 11.1,
-    "data_hash": "a75008a0c2e58d46d9827af6bad6820b31981ab0c41eb259ef811f468a089823"
+    "output_tokens": 701,
+    "cost_usd": 0.0245,
+    "wall_time_s": 10.6,
+    "data_hash": "2171821e4f08a0e6c9ecf9e135b2bc284347a04f4aba06f3012ecce658047fcd"
   }
 }
