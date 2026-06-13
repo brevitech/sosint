@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-12T19:02:01.748987+00:00",
+  "generated_at": "2026-06-13T02:54:39.912462+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran uranium enrichment reaches 60% U-235; breakout window narrows to 1-2 weeks",
-      "summary": "Global metrics nuclear headlines confirm Iran has achieved 60% uranium enrichment with estimated breakout time of 1-2 weeks (global_metrics, June 12). IAEA board passed resolution demanding Iran declare uranium stockpiles and grant inspectors access. France and multiple governments warn Iran has continuously violated NPT commitments. This represents material acceleration toward weapons-grade material.",
+      "title": "Iran uranium enrichment hits 60% U-235; IAEA demands stockpile disclosure",
+      "summary": "Global metrics confirm Iran has maintained 60% U-235 enrichment with breakout window estimated at 1-2 weeks. IAEA board passed resolution demanding Iran declare all uranium stockpiles and grant inspector access to facilities. France and multiple nations warn Iran continues violating NPT commitments. This represents sustained acceleration toward weapons-grade material capability.",
       "region": "Global",
       "source": "global_metrics",
       "confidence": "high"
     },
     {
-      "severity": "critical",
+      "severity": "high",
       "category": "incident",
-      "title": "Iran-Israel ceasefire collapses; Trump calls off strike threats amid conflicting deal narratives",
-      "summary": "Incidents feed reports contradictory messaging June 12: Trump announced calling off threatened strikes citing breakthrough in US-Iran talks (PBS, AP News), while simultaneously denying Iran's account of deal terms and calling Iranians 'dishonorable' (CNBC). Pakistani PM claims final peace deal text reached (RFE/RL). Meanwhile, Israeli officials state Iran's 14-point proposal demands $300B 'recovery plan' and complete US troop withdrawal while leaving missile program off negotiation table (Media Line). Diplomatic chaos signals framework instability despite public de-escalation rhetoric.",
-      "region": "Iran, Israel, Global",
+      "title": "Israel-Iran ceasefire unravels; new missile strikes reported amid deal uncertainty",
+      "summary": "Incidents feed reports Iran fired missiles at Israel for first time since April ceasefire (Axios, June 12), with Israel responding via air raids on southern Lebanon. Simultaneously, Trump called off threatened strikes citing breakthrough in US-Iran talks, while denying Iran's account of deal terms and labeling Iranians 'dishonorable' (CNBC, June 12). Pakistani PM claimed final peace deal text reached, but diplomatic messaging remains contradictory. Framework appears unstable despite public de-escalation rhetoric.",
+      "region": "Iran, Israel, Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Indian sailors killed in Hormuz as ceasefire framework fails for third-party maritime traffic",
-      "summary": "Multiple outlets (Al Jazeera, CNN, June 12) report Indian sailors becoming 'collateral damage' in Trump's Iran war, with vessels attacked in Strait of Hormuz despite supposed ceasefire. Highlights gap between US-Iran diplomatic pause and ongoing proxy/asymmetric threats to neutral shipping. Critical infrastructure vulnerability persists even if kinetic US-Iran exchanges pause.",
-      "region": "Strait of Hormuz",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "cyber",
-      "title": "Iran-linked cyber groups claim FBI drone system theft and California water infrastructure compromise",
-      "summary": "Global metrics cyber headlines report Iran-linked groups claiming hacks of FBI drone systems and California water systems in direct retaliation for Iran strikes (CBS News, Middle East Eye, June 12). Claims represent escalation into critical infrastructure targeting and asymmetric response during kinetic pause. Threat level maintained at 9/10 (CRITICAL\u2014IMMINENT ESCALATION) per global_metrics.",
-      "region": "Global",
-      "source": "global_metrics",
+      "category": "telegram_signal",
+      "title": "Ukraine deep-strike attacks intensify against Russia; ~130K-143K Telegram engagement",
+      "summary": "Rybar Telegram channel posted multiple high-engagement reports (130K-143K views) on Ukrainian BLA drone strikes into Russia's northwest, including targeting of Leningrad Oblast infrastructure. Posts highlight escalating Ukrainian deep-strike tactics and Russian air defense adaptation challenges. Multiple posts flagged with 'strike' keyword, indicating sustained campaign intensity and tactical evolution mid-2026.",
+      "region": "Eastern Ukraine, Russia",
+      "source": "telegram",
       "confidence": "medium"
     },
     {
       "severity": "high",
-      "category": "asset_movement",
-      "title": "US maintains ~30 warships in Middle East theater despite diplomatic talks; carriers remain positioned for rapid escalation",
-      "summary": "Assets feed confirms USS Dwight D. Eisenhower, USS Abraham Lincoln, and USS Gerald R. Ford deployed across Red Sea, Arabian Sea, and Mediterranean with multiple destroyer and submarine support (Carney, Mason, Laboon in Red Sea; Florida in Persian Gulf). Fleet composition unchanged despite Trump's announced de-escalation, signaling contingency readiness. Rybar Telegram post (~88K views, June 12, 14:31 UTC) notes American naval grouping 'has not changed position' despite diplomatic theater.",
-      "region": "Red Sea, Arabian Sea, Persian Gulf, Mediterranean",
-      "source": "assets, telegram",
-      "confidence": "high"
+      "category": "incident",
+      "title": "UAE reportedly paid $3B to Iran with $10B more planned to halt attacks",
+      "summary": "Reuters report cited by Iran International indicates UAE made $3B payment to Iran and agreed to release additional $10B to halt attacks (incidents feed, June 12). Signals potential third-party financing mechanism to manage escalation, though corroboration from independent sources remains limited. Suggests diplomatic/financial options being explored outside formal US-Iran negotiations.",
+      "region": "Persian Gulf, UAE-Iran",
+      "source": "incidents",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
+      "category": "sentiment_shift",
+      "title": "US sentiment swings negative as Iran tensions dominate discourse (55% negative)",
+      "summary": "Sentiment analysis shows US news at 55% negative sentiment versus 40% positive, with 'Iran' ranking #10 most-frequent term (~18 mentions) alongside high-frequency political figures (Trump 106x, Judge 56x). Negative polarity shift reflects sustained anxiety over Iran escalation amid mixed diplomatic signals. India sentiment also negative (44%) with 'sailors' and 'death' terms reflecting regional maritime casualty concerns from Hormuz ceasefire breakdown.",
+      "region": "Global, Strait of Hormuz",
+      "source": "sentiment",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "Iran's nuclear program has accelerated to weapons-adjacent thresholds (60% enrichment, 1-2 week breakout) while US-Iran diplomatic framework collapses into competing narratives; kinetic pauses mask persistent proxy escalation, cyber retaliation, and third-party casualty risks as Trump administration maintains full military positioning.",
+  "analysis_note": "Iran maintains 60% uranium enrichment with 1-2 week breakout window while Israel-Iran ceasefire collapses into tit-for-tat strikes; simultaneous US-Iran deal claims lack clarity, leaving threat level at critical (9/10) with proxy escalation ongoing across Lebanon, Eastern Ukraine, and Persian Gulf maritime routes.",
   "meta": {
-    "input_tokens": 22957,
+    "input_tokens": 23890,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 838,
-    "cost_usd": 0.0271,
-    "wall_time_s": 12.6,
-    "data_hash": "6705a785d74e3a4e5c625980c3b93f9fa737fb6ad4bed3ed93895c3dd403d729"
+    "output_tokens": 786,
+    "cost_usd": 0.0278,
+    "wall_time_s": 12.9,
+    "data_hash": "d11a197701021b96e9fbff69dc55b34a4897a780134a2540ca2b73dcddf72077"
   }
 }
