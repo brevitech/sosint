@@ -1,53 +1,78 @@
 {
   "us": {
-    "positive": 50,
-    "negative": 45,
-    "neutral": 5,
+    "positive": 47,
+    "negative": 47,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 86,
+        "count": 83,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 24,
+        "count": 30,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 20,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "ufc",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 10,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "peace",
-        "count": 9,
+        "count": 13,
         "sentiment": "positive"
       },
       {
-        "word": "strike",
+        "word": "house",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 10,
+        "sentiment": "negative"
+      },
+      {
+        "word": "putin",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "killed",
         "count": 8,
         "sentiment": "negative"
       },
       {
-        "word": "anthropic",
+        "word": "end",
         "count": 8,
         "sentiment": "neutral"
+      },
+      {
+        "word": "leader",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "event",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strikes",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
         "word": "hegseth",
@@ -55,14 +80,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "block",
+        "word": "strike",
         "count": 7,
         "sentiment": "negative"
-      },
-      {
-        "word": "leader",
-        "count": 7,
-        "sentiment": "neutral"
       },
       {
         "word": "attacks",
@@ -75,7 +95,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "musk",
+        "word": "detains",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "drone",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -85,19 +110,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "putin",
+        "word": "russia",
         "count": 7,
         "sentiment": "neutral"
-      },
-      {
-        "word": "strikes",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "war",
-        "count": 6,
-        "sentiment": "negative"
       },
       {
         "word": "tren",
@@ -115,22 +130,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "signed",
+        "word": "musk",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "killed",
-        "count": 6,
-        "sentiment": "negative"
       },
       {
         "word": "summit",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "israel",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -140,27 +145,22 @@
         "sentiment": "positive"
       },
       {
-        "word": "crash",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "state",
-        "count": 5,
+        "word": "birthday",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 5,
+        "word": "zelenskyy",
+        "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-14T21:05:42.490490+00:00",
-    "nextRefresh": "2026-06-14T21:05:42.490490+00:00",
+    "generatedAt": "2026-06-14T23:03:55.075286+00:00",
+    "nextRefresh": "2026-06-14T23:03:55.075286+00:00",
     "articlesAnalyzed": 349,
-    "matchedMentions": 165,
-    "uniquePersonalities": 41,
+    "matchedMentions": 163,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   },
   "india": {
@@ -169,18 +169,18 @@
     "neutral": 14,
     "wordCloud": [
       {
-        "word": "india",
-        "count": 21,
+        "word": "modi",
+        "count": 24,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 20,
+        "word": "india",
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "tmc",
-        "count": 15,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -189,8 +189,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "banerjee",
+        "word": "macron",
         "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -199,19 +204,9 @@
         "sentiment": "negative"
       },
       {
-        "word": "macron",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "party",
         "count": 7,
         "sentiment": "positive"
-      },
-      {
-        "word": "abhishek",
-        "count": 7,
-        "sentiment": "neutral"
       },
       {
         "word": "president",
@@ -219,7 +214,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "speaker",
+        "word": "abhishek",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -227,6 +222,11 @@
         "word": "nice",
         "count": 6,
         "sentiment": "positive"
+      },
+      {
+        "word": "cup",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "gandhi",
@@ -259,6 +259,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "speaker",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "france",
         "count": 5,
         "sentiment": "neutral"
@@ -269,12 +279,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "backs",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
         "word": "bloc",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "cup",
+        "word": "women",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -302,29 +317,14 @@
         "word": "sabha",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "innovation",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "sitharaman",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "citizens",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-14T21:05:54.260154+00:00",
-    "nextRefresh": "2026-06-14T21:05:54.260154+00:00",
+    "generatedAt": "2026-06-14T23:04:05.486952+00:00",
+    "nextRefresh": "2026-06-14T23:04:05.486952+00:00",
     "articlesAnalyzed": 466,
-    "matchedMentions": 97,
-    "uniquePersonalities": 38,
+    "matchedMentions": 103,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }

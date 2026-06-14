@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-14T17:16:43.299956+00:00",
+  "generated_at": "2026-06-14T23:04:37.099782+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran vows retaliation for Israeli Beirut strikes; deal in jeopardy",
-      "summary": "Iranian military official stated Israel's attack on Beirut 'will not go unanswered' as Trump administration warns both sides not to 'blow' emerging peace deal. Multiple sources (incidents feed: Middle East Eye, Axios, Jerusalem Post) confirm bilateral strike exchanges and Iranian threat rhetoric, with Trump explicitly condemning Israeli action and signaling US-Iran negotiations remain active but fragile.",
-      "region": "Israel, Lebanon, Iran",
-      "source": "incidents, telegram",
+      "title": "Iran launches ballistic missiles at Israel in first major attack since ceasefire collapse",
+      "summary": "Iran reportedly launched multiple ballistic missiles at Israel following Israeli strikes on Beirut, marking the first significant Iranian retaliation since the fragile US-brokered ceasefire fractured on 2026-06-14 (AP News, incidents feed). This escalation directly contradicts Trump administration warnings and threatens collapse of nascent US-Iran deal negotiations.",
+      "region": "Israel, Iran",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran 60% enriched uranium; Trump-Iran deal fractures amid escalation",
-      "summary": "Iran maintains 60% U-235 enrichment with 1-2 week breakout window as ceasefire collapses and kinetic strikes resume. Threat level raised to 9 (CRITICAL\u2014IMMINENT ESCALATION); IAEA board passed resolution demanding Iran report uranium stocks (global_metrics nuclear headlines). Nuclear verification crisis deepens amid diplomatic rupture.",
+      "title": "Iran 60% enriched; Trump pauses military uranium seizure plan as deal stalls",
+      "summary": "Iran maintains 60% U-235 enrichment with ~1-2 week nuclear breakout window. US military had prepared ground mission to secure Iranian enriched uranium but Trump administration paused operation amid deal negotiations (CNN, CBS News, global_metrics nuclear headlines). IAEA board resolution demanded Iran report uranium stocks as verification crisis deepens.",
       "region": "Global",
-      "source": "global_metrics, incidents",
+      "source": "global_metrics",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "diplomatic",
+      "title": "Trump condemns Israeli Beirut strike; US-Iran deal 'very close' but jeopardized",
+      "summary": "President Trump explicitly faulted Israel's attack on southern Beirut targeting Hezbollah, stating 'Israeli strike on Beirut shouldn't have happened' and urging stand-down (The Washington Post, PBS, Axios, incidents feed). Trump announced US and Iran 'very close' to deal including oil sanctions waiver and nuclear limits, but Israeli action has placed agreement at risk as Iran threatens retaliation.",
+      "region": "Israel, Lebanon, Iran",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel raises alert level for Iranian ballistic missile fire after Beirut strike",
-      "summary": "Israeli defense officials elevated alert posture and began active preparations for incoming ballistic missile attack from Iran following Israeli strikes on Hezbollah targets in southern Beirut (Middle East Spectator, ~36K views, 2026-06-14). IDF bracing for imminent Iranian response within hours/days (incidents, telegram).",
+      "title": "Israel prepares for imminent Iranian ballistic missile response; alert level raised",
+      "summary": "Israeli defense officials elevated alert posture and activated air defense preparations following Beirut strikes, with IDF leadership warning of imminent Iranian missile attack within hours to days (Jerusalem Post, Times of Israel, Middle East Spectator ~36K views, incidents feed). Multiple Israeli officials confirmed active preparations for incoming ballistic fire.",
       "region": "Israel, Iran",
       "source": "incidents, telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "asset_movement",
-      "title": "US deploys three-carrier presence amid Red Sea escalation and Iran tensions",
-      "summary": "USS Dwight D. Eisenhower (Carrier) and USS Abraham Lincoln (Carrier) positioned in Red Sea and Arabian Sea alongside USS Bataan (Amphibious), three destroyers (Carney, Mason, Laboon), and USS Florida (Submarine) in Persian Gulf. Deployment reflects force posture increase in response to Iranian nuclear advances and proxy activity (Hezbollah active, Houthis elevated, Iraqi Shiite Militias elevated).",
-      "region": "Persian Gulf, Red Sea, Arabian Sea",
-      "source": "assets, global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
       "category": "sentiment_shift",
-      "title": "Trump administration caught between Iran diplomacy and Israel pressure",
-      "summary": "US media sentiment shows rising ambivalence (48% positive, 44% negative) with 'Trump,' 'deal,' 'Iran,' and 'peace' trending simultaneously alongside 'Israel' and strike rhetoric. Trump's public rebuking of Netanyahu and warnings to both sides signal Washington attempting to salvage negotiations while managing Israeli security demands\u2014a delicate balance threatened by recent Beirut escalation (sentiment feed, incidents).",
+      "title": "US sentiment splits evenly on Trump Iran deal amid strike escalation",
+      "summary": "US news sentiment on Iran conflict shifted to 47% negative / 47% positive / 6% neutral, with 'deal' and 'peace' competing against 'war,' 'strikes,' and 'attacks' in trending keywords (sentiment feed, 2026-06-14 analysis). Polarized coverage reflects domestic division over Trump's simultaneous pursuit of ceasefire and tacit acceptance of Israeli military escalation.",
       "region": "Global",
-      "source": "sentiment, incidents",
+      "source": "sentiment",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "The fragile US-Iran ceasefire agreement is collapsing: Israeli strikes on Beirut have triggered explicit Iranian retaliation threats, nuclear breakout timeline has shrunk to 1-2 weeks, and the Trump administration is publicly divided between containing Israel and negotiating with Tehran\u2014while three US carrier strike groups position for potential crisis response.",
+  "analysis_note": "US-Iran ceasefire framework faces imminent collapse as Israel's Beirut strikes trigger Iranian ballistic missile response, while Trump administration attempts to salvage nuclear deal negotiations amid 60% enrichment threat and 1-2 week breakout window.",
   "meta": {
-    "input_tokens": 25681,
+    "input_tokens": 27323,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 757,
-    "cost_usd": 0.0295,
-    "wall_time_s": 11.5,
-    "data_hash": "605688c7d3af54a19a019aa341ca8bcea18010e167159d4eae26a472d38df169"
+    "output_tokens": 697,
+    "cost_usd": 0.0308,
+    "wall_time_s": 10.6,
+    "data_hash": "a4afa014a95cdcd2c869f6154fecacc0d2ccd805b29e0df09c964cf1063c97d5"
   }
 }
