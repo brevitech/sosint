@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 45,
-    "negative": 47,
-    "neutral": 8,
+    "positive": 47,
+    "negative": 44,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
@@ -16,7 +16,7 @@
       },
       {
         "word": "deal",
-        "count": 20,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
@@ -40,8 +40,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "leader",
-        "count": 13,
+        "word": "house",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -50,22 +55,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tren",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "aragua",
+        "word": "leader",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -86,7 +76,27 @@
       },
       {
         "word": "gang",
-        "count": 10,
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "turns",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strike",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "tren",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "aragua",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -95,14 +105,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trillionaire",
+        "word": "ufc",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "peace",
+        "word": "trillionaire",
         "count": 8,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "deadline",
@@ -120,19 +130,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ufc",
+        "word": "peace",
         "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "remove",
         "count": 7,
         "sentiment": "neutral"
-      },
-      {
-        "word": "strike",
-        "count": 6,
-        "sentiment": "negative"
       },
       {
         "word": "venezuela",
@@ -148,34 +153,34 @@
         "word": "changes",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "killed",
-        "count": 6,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-14T05:28:21.009636+00:00",
-    "nextRefresh": "2026-06-14T05:28:21.009636+00:00",
-    "articlesAnalyzed": 342,
-    "matchedMentions": 165,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-06-14T09:26:50.615333+00:00",
+    "nextRefresh": "2026-06-14T09:26:50.615333+00:00",
+    "articlesAnalyzed": 349,
+    "matchedMentions": 163,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 40,
-    "negative": 39,
-    "neutral": 21,
+    "negative": 34,
+    "neutral": 26,
     "wordCloud": [
       {
-        "word": "modi",
-        "count": 22,
+        "word": "tmc",
+        "count": 18,
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
-        "count": 15,
+        "word": "rahul",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -184,147 +189,142 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 10,
+        "word": "banerjee",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "trump",
+        "word": "key",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "roy",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "removes",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "rebel",
-        "count": 9,
-        "sentiment": "negative"
-      },
-      {
-        "word": "gill",
+        "word": "ghosh",
         "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "summit",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "khan",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "afghanistan",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "odi",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "france",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vijayan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "party",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "roy",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "key",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "facilitator",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "govt",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 5,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "trinamool",
-        "count": 5,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
-        "count": 5,
+        "word": "saayoni",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "join",
-        "count": 5,
+        "word": "mala",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "positions",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mamata",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indian",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rebel",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "gill",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "yadav",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "daughter",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sailors",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "afghanistan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "legal",
+        "count": 6,
         "sentiment": "positive"
       },
       {
-        "word": "remarks",
-        "count": 5,
+        "word": "notice",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
-        "count": 5,
+        "word": "trump",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "rise",
+        "word": "orders",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "hug",
-        "count": 4,
-        "sentiment": "positive"
       },
       {
         "word": "remark",
-        "count": 4,
+        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-14T05:28:33.803389+00:00",
-    "nextRefresh": "2026-06-14T05:28:33.803389+00:00",
+    "generatedAt": "2026-06-14T09:27:01.169696+00:00",
+    "nextRefresh": "2026-06-14T09:27:01.169696+00:00",
     "articlesAnalyzed": 481,
-    "matchedMentions": 117,
-    "uniquePersonalities": 48,
+    "matchedMentions": 121,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   }
 }
