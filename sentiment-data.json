@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 46,
-    "negative": 46,
-    "neutral": 8,
+    "positive": 45,
+    "negative": 45,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 89,
+        "count": 85,
         "sentiment": "neutral"
       },
       {
@@ -21,17 +21,17 @@
       },
       {
         "word": "name",
-        "count": 18,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "kennedy",
-        "count": 18,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "center",
-        "count": 18,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -95,11 +95,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "remove",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "park",
         "count": 8,
         "sentiment": "neutral"
@@ -113,11 +108,6 @@
         "word": "block",
         "count": 8,
         "sentiment": "negative"
-      },
-      {
-        "word": "court",
-        "count": 8,
-        "sentiment": "neutral"
       },
       {
         "word": "trillionaire",
@@ -153,19 +143,29 @@
         "word": "peace",
         "count": 7,
         "sentiment": "positive"
+      },
+      {
+        "word": "remove",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ipo",
+        "count": 7,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-13T23:00:19.085565+00:00",
-    "nextRefresh": "2026-06-13T23:00:19.085565+00:00",
-    "articlesAnalyzed": 341,
-    "matchedMentions": 173,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-06-14T00:17:16.467718+00:00",
+    "nextRefresh": "2026-06-14T00:17:16.467718+00:00",
+    "articlesAnalyzed": 346,
+    "matchedMentions": 172,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 36,
-    "negative": 48,
+    "positive": 35,
+    "negative": 49,
     "neutral": 16,
     "wordCloud": [
       {
@@ -204,6 +204,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "tmc",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "france",
         "count": 8,
         "sentiment": "neutral"
@@ -214,27 +219,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "abhishek",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indian",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -252,6 +242,16 @@
         "word": "attacks",
         "count": 6,
         "sentiment": "negative"
+      },
+      {
+        "word": "gill",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indian",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "rubio",
@@ -274,9 +274,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "home",
-        "count": 6,
-        "sentiment": "neutral"
+        "word": "crisis",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "party",
+        "count": 5,
+        "sentiment": "positive"
       },
       {
         "word": "won",
@@ -290,11 +295,6 @@
       },
       {
         "word": "odi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sailors",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -320,10 +320,10 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-13T23:00:32.197067+00:00",
-    "nextRefresh": "2026-06-13T23:00:32.197067+00:00",
-    "articlesAnalyzed": 467,
-    "matchedMentions": 111,
+    "generatedAt": "2026-06-14T00:17:26.856556+00:00",
+    "nextRefresh": "2026-06-14T00:17:26.856556+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 110,
     "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
