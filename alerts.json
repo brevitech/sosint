@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-13T21:10:35.306385+00:00",
+  "generated_at": "2026-06-14T05:28:48.607189+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran-Israel ceasefire fractures as direct missile exchanges resume",
-      "summary": "Iran launched missiles at Israel in first bombardment since April ceasefire; Israel responded with air strikes on Lebanon. Multiple sources (NPR, BBC, AP News, PBS, WSJ, Al Jazeera) confirm kinetic exchanges. Despite Trump's stated calls to de-escalate, active missile and air strikes contradict negotiation narrative (incidents feed, 25+ reports).",
-      "region": "Israel, Iran, Lebanon",
+      "title": "Trump threatens Iran strike 'very hard tonight' as ceasefire fractures",
+      "summary": "Trump vowed to strike Iran 'very hard tonight' and threatened US takeover of Iranian oil/gas sectors, contradicting prior de-escalation rhetoric. Concurrent reports from NPR, PBS, Axios confirm kinetic exchanges resumed; oil prices spiked on strike threat (incidents feed, 15+ sources). Represents direct escalation and public commitment to military action.",
+      "region": "Iran, Global",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran nuclear breakout window remains 1-2 weeks amid active escalation",
-      "summary": "Iran maintains 60% U-235 enrichment with estimated 1-2 week breakout timeline. IAEA board passed resolution demanding uranium stock reporting and inspector access. Escalation in kinetic exchanges compresses negotiation window and raises proliferation risk (global_metrics, incidents).",
+      "title": "Iran maintains 60% enrichment; breakout timeline compressed amid escalation",
+      "summary": "Iran sustains 60% U-235 enrichment with ~1-2 week breakout window. IAEA board resolution demanding uranium stock reporting signals verification crisis. Kinetic escalation compresses diplomatic window and increases proliferation risk (global_metrics, incidents).",
       "region": "Global",
       "source": "global_metrics, incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "diplomatic",
-      "title": "Trump claims US-Iran deal imminent; conflicting signals undermine credibility",
-      "summary": "Trump stated US-Iran deal scheduled for signing Sunday and repeatedly cited 'progress in talks,' yet concurrent Iran missile strikes and Israeli airstrikes on Lebanon undermine de-escalation claims. Iran downplayed peace-agreement claims via Radio Free Europe, signaling skepticism (incidents feed).",
-      "region": "Global",
+      "category": "incident",
+      "title": "Houthis declare ban on Israeli shipping in Red Sea, resume attacks",
+      "summary": "Iran-backed Houthis announced maritime blockade of Israeli vessels in Red Sea and launched new attacks on Israel (Long War Journal, Reuters, multiple outlets). Escalation threatens global shipping and oil market stability in critical chokepoint (incidents, global_metrics).",
+      "region": "Red Sea, Yemen",
       "source": "incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "telegram_signal",
+      "title": "Iran-linked cyber group claims US military drone hack; threatens World Cup",
+      "summary": "Iran-linked cyber group publicly claimed compromise of FBI drone systems and threatened World Cup targeting in retaliation for US airstrikes (France 24, CBS News, Middle East Eye). Represents cyber escalation and willingness to target mass-casualty civilian events (telegram, global_metrics cyber_headlines).",
+      "region": "Global",
+      "source": "global_metrics, telegram",
       "confidence": "medium"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel issues forced displacement orders in south Lebanon amid escalating strikes",
-      "summary": "Al Jazeera reports five killed as Israel hits south Lebanon and issues forced displacement orders. Coincides with Hezbollah elevated status and active fire exchanges (incidents feed). Represents potential expansion of conflict footprint beyond Israel-Iran direct engagement.",
-      "region": "Northern Israel, Lebanon",
+      "title": "Trump suspends latest Iran strike threat citing 'breakthrough in talks'",
+      "summary": "After initial 'very hard tonight' rhetoric, Trump abruptly called off threatened strikes, claiming progress in US-Iran negotiations. Inconsistency with concurrent kinetic exchanges and Iranian denials (PBS, AP News) undermines credibility and signals confusion in US strategy (incidents feed).",
+      "region": "Global",
       "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "asset_movement",
-      "title": "Three US carriers and amphibious assets maintain critical theater positioning",
-      "summary": "USS Dwight D. Eisenhower (Red Sea), USS Abraham Lincoln (Arabian Sea), and USS Gerald R. Ford (Mediterranean) remain deployed with supporting destroyers (Carney, Mason, Laboon) and amphibious asset USS Bataan in Red Sea. USS Florida submarine positioned in Persian Gulf. Asset concentration reflects sustained US readiness posture amid Iran-Israel escalation (assets feed, 54 articles analyzed).",
-      "region": "Red Sea, Arabian Sea, Persian Gulf, Mediterranean",
-      "source": "assets",
-      "confidence": "high"
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "Iran-Israel direct missile exchanges shatter April ceasefire despite Trump's de-escalation rhetoric; nuclear breakout window compresses to 1-2 weeks while diplomatic claims lose credibility amid active hostilities and expanded Lebanon strikes.",
+  "analysis_note": "US-Iran ceasefire has fractured into active missile/drone exchanges and cyber threats, with nuclear breakout window compressed to 1-2 weeks and Trump's contradictory escalation/de-escalation signals creating strategic ambiguity amid proxy force activation.",
   "meta": {
-    "input_tokens": 26759,
+    "input_tokens": 25146,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 635,
-    "cost_usd": 0.0299,
-    "wall_time_s": 9.9,
-    "data_hash": "fcfb8e9409472e52b60901d2d4f2c171cd41d89d3dd2bb435a853913d9bb98f8"
+    "output_tokens": 609,
+    "cost_usd": 0.0282,
+    "wall_time_s": 9.8,
+    "data_hash": "3b070cf1ee635b24ef3181f707439079145d1d4802936a3c4d34884207e919fa"
   }
 }

@@ -1,12 +1,12 @@
 {
   "us": {
     "positive": 45,
-    "negative": 45,
-    "neutral": 10,
+    "negative": 47,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 85,
+        "count": 88,
         "sentiment": "neutral"
       },
       {
@@ -20,33 +20,23 @@
         "sentiment": "neutral"
       },
       {
+        "word": "iran",
+        "count": 18,
+        "sentiment": "neutral"
+      },
+      {
         "word": "name",
-        "count": 16,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "kennedy",
-        "count": 16,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "center",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "musk",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 14,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -55,8 +45,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "musk",
         "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -80,18 +80,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gang",
+        "word": "signed",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "signed",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "spacex",
-        "count": 9,
+        "word": "gang",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -100,38 +95,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "military",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "block",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
         "word": "trillionaire",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "ufc",
+        "word": "peace",
         "count": 8,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "deadline",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "killed",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "us-iran",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -140,9 +115,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "peace",
+        "word": "spacex",
         "count": 7,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ufc",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "remove",
@@ -150,23 +130,43 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ipo",
-        "count": 7,
+        "word": "strike",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "venezuela",
+        "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "changes",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "killed",
+        "count": 6,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-14T00:17:16.467718+00:00",
-    "nextRefresh": "2026-06-14T00:17:16.467718+00:00",
-    "articlesAnalyzed": 346,
-    "matchedMentions": 172,
-    "uniquePersonalities": 47,
+    "generatedAt": "2026-06-14T05:28:21.009636+00:00",
+    "nextRefresh": "2026-06-14T05:28:21.009636+00:00",
+    "articlesAnalyzed": 342,
+    "matchedMentions": 165,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 35,
-    "negative": 49,
-    "neutral": 16,
+    "positive": 40,
+    "negative": 39,
+    "neutral": 21,
     "wordCloud": [
       {
         "word": "modi",
@@ -174,92 +174,92 @@
         "sentiment": "neutral"
       },
       {
+        "word": "tmc",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
         "word": "india",
-        "count": 20,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trump",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "trump",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
+        "word": "rebel",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "france",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "summit",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attacks",
-        "count": 6,
         "sentiment": "negative"
       },
       {
         "word": "gill",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "summit",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "khan",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "afghanistan",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "france",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vijayan",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "indian",
+        "word": "party",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "roy",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "rubio",
+        "word": "key",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "amp",
+        "word": "visit",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -274,39 +274,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "crisis",
+        "word": "bjp",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "party",
+        "word": "trinamool",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meets",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "join",
         "count": 5,
         "sentiment": "positive"
-      },
-      {
-        "word": "won",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "congress",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "odi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bloc",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vijayan",
-        "count": 5,
-        "sentiment": "neutral"
       },
       {
         "word": "remarks",
@@ -314,17 +299,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jaishankar",
+        "word": "congress",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rise",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hug",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "remark",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-14T00:17:26.856556+00:00",
-    "nextRefresh": "2026-06-14T00:17:26.856556+00:00",
-    "articlesAnalyzed": 466,
-    "matchedMentions": 110,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-06-14T05:28:33.803389+00:00",
+    "nextRefresh": "2026-06-14T05:28:33.803389+00:00",
+    "articlesAnalyzed": 481,
+    "matchedMentions": 117,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   }
 }
