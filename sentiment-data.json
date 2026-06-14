@@ -1,52 +1,37 @@
 {
   "us": {
-    "positive": 49,
+    "positive": 48,
     "negative": 44,
-    "neutral": 7,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 80,
+        "count": 85,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 23,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 20,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
         "word": "name",
-        "count": 13,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "kennedy",
-        "count": 13,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "center",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "musk",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -55,19 +40,39 @@
         "sentiment": "neutral"
       },
       {
-        "word": "signed",
+        "word": "house",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "musk",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "us-iran",
-        "count": 7,
+        "word": "peace",
+        "count": 9,
+        "sentiment": "positive"
+      },
+      {
+        "word": "signed",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "peace",
+        "word": "block",
         "count": 7,
-        "sentiment": "positive"
+        "sentiment": "negative"
+      },
+      {
+        "word": "israel",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "remove",
@@ -75,9 +80,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "block",
+        "word": "georgia",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "leader",
@@ -105,12 +110,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "court",
+        "word": "us-iran",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "trillionaire",
+        "word": "summit",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -125,12 +130,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "anthropic",
+        "word": "court",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "close",
+        "word": "trillionaire",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -140,88 +145,78 @@
         "sentiment": "neutral"
       },
       {
-        "word": "summit",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "deadline",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "georgia",
+        "word": "senate",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-14T15:46:37.165753+00:00",
-    "nextRefresh": "2026-06-14T15:46:37.165753+00:00",
-    "articlesAnalyzed": 350,
-    "matchedMentions": 160,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-06-14T17:15:59.724147+00:00",
+    "nextRefresh": "2026-06-14T17:15:59.724147+00:00",
+    "articlesAnalyzed": 349,
+    "matchedMentions": 159,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
+    "positive": 47,
     "negative": 36,
-    "neutral": 20,
+    "neutral": 17,
     "wordCloud": [
       {
         "word": "india",
-        "count": 26,
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 21,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
         "word": "rebel",
-        "count": 16,
+        "count": 20,
         "sentiment": "negative"
       },
       {
-        "word": "rahul",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
+        "word": "tmc",
         "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
+        "word": "mps",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
         "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "trinamool",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 8,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "party",
-        "count": 7,
+        "count": 9,
         "sentiment": "positive"
+      },
+      {
+        "word": "banerjee",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "macron",
+        "count": 8,
+        "sentiment": "neutral"
       },
       {
         "word": "speaker",
@@ -229,8 +224,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pakistan",
+        "word": "president",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bloc",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "merger",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -239,12 +244,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meets",
+        "word": "amid",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -254,12 +254,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "president",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "women",
+        "word": "gandhi",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -269,32 +264,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "congress",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "innovation",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
         "word": "abhishek",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "sitharaman",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "key",
+        "word": "france",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "visit",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pranit",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -309,22 +299,32 @@
         "sentiment": "negative"
       },
       {
-        "word": "tie-up",
+        "word": "announcement",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "polls",
+        "word": "betrayal",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "jab",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tie-up",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-14T15:46:47.826975+00:00",
-    "nextRefresh": "2026-06-14T15:46:47.826975+00:00",
-    "articlesAnalyzed": 478,
-    "matchedMentions": 124,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-06-14T17:16:13.453689+00:00",
+    "nextRefresh": "2026-06-14T17:16:13.453689+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 119,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   }
 }

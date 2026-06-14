@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-14T11:53:18.913787+00:00",
+  "generated_at": "2026-06-14T17:16:43.299956+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran strikes US base in Kuwait; ASR-1000L radar destroyed",
-      "summary": "Iranian missile/drone strike destroyed an ASR-1000L tactical air surveillance radar at US Ali Al Salem Airbase in Kuwait, confirmed by high-resolution satellite imagery (Middle East Spectator, ~42K views). Represents direct attack on US military infrastructure and escalation of kinetic operations (incidents, telegram).",
-      "region": "Persian Gulf, Kuwait",
-      "source": "telegram, incidents",
+      "title": "Iran vows retaliation for Israeli Beirut strikes; deal in jeopardy",
+      "summary": "Iranian military official stated Israel's attack on Beirut 'will not go unanswered' as Trump administration warns both sides not to 'blow' emerging peace deal. Multiple sources (incidents feed: Middle East Eye, Axios, Jerusalem Post) confirm bilateral strike exchanges and Iranian threat rhetoric, with Trump explicitly condemning Israeli action and signaling US-Iran negotiations remain active but fragile.",
+      "region": "Israel, Lebanon, Iran",
+      "source": "incidents, telegram",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran 60% enriched; breakout window narrows amid ceasefire collapse",
-      "summary": "Iran maintains 60% U-235 enrichment with ~1-2 week breakout window as US-Iran diplomatic talks stall and kinetic exchanges resume. IAEA demands uranium stock reporting; nuclear verification crisis deepens (global_metrics, incidents).",
+      "title": "Iran 60% enriched uranium; Trump-Iran deal fractures amid escalation",
+      "summary": "Iran maintains 60% U-235 enrichment with 1-2 week breakout window as ceasefire collapses and kinetic strikes resume. Threat level raised to 9 (CRITICAL\u2014IMMINENT ESCALATION); IAEA board passed resolution demanding Iran report uranium stocks (global_metrics nuclear headlines). Nuclear verification crisis deepens amid diplomatic rupture.",
       "region": "Global",
       "source": "global_metrics, incidents",
       "confidence": "high"
@@ -24,39 +24,39 @@
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel and Iran trade airstrikes; fragile ceasefire fractures",
-      "summary": "Israel conducted strikes on Hezbollah infrastructure in Beirut; Iran and Israel exchanged missile and airstrike fire in first major bombardment since April ceasefire. Multiple sources (BBC, PBS, AP) confirm bilateral strike exchanges threatening regional re-escalation (incidents).",
-      "region": "Iran, Israel, Lebanon, Persian Gulf",
-      "source": "incidents",
+      "title": "Israel raises alert level for Iranian ballistic missile fire after Beirut strike",
+      "summary": "Israeli defense officials elevated alert posture and began active preparations for incoming ballistic missile attack from Iran following Israeli strikes on Hezbollah targets in southern Beirut (Middle East Spectator, ~36K views, 2026-06-14). IDF bracing for imminent Iranian response within hours/days (incidents, telegram).",
+      "region": "Israel, Iran",
+      "source": "incidents, telegram",
       "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "telegram_signal",
-      "title": "Hezbollah downs Israeli Heron-1 drone with Iranian 358 SAM",
-      "summary": "Hezbollah released footage claiming first successful interception of Israeli Heron-1 MALE drone at 7km altitude using advanced Iranian 358 surface-to-air missile (Middle East Spectator, ~46K views). Signals upgraded air defense capability and Iranian weapons transfer (telegram, incidents).",
-      "region": "Northern Israel, Lebanon",
-      "source": "telegram",
-      "confidence": "medium"
     },
     {
       "severity": "high",
       "category": "asset_movement",
-      "title": "US carrier and amphibious assets positioned in Red Sea amid escalation",
-      "summary": "USS Dwight D. Eisenhower (Carrier) and USS Bataan (Amphibious) deployed to Red Sea alongside destroyers USS Carney, Mason, Laboon; USS Florida (Submarine) in Persian Gulf. Concurrent with Houthi Red Sea blockade announcement and Iranian strikes (assets).",
-      "region": "Red Sea, Persian Gulf, Arabian Sea",
-      "source": "assets",
+      "title": "US deploys three-carrier presence amid Red Sea escalation and Iran tensions",
+      "summary": "USS Dwight D. Eisenhower (Carrier) and USS Abraham Lincoln (Carrier) positioned in Red Sea and Arabian Sea alongside USS Bataan (Amphibious), three destroyers (Carney, Mason, Laboon), and USS Florida (Submarine) in Persian Gulf. Deployment reflects force posture increase in response to Iranian nuclear advances and proxy activity (Hezbollah active, Houthis elevated, Iraqi Shiite Militias elevated).",
+      "region": "Persian Gulf, Red Sea, Arabian Sea",
+      "source": "assets, global_metrics",
       "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "sentiment_shift",
+      "title": "Trump administration caught between Iran diplomacy and Israel pressure",
+      "summary": "US media sentiment shows rising ambivalence (48% positive, 44% negative) with 'Trump,' 'deal,' 'Iran,' and 'peace' trending simultaneously alongside 'Israel' and strike rhetoric. Trump's public rebuking of Netanyahu and warnings to both sides signal Washington attempting to salvage negotiations while managing Israeli security demands\u2014a delicate balance threatened by recent Beirut escalation (sentiment feed, incidents).",
+      "region": "Global",
+      "source": "sentiment, incidents",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran ceasefire has collapsed into active kinetic exchanges; Iran's nuclear breakout window compressed to weeks amid strike cycle, while proxy forces (Hezbollah, Houthis) escalate and US military assets surge into contested zones.",
+  "analysis_note": "The fragile US-Iran ceasefire agreement is collapsing: Israeli strikes on Beirut have triggered explicit Iranian retaliation threats, nuclear breakout timeline has shrunk to 1-2 weeks, and the Trump administration is publicly divided between containing Israel and negotiating with Tehran\u2014while three US carrier strike groups position for potential crisis response.",
   "meta": {
-    "input_tokens": 24107,
+    "input_tokens": 25681,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 630,
-    "cost_usd": 0.0273,
-    "wall_time_s": 10.0,
-    "data_hash": "d75770da2e598f0c5e00ecd3420e77f739d3f140e83438c2503325714f8fdf98"
+    "output_tokens": 757,
+    "cost_usd": 0.0295,
+    "wall_time_s": 11.5,
+    "data_hash": "605688c7d3af54a19a019aa341ca8bcea18010e167159d4eae26a472d38df169"
   }
 }
