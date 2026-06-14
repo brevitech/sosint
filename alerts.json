@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-14T05:28:48.607189+00:00",
+  "generated_at": "2026-06-14T11:53:18.913787+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Trump threatens Iran strike 'very hard tonight' as ceasefire fractures",
-      "summary": "Trump vowed to strike Iran 'very hard tonight' and threatened US takeover of Iranian oil/gas sectors, contradicting prior de-escalation rhetoric. Concurrent reports from NPR, PBS, Axios confirm kinetic exchanges resumed; oil prices spiked on strike threat (incidents feed, 15+ sources). Represents direct escalation and public commitment to military action.",
-      "region": "Iran, Global",
-      "source": "incidents",
+      "title": "Iran strikes US base in Kuwait; ASR-1000L radar destroyed",
+      "summary": "Iranian missile/drone strike destroyed an ASR-1000L tactical air surveillance radar at US Ali Al Salem Airbase in Kuwait, confirmed by high-resolution satellite imagery (Middle East Spectator, ~42K views). Represents direct attack on US military infrastructure and escalation of kinetic operations (incidents, telegram).",
+      "region": "Persian Gulf, Kuwait",
+      "source": "telegram, incidents",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran maintains 60% enrichment; breakout timeline compressed amid escalation",
-      "summary": "Iran sustains 60% U-235 enrichment with ~1-2 week breakout window. IAEA board resolution demanding uranium stock reporting signals verification crisis. Kinetic escalation compresses diplomatic window and increases proliferation risk (global_metrics, incidents).",
+      "title": "Iran 60% enriched; breakout window narrows amid ceasefire collapse",
+      "summary": "Iran maintains 60% U-235 enrichment with ~1-2 week breakout window as US-Iran diplomatic talks stall and kinetic exchanges resume. IAEA demands uranium stock reporting; nuclear verification crisis deepens (global_metrics, incidents).",
       "region": "Global",
       "source": "global_metrics, incidents",
       "confidence": "high"
@@ -24,39 +24,39 @@
     {
       "severity": "high",
       "category": "incident",
-      "title": "Houthis declare ban on Israeli shipping in Red Sea, resume attacks",
-      "summary": "Iran-backed Houthis announced maritime blockade of Israeli vessels in Red Sea and launched new attacks on Israel (Long War Journal, Reuters, multiple outlets). Escalation threatens global shipping and oil market stability in critical chokepoint (incidents, global_metrics).",
-      "region": "Red Sea, Yemen",
+      "title": "Israel and Iran trade airstrikes; fragile ceasefire fractures",
+      "summary": "Israel conducted strikes on Hezbollah infrastructure in Beirut; Iran and Israel exchanged missile and airstrike fire in first major bombardment since April ceasefire. Multiple sources (BBC, PBS, AP) confirm bilateral strike exchanges threatening regional re-escalation (incidents).",
+      "region": "Iran, Israel, Lebanon, Persian Gulf",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "telegram_signal",
-      "title": "Iran-linked cyber group claims US military drone hack; threatens World Cup",
-      "summary": "Iran-linked cyber group publicly claimed compromise of FBI drone systems and threatened World Cup targeting in retaliation for US airstrikes (France 24, CBS News, Middle East Eye). Represents cyber escalation and willingness to target mass-casualty civilian events (telegram, global_metrics cyber_headlines).",
-      "region": "Global",
-      "source": "global_metrics, telegram",
+      "title": "Hezbollah downs Israeli Heron-1 drone with Iranian 358 SAM",
+      "summary": "Hezbollah released footage claiming first successful interception of Israeli Heron-1 MALE drone at 7km altitude using advanced Iranian 358 surface-to-air missile (Middle East Spectator, ~46K views). Signals upgraded air defense capability and Iranian weapons transfer (telegram, incidents).",
+      "region": "Northern Israel, Lebanon",
+      "source": "telegram",
       "confidence": "medium"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Trump suspends latest Iran strike threat citing 'breakthrough in talks'",
-      "summary": "After initial 'very hard tonight' rhetoric, Trump abruptly called off threatened strikes, claiming progress in US-Iran negotiations. Inconsistency with concurrent kinetic exchanges and Iranian denials (PBS, AP News) undermines credibility and signals confusion in US strategy (incidents feed).",
-      "region": "Global",
-      "source": "incidents",
-      "confidence": "medium"
+      "category": "asset_movement",
+      "title": "US carrier and amphibious assets positioned in Red Sea amid escalation",
+      "summary": "USS Dwight D. Eisenhower (Carrier) and USS Bataan (Amphibious) deployed to Red Sea alongside destroyers USS Carney, Mason, Laboon; USS Florida (Submarine) in Persian Gulf. Concurrent with Houthi Red Sea blockade announcement and Iranian strikes (assets).",
+      "region": "Red Sea, Persian Gulf, Arabian Sea",
+      "source": "assets",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran ceasefire has fractured into active missile/drone exchanges and cyber threats, with nuclear breakout window compressed to 1-2 weeks and Trump's contradictory escalation/de-escalation signals creating strategic ambiguity amid proxy force activation.",
+  "analysis_note": "US-Iran ceasefire has collapsed into active kinetic exchanges; Iran's nuclear breakout window compressed to weeks amid strike cycle, while proxy forces (Hezbollah, Houthis) escalate and US military assets surge into contested zones.",
   "meta": {
-    "input_tokens": 25146,
+    "input_tokens": 24107,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 609,
-    "cost_usd": 0.0282,
-    "wall_time_s": 9.8,
-    "data_hash": "3b070cf1ee635b24ef3181f707439079145d1d4802936a3c4d34884207e919fa"
+    "output_tokens": 630,
+    "cost_usd": 0.0273,
+    "wall_time_s": 10.0,
+    "data_hash": "d75770da2e598f0c5e00ecd3420e77f739d3f140e83438c2503325714f8fdf98"
   }
 }
