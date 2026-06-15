@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-15T15:49:14.658539+00:00",
+  "generated_at": "2026-06-15T22:15:43.140105+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
+      "severity": "critical",
+      "category": "incident",
+      "title": "Iran threatens to abandon US-Iran framework deal if Israeli strikes on Lebanon continue",
+      "summary": "Iran's Foreign Ministry stated that continued Israeli military strikes on Beirut could derail the US-Iran framework MoU scheduled for Friday signing in Switzerland, marking the first explicit linkage of ceasefire agreement viability to Israeli military operations (incidents feed: Axios, Al Jazeera, Iran media outlets). Threat level remains at 9 (CRITICAL\u2014IMMINENT ESCALATION per global_metrics).",
+      "region": "Global",
+      "source": "incidents,global_metrics",
+      "confidence": "high"
+    },
+    {
       "severity": "high",
       "category": "incident",
-      "title": "Israel continues Beirut strikes amid nuclear deal negotiations, killing 3 civilians",
-      "summary": "Israeli Defense Force struck Hezbollah positions in Beirut's southern suburbs (Dahieh) on June 15, killing at least 3 civilians, marking the first deadly attack since the US-Iran framework MoU announcement (Reuters, NBC News incidents feed). Strikes persist despite Trump's public criticism of Netanyahu and risk jeopardizing the emerging ceasefire framework scheduled for Friday signing.",
+      "title": "Israel strikes Beirut's Dahieh; Trump publicly rebukes Netanyahu over judgment",
+      "summary": "Israeli Defense Force conducted strikes in Beirut's southern suburbs (Dahieh) on June 15, killing at least 1-3 civilians, with ongoing strikes despite Trump's explicit public statement that Israeli actions jeopardize the US-Iran peace agreement and that Netanyahu lacks sound judgment (NBC News, Reuters, Axios incidents feed). Public US-Israel fracture over de-escalation strategy unprecedented in current negotiation cycle.",
       "region": "Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "diplomatic",
-      "title": "US-Iran framework deal threatened by Israeli Beirut strikes; Trump criticizes Netanyahu judgment",
-      "summary": "President Trump explicitly stated that Israeli actions in Beirut are placing the US-Iran peace agreement at risk and that Netanyahu lacks sound judgment on the matter (Axios, incidents feed). Public rebuke signals deep fracture between US and Israeli leadership over negotiation strategy and de-escalation commitment.",
-      "region": "Global",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
       "category": "nuclear",
-      "title": "Iran nuclear enrichment at 60% amid deal framework; breakout window remains 1-2 weeks",
-      "summary": "Iran maintains uranium enrichment at 60% U-235 concentration with estimated 1-2 week breakout capability while political framework agreement proceeds toward Friday signing in Switzerland (global_metrics, incidents feed). IAEA board resolution demanding inspection access and uranium stock reporting remains unresolved, indicating nuclear verification remains contentious.",
+      "title": "Iran nuclear program remains at 60% enrichment; breakout window 1-2 weeks amid deal talks",
+      "summary": "Iran maintains uranium enrichment at 60% U-235 with estimated 1-2 week breakout capability while framework agreement proceeds toward signing (global_metrics). IAEA board resolution demanding inspection access and uranium stock reporting unresolved, indicating nuclear verification remains major contentious issue despite diplomatic progress.",
       "region": "Global",
       "source": "global_metrics",
       "confidence": "high"
     },
     {
-      "severity": "medium",
-      "category": "incident",
-      "title": "Houthis announce ban on Israeli vessels; expand Red Sea maritime pressure",
-      "summary": "Yemen's Iran-backed Houthis announced a ban on Israeli shipping in the Red Sea and conducted recent attacks on Israeli targets, escalating maritime pressure in strategic chokepoint (Reuters, Long War Journal incidents feed). Move signals proxy coordination with broader US-Iran framework de-escalation rhetoric still contested by militant wings.",
-      "region": "Red Sea",
-      "source": "incidents",
-      "confidence": "high"
+      "severity": "high",
+      "category": "cyber",
+      "title": "Iran-linked cyber group claims breach of FBI drone systems; threatens World Cup targeting",
+      "summary": "Iran-linked threat actor reportedly claimed successful hack of US FBI drone control systems and threatened targeting of World Cup 2026 event in retaliation for earlier Iranian strikes (global_metrics cyber_headlines: France 24, CBS News, Middle East Eye). Multiple reports suggest potential operational capability; cyber-as-escalation dimension emerging parallel to kinetic operations.",
+      "region": "Global",
+      "source": "global_metrics",
+      "confidence": "medium"
     },
     {
-      "severity": "medium",
-      "category": "telegram_signal",
-      "title": "Rybar reports 60-day ceasefire window with full deal signing set for June 19 in Switzerland",
-      "summary": "Rybar Telegram channel (~145K views) reported that US-Iran memorandum was achieved via Pakistan and Qatar mediation, specifying 60-day ceasefire across all fronts including Lebanon, with official signing scheduled for Friday, June 19, 2026 in Switzerland (telegram feed). Timeline aligns with Trump's announced framework but Iranian officials have already signaled skepticism about uranium export provisions.",
-      "region": "Global",
-      "source": "telegram",
-      "confidence": "medium"
+      "severity": "high",
+      "category": "asset_movement",
+      "title": "Three US carriers and ten combat vessels positioned across Middle East theater; USS Florida submarine in Persian Gulf",
+      "summary": "US military maintains heavy concentration: USS Dwight D. Eisenhower (Carrier, Red Sea), USS Abraham Lincoln (Carrier, Arabian Sea), USS Gerald R. Ford (Carrier, Mediterranean), plus five destroyers/amphibious ships (USS Carney, Mason, Laboon in Red Sea; USS Bataan, USS Boxer in Pacific theater), and USS Florida submarine (Deployed\u2014Persian Gulf per assets feed). Deployment posture consistent with high threat-level status and contingency positioning ahead of framework deal signing.",
+      "region": "Strait of Hormuz, Red Sea, Arabian Sea",
+      "source": "assets",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran framework deal framework hangs by thread as Israel continues military operations in Lebanon threatening ceasefire; nuclear enrichment remains unresolved and 1-2 week breakout window persists despite diplomatic momentum.",
+  "analysis_note": "US-Iran framework agreement hangs on edge as Israeli military operations risk deal collapse; nuclear enrichment remains unresolved; Iran escalates cyber operations; US military posture remains at high readiness across contested zones.",
   "meta": {
-    "input_tokens": 25605,
+    "input_tokens": 27548,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 659,
-    "cost_usd": 0.0289,
-    "wall_time_s": 11.1,
-    "data_hash": "da726245f2af720f369a1b70a88bde027cbea6c99cfe3c91cdf264b0ab31c2f8"
+    "output_tokens": 747,
+    "cost_usd": 0.0313,
+    "wall_time_s": 11.3,
+    "data_hash": "4474978866787f926acaa96549a4415ab9c347bb1af26bfac5316f04e23b5642"
   }
 }
