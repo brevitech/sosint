@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-14T23:04:37.099782+00:00",
+  "generated_at": "2026-06-15T09:58:35.513367+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran launches ballistic missiles at Israel in first major attack since ceasefire collapse",
-      "summary": "Iran reportedly launched multiple ballistic missiles at Israel following Israeli strikes on Beirut, marking the first significant Iranian retaliation since the fragile US-brokered ceasefire fractured on 2026-06-14 (AP News, incidents feed). This escalation directly contradicts Trump administration warnings and threatens collapse of nascent US-Iran deal negotiations.",
-      "region": "Israel, Iran",
+      "title": "US-Iran framework deal announced; Trump declares war ended, Strait of Hormuz to reopen",
+      "summary": "President Trump announced a framework memorandum of understanding (MoU) with Iran declaring an immediate and complete end to all hostilities in the region, lifting of US naval blockade, and reopening of Strait of Hormuz, with full signing scheduled for Friday (Time Magazine, NBC News, Euronews, incidents feed). The announcement represents a major strategic shift following the previous day's Israeli Beirut strike and Iranian retaliation threats.",
+      "region": "Global",
       "source": "incidents",
       "confidence": "high"
     },
     {
-      "severity": "critical",
+      "severity": "high",
+      "category": "diplomatic",
+      "title": "Trump criticizes Netanyahu's judgment; Iran deal framework jeopardized by Israeli actions",
+      "summary": "President Trump explicitly stated Netanyahu has 'no fucking judgment' regarding the Beirut strike on Hezbollah positions, stating actions by Israel have placed the emerging Iran peace agreement at risk (Axios, incidents feed). Trump's public rebuke of a key US ally signals deep frustration over Israeli behavior potentially derailing negotiations.",
+      "region": "Israel, Iran, Lebanon",
+      "source": "incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
       "category": "nuclear",
-      "title": "Iran 60% enriched; Trump pauses military uranium seizure plan as deal stalls",
-      "summary": "Iran maintains 60% U-235 enrichment with ~1-2 week nuclear breakout window. US military had prepared ground mission to secure Iranian enriched uranium but Trump administration paused operation amid deal negotiations (CNN, CBS News, global_metrics nuclear headlines). IAEA board resolution demanded Iran report uranium stocks as verification crisis deepens.",
+      "title": "Iran maintains 60% enrichment amid nuclear deal framework negotiations",
+      "summary": "Iran continues uranium enrichment at 60% U-235 with estimated 1-2 week nuclear breakout window, while IAEA board passed resolution demanding Iran report uranium stocks and grant inspectors access to facilities (Reuters, Times of Israel, global_metrics). Nuclear verification crisis deepens even as political framework agreement takes shape.",
       "region": "Global",
       "source": "global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "diplomatic",
-      "title": "Trump condemns Israeli Beirut strike; US-Iran deal 'very close' but jeopardized",
-      "summary": "President Trump explicitly faulted Israel's attack on southern Beirut targeting Hezbollah, stating 'Israeli strike on Beirut shouldn't have happened' and urging stand-down (The Washington Post, PBS, Axios, incidents feed). Trump announced US and Iran 'very close' to deal including oil sanctions waiver and nuclear limits, but Israeli action has placed agreement at risk as Iran threatens retaliation.",
-      "region": "Israel, Lebanon, Iran",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Israel prepares for imminent Iranian ballistic missile response; alert level raised",
-      "summary": "Israeli defense officials elevated alert posture and activated air defense preparations following Beirut strikes, with IDF leadership warning of imminent Iranian missile attack within hours to days (Jerusalem Post, Times of Israel, Middle East Spectator ~36K views, incidents feed). Multiple Israeli officials confirmed active preparations for incoming ballistic fire.",
-      "region": "Israel, Iran",
-      "source": "incidents, telegram",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "sentiment_shift",
-      "title": "US sentiment splits evenly on Trump Iran deal amid strike escalation",
-      "summary": "US news sentiment on Iran conflict shifted to 47% negative / 47% positive / 6% neutral, with 'deal' and 'peace' competing against 'war,' 'strikes,' and 'attacks' in trending keywords (sentiment feed, 2026-06-14 analysis). Polarized coverage reflects domestic division over Trump's simultaneous pursuit of ceasefire and tacit acceptance of Israeli military escalation.",
+      "category": "telegram_signal",
+      "title": "Iran-US MoU full text circulates on OSINT channels; nuclear and proxy constraints detailed",
+      "summary": "Middle East Spectator Telegram channel (~56K views) posted full details of Iran-US Phase 1 MoU declaring immediate permanent end to all hostilities in region including Lebanon upon announcement, with complete lifting of US naval blockade (telegram feed). High-engagement post with nuclear-flagged keywords confirms deal framework details now in open-source circulation.",
       "region": "Global",
-      "source": "sentiment",
+      "source": "telegram",
+      "confidence": "high"
+    },
+    {
+      "severity": "medium",
+      "category": "cyber",
+      "title": "Iran-linked group claims FBI drone hack; threats issued against World Cup infrastructure",
+      "summary": "Iran-linked cyber group claimed responsibility for hacking FBI drone systems and threatened World Cup infrastructure in apparent retaliation for regional military actions (France 24, CBS News, global_metrics cyber headlines). Attack signals potential Iranian cyber escalation in response to perceived US-Israeli coordinated operations.",
+      "region": "Global",
+      "source": "global_metrics",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran ceasefire framework faces imminent collapse as Israel's Beirut strikes trigger Iranian ballistic missile response, while Trump administration attempts to salvage nuclear deal negotiations amid 60% enrichment threat and 1-2 week breakout window.",
+  "analysis_note": "Strategic inflection point: Trump administration has pivoted toward Iran deal completion despite Israeli escalation, nuclear verification remains unresolved, and threat level remains critical (9/10) pending final agreement signing and proxy force de-escalation.",
   "meta": {
-    "input_tokens": 27323,
+    "input_tokens": 22604,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 697,
-    "cost_usd": 0.0308,
-    "wall_time_s": 10.6,
-    "data_hash": "a4afa014a95cdcd2c869f6154fecacc0d2ccd805b29e0df09c964cf1063c97d5"
+    "output_tokens": 722,
+    "cost_usd": 0.0262,
+    "wall_time_s": 10.5,
+    "data_hash": "427c9604e31f1dc445d5105394b39ecc3d0c9d3b8d920d630d5016a89772818c"
   }
 }
