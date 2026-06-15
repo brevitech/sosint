@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-15T09:58:27.030489+00:00",
+  "generatedAt": "2026-06-15T15:48:45.336758+00:00",
   "dataSource": "live-osint",
   "economy": {
-    "brentCrude": 83.14,
+    "brentCrude": 83.01,
     "irrFreeMarket": 1375255
   },
   "cyber": [
@@ -32,9 +32,9 @@
       "published": "Mon, 25 May 2026 07:00:00 GMT"
     },
     {
-      "title": "U.S. and Iran Standoff at Sea: A Test of ‘Who Will Blink First’ - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWlVxYWQ4QTA4VWNISFhDa1ItNjJYQm9WVDNEU1dzVl9IMnI3QllxS3A2RnRFZlpERHc1RW9uWHBvVVlaVDBBbHFSWGFNTTVFb3JlMGR4bm5nRFpDWnBnU2loNmVJUWttZS16MGFCc1Vzdm13MmltQnpJaWRlVUp4WnZKbzZYS0JiSnJnVWt3Rlk?oc=5",
-      "published": "Thu, 28 May 2026 07:00:00 GMT"
+      "title": "How the Middle East war reshapes the global cybersecurity landscape - The World Economic Forum",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYnY3RVc0NjEtc1pRWjlQUURjUmN5dVhSb3pWN2MxamFaMnlmRDBFSElpX0NfQ2ZWZzNfcXU0NXQ1cTlMbS1RSDI4VEJmQ0JXNkdyUDIwWl9qa082TlQ2THMxUnhZdElnMjlqb3pHTnpZM295dTQ0eFJjdnY2OEFOQ2I5NkZoNmVnUFhKXzJ3UVI0N0RzNUcxbg?oc=5",
+      "published": "Wed, 25 Mar 2026 07:00:00 GMT"
     }
   ],
   "threat": {
@@ -42,7 +42,7 @@
     "label": "CRITICAL — IMMINENT ESCALATION"
   },
   "proxies": {
-    "Hezbollah": "Active",
+    "Hezbollah": "Elevated - Active Exchanges",
     "Houthis (Ansar Allah)": "Elevated - Multiple Recent Attacks",
     "Iraqi Shiite Militias (PMF)": "Elevated - Base Strikes Detected",
     "Hamas": "Degraded",
@@ -53,6 +53,21 @@
     "breakout": "~1-2 weeks (estimated)",
     "news": [
       {
+        "title": "Trump aims to end Iran war but nuclear issue remains unresolved - BBC",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sRGc0X3BidmtYZndzMkdaSWJGNzBzaFMtczNZSWhhWFRWYXlfVmxQbDFCUU03dmVORGVPVFQ1ZU5nMVJ0RmM2X25kTlVqWWczNzJxZDlXT3I1dw?oc=5",
+        "published": "Mon, 15 Jun 2026 13:54:18 GMT"
+      },
+      {
+        "title": "Explainer-Key issues the US and Iran must address in nuclear talks - Al-Monitor",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQODZqYk10b194NlQ2SjBnN0JwWjR0OEFwM2hyLU5HXy1kcGpRZ1VVLVJoXzRpR3oyaVhsaGgyWVlYcEhRd2JBU3Y5ZjR2UnRHazdMMUdLREc3YXFaYk81dmZnY2dZZ1RSX2NNa3ZDY2puODVxVWc0ck5ZM0tscktxQ2RRcmZjbXNrZktPVldQdXZQWHlqZ2VaTUd6c1JUakVzdjR3dlk1Yw?oc=5",
+        "published": "Mon, 15 Jun 2026 14:24:16 GMT"
+      },
+      {
+        "title": "US-Iran Nuclear Talks: Key Issues Both Sides Must Resolve for a Deal - Modern Diplomacy",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcEZLUWEybzMtcHZvQXNVRTV0YnJXdkh5eVNIS2NmZ1dJRU05NEx5Y0hkdks5X2pwMmswM04yY281RER2SE9ZQTNNTTJFNVBLUHF3WXUzajhpRm8xd3k3UXRETm9raXQyM2ZfbjJCSGw0SGZGTkF5Z08ydUtvamJRQmJqaTlTbXN5QzFxckZZVjJNNUlHN1h2WUVkRG9YNTR6S0RMcXRhci1yZw?oc=5",
+        "published": "Mon, 15 Jun 2026 14:39:29 GMT"
+      },
+      {
         "title": "Iran has continuously violated its commitments - France ONU",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FNnpnNkREdTJ5QnBOR2M1LXdrcUNkSk5UUnZWNkJRUXdmVU5pQ2c2emRnRGt6T3BUQWxac3hEWUdnYjFUX0RTN2ZjRlJMT3dXcklBNC1DN0xIYWNzbFY0Q25hMmRHZ1Y4US1sWFh4eDZQZjhOMHl2eXRPZjdzOVU?oc=5",
         "published": "Wed, 10 Jun 2026 20:18:41 GMT"
@@ -61,21 +76,6 @@
         "title": "IAEA board passes resolution demanding Iran report uranium stocks - Reuters",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVlJJeFYxV21KZHhleUoxdGZoZkhzQTRLbDFSeFhIbEhPcGpwaFhzdXNULXJLd2cwd2xSVFEySmZKYnBqYmdPaXRCMXBSam1oQXdrN2tBc3ROaGFLd0hDMDhyYW5mdG1RZks2NUtVWFQ2dTlxMFV5X1NSd1BTSy04bnRIQkp4dzA2VS03eWNlNXZuVGRpRm1PZGxlM0wybTltMjZzWFozdHZucXRsVEpaSGNfbnNpQ3lUdUg3Tnc1bDNhTHZGMTdZ?oc=5",
         "published": "Wed, 10 Jun 2026 19:51:55 GMT"
-      },
-      {
-        "title": "Analysis of IAEA Iran Verification and Monitoring and NPT Safeguards Reports — June 2026 - Foundation for Defense of Democracies",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnU4c003ajVYQTFOWFZzVGZ6R2IzYU0tdldEMTdUeXZEZTc0bGhuS3VIbktIVndmM0UyN3NxN0pmNXVhUnczMFhIVUZpaW9FdXcwLTlldmZFR01zeHMybFdfTU82VjI1SVpMQk5PS19UV3ZmdzZsNzF5Zk9XTzItd0dycW11RzdMUkxXWXhKN29pdWV3V0JTTXhFY0xXcFBxS1pueGNtb1lpZ0ROSV9vRXJhR0RQQWFrT2FNb243SHM4NXVndVE?oc=5",
-        "published": "Wed, 10 Jun 2026 01:34:31 GMT"
-      },
-      {
-        "title": "The nuclear challenge at the heart of Trump's Iran negotiations - BBC",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sRGc0X3BidmtYZndzMkdaSWJGNzBzaFMtczNZSWhhWFRWYXlfVmxQbDFCUU03dmVORGVPVFQ1ZU5nMVJ0RmM2X25kTlVqWWczNzJxZDlXT3I1dw?oc=5",
-        "published": "Sat, 13 Jun 2026 20:38:09 GMT"
-      },
-      {
-        "title": "IAEA board demands Iran report uranium stocks, grant inspectors access to facilities - The Times of Israel",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSmwwNUVQVHIzZXJ3ZzlEemhWWDluUXdiUUNudEJiOEFydDc5MGxJckk4Q0dGbUFoUDR6ZEtacEIwdTJLencxY3A0ZjBWcTFnZlJqa2swbURmejdZVzZpN0daN0Q0YWhfVUhORzVaanFpZWZ0X2Z0Y2RVQ01zanJfNHVwN0tiM3gtRUhIVVMyeE1aLUFFY0k3VHpuaVJ3MU1FaXdYZG1OTDNHZTZkWFNZQ0NrTVXSAboBQVVfeXFMT1Azci12blo2bmIyMFlrQVI2UVdFOHBDTWRCYXJaNkR4VTVsZkxoMlB3dVdJS0xTczZVX051ekxUVFlEbVpvYmtWRXZtdG5yLXhHU3FEeE1qSVZYeEc1aU1XSVZBVUlpS1dqZW52c1FUOEJuUWltM2Ric2J5RUo0eFpQazdQOFVlY0NnQjJ1eGJfeGdKRXNrLW1pdGdUeVdaWjZHTWdXVWdCU3dQTWVldW9GTkkwNWJLbzNB?oc=5",
-        "published": "Wed, 10 Jun 2026 20:55:00 GMT"
       }
     ]
   },

@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-15T09:58:35.513367+00:00",
+  "generated_at": "2026-06-15T15:49:14.658539+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
-      "severity": "critical",
+      "severity": "high",
       "category": "incident",
-      "title": "US-Iran framework deal announced; Trump declares war ended, Strait of Hormuz to reopen",
-      "summary": "President Trump announced a framework memorandum of understanding (MoU) with Iran declaring an immediate and complete end to all hostilities in the region, lifting of US naval blockade, and reopening of Strait of Hormuz, with full signing scheduled for Friday (Time Magazine, NBC News, Euronews, incidents feed). The announcement represents a major strategic shift following the previous day's Israeli Beirut strike and Iranian retaliation threats.",
-      "region": "Global",
+      "title": "Israel continues Beirut strikes amid nuclear deal negotiations, killing 3 civilians",
+      "summary": "Israeli Defense Force struck Hezbollah positions in Beirut's southern suburbs (Dahieh) on June 15, killing at least 3 civilians, marking the first deadly attack since the US-Iran framework MoU announcement (Reuters, NBC News incidents feed). Strikes persist despite Trump's public criticism of Netanyahu and risk jeopardizing the emerging ceasefire framework scheduled for Friday signing.",
+      "region": "Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "diplomatic",
-      "title": "Trump criticizes Netanyahu's judgment; Iran deal framework jeopardized by Israeli actions",
-      "summary": "President Trump explicitly stated Netanyahu has 'no fucking judgment' regarding the Beirut strike on Hezbollah positions, stating actions by Israel have placed the emerging Iran peace agreement at risk (Axios, incidents feed). Trump's public rebuke of a key US ally signals deep frustration over Israeli behavior potentially derailing negotiations.",
-      "region": "Israel, Iran, Lebanon",
+      "title": "US-Iran framework deal threatened by Israeli Beirut strikes; Trump criticizes Netanyahu judgment",
+      "summary": "President Trump explicitly stated that Israeli actions in Beirut are placing the US-Iran peace agreement at risk and that Netanyahu lacks sound judgment on the matter (Axios, incidents feed). Public rebuke signals deep fracture between US and Israeli leadership over negotiation strategy and de-escalation commitment.",
+      "region": "Global",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "nuclear",
-      "title": "Iran maintains 60% enrichment amid nuclear deal framework negotiations",
-      "summary": "Iran continues uranium enrichment at 60% U-235 with estimated 1-2 week nuclear breakout window, while IAEA board passed resolution demanding Iran report uranium stocks and grant inspectors access to facilities (Reuters, Times of Israel, global_metrics). Nuclear verification crisis deepens even as political framework agreement takes shape.",
+      "title": "Iran nuclear enrichment at 60% amid deal framework; breakout window remains 1-2 weeks",
+      "summary": "Iran maintains uranium enrichment at 60% U-235 concentration with estimated 1-2 week breakout capability while political framework agreement proceeds toward Friday signing in Switzerland (global_metrics, incidents feed). IAEA board resolution demanding inspection access and uranium stock reporting remains unresolved, indicating nuclear verification remains contentious.",
       "region": "Global",
       "source": "global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "telegram_signal",
-      "title": "Iran-US MoU full text circulates on OSINT channels; nuclear and proxy constraints detailed",
-      "summary": "Middle East Spectator Telegram channel (~56K views) posted full details of Iran-US Phase 1 MoU declaring immediate permanent end to all hostilities in region including Lebanon upon announcement, with complete lifting of US naval blockade (telegram feed). High-engagement post with nuclear-flagged keywords confirms deal framework details now in open-source circulation.",
-      "region": "Global",
-      "source": "telegram",
       "confidence": "high"
     },
     {
       "severity": "medium",
-      "category": "cyber",
-      "title": "Iran-linked group claims FBI drone hack; threats issued against World Cup infrastructure",
-      "summary": "Iran-linked cyber group claimed responsibility for hacking FBI drone systems and threatened World Cup infrastructure in apparent retaliation for regional military actions (France 24, CBS News, global_metrics cyber headlines). Attack signals potential Iranian cyber escalation in response to perceived US-Israeli coordinated operations.",
+      "category": "incident",
+      "title": "Houthis announce ban on Israeli vessels; expand Red Sea maritime pressure",
+      "summary": "Yemen's Iran-backed Houthis announced a ban on Israeli shipping in the Red Sea and conducted recent attacks on Israeli targets, escalating maritime pressure in strategic chokepoint (Reuters, Long War Journal incidents feed). Move signals proxy coordination with broader US-Iran framework de-escalation rhetoric still contested by militant wings.",
+      "region": "Red Sea",
+      "source": "incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "medium",
+      "category": "telegram_signal",
+      "title": "Rybar reports 60-day ceasefire window with full deal signing set for June 19 in Switzerland",
+      "summary": "Rybar Telegram channel (~145K views) reported that US-Iran memorandum was achieved via Pakistan and Qatar mediation, specifying 60-day ceasefire across all fronts including Lebanon, with official signing scheduled for Friday, June 19, 2026 in Switzerland (telegram feed). Timeline aligns with Trump's announced framework but Iranian officials have already signaled skepticism about uranium export provisions.",
       "region": "Global",
-      "source": "global_metrics",
+      "source": "telegram",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "Strategic inflection point: Trump administration has pivoted toward Iran deal completion despite Israeli escalation, nuclear verification remains unresolved, and threat level remains critical (9/10) pending final agreement signing and proxy force de-escalation.",
+  "analysis_note": "US-Iran framework deal framework hangs by thread as Israel continues military operations in Lebanon threatening ceasefire; nuclear enrichment remains unresolved and 1-2 week breakout window persists despite diplomatic momentum.",
   "meta": {
-    "input_tokens": 22604,
+    "input_tokens": 25605,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 722,
-    "cost_usd": 0.0262,
-    "wall_time_s": 10.5,
-    "data_hash": "427c9604e31f1dc445d5105394b39ecc3d0c9d3b8d920d630d5016a89772818c"
+    "output_tokens": 659,
+    "cost_usd": 0.0289,
+    "wall_time_s": 11.1,
+    "data_hash": "da726245f2af720f369a1b70a88bde027cbea6c99cfe3c91cdf264b0ab31c2f8"
   }
 }

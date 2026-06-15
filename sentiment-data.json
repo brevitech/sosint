@@ -1,181 +1,112 @@
 {
   "us": {
-    "positive": 50,
+    "positive": 48,
     "negative": 45,
-    "neutral": 5,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 91,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 29,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 29,
+        "count": 86,
         "sentiment": "neutral"
       },
       {
         "word": "ufc",
-        "count": 20,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
         "word": "white",
-        "count": 17,
+        "count": 26,
         "sentiment": "neutral"
       },
       {
         "word": "house",
-        "count": 17,
+        "count": 26,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 13,
-        "sentiment": "negative"
-      },
-      {
-        "word": "birthday",
-        "count": 10,
+        "word": "deal",
+        "count": 26,
         "sentiment": "neutral"
       },
       {
-        "word": "peace",
-        "count": 10,
-        "sentiment": "positive"
-      },
-      {
-        "word": "end",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leader",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "summit",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "happened",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "strikes",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "ukraine",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reportedly",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "putin",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hosts",
-        "count": 7,
+        "word": "iran",
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "obama",
-        "count": 7,
+        "count": 21,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "birthday",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "event",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "happened",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "politics",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "michelle",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "social",
-        "count": 6,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "fights",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "tren",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "aragua",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gang",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "strike",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "musk",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "killed",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "help",
-        "count": 6,
+        "word": "fighter",
+        "count": 8,
         "sentiment": "positive"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-06-15T09:58:08.214663+00:00",
-    "nextRefresh": "2026-06-15T09:58:08.214663+00:00",
-    "articlesAnalyzed": 361,
-    "matchedMentions": 172,
-    "uniquePersonalities": 41,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 57,
-    "negative": 26,
-    "neutral": 17,
-    "wordCloud": [
+      },
       {
-        "word": "modi",
-        "count": 16,
+        "word": "smears",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 9,
+        "word": "interview",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attacks",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "end",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hormuz",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -184,67 +115,171 @@
         "sentiment": "positive"
       },
       {
-        "word": "deal",
+        "word": "anthropic",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fight",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "slams",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "party",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "welcomes",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "rebel",
-        "count": 4,
         "sentiment": "negative"
       },
       {
-        "word": "video",
-        "count": 4,
+        "word": "spacex",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zelenskyy",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "russia",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "donald",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hosts",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
+        "count": 6,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-06-15T15:48:29.276448+00:00",
+    "nextRefresh": "2026-06-15T15:48:29.276448+00:00",
+    "articlesAnalyzed": 347,
+    "matchedMentions": 184,
+    "uniquePersonalities": 51,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 49,
+    "negative": 34,
+    "neutral": 17,
+    "wordCloud": [
+      {
+        "word": "india",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "tmc",
-        "count": 4,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "meeting",
-        "count": 4,
+        "word": "modi",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "us-iran",
-        "count": 4,
+        "word": "banerjee",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kharge",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "priyank",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhagwat",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "letter",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "global",
-        "count": 4,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "airport",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ghosh",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hindu",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "religion",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "registered",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mann",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "punjab",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slovakia",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "actor",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trade",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rss",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minister",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -254,77 +289,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ceo",
+        "word": "mohan",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "dies",
+        "word": "jewar",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "anti-guru",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "hopes",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "against",
+        "word": "akal",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "ghosh",
+        "word": "takht",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "scam",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "wedding",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talk",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "welcome",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "macron",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kerala",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vcs",
+        "word": "ahead",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-15T09:58:21.271203+00:00",
-    "nextRefresh": "2026-06-15T09:58:21.271203+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 72,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-06-15T15:48:40.178762+00:00",
+    "nextRefresh": "2026-06-15T15:48:40.178762+00:00",
+    "articlesAnalyzed": 476,
+    "matchedMentions": 80,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
