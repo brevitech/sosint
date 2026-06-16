@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-16T12:50:08.977768+00:00",
+  "generated_at": "2026-06-16T18:00:53.981256+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "cyber",
-      "title": "Iran-linked hackers claim compromise of FBI drone systems; threaten World Cup targeting",
-      "summary": "Iran-linked cyber group publicly claimed successful hack of FBI unmanned aerial systems and issued threats targeting World Cup infrastructure, per global_metrics cyber headlines (France 24, CBS News). Represents direct escalation of Iranian cyber operations against US critical infrastructure amid active US-Iran deal negotiations.",
+      "category": "nuclear",
+      "title": "Iran nuclear breakout window narrows to 1-2 weeks amid deal uncertainty",
+      "summary": "US intelligence assesses Iran's uranium enrichment at 60% U-235 with breakout time estimated at 1-2 weeks, per global_metrics nuclear headlines. CIA Director Ratcliffe warned Trump that Iran does not intend to honor nuclear commitments despite ceasefire framework (telegram, Axios). Represents acute proliferation risk if diplomatic deal collapses.",
       "region": "Global",
-      "source": "global_metrics",
+      "source": "global_metrics, telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israeli strikes kill 3 in south Lebanon; Trump condemns Netanyahu, warns deal imperiled",
-      "summary": "Israel conducted multiple airstrikes in southern Beirut suburbs killing at least 3 civilians following US-Iran ceasefire announcement (Reuters, NBC News, incidents feed). Trump publicly criticized Netanyahu's actions as \"too much\" and stated he is \"not happy\" with Israel's Hezbollah strategy, signaling acute US-Israel friction over de-escalation commitments.",
-      "region": "Northern Israel, Lebanon",
+      "title": "Trump threatens to seize Iran oil, gas sectors; warns of 'very hard' strikes tonight",
+      "summary": "President Trump publicly vowed via NPR to strike Iran 'very hard tonight' and stated intention to take over Iranian oil and gas sectors, per incidents feed. Statement escalates rhetoric amid fragile US-Iran ceasefire and contradicts diplomatic messaging from White House negotiators.",
+      "region": "Global",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "diplomatic",
-      "title": "CIA director warns Trump: Iran will not honor nuclear commitments despite deal framework",
-      "summary": "CIA Director John Ratcliffe briefed President Trump and senior officials that US intelligence assesses Iran does not intend to comply with nuclear obligations under a final agreement (Axios, telegram feed from Middle East Spectator, ~40.5K views). Undermines diplomatic breakthrough and raises breakout-timeline risk despite ongoing framework talks.",
-      "region": "Global",
-      "source": "telegram, global_metrics",
+      "title": "Iran warns Israeli Lebanon strikes void US ceasefire agreement; threats escalate",
+      "summary": "Iranian Foreign Minister Araghchi declared that any Israeli attack on Lebanon violates the US-Iran agreement (IranWire, Al Jazeera, incidents feed). Iran asserts US bears responsibility for Israeli actions. Signals Tehran may use Israeli-Hezbollah escalation as pretext to abandon nuclear commitments and restart hostilities.",
+      "region": "Northern Israel, Lebanon",
+      "source": "incidents",
       "confidence": "high"
     },
     {
-      "severity": "medium",
+      "severity": "high",
       "category": "asset_movement",
-      "title": "Three US carrier strike groups maintain forward deployment across Red Sea, Arabian Sea, Mediterranean",
-      "summary": "USS Dwight D. Eisenhower (Red Sea), USS Abraham Lincoln (Arabian Sea), and USS Gerald R. Ford (Mediterranean) remain deployed across critical regional chokepoints (assets feed). Positioning consistent with force protection and freedom-of-navigation enforcement amid elevated proxy threat levels and ongoing Israeli-Hezbollah exchanges.",
-      "region": "Strait of Hormuz, Red Sea, Arabian Sea, Mediterranean",
+      "title": "USS Florida submarine deployed to Persian Gulf amid elevated threat posture",
+      "summary": "USS Florida (Virginia-class submarine) positioned in Persian Gulf per assets feed, joining carrier strike groups across Red Sea, Arabian Sea, and Mediterranean. Deployment reflects US force readiness against Iranian assets and proxy escalation risks as ceasefire terms remain contested.",
+      "region": "Persian Gulf, Strait of Hormuz",
       "source": "assets",
       "confidence": "medium"
     },
     {
       "severity": "medium",
       "category": "sentiment_shift",
-      "title": "US media sentiment remains cautiously positive on Trump-Iran deal despite escalation signals",
-      "summary": "US sentiment analysis shows 52% positive vs. 39% negative coverage (up from previous baseline), with \"trump,\" \"iran,\" and \"deal\" as top trending terms; however, word-frequency spike in \"war\" (11 mentions) reflects ongoing Israeli strikes and nuclear verification disputes (sentiment feed). Indicates public discourse still favors diplomatic framework but with persistent undercurrent of conflict concern.",
+      "title": "Global sentiment on US-Iran deal remains mixed; Trump messaging dominates discourse",
+      "summary": "US sentiment analysis shows 60% positive / 34% negative ratio with 'trump', 'iran', 'deal', and 'peace' as top trending terms (sentiment feed). Persistent focus on Trump statements and deal framework ambiguity suggests public confidence in agreement remains fragile despite White House claims of breakthrough.",
       "region": "Global",
       "source": "sentiment",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran ceasefire framework holds formally but faces dual-track erosion: Israeli strikes threaten implementation while Iranian cyber-escalation and CIA warnings on nuclear non-compliance undermine US-Iran trust; threat level remains CRITICAL (9/10) with proxy forces elevated and nuclear breakout window unchanged at 1-2 weeks.",
+  "analysis_note": "US-Iran ceasefire framework announced but unraveling rapidly: Trump rhetoric threatens military strikes, Iran questions nuclear commitment credibility, Israeli-Hezbollah escalation undermines agreement terms, and nuclear breakout timeline now critically compressed to 1-2 weeks\u2014diplomatic window closing fast.",
   "meta": {
-    "input_tokens": 22442,
+    "input_tokens": 20611,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 691,
-    "cost_usd": 0.0259,
-    "wall_time_s": 10.9,
-    "data_hash": "ae632bd9410d7d13bc8a45039be4cc496c192110dc58483f455b3932754982a1"
+    "output_tokens": 637,
+    "cost_usd": 0.0238,
+    "wall_time_s": 11.2,
+    "data_hash": "d9b34c5d7628b05abc0278edf24a00974e4dfb56f601b85976ee198ef5be6c12"
   }
 }

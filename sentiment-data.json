@@ -1,47 +1,42 @@
 {
   "us": {
-    "positive": 52,
-    "negative": 39,
-    "neutral": 9,
+    "positive": 60,
+    "negative": 34,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 86,
+        "count": 63,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 50,
+        "count": 42,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 37,
+        "count": 38,
         "sentiment": "neutral"
+      },
+      {
+        "word": "peace",
+        "count": 12,
+        "sentiment": "positive"
       },
       {
         "word": "vance",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 11,
-        "sentiment": "negative"
-      },
-      {
-        "word": "us-iran",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "obama",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "anthropic",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -50,64 +45,34 @@
         "sentiment": "neutral"
       },
       {
-        "word": "wife",
+        "word": "war",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "doj",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "washington",
+        "word": "spacex",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "us-iran",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "politics",
+        "word": "white",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "voters",
-        "count": 6,
+        "word": "house",
+        "count": 7,
         "sentiment": "neutral"
-      },
-      {
-        "word": "summit",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "netanyahu",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "anthropic",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "middle",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "east",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "agreement",
-        "count": 6,
-        "sentiment": "positive"
       },
       {
         "word": "georgia",
@@ -115,136 +80,186 @@
         "sentiment": "neutral"
       },
       {
-        "word": "doj",
+        "word": "summit",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "investigate",
+        "word": "russia",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "turns",
+        "word": "demand",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "inflation",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "comment",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fight",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "department",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "sullivan",
+        "word": "republicans",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "nuclear",
+        "word": "starmer",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "high",
+        "word": "happened",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "never",
+        "word": "details",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "oil",
+        "word": "event",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "records",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-16T12:49:23.396398+00:00",
-    "nextRefresh": "2026-06-16T12:49:23.396398+00:00",
-    "articlesAnalyzed": 344,
-    "matchedMentions": 178,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-06-16T18:00:02.123651+00:00",
+    "nextRefresh": "2026-06-16T18:00:02.123651+00:00",
+    "articlesAnalyzed": 343,
+    "matchedMentions": 183,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 47,
-    "negative": 40,
-    "neutral": 13,
+    "positive": 41,
+    "negative": 37,
+    "neutral": 22,
     "wordCloud": [
+      {
+        "word": "modi",
+        "count": 18,
+        "sentiment": "neutral"
+      },
       {
         "word": "tmc",
         "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
+        "word": "india",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "operation",
+        "word": "trump",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mann",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "summit",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "akal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "takht",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "france",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "anti-guru",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kharge",
-        "count": 5,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "rebel",
-        "count": 5,
+        "count": 7,
         "sentiment": "negative"
       },
       {
-        "word": "files",
+        "word": "bjp",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bilateral",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sena",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mps",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "punjab",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abhishek",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indian",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "test",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "another",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "speaker",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "birla",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -259,72 +274,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "punjab",
+        "word": "backs",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "minister",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "polls",
+        "word": "months",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "updates",
+        "word": "akal",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "arrives",
+        "word": "takht",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "row",
+        "word": "mann",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "sena",
+        "word": "canada",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "buzz",
+        "word": "france",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "kakoli",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dastidar",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leader",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "final",
+        "word": "calls",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-16T12:49:41.092725+00:00",
-    "nextRefresh": "2026-06-16T12:49:41.092725+00:00",
-    "articlesAnalyzed": 478,
-    "matchedMentions": 85,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-06-16T18:00:22.195888+00:00",
+    "nextRefresh": "2026-06-16T18:00:22.195888+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 98,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
