@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-15T22:15:43.140105+00:00",
+  "generated_at": "2026-06-16T07:22:55.103430+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran threatens to abandon US-Iran framework deal if Israeli strikes on Lebanon continue",
-      "summary": "Iran's Foreign Ministry stated that continued Israeli military strikes on Beirut could derail the US-Iran framework MoU scheduled for Friday signing in Switzerland, marking the first explicit linkage of ceasefire agreement viability to Israeli military operations (incidents feed: Axios, Al Jazeera, Iran media outlets). Threat level remains at 9 (CRITICAL\u2014IMMINENT ESCALATION per global_metrics).",
+      "title": "Trump vows immediate Iran strike; threatens seizure of oil and gas sectors",
+      "summary": "US President Trump publicly stated intent to strike Iran 'very hard tonight' and threatened to seize Iranian oil and gas sectors, significantly escalating rhetoric beyond previous diplomatic posture (incidents feed: NPR). Statement directly contradicts ongoing US-Iran framework MoU signing preparations and signals potential reversal of ceasefire commitment.",
       "region": "Global",
-      "source": "incidents,global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Israel strikes Beirut's Dahieh; Trump publicly rebukes Netanyahu over judgment",
-      "summary": "Israeli Defense Force conducted strikes in Beirut's southern suburbs (Dahieh) on June 15, killing at least 1-3 civilians, with ongoing strikes despite Trump's explicit public statement that Israeli actions jeopardize the US-Iran peace agreement and that Netanyahu lacks sound judgment (NBC News, Reuters, Axios incidents feed). Public US-Israel fracture over de-escalation strategy unprecedented in current negotiation cycle.",
-      "region": "Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "nuclear",
-      "title": "Iran nuclear program remains at 60% enrichment; breakout window 1-2 weeks amid deal talks",
-      "summary": "Iran maintains uranium enrichment at 60% U-235 with estimated 1-2 week breakout capability while framework agreement proceeds toward signing (global_metrics). IAEA board resolution demanding inspection access and uranium stock reporting unresolved, indicating nuclear verification remains major contentious issue despite diplomatic progress.",
+      "category": "incident",
+      "title": "Israel halts major Iran strike one hour before scheduled takeoff",
+      "summary": "Israeli Defense Force Chief confirmed Israel aborted a significant planned airstrike on Iran approximately one hour before execution, reportedly in response to Trump administration pressure to preserve US-Iran peace deal (Ynetnews, incidents feed). Demonstrates acute US-Israel coordination fracture over de-escalation strategy amid ongoing Lebanon strikes.",
       "region": "Global",
-      "source": "global_metrics",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "cyber",
-      "title": "Iran-linked cyber group claims breach of FBI drone systems; threatens World Cup targeting",
-      "summary": "Iran-linked threat actor reportedly claimed successful hack of US FBI drone control systems and threatened targeting of World Cup 2026 event in retaliation for earlier Iranian strikes (global_metrics cyber_headlines: France 24, CBS News, Middle East Eye). Multiple reports suggest potential operational capability; cyber-as-escalation dimension emerging parallel to kinetic operations.",
-      "region": "Global",
-      "source": "global_metrics",
+      "category": "telegram_signal",
+      "title": "Iran fires warning shots at vessel in Strait of Hormuz; Qatar covert funding arrangement exposed",
+      "summary": "Middle East Spectator reported Iran discharged warning shots at a commercial vessel transiting Strait of Hormuz on June 15 (44.8K views). Simultaneously, diplomatic sources confirmed Washington secretly authorized Qatar to transfer funds to Tehran in exchange for freedom of navigation and attack immunity, deliberately structured to reduce global energy prices (~37K views, high-confidence source).",
+      "region": "Strait of Hormuz",
+      "source": "telegram",
       "confidence": "medium"
     },
     {
       "severity": "high",
-      "category": "asset_movement",
-      "title": "Three US carriers and ten combat vessels positioned across Middle East theater; USS Florida submarine in Persian Gulf",
-      "summary": "US military maintains heavy concentration: USS Dwight D. Eisenhower (Carrier, Red Sea), USS Abraham Lincoln (Carrier, Arabian Sea), USS Gerald R. Ford (Carrier, Mediterranean), plus five destroyers/amphibious ships (USS Carney, Mason, Laboon in Red Sea; USS Bataan, USS Boxer in Pacific theater), and USS Florida submarine (Deployed\u2014Persian Gulf per assets feed). Deployment posture consistent with high threat-level status and contingency positioning ahead of framework deal signing.",
-      "region": "Strait of Hormuz, Red Sea, Arabian Sea",
-      "source": "assets",
+      "category": "nuclear",
+      "title": "Iran maintains 60% enrichment; breakout window unchanged at 1-2 weeks during framework talks",
+      "summary": "Iran continues uranium enrichment at 60% U-235 with persistent 1-2 week breakout capability despite active US-Iran framework agreement negotiations (global_metrics). IAEA board resolution on inspection access and uranium stock reporting remains unresolved, indicating nuclear verification dispute has not been addressed in diplomatic breakthrough.",
+      "region": "Global",
+      "source": "global_metrics",
       "confidence": "high"
+    },
+    {
+      "severity": "medium",
+      "category": "sentiment_shift",
+      "title": "US sentiment on Iran deal shifts positive amid Trump's contradictory messaging",
+      "summary": "US sentiment analysis shows 53% positive, 38% negative coverage on Iran-deal topics, with 'Trump' (100 mentions), 'Iran' (54), and 'deal' (42) dominating discourse (sentiment feed). However, Trump's new strike threat represents sudden reversal from deal-positive positioning, signaling potential strategic pivot that may destabilize nascent agreement.",
+      "region": "Global",
+      "source": "sentiment",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran framework agreement hangs on edge as Israeli military operations risk deal collapse; nuclear enrichment remains unresolved; Iran escalates cyber operations; US military posture remains at high readiness across contested zones.",
+  "analysis_note": "US-Iran framework agreement faces imminent collapse risk as Trump escalates military rhetoric and threatens oil sector seizure, directly contradicting ceasefire commitments; Israeli strike resumption on Lebanon and Iranian warning shots in Strait of Hormuz indicate regional de-escalation is fragile.",
   "meta": {
-    "input_tokens": 27548,
+    "input_tokens": 24249,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 747,
-    "cost_usd": 0.0313,
-    "wall_time_s": 11.3,
-    "data_hash": "4474978866787f926acaa96549a4415ab9c347bb1af26bfac5316f04e23b5642"
+    "output_tokens": 661,
+    "cost_usd": 0.0276,
+    "wall_time_s": 10.8,
+    "data_hash": "63a772292f745ace63801a448cb55e0fda21664cd6550b0f08d21e7f5d5be102"
   }
 }
