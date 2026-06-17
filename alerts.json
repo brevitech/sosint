@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-16T23:20:51.618187+00:00",
+  "generated_at": "2026-06-17T08:58:39.720832+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran nuclear breakout window at critical 1-2 weeks amid deal collapse risk",
-      "summary": "US intelligence continues to assess Iran's uranium enrichment at 60% U-235 with breakout time estimated at 1-2 weeks (global_metrics). Simultaneously, incidents feed reports Iran warns Israeli strikes on Lebanon could derail US-Iran agreement, signaling Tehran may use escalation pretext to abandon nuclear commitments. BBC and Reuters headlines confirm deal terms remain unresolved and Iran has 'continuously violated commitments.'",
+      "title": "Iran fires drones nightly at Strait of Hormuz shipping since MoU signing",
+      "summary": "Iran has conducted repeated drone attacks against vessels in the Strait of Hormuz each night since the US-Iran nuclear agreement was signed, per NBC reporting cited in ME Spectator Telegram (40.9K views, 2026-06-16). This represents direct escalation and potential violation of ceasefire terms, contradicting Tehran's public commitment to the deal.",
+      "region": "Strait of Hormuz",
+      "source": "telegram, incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "critical",
+      "category": "diplomatic",
+      "title": "White House signals nuclear deal conditionality: 'No weapons, no full relief'",
+      "summary": "White House statement via ME Spectator (41K views, 2026-06-16) clarifies that Iran must eliminate nuclear weapons capabilities to receive full sanctions relief, reversing prior deal language and creating new dispute over implementation terms. Statement inadvertently suggests pathway to weaponization if relief withheld, escalating negotiation tensions.",
       "region": "Global",
-      "source": "global_metrics, incidents",
+      "source": "telegram, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel continues Beirut strikes; Iran military threatens harsh response if attacks persist",
-      "summary": "Multiple Israeli drone and air strikes hit southern Beirut suburbs and southern Lebanon, killing at least 7 civilians (Reuters, NBC News, incidents feed). Iran's military issued direct threat that Israel 'should expect harsh response' if southern Lebanon attacks continue (Ynetnews). Represents clear escalation trigger for US-Iran ceasefire collapse as both sides cited Lebanon as red line.",
+      "title": "Iran demands maritime control over Strait of Hormuz per leaked deal clause",
+      "summary": "Axios reporting (via ME Spectator, 43.1K views) confirms MoU contains provision granting Iran management authority over 'shipping and maritime services' in Strait of Hormuz following consultations with Oman and regional states. Represents unprecedented concession over critical waterway and potential leverage for future blockade threats.",
+      "region": "Strait of Hormuz",
+      "source": "telegram, incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "incident",
+      "title": "Israeli strikes kill 3-4 in Beirut suburbs; Iran renews 'harsh response' threat",
+      "summary": "Israeli Air Force continues operations in southern Beirut suburbs and southern Lebanon with confirmed 3-4 civilian casualties (NBC News, Reuters, incidents feed 2026-06-17). Iran's military directly threatened 'harsh response' if southern Lebanon attacks persist, citing previous warnings that escalation would derail US-Iran nuclear agreement.",
       "region": "Northern Israel, Lebanon",
-      "source": "incidents",
+      "source": "incidents, sentiment",
       "confidence": "high"
     },
     {
-      "severity": "high",
-      "category": "diplomatic",
-      "title": "Trump publicly distances from Israel's Lebanon strikes amid Iran deal fragility",
-      "summary": "President Trump condemned Israel's Beirut attack as 'not responsible' and urged Netanyahu to exercise restraint on Lebanon operations (Al Jazeera, Axios, incidents feed). Statement contradicts Trump's earlier vow to strike Iran 'very hard' and signals White House concern that Israeli escalation will trigger Iranian walkout from nascent nuclear agreement, jeopardizing $300B financial component.",
-      "region": "Global",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
+      "severity": "medium",
       "category": "cyber",
-      "title": "Iran-linked cyber group claims hack of FBI drone fleet; threatens World Cup targets",
-      "summary": "Iran-linked threat actor claimed successful compromise of US FBI drone systems with stated intent to disrupt World Cup 2026, per cyber_headlines (France 24, CBS News). Separate claims of California water system hack in retaliation for prior Iran strikes. Represents expansion of Iranian cyber operations into critical US infrastructure and symbolic targets amid nuclear deal negotiations.",
+      "title": "Iran-linked actors claim FBI drone system compromise; World Cup disruption threatened",
+      "summary": "Iran-linked threat group claimed successful hack of US FBI unmanned aerial vehicle systems with stated intent to disrupt 2026 FIFA World Cup operations, per France 24 and CBS News reporting in global_metrics cyber_headlines. Separate claims of California water system compromise in retaliation for Israeli strikes indicate expansion of Iranian cyber operations into civilian critical infrastructure targeting.",
       "region": "Global",
       "source": "global_metrics",
       "confidence": "medium"
-    },
-    {
-      "severity": "high",
-      "category": "asset_movement",
-      "title": "Three US carrier strike groups maintain elevated posture across Red Sea, Arabian Sea, Mediterranean",
-      "summary": "USS Dwight D. Eisenhower (Red Sea), USS Abraham Lincoln (Arabian Sea), and USS Gerald R. Ford (Mediterranean) remain deployed with supporting destroyers (USS Carney, Mason, Laboon) and amphibious assets (USS Bataan) per assets feed. Deployment reflects US force readiness against Iran proxy escalation and Israeli-Hezbollah spillover as threat level stands at 9/10 (CRITICAL\u2014IMMINENT ESCALATION).",
-      "region": "Persian Gulf, Red Sea, Arabian Sea, Mediterranean",
-      "source": "assets, global_metrics",
-      "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran nuclear ceasefire framework is on the verge of collapse due to Israeli-Lebanese escalation spillover, Iranian breakout window shrinking to weeks, and mutual accusations of bad faith compliance; simultaneously, cyber and proxy warfare intensify while Trump administration applies contradictory messaging on Israel restraint and Iranian military targets.",
+  "analysis_note": "US-Iran nuclear agreement framework is fragmenting under pressure from Israeli escalation in Lebanon, Iranian drone attacks in the Strait of Hormuz, disputed deal terms over sanctions relief and maritime control, and cyber retaliation threats; threat level remains at critical (9/10) with breakout timeline still estimated at 1-2 weeks if deal collapses.",
   "meta": {
-    "input_tokens": 27262,
+    "input_tokens": 20687,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 753,
-    "cost_usd": 0.031,
-    "wall_time_s": 11.9,
-    "data_hash": "a4d10388dc804a003fbec88c547b9927991e7c6721921d3f99d85ea32386211b"
+    "output_tokens": 710,
+    "cost_usd": 0.0242,
+    "wall_time_s": 10.4,
+    "data_hash": "bf8d656a646d4328894a77e2af0bfbfa5855b5f16ca944b23b88284b2c81b5f1"
   }
 }

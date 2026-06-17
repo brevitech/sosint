@@ -1,32 +1,27 @@
 {
   "us": {
-    "positive": 57,
-    "negative": 35,
-    "neutral": 8,
+    "positive": 51,
+    "negative": 38,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 54,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 21,
+        "count": 52,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 21,
+        "count": 24,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "georgia",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
-        "count": 12,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -40,38 +35,48 @@
         "sentiment": "neutral"
       },
       {
+        "word": "primary",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
         "word": "gop",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "primary",
+        "word": "cup",
         "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "results",
-        "count": 8,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "education",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "peace",
-        "count": 7,
-        "sentiment": "positive"
-      },
-      {
-        "word": "happened",
-        "count": 7,
+        "word": "us-iran",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "republican",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leaves",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "starmer",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "alleged",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -90,17 +95,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "us-iran",
+        "word": "governor",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "netanyahu",
+        "word": "musk",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "spacex",
+        "word": "lebanon",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "oklahoma",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -110,24 +120,29 @@
         "sentiment": "negative"
       },
       {
-        "word": "details",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "sanders",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "rights",
+        "word": "drug",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "department",
+        "word": "tehran",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "summit",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "collins",
@@ -138,98 +153,93 @@
         "word": "ossoff",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "governor",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "musk",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leaders",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-17T03:35:10.997745+00:00",
-    "nextRefresh": "2026-06-17T03:35:10.997745+00:00",
-    "articlesAnalyzed": 343,
-    "matchedMentions": 168,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-06-17T08:58:10.099917+00:00",
+    "nextRefresh": "2026-06-17T08:58:10.099917+00:00",
+    "articlesAnalyzed": 345,
+    "matchedMentions": 173,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 48,
+    "positive": 53,
     "negative": 30,
-    "neutral": 22,
+    "neutral": 17,
     "wordCloud": [
       {
-        "word": "modi",
-        "count": 29,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "summit",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 11,
+        "word": "sena",
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "mps",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rebellion",
+        "count": 15,
+        "sentiment": "negative"
+      },
+      {
+        "word": "shiv",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ubt",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
         "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "trump",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "birla",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "sena",
+        "word": "party",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "amid",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "summit",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "discuss",
+        "word": "shares",
         "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "bjp",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leaders",
+        "word": "minister",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "speaker",
+        "word": "operation",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
+        "word": "kumar",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "afghanistan",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -239,92 +249,82 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "security",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "yadav",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "uae",
+        "word": "uddhav",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "tata",
+        "word": "camp",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "france",
+        "word": "rebel",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "crore",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "phones",
-        "count": 4,
+        "word": "buzz",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "reachable",
-        "count": 4,
+        "word": "tmc",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "focus",
-        "count": 4,
+        "word": "against",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "shifts",
-        "count": 4,
+        "word": "leaders",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "updates",
-        "count": 4,
+        "word": "tiger",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "bilateral",
-        "count": 4,
+        "word": "speaker",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
-        "count": 4,
+        "word": "odi",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "indians",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fashion",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "video",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "split",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kapoor",
-        "count": 4,
+        "word": "india",
+        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-17T03:35:22.765672+00:00",
-    "nextRefresh": "2026-06-17T03:35:22.765672+00:00",
-    "articlesAnalyzed": 477,
-    "matchedMentions": 99,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-06-17T08:58:24.801318+00:00",
+    "nextRefresh": "2026-06-17T08:58:24.801318+00:00",
+    "articlesAnalyzed": 476,
+    "matchedMentions": 98,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   }
 }
