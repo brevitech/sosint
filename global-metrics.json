@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-17T16:36:35.021875+00:00",
+  "generatedAt": "2026-06-17T19:22:22.793960+00:00",
   "dataSource": "live-osint",
   "economy": {
-    "brentCrude": 79.63,
+    "brentCrude": 79.35,
     "irrFreeMarket": 1374850
   },
   "cyber": [
@@ -10,11 +10,6 @@
       "title": "Iran-linked group claims hack of FBI drones, threatens World Cup, monitor reports - France 24",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeFdtZFlwQ0twUU81YTByak96Y3ZLNi1weThRa1FGRmFrUE9WdlNGMjczbm9TSkVpTjRZQ2JkVkdxQnlFR0djUXQ3OHY1a0N4VDQtcXh1UXVZb3JkTkd2NzNPcFFxamZLQmJOcG5uMXlUWGJmX2Z4TVZIQUl1MDJReHhDZzg5QU5mTHZCbURwRkhBOTZyc2hHUWZ0eHV6dFQyYVNlZEROTTVqV3lwZmYwdkZpeVpZaHhHZGd4UVdfRGtQS28?oc=5",
       "published": "Fri, 12 Jun 2026 17:21:51 GMT"
-    },
-    {
-      "title": "Cyber group claims California water system hack in retaliation for Iran strikes - Middle East Eye",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbnZmbDRpZWNnZUZHcU1EblNmZEdPZlYwT2RBcVJGQ2duMVFRMFVjOUw2ZTRrWG1VU3pINFA1a1VnME9iNGV3SjQyWkZabGsyb1JULU1vY3dma0FVWUNQMFlLRHZzalFfM3kyUS1jNjBuT0JqNG5xQ25hYzhGZnZCTlIwUk92d2gzMno5NFZQdHEyUzhJTE5EZFpOSWIzSlhfeFNQaUYzZFhmMnNtZ19JY2o5YU9CV05UOFI2OXJQZmNkOTJvanVabQ?oc=5",
-      "published": "Fri, 12 Jun 2026 06:07:00 GMT"
     },
     {
       "title": "Iran-linked group claims hack of FBI drones, threatens World Cup, monitor says - CBS News",
@@ -35,6 +30,11 @@
       "title": "U.S. and Iran Standoff at Sea: A Test of ‘Who Will Blink First’ - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWlVxYWQ4QTA4VWNISFhDa1ItNjJYQm9WVDNEU1dzVl9IMnI3QllxS3A2RnRFZlpERHc1RW9uWHBvVVlaVDBBbHFSWGFNTTVFb3JlMGR4bm5nRFpDWnBnU2loNmVJUWttZS16MGFCc1Vzdm13MmltQnpJaWRlVUp4WnZKbzZYS0JiSnJnVWt3Rlk?oc=5",
       "published": "Thu, 28 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "How to Lose an Information War in 10 Days - CSIS | Center for Strategic and International Studies",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jTlF1bEo2UFEzMEM4WHp5eFYyQk01Mmg3U3UzU3NsRkwxNFF3X0RYdlpvakpROU83SjVoTzQ4QUx2WENZT2pzQzBFaW96X3lZUS1rTHpOMk9jQklYRGVBSFd4M1J5em9oNnhTcEZRZw?oc=5",
+      "published": "Tue, 05 May 2026 07:00:00 GMT"
     }
   ],
   "threat": {
@@ -43,7 +43,7 @@
   },
   "proxies": {
     "Hezbollah": "Elevated - Active Exchanges",
-    "Houthis (Ansar Allah)": "Elevated - Multiple Recent Attacks",
+    "Houthis (Ansar Allah)": "Active - Red Sea",
     "Iraqi Shiite Militias (PMF)": "Elevated - Base Strikes Detected",
     "Hamas": "Degraded",
     "Palestinian Islamic Jihad": "Active"
@@ -53,9 +53,9 @@
     "breakout": "~1-2 weeks (estimated)",
     "news": [
       {
-        "title": "A primer on uranium enrichment as Iran's nuclear program faces scrutiny - The Edwardsville Intelligencer",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRVAyWTJzeDVpNW9pcTIyVjBDOTFSeE5TSDdkUm1Mc2s1dXpiQ2piaDVqS1ljQWhlY1hmekFBQnNwWFl6QVBPTjBQS2QxVC1Rc2FvWHhOZndHbGhhaDRpSDZ4QUxEbC1xcGFYRmNzN0p6ekRHN215aHVYbDdqVUxjb3laOVFyb29iRlZ3UUpwODkwTmEzZnYxbHZ0MlFYbVhLdHpuQk5iakkyU0k?oc=5",
-        "published": "Wed, 17 Jun 2026 16:12:28 GMT"
+        "title": "A primer on uranium enrichment as Iran's nuclear program faces scrutiny - WRAL",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemJWTldsVlZ5TERHazJEVGhRS3ZtdVJUREVVNi1GZUdYWXkxLTBTOFZ3TW5GdHhUaHZqX2pmWjJjZWFaVnRTT0JKY2NlYVg3SUFERnlhNGhMVlpid3BEUTJmXzhUbkFYdHREY2I3ZVA3NVA2RGtEQkxfUUJCWURUQnFXQW1jT3VWTWs2WVZnRDVyRXBRUEItbDd0Ul9pZk9OZlB6UG5vYUt0QQ?oc=5",
+        "published": "Wed, 17 Jun 2026 16:10:33 GMT"
       },
       {
         "title": "Dilution Is Not the Solution: Disposing of Iran’s Enriched Uranium Stockpile - Foundation for Defense of Democracies",
@@ -63,9 +63,9 @@
         "published": "Wed, 17 Jun 2026 00:10:44 GMT"
       },
       {
-        "title": "Iran's Uranium Stockpile May Put Kazakhstan At The Center Of A Nuclear Deal - Radio Free Europe/Radio Liberty",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa0xkYnJQa204Nkh3UkJCUC1ZVjBwTUpDaF9oTTJsSkl1X2FYUWlBMFNkMGdUOFllTGgtSkgyaXhfN1dRbUdtWlZCVUZva3pqU2JHQks4X2ZvX0FIemRPaWJjRXN1WE4teFVadEpEUFVibGNwMFdjeFRPZEdiaU1pNlF6bWd0MkdCcjNfRjhDcnBIZUhC0gGXAUFVX3lxTE1ZOUZ4S1dtUFpyM1hkMzl2ZENuNnphUmFhc2o5ZWJxWGNTaUhsemJQN1EzaWZwQjJxUXk3bjkyVVp6M2d6eFQxeDZpRHoxM180QWw2ck94Mk5XRTFRQXZFVjVQN2xwbV92NjlGQ2pWdjNGV2dlTFFaZDh1T05JNnI4Z2NxV2NDSWlpaEtMRFFDRUFZU2FQamc?oc=5",
-        "published": "Wed, 17 Jun 2026 11:45:32 GMT"
+        "title": "US-Iran MoU will leave enriched uranium in Iran to be diluted, leaked text reveals - The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EOU5YaWlGR2IzRG9WS1E1QnBxZ192Nkhwa0w4UjhBV1YwMVNhMmZTLTFlSTJMb1JkRXhfWm9oakFDSkFuSVgwYUxOU3lyZWREUjJvY0QzWmJzZU5s?oc=5",
+        "published": "Wed, 17 Jun 2026 18:55:42 GMT"
       },
       {
         "title": "Trump aims to end Iran war but nuclear issue remains unresolved - BBC",
@@ -73,9 +73,9 @@
         "published": "Mon, 15 Jun 2026 13:54:18 GMT"
       },
       {
-        "title": "US-Iran nuclear talks must address these key issues - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT3l0TngxSGtXWUh2aDhyV3BCTkNsRzlUZTc5N3U5WHFmRS1Hc3ZVS0pzbUIzRDV2U3oxNzhQU2F2bTdoalAwVUFKS0U3LTBmRmNWbGJ6SVh6eTZsT0dOZXRwOWREaWlnd2FnQUhIRHhJLVhNRzBHYTRKQVZZd1N4RVdXV2Z5dzM2VUFQemhsa2FVTUttSjNuMW54RnJOZWYt?oc=5",
-        "published": "Mon, 15 Jun 2026 14:24:49 GMT"
+        "title": "Iran’s Uranium Stockpile May Position Kazakhstan As Central Player In Nuclear Negotiations – Analysis - Eurasia Review",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNY0xBakRjYXBhUVJHaWxFM2VWYWpZVHZheDhHMmdKQWNUV2VsQi1KT0VHZzJKZVFZWGxvTm1VRVZya2lwUEpDMjNFNGlidDdyamhTQW5nV3BBOUkycHNqcThwTXNjUEFmeVBOMGY2d0hwS0VCS19zNHRSTHRNWG5waVM1ZDQ2RENHMTdnM00wWXdvLVFMTzFHeHdkS256dXh5LU52STQ0OFdMUDA0LVRiQ1R4dWlzSnBrSVJBbHlTWXdBVjI1Z2U5UEo3TzVxYXdPbE0tZQ?oc=5",
+        "published": "Wed, 17 Jun 2026 16:36:14 GMT"
       }
     ]
   },
