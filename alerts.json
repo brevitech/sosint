@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-17T08:58:39.720832+00:00",
+  "generated_at": "2026-06-17T16:37:00.088647+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran fires drones nightly at Strait of Hormuz shipping since MoU signing",
-      "summary": "Iran has conducted repeated drone attacks against vessels in the Strait of Hormuz each night since the US-Iran nuclear agreement was signed, per NBC reporting cited in ME Spectator Telegram (40.9K views, 2026-06-16). This represents direct escalation and potential violation of ceasefire terms, contradicting Tehran's public commitment to the deal.",
-      "region": "Strait of Hormuz",
-      "source": "telegram, incidents",
+      "title": "Iran's nuclear breakout window narrows to 1-2 weeks amid deal tensions",
+      "summary": "Global metrics confirm Iran's uranium enrichment now at 60% U-235 with estimated breakout time of 1-2 weeks. This represents critical threshold amid ongoing dispute over deal implementation\u2014White House conditionality statement and leaked MoU containing zero nuclear commitments from Iran create escalation risk (global_metrics, telegram sources).",
+      "region": "Global",
+      "source": "global_metrics, telegram",
       "confidence": "high"
     },
     {
       "severity": "critical",
-      "category": "diplomatic",
-      "title": "White House signals nuclear deal conditionality: 'No weapons, no full relief'",
-      "summary": "White House statement via ME Spectator (41K views, 2026-06-16) clarifies that Iran must eliminate nuclear weapons capabilities to receive full sanctions relief, reversing prior deal language and creating new dispute over implementation terms. Statement inadvertently suggests pathway to weaponization if relief withheld, escalating negotiation tensions.",
-      "region": "Global",
-      "source": "telegram, global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
       "category": "incident",
-      "title": "Iran demands maritime control over Strait of Hormuz per leaked deal clause",
-      "summary": "Axios reporting (via ME Spectator, 43.1K views) confirms MoU contains provision granting Iran management authority over 'shipping and maritime services' in Strait of Hormuz following consultations with Oman and regional states. Represents unprecedented concession over critical waterway and potential leverage for future blockade threats.",
-      "region": "Strait of Hormuz",
-      "source": "telegram, incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Israeli strikes kill 3-4 in Beirut suburbs; Iran renews 'harsh response' threat",
-      "summary": "Israeli Air Force continues operations in southern Beirut suburbs and southern Lebanon with confirmed 3-4 civilian casualties (NBC News, Reuters, incidents feed 2026-06-17). Iran's military directly threatened 'harsh response' if southern Lebanon attacks persist, citing previous warnings that escalation would derail US-Iran nuclear agreement.",
+      "title": "Israeli strikes continue in Lebanon despite Trump pressure; Iran renews retaliation threat",
+      "summary": "Israeli Air Force conducted fresh drone strikes in southern Lebanon killing at least 4 civilians (Reuters, 2026-06-17). Iran's military directly threatened 'harsh response' if attacks persist, explicitly linking escalation to potential derailment of US-Iran nuclear agreement. Trump publicly criticized Netanyahu but operations continue (incidents, telegram).",
       "region": "Northern Israel, Lebanon",
+      "source": "incidents, telegram",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "cyber",
+      "title": "Iran-linked actors claim FBI drone hack; threaten World Cup infrastructure",
+      "summary": "Iran-linked cyber group has claimed successful compromise of FBI drone systems and made threats against World Cup infrastructure, per France 24 and CBS News (global_metrics). Represents escalating cyber threat alongside conventional and proxy activity, indicating diversified Iranian response options amid deal implementation disputes.",
+      "region": "Global",
+      "source": "global_metrics",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
+      "category": "incident",
+      "title": "Trump threatens to resume bombing campaign if Iran escalates beyond current violations",
+      "summary": "Trump issued warning via The Guardian (incidents feed, 2026-06-17) stating he will resume bombing if Iran 'acts up,' directly referencing Iran's nightly drone attacks on Strait of Hormuz shipping since MoU signing. Statement signals fragility of ceasefire arrangement and creates tit-for-tat escalation cycle amid nuclear negotiations.",
+      "region": "Strait of Hormuz, Global",
       "source": "incidents, sentiment",
       "confidence": "high"
     },
     {
-      "severity": "medium",
-      "category": "cyber",
-      "title": "Iran-linked actors claim FBI drone system compromise; World Cup disruption threatened",
-      "summary": "Iran-linked threat group claimed successful hack of US FBI unmanned aerial vehicle systems with stated intent to disrupt 2026 FIFA World Cup operations, per France 24 and CBS News reporting in global_metrics cyber_headlines. Separate claims of California water system compromise in retaliation for Israeli strikes indicate expansion of Iranian cyber operations into civilian critical infrastructure targeting.",
-      "region": "Global",
-      "source": "global_metrics",
-      "confidence": "medium"
+      "severity": "high",
+      "category": "asset_movement",
+      "title": "Three US carrier strike groups maintain forward deployment across critical zones",
+      "summary": "USS Dwight D. Eisenhower (Red Sea), USS Abraham Lincoln (Arabian Sea), and USS Gerald R. Ford (Mediterranean) remain actively deployed in three adjacent theaters. Deployment posture maintains strike capability against Iran while supporting Israel and Gulf operations, underpinning Trump's credible bombing threat amid nuclear deal implementation crisis (assets feed).",
+      "region": "Red Sea, Arabian Sea, Mediterranean",
+      "source": "assets",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran nuclear agreement framework is fragmenting under pressure from Israeli escalation in Lebanon, Iranian drone attacks in the Strait of Hormuz, disputed deal terms over sanctions relief and maritime control, and cyber retaliation threats; threat level remains at critical (9/10) with breakout timeline still estimated at 1-2 weeks if deal collapses.",
+  "analysis_note": "US-Iran nuclear deal framework deteriorating rapidly: Iranian uranium enrichment at 1-2 week breakout threshold, Israeli strikes threatening deal viability, cyber escalation underway, and Trump threatening resumed bombing\u2014creating multi-domain escalation risk with minimal diplomatic off-ramps.",
   "meta": {
-    "input_tokens": 20687,
+    "input_tokens": 17195,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 710,
-    "cost_usd": 0.0242,
-    "wall_time_s": 10.4,
-    "data_hash": "bf8d656a646d4328894a77e2af0bfbfa5855b5f16ca944b23b88284b2c81b5f1"
+    "output_tokens": 657,
+    "cost_usd": 0.0205,
+    "wall_time_s": 10.6,
+    "data_hash": "0f0999000061501e907fbe37c8be34d6b3594c6b8bc314fef4c1a45afc4bb703"
   }
 }
