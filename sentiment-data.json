@@ -1,32 +1,42 @@
 {
   "us": {
-    "positive": 55,
-    "negative": 35,
+    "positive": 51,
+    "negative": 39,
     "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 90,
+        "count": 91,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 33,
+        "count": 37,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 25,
+        "count": 32,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "versailles",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "us-iran",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "macron",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "clayton",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nomination",
-        "count": 11,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -35,39 +45,34 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
+        "word": "mou",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "versailles",
+        "word": "agreement",
         "count": 8,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "ceo",
+        "word": "disaster",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "war",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "nomination",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "us-iran",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "macron",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "disaster",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "strikes",
@@ -75,12 +80,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "mou",
+        "word": "vance",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "senator",
+        "word": "trade",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -90,32 +95,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "republican",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "fair",
         "count": 5,
         "sentiment": "positive"
       },
       {
+        "word": "ceo",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "ukraine",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "confirmation",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chief",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -135,17 +125,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jay",
+        "word": "signed",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "intelligence",
+        "word": "mexico",
         "count": 5,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
-        "word": "georgia",
+        "word": "cup",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "takeaways",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -153,29 +148,34 @@
         "word": "leaders",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "pick",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-17T21:56:46.814629+00:00",
-    "nextRefresh": "2026-06-17T21:56:46.814629+00:00",
-    "articlesAnalyzed": 347,
+    "generatedAt": "2026-06-17T23:22:29.110981+00:00",
+    "nextRefresh": "2026-06-17T23:22:29.110981+00:00",
+    "articlesAnalyzed": 349,
     "matchedMentions": 177,
-    "uniquePersonalities": 45,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 47,
-    "negative": 27,
-    "neutral": 26,
+    "negative": 29,
+    "neutral": 24,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 29,
+        "count": 31,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 23,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
@@ -189,12 +189,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "speaker",
-        "count": 9,
+        "word": "split",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "split",
+        "word": "speaker",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -209,7 +209,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "rahul",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "tmc",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sena",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shiv",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -219,18 +234,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "summit",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "peace",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "gandhi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ubt",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "talks",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "summit",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -244,22 +269,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "peace",
+        "word": "always",
         "count": 5,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "side",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "mps",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mandhana",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sena",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -269,12 +289,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shiv",
+        "word": "mandhana",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -302,29 +317,14 @@
         "word": "highlights",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "records",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "team",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-17T21:56:56.871043+00:00",
-    "nextRefresh": "2026-06-17T21:56:56.871043+00:00",
+    "generatedAt": "2026-06-17T23:22:39.786299+00:00",
+    "nextRefresh": "2026-06-17T23:22:39.786299+00:00",
     "articlesAnalyzed": 465,
     "matchedMentions": 116,
-    "uniquePersonalities": 43,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
