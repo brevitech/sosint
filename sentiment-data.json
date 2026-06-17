@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 57,
-    "negative": 36,
-    "neutral": 7,
+    "positive": 55,
+    "negative": 35,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 89,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 33,
+        "count": 90,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 26,
+        "count": 33,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 25,
         "sentiment": "neutral"
       },
       {
@@ -25,47 +25,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
         "word": "nomination",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fema",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "disaster",
-        "count": 9,
-        "sentiment": "negative"
-      },
-      {
-        "word": "interest",
-        "count": 8,
-        "sentiment": "positive"
-      },
-      {
-        "word": "confirmation",
+        "word": "lebanon",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "golden",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ticket",
+        "word": "vance",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -75,42 +45,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "invite",
-        "count": 8,
-        "sentiment": "positive"
-      },
-      {
-        "word": "real",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hearing",
+        "word": "ceo",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "holds",
+        "word": "senate",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chief",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lebanon",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "us-iran",
-        "count": 6,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "summit",
+        "word": "macron",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "disaster",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "strikes",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "mou",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -120,27 +85,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "anthropic",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bid",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "spacex",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "security",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "rates",
+        "word": "federal",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -153,24 +98,79 @@
         "word": "fair",
         "count": 5,
         "sentiment": "positive"
+      },
+      {
+        "word": "ukraine",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "confirmation",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delay",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "israel",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "plan",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jay",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "intelligence",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "georgia",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leaders",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-17T19:22:06.234120+00:00",
-    "nextRefresh": "2026-06-17T19:22:06.234120+00:00",
-    "articlesAnalyzed": 346,
-    "matchedMentions": 185,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-06-17T21:56:46.814629+00:00",
+    "nextRefresh": "2026-06-17T21:56:46.814629+00:00",
+    "articlesAnalyzed": 347,
+    "matchedMentions": 177,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 49,
-    "negative": 32,
-    "neutral": 19,
+    "positive": 47,
+    "negative": 27,
+    "neutral": 26,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 31,
+        "count": 29,
         "sentiment": "neutral"
       },
       {
@@ -180,11 +180,16 @@
       },
       {
         "word": "trump",
-        "count": 21,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
-        "word": "meeting",
+        "word": "banerjee",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "speaker",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -194,12 +199,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "speaker",
+        "word": "abhishek",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "summit",
+        "word": "meeting",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -209,13 +224,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
+        "word": "talks",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "banerjee",
-        "count": 6,
+        "word": "summit",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -224,22 +239,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "row",
+        "word": "seafarers",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "killer",
+        "word": "peace",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "positive"
       },
       {
-        "word": "talks",
+        "word": "mps",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "afghanistan",
+        "word": "mandhana",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sena",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -249,22 +269,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "odi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "gandhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tmc",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -274,9 +279,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "flags",
+        "word": "probe",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "high",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrest",
+        "count": 4,
+        "sentiment": "negative"
       },
       {
         "word": "zelensky",
@@ -284,47 +299,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "attacked",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "ties",
+        "word": "highlights",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "man",
+        "word": "records",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "sena",
+        "word": "team",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "hormuz",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indian",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lok",
+        "word": "case",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-17T19:22:17.208245+00:00",
-    "nextRefresh": "2026-06-17T19:22:17.208245+00:00",
-    "articlesAnalyzed": 463,
-    "matchedMentions": 119,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-06-17T21:56:56.871043+00:00",
+    "nextRefresh": "2026-06-17T21:56:56.871043+00:00",
+    "articlesAnalyzed": 465,
+    "matchedMentions": 116,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }

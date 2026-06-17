@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-17T16:37:00.088647+00:00",
+  "generated_at": "2026-06-17T21:57:33.156540+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran's nuclear breakout window narrows to 1-2 weeks amid deal tensions",
-      "summary": "Global metrics confirm Iran's uranium enrichment now at 60% U-235 with estimated breakout time of 1-2 weeks. This represents critical threshold amid ongoing dispute over deal implementation\u2014White House conditionality statement and leaked MoU containing zero nuclear commitments from Iran create escalation risk (global_metrics, telegram sources).",
+      "title": "Iran's uranium enrichment remains at critical 60% U-235; breakout window 1-2 weeks",
+      "summary": "Global metrics confirm Iran continues enrichment at 60% U-235 with estimated 1-2 week breakout timeframe. US-Iran MoU text leaked by Middle East Spectator (~31K Telegram views) reveals zero nuclear commitments from Iran, undermining deal credibility and escalating risk of rapid weaponization if diplomatic collapse occurs (global_metrics, telegram).",
       "region": "Global",
       "source": "global_metrics, telegram",
       "confidence": "high"
@@ -15,48 +15,48 @@
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Israeli strikes continue in Lebanon despite Trump pressure; Iran renews retaliation threat",
-      "summary": "Israeli Air Force conducted fresh drone strikes in southern Lebanon killing at least 4 civilians (Reuters, 2026-06-17). Iran's military directly threatened 'harsh response' if attacks persist, explicitly linking escalation to potential derailment of US-Iran nuclear agreement. Trump publicly criticized Netanyahu but operations continue (incidents, telegram).",
+      "title": "Israeli strikes on Lebanon intensify despite Trump rebuke; Iran vows retaliation",
+      "summary": "Israeli Air Force conducted additional drone strikes in southern Lebanon killing at least 3 civilians per NBC News and Reuters (2026-06-17). Iran's senior lawmakers publicly declared 'strong response coming' after Beirut strike. Trump criticized Netanyahu as having 'no fucking judgment' but operations persist, escalating tit-for-tat cycle amid fragile MoU (incidents, telegram).",
       "region": "Northern Israel, Lebanon",
       "source": "incidents, telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "cyber",
-      "title": "Iran-linked actors claim FBI drone hack; threaten World Cup infrastructure",
-      "summary": "Iran-linked cyber group has claimed successful compromise of FBI drone systems and made threats against World Cup infrastructure, per France 24 and CBS News (global_metrics). Represents escalating cyber threat alongside conventional and proxy activity, indicating diversified Iranian response options amid deal implementation disputes.",
+      "category": "telegram_signal",
+      "title": "Pentagon confirms AI-assisted targeting system used against Iran in 'Epic Fury' operation",
+      "summary": "Rybar Telegram channel (~65K views, 2026-06-17) reports Pentagon officially acknowledged deployment of Grok Gov Model AI from Elon Musk's xAI in Maven Smart System operations against Iran, enabling ~2000 missile strikes on 2000 targets within 96 hours. Represents significant escalation in AI-driven warfare capability and scale of kinetic operations (telegram).",
       "region": "Global",
-      "source": "global_metrics",
+      "source": "telegram",
       "confidence": "medium"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Trump threatens to resume bombing campaign if Iran escalates beyond current violations",
-      "summary": "Trump issued warning via The Guardian (incidents feed, 2026-06-17) stating he will resume bombing if Iran 'acts up,' directly referencing Iran's nightly drone attacks on Strait of Hormuz shipping since MoU signing. Statement signals fragility of ceasefire arrangement and creates tit-for-tat escalation cycle amid nuclear negotiations.",
-      "region": "Strait of Hormuz, Global",
-      "source": "incidents, sentiment",
+      "title": "Iran begins oil exports from Strait of Hormuz after months, testing deal implementation",
+      "summary": "Radio Free Europe/Radio Liberty reports Iran's first oil shipments in months now departing Strait of Hormuz (2026-06-17 incidents feed), signaling partial economic confidence despite deal tensions. Follows Trump's public statement that he'll 'resume bombing if Iran acts up,' creating fragile equilibrium where both sides probe for compliance violations (incidents, global_metrics).",
+      "region": "Strait of Hormuz",
+      "source": "incidents, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "asset_movement",
-      "title": "Three US carrier strike groups maintain forward deployment across critical zones",
-      "summary": "USS Dwight D. Eisenhower (Red Sea), USS Abraham Lincoln (Arabian Sea), and USS Gerald R. Ford (Mediterranean) remain actively deployed in three adjacent theaters. Deployment posture maintains strike capability against Iran while supporting Israel and Gulf operations, underpinning Trump's credible bombing threat amid nuclear deal implementation crisis (assets feed).",
-      "region": "Red Sea, Arabian Sea, Mediterranean",
-      "source": "assets",
+      "title": "Three US carrier strike groups fully deployed across Red Sea, Arabian Sea, Mediterranean",
+      "summary": "Asset feeds confirm USS Dwight D. Eisenhower (Red Sea), USS Abraham Lincoln (Arabian Sea), and USS Gerald R. Ford (Mediterranean) operationally deployed and positioned to respond to Iran escalation. Alongside Red Sea destroyers (Carney, Mason, Laboon), amphibious assets (Bataan), and submarine (Florida in Persian Gulf), creates overwhelming forward presence matching threat level 9 (CRITICAL\u2014IMMINENT ESCALATION per global_metrics, 2026-06-17).",
+      "region": "Red Sea, Arabian Sea, Persian Gulf, Mediterranean",
+      "source": "assets, global_metrics",
       "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran nuclear deal framework deteriorating rapidly: Iranian uranium enrichment at 1-2 week breakout threshold, Israeli strikes threatening deal viability, cyber escalation underway, and Trump threatening resumed bombing\u2014creating multi-domain escalation risk with minimal diplomatic off-ramps.",
+  "analysis_note": "US-Iran MoU remains critically fragile: nuclear breakout window narrows to 1-2 weeks amid zero Iranian commitments; Israeli-Lebanese escalation continues despite Trump pressure; Pentagon AI-assisted targeting enables unprecedented strike scale; forward-deployed US carrier task forces and allied proxies (Houthis, Hezbollah) remain at elevated alert\u2014next 72 hours will determine whether deal survives or collapse triggers full-scale regional conflict.",
   "meta": {
-    "input_tokens": 17195,
+    "input_tokens": 24769,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 657,
-    "cost_usd": 0.0205,
-    "wall_time_s": 10.6,
-    "data_hash": "0f0999000061501e907fbe37c8be34d6b3594c6b8bc314fef4c1a45afc4bb703"
+    "output_tokens": 821,
+    "cost_usd": 0.0289,
+    "wall_time_s": 11.8,
+    "data_hash": "527e3302047d099644cb08bd7a430f646e7c20d4168cce144f10326a2f7c1920"
   }
 }
