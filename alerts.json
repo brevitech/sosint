@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-18T08:41:44.089341+00:00",
+  "generated_at": "2026-06-18T16:26:28.219856+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
+      "category": "nuclear",
+      "title": "Iran uranium enrichment reaches 60% U-235; breakout window narrows to 1-2 weeks",
+      "summary": "Iran's uranium enrichment has reached 60% U-235 purity with an estimated nuclear breakout time of 1\u20132 weeks, per global_metrics nuclear program status. Leaked text of the US-Iran MoU reveals dilution of enriched uranium will occur in-country rather than removal, raising proliferation concerns. Multiple headlines (Jerusalem Post, TRT World, RFE/RL) highlight ongoing disputes over uranium disposition as deal enters force.",
+      "region": "Iran",
+      "source": "global_metrics",
+      "confidence": "high"
+    },
+    {
+      "severity": "critical",
       "category": "incident",
-      "title": "Israel escalates strikes on Beirut amid US-Iran deal, Iran warns of derailment",
-      "summary": "Israeli forces launched multiple strikes on Beirut's southern suburbs despite Trump criticism, killing at least 3 civilians, per NBC News, Reuters, and Al Jazeera (2026-06-18 incidents feed). Iran formally warned that continued Israeli military action could derail the nascent US-Iran MoU. Trump publicly condemned the strikes as counterproductive, creating acute diplomatic tension between US commitment to the deal and Israel's operational independence in Lebanon theater.",
+      "title": "Israel continues Beirut strikes despite US-Iran deal; Iran warns of deal derailment",
+      "summary": "Israeli forces launched fresh strikes on southern Beirut despite Trump administration criticism, killing at least 3 civilians and injuring 3 more, per NBC News, Reuters, Al Jazeera, and BBC (2026-06-18 incidents feed). Iran formally warned that continued Israeli military action could derail the nascent US-Iran MoU. Trump publicly condemned the strikes as counterproductive, creating acute diplomatic tension between US commitment to the deal and Israel's operational autonomy in the Lebanon theater.",
       "region": "Northern Israel / Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
-      "severity": "critical",
-      "category": "cyber",
-      "title": "Iran-linked group claims FBI drone hack; Pentagon AI system deployed against Iran",
-      "summary": "Iran-linked threat actors claim successful compromise of FBI drone systems and threat World Cup targets, per France 24 and CBS News (2026-06-18 global_metrics cyber headlines). Separately, Rybar Telegram reports Pentagon officially acknowledged use of Elon Musk's Grok Gov AI model via Maven Smart System in operation against Iran, enabling 2000+ rocket strikes on 2000 separate targets in 96 hours (2026-06-17). Dual cyber and AI-enabled kinetic escalation marks unprecedented integration of commercial AI into active warfighting.",
-      "region": "Global",
-      "source": "global_metrics, telegram",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Houthis declare total ban on Israeli shipping; Red Sea escalation threatens global commerce",
-      "summary": "Yemen's Houthis announced comprehensive ban on all Israeli vessels transiting the Red Sea and resumed attacks on Israel, per The Long War Journal and Fox News (2026-06-18 incidents feed). Military expert warned of imminent 'general escalation' if Houthi campaign fully resumes. Five US Navy vessels currently deployed in Red Sea (USS Eisenhower, USS Bataan, USS Carney, USS Mason, USS Laboon) face heightened collision and engagement risk during proxy intensification.",
-      "region": "Red Sea",
-      "source": "incidents, assets",
-      "confidence": "high"
-    },
-    {
       "severity": "high",
       "category": "sentiment_shift",
-      "title": "US domestic sentiment turns negative on Iran deal; 'disaster' rhetoric dominates discourse",
-      "summary": "US sentiment analysis shows 46% negative vs 44% positive on Iran policy (2026-06-18), reflecting deterioration since prior cycle. Top keywords reveal sustained spike in 'war' (14 mentions), 'deal' (31 mentions), and negative framing alongside Trump (71 mentions) dominance. Absence of 'Versailles' spike from prior alert suggests refocused but grimly sustained skepticism of MoU framework, particularly amid simultaneous Israeli strikes and revealed US cyber-kinetic ops against Iran.",
+      "title": "US sentiment tilts negative on Iran deal as 'Obama comparison' rhetoric dominates",
+      "summary": "US sentiment analysis shows 57% positive vs. 33% negative, but trending terms reveal deepening political polarization: 'trump' (70 mentions), 'iran' (38), 'deal' (33), 'obama' (21), 'vance' (16) dominate discourse. Word frequency shift from prior cycle indicates Republican critics invoking JCPOA comparison and Trump-Vance skepticism gaining traction, signaling domestic political headwinds for deal durability.",
       "region": "Global",
       "source": "sentiment",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "nuclear",
-      "title": "US-Iran nuclear MoU leaves 60% enriched uranium in-country pending dilution agreement",
-      "summary": "Leaked text of US-Iran MoU reveals plan to dilute Iran's 60% U-235 enriched stockpile rather than remove it, per Jerusalem Post and Reuters (2026-06-18 global_metrics nuclear headlines). Breakout timeline remains ~1-2 weeks. Multiple expert analyses flag disposal mechanism uncertainty and Kazakhstan's potential pivotal role in uranium handling. Deal credibility hinges on verification of dilution execution while Iran maintains technical capability for rapid weaponization.",
-      "region": "Global",
-      "source": "global_metrics",
+      "category": "asset_movement",
+      "title": "US maintains three-carrier regional posture amid Iran deal; submarine deployed to Persian Gulf",
+      "summary": "US military assets remain heavily deployed in region: USS Dwight D. Eisenhower (Red Sea), USS Abraham Lincoln (Arabian Sea), USS Gerald R. Ford (Mediterranean), plus USS Bataan (amphibious, Red Sea), three destroyers (Carney, Mason, Laboon in Red Sea), and USS Florida submarine in Persian Gulf. Assets cluster confirms sustained deterrent posture despite MoU entry into force, per live-osint asset feed. High concentration in Red Sea and Persian Gulf indicates hedging against proxy escalation.",
+      "region": "Persian Gulf, Red Sea, Arabian Sea, Mediterranean",
+      "source": "assets",
       "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "diplomatic",
+      "title": "Iran claims control of Strait of Hormuz under new MoU; blocks US Navy transit without permission",
+      "summary": "Middle East Spectator Telegram post (2026-06-17, ~45K views) reports Iranian claims that under new MoU, US Navy warships and affiliated logistics vessels will relocate out of Persian Gulf to Gulf of Oman and Arabian Sea, with explicit Iranian permission required for Strait of Hormuz transits. US 5th Fleet presence contingent on Iranian approval; Israeli commercial shipping also now restricted. Creates potential flashpoint if enforced, contradicting freedom-of-navigation principles.",
+      "region": "Strait of Hormuz, Persian Gulf",
+      "source": "telegram",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "The US-Iran MoU faces acute stress from concurrent Israeli escalation in Lebanon, revealed Pentagon AI-enabled kinetic ops, Iranian cyber claims against US assets, Houthi shipping bans, and persistent domestic US skepticism\u2014creating multi-front pressure on deal durability and increasing collision risk across Red Sea, Persian Gulf, and Israel-Lebanon theaters.",
+  "analysis_note": "The US-Iran MoU has entered force amid acute friction: Israel's continued Beirut strikes threaten deal viability, Iran approaches nuclear breakout in 1-2 weeks, Tehran claims Hormuz control, and US domestic political opposition grows. Threat level remains critical (9/10) with elevated proxy activity (Hezbollah, Houthis, PMF) and three-carrier US presence suggesting mutual hedging rather than genuine de-escalation.",
   "meta": {
-    "input_tokens": 26191,
+    "input_tokens": 24839,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 883,
-    "cost_usd": 0.0306,
-    "wall_time_s": 13.6,
-    "data_hash": "f57b74d31c9965104dfeec37bb73426c395b55b08c782bbcda362b325b504aef"
+    "output_tokens": 914,
+    "cost_usd": 0.0294,
+    "wall_time_s": 12.9,
+    "data_hash": "6fdda86b4a98661e80c593b4fc94b524faa64fb729b28a9351b1c98dc6f1c834"
   }
 }
