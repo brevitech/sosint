@@ -1,47 +1,82 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 46,
-    "neutral": 10,
+    "positive": 43,
+    "negative": 48,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 71,
+        "count": 73,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 39,
+        "count": 45,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 31,
+        "count": 37,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 14,
+        "count": 17,
         "sentiment": "negative"
       },
       {
-        "word": "end",
+        "word": "signs",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "us-iran",
+        "word": "hegseth",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "obama",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "peace",
+        "word": "mou",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "end",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "peace",
+        "count": 8,
         "sentiment": "positive"
       },
       {
-        "word": "mou",
-        "count": 8,
+        "word": "europe",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nato",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "agreement",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "strikes",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "us-iran",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -50,27 +85,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "hormuz",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "obama",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lebanon",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ukraine",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hits",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "oil",
+        "word": "record",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "center",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "moscow",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "official",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -85,24 +130,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "israel",
+        "word": "presidential",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "strikes",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "signs",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "agreement",
-        "count": 5,
-        "sentiment": "positive"
       },
       {
         "word": "palace",
@@ -110,221 +140,191 @@
         "sentiment": "neutral"
       },
       {
-        "word": "netanyahu",
+        "word": "hormuz",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "strait",
+        "word": "soon",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "signed",
+        "word": "zelenskyy",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "happened",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chief",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vance",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "becomes",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "killer",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "against",
-        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-18T08:41:07.821780+00:00",
-    "nextRefresh": "2026-06-18T08:41:07.821780+00:00",
-    "articlesAnalyzed": 348,
-    "matchedMentions": 153,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-06-18T12:20:49.185816+00:00",
+    "nextRefresh": "2026-06-18T12:20:49.185816+00:00",
+    "articlesAnalyzed": 353,
+    "matchedMentions": 173,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 34,
-    "neutral": 20,
+    "positive": 41,
+    "negative": 46,
+    "neutral": 13,
     "wordCloud": [
       {
+        "word": "rebel",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
         "word": "mps",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sena",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "thackeray",
+        "word": "banerjee",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "ubt",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shiv",
+        "word": "modi",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bengal",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rebel",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "ritabrata",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "split",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "key",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "six",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "tmc",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "party",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "refuses",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "appointment",
-        "count": 5,
+        "word": "sanjay",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "lop",
-        "count": 5,
+        "word": "raut",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
-        "count": 5,
+        "word": "shah",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "key",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ambassador",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gor",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indian",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "film",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "gill",
-        "count": 5,
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "break",
-        "count": 4,
+        "word": "sena",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "uddhav",
-        "count": 4,
+        "word": "ritabrata",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "crisis",
-        "count": 4,
-        "sentiment": "negative"
+        "word": "lop",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slams",
+        "count": 3,
+        "sentiment": "neutral"
       },
       {
         "word": "mamata",
-        "count": 4,
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "freeze",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "meeting",
-        "count": 4,
+        "word": "amid",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "list",
-        "count": 4,
+        "word": "bhagwat",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "afghanistan",
-        "count": 4,
+        "word": "mann",
+        "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "setback",
-        "count": 4,
+        "word": "sena-congress",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "merger",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "plan",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "six",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "told",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lok",
+        "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-18T08:41:20.050889+00:00",
-    "nextRefresh": "2026-06-18T08:41:20.050889+00:00",
-    "articlesAnalyzed": 481,
-    "matchedMentions": 92,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-06-18T12:21:00.638631+00:00",
+    "nextRefresh": "2026-06-18T12:21:00.638631+00:00",
+    "articlesAnalyzed": 463,
+    "matchedMentions": 63,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
