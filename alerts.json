@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-18T16:26:28.219856+00:00",
+  "generated_at": "2026-06-18T22:03:24.666427+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran uranium enrichment reaches 60% U-235; breakout window narrows to 1-2 weeks",
-      "summary": "Iran's uranium enrichment has reached 60% U-235 purity with an estimated nuclear breakout time of 1\u20132 weeks, per global_metrics nuclear program status. Leaked text of the US-Iran MoU reveals dilution of enriched uranium will occur in-country rather than removal, raising proliferation concerns. Multiple headlines (Jerusalem Post, TRT World, RFE/RL) highlight ongoing disputes over uranium disposition as deal enters force.",
+      "title": "Iran uranium enrichment at 60% U-235; breakout window remains 1-2 weeks",
+      "summary": "Iran's uranium enrichment continues at 60% U-235 purity with estimated nuclear breakout time of 1\u20132 weeks per global_metrics. Multiple headlines including FDD analysis highlight ongoing disputes over in-country uranium dilution under the nascent US-Iran MoU, raising persistent proliferation concerns despite preliminary deal.",
       "region": "Iran",
       "source": "global_metrics",
       "confidence": "high"
     },
     {
-      "severity": "critical",
+      "severity": "high",
       "category": "incident",
-      "title": "Israel continues Beirut strikes despite US-Iran deal; Iran warns of deal derailment",
-      "summary": "Israeli forces launched fresh strikes on southern Beirut despite Trump administration criticism, killing at least 3 civilians and injuring 3 more, per NBC News, Reuters, Al Jazeera, and BBC (2026-06-18 incidents feed). Iran formally warned that continued Israeli military action could derail the nascent US-Iran MoU. Trump publicly condemned the strikes as counterproductive, creating acute diplomatic tension between US commitment to the deal and Israel's operational autonomy in the Lebanon theater.",
-      "region": "Northern Israel / Lebanon",
+      "title": "Israel strikes southern Lebanon killing 3 civilians; Iran warns of deal derailment",
+      "summary": "Israeli forces launched fresh airstrikes on southern Beirut despite Trump administration pressure, killing at least 3 civilians per NBC, Al Jazeera, and BBC (incidents feed, 2026-06-18). Iran formally warned that continued Israeli military action could violate the nascent US-Iran ceasefire agreement and derail the deal.",
+      "region": "Northern Israel/Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
+      "category": "telegram_signal",
+      "title": "Middle East Spectator reports Strait of Hormuz access now requires Iranian permission",
+      "summary": "ME Spectator Telegram post (~50K views, 2026-06-17) alleges US Navy warships will be excluded from Persian Gulf under new maritime management; US naval vessels and Israeli shipping now require explicit Iranian approval to transit Strait of Hormuz. Post indicates US 5th Fleet relocation to Gulf of Oman and Arabian Sea bases.",
+      "region": "Strait of Hormuz",
+      "source": "telegram",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
       "category": "sentiment_shift",
-      "title": "US sentiment tilts negative on Iran deal as 'Obama comparison' rhetoric dominates",
-      "summary": "US sentiment analysis shows 57% positive vs. 33% negative, but trending terms reveal deepening political polarization: 'trump' (70 mentions), 'iran' (38), 'deal' (33), 'obama' (21), 'vance' (16) dominate discourse. Word frequency shift from prior cycle indicates Republican critics invoking JCPOA comparison and Trump-Vance skepticism gaining traction, signaling domestic political headwinds for deal durability.",
+      "title": "US negative sentiment on Iran deal rises; 'war' rhetoric gains frequency",
+      "summary": "US sentiment analysis shows 54% positive vs. 38% negative, but trending terms reveal political fracturing: 'trump' (84 mentions, +20 from prior), 'war' (17 mentions, marked increase), 'vance' (16 mentions). Discourse shift reflects Republican skepticism and JCPOA comparison rhetoric gaining domestic traction, signaling political vulnerability of deal durability.",
       "region": "Global",
       "source": "sentiment",
       "confidence": "high"
     },
     {
-      "severity": "high",
-      "category": "asset_movement",
-      "title": "US maintains three-carrier regional posture amid Iran deal; submarine deployed to Persian Gulf",
-      "summary": "US military assets remain heavily deployed in region: USS Dwight D. Eisenhower (Red Sea), USS Abraham Lincoln (Arabian Sea), USS Gerald R. Ford (Mediterranean), plus USS Bataan (amphibious, Red Sea), three destroyers (Carney, Mason, Laboon in Red Sea), and USS Florida submarine in Persian Gulf. Assets cluster confirms sustained deterrent posture despite MoU entry into force, per live-osint asset feed. High concentration in Red Sea and Persian Gulf indicates hedging against proxy escalation.",
-      "region": "Persian Gulf, Red Sea, Arabian Sea, Mediterranean",
-      "source": "assets",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "diplomatic",
-      "title": "Iran claims control of Strait of Hormuz under new MoU; blocks US Navy transit without permission",
-      "summary": "Middle East Spectator Telegram post (2026-06-17, ~45K views) reports Iranian claims that under new MoU, US Navy warships and affiliated logistics vessels will relocate out of Persian Gulf to Gulf of Oman and Arabian Sea, with explicit Iranian permission required for Strait of Hormuz transits. US 5th Fleet presence contingent on Iranian approval; Israeli commercial shipping also now restricted. Creates potential flashpoint if enforced, contradicting freedom-of-navigation principles.",
-      "region": "Strait of Hormuz, Persian Gulf",
-      "source": "telegram",
+      "severity": "medium",
+      "category": "cyber",
+      "title": "Iran cyber threat persists despite preliminary deal; water system attack under investigation",
+      "summary": "US officials confirm Iran cyber campaign continuing post-MoU per Nextgov/FCW headline in global_metrics cyber news feed. Newsweek reports Iranian attack on US water supply infrastructure under active investigation, indicating persistent offensive cyber operations despite diplomatic progress.",
+      "region": "Global",
+      "source": "global_metrics",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "The US-Iran MoU has entered force amid acute friction: Israel's continued Beirut strikes threaten deal viability, Iran approaches nuclear breakout in 1-2 weeks, Tehran claims Hormuz control, and US domestic political opposition grows. Threat level remains critical (9/10) with elevated proxy activity (Hezbollah, Houthis, PMF) and three-carrier US presence suggesting mutual hedging rather than genuine de-escalation.",
+  "analysis_note": "US-Iran nuclear agreement faces dual pressure: Iran's 60% enrichment timeline remains existential (1\u20132 weeks breakout), Israeli operations in Lebanon threaten deal viability, domestic US political opposition intensifies, and Iran asserts new Strait of Hormuz control while maintaining offensive cyber operations\u2014creating a brittle equilibrium at threat level 9 (Critical/Imminent Escalation).",
   "meta": {
-    "input_tokens": 24839,
+    "input_tokens": 24904,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 914,
-    "cost_usd": 0.0294,
-    "wall_time_s": 12.9,
-    "data_hash": "6fdda86b4a98661e80c593b4fc94b524faa64fb729b28a9351b1c98dc6f1c834"
+    "output_tokens": 700,
+    "cost_usd": 0.0284,
+    "wall_time_s": 10.3,
+    "data_hash": "f7e9ccc689205cfd9c8e8b29eba2b6ee1d954aedcaa1593704bfb5318605ef57"
   }
 }
