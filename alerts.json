@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-17T21:57:33.156540+00:00",
+  "generated_at": "2026-06-18T03:27:34.558102+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "nuclear",
-      "title": "Iran's uranium enrichment remains at critical 60% U-235; breakout window 1-2 weeks",
-      "summary": "Global metrics confirm Iran continues enrichment at 60% U-235 with estimated 1-2 week breakout timeframe. US-Iran MoU text leaked by Middle East Spectator (~31K Telegram views) reveals zero nuclear commitments from Iran, undermining deal credibility and escalating risk of rapid weaponization if diplomatic collapse occurs (global_metrics, telegram).",
+      "category": "cyber",
+      "title": "Iran-linked actors breach US water utility; FBI drones hacked amid nuclear tensions",
+      "summary": "Iran-linked threat group claims successful compromise of California water utility and alleged breach of FBI drone systems, per Cybersecurity Dive and global_metrics cyber headlines (2026-06-18). Incident occurs amid escalating US-Iran nuclear standoff with 60% enrichment and ~1-2 week breakout window, suggesting potential dual targeting of critical infrastructure and military assets during fragile MoU negotiations.",
       "region": "Global",
-      "source": "global_metrics, telegram",
-      "confidence": "high"
+      "source": "incidents, global_metrics",
+      "confidence": "medium"
     },
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Israeli strikes on Lebanon intensify despite Trump rebuke; Iran vows retaliation",
-      "summary": "Israeli Air Force conducted additional drone strikes in southern Lebanon killing at least 3 civilians per NBC News and Reuters (2026-06-17). Iran's senior lawmakers publicly declared 'strong response coming' after Beirut strike. Trump criticized Netanyahu as having 'no fucking judgment' but operations persist, escalating tit-for-tat cycle amid fragile MoU (incidents, telegram).",
-      "region": "Northern Israel, Lebanon",
-      "source": "incidents, telegram",
+      "title": "Houthis announce total ban on Israeli vessels in Red Sea; escalation threatens shipping",
+      "summary": "Yemen's Houthis declared 'total ban' on Israeli ships in Red Sea and resumed attacks on Israel per The Long War Journal and Al Arabiya (2026-06-18 incidents feed). Expert warns of 'general escalation' if Houthi campaign fully resumes. USS Eisenhower, USS Bataan, and three destroyers (Carney, Mason, Laboon) currently deployed in Red Sea, increasing collision risk during proxy intensification.",
+      "region": "Red Sea",
+      "source": "incidents, assets",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "incident",
+      "title": "Trump defends Iran missile arsenal retention; critical signal on MoU enforcement",
+      "summary": "Trump publicly stated 'it's okay' for Iran to maintain some ballistic missiles post-deal and defended allowing Iran to keep arsenal, per The Hill, Times of Israel, and Jerusalem Post (2026-06-18). Signal contradicts previous hardline positioning and undermines deal credibility with Israel, who views unrestricted missile development as existential threat. Creates ambiguity on US enforcement mechanisms if Iran violates enrichment ceilings.",
+      "region": "Global",
+      "source": "incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "sentiment_shift",
+      "title": "US sentiment on Iran deal deteriorates amid 'Versailles' comparison spike",
+      "summary": "US sentiment analysis shows 49% positive vs 43% negative on Iran policy, but word-frequency data reveals sharp uptick in 'Versailles' references (15 mentions, new high), alongside 'disaster' and 'war' keywords spiking to 10+ mentions each. Versailles comparison signals perception of deeply flawed agreement, echoing 1919 treaty criticism. Sentiment polarity shifting negative despite surface positive percentage.",
+      "region": "Global",
+      "source": "sentiment",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "telegram_signal",
-      "title": "Pentagon confirms AI-assisted targeting system used against Iran in 'Epic Fury' operation",
-      "summary": "Rybar Telegram channel (~65K views, 2026-06-17) reports Pentagon officially acknowledged deployment of Grok Gov Model AI from Elon Musk's xAI in Maven Smart System operations against Iran, enabling ~2000 missile strikes on 2000 targets within 96 hours. Represents significant escalation in AI-driven warfare capability and scale of kinetic operations (telegram).",
+      "title": "Threat level escalates to 9/10 'CRITICAL\u2014IMMINENT ESCALATION'; proxy forces elevated",
+      "summary": "Global metrics threat assessment jumped to level 9 with label 'CRITICAL\u2014IMMINENT ESCALATION' (as of 2026-06-18T03:27:24Z). Hezbollah, Houthis, Iraqi Shiite Militias (PMF), and PIJ all rated 'Elevated' with active exchanges and base strikes detected. Brent crude at $78.34/bbl and Iranian rial at 1,374,850 free-market rate reflect economic stress. Three-carrier US naval posture (Eisenhower Red Sea, Lincoln Arabian Sea, Ford Mediterranean) suggests readiness posture for rapid escalation.",
       "region": "Global",
-      "source": "telegram",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Iran begins oil exports from Strait of Hormuz after months, testing deal implementation",
-      "summary": "Radio Free Europe/Radio Liberty reports Iran's first oil shipments in months now departing Strait of Hormuz (2026-06-17 incidents feed), signaling partial economic confidence despite deal tensions. Follows Trump's public statement that he'll 'resume bombing if Iran acts up,' creating fragile equilibrium where both sides probe for compliance violations (incidents, global_metrics).",
-      "region": "Strait of Hormuz",
-      "source": "incidents, global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "asset_movement",
-      "title": "Three US carrier strike groups fully deployed across Red Sea, Arabian Sea, Mediterranean",
-      "summary": "Asset feeds confirm USS Dwight D. Eisenhower (Red Sea), USS Abraham Lincoln (Arabian Sea), and USS Gerald R. Ford (Mediterranean) operationally deployed and positioned to respond to Iran escalation. Alongside Red Sea destroyers (Carney, Mason, Laboon), amphibious assets (Bataan), and submarine (Florida in Persian Gulf), creates overwhelming forward presence matching threat level 9 (CRITICAL\u2014IMMINENT ESCALATION per global_metrics, 2026-06-17).",
-      "region": "Red Sea, Arabian Sea, Persian Gulf, Mediterranean",
-      "source": "assets, global_metrics",
+      "source": "global_metrics, assets",
       "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran MoU remains critically fragile: nuclear breakout window narrows to 1-2 weeks amid zero Iranian commitments; Israeli-Lebanese escalation continues despite Trump pressure; Pentagon AI-assisted targeting enables unprecedented strike scale; forward-deployed US carrier task forces and allied proxies (Houthis, Hezbollah) remain at elevated alert\u2014next 72 hours will determine whether deal survives or collapse triggers full-scale regional conflict.",
+  "analysis_note": "US-Iran MoU framework is rapidly destabilizing under combined pressure of Israeli strikes on Lebanon, Houthi Red Sea escalation, Iranian cyber operations, and Trump's ambiguous enforcement signaling; nuclear breakout window of 1-2 weeks creates binary de-escalation-or-conflict fork point within days.",
   "meta": {
-    "input_tokens": 24769,
+    "input_tokens": 26341,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 821,
-    "cost_usd": 0.0289,
-    "wall_time_s": 11.8,
-    "data_hash": "527e3302047d099644cb08bd7a430f646e7c20d4168cce144f10326a2f7c1920"
+    "output_tokens": 860,
+    "cost_usd": 0.0306,
+    "wall_time_s": 13.4,
+    "data_hash": "45ea6b86bfc0aef8df52ceb1665f851022e03b9df9987caa78e4dd3205d7d5c6"
   }
 }
