@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-18T03:27:34.558102+00:00",
+  "generated_at": "2026-06-18T08:41:44.089341+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "cyber",
-      "title": "Iran-linked actors breach US water utility; FBI drones hacked amid nuclear tensions",
-      "summary": "Iran-linked threat group claims successful compromise of California water utility and alleged breach of FBI drone systems, per Cybersecurity Dive and global_metrics cyber headlines (2026-06-18). Incident occurs amid escalating US-Iran nuclear standoff with 60% enrichment and ~1-2 week breakout window, suggesting potential dual targeting of critical infrastructure and military assets during fragile MoU negotiations.",
-      "region": "Global",
-      "source": "incidents, global_metrics",
-      "confidence": "medium"
+      "category": "incident",
+      "title": "Israel escalates strikes on Beirut amid US-Iran deal, Iran warns of derailment",
+      "summary": "Israeli forces launched multiple strikes on Beirut's southern suburbs despite Trump criticism, killing at least 3 civilians, per NBC News, Reuters, and Al Jazeera (2026-06-18 incidents feed). Iran formally warned that continued Israeli military action could derail the nascent US-Iran MoU. Trump publicly condemned the strikes as counterproductive, creating acute diplomatic tension between US commitment to the deal and Israel's operational independence in Lebanon theater.",
+      "region": "Northern Israel / Lebanon",
+      "source": "incidents",
+      "confidence": "high"
     },
     {
       "severity": "critical",
+      "category": "cyber",
+      "title": "Iran-linked group claims FBI drone hack; Pentagon AI system deployed against Iran",
+      "summary": "Iran-linked threat actors claim successful compromise of FBI drone systems and threat World Cup targets, per France 24 and CBS News (2026-06-18 global_metrics cyber headlines). Separately, Rybar Telegram reports Pentagon officially acknowledged use of Elon Musk's Grok Gov AI model via Maven Smart System in operation against Iran, enabling 2000+ rocket strikes on 2000 separate targets in 96 hours (2026-06-17). Dual cyber and AI-enabled kinetic escalation marks unprecedented integration of commercial AI into active warfighting.",
+      "region": "Global",
+      "source": "global_metrics, telegram",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
       "category": "incident",
-      "title": "Houthis announce total ban on Israeli vessels in Red Sea; escalation threatens shipping",
-      "summary": "Yemen's Houthis declared 'total ban' on Israeli ships in Red Sea and resumed attacks on Israel per The Long War Journal and Al Arabiya (2026-06-18 incidents feed). Expert warns of 'general escalation' if Houthi campaign fully resumes. USS Eisenhower, USS Bataan, and three destroyers (Carney, Mason, Laboon) currently deployed in Red Sea, increasing collision risk during proxy intensification.",
+      "title": "Houthis declare total ban on Israeli shipping; Red Sea escalation threatens global commerce",
+      "summary": "Yemen's Houthis announced comprehensive ban on all Israeli vessels transiting the Red Sea and resumed attacks on Israel, per The Long War Journal and Fox News (2026-06-18 incidents feed). Military expert warned of imminent 'general escalation' if Houthi campaign fully resumes. Five US Navy vessels currently deployed in Red Sea (USS Eisenhower, USS Bataan, USS Carney, USS Mason, USS Laboon) face heightened collision and engagement risk during proxy intensification.",
       "region": "Red Sea",
       "source": "incidents, assets",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Trump defends Iran missile arsenal retention; critical signal on MoU enforcement",
-      "summary": "Trump publicly stated 'it's okay' for Iran to maintain some ballistic missiles post-deal and defended allowing Iran to keep arsenal, per The Hill, Times of Israel, and Jerusalem Post (2026-06-18). Signal contradicts previous hardline positioning and undermines deal credibility with Israel, who views unrestricted missile development as existential threat. Creates ambiguity on US enforcement mechanisms if Iran violates enrichment ceilings.",
-      "region": "Global",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
       "category": "sentiment_shift",
-      "title": "US sentiment on Iran deal deteriorates amid 'Versailles' comparison spike",
-      "summary": "US sentiment analysis shows 49% positive vs 43% negative on Iran policy, but word-frequency data reveals sharp uptick in 'Versailles' references (15 mentions, new high), alongside 'disaster' and 'war' keywords spiking to 10+ mentions each. Versailles comparison signals perception of deeply flawed agreement, echoing 1919 treaty criticism. Sentiment polarity shifting negative despite surface positive percentage.",
+      "title": "US domestic sentiment turns negative on Iran deal; 'disaster' rhetoric dominates discourse",
+      "summary": "US sentiment analysis shows 46% negative vs 44% positive on Iran policy (2026-06-18), reflecting deterioration since prior cycle. Top keywords reveal sustained spike in 'war' (14 mentions), 'deal' (31 mentions), and negative framing alongside Trump (71 mentions) dominance. Absence of 'Versailles' spike from prior alert suggests refocused but grimly sustained skepticism of MoU framework, particularly amid simultaneous Israeli strikes and revealed US cyber-kinetic ops against Iran.",
       "region": "Global",
       "source": "sentiment",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "Threat level escalates to 9/10 'CRITICAL\u2014IMMINENT ESCALATION'; proxy forces elevated",
-      "summary": "Global metrics threat assessment jumped to level 9 with label 'CRITICAL\u2014IMMINENT ESCALATION' (as of 2026-06-18T03:27:24Z). Hezbollah, Houthis, Iraqi Shiite Militias (PMF), and PIJ all rated 'Elevated' with active exchanges and base strikes detected. Brent crude at $78.34/bbl and Iranian rial at 1,374,850 free-market rate reflect economic stress. Three-carrier US naval posture (Eisenhower Red Sea, Lincoln Arabian Sea, Ford Mediterranean) suggests readiness posture for rapid escalation.",
+      "category": "nuclear",
+      "title": "US-Iran nuclear MoU leaves 60% enriched uranium in-country pending dilution agreement",
+      "summary": "Leaked text of US-Iran MoU reveals plan to dilute Iran's 60% U-235 enriched stockpile rather than remove it, per Jerusalem Post and Reuters (2026-06-18 global_metrics nuclear headlines). Breakout timeline remains ~1-2 weeks. Multiple expert analyses flag disposal mechanism uncertainty and Kazakhstan's potential pivotal role in uranium handling. Deal credibility hinges on verification of dilution execution while Iran maintains technical capability for rapid weaponization.",
       "region": "Global",
-      "source": "global_metrics, assets",
+      "source": "global_metrics",
       "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran MoU framework is rapidly destabilizing under combined pressure of Israeli strikes on Lebanon, Houthi Red Sea escalation, Iranian cyber operations, and Trump's ambiguous enforcement signaling; nuclear breakout window of 1-2 weeks creates binary de-escalation-or-conflict fork point within days.",
+  "analysis_note": "The US-Iran MoU faces acute stress from concurrent Israeli escalation in Lebanon, revealed Pentagon AI-enabled kinetic ops, Iranian cyber claims against US assets, Houthi shipping bans, and persistent domestic US skepticism\u2014creating multi-front pressure on deal durability and increasing collision risk across Red Sea, Persian Gulf, and Israel-Lebanon theaters.",
   "meta": {
-    "input_tokens": 26341,
+    "input_tokens": 26191,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 860,
+    "output_tokens": 883,
     "cost_usd": 0.0306,
-    "wall_time_s": 13.4,
-    "data_hash": "45ea6b86bfc0aef8df52ceb1665f851022e03b9df9987caa78e4dd3205d7d5c6"
+    "wall_time_s": 13.6,
+    "data_hash": "f57b74d31c9965104dfeec37bb73426c395b55b08c782bbcda362b325b504aef"
   }
 }
