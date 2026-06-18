@@ -1,47 +1,52 @@
 {
   "us": {
     "positive": 57,
-    "negative": 33,
-    "neutral": 10,
+    "negative": 36,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 70,
+        "count": 88,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 38,
+        "count": 48,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 33,
+        "count": 40,
         "sentiment": "neutral"
       },
       {
         "word": "obama",
-        "count": 21,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "vance",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "center",
-        "count": 15,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "presidential",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "center",
         "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "nato",
-        "count": 10,
+        "word": "ceremony",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "star-studded",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -50,27 +55,22 @@
         "sentiment": "negative"
       },
       {
-        "word": "peace",
-        "count": 10,
-        "sentiment": "positive"
-      },
-      {
-        "word": "agreement",
-        "count": 9,
-        "sentiment": "positive"
-      },
-      {
-        "word": "biden",
+        "word": "israel",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "europe",
+        "word": "mou",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "allies",
+        "word": "bid",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "federal",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -80,7 +80,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "prices",
+        "word": "officials",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -90,12 +90,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "poll",
+        "word": "security",
         "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "review",
+        "word": "chicago",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -105,14 +105,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bid",
-        "count": 7,
+        "word": "president",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "hegseth",
+        "word": "prices",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "agreement",
+        "count": 6,
+        "sentiment": "positive"
       },
       {
         "word": "apple",
@@ -125,19 +130,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mou",
+        "word": "peace",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "signed",
+        "word": "welcomes",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sides",
-        "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "lisa",
@@ -156,45 +156,40 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-18T16:25:47.837440+00:00",
-    "nextRefresh": "2026-06-18T16:25:47.837440+00:00",
+    "generatedAt": "2026-06-18T19:23:54.757479+00:00",
+    "nextRefresh": "2026-06-18T19:23:54.757479+00:00",
     "articlesAnalyzed": 353,
-    "matchedMentions": 181,
-    "uniquePersonalities": 49,
+    "matchedMentions": 199,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 43,
-    "negative": 43,
-    "neutral": 14,
+    "positive": 53,
+    "negative": 32,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 9,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
-        "count": 8,
+        "word": "sena",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "banerjee",
-        "count": 8,
+        "word": "paris",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "modi-trump",
+        "word": "hindi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "security",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "envoy",
+        "word": "key",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -204,67 +199,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rebel",
+        "word": "vivatech",
         "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "tmc",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sanjay",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "raut",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "holds",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "krishna",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kerala",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "issues",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lakh",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kishan",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "mps",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "macron",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "murder",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "minister",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -274,57 +249,82 @@
         "sentiment": "neutral"
       },
       {
-        "word": "massive",
+        "word": "chopra",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "throw",
-        "count": 4,
-        "sentiment": "neutral"
+        "word": "regrets",
+        "count": 3,
+        "sentiment": "negative"
       },
       {
-        "word": "indian",
+        "word": "bengal",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "sailor",
+        "word": "case",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "team",
+        "word": "chief",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "made",
+        "word": "sai",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "amit",
+        "word": "ubt",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "skip",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "reason",
+        "word": "crore",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lost",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "narcotics",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "discussed",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gor",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-18T16:26:00.882335+00:00",
-    "nextRefresh": "2026-06-18T16:26:00.882335+00:00",
+    "generatedAt": "2026-06-18T19:24:05.901457+00:00",
+    "nextRefresh": "2026-06-18T19:24:05.901457+00:00",
     "articlesAnalyzed": 464,
-    "matchedMentions": 82,
-    "uniquePersonalities": 39,
+    "matchedMentions": 81,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
