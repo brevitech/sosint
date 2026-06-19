@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-19T17:15:45.444813+00:00",
+  "generated_at": "2026-06-19T22:51:53.260280+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Israeli strikes kill 47 in southern Lebanon amid escalating Hezbollah exchanges",
-      "summary": "Al Jazeera reports at least 47 killed in intense Israeli strikes in southern Lebanon (2026-06-19, incidents feed). Escalation occurs concurrent with earlier confirmed deaths of 4 IDF soldiers in Hezbollah drone strike same day. Multiple ceasefire violations documented across incidents feed with Ben-Gvir calling for total destruction of Lebanon, signaling Israeli hardline rejection of restraint.",
+      "title": "Iran warns Trump: cease Lebanon war or face unannounced Israeli strike",
+      "summary": "Drop Site News reports Iran has issued direct warning to Trump administration: if US-Israeli operations against Lebanon continue, Iran may execute unannounced strike on Israel (incidents feed, 2026-06-19). Warning signals potential escalation beyond proxy exchanges to direct Iranian retaliation, raising imminent conflict risk.",
       "region": "Northern Israel/Lebanon",
       "source": "incidents",
       "confidence": "high"
@@ -15,48 +15,48 @@
     {
       "severity": "high",
       "category": "sentiment_shift",
-      "title": "US sentiment turns sharply negative; Trump Iran deal rhetoric dominates discourse",
-      "summary": "US sentiment now at 44% positive / 51% negative (9-point swing to negative since previous cycle). 'Trump' mentions spike to 83 (from 61), with criticism of missile arsenal concession appearing across CNN, Jerusalem Post, Guardian (sentiment feed). Domestic political instability around deal durability is intensifying, creating risk of unilateral withdrawal.",
+      "title": "US domestic political fracture deepens over Iran deal durability",
+      "summary": "US sentiment deteriorates to 44% positive / 48% negative. 'Trump' mentions spike to 87 (up from 83), with 'Meloni' (22), 'Obama' (19), and 'Vance' (9) appearing as criticism of missile arsenal concession spreads across CNN, Jerusalem Post, Guardian (sentiment feed). Domestic polarization now threatens unilateral deal withdrawal.",
       "region": "Global",
       "source": "sentiment",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "Massive Ukrainian strike damages Russian Chongar bridge; critical supply corridor threatened",
-      "summary": "DeepState UA post (~265K views, 2026-06-10) reports two confirmed strikes on Chongar automobile bridge linking Rostov to Crimea via new R-280 route. Bridge damage restricts Russian movement and cuts into logistics critical to southern operations. High engagement suggests operational significance; Rybar military blog confirms ongoing transport delays in region.",
-      "region": "Southern Ukraine/Crimea",
-      "source": "telegram",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
       "category": "nuclear",
-      "title": "Iran uranium enrichment at 60% U-235; breakout window remains 1-2 weeks",
-      "summary": "Global metrics confirm Iran maintaining 60% U-235 enrichment with estimated breakout time of 1-2 weeks. Leaked MoU text reveals deal permits enriched uranium to remain in-country for dilution rather than export, raising verification concerns. Multiple nuclear headlines (FDD, Boston Herald, Jerusalem Post, RFE/RL) highlight technical disposal challenges amid political fracture in Trump administration.",
+      "title": "Iran enrichment stable at 60% U-235; disposal bottleneck emerges",
+      "summary": "Global metrics confirm Iran maintaining 60% U-235 enrichment with 1-2 week breakout window. New development: leaked MoU text reveals agreement permits enriched uranium stockpile to remain in-country for dilution rather than export, creating verification and technical disposal challenges (FDD, Boston Herald, Jerusalem Post, RFE/RL). Disposal logistics now central vulnerability in deal implementation.",
       "region": "Global",
       "source": "global_metrics",
       "confidence": "high"
     },
     {
-      "severity": "medium",
+      "severity": "high",
       "category": "asset_movement",
-      "title": "Three US destroyers cluster in Red Sea as Houthis escalate attacks on shipping",
-      "summary": "USS Carney, Mason, and Laboon positioned in Red Sea (assets feed, 2026-06-19). Concurrent incidents feed reports Houthis announcing ban on Israeli vessels and renewed attacks on Israel and shipping. Asset concentration reflects elevated threat posture; Brent crude at $80.59 with threat level at 9/10 suggests continued maritime interdiction risk.",
-      "region": "Red Sea/Strait of Hormuz",
-      "source": "assets, incidents",
+      "title": "Three US destroyers maintain Red Sea posture amid Houthi escalation",
+      "summary": "Assets feed confirms USS Carney, USS Mason, and USS Laboon deployed in Red Sea (lat 15.3-15.7\u00b0N, lon 41.6-42.5\u00b0E) alongside USS Dwight D. Eisenhower carrier group. Positioning concurrent with incidents feed reporting Houthis attacking Israel and announcing ban on Israeli vessels in Red Sea, maintaining naval deterrent amid proxy maritime activity.",
+      "region": "Red Sea / Strait of Hormuz",
+      "source": "assets,incidents",
       "confidence": "high"
+    },
+    {
+      "severity": "medium",
+      "category": "telegram_signal",
+      "title": "Houthis escalate Red Sea operations; Israeli shipping restrictions declared",
+      "summary": "Incidents feed reports Houthis attack Israel and announce formal ban on Israeli vessels transiting Red Sea (2026-06-19, The Long War Journal). Move signals hardening of proxy maritime posture independent of ceasefire dynamics in Lebanon, potentially disrupting commercial traffic and signaling capability to interdict shipping in strategic waterway.",
+      "region": "Red Sea",
+      "source": "incidents",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "The US-Iran ceasefire framework is fracturing under Israeli escalation in Lebanon, domestic US political pressure on Trump's deal concessions, and Iranian nuclear brinkmanship at 1-2 week breakout window\u2014creating imminent risk of deal collapse and renewed major-power conflict.",
+  "analysis_note": "US-Iran nuclear deal faces simultaneous pressure from Iranian direct-strike warnings, domestic US political unraveling, technical verification bottlenecks, and proxy maritime escalation; Israel's continued Lebanon operations threaten deal's survival amid Trump administration fracture over deal terms.",
   "meta": {
-    "input_tokens": 26342,
+    "input_tokens": 26425,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 742,
-    "cost_usd": 0.0301,
-    "wall_time_s": 12.2,
-    "data_hash": "6876253e86e1013f249a83d03fdc83a12e5eb3a4e5336d9c782f13bd45dde641"
+    "output_tokens": 705,
+    "cost_usd": 0.03,
+    "wall_time_s": 11.0,
+    "data_hash": "c3de44f9e024337d9db766f7854f46c91ca399efebb4bd444ce74b1374b3914f"
   }
 }
