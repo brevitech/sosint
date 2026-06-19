@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-19T11:18:10.097517+00:00",
+  "generated_at": "2026-06-19T17:15:45.444813+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Four Israeli soldiers killed in Hezbollah drone strike; Iran threatens MoU withdrawal",
-      "summary": "IDF confirmed four soldiers killed in drone attack in southern Lebanon (2026-06-19, incidents feed). Concurrent reporting shows Iran formally warning that Israeli strikes on Beirut violate ceasefire framework and threaten US-Iran Memorandum of Understanding. Multiple sources (Telegram ME Spectator ~53K views, incidents) confirm escalation risk to nascent deal.",
+      "title": "Israeli strikes kill 47 in southern Lebanon amid escalating Hezbollah exchanges",
+      "summary": "Al Jazeera reports at least 47 killed in intense Israeli strikes in southern Lebanon (2026-06-19, incidents feed). Escalation occurs concurrent with earlier confirmed deaths of 4 IDF soldiers in Hezbollah drone strike same day. Multiple ceasefire violations documented across incidents feed with Ben-Gvir calling for total destruction of Lebanon, signaling Israeli hardline rejection of restraint.",
       "region": "Northern Israel/Lebanon",
-      "source": "incidents, telegram",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "nuclear",
-      "title": "Iran nuclear breakout window narrows to 1-2 weeks amid deal uncertainty",
-      "summary": "Global metrics confirm Iran at 60% U-235 enrichment with estimated breakout time of 1-2 weeks. Concurrent ceasefire violations in Lebanon and political fracture in Trump administration create risk that deal implementation stalls, leaving enriched material in-country per leaked MoU text (global_metrics, nuclear headlines).",
-      "region": "Global",
-      "source": "global_metrics",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "sentiment_shift",
-      "title": "US sentiment stabilizes but Vance-Trump Iran rhetoric dominates discourse",
-      "summary": "US sentiment at 50% positive / 44% negative (roughly balanced). Keyword 'vance' remains elevated at 27 mentions; 'trump' dominance continues at 61 mentions. Discourse reflects ongoing US domestic political vulnerability around Iran deal durability, with criticism of Trump's missile arsenal concession language appearing across outlets (CNN, Jerusalem Post, Guardian, sentiment feed).",
+      "title": "US sentiment turns sharply negative; Trump Iran deal rhetoric dominates discourse",
+      "summary": "US sentiment now at 44% positive / 51% negative (9-point swing to negative since previous cycle). 'Trump' mentions spike to 83 (from 61), with criticism of missile arsenal concession appearing across CNN, Jerusalem Post, Guardian (sentiment feed). Domestic political instability around deal durability is intensifying, creating risk of unilateral withdrawal.",
       "region": "Global",
       "source": "sentiment",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "asset_movement",
-      "title": "US submarine USS Florida deployed to Persian Gulf amid critical threat level",
-      "summary": "USS Florida (attack submarine) confirmed positioned in Persian Gulf (global_metrics, assets feed). Deployment occurs as threat level remains at 9/10 ('CRITICAL\u2014IMMINENT ESCALATION') with all proxies elevated and Iranian rial at 1,374,850 (continued depreciation). Asset posture consistent with high-readiness posture against proxy escalation and potential Iranian action.",
-      "region": "Persian Gulf",
-      "source": "assets, global_metrics",
+      "category": "telegram_signal",
+      "title": "Massive Ukrainian strike damages Russian Chongar bridge; critical supply corridor threatened",
+      "summary": "DeepState UA post (~265K views, 2026-06-10) reports two confirmed strikes on Chongar automobile bridge linking Rostov to Crimea via new R-280 route. Bridge damage restricts Russian movement and cuts into logistics critical to southern operations. High engagement suggests operational significance; Rybar military blog confirms ongoing transport delays in region.",
+      "region": "Southern Ukraine/Crimea",
+      "source": "telegram",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "nuclear",
+      "title": "Iran uranium enrichment at 60% U-235; breakout window remains 1-2 weeks",
+      "summary": "Global metrics confirm Iran maintaining 60% U-235 enrichment with estimated breakout time of 1-2 weeks. Leaked MoU text reveals deal permits enriched uranium to remain in-country for dilution rather than export, raising verification concerns. Multiple nuclear headlines (FDD, Boston Herald, Jerusalem Post, RFE/RL) highlight technical disposal challenges amid political fracture in Trump administration.",
+      "region": "Global",
+      "source": "global_metrics",
       "confidence": "high"
     },
     {
       "severity": "medium",
-      "category": "diplomatic",
-      "title": "Iran warns immediate ceasefire required in Lebanon or will exit US-Iran framework",
-      "summary": "ME Spectator Telegram (52.6K views, 2026-06-19 02:43 UTC) reports Iran stating that if Israel does not implement immediate ceasefire and halt advances in Lebanon across all sectors, Tehran will withdraw from Memorandum of Understanding. Warning represents direct conditionality linking regional proxy activity to nuclear diplomacy framework viability.",
-      "region": "Northern Israel/Lebanon",
-      "source": "telegram",
+      "category": "asset_movement",
+      "title": "Three US destroyers cluster in Red Sea as Houthis escalate attacks on shipping",
+      "summary": "USS Carney, Mason, and Laboon positioned in Red Sea (assets feed, 2026-06-19). Concurrent incidents feed reports Houthis announcing ban on Israeli vessels and renewed attacks on Israel and shipping. Asset concentration reflects elevated threat posture; Brent crude at $80.59 with threat level at 9/10 suggests continued maritime interdiction risk.",
+      "region": "Red Sea/Strait of Hormuz",
+      "source": "assets, incidents",
       "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran nuclear diplomacy faces critical junction: Israeli ceasefire violations in Lebanon threaten deal implementation, Iran's 1-2 week breakout window narrows, domestic US political fracture persists, and all proxies remain in active escalation posture amid threat level 9/10.",
+  "analysis_note": "The US-Iran ceasefire framework is fracturing under Israeli escalation in Lebanon, domestic US political pressure on Trump's deal concessions, and Iranian nuclear brinkmanship at 1-2 week breakout window\u2014creating imminent risk of deal collapse and renewed major-power conflict.",
   "meta": {
-    "input_tokens": 23795,
+    "input_tokens": 26342,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 706,
-    "cost_usd": 0.0273,
-    "wall_time_s": 10.8,
-    "data_hash": "81276b8aaabfb2242aa48af3221471d082781980c898d9a9dc41ab6f61609ec7"
+    "output_tokens": 742,
+    "cost_usd": 0.0301,
+    "wall_time_s": 12.2,
+    "data_hash": "6876253e86e1013f249a83d03fdc83a12e5eb3a4e5336d9c782f13bd45dde641"
   }
 }
