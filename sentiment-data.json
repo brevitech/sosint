@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 51,
+    "positive": 43,
+    "negative": 52,
     "neutral": 5,
     "wordCloud": [
       {
@@ -16,12 +16,17 @@
       },
       {
         "word": "deal",
-        "count": 31,
+        "count": 29,
         "sentiment": "neutral"
       },
       {
         "word": "meloni",
-        "count": 18,
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "italy",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -30,9 +35,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "italy",
-        "count": 14,
-        "sentiment": "neutral"
+        "word": "war",
+        "count": 13,
+        "sentiment": "negative"
       },
       {
         "word": "vance",
@@ -50,18 +55,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 11,
-        "sentiment": "negative"
-      },
-      {
         "word": "begged",
         "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "talks",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -80,12 +80,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "house",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "bill",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "starmer",
+        "word": "become",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -100,7 +105,7 @@
         "sentiment": "positive"
       },
       {
-        "word": "house",
+        "word": "white",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -130,6 +135,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "hegseth",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "presidential",
         "count": 6,
         "sentiment": "neutral"
@@ -140,71 +150,86 @@
         "sentiment": "neutral"
       },
       {
-        "word": "official",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "acting",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "director",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-19T17:15:07.508144+00:00",
-    "nextRefresh": "2026-06-19T17:15:07.508144+00:00",
-    "articlesAnalyzed": 355,
-    "matchedMentions": 189,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-06-19T19:43:06.274007+00:00",
+    "nextRefresh": "2026-06-19T19:43:06.274007+00:00",
+    "articlesAnalyzed": 357,
+    "matchedMentions": 195,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 53,
-    "negative": 29,
-    "neutral": 18,
+    "positive": 62,
+    "negative": 21,
+    "neutral": 17,
     "wordCloud": [
       {
-        "word": "rahul",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 11,
+        "word": "chopra",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "abhishek",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "doha",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "league",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sena",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "speaker",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "tmc",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sena",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "neeraj",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "diamond",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "mps",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "highlights",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "speaker",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -214,57 +239,37 @@
         "sentiment": "positive"
       },
       {
-        "word": "birthday",
+        "word": "rahul",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "bjp",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "chopra",
+        "word": "pathirage",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "team",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "banerjee",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "thackeray",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "meeting",
+        "word": "return",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "chennai",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "odi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jaiswal",
+        "word": "plans",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -274,57 +279,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mann",
+        "word": "modi",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "video",
+        "word": "tamil",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "opinion",
+        "word": "nadu",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "shiv",
+        "word": "minister",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "rebellion",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "disqualification",
+        "word": "eknath",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "gives",
+        "word": "shinde-uddhav",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "probe",
+        "word": "duel",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "doha",
+        "word": "features",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-19T17:15:22.749181+00:00",
-    "nextRefresh": "2026-06-19T17:15:22.749181+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 101,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-06-19T19:43:16.489048+00:00",
+    "nextRefresh": "2026-06-19T19:43:16.489048+00:00",
+    "articlesAnalyzed": 465,
+    "matchedMentions": 97,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
