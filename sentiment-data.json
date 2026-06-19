@@ -1,22 +1,27 @@
 {
   "us": {
-    "positive": 54,
-    "negative": 38,
-    "neutral": 8,
+    "positive": 51,
+    "negative": 42,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 84,
+        "count": 77,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 54,
+        "count": 53,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 36,
+        "count": 35,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
+        "count": 21,
         "sentiment": "neutral"
       },
       {
@@ -26,46 +31,41 @@
       },
       {
         "word": "war",
-        "count": 17,
+        "count": 16,
         "sentiment": "negative"
       },
       {
-        "word": "vance",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "presidential",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "center",
+        "word": "star-studded",
         "count": 12,
         "sentiment": "neutral"
       },
       {
+        "word": "israel",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "presidential",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "center",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chicago",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "agreement",
-        "count": 9,
+        "count": 8,
         "sentiment": "positive"
       },
       {
-        "word": "israel",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "federal",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gop",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "end",
+        "word": "blockade",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -75,12 +75,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "star-studded",
+        "word": "critics",
         "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "gop",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "signs",
+        "word": "opening",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ally",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -95,19 +105,29 @@
         "sentiment": "neutral"
       },
       {
-        "word": "president",
+        "word": "federal",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "end",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "blockade",
+        "word": "lifts",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "officials",
+        "word": "strikes",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "welcomes",
@@ -115,33 +135,13 @@
         "sentiment": "positive"
       },
       {
-        "word": "chicago",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bid",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
+        "word": "white",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "department",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lifts",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -156,35 +156,35 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-18T22:02:28.042238+00:00",
-    "nextRefresh": "2026-06-18T22:02:28.042238+00:00",
-    "articlesAnalyzed": 350,
-    "matchedMentions": 190,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-06-19T00:22:36.150335+00:00",
+    "nextRefresh": "2026-06-19T00:22:36.150335+00:00",
+    "articlesAnalyzed": 355,
+    "matchedMentions": 184,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 55,
+    "positive": 58,
     "negative": 24,
-    "neutral": 21,
+    "neutral": 18,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 23,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "paris",
-        "count": 6,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
         "word": "banerjee",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sena",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -194,12 +194,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sena",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
+        "word": "mps",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -214,17 +209,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vivatech",
+        "word": "paris",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "france",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -254,12 +254,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meets",
+        "word": "ubt",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -269,9 +264,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "lost",
+        "word": "seek",
         "count": 3,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "assembly",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mamata",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sabha",
+        "count": 3,
+        "sentiment": "neutral"
       },
       {
         "word": "farewell",
@@ -307,24 +317,14 @@
         "word": "internet",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "release",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tomorrow",
-        "count": 2,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-18T22:02:41.022214+00:00",
-    "nextRefresh": "2026-06-18T22:02:41.022214+00:00",
-    "articlesAnalyzed": 465,
-    "matchedMentions": 78,
-    "uniquePersonalities": 34,
+    "generatedAt": "2026-06-19T00:22:46.459697+00:00",
+    "nextRefresh": "2026-06-19T00:22:46.459697+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 74,
+    "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
 }
