@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-19T06:13:24.383067+00:00",
+  "generated_at": "2026-06-19T11:18:10.097517+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran delegation withdraws from Switzerland talks; Netanyahu-Vance rift deepens",
-      "summary": "Iranian delegation cancelled scheduled travel to Switzerland citing continued Israeli ceasefire violations in Lebanon, per ME Spectator Telegram (~43K views, 2026-06-18). Concurrent reporting shows VP Vance publicly dismissing Netanyahu's judgment while Trump defends Iran's missile arsenal retention, exposing US-Israel strategic fracture and threatening deal implementation.",
-      "region": "Global",
-      "source": "telegram, incidents",
+      "title": "Four Israeli soldiers killed in Hezbollah drone strike; Iran threatens MoU withdrawal",
+      "summary": "IDF confirmed four soldiers killed in drone attack in southern Lebanon (2026-06-19, incidents feed). Concurrent reporting shows Iran formally warning that Israeli strikes on Beirut violate ceasefire framework and threaten US-Iran Memorandum of Understanding. Multiple sources (Telegram ME Spectator ~53K views, incidents) confirm escalation risk to nascent deal.",
+      "region": "Northern Israel/Lebanon",
+      "source": "incidents, telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Israeli reservist killed in southern Lebanon explosion amid ongoing ceasefire violations",
-      "summary": "IDF confirmed one Israeli reservist killed in explosion in southern Lebanon (2026-06-19 per incidents feed). Multiple strike reports across Beirut suburbs and southern Lebanon continue despite Trump administration pressure and nascent US-Iran ceasefire framework, with Iran formally warning violations could derail agreement.",
-      "region": "Northern Israel/Lebanon",
-      "source": "incidents",
+      "category": "nuclear",
+      "title": "Iran nuclear breakout window narrows to 1-2 weeks amid deal uncertainty",
+      "summary": "Global metrics confirm Iran at 60% U-235 enrichment with estimated breakout time of 1-2 weeks. Concurrent ceasefire violations in Lebanon and political fracture in Trump administration create risk that deal implementation stalls, leaving enriched material in-country per leaked MoU text (global_metrics, nuclear headlines).",
+      "region": "Global",
+      "source": "global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "sentiment_shift",
-      "title": "US domestic political fracture over Iran deal widens; war rhetoric accelerates",
-      "summary": "US sentiment analysis shows 46% positive vs 44% negative (near parity, down 8 points positive from prior cycle). Trending keyword 'vance' surged to 25 mentions (+56%), 'trump' remains high at 73 mentions. Discourse reflects Republican skepticism and JCPOA comparison language, signaling deepening political vulnerability of Trump administration's Iran deal durability.",
+      "title": "US sentiment stabilizes but Vance-Trump Iran rhetoric dominates discourse",
+      "summary": "US sentiment at 50% positive / 44% negative (roughly balanced). Keyword 'vance' remains elevated at 27 mentions; 'trump' dominance continues at 61 mentions. Discourse reflects ongoing US domestic political vulnerability around Iran deal durability, with criticism of Trump's missile arsenal concession language appearing across outlets (CNN, Jerusalem Post, Guardian, sentiment feed).",
       "region": "Global",
       "source": "sentiment",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "nuclear",
-      "title": "Threat level escalates to 9 (Critical\u2014Imminent Escalation) amid proxy elevations",
-      "summary": "Global threat level jumped to critical 9/10 with label 'CRITICAL\u2014IMMINENT ESCALATION' per global_metrics (2026-06-19). All monitored proxies elevated: Hezbollah and Houthis in active offensive posture, Iraqi Shiite militias conducting base strikes, Hamas degraded but PIJ active. Brent crude stable at $80.23 but Iranian rial free-market rate at 1,374,850 (significant depreciation pressure).",
-      "region": "Global",
-      "source": "global_metrics",
+      "category": "asset_movement",
+      "title": "US submarine USS Florida deployed to Persian Gulf amid critical threat level",
+      "summary": "USS Florida (attack submarine) confirmed positioned in Persian Gulf (global_metrics, assets feed). Deployment occurs as threat level remains at 9/10 ('CRITICAL\u2014IMMINENT ESCALATION') with all proxies elevated and Iranian rial at 1,374,850 (continued depreciation). Asset posture consistent with high-readiness posture against proxy escalation and potential Iranian action.",
+      "region": "Persian Gulf",
+      "source": "assets, global_metrics",
       "confidence": "high"
     },
     {
-      "severity": "high",
-      "category": "cyber",
-      "title": "Iran-linked group claims FBI drone hack; World Cup, infrastructure threats escalate",
-      "summary": "Iran-linked cyber group publicly claimed successful compromise of FBI drone systems and threatened disruption of World Cup event, per France 24 cyber headline in global_metrics. Concurrent CSIS and Resecurity reporting confirms Iranian cyber threat convergence with kinetic, electronic, and psychological warfare. Represents escalation beyond traditional espionage into infrastructure targeting.",
-      "region": "Global",
-      "source": "global_metrics",
-      "confidence": "medium"
+      "severity": "medium",
+      "category": "diplomatic",
+      "title": "Iran warns immediate ceasefire required in Lebanon or will exit US-Iran framework",
+      "summary": "ME Spectator Telegram (52.6K views, 2026-06-19 02:43 UTC) reports Iran stating that if Israel does not implement immediate ceasefire and halt advances in Lebanon across all sectors, Tehran will withdraw from Memorandum of Understanding. Warning represents direct conditionality linking regional proxy activity to nuclear diplomacy framework viability.",
+      "region": "Northern Israel/Lebanon",
+      "source": "telegram",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "The US-Iran ceasefire framework faces critical juncture: Iranian delegation withdrawal over Lebanese escalation, widening Trump-Netanyahu rift, domestic US political fracturing, and proxy force elevations across Levant and Persian Gulf signal imminent risk of framework collapse and resumption of direct hostilities.",
+  "analysis_note": "US-Iran nuclear diplomacy faces critical junction: Israeli ceasefire violations in Lebanon threaten deal implementation, Iran's 1-2 week breakout window narrows, domestic US political fracture persists, and all proxies remain in active escalation posture amid threat level 9/10.",
   "meta": {
-    "input_tokens": 25636,
+    "input_tokens": 23795,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 781,
-    "cost_usd": 0.0295,
-    "wall_time_s": 12.1,
-    "data_hash": "7f1c59ae89174c87f3e2ab0691a2594b478ab1a16c33cecab992c64a15a36164"
+    "output_tokens": 706,
+    "cost_usd": 0.0273,
+    "wall_time_s": 10.8,
+    "data_hash": "81276b8aaabfb2242aa48af3221471d082781980c898d9a9dc41ab6f61609ec7"
   }
 }
