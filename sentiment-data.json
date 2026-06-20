@@ -1,32 +1,37 @@
 {
   "us": {
     "positive": 41,
-    "negative": 48,
-    "neutral": 11,
+    "negative": 51,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 89,
+        "count": 91,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 29,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 21,
+        "count": 32,
         "sentiment": "neutral"
       },
       {
         "word": "meloni",
-        "count": 16,
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "italy",
-        "count": 12,
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -35,8 +40,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
-        "count": 10,
+        "word": "zelenskyy",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -51,6 +56,11 @@
       },
       {
         "word": "force",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -70,9 +80,14 @@
         "sentiment": "positive"
       },
       {
-        "word": "zelenskyy",
-        "count": 7,
+        "word": "next",
+        "count": 8,
         "sentiment": "neutral"
+      },
+      {
+        "word": "block",
+        "count": 7,
+        "sentiment": "negative"
       },
       {
         "word": "made",
@@ -90,11 +105,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "order",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "bid",
         "count": 7,
         "sentiment": "neutral"
@@ -105,22 +115,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "case",
-        "count": 6,
+        "word": "amid",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "block",
+        "word": "polish",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "unveils",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -148,39 +153,24 @@
         "word": "bean",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "crack",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-20T15:43:30.740704+00:00",
-    "nextRefresh": "2026-06-20T15:43:30.740704+00:00",
-    "articlesAnalyzed": 362,
-    "matchedMentions": 184,
-    "uniquePersonalities": 53,
+    "generatedAt": "2026-06-20T17:21:38.695952+00:00",
+    "nextRefresh": "2026-06-20T17:21:38.695952+00:00",
+    "articlesAnalyzed": 363,
+    "matchedMentions": 196,
+    "uniquePersonalities": 56,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
-    "negative": 30,
-    "neutral": 19,
+    "positive": 54,
+    "negative": 29,
+    "neutral": 17,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sena",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 14,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
@@ -189,13 +179,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shiv",
-        "count": 9,
+        "word": "india",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "odi",
-        "count": 9,
+        "word": "sena",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -209,14 +199,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "afghanistan",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "eknath",
+        "word": "protest",
         "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "bjp",
@@ -224,8 +209,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "thackeray",
+        "word": "shiv",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bengal",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -244,6 +234,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "eknath",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "stature",
         "count": 6,
         "sentiment": "neutral"
@@ -254,32 +249,37 @@
         "sentiment": "positive"
       },
       {
-        "word": "protest",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "shah",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "tharoor",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sharma",
+        "word": "thackeray",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "jaiswal",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "prasidh",
+        "word": "afghanistan",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -294,37 +294,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "security",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "leader",
+        "word": "cjp",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "murmu",
+        "word": "jantar",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "home",
+        "word": "mantar",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "history",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-20T15:43:43.526100+00:00",
-    "nextRefresh": "2026-06-20T15:43:43.526100+00:00",
-    "articlesAnalyzed": 477,
-    "matchedMentions": 105,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-06-20T17:21:50.134563+00:00",
+    "nextRefresh": "2026-06-20T17:21:50.134563+00:00",
+    "articlesAnalyzed": 476,
+    "matchedMentions": 108,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   }
 }

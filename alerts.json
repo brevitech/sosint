@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-20T11:13:41.550670+00:00",
+  "generated_at": "2026-06-20T17:22:17.336397+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Lebanon death toll climbs to 47; Israeli strikes continue despite renewed ceasefire",
-      "summary": "BBC, Reuters, and NBC News report Israeli airstrikes persisting in southern Lebanon (33.7\u201334.1\u00b0N, 35.5\u201335.98\u00b0E) despite announced ceasefire, with Lebanese officials confirming 47+ killed. Concurrent incidents feed reports indicate fighting persists and US-Iran peace deal faces threat, marking escalation despite diplomatic efforts.",
-      "region": "Northern Israel/Lebanon",
+      "title": "Iran closes Strait of Hormuz, threatens missile strikes on Israel over Lebanon ceasefire violations",
+      "summary": "Multiple outlets (NBC News, NPR, PBS, Ynetnews) report Iran has closed the Strait of Hormuz in response to ongoing Israeli strikes killing 32+ in Lebanon despite ceasefire agreement. Iran threatens imminent missile fire on Israel and halts US-Iran nuclear talks scheduled for Sunday in Switzerland. Escalation directly threatens global oil markets and diplomatic resolution.",
+      "region": "Strait of Hormuz / Global",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran uranium enrichment reaches 60% U-235; breakout window narrows to 1\u20132 weeks",
-      "summary": "Global metrics confirm Iran has enriched uranium to 60% U-235 with estimated nuclear breakout time of 1\u20132 weeks, per UN atomic energy agency. Multiple nuclear headlines cite technical work now underway on dilution and stockpile disposal, signaling imminent risk to deal implementation absent immediate verification measures.",
+      "title": "Iran uranium enrichment at 60% U-235; breakout window 1-2 weeks amid failed diplomacy",
+      "summary": "Global metrics confirm Iran has enriched uranium to 60% U-235 with nuclear breakout timeframe narrowed to approximately 1-2 weeks. UN atomic energy agency reports technical work underway on dilution and stockpile disposal. Collapsed US-Iran talks due to Lebanon fighting create imminent risk to deal implementation and verification protocols.",
       "region": "Global",
       "source": "global_metrics",
       "confidence": "high"
@@ -24,39 +24,39 @@
     {
       "severity": "high",
       "category": "incident",
-      "title": "US intelligence assesses Israel likely to systematically undermine Iran nuclear deal",
-      "summary": "Washington Post reports US intelligence assessment that Israel will deliberately sabotage Iran peace deal implementation (incidents feed). Coincides with ongoing Lebanon ceasefire violations and state department concerns, suggesting coordinated Israeli strategy to collapse diplomatic framework and restart military operations.",
-      "region": "Global",
+      "title": "Israeli strikes kill 32+ in Lebanon; ceasefire collapses amid escalating Hezbollah-IDF combat",
+      "summary": "Al Jazeera, Reuters, and BBC report Israeli airstrikes killing at least 32 civilians in southern Lebanon (33.86\u00b0N, 35.91\u00b0E) and Beirut suburbs (34.1\u00b0N, 35.23\u00b0E) hours after ceasefire announcement. MSF describes conditions in Nabatieh as 'death trap.' Lebanon confirms 47+ total killed; concurrent Hezbollah-IDF exchanges intensify despite diplomatic framework.",
+      "region": "Northern Israel/Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "Hezbollah mounts HEAT warheads on FPV drones; kills IDF battalion commander",
-      "summary": "Middle East Spectator reports Hezbollah has begun equipping FPV drones with MILAN anti-tank guided missile HEAT warheads. Post cites recent destruction of IDF Lt. Col. Ben Simhon's tank (401st Armored Brigade, 52nd Battalion) in Kfar Tebnit, marking tactical escalation in drone-based anti-armor capability (~37K\u201338K views).",
-      "region": "Northern Israel/Lebanon",
-      "source": "telegram",
+      "category": "asset_movement",
+      "title": "US deploys three carriers and amphibious forces to Red Sea and Arabian Sea amid Iran escalation",
+      "summary": "Assets feed confirms USS Dwight D. Eisenhower (Red Sea, 15.69\u00b0N, 42.49\u00b0E), USS Abraham Lincoln (Arabian Sea, 20.89\u00b0N, 59.71\u00b0E), USS Bataan amphibious, and multiple destroyers (Carney, Mason, Laboon) positioned in Red Sea. USS Gerald R. Ford in Mediterranean (34.21\u00b0N, 30.28\u00b0E). Deployment surge coincides with Iran's Strait closure threat and nuclear breakout window.",
+      "region": "Red Sea / Arabian Sea / Persian Gulf",
+      "source": "assets",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "sentiment_shift",
-      "title": "US negative sentiment surges to 53%; Trump-Iran tensions dominate discourse",
-      "summary": "US sentiment analysis shows negative sentiment climbing to 53% (from 49% prior cycle), with 'Trump' spiking to 80 mentions and 'Iran' (37), 'deal' (24), and 'war' (11) indicating deepening domestic polarization. Keywords 'judge,' 'Biden,' 'Meloni,' and 'transcripts' reflect fractious political environment threatening policy coherence amid Middle East crisis.",
+      "title": "US negative sentiment surges to 51% amid Iran conflict escalation and Trump administration messaging",
+      "summary": "Sentiment analysis shows US negative sentiment at 51% (vs. 41% positive), with 'Trump' (91 mentions), 'Iran' (32), 'deal' (20), and 'war' (9) dominating word cloud. Trend reflects public anxiety over failed nuclear diplomacy, Lebanon casualty reports, and Strait closure threat. Shift indicates potential domestic political pressure on administration's Middle East strategy.",
       "region": "Global",
       "source": "sentiment",
-      "confidence": "high"
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "Theater remains at CRITICAL threat level (9/10) amid ceasefire collapse in Lebanon, imminent Iranian nuclear breakout (1\u20132 weeks), Israeli sabotage of peace deal, and escalating proxy weaponry\u2014compound factors that heighten risk of rapid escalation absent immediate diplomatic intervention.",
+  "analysis_note": "Iran's closure of the Strait of Hormuz and threat of imminent missile strikes, combined with collapse of US-Iran nuclear talks and uranium enrichment at 60% U-235 (1-2 week breakout window), signal critical escalation moment; Israeli ceasefire violations in Lebanon have triggered cascading diplomatic and military breakdown with direct threats to regional stability and global energy security.",
   "meta": {
-    "input_tokens": 24188,
+    "input_tokens": 26958,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 707,
-    "cost_usd": 0.0277,
-    "wall_time_s": 12.5,
-    "data_hash": "71b4238ba5a90cc47891c5f6c525be5d089e63795f0cf4deb175dd6af7e1c5bb"
+    "output_tokens": 829,
+    "cost_usd": 0.0311,
+    "wall_time_s": 11.5,
+    "data_hash": "c2c6676914f20dbb45da22511010b18f43d6c2902756fe7a2e00f9f3dd3ae281"
   }
 }
