@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-20T17:22:17.336397+00:00",
+  "generated_at": "2026-06-20T23:03:29.586303+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran closes Strait of Hormuz, threatens missile strikes on Israel over Lebanon ceasefire violations",
-      "summary": "Multiple outlets (NBC News, NPR, PBS, Ynetnews) report Iran has closed the Strait of Hormuz in response to ongoing Israeli strikes killing 32+ in Lebanon despite ceasefire agreement. Iran threatens imminent missile fire on Israel and halts US-Iran nuclear talks scheduled for Sunday in Switzerland. Escalation directly threatens global oil markets and diplomatic resolution.",
+      "title": "Trump threatens US tolls in Strait of Hormuz if Iran deal not reached in 60 days",
+      "summary": "PBS reports Trump administration is threatening to impose US toll collection in the Strait of Hormuz unless a final Iran nuclear deal is concluded within 60 days. This represents unprecedented economic coercion tied to diplomacy and escalates pressure amid Iran's Strait closure threat and ongoing Lebanon fighting.",
       "region": "Strait of Hormuz / Global",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "critical",
-      "category": "nuclear",
-      "title": "Iran uranium enrichment at 60% U-235; breakout window 1-2 weeks amid failed diplomacy",
-      "summary": "Global metrics confirm Iran has enriched uranium to 60% U-235 with nuclear breakout timeframe narrowed to approximately 1-2 weeks. UN atomic energy agency reports technical work underway on dilution and stockpile disposal. Collapsed US-Iran talks due to Lebanon fighting create imminent risk to deal implementation and verification protocols.",
+      "category": "cyber",
+      "title": "Iran-linked group claims hack of FBI drone fleet; threatens World Cup targeting",
+      "summary": "Multiple outlets (France 24, CBS News) report Iran-linked cyber group has claimed successful intrusion into FBI drone systems and issued threats against World Cup infrastructure. Represents significant cyber escalation amid kinetic conflict and may signal Iranian cyber retaliation capability activation.",
       "region": "Global",
       "source": "global_metrics",
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israeli strikes kill 32+ in Lebanon; ceasefire collapses amid escalating Hezbollah-IDF combat",
-      "summary": "Al Jazeera, Reuters, and BBC report Israeli airstrikes killing at least 32 civilians in southern Lebanon (33.86\u00b0N, 35.91\u00b0E) and Beirut suburbs (34.1\u00b0N, 35.23\u00b0E) hours after ceasefire announcement. MSF describes conditions in Nabatieh as 'death trap.' Lebanon confirms 47+ total killed; concurrent Hezbollah-IDF exchanges intensify despite diplomatic framework.",
-      "region": "Northern Israel/Lebanon",
+      "title": "Al Jazeera cameraman Ahmed Wishah killed in Israeli strike on Gaza",
+      "summary": "Al Jazeera confirms journalist Ahmed Wishah killed in Israeli airstrike on Gaza (31.45\u00b0N, 34.41\u00b0E). Casualty represents targeting of press during active hostilities and heightens civilian harm documentation amid Israel-Lebanon-Gaza simultaneous operations.",
+      "region": "Gaza Strip",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "asset_movement",
-      "title": "US deploys three carriers and amphibious forces to Red Sea and Arabian Sea amid Iran escalation",
-      "summary": "Assets feed confirms USS Dwight D. Eisenhower (Red Sea, 15.69\u00b0N, 42.49\u00b0E), USS Abraham Lincoln (Arabian Sea, 20.89\u00b0N, 59.71\u00b0E), USS Bataan amphibious, and multiple destroyers (Carney, Mason, Laboon) positioned in Red Sea. USS Gerald R. Ford in Mediterranean (34.21\u00b0N, 30.28\u00b0E). Deployment surge coincides with Iran's Strait closure threat and nuclear breakout window.",
-      "region": "Red Sea / Arabian Sea / Persian Gulf",
-      "source": "assets",
+      "category": "sentiment_shift",
+      "title": "US sentiment sharply negative (51%); Trump dominates discourse amid Iran tensions",
+      "summary": "Sentiment analysis shows US negative sentiment spiked to 51% (vs 42% positive). 'Trump' leads word cloud (93 mentions) alongside Iran, Meloni, and Strait of Hormuz keywords. Reflects sharp policy debate shift and public concern over Iran escalation and diplomatic stance.",
+      "region": "Global",
+      "source": "sentiment",
       "confidence": "high"
     },
     {
-      "severity": "high",
-      "category": "sentiment_shift",
-      "title": "US negative sentiment surges to 51% amid Iran conflict escalation and Trump administration messaging",
-      "summary": "Sentiment analysis shows US negative sentiment at 51% (vs. 41% positive), with 'Trump' (91 mentions), 'Iran' (32), 'deal' (20), and 'war' (9) dominating word cloud. Trend reflects public anxiety over failed nuclear diplomacy, Lebanon casualty reports, and Strait closure threat. Shift indicates potential domestic political pressure on administration's Middle East strategy.",
-      "region": "Global",
-      "source": "sentiment",
+      "severity": "medium",
+      "category": "asset_movement",
+      "title": "USS Florida submarine redeployed deeper into Persian Gulf amid Iran tensions",
+      "summary": "Assets feed confirms USS Florida submarine now positioned in Persian Gulf (25.96\u00b0N, 51.75\u00b0E), deepening US subsurface presence. Repositioning follows Iran Strait closure threat and escalating proxy activity, signaling readiness for undersea contingency operations.",
+      "region": "Persian Gulf",
+      "source": "assets",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "Iran's closure of the Strait of Hormuz and threat of imminent missile strikes, combined with collapse of US-Iran nuclear talks and uranium enrichment at 60% U-235 (1-2 week breakout window), signal critical escalation moment; Israeli ceasefire violations in Lebanon have triggered cascading diplomatic and military breakdown with direct threats to regional stability and global energy security.",
+  "analysis_note": "US-Iran conflict theater remains at critical escalation threshold (threat level 9) with simultaneous kinetic, economic, and cyber pressures: Iran maintains 60% uranium enrichment with 1-2 week breakout window, Strait closure threat backed by missile deployment, cyber attacks on US infrastructure, and Trump administration pursuing aggressive toll-based diplomacy\u2014all while Israel-Hezbollah combat intensifies in Lebanon and Syria despite ceasefire framework.",
   "meta": {
-    "input_tokens": 26958,
+    "input_tokens": 27029,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 829,
-    "cost_usd": 0.0311,
-    "wall_time_s": 11.5,
-    "data_hash": "c2c6676914f20dbb45da22511010b18f43d6c2902756fe7a2e00f9f3dd3ae281"
+    "output_tokens": 643,
+    "cost_usd": 0.0302,
+    "wall_time_s": 9.2,
+    "data_hash": "ffc480b0f338ce49aad1583399fb5a65c8a30778ee37ec01cd0f12a1de036da0"
   }
 }

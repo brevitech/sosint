@@ -6,12 +6,17 @@
     "wordCloud": [
       {
         "word": "trump",
-        "count": 87,
+        "count": 93,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 30,
+        "count": 32,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meloni",
+        "count": 20,
         "sentiment": "neutral"
       },
       {
@@ -20,13 +25,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "meloni",
-        "count": 18,
+        "word": "italy",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "italy",
-        "count": 14,
+        "word": "vance",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -40,13 +45,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "zelenskyy",
+        "word": "pool",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
-        "count": 9,
+        "word": "zelenskyy",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -60,17 +65,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "air",
+        "word": "strait",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "force",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pool",
+        "word": "hormuz",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -90,12 +90,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "reflecting",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "block",
         "count": 7,
         "sentiment": "negative"
       },
       {
         "word": "made",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "air",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "force",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -110,12 +125,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bid",
+        "word": "center",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "center",
+        "word": "closure",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mou",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -125,52 +145,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "polish",
+        "word": "tells",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "reflecting",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "flu",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "treasury",
+        "word": "popularity",
         "count": 6,
         "sentiment": "positive"
-      },
-      {
-        "word": "urged",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "host",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-20T21:11:48.721622+00:00",
-    "nextRefresh": "2026-06-20T21:11:48.721622+00:00",
-    "articlesAnalyzed": 363,
-    "matchedMentions": 197,
-    "uniquePersonalities": 56,
+    "generatedAt": "2026-06-20T23:03:00.026321+00:00",
+    "nextRefresh": "2026-06-20T23:03:00.026321+00:00",
+    "articlesAnalyzed": 365,
+    "matchedMentions": 198,
+    "uniquePersonalities": 57,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 53,
-    "negative": 31,
-    "neutral": 16,
+    "positive": 51,
+    "negative": 32,
+    "neutral": 17,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 28,
+        "count": 26,
         "sentiment": "neutral"
       },
       {
@@ -211,11 +211,6 @@
       {
         "word": "bjp",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -284,6 +279,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "shah",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "taunts",
         "count": 5,
         "sentiment": "neutral"
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-20T21:12:02.496370+00:00",
-    "nextRefresh": "2026-06-20T21:12:02.496370+00:00",
+    "generatedAt": "2026-06-20T23:03:13.077627+00:00",
+    "nextRefresh": "2026-06-20T23:03:13.077627+00:00",
     "articlesAnalyzed": 465,
-    "matchedMentions": 106,
-    "uniquePersonalities": 45,
+    "matchedMentions": 102,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
 }
