@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 52,
-    "neutral": 9,
+    "positive": 37,
+    "negative": 53,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 81,
+        "count": 80,
         "sentiment": "neutral"
       },
       {
@@ -16,12 +16,7 @@
       },
       {
         "word": "deal",
-        "count": 22,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "obama",
-        "count": 16,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
@@ -36,7 +31,7 @@
       },
       {
         "word": "bid",
-        "count": 15,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -70,18 +65,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 12,
-        "sentiment": "negative"
-      },
-      {
-        "word": "presidential",
-        "count": 10,
+        "word": "obama",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "national",
-        "count": 10,
+        "word": "war",
+        "count": 11,
+        "sentiment": "negative"
+      },
+      {
+        "word": "made",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -105,12 +100,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "made",
+        "word": "presidential",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -120,14 +110,19 @@
         "sentiment": "neutral"
       },
       {
+        "word": "vance",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "national",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "security",
         "count": 8,
         "sentiment": "positive"
-      },
-      {
-        "word": "fire",
-        "count": 7,
-        "sentiment": "negative"
       },
       {
         "word": "unveils",
@@ -150,62 +145,82 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senators",
+        "word": "fire",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "qatar",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-20T08:48:05.619515+00:00",
-    "nextRefresh": "2026-06-20T08:48:05.619515+00:00",
-    "articlesAnalyzed": 360,
-    "matchedMentions": 193,
-    "uniquePersonalities": 49,
+    "generatedAt": "2026-06-20T11:13:02.895215+00:00",
+    "nextRefresh": "2026-06-20T11:13:02.895215+00:00",
+    "articlesAnalyzed": 362,
+    "matchedMentions": 182,
+    "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 35,
+    "positive": 46,
+    "negative": 41,
     "neutral": 13,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 24,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 15,
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 15,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
-        "word": "trump",
+        "word": "sena",
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tharoor",
         "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shinde",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "sena",
+        "word": "trump",
         "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shiv",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tharoor",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -214,12 +229,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shinde",
-        "count": 9,
-        "sentiment": "neutral"
+        "word": "security",
+        "count": 7,
+        "sentiment": "positive"
       },
       {
-        "word": "leader",
+        "word": "ubt",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -229,23 +244,13 @@
         "sentiment": "negative"
       },
       {
-        "word": "congress",
+        "word": "uddhav",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "odi",
+        "word": "thackeray",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rebels",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "birthday",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -254,12 +259,37 @@
         "sentiment": "negative"
       },
       {
-        "word": "parties",
+        "word": "party",
         "count": 6,
         "sentiment": "positive"
       },
       {
-        "word": "afghanistan",
+        "word": "protest",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "claims",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "support",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "split",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kohli",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -269,17 +299,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ubt",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "amid",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "thackeray",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -289,42 +309,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "step",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "down",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kohli",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "party",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "protest",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "delhi",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-20T08:48:17.880049+00:00",
-    "nextRefresh": "2026-06-20T08:48:17.880049+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 100,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-06-20T11:13:16.605549+00:00",
+    "nextRefresh": "2026-06-20T11:13:16.605549+00:00",
+    "articlesAnalyzed": 480,
+    "matchedMentions": 118,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   }
 }
