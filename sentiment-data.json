@@ -1,36 +1,31 @@
 {
   "us": {
     "positive": 42,
-    "negative": 50,
-    "neutral": 8,
+    "negative": 49,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 88,
+        "count": 86,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 39,
+        "count": 40,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 20,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
         "word": "meloni",
-        "count": 20,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "obama",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "italy",
         "count": 16,
         "sentiment": "neutral"
       },
@@ -40,8 +35,23 @@
         "sentiment": "negative"
       },
       {
+        "word": "italy",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
         "word": "photo",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "air",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "force",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -55,17 +65,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "national",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "presidential",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "air",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "force",
+        "word": "vance",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -85,24 +95,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "national",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "bid",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vance",
-        "count": 7,
-        "sentiment": "neutral"
+        "word": "security",
+        "count": 8,
+        "sentiment": "positive"
       },
       {
         "word": "become",
@@ -110,17 +110,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pulte",
-        "count": 7,
+        "word": "power",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "intelligence",
-        "count": 7,
-        "sentiment": "positive"
+        "word": "senators",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
-        "word": "story",
+        "word": "qatar",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deadly",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -140,14 +145,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "acting",
+        "word": "flu",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "director",
-        "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "release",
@@ -156,110 +156,70 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-20T00:04:59.768592+00:00",
-    "nextRefresh": "2026-06-20T00:04:59.768592+00:00",
+    "generatedAt": "2026-06-20T05:08:38.998887+00:00",
+    "nextRefresh": "2026-06-20T05:08:38.998887+00:00",
     "articlesAnalyzed": 360,
-    "matchedMentions": 198,
-    "uniquePersonalities": 46,
+    "matchedMentions": 200,
+    "uniquePersonalities": 52,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 63,
-    "negative": 16,
-    "neutral": 21,
+    "positive": 61,
+    "negative": 22,
+    "neutral": 17,
     "wordCloud": [
       {
-        "word": "chopra",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "doha",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "league",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "diamond",
-        "count": 10,
-        "sentiment": "positive"
-      },
-      {
-        "word": "tmc",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sena",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "neeraj",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "modi",
-        "count": 8,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "shinde",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "sena",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "highlights",
+        "word": "amid",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "eknath",
+        "word": "rebellion",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "trump",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "birthday",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "thackeray",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "party",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "finishes",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fourth",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pathirage",
+        "word": "abhishek",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -269,28 +229,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "thackeray",
-        "count": 5,
+        "word": "step",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "return",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "returns",
-        "count": 5,
+        "word": "down",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -299,32 +244,87 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trump",
+        "word": "leader",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "offers",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ubt",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "journey",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
+        "word": "inspires",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "greets",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "murmu",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "nadu",
+        "word": "eknath",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
+        "word": "team",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "emotional",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "shiv",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chopra",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-20T00:05:11.116294+00:00",
-    "nextRefresh": "2026-06-20T00:05:11.116294+00:00",
-    "articlesAnalyzed": 466,
-    "matchedMentions": 97,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-06-20T05:08:51.695905+00:00",
+    "nextRefresh": "2026-06-20T05:08:51.695905+00:00",
+    "articlesAnalyzed": 482,
+    "matchedMentions": 77,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
