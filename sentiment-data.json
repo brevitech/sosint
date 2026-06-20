@@ -1,22 +1,17 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 48,
+    "positive": 42,
+    "negative": 50,
     "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 87,
+        "count": 88,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 38,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meloni",
-        "count": 22,
+        "count": 39,
         "sentiment": "neutral"
       },
       {
@@ -25,13 +20,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "meloni",
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
         "word": "obama",
-        "count": 19,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "italy",
-        "count": 18,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -50,17 +50,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "presidential",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "begged",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
+        "word": "presidential",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "air",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "force",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -70,7 +75,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trip",
+        "word": "judge",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "biden",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -85,22 +95,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "air",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "force",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "bill",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "us-iran",
+        "word": "vance",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -120,27 +120,22 @@
         "sentiment": "positive"
       },
       {
-        "word": "center",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "story",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "unveils",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "lebanon",
+        "word": "rejects",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "diplomat",
+        "word": "recordings",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,20 +148,25 @@
         "word": "director",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "release",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-19T22:51:31.256850+00:00",
-    "nextRefresh": "2026-06-19T22:51:31.256850+00:00",
-    "articlesAnalyzed": 359,
-    "matchedMentions": 199,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-06-20T00:04:59.768592+00:00",
+    "nextRefresh": "2026-06-20T00:04:59.768592+00:00",
+    "articlesAnalyzed": 360,
+    "matchedMentions": 198,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 65,
+    "positive": 63,
     "negative": 16,
-    "neutral": 19,
+    "neutral": 21,
     "wordCloud": [
       {
         "word": "chopra",
@@ -189,6 +189,11 @@
         "sentiment": "positive"
       },
       {
+        "word": "tmc",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "sena",
         "count": 9,
         "sentiment": "neutral"
@@ -209,8 +214,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
-        "count": 9,
+        "word": "modi",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -219,7 +224,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "bjp",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -242,11 +247,6 @@
         "word": "party",
         "count": 6,
         "sentiment": "positive"
-      },
-      {
-        "word": "bjp",
-        "count": 6,
-        "sentiment": "neutral"
       },
       {
         "word": "finishes",
@@ -289,7 +289,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "speaker",
+        "word": "returns",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -320,10 +320,10 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-19T22:51:41.629221+00:00",
-    "nextRefresh": "2026-06-19T22:51:41.629221+00:00",
+    "generatedAt": "2026-06-20T00:05:11.116294+00:00",
+    "nextRefresh": "2026-06-20T00:05:11.116294+00:00",
     "articlesAnalyzed": 466,
-    "matchedMentions": 99,
+    "matchedMentions": 97,
     "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
