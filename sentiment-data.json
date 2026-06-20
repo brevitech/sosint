@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 41,
+    "positive": 42,
     "negative": 51,
-    "neutral": 8,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,22 +11,27 @@
       },
       {
         "word": "iran",
-        "count": 29,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meloni",
-        "count": 20,
+        "count": 30,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meloni",
         "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "italy",
         "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -41,11 +46,6 @@
       },
       {
         "word": "vance",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -90,17 +90,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "polish",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "block",
         "count": 7,
         "sentiment": "negative"
       },
       {
         "word": "made",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "face",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -122,6 +122,11 @@
       {
         "word": "amid",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "polish",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -148,29 +153,29 @@
         "word": "host",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "bean",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-20T19:17:59.318223+00:00",
-    "nextRefresh": "2026-06-20T19:17:59.318223+00:00",
+    "generatedAt": "2026-06-20T21:11:48.721622+00:00",
+    "nextRefresh": "2026-06-20T21:11:48.721622+00:00",
     "articlesAnalyzed": 363,
     "matchedMentions": 197,
-    "uniquePersonalities": 55,
+    "uniquePersonalities": 56,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 57,
-    "negative": 28,
-    "neutral": 15,
+    "positive": 53,
+    "negative": 31,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 25,
+        "count": 28,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tharoor",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -179,18 +184,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
         "word": "sena",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "tharoor",
-        "count": 8,
+        "word": "india",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -199,9 +204,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "protest",
         "count": 8,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "bjp",
@@ -209,33 +214,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "shah",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "party",
-        "count": 7,
-        "sentiment": "positive"
-      },
-      {
-        "word": "protest",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "shah",
+        "word": "delhi",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "shiv",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bengal",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -264,6 +254,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "party",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
         "word": "gill",
         "count": 6,
         "sentiment": "neutral"
@@ -284,22 +279,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "history",
+        "word": "shashi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "taunts",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "petrol",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -314,17 +299,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "bengal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mann",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "aap",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slams",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-20T19:18:11.335313+00:00",
-    "nextRefresh": "2026-06-20T19:18:11.335313+00:00",
-    "articlesAnalyzed": 463,
-    "matchedMentions": 110,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-06-20T21:12:02.496370+00:00",
+    "nextRefresh": "2026-06-20T21:12:02.496370+00:00",
+    "articlesAnalyzed": 465,
+    "matchedMentions": 106,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   }
 }
