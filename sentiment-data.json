@@ -1,58 +1,68 @@
 {
   "us": {
     "positive": 48,
-    "negative": 47,
-    "neutral": 5,
+    "negative": 49,
+    "neutral": 3,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 65,
+        "count": 69,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 31,
+        "count": 36,
         "sentiment": "neutral"
       },
       {
         "word": "vance",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "switzerland",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 14,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
         "word": "talks",
-        "count": 14,
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 18,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "switzerland",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "starmer",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "pool",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
+      },
+      {
+        "word": "peace",
+        "count": 9,
+        "sentiment": "positive"
+      },
+      {
+        "word": "judge",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "threatens",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
         "word": "meloni",
@@ -70,7 +80,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "center",
+        "word": "reflecting",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "us-iran",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -90,34 +105,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "threatens",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "administration",
+        "word": "faces",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "closure",
+        "word": "strait",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "nuclear",
-        "count": 6,
+        "word": "hormuz",
+        "count": 7,
         "sentiment": "neutral"
-      },
-      {
-        "word": "reflecting",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "peace",
-        "count": 6,
-        "sentiment": "positive"
       },
       {
         "word": "presidential",
@@ -125,24 +125,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "us-iran",
+        "word": "fresh",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "attacks",
+        "word": "criticism",
         "count": 6,
         "sentiment": "negative"
-      },
-      {
-        "word": "strait",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hormuz",
-        "count": 6,
-        "sentiment": "neutral"
       },
       {
         "word": "suffer",
@@ -153,29 +143,44 @@
         "word": "fate",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "rfk",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democratic",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-21T17:28:25.290913+00:00",
-    "nextRefresh": "2026-06-21T17:28:25.290913+00:00",
+    "generatedAt": "2026-06-21T19:23:53.073962+00:00",
+    "nextRefresh": "2026-06-21T19:23:53.073962+00:00",
     "articlesAnalyzed": 366,
-    "matchedMentions": 177,
-    "uniquePersonalities": 54,
+    "matchedMentions": 176,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 53,
-    "negative": 28,
-    "neutral": 19,
+    "positive": 48,
+    "negative": 30,
+    "neutral": 22,
     "wordCloud": [
       {
         "word": "sena",
-        "count": 19,
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 14,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -184,18 +189,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "yoga",
-        "count": 9,
+        "word": "congress",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -204,17 +199,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "delhi",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "shiv",
+        "word": "yoga",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "ubt",
+        "word": "kharge",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -229,6 +224,16 @@
         "sentiment": "positive"
       },
       {
+        "word": "ubt",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "neet",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "rebels",
         "count": 5,
         "sentiment": "negative"
@@ -239,23 +244,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "neet",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pradhan",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kharge",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "crossover",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tharoor",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "remark",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "naval",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gets",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -269,44 +279,19 @@
         "sentiment": "negative"
       },
       {
-        "word": "tharoor",
+        "word": "shiv",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "remark",
+        "word": "operation",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "gains",
+        "word": "successful",
         "count": 4,
         "sentiment": "positive"
-      },
-      {
-        "word": "strength",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "affect",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ties",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nimbalkar",
-        "count": 4,
-        "sentiment": "neutral"
       },
       {
         "word": "case",
@@ -314,17 +299,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kaur",
+        "word": "confirms",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pradhan",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "exam",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-21T17:28:40.006495+00:00",
-    "nextRefresh": "2026-06-21T17:28:40.006495+00:00",
-    "articlesAnalyzed": 474,
-    "matchedMentions": 92,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-06-21T19:24:05.212558+00:00",
+    "nextRefresh": "2026-06-21T19:24:05.212558+00:00",
+    "articlesAnalyzed": 463,
+    "matchedMentions": 90,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }

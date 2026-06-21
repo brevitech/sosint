@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-21T13:59:37.866909+00:00",
+  "generated_at": "2026-06-21T19:24:33.170505+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "cyber",
-      "title": "Iran-linked group claims hack of FBI drone fleet, threatens World Cup attack",
-      "summary": "Global metrics cyber headlines report Iran-linked threat actor claims successful compromise of FBI drone systems and threatens attack on World Cup event. Multiple sources (France 24, CBS News) confirm actor claims. Represents novel cyber escalation combining critical US asset compromise with public mass-casualty threat during high-profile event.",
-      "region": "Global",
-      "source": "global_metrics",
-      "confidence": "medium"
+      "category": "incident",
+      "title": "Trump threatens strikes on Iran over Hezbollah support amid ceasefire collapse",
+      "summary": "Multiple outlets (Le Monde, Washington Post) report Trump administration threats to conduct military strikes against Iran in response to Hezbollah backing, coinciding with active Israeli airstrikes in Lebanon killing 20+ civilians and collapse of ceasefire negotiations. Represents imminent escalation risk during critical US-Iran diplomatic window.",
+      "region": "Iran / Northern Israel-Lebanon",
+      "source": "incidents, sentiment",
+      "confidence": "high"
     },
     {
-      "severity": "high",
-      "category": "incident",
-      "title": "Lebanon reports 47 dead in Israeli strikes; Hezbollah blocks IDF body retrieval",
-      "summary": "BBC and Reuters confirm Israeli airstrikes killed at least 47 in Lebanon on June 21. Middle East Spectator reports confirmed death of IDF Lieutenant Colonel Ben Simhon (52nd Armored Battalion, 401st Brigade) with three crew members in destroyed Merkava tank near Ali Taher hill; Hezbollah preventing body recovery. Represents sustained escalation despite diplomatic talks underway in Switzerland.",
-      "region": "Northern Israel / Lebanon",
-      "source": "incidents, telegram",
+      "severity": "critical",
+      "category": "nuclear",
+      "title": "Iran nuclear breakout window narrows to 1-2 weeks with 60% enrichment",
+      "summary": "Global metrics confirm Iran uranium enrichment at 60% U-235 with estimated breakout time of 1-2 weeks. Multiple UN and foundation sources (Jerusalem Post, FDF) report leaked MoU text allowing enriched uranium to remain in-country pending dilution. Represents material acceleration of nuclear weapons capability amid failed diplomatic talks.",
+      "region": "Iran",
+      "source": "global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "diplomatic",
-      "title": "Iranian delegation headed by Ghalibaf arrives in Switzerland for US talks",
-      "summary": "Telegram signal (ME Spectator) confirms Iranian delegation led by Ghalibaf arrived in Switzerland via Meraj Minab168 aircraft; JD Vance en route. Parallels ongoing incidents feed reporting US-Iran talks begin Sunday (June 21-22) amid continued Lebanon strikes and Strait closure. Represents critical diplomatic engagement window amid active hostilities.",
-      "region": "Global",
-      "source": "incidents, telegram",
+      "title": "US-Iran talks paused; Trump threatens tolls on Strait of Hormuz",
+      "summary": "WSJ reports Iran pausing talks after Trump threats; France 24 reports Trump threatening economic tolls on Hormuz shipping if talks collapse. Iranian delegation under Ghalibaf arrived in Switzerland but negotiations now stalled. Represents breakdown of negotiation track and escalation of economic coercion.",
+      "region": "Global / Strait of Hormuz",
+      "source": "incidents, sentiment",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "asset_movement",
+      "title": "Three-carrier US posture reinforced; submarine deployed to Persian Gulf",
+      "summary": "Assets feed confirms USS Eisenhower, Abraham Lincoln, and Gerald R. Ford all operationally deployed (Red Sea, Arabian Sea, Mediterranean) with supporting destroyers (Carney, Mason, Laboon) and USS Florida submarine in Persian Gulf. Represents unprecedented carrier concentration in theater amid escalating Iran tensions and Houthi maritime threats.",
+      "region": "Red Sea / Persian Gulf / Arabian Sea",
+      "source": "assets, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Houthis announce ban on Israeli vessels in Red Sea, escalate naval threats",
-      "summary": "Long War Journal and Reuters confirm Yemen-based Houthis announced comprehensive ban on Israeli shipping in Red Sea and threaten new attacks. Coincides with three-carrier US posture (USS Eisenhower, Lincoln, Ford) and elevated proxy status reporting (Houthis marked 'Elevated - Multiple Recent Attacks'). Represents material escalation of maritime chokepoint risk.",
+      "title": "Houthis claim new Red Sea attacks; shipping ban on Israeli vessels extended",
+      "summary": "KTVB and Iran International confirm Yemen-based Houthis claim missile attack on Israel and reiterate ban on Israel-affiliated vessels in Red Sea. Proxy status marked 'Elevated - Multiple Recent Attacks' in global metrics. Coincides with three-carrier US deployment and elevated Hezbollah/PMF activity, creating maritime chokepoint risk.",
       "region": "Red Sea / Strait of Hormuz",
-      "source": "incidents, assets, global_metrics",
+      "source": "incidents, global_metrics",
       "confidence": "high"
-    },
-    {
-      "severity": "medium",
-      "category": "sentiment_shift",
-      "title": "Trump administration Iran policy faces domestic and international backlash",
-      "summary": "US sentiment analysis shows balanced negative-positive split (47-47) with 'Trump' as top word (67 count), flanked by 'Iran,' 'deal,' 'Vance,' and 'Switzerland.' Multiple incidents feed articles (Washington Post, Hill, Times of Israel) report Trump defending Iran missile arsenal, MAGA backlash, and Israeli public skepticism (92% believe Iran won). Reflects domestic political pressure on nuclear diplomacy.",
-      "region": "Global",
-      "source": "sentiment, incidents",
-      "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran diplomatic window is narrowing amid simultaneous escalation: nuclear breakout at 1-2 weeks, threat level at 9 (critical), Lebanon casualties mounting, Houthis escalating Red Sea, and cyber breaches of US systems\u2014all while Trump administration faces domestic credibility loss on deal viability.",
+  "analysis_note": "Critical convergence: Iran nuclear breakout window compressed to 1-2 weeks, US-Iran diplomatic talks stalled amid Trump escalation threats, Israeli-Lebanese ceasefire collapsed with 20+ dead in single strike, three-carrier US task force operationally deployed, and Houthi maritime threats elevated\u2014theater faces imminent multi-vector escalation risk.",
   "meta": {
-    "input_tokens": 23830,
+    "input_tokens": 26443,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 748,
-    "cost_usd": 0.0276,
-    "wall_time_s": 12.2,
-    "data_hash": "e498b4aab4b530a01d9014294e64e33945c6be2be0e957d2c653c11008314889"
+    "output_tokens": 709,
+    "cost_usd": 0.03,
+    "wall_time_s": 10.3,
+    "data_hash": "d4acf99f97537e2a46967b2f059cb50f0b6144e88ec0279fca7830eea01dad11"
   }
 }
