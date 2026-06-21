@@ -1,27 +1,27 @@
 {
   "us": {
-    "positive": 48,
-    "negative": 49,
-    "neutral": 3,
+    "positive": 47,
+    "negative": 51,
+    "neutral": 2,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 69,
+        "count": 73,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 36,
+        "count": 34,
         "sentiment": "neutral"
       },
       {
         "word": "vance",
-        "count": 21,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "talks",
-        "count": 19,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
@@ -31,23 +31,28 @@
       },
       {
         "word": "switzerland",
-        "count": 13,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
-        "word": "starmer",
-        "count": 11,
-        "sentiment": "neutral"
+        "word": "threatens",
+        "count": 10,
+        "sentiment": "negative"
       },
       {
         "word": "pool",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "peace",
         "count": 9,
         "sentiment": "positive"
+      },
+      {
+        "word": "starmer",
+        "count": 9,
+        "sentiment": "neutral"
       },
       {
         "word": "judge",
@@ -60,28 +65,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "threatens",
+        "word": "reflecting",
         "count": 8,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "meloni",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mou",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "next",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reflecting",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -105,11 +95,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "faces",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "strait",
         "count": 7,
         "sentiment": "neutral"
@@ -120,7 +105,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "democratic",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mou",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iranian",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "presidential",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "faces",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -148,49 +153,39 @@
         "word": "rfk",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "democratic",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-21T19:23:53.073962+00:00",
-    "nextRefresh": "2026-06-21T19:23:53.073962+00:00",
+    "generatedAt": "2026-06-21T21:09:44.367550+00:00",
+    "nextRefresh": "2026-06-21T21:09:44.367550+00:00",
     "articlesAnalyzed": 366,
     "matchedMentions": 176,
-    "uniquePersonalities": 51,
+    "uniquePersonalities": 52,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 48,
-    "negative": 30,
-    "neutral": 22,
+    "positive": 42,
+    "negative": 35,
+    "neutral": 23,
     "wordCloud": [
       {
-        "word": "sena",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
         "word": "modi",
-        "count": 13,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "shinde",
-        "count": 12,
+        "word": "sena",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "congress",
         "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -204,12 +199,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "yoga",
+        "word": "shinde",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "kharge",
+        "word": "party",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "yoga",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -219,9 +219,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "party",
+        "word": "kharge",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "ubt",
@@ -279,21 +279,6 @@
         "sentiment": "negative"
       },
       {
-        "word": "shiv",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "operation",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "successful",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
         "word": "case",
         "count": 4,
         "sentiment": "neutral"
@@ -317,14 +302,29 @@
         "word": "odi",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "indigenous",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "warships",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "commissioned",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-21T19:24:05.212558+00:00",
-    "nextRefresh": "2026-06-21T19:24:05.212558+00:00",
-    "articlesAnalyzed": 463,
-    "matchedMentions": 90,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-06-21T21:09:56.273153+00:00",
+    "nextRefresh": "2026-06-21T21:09:56.273153+00:00",
+    "articlesAnalyzed": 464,
+    "matchedMentions": 83,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
