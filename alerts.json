@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-21T08:25:47.374559+00:00",
+  "generated_at": "2026-06-21T13:59:37.866909+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "nuclear",
-      "title": "Iran nuclear breakout window narrows to 1-2 weeks at 60% enrichment",
-      "summary": "Global metrics confirm Iran has reached 60% uranium-235 enrichment with estimated breakout time of approximately 1-2 weeks. Multiple nuclear headlines (UN News, FDD, Jerusalem Post) report US-Iran MoU technical negotiations underway but experts warn deal faces 'blind spot' over enriched uranium stockpile disposition. This represents material nuclear escalation amid active diplomacy.",
+      "category": "cyber",
+      "title": "Iran-linked group claims hack of FBI drone fleet, threatens World Cup attack",
+      "summary": "Global metrics cyber headlines report Iran-linked threat actor claims successful compromise of FBI drone systems and threatens attack on World Cup event. Multiple sources (France 24, CBS News) confirm actor claims. Represents novel cyber escalation combining critical US asset compromise with public mass-casualty threat during high-profile event.",
       "region": "Global",
       "source": "global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "critical",
-      "category": "incident",
-      "title": "Iran closes Strait of Hormuz, threatens missile strike on Israel tonight",
-      "summary": "Iran reportedly closed the Strait of Hormuz and threatened missile fire on Israel as ceasefire violations continue in Lebanon. Multiple outlets (Ynetnews, PBS, NBC News) report Iran's closure is linked to ongoing Israeli strikes killing at least 20 in Lebanon and ceasefire breakdown. Represents direct Iranian escalation threat tied to regional hostilities.",
-      "region": "Strait of Hormuz / Israel-Lebanon",
-      "source": "incidents",
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israeli strikes kill 20+ in Lebanon, journalist Ahmed Wishah confirmed dead in Gaza",
-      "summary": "Multiple sources (Reuters, BBC, Al Jazeera, Guardian) confirm Israeli airstrikes killed at least 20 people in Lebanon within hours of ceasefire announcement. Al Jazeera cameraman Ahmed Wishah killed in Gaza strike alongside 6 others including 2 children. Represents continued escalation despite ceasefire declarations and targeting of press personnel.",
-      "region": "Lebanon / Gaza Strip",
-      "source": "incidents",
+      "title": "Lebanon reports 47 dead in Israeli strikes; Hezbollah blocks IDF body retrieval",
+      "summary": "BBC and Reuters confirm Israeli airstrikes killed at least 47 in Lebanon on June 21. Middle East Spectator reports confirmed death of IDF Lieutenant Colonel Ben Simhon (52nd Armored Battalion, 401st Brigade) with three crew members in destroyed Merkava tank near Ali Taher hill; Hezbollah preventing body recovery. Represents sustained escalation despite diplomatic talks underway in Switzerland.",
+      "region": "Northern Israel / Lebanon",
+      "source": "incidents, telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "asset_movement",
-      "title": "US maintains three-carrier posture with USS Florida submarine deep in Persian Gulf",
-      "summary": "Assets feed confirms USS Florida submarine deployed to Persian Gulf (26.42\u00b0N, 52.41\u00b0E) alongside USS Dwight D. Eisenhower in Red Sea, USS Abraham Lincoln in Arabian Sea, and USS Gerald R. Ford in Mediterranean. Represents sustained US subsurface and surface power projection amid Iran threat escalation and diplomatic talks in Switzerland.",
-      "region": "Persian Gulf / Arabian Sea / Red Sea",
-      "source": "assets",
+      "category": "diplomatic",
+      "title": "Iranian delegation headed by Ghalibaf arrives in Switzerland for US talks",
+      "summary": "Telegram signal (ME Spectator) confirms Iranian delegation led by Ghalibaf arrived in Switzerland via Meraj Minab168 aircraft; JD Vance en route. Parallels ongoing incidents feed reporting US-Iran talks begin Sunday (June 21-22) amid continued Lebanon strikes and Strait closure. Represents critical diplomatic engagement window amid active hostilities.",
+      "region": "Global",
+      "source": "incidents, telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "DeepState UA confirms Ukraine strikes critical Russian supply bridge at Chongar",
-      "summary": "DeepState UA post (~269K views, June 10) reports Ukrainian forces achieved two precise strikes on Chongar automobile bridge over newly constructed R-280 route linking Rostov-on-Don to Simferopol. Bridge damage limits Russian southern logistics corridor and triggers blockade cascade. Reflects sustained Ukrainian strike capability against Russian rear-area infrastructure.",
-      "region": "Southern Ukraine / Occupied Crimea",
-      "source": "telegram",
+      "category": "incident",
+      "title": "Houthis announce ban on Israeli vessels in Red Sea, escalate naval threats",
+      "summary": "Long War Journal and Reuters confirm Yemen-based Houthis announced comprehensive ban on Israeli shipping in Red Sea and threaten new attacks. Coincides with three-carrier US posture (USS Eisenhower, Lincoln, Ford) and elevated proxy status reporting (Houthis marked 'Elevated - Multiple Recent Attacks'). Represents material escalation of maritime chokepoint risk.",
+      "region": "Red Sea / Strait of Hormuz",
+      "source": "incidents, assets, global_metrics",
+      "confidence": "high"
+    },
+    {
+      "severity": "medium",
+      "category": "sentiment_shift",
+      "title": "Trump administration Iran policy faces domestic and international backlash",
+      "summary": "US sentiment analysis shows balanced negative-positive split (47-47) with 'Trump' as top word (67 count), flanked by 'Iran,' 'deal,' 'Vance,' and 'Switzerland.' Multiple incidents feed articles (Washington Post, Hill, Times of Israel) report Trump defending Iran missile arsenal, MAGA backlash, and Israeli public skepticism (92% believe Iran won). Reflects domestic political pressure on nuclear diplomacy.",
+      "region": "Global",
+      "source": "sentiment, incidents",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran nuclear diplomacy in Switzerland proceeds as Iran closes Strait of Hormuz, enriches to 60% U-235 (1-2 week breakout), and escalates rhetoric amid simultaneous Israeli-Hezbollah-Gaza fighting; threat level at critical (9/10) with multiple proxy forces (Houthis, Hezbollah, PMF) active and US carrier presence reinforced.",
+  "analysis_note": "US-Iran diplomatic window is narrowing amid simultaneous escalation: nuclear breakout at 1-2 weeks, threat level at 9 (critical), Lebanon casualties mounting, Houthis escalating Red Sea, and cyber breaches of US systems\u2014all while Trump administration faces domestic credibility loss on deal viability.",
   "meta": {
-    "input_tokens": 27049,
+    "input_tokens": 23830,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 747,
-    "cost_usd": 0.0308,
-    "wall_time_s": 10.7,
-    "data_hash": "082c38282305625d01c53d7458cf7c5d23740330bce9bfd43115f0dba8c2537e"
+    "output_tokens": 748,
+    "cost_usd": 0.0276,
+    "wall_time_s": 12.2,
+    "data_hash": "e498b4aab4b530a01d9014294e64e33945c6be2be0e957d2c653c11008314889"
   }
 }
