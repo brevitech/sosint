@@ -1,17 +1,17 @@
 {
   "us": {
     "positive": 42,
-    "negative": 50,
-    "neutral": 8,
+    "negative": 51,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 92,
+        "count": 85,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 32,
+        "count": 30,
         "sentiment": "neutral"
       },
       {
@@ -21,7 +21,7 @@
       },
       {
         "word": "deal",
-        "count": 17,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -50,19 +50,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "zelenskyy",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "reflecting",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "amid",
         "count": 9,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "doj",
@@ -75,7 +70,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
+        "word": "presidential",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -86,11 +81,6 @@
       },
       {
         "word": "next",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -116,11 +106,6 @@
       },
       {
         "word": "face",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "presidential",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -153,20 +138,35 @@
         "word": "round",
         "count": 7,
         "sentiment": "neutral"
+      },
+      {
+        "word": "center",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "closure",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mou",
+        "count": 7,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-21T03:37:35.375301+00:00",
-    "nextRefresh": "2026-06-21T03:37:35.375301+00:00",
-    "articlesAnalyzed": 365,
-    "matchedMentions": 199,
-    "uniquePersonalities": 59,
+    "generatedAt": "2026-06-21T08:25:17.849188+00:00",
+    "nextRefresh": "2026-06-21T08:25:17.849188+00:00",
+    "articlesAnalyzed": 363,
+    "matchedMentions": 196,
+    "uniquePersonalities": 57,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 58,
-    "negative": 25,
-    "neutral": 17,
+    "positive": 62,
+    "negative": 17,
+    "neutral": 21,
     "wordCloud": [
       {
         "word": "modi",
@@ -175,41 +175,41 @@
       },
       {
         "word": "yoga",
-        "count": 20,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "gill",
-        "count": 11,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "sena",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tharoor",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "international",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shinde",
-        "count": 8,
+        "word": "india",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "odi",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gets",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sharma",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tharoor",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "kolkata",
+        "word": "kohli",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -219,12 +219,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 7,
+        "word": "cjp",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "event",
+        "word": "dipke",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "join",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "rohit",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "neet",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -234,96 +249,81 @@
         "sentiment": "neutral"
       },
       {
-        "word": "record",
+        "word": "political",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "leads",
+        "word": "daughter",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "doesn",
+        "word": "international",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "uddhav",
+        "word": "murmu",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "sharma",
+        "word": "protest",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "jantar",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "mantar",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shiv",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "road",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "congress",
-        "count": 4,
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "bengal",
-        "count": 4,
+        "word": "virat",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "party",
-        "count": 4,
+        "word": "release",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "security",
+        "count": 5,
         "sentiment": "positive"
       },
       {
-        "word": "pradhan",
+        "word": "ncp",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "chopra",
+        "word": "supriya",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "indian",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "captain",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leaves",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kohli",
+        "word": "sule",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-21T03:37:46.685707+00:00",
-    "nextRefresh": "2026-06-21T03:37:46.685707+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 108,
+    "generatedAt": "2026-06-21T08:25:29.828479+00:00",
+    "nextRefresh": "2026-06-21T08:25:29.828479+00:00",
+    "articlesAnalyzed": 478,
+    "matchedMentions": 116,
     "uniquePersonalities": 48,
     "dataSource": "live-rss"
   }

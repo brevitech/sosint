@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-20T23:03:29.586303+00:00",
+  "generated_at": "2026-06-21T08:25:47.374559+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "incident",
-      "title": "Trump threatens US tolls in Strait of Hormuz if Iran deal not reached in 60 days",
-      "summary": "PBS reports Trump administration is threatening to impose US toll collection in the Strait of Hormuz unless a final Iran nuclear deal is concluded within 60 days. This represents unprecedented economic coercion tied to diplomacy and escalates pressure amid Iran's Strait closure threat and ongoing Lebanon fighting.",
-      "region": "Strait of Hormuz / Global",
-      "source": "incidents",
+      "category": "nuclear",
+      "title": "Iran nuclear breakout window narrows to 1-2 weeks at 60% enrichment",
+      "summary": "Global metrics confirm Iran has reached 60% uranium-235 enrichment with estimated breakout time of approximately 1-2 weeks. Multiple nuclear headlines (UN News, FDD, Jerusalem Post) report US-Iran MoU technical negotiations underway but experts warn deal faces 'blind spot' over enriched uranium stockpile disposition. This represents material nuclear escalation amid active diplomacy.",
+      "region": "Global",
+      "source": "global_metrics",
       "confidence": "high"
     },
     {
       "severity": "critical",
-      "category": "cyber",
-      "title": "Iran-linked group claims hack of FBI drone fleet; threatens World Cup targeting",
-      "summary": "Multiple outlets (France 24, CBS News) report Iran-linked cyber group has claimed successful intrusion into FBI drone systems and issued threats against World Cup infrastructure. Represents significant cyber escalation amid kinetic conflict and may signal Iranian cyber retaliation capability activation.",
-      "region": "Global",
-      "source": "global_metrics",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
       "category": "incident",
-      "title": "Al Jazeera cameraman Ahmed Wishah killed in Israeli strike on Gaza",
-      "summary": "Al Jazeera confirms journalist Ahmed Wishah killed in Israeli airstrike on Gaza (31.45\u00b0N, 34.41\u00b0E). Casualty represents targeting of press during active hostilities and heightens civilian harm documentation amid Israel-Lebanon-Gaza simultaneous operations.",
-      "region": "Gaza Strip",
+      "title": "Iran closes Strait of Hormuz, threatens missile strike on Israel tonight",
+      "summary": "Iran reportedly closed the Strait of Hormuz and threatened missile fire on Israel as ceasefire violations continue in Lebanon. Multiple outlets (Ynetnews, PBS, NBC News) report Iran's closure is linked to ongoing Israeli strikes killing at least 20 in Lebanon and ceasefire breakdown. Represents direct Iranian escalation threat tied to regional hostilities.",
+      "region": "Strait of Hormuz / Israel-Lebanon",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "sentiment_shift",
-      "title": "US sentiment sharply negative (51%); Trump dominates discourse amid Iran tensions",
-      "summary": "Sentiment analysis shows US negative sentiment spiked to 51% (vs 42% positive). 'Trump' leads word cloud (93 mentions) alongside Iran, Meloni, and Strait of Hormuz keywords. Reflects sharp policy debate shift and public concern over Iran escalation and diplomatic stance.",
-      "region": "Global",
-      "source": "sentiment",
+      "category": "incident",
+      "title": "Israeli strikes kill 20+ in Lebanon, journalist Ahmed Wishah confirmed dead in Gaza",
+      "summary": "Multiple sources (Reuters, BBC, Al Jazeera, Guardian) confirm Israeli airstrikes killed at least 20 people in Lebanon within hours of ceasefire announcement. Al Jazeera cameraman Ahmed Wishah killed in Gaza strike alongside 6 others including 2 children. Represents continued escalation despite ceasefire declarations and targeting of press personnel.",
+      "region": "Lebanon / Gaza Strip",
+      "source": "incidents",
       "confidence": "high"
     },
     {
-      "severity": "medium",
+      "severity": "high",
       "category": "asset_movement",
-      "title": "USS Florida submarine redeployed deeper into Persian Gulf amid Iran tensions",
-      "summary": "Assets feed confirms USS Florida submarine now positioned in Persian Gulf (25.96\u00b0N, 51.75\u00b0E), deepening US subsurface presence. Repositioning follows Iran Strait closure threat and escalating proxy activity, signaling readiness for undersea contingency operations.",
-      "region": "Persian Gulf",
+      "title": "US maintains three-carrier posture with USS Florida submarine deep in Persian Gulf",
+      "summary": "Assets feed confirms USS Florida submarine deployed to Persian Gulf (26.42\u00b0N, 52.41\u00b0E) alongside USS Dwight D. Eisenhower in Red Sea, USS Abraham Lincoln in Arabian Sea, and USS Gerald R. Ford in Mediterranean. Represents sustained US subsurface and surface power projection amid Iran threat escalation and diplomatic talks in Switzerland.",
+      "region": "Persian Gulf / Arabian Sea / Red Sea",
       "source": "assets",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "telegram_signal",
+      "title": "DeepState UA confirms Ukraine strikes critical Russian supply bridge at Chongar",
+      "summary": "DeepState UA post (~269K views, June 10) reports Ukrainian forces achieved two precise strikes on Chongar automobile bridge over newly constructed R-280 route linking Rostov-on-Don to Simferopol. Bridge damage limits Russian southern logistics corridor and triggers blockade cascade. Reflects sustained Ukrainian strike capability against Russian rear-area infrastructure.",
+      "region": "Southern Ukraine / Occupied Crimea",
+      "source": "telegram",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran conflict theater remains at critical escalation threshold (threat level 9) with simultaneous kinetic, economic, and cyber pressures: Iran maintains 60% uranium enrichment with 1-2 week breakout window, Strait closure threat backed by missile deployment, cyber attacks on US infrastructure, and Trump administration pursuing aggressive toll-based diplomacy\u2014all while Israel-Hezbollah combat intensifies in Lebanon and Syria despite ceasefire framework.",
+  "analysis_note": "US-Iran nuclear diplomacy in Switzerland proceeds as Iran closes Strait of Hormuz, enriches to 60% U-235 (1-2 week breakout), and escalates rhetoric amid simultaneous Israeli-Hezbollah-Gaza fighting; threat level at critical (9/10) with multiple proxy forces (Houthis, Hezbollah, PMF) active and US carrier presence reinforced.",
   "meta": {
-    "input_tokens": 27029,
+    "input_tokens": 27049,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 643,
-    "cost_usd": 0.0302,
-    "wall_time_s": 9.2,
-    "data_hash": "ffc480b0f338ce49aad1583399fb5a65c8a30778ee37ec01cd0f12a1de036da0"
+    "output_tokens": 747,
+    "cost_usd": 0.0308,
+    "wall_time_s": 10.7,
+    "data_hash": "082c38282305625d01c53d7458cf7c5d23740330bce9bfd43115f0dba8c2537e"
   }
 }
