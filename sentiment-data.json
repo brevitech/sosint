@@ -1,27 +1,32 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 51,
-    "neutral": 7,
+    "positive": 46,
+    "negative": 48,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 85,
+        "count": 77,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 30,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meloni",
-        "count": 18,
+        "count": 28,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 16,
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meloni",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -30,32 +35,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "italy",
+        "word": "switzerland",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "pool",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vance",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "obama",
+        "word": "amid",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "reflecting",
+        "word": "strait",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "hormuz",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -65,7 +60,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "photo",
+        "word": "talks",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -75,33 +70,28 @@
         "sentiment": "neutral"
       },
       {
+        "word": "obama",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pool",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "security",
         "count": 8,
         "sentiment": "positive"
       },
       {
-        "word": "next",
+        "word": "italy",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "block",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "air",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "force",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "made",
-        "count": 7,
+        "word": "next",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -110,12 +100,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "strait",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hormuz",
+        "word": "us-iran",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -153,59 +138,79 @@
         "word": "mou",
         "count": 7,
         "sentiment": "neutral"
+      },
+      {
+        "word": "becomes",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tells",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "air",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-21T08:25:17.849188+00:00",
-    "nextRefresh": "2026-06-21T08:25:17.849188+00:00",
+    "generatedAt": "2026-06-21T11:42:23.370818+00:00",
+    "nextRefresh": "2026-06-21T11:42:23.370818+00:00",
     "articlesAnalyzed": 363,
-    "matchedMentions": 196,
-    "uniquePersonalities": 57,
+    "matchedMentions": 186,
+    "uniquePersonalities": 54,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 62,
-    "negative": 17,
-    "neutral": 21,
+    "positive": 59,
+    "negative": 23,
+    "neutral": 18,
     "wordCloud": [
       {
+        "word": "india",
+        "count": 18,
+        "sentiment": "neutral"
+      },
+      {
         "word": "modi",
-        "count": 30,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "yoga",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "odi",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gets",
+        "word": "england",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "sharma",
+        "word": "jaiswal",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "tharoor",
-        "count": 8,
+        "word": "squad",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "neet",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tour",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -214,72 +219,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jaiswal",
+        "word": "cjp",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "cjp",
+        "word": "pradhan",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dipke",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "join",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "rohit",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "neet",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "yashasvi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "political",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "daughter",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "international",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "murmu",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "protest",
-        "count": 5,
+        "count": 6,
         "sentiment": "negative"
       },
       {
+        "word": "delhi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "jantar",
-        "count": 5,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "mantar",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -289,42 +259,72 @@
         "sentiment": "neutral"
       },
       {
-        "word": "virat",
+        "word": "makes",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "release",
+        "word": "team",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "security",
+        "word": "dipke",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cup",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sena",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "murmu",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leaders",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "right",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "join",
+        "count": 4,
         "sentiment": "positive"
       },
       {
-        "word": "ncp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "supriya",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sule",
+        "word": "goyal",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-21T08:25:29.828479+00:00",
-    "nextRefresh": "2026-06-21T08:25:29.828479+00:00",
-    "articlesAnalyzed": 478,
-    "matchedMentions": 116,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-06-21T11:42:36.892083+00:00",
+    "nextRefresh": "2026-06-21T11:42:36.892083+00:00",
+    "articlesAnalyzed": 463,
+    "matchedMentions": 111,
+    "uniquePersonalities": 52,
     "dataSource": "live-rss"
   }
 }
