@@ -1,12 +1,12 @@
 {
   "us": {
     "positive": 42,
-    "negative": 51,
-    "neutral": 7,
+    "negative": 50,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 93,
+        "count": 92,
         "sentiment": "neutral"
       },
       {
@@ -16,26 +16,31 @@
       },
       {
         "word": "meloni",
-        "count": 20,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "italy",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vance",
-        "count": 11,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "italy",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pool",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -45,32 +50,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pool",
+        "word": "zelenskyy",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "zelenskyy",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "photo",
-        "count": 8,
+        "word": "reflecting",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 8,
+        "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "strait",
-        "count": 8,
+        "word": "doj",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "hormuz",
+        "word": "photo",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -90,8 +90,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "reflecting",
-        "count": 7,
+        "word": "amid",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -100,17 +100,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "made",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "air",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "force",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "made",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -125,142 +125,122 @@
         "sentiment": "neutral"
       },
       {
-        "word": "center",
+        "word": "strait",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "closure",
+        "word": "hormuz",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "mou",
+        "word": "biden",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "release",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "tells",
-        "count": 6,
+        "word": "recordings",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "popularity",
-        "count": 6,
-        "sentiment": "positive"
+        "word": "round",
+        "count": 7,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-20T23:03:00.026321+00:00",
-    "nextRefresh": "2026-06-20T23:03:00.026321+00:00",
+    "generatedAt": "2026-06-21T03:37:35.375301+00:00",
+    "nextRefresh": "2026-06-21T03:37:35.375301+00:00",
     "articlesAnalyzed": 365,
-    "matchedMentions": 198,
-    "uniquePersonalities": 57,
+    "matchedMentions": 199,
+    "uniquePersonalities": 59,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
-    "negative": 32,
+    "positive": 58,
+    "negative": 25,
     "neutral": 17,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 26,
+        "count": 30,
         "sentiment": "neutral"
       },
       {
-        "word": "tharoor",
-        "count": 13,
+        "word": "yoga",
+        "count": 20,
         "sentiment": "neutral"
       },
       {
-        "word": "shinde",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sena",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
+        "word": "gill",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "sena",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tharoor",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "maharashtra",
+        "word": "international",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
+        "word": "shinde",
         "count": 8,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kolkata",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jaiswal",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "bjp",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "shiv",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "centre",
+        "word": "event",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "tiger",
+        "word": "yashasvi",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "affect",
+        "word": "record",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "eknath",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stature",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "party",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "gill",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "thackeray",
-        "count": 6,
+        "word": "leads",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -269,33 +249,33 @@
         "sentiment": "neutral"
       },
       {
-        "word": "say",
+        "word": "uddhav",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "shashi",
+        "word": "sharma",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "india",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "taunts",
+        "word": "shiv",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "split",
-        "count": 5,
+        "word": "road",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "dig",
-        "count": 5,
+        "word": "congress",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -304,27 +284,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mann",
+        "word": "party",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "pradhan",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "aap",
+        "word": "chopra",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "slams",
+        "word": "indian",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "captain",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leaves",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kohli",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-20T23:03:13.077627+00:00",
-    "nextRefresh": "2026-06-20T23:03:13.077627+00:00",
-    "articlesAnalyzed": 465,
-    "matchedMentions": 102,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-06-21T03:37:46.685707+00:00",
+    "nextRefresh": "2026-06-21T03:37:46.685707+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 108,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   }
 }
