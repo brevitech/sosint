@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-22T03:42:04.540103+00:00",
+  "generated_at": "2026-06-22T09:44:55.747326+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
+      "category": "nuclear",
+      "title": "Iran nuclear breakout time shortens to 1-2 weeks amid US-Iran talks",
+      "summary": "Global metrics confirm Iran's uranium enrichment at 60% U-235 with estimated breakout window of 1-2 weeks. Nuclear headlines reveal leaked US-Iran MoU text permits enriched uranium to remain in Iran subject to dilution; technical teams continuing overnight discussions in Switzerland on sanctions waivers and frozen assets. Represents acute escalation of nuclear timeline despite ongoing diplomatic engagement.",
+      "region": "Iran / Global",
+      "source": "global_metrics, telegram",
+      "confidence": "high"
+    },
+    {
+      "severity": "critical",
       "category": "incident",
-      "title": "Explosion at Qatar's Ras Laffan gas facility described as 'earthquake'",
-      "summary": "Middle East Spectator reports major explosion at Ras Laffan Industrial City, Qatar's largest gas facility, on 21 Jun 2026 with intensity described by locals as earthquake-level; blast heard in neighboring Bahrain. Cause remains unknown. Represents potential disruption to global LNG supply amid regional tensions.",
+      "title": "Major explosion at Qatar's Ras Laffan gas facility disrupts global LNG supply",
+      "summary": "Middle East Spectator reports massive explosion at Ras Laffan Industrial City (Qatar's largest gas facility) on 21 Jun with intensity described by locals as earthquake-level; blast audible in Bahrain. Cause unknown. Incident clustered with regional energy-infrastructure tensions and impacts global LNG markets amid US-Iran conflict.",
       "region": "Qatar / Persian Gulf",
-      "source": "telegram",
+      "source": "telegram, incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "sentiment_shift",
+      "title": "US sentiment turns sharply negative on Iran negotiations as Trump threatens hardline response",
+      "summary": "US sentiment analysis shows 52% negative sentiment (up from baseline) with top keywords 'Trump' (68 mentions), 'Iran' (35), 'talks' (21), 'deal' (15), and 'threatens' (8). NPR reports Trump vows to hit Iran 'very hard tonight' and take over oil/gas sectors; indicates public and official skepticism toward Vance-led Switzerland talks despite claimed 'encouraging progress.'",
+      "region": "Global",
+      "source": "sentiment, incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Houthis declare total ban on Israeli vessels in Red Sea",
-      "summary": "Multiple sources (Long War Journal, Al Arabiya, Anadolu Agency) report Houthi declaration of 'total ban' on Israeli-affiliated maritime navigation in Red Sea coupled with claim of missile attack on Israel. Escalates Houthi maritime interdiction campaign and threatens global shipping routes.",
-      "region": "Red Sea",
-      "source": "incidents, telegram",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "diplomatic",
-      "title": "Trump instructs Netanyahu to order partial Israeli withdrawal from Lebanon",
-      "summary": "Israel Army Radio reports Trump administration has instructed Netanyahu to execute 'partial' Israeli withdrawal from southern Lebanon amid Iranian pressure. Represents potential de-escalation signal but reflects external pressure on Israeli military posture.",
-      "region": "Northern Israel-Lebanon",
-      "source": "telegram",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
-      "category": "cyber",
-      "title": "Iran-linked group claims breach of FBI drone systems, threatens World Cup",
-      "summary": "France 24 and monitoring reports confirm Iran-linked cyber group claims successful hack of FBI drone systems with announced threats targeting World Cup infrastructure. Represents escalation of Iranian cyber operations against US critical assets and civilian targets.",
+      "title": "Iran cyber group claims FBI drone system breach, threatens World Cup infrastructure",
+      "summary": "France 24 and global metrics confirm Iran-linked cyber group claims successful hack of FBI drone command systems with announced threats targeting World Cup facilities. Represents escalation of Iranian cyber operations against US critical infrastructure and civilian events amid heightened threat environment.",
       "region": "Global",
       "source": "global_metrics",
       "confidence": "medium"
     },
     {
-      "severity": "medium",
+      "severity": "high",
       "category": "incident",
-      "title": "Israeli strikes continue in Lebanon killing multiple civilians post-ceasefire",
-      "summary": "Reuters, NBC News, and BBC report Israeli airstrikes in Beirut southern suburbs and broader Lebanon killing at least 20 civilians in hours following ceasefire announcement; MSF describes conditions in Nabatieh as 'death trap'. Indicates ceasefire fragility and ongoing humanitarian crisis.",
+      "title": "Israeli strikes continue killing civilians in Lebanon post-ceasefire announcement",
+      "summary": "Reuters, NBC, and BBC report Israeli airstrikes on Beirut southern suburbs and broader Lebanon killing at least 20 civilians within hours of ceasefire declaration. Named casualty: Mona Khalil, marine conservationist. MSF describes conditions in Nabatieh as 'death trap.' Contradicts de-escalation signal from Trump-Netanyahu withdrawal directive.",
       "region": "Northern Israel-Lebanon",
       "source": "incidents",
       "confidence": "high"
     }
   ],
-  "analysis_note": "Theater remains at critical escalation threshold with imminent US-Iran talks collapsing amid Trump threats, nuclear breakout window narrowing to 1-2 weeks, unprecedented carrier concentration deployed, and proxy forces (Houthis, Hezbollah, Iraqi militias) sustaining elevated activity across multiple fronts while Israeli operations continue despite formal ceasefire declarations.",
+  "analysis_note": "US-Iran talks show diplomatic progress but nuclear breakout timeline has compressed to 1-2 weeks; simultaneous Israeli strikes in Lebanon, Iranian cyber escalation, and unexplained critical infrastructure damage in Qatar signal entrenchment across multiple conflict vectors despite negotiation rhetoric.",
   "meta": {
-    "input_tokens": 21702,
+    "input_tokens": 18342,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 597,
-    "cost_usd": 0.0247,
-    "wall_time_s": 8.9,
-    "data_hash": "e357239e9c919d2b5c91cbbbe3226e9b19883b5665a49be318324a011bfc6e31"
+    "output_tokens": 691,
+    "cost_usd": 0.0218,
+    "wall_time_s": 10.9,
+    "data_hash": "d7c5e758da773990ccb5cbdc42bded8c15a2806b68144bf54d3ebc3bef4bfa1a"
   }
 }
