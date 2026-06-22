@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-21T19:24:33.170505+00:00",
+  "generated_at": "2026-06-22T03:42:04.540103+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Trump threatens strikes on Iran over Hezbollah support amid ceasefire collapse",
-      "summary": "Multiple outlets (Le Monde, Washington Post) report Trump administration threats to conduct military strikes against Iran in response to Hezbollah backing, coinciding with active Israeli airstrikes in Lebanon killing 20+ civilians and collapse of ceasefire negotiations. Represents imminent escalation risk during critical US-Iran diplomatic window.",
-      "region": "Iran / Northern Israel-Lebanon",
-      "source": "incidents, sentiment",
-      "confidence": "high"
-    },
-    {
-      "severity": "critical",
-      "category": "nuclear",
-      "title": "Iran nuclear breakout window narrows to 1-2 weeks with 60% enrichment",
-      "summary": "Global metrics confirm Iran uranium enrichment at 60% U-235 with estimated breakout time of 1-2 weeks. Multiple UN and foundation sources (Jerusalem Post, FDF) report leaked MoU text allowing enriched uranium to remain in-country pending dilution. Represents material acceleration of nuclear weapons capability amid failed diplomatic talks.",
-      "region": "Iran",
-      "source": "global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "diplomatic",
-      "title": "US-Iran talks paused; Trump threatens tolls on Strait of Hormuz",
-      "summary": "WSJ reports Iran pausing talks after Trump threats; France 24 reports Trump threatening economic tolls on Hormuz shipping if talks collapse. Iranian delegation under Ghalibaf arrived in Switzerland but negotiations now stalled. Represents breakdown of negotiation track and escalation of economic coercion.",
-      "region": "Global / Strait of Hormuz",
-      "source": "incidents, sentiment",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "asset_movement",
-      "title": "Three-carrier US posture reinforced; submarine deployed to Persian Gulf",
-      "summary": "Assets feed confirms USS Eisenhower, Abraham Lincoln, and Gerald R. Ford all operationally deployed (Red Sea, Arabian Sea, Mediterranean) with supporting destroyers (Carney, Mason, Laboon) and USS Florida submarine in Persian Gulf. Represents unprecedented carrier concentration in theater amid escalating Iran tensions and Houthi maritime threats.",
-      "region": "Red Sea / Persian Gulf / Arabian Sea",
-      "source": "assets, global_metrics",
+      "title": "Explosion at Qatar's Ras Laffan gas facility described as 'earthquake'",
+      "summary": "Middle East Spectator reports major explosion at Ras Laffan Industrial City, Qatar's largest gas facility, on 21 Jun 2026 with intensity described by locals as earthquake-level; blast heard in neighboring Bahrain. Cause remains unknown. Represents potential disruption to global LNG supply amid regional tensions.",
+      "region": "Qatar / Persian Gulf",
+      "source": "telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Houthis claim new Red Sea attacks; shipping ban on Israeli vessels extended",
-      "summary": "KTVB and Iran International confirm Yemen-based Houthis claim missile attack on Israel and reiterate ban on Israel-affiliated vessels in Red Sea. Proxy status marked 'Elevated - Multiple Recent Attacks' in global metrics. Coincides with three-carrier US deployment and elevated Hezbollah/PMF activity, creating maritime chokepoint risk.",
-      "region": "Red Sea / Strait of Hormuz",
-      "source": "incidents, global_metrics",
+      "title": "Houthis declare total ban on Israeli vessels in Red Sea",
+      "summary": "Multiple sources (Long War Journal, Al Arabiya, Anadolu Agency) report Houthi declaration of 'total ban' on Israeli-affiliated maritime navigation in Red Sea coupled with claim of missile attack on Israel. Escalates Houthi maritime interdiction campaign and threatens global shipping routes.",
+      "region": "Red Sea",
+      "source": "incidents, telegram",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "diplomatic",
+      "title": "Trump instructs Netanyahu to order partial Israeli withdrawal from Lebanon",
+      "summary": "Israel Army Radio reports Trump administration has instructed Netanyahu to execute 'partial' Israeli withdrawal from southern Lebanon amid Iranian pressure. Represents potential de-escalation signal but reflects external pressure on Israeli military posture.",
+      "region": "Northern Israel-Lebanon",
+      "source": "telegram",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
+      "category": "cyber",
+      "title": "Iran-linked group claims breach of FBI drone systems, threatens World Cup",
+      "summary": "France 24 and monitoring reports confirm Iran-linked cyber group claims successful hack of FBI drone systems with announced threats targeting World Cup infrastructure. Represents escalation of Iranian cyber operations against US critical assets and civilian targets.",
+      "region": "Global",
+      "source": "global_metrics",
+      "confidence": "medium"
+    },
+    {
+      "severity": "medium",
+      "category": "incident",
+      "title": "Israeli strikes continue in Lebanon killing multiple civilians post-ceasefire",
+      "summary": "Reuters, NBC News, and BBC report Israeli airstrikes in Beirut southern suburbs and broader Lebanon killing at least 20 civilians in hours following ceasefire announcement; MSF describes conditions in Nabatieh as 'death trap'. Indicates ceasefire fragility and ongoing humanitarian crisis.",
+      "region": "Northern Israel-Lebanon",
+      "source": "incidents",
       "confidence": "high"
     }
   ],
-  "analysis_note": "Critical convergence: Iran nuclear breakout window compressed to 1-2 weeks, US-Iran diplomatic talks stalled amid Trump escalation threats, Israeli-Lebanese ceasefire collapsed with 20+ dead in single strike, three-carrier US task force operationally deployed, and Houthi maritime threats elevated\u2014theater faces imminent multi-vector escalation risk.",
+  "analysis_note": "Theater remains at critical escalation threshold with imminent US-Iran talks collapsing amid Trump threats, nuclear breakout window narrowing to 1-2 weeks, unprecedented carrier concentration deployed, and proxy forces (Houthis, Hezbollah, Iraqi militias) sustaining elevated activity across multiple fronts while Israeli operations continue despite formal ceasefire declarations.",
   "meta": {
-    "input_tokens": 26443,
+    "input_tokens": 21702,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 709,
-    "cost_usd": 0.03,
-    "wall_time_s": 10.3,
-    "data_hash": "d4acf99f97537e2a46967b2f059cb50f0b6144e88ec0279fca7830eea01dad11"
+    "output_tokens": 597,
+    "cost_usd": 0.0247,
+    "wall_time_s": 8.9,
+    "data_hash": "e357239e9c919d2b5c91cbbbe3226e9b19883b5665a49be318324a011bfc6e31"
   }
 }
