@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-22T15:21:13.311199+00:00",
+  "generated_at": "2026-06-22T22:00:08.191089+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "incident",
-      "title": "Israel strikes Lebanon killing conservationist; ceasefire between Israel-Hezbollah destabilized",
-      "summary": "NBC News and AP News confirm Israeli airstrikes in Beirut's southern suburbs (Hezbollah stronghold) on 22 Jun killed at least 3 civilians including Lebanese conservationist Mona Khalil. Strikes breach de-escalation understanding and trigger potential Iranian/Hezbollah retaliation, threatening ongoing US-Iran peace talks in Switzerland.",
-      "region": "Northern Israel / Lebanon",
-      "source": "incidents, telegram",
+      "category": "nuclear",
+      "title": "US Treasury issues 60-day sanctions waiver on Iranian oil; nuclear talks advance",
+      "summary": "Middle East Spectator reports US Department of Treasury officially issued 60-day sanctions waiver on Iranian oil, petrochemical products, and gas effective until 21 August 2026, contingent on continued negotiations and final deal completion. Development signals material de-escalation in nuclear standoff despite Israel-Hezbollah tensions; enables Iran's economy to stabilize and reduces pressure for uranium enrichment acceleration.",
+      "region": "Iran / Global",
+      "source": "telegram, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "critical",
-      "category": "nuclear",
-      "title": "Iran nuclear breakout window remains 1-2 weeks; technical teams negotiate frozen assets overnight",
-      "summary": "Global metrics and telegram confirm Iran's uranium enrichment at 60% U-235 with breakout estimated at 1-2 weeks. Middle East Spectator reports technical teams continuing overnight discussions in Switzerland on sanctions waivers and Iran's frozen assets; leaked MoU permits enriched uranium to remain in Iran subject to dilution protocols.",
-      "region": "Iran / Global",
-      "source": "global_metrics, telegram",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "diplomatic",
-      "title": "Quadrilateral talks in Switzerland prioritize Lebanon ceasefire amid fragile US-Iran negotiations",
-      "summary": "Rybar and Middle East Spectator report quadrilateral talks (US, Iran, Qatar, Pakistan mediators) in Switzerland on 22 Jun focusing on Lebanon situation and Strait of Hormuz tensions. Central dispute: Israel-Hezbollah ceasefire stability; Iran closed Hormuz in response to Israeli strikes, threatening negotiations' continuity and global energy markets.",
-      "region": "Lebanon / Strait of Hormuz",
-      "source": "telegram, incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
       "category": "incident",
-      "title": "Houthis declare total ban on Israeli maritime transit in Red Sea",
-      "summary": "Al Arabiya, Long War Journal, and Anadolu Ajans confirm Houthi (Ansar Allah) announcement of complete maritime embargo on Israeli vessels in Red Sea, following recent escalations. Represents elevation of proxy naval operations and threatens critical shipping corridor amid US-Iran tensions.",
-      "region": "Red Sea / Yemen",
-      "source": "incidents, telegram",
+      "title": "Iran-Israel escalation cycle continues; six killed in Gaza strikes, tensions at critical threshold",
+      "summary": "BBC and Al Jazeera confirm Israeli strikes in Gaza killed at least six people including Al Jazeera cameraman on 22 Jun, following earlier Beirut strikes that killed conservationist Mona Khalil. Simultaneous strikes across Lebanon and Gaza coupled with Iran's missile bombardment warnings represent sustained tit-for-tat cycle threatening imminent broader regional war; threat level remains at 9 (Critical\u2014Imminent Escalation).",
+      "region": "Gaza / Lebanon / Iran",
+      "source": "incidents, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "asset_movement",
-      "title": "US reinforces Red Sea with three destroyers amid Houthi escalation",
-      "summary": "Asset feed confirms USS Carney, USS Mason, and USS Laboon (destroyers) deployed across Red Sea (lat 15-16\u00b0N, lon 41-42\u00b0E) alongside USS Dwight D. Eisenhower carrier and USS Bataan amphibious ship. Deployment responds to Houthi naval threats and supports Bab el-Mandeb maritime security as regional escalation intensifies.",
-      "region": "Red Sea / Persian Gulf",
-      "source": "assets",
+      "title": "Three US destroyers clustered in Red Sea amid Houthi escalation",
+      "summary": "Assets feed confirms USS Carney, USS Mason, and USS Laboon all deployed and positioned in Red Sea (15.24\u201315.88\u00b0N, 41.56\u201341.69\u00b0E) alongside USS Dwight D. Eisenhower carrier strike group. Positioning coincides with multiple Houthi announcements of total maritime ban on Israeli vessels and recent missile attacks on Israel, indicating US naval concentration to deter proxy naval operations and protect critical shipping.",
+      "region": "Red Sea / Yemen",
+      "source": "assets, incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "diplomatic",
+      "title": "Trump administration signals Iran missile arsenal retention in emerging deal framework",
+      "summary": "The Hill reports Trump administration defending allowance for Iran to maintain missile arsenal in emerging nuclear deal framework, marking significant shift from previous maximum-pressure policy. Signals willingness to accept Iranian conventional deterrent capacity as price for nuclear agreement, reducing Israel's negotiating leverage and potentially stabilizing medium-term US-Iran posture despite ongoing proxy tensions.",
+      "region": "Global / Iran",
+      "source": "incidents, sentiment",
+      "confidence": "medium"
+    },
+    {
+      "severity": "medium",
+      "category": "sentiment_shift",
+      "title": "US domestic sentiment cooling on Iran conflict; Trump dominance in news cycle",
+      "summary": "Sentiment analysis shows US positive sentiment at 52% with dominant keyword frequency: 'Trump' (54), 'Iran' (27), 'deal' (16), 'talks' (10). Reflects shift away from conflict rhetoric toward negotiation focus; Trump's statements on Iran deal and missile arsenal now frame public discourse more than military escalation language, suggesting domestic appetite for de-escalation despite Israel-Hezbollah flare-ups.",
+      "region": "Global",
+      "source": "sentiment",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "Strategic situation deteriorates: Israeli strikes on Lebanon rupture ceasefire and threaten Swiss talks; Iran's nuclear breakout window remains critical at 1-2 weeks; proxy forces (Houthis, Hezbollah) escalate maritime/air operations; US naval posture hardens in Red Sea and Gulf despite diplomatic engagement.",
+  "analysis_note": "US-Iran nuclear diplomacy showing concrete progress (sanctions waiver, deal framework) but overshadowed by Israel-led military strikes in Gaza and Lebanon; Houthi escalation in Red Sea and Iranian threat rhetoric maintain threat level at critical, requiring sustained diplomatic effort while managing Israel's security concerns and proxy retaliation risks.",
   "meta": {
-    "input_tokens": 22272,
+    "input_tokens": 22493,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 731,
-    "cost_usd": 0.0259,
-    "wall_time_s": 10.4,
-    "data_hash": "cb984afcbad026ee8fc0ad8e88a68e59b0e8e22a34f668bea4e2e4ddae8e4f43"
+    "output_tokens": 772,
+    "cost_usd": 0.0264,
+    "wall_time_s": 12.7,
+    "data_hash": "6225835dd768a66dc3ab1ca63b11133c94f777a80d444ed5b32ead442f8c7cf6"
   }
 }
