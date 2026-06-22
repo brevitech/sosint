@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-22T09:44:55.747326+00:00",
+  "generated_at": "2026-06-22T15:21:13.311199+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
+      "category": "incident",
+      "title": "Israel strikes Lebanon killing conservationist; ceasefire between Israel-Hezbollah destabilized",
+      "summary": "NBC News and AP News confirm Israeli airstrikes in Beirut's southern suburbs (Hezbollah stronghold) on 22 Jun killed at least 3 civilians including Lebanese conservationist Mona Khalil. Strikes breach de-escalation understanding and trigger potential Iranian/Hezbollah retaliation, threatening ongoing US-Iran peace talks in Switzerland.",
+      "region": "Northern Israel / Lebanon",
+      "source": "incidents, telegram",
+      "confidence": "high"
+    },
+    {
+      "severity": "critical",
       "category": "nuclear",
-      "title": "Iran nuclear breakout time shortens to 1-2 weeks amid US-Iran talks",
-      "summary": "Global metrics confirm Iran's uranium enrichment at 60% U-235 with estimated breakout window of 1-2 weeks. Nuclear headlines reveal leaked US-Iran MoU text permits enriched uranium to remain in Iran subject to dilution; technical teams continuing overnight discussions in Switzerland on sanctions waivers and frozen assets. Represents acute escalation of nuclear timeline despite ongoing diplomatic engagement.",
+      "title": "Iran nuclear breakout window remains 1-2 weeks; technical teams negotiate frozen assets overnight",
+      "summary": "Global metrics and telegram confirm Iran's uranium enrichment at 60% U-235 with breakout estimated at 1-2 weeks. Middle East Spectator reports technical teams continuing overnight discussions in Switzerland on sanctions waivers and Iran's frozen assets; leaked MoU permits enriched uranium to remain in Iran subject to dilution protocols.",
       "region": "Iran / Global",
       "source": "global_metrics, telegram",
       "confidence": "high"
     },
     {
-      "severity": "critical",
-      "category": "incident",
-      "title": "Major explosion at Qatar's Ras Laffan gas facility disrupts global LNG supply",
-      "summary": "Middle East Spectator reports massive explosion at Ras Laffan Industrial City (Qatar's largest gas facility) on 21 Jun with intensity described by locals as earthquake-level; blast audible in Bahrain. Cause unknown. Incident clustered with regional energy-infrastructure tensions and impacts global LNG markets amid US-Iran conflict.",
-      "region": "Qatar / Persian Gulf",
+      "severity": "high",
+      "category": "diplomatic",
+      "title": "Quadrilateral talks in Switzerland prioritize Lebanon ceasefire amid fragile US-Iran negotiations",
+      "summary": "Rybar and Middle East Spectator report quadrilateral talks (US, Iran, Qatar, Pakistan mediators) in Switzerland on 22 Jun focusing on Lebanon situation and Strait of Hormuz tensions. Central dispute: Israel-Hezbollah ceasefire stability; Iran closed Hormuz in response to Israeli strikes, threatening negotiations' continuity and global energy markets.",
+      "region": "Lebanon / Strait of Hormuz",
       "source": "telegram, incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "sentiment_shift",
-      "title": "US sentiment turns sharply negative on Iran negotiations as Trump threatens hardline response",
-      "summary": "US sentiment analysis shows 52% negative sentiment (up from baseline) with top keywords 'Trump' (68 mentions), 'Iran' (35), 'talks' (21), 'deal' (15), and 'threatens' (8). NPR reports Trump vows to hit Iran 'very hard tonight' and take over oil/gas sectors; indicates public and official skepticism toward Vance-led Switzerland talks despite claimed 'encouraging progress.'",
-      "region": "Global",
-      "source": "sentiment, incidents",
+      "category": "incident",
+      "title": "Houthis declare total ban on Israeli maritime transit in Red Sea",
+      "summary": "Al Arabiya, Long War Journal, and Anadolu Ajans confirm Houthi (Ansar Allah) announcement of complete maritime embargo on Israeli vessels in Red Sea, following recent escalations. Represents elevation of proxy naval operations and threatens critical shipping corridor amid US-Iran tensions.",
+      "region": "Red Sea / Yemen",
+      "source": "incidents, telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Iran cyber group claims FBI drone system breach, threatens World Cup infrastructure",
-      "summary": "France 24 and global metrics confirm Iran-linked cyber group claims successful hack of FBI drone command systems with announced threats targeting World Cup facilities. Represents escalation of Iranian cyber operations against US critical infrastructure and civilian events amid heightened threat environment.",
-      "region": "Global",
-      "source": "global_metrics",
+      "category": "asset_movement",
+      "title": "US reinforces Red Sea with three destroyers amid Houthi escalation",
+      "summary": "Asset feed confirms USS Carney, USS Mason, and USS Laboon (destroyers) deployed across Red Sea (lat 15-16\u00b0N, lon 41-42\u00b0E) alongside USS Dwight D. Eisenhower carrier and USS Bataan amphibious ship. Deployment responds to Houthi naval threats and supports Bab el-Mandeb maritime security as regional escalation intensifies.",
+      "region": "Red Sea / Persian Gulf",
+      "source": "assets",
       "confidence": "medium"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Israeli strikes continue killing civilians in Lebanon post-ceasefire announcement",
-      "summary": "Reuters, NBC, and BBC report Israeli airstrikes on Beirut southern suburbs and broader Lebanon killing at least 20 civilians within hours of ceasefire declaration. Named casualty: Mona Khalil, marine conservationist. MSF describes conditions in Nabatieh as 'death trap.' Contradicts de-escalation signal from Trump-Netanyahu withdrawal directive.",
-      "region": "Northern Israel-Lebanon",
-      "source": "incidents",
-      "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran talks show diplomatic progress but nuclear breakout timeline has compressed to 1-2 weeks; simultaneous Israeli strikes in Lebanon, Iranian cyber escalation, and unexplained critical infrastructure damage in Qatar signal entrenchment across multiple conflict vectors despite negotiation rhetoric.",
+  "analysis_note": "Strategic situation deteriorates: Israeli strikes on Lebanon rupture ceasefire and threaten Swiss talks; Iran's nuclear breakout window remains critical at 1-2 weeks; proxy forces (Houthis, Hezbollah) escalate maritime/air operations; US naval posture hardens in Red Sea and Gulf despite diplomatic engagement.",
   "meta": {
-    "input_tokens": 18342,
+    "input_tokens": 22272,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 691,
-    "cost_usd": 0.0218,
-    "wall_time_s": 10.9,
-    "data_hash": "d7c5e758da773990ccb5cbdc42bded8c15a2806b68144bf54d3ebc3bef4bfa1a"
+    "output_tokens": 731,
+    "cost_usd": 0.0259,
+    "wall_time_s": 10.4,
+    "data_hash": "cb984afcbad026ee8fc0ad8e88a68e59b0e8e22a34f668bea4e2e4ddae8e4f43"
   }
 }
