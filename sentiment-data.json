@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 53,
-    "negative": 38,
-    "neutral": 9,
+    "positive": 49,
+    "negative": 44,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,7 +11,17 @@
       },
       {
         "word": "iran",
-        "count": 28,
+        "count": 35,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 17,
+        "sentiment": "negative"
+      },
+      {
+        "word": "senate",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -20,22 +30,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
+        "word": "resolution",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "powers",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "billion",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cup",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -50,17 +70,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "billion",
-        "count": 9,
+        "word": "administration",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "appeals",
-        "count": 7,
+        "word": "rubio",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "deal",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "musk",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "federal",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -75,17 +105,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "federal",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "allows",
+        "word": "appeals",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -95,12 +115,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "political",
+        "word": "guthrie",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "rubio",
+        "word": "sanctions",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -110,68 +135,43 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "power",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "face",
+        "word": "york",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "allows",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "vote",
+        "word": "conflict",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reactors",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "prime",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "starmer",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fast-track",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deportation",
-        "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-23T19:07:57.174976+00:00",
-    "nextRefresh": "2026-06-23T19:07:57.174976+00:00",
-    "articlesAnalyzed": 352,
-    "matchedMentions": 156,
-    "uniquePersonalities": 49,
+    "generatedAt": "2026-06-23T21:28:32.477431+00:00",
+    "nextRefresh": "2026-06-23T21:28:32.477431+00:00",
+    "articlesAnalyzed": 350,
+    "matchedMentions": 155,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 32,
-    "negative": 44,
-    "neutral": 24,
+    "positive": 37,
+    "negative": 42,
+    "neutral": 21,
     "wordCloud": [
       {
-        "word": "murder",
+        "word": "modi",
         "count": 9,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "whatsapp",
@@ -184,12 +184,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pune",
+        "word": "murder",
         "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "qatar",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "indians",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blast",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pune",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -199,12 +214,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "man",
+        "word": "calls",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "pant",
+        "word": "india",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "man",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -214,22 +234,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "qatar",
+        "word": "fort",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "indians",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "blast",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cops",
+        "word": "emir",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -239,52 +249,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fiancee",
+        "word": "cops",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "pradhan",
+        "word": "fiancée",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
+        "word": "ras",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bali",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trip",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "passport",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "adani",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cites",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
+        "word": "laffan",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -304,27 +284,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ipl",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "message",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "kunal",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kejriwal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "doval",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "key",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lover",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "death",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "pushed",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-23T19:08:11.114566+00:00",
-    "nextRefresh": "2026-06-23T19:08:11.114566+00:00",
-    "articlesAnalyzed": 466,
-    "matchedMentions": 103,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-06-23T21:28:43.761893+00:00",
+    "nextRefresh": "2026-06-23T21:28:43.761893+00:00",
+    "articlesAnalyzed": 465,
+    "matchedMentions": 98,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   }
 }
