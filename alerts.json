@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-22T22:00:08.191089+00:00",
+  "generated_at": "2026-06-23T06:46:32.990225+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "US Treasury issues 60-day sanctions waiver on Iranian oil; nuclear talks advance",
-      "summary": "Middle East Spectator reports US Department of Treasury officially issued 60-day sanctions waiver on Iranian oil, petrochemical products, and gas effective until 21 August 2026, contingent on continued negotiations and final deal completion. Development signals material de-escalation in nuclear standoff despite Israel-Hezbollah tensions; enables Iran's economy to stabilize and reduces pressure for uranium enrichment acceleration.",
+      "title": "Iran nuclear breakout window narrows to 1-2 weeks amid stalled talks",
+      "summary": "Global metrics confirm Iran's uranium enrichment remains at 60% U-235 with estimated breakout time of ~1-2 weeks. Despite 60-day US Treasury sanctions waiver (effective until 21 August 2026) and ongoing US-Iran negotiations, technical work on dilution and stockpile disposal remains incomplete. Heightened risk of unilateral Iranian acceleration if diplomatic momentum stalls further.",
       "region": "Iran / Global",
-      "source": "telegram, global_metrics",
+      "source": "global_metrics, telegram",
       "confidence": "high"
     },
     {
-      "severity": "critical",
+      "severity": "high",
       "category": "incident",
-      "title": "Iran-Israel escalation cycle continues; six killed in Gaza strikes, tensions at critical threshold",
-      "summary": "BBC and Al Jazeera confirm Israeli strikes in Gaza killed at least six people including Al Jazeera cameraman on 22 Jun, following earlier Beirut strikes that killed conservationist Mona Khalil. Simultaneous strikes across Lebanon and Gaza coupled with Iran's missile bombardment warnings represent sustained tit-for-tat cycle threatening imminent broader regional war; threat level remains at 9 (Critical\u2014Imminent Escalation).",
-      "region": "Gaza / Lebanon / Iran",
-      "source": "incidents, global_metrics",
+      "title": "Trump threatens immediate Iran strikes; negotiations pause amid escalation rhetoric",
+      "summary": "Incidents feed reports Trump administration issuing explicit threats to 'hit Iran very hard tonight' and seize oil/gas sectors, causing scheduled US-Iran talks in Switzerland to pause. Multiple outlets (NPR, Fortune, Radio Free Europe) confirm threats precede dialogue, destabilizing fragile ceasefire and raising risk of accidental escalation during sensitive nuclear negotiations.",
+      "region": "Iran / Global",
+      "source": "incidents, sentiment",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "asset_movement",
-      "title": "Three US destroyers clustered in Red Sea amid Houthi escalation",
-      "summary": "Assets feed confirms USS Carney, USS Mason, and USS Laboon all deployed and positioned in Red Sea (15.24\u201315.88\u00b0N, 41.56\u201341.69\u00b0E) alongside USS Dwight D. Eisenhower carrier strike group. Positioning coincides with multiple Houthi announcements of total maritime ban on Israeli vessels and recent missile attacks on Israel, indicating US naval concentration to deter proxy naval operations and protect critical shipping.",
-      "region": "Red Sea / Yemen",
-      "source": "assets, incidents",
+      "title": "Four US carriers deployed across critical zones; largest naval concentration since 2022",
+      "summary": "Assets feed confirms USS Dwight D. Eisenhower (Red Sea, 15.78\u00b0N 42.22\u00b0E), USS Abraham Lincoln (Arabian Sea), USS Gerald R. Ford (Mediterranean), and USS Theodore Roosevelt (Pacific) all simultaneously deployed alongside three Red Sea destroyers (Carney, Mason, Laboon) and amphibious assets. Positioning directly correlates with Houthi 'total ban' declarations on Israeli shipping and Iranian missile bombardment warnings.",
+      "region": "Red Sea / Arabian Sea / Persian Gulf / Mediterranean",
+      "source": "assets",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "diplomatic",
-      "title": "Trump administration signals Iran missile arsenal retention in emerging deal framework",
-      "summary": "The Hill reports Trump administration defending allowance for Iran to maintain missile arsenal in emerging nuclear deal framework, marking significant shift from previous maximum-pressure policy. Signals willingness to accept Iranian conventional deterrent capacity as price for nuclear agreement, reducing Israel's negotiating leverage and potentially stabilizing medium-term US-Iran posture despite ongoing proxy tensions.",
-      "region": "Global / Iran",
-      "source": "incidents, sentiment",
-      "confidence": "medium"
+      "category": "telegram_signal",
+      "title": "Houthis escalate maritime blockade; declare 'total ban' on Israeli vessels in Red Sea",
+      "summary": "Multiple Telegram sources (Long War Journal, Reuters, Al Arabiya, Anadolu Agency) confirm Houthis announced total maritime ban on Israeli shipping in Red Sea effective immediately. Recent drone and missile attacks on Israel coordinate with declaration, signaling coordinated proxy escalation tied to Iran-Israel ceasefire collapse and Trump's renewed threat rhetoric.",
+      "region": "Red Sea / Yemen",
+      "source": "telegram, incidents",
+      "confidence": "high"
     },
     {
       "severity": "medium",
       "category": "sentiment_shift",
-      "title": "US domestic sentiment cooling on Iran conflict; Trump dominance in news cycle",
-      "summary": "Sentiment analysis shows US positive sentiment at 52% with dominant keyword frequency: 'Trump' (54), 'Iran' (27), 'deal' (16), 'talks' (10). Reflects shift away from conflict rhetoric toward negotiation focus; Trump's statements on Iran deal and missile arsenal now frame public discourse more than military escalation language, suggesting domestic appetite for de-escalation despite Israel-Hezbollah flare-ups.",
+      "title": "US negative sentiment spikes to 52%; Trump-Iran tensions dominate discourse",
+      "summary": "Sentiment analysis shows US negative sentiment at 52% (up from recent baseline), with 'Trump' (69 mentions), 'Iran' (30 mentions), and 'judge' (20 mentions) dominating word cloud. Surge reflects combination of Trump's explicit strike threats, ongoing negotiations, and legal/political controversy, signaling polarization and public anxiety over imminent regional conflict.",
       "region": "Global",
       "source": "sentiment",
-      "confidence": "medium"
+      "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran nuclear diplomacy showing concrete progress (sanctions waiver, deal framework) but overshadowed by Israel-led military strikes in Gaza and Lebanon; Houthi escalation in Red Sea and Iranian threat rhetoric maintain threat level at critical, requiring sustained diplomatic effort while managing Israel's security concerns and proxy retaliation risks.",
+  "analysis_note": "Regional escalation cycle accelerates as Trump administration combines explicit military threats with nuclear diplomacy, narrowing Iran's breakout window to 1-2 weeks while US naval force reaches four-carrier deployment; proxy actors (Houthis, Hezbollah) simultaneously escalate amid fragile ceasefire collapse.",
   "meta": {
-    "input_tokens": 22493,
+    "input_tokens": 20785,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 772,
-    "cost_usd": 0.0264,
-    "wall_time_s": 12.7,
-    "data_hash": "6225835dd768a66dc3ab1ca63b11133c94f777a80d444ed5b32ead442f8c7cf6"
+    "output_tokens": 757,
+    "cost_usd": 0.0246,
+    "wall_time_s": 11.4,
+    "data_hash": "70bfaca8ccaa2e8ab6f6acffb9b4145c262b8aebef1ee1ddf0e3c45e9a143ce4"
   }
 }
