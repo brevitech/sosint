@@ -1,27 +1,27 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 52,
-    "neutral": 4,
+    "positive": 52,
+    "negative": 45,
+    "neutral": 3,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 69,
+        "count": 66,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 30,
+        "count": 28,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 20,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
-        "word": "federal",
-        "count": 16,
+        "word": "deal",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -30,23 +30,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
-        "count": 13,
+        "word": "talks",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "cup",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vance",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 11,
+        "word": "federal",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -55,7 +45,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "administration",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "starmer",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cup",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "peace",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "vance",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -65,44 +80,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "starmer",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "blocks",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "military",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "messi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "data",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "presidential",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "security",
-        "count": 6,
+        "count": 7,
         "sentiment": "positive"
+      },
+      {
+        "word": "faces",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "center",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "hegseth",
@@ -115,36 +110,6 @@
         "sentiment": "positive"
       },
       {
-        "word": "congress",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "database",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "citizenship",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "voters",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "oil",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "nuclear",
         "count": 5,
         "sentiment": "neutral"
@@ -153,85 +118,150 @@
         "word": "inspectors",
         "count": 5,
         "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-06-23T06:46:09.777151+00:00",
-    "nextRefresh": "2026-06-23T06:46:09.777151+00:00",
-    "articlesAnalyzed": 369,
-    "matchedMentions": 180,
-    "uniquePersonalities": 51,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 44,
-    "negative": 41,
-    "neutral": 15,
-    "wordCloud": [
+      },
       {
-        "word": "sena",
-        "count": 12,
+        "word": "burnham",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "faction",
-        "count": 11,
+        "word": "crackdown",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "shinde",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ubt",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fire",
-        "count": 7,
+        "word": "blocks",
+        "count": 5,
         "sentiment": "negative"
       },
       {
+        "word": "subpoenas",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "walz",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minnesota",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "military",
+        "count": 5,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-06-23T10:34:01.844922+00:00",
+    "nextRefresh": "2026-06-23T10:34:01.844922+00:00",
+    "articlesAnalyzed": 344,
+    "matchedMentions": 173,
+    "uniquePersonalities": 53,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 47,
+    "negative": 28,
+    "neutral": 25,
+    "wordCloud": [
+      {
         "word": "tmc",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "mps",
+        "word": "minister",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "thackeray",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "operation",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "join",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "lucknow",
-        "count": 5,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "england",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dmk",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "party",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "trade",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "faction",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "thackeray",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pant",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kuldeep",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reddy",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ireland",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rebels",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "fresh",
+        "count": 5,
+        "sentiment": "positive"
       },
       {
         "word": "chief",
@@ -239,92 +269,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "down",
+        "word": "deal",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "roy",
+        "word": "story",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "kumar",
+        "word": "wife",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "party",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "reddy",
+        "word": "looking",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ireland",
+        "word": "husband",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "rebels",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "mamata",
+        "word": "chengalpattu",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "court",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "tiger",
+        "word": "jabs",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "six",
+        "word": "education",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "uddhav",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chairperson",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "whatsapp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "founder",
+        "word": "pradhan",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-23T06:46:20.786500+00:00",
-    "nextRefresh": "2026-06-23T06:46:20.786500+00:00",
-    "articlesAnalyzed": 481,
-    "matchedMentions": 81,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-06-23T10:34:13.888975+00:00",
+    "nextRefresh": "2026-06-23T10:34:13.888975+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 93,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   }
 }
