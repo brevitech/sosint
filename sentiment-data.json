@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 48,
+    "positive": 51,
     "negative": 46,
-    "neutral": 6,
+    "neutral": 3,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,7 +11,12 @@
       },
       {
         "word": "iran",
-        "count": 35,
+        "count": 27,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -20,37 +25,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "federal",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
         "word": "court",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
         "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "nuclear",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "allows",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -60,12 +40,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "senate",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "powers",
+        "word": "federal",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "allows",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cup",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -75,39 +70,54 @@
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
+        "word": "gop",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "south",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "appeals",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reflecting",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pool",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "resolution",
+        "word": "claims",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "rubio",
+        "word": "wins",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "primary",
         "count": 7,
         "sentiment": "neutral"
+      },
+      {
+        "word": "heads",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "immigration",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrests",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "ronaldo",
@@ -115,12 +125,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "powers",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "rubio",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -130,153 +140,98 @@
         "sentiment": "neutral"
       },
       {
-        "word": "housing",
+        "word": "admiral",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "hegseth",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
+        "word": "carolina",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "billion",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "guthrie",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sanctions",
-        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-24T02:47:02.505215+00:00",
-    "nextRefresh": "2026-06-24T02:47:02.505215+00:00",
+    "generatedAt": "2026-06-24T06:43:18.280749+00:00",
+    "nextRefresh": "2026-06-24T06:43:18.280749+00:00",
     "articlesAnalyzed": 351,
-    "matchedMentions": 165,
-    "uniquePersonalities": 46,
+    "matchedMentions": 158,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 38,
-    "negative": 45,
-    "neutral": 17,
+    "positive": 41,
+    "negative": 43,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "murder",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "pune",
-        "count": 8,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 7,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "odi",
-        "count": 7,
+        "word": "pant",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "claim",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fiancée",
-        "count": 5,
+        "word": "adani",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "meets",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slams",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "viral",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "speech",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "crore",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "guarantee",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "kohli",
+        "word": "congress",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "rohit",
+        "word": "goes",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "ex-india",
+        "word": "pune",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "star",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "makes",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bold",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "failed",
+        "word": "murder",
         "count": 5,
         "sentiment": "negative"
-      },
-      {
-        "word": "fort",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "qatar",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indians",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "blast",
-        "count": 4,
-        "sentiment": "neutral"
       },
       {
         "word": "address",
@@ -284,27 +239,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "arrested",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "crore",
+        "word": "amid",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "man",
+        "word": "saal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "khelenge",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "goenka",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "prediction",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ketan",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leaders",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "siya",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "goyal",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "family",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "padma",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -317,14 +307,24 @@
         "word": "england",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "unveils",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nuclear",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-24T02:47:13.470288+00:00",
-    "nextRefresh": "2026-06-24T02:47:13.470288+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 86,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-06-24T06:43:30.877824+00:00",
+    "nextRefresh": "2026-06-24T06:43:30.877824+00:00",
+    "articlesAnalyzed": 476,
+    "matchedMentions": 87,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   }
 }
