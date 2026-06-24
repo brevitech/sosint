@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-24T16:14:37.693940+00:00",
+  "generated_at": "2026-06-24T22:13:43.942518+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran nuclear breakout time estimated at 1-2 weeks amid negotiations",
-      "summary": "Global metrics confirm Iran's uranium enrichment at 60% U-235 with breakout timeline compressed to approximately 1-2 weeks. This represents imminent nuclear weapons capability threshold occurring concurrently with active US-Iran negotiations in B\u00fcrgenstock, creating acute strategic risk (global_metrics).",
+      "title": "Iran nuclear breakout timeline narrows amid memorandum contradictions",
+      "summary": "Rybar reports (145K views) that 17 June memorandum halted 110-day conflict but contains six structural contradictions risking renewed escalation. Combined with global_metrics confirming 60% U-235 enrichment and 1\u20132 week breakout window, ambiguities over $6 billion sovereignty and inspector access create imminent nuclear threshold risk during active US-Iran negotiations (telegram, global_metrics).",
       "region": "Iran",
-      "source": "global_metrics",
+      "source": "telegram,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel continues Beirut strikes despite Trump administration warning",
-      "summary": "Israel conducted fresh airstrikes on Beirut's southern suburbs, killing at least 3 civilians, and struck southern Lebanon killing 2 more including sea turtle conservationist Mona Khalil. Operations continue despite Trump's explicit earlier warnings against escalation and risk triggering Iranian retaliation (incidents).",
-      "region": "Lebanon / Israel",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "diplomatic",
-      "title": "Iran and Oman establish joint Strait of Hormuz administration with maritime fees",
-      "summary": "Middle East Spectator reports (~51K views, confirmed/breaking flags) that Iran and Oman released joint statement establishing shared governance over Strait of Hormuz with new maritime service fees per international standards. Rubio responded that US will not permit toll charges under any final deal, indicating diplomatic flashpoint (telegram, incidents).",
-      "region": "Strait of Hormuz",
+      "title": "Senate votes to curb Trump's Iran war powers with four GOP defections",
+      "summary": "Rybar reports (140K views) US Senate passed resolution 50\u201348 restricting presidential military authority over Iran using War Powers Act loophole, with four Republicans joining Democrats. Vote signals domestic constraint on escalation but reflects deep division as negotiations continue in Switzerland (telegram, incidents).",
+      "region": "Global",
       "source": "telegram,incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "Pakistan PM claims Iran agreed to future ballistic missile negotiations",
-      "summary": "Middle East Spectator reports (~44K views) Pakistan's PM Shehbaz Sharif announced Iran has agreed to hold negotiations on its ballistic missile program in the future. Represents potential diplomatic opening on weapons systems previously off-limits in talks (telegram).",
+      "category": "cyber",
+      "title": "Iran-linked group claims FBI drone hack; cyber operations escalate amid talks",
+      "summary": "Global metrics cyber headline reports Iran-linked group claims compromise of FBI drones and threatens World Cup operations. Escalation in cyber domain parallels ongoing Strait of Hormuz tensions and nuclear negotiations, suggesting proxy coordination across multiple domains (global_metrics).",
       "region": "Global",
-      "source": "telegram",
+      "source": "global_metrics",
       "confidence": "medium"
     },
     {
       "severity": "high",
+      "category": "incident",
+      "title": "Israeli strikes continue in Lebanon despite Washington ceasefire pressure",
+      "summary": "Multiple incidents sources (NBC News, Al Jazeera, BBC) confirm Israeli strikes killed at least 5 in southern Lebanon and Beirut suburbs, including environmentalist Mona Khalil. Operations persist despite Trump administration warnings and Senate pushback, indicating unilateral escalation outside negotiation framework (incidents).",
+      "region": "Lebanon / Israel",
+      "source": "incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "medium",
       "category": "sentiment_shift",
-      "title": "US sentiment on Iran remains negative amid 'Trump-Iran deal' discourse",
-      "summary": "US sentiment holds 49% negative vs 45% positive with 'trump' (55 mentions) and 'iran' (19 mentions) as top words alongside 'war,' 'deal,' and 'powers.' Rubio appears prominently in discourse. Persistent negative sentiment despite negotiation window suggests public skepticism of diplomatic resolution (sentiment).",
+      "title": "US negative sentiment on Iran climbs to 50% amid war/judge discourse",
+      "summary": "Sentiment analysis shows US negative sentiment at 50% vs 46% positive, with 'trump' (61 mentions), 'judge' (20), and 'war' (11) topping word clouds. Shift reflects polarized domestic debate over presidential Iran authority and judicial intervention, constraining unified negotiation posture (sentiment).",
       "region": "Global",
       "source": "sentiment",
-      "confidence": "medium"
+      "confidence": "high"
     }
   ],
-  "analysis_note": "Critical juncture: Iran's nuclear breakout window has collapsed to 1-2 weeks while US-Iran negotiations proceed in B\u00fcrgenstock, overlaid by Israeli continued strikes in Lebanon and emerging Iran-Oman maritime governance challenge to US interests.",
+  "analysis_note": "US-Iran nuclear diplomacy faces compounding pressures: imminent 1\u20132 week breakout window, Senate constraint on Trump's military authority, Israeli unilateral strikes, cyber escalation, and a memorandum riddled with contradictions that either party can exploit for justification of renewed hostilities.",
   "meta": {
-    "input_tokens": 20700,
+    "input_tokens": 19090,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 618,
-    "cost_usd": 0.0238,
-    "wall_time_s": 9.1,
-    "data_hash": "b57e068bcaaa38da6d76e2a142e19888ef8ca25c57e501055315908041432721"
+    "output_tokens": 641,
+    "cost_usd": 0.0223,
+    "wall_time_s": 10.3,
+    "data_hash": "61ea98d8adf6213deb2f8f4dd11c35e37608947e026f5267b1e336f82ef74714"
   }
 }
