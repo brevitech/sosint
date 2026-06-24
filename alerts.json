@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-24T10:19:21.950152+00:00",
+  "generated_at": "2026-06-24T16:14:37.693940+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "incident",
-      "title": "Iran's supreme leader killed in major US-Israel coordinated strike",
-      "summary": "AP News reports Iran's supreme leader has been killed in a joint US-Israel military operation. This represents the most significant escalation in the conflict to date and directly triggered Iran's halt of ongoing nuclear negotiations with the US in Switzerland. Multiple incident reports confirm the strike occurred amid broader military operations (incidents feed).",
+      "category": "nuclear",
+      "title": "Iran nuclear breakout time estimated at 1-2 weeks amid negotiations",
+      "summary": "Global metrics confirm Iran's uranium enrichment at 60% U-235 with breakout timeline compressed to approximately 1-2 weeks. This represents imminent nuclear weapons capability threshold occurring concurrently with active US-Iran negotiations in B\u00fcrgenstock, creating acute strategic risk (global_metrics).",
       "region": "Iran",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "critical",
-      "category": "diplomatic",
-      "title": "Iran halts US nuclear talks following Israeli Beirut strike",
-      "summary": "Iran has suspended nuclear negotiations with the US following Israeli airstrikes on Beirut, with MSN and multiple outlets confirming the decision. Trump administration has warned Israel against further attacks, fearing collapse of imminent deal. Concurrent developments show US offering to unblock $12 billion in frozen Iranian assets in two tranches to incentivize talks resumption (incidents, telegram).",
-      "region": "Iran / Global",
-      "source": "incidents,telegram",
+      "source": "global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel escalates Lebanon operations; kills two in Sidon airstrike",
-      "summary": "Israeli military conducted strike on vehicles in Sidon, Lebanon, killing at least two, contradicting Trump's earlier warning against such attacks. Concurrent Beirut suburbs strikes reported by multiple sources (BBC, NBC News, Al Jazeera). Operations continue despite diplomatic pressure and risks further Iran retaliation (incidents).",
+      "title": "Israel continues Beirut strikes despite Trump administration warning",
+      "summary": "Israel conducted fresh airstrikes on Beirut's southern suburbs, killing at least 3 civilians, and struck southern Lebanon killing 2 more including sea turtle conservationist Mona Khalil. Operations continue despite Trump's explicit earlier warnings against escalation and risk triggering Iranian retaliation (incidents).",
       "region": "Lebanon / Israel",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "Iran and Oman announce joint Strait of Hormuz administration with maritime fees",
-      "summary": "Middle East Spectator reports (~48K views) that Iran and Oman have issued joint statement establishing shared control over Strait of Hormuz with new maritime service fees per international standards. This represents strategic shift in regional maritime governance amid US-Iran tensions and could disrupt global shipping (telegram).",
+      "category": "diplomatic",
+      "title": "Iran and Oman establish joint Strait of Hormuz administration with maritime fees",
+      "summary": "Middle East Spectator reports (~51K views, confirmed/breaking flags) that Iran and Oman released joint statement establishing shared governance over Strait of Hormuz with new maritime service fees per international standards. Rubio responded that US will not permit toll charges under any final deal, indicating diplomatic flashpoint (telegram, incidents).",
       "region": "Strait of Hormuz",
+      "source": "telegram,incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "telegram_signal",
+      "title": "Pakistan PM claims Iran agreed to future ballistic missile negotiations",
+      "summary": "Middle East Spectator reports (~44K views) Pakistan's PM Shehbaz Sharif announced Iran has agreed to hold negotiations on its ballistic missile program in the future. Represents potential diplomatic opening on weapons systems previously off-limits in talks (telegram).",
+      "region": "Global",
       "source": "telegram",
       "confidence": "medium"
     },
     {
       "severity": "high",
-      "category": "nuclear",
-      "title": "IAEA inspectors to visit Iran nuclear sites under interim deal framework",
-      "summary": "Multiple sources (IAEA chief statements, UN News, The Independent, wtsp.com) confirm that UN nuclear inspectors will visit Iran's nuclear sites as part of emerging peace agreement. This marks potential breakthrough after months of Iran rejection of IAEA access, though specifics on damaged site inspections remain disputed (incidents, global_metrics).",
-      "region": "Iran",
-      "source": "incidents,global_metrics",
+      "category": "sentiment_shift",
+      "title": "US sentiment on Iran remains negative amid 'Trump-Iran deal' discourse",
+      "summary": "US sentiment holds 49% negative vs 45% positive with 'trump' (55 mentions) and 'iran' (19 mentions) as top words alongside 'war,' 'deal,' and 'powers.' Rubio appears prominently in discourse. Persistent negative sentiment despite negotiation window suggests public skepticism of diplomatic resolution (sentiment).",
+      "region": "Global",
+      "source": "sentiment",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "Strategic landscape has shifted dramatically with Iran's supreme leader killed in US-Israel strike, immediately halting nuclear diplomacy and triggering Iranian retaliation threats; concurrent Israeli operations against Lebanon and Iranian proposals for Hormuz co-control indicate multifront escalation with imminent risk of broader regional conflict.",
+  "analysis_note": "Critical juncture: Iran's nuclear breakout window has collapsed to 1-2 weeks while US-Iran negotiations proceed in B\u00fcrgenstock, overlaid by Israeli continued strikes in Lebanon and emerging Iran-Oman maritime governance challenge to US interests.",
   "meta": {
-    "input_tokens": 19393,
+    "input_tokens": 20700,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 708,
-    "cost_usd": 0.0229,
-    "wall_time_s": 9.6,
-    "data_hash": "2ffcc9ec5ea737a7e7339a9cc7e6b0ad079b612b6833eb35d8d1da7fed76b8ee"
+    "output_tokens": 618,
+    "cost_usd": 0.0238,
+    "wall_time_s": 9.1,
+    "data_hash": "b57e068bcaaa38da6d76e2a142e19888ef8ca25c57e501055315908041432721"
   }
 }
