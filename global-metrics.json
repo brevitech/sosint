@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-23T23:05:05.739512+00:00",
+  "generatedAt": "2026-06-24T02:47:17.916153+00:00",
   "dataSource": "live-osint",
   "economy": {
-    "brentCrude": 76.78,
+    "brentCrude": 76.37,
     "irrFreeMarket": 1374752
   },
   "cyber": [
@@ -10,11 +10,6 @@
       "title": "Inside Iran’s Cyber War Machine - الحرة",
       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBkNFZMRlgybEVLUG14RFZ0LTY2TzBWb1FGRkc0ZmtNTjZPOERJalQyR0Z3OTVVXzcxMmt5dXFnSmhiZw?oc=5",
       "published": "Mon, 22 Jun 2026 17:45:04 GMT"
-    },
-    {
-      "title": "Is the U.S. lagging when it comes to drone warfare superiority? - The Cipher Brief",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWU3E0aXdyblc1SDV5THV6T01ETzc3UUJrczA4WlltUUI0NTdaR2thTlB0R2EzdDF2SWk2a0dONlNnWjlWVFZqUTJUaVNDc3VOekxLS0Jvd0EzUjNRaXcta2RhTHZUT1BoaGtzUEVnVTFGUkxtbVE?oc=5",
-      "published": "Fri, 19 Jun 2026 07:00:00 GMT"
     },
     {
       "title": "Cyber group claims California water system hack in retaliation for Iran strikes - Middle East Eye",
@@ -35,6 +30,11 @@
       "title": "How the Middle East war reshapes the global cybersecurity landscape - The World Economic Forum",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYnY3RVc0NjEtc1pRWjlQUURjUmN5dVhSb3pWN2MxamFaMnlmRDBFSElpX0NfQ2ZWZzNfcXU0NXQ1cTlMbS1RSDI4VEJmQ0JXNkdyUDIwWl9qa082TlQ2THMxUnhZdElnMjlqb3pHTnpZM295dTQ0eFJjdnY2OEFOQ2I5NkZoNmVnUFhKXzJ3UVI0N0RzNUcxbg?oc=5",
       "published": "Wed, 25 Mar 2026 07:00:00 GMT"
+    },
+    {
+      "title": "The Iranian Cyber Threat to U.S. Critical Infrastructure - CSIS | Center for Strategic and International Studies",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPekR0NmZaM3FOanI5Vi12czNlQUMyb1FVeW04T1U2TGFfaUFPOGN2azFyc2FiOFJKbzZaQ2NJWGtuWGpJemp1anlaTktOZmZqQzMyVlp5SlJmdUlUUXhDREducWJXOEpwcXpfREtZcGRIdzZUWGw0UmVWb1JMbTFTRWg0bw?oc=5",
+      "published": "Mon, 27 Apr 2026 07:00:00 GMT"
     }
   ],
   "threat": {
@@ -42,7 +42,7 @@
     "label": "CRITICAL — IMMINENT ESCALATION"
   },
   "proxies": {
-    "Hezbollah": "Elevated - Active Exchanges",
+    "Hezbollah": "Active",
     "Houthis (Ansar Allah)": "Elevated - Multiple Recent Attacks",
     "Iraqi Shiite Militias (PMF)": "Elevated - Base Strikes Detected",
     "Hamas": "Degraded",
@@ -58,9 +58,14 @@
         "published": "Tue, 23 Jun 2026 16:45:18 GMT"
       },
       {
+        "title": "US-Iran deal: technical work can begin, says atomic energy agency - UN News",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE43ZzRZWXRtNV9lalVmcHRVb0xJTEpPaUJGaHVmdm1Vdlk2LXl0ajlxLWZFOFNJb0YxVHNPUHM4a2hGQVN2b1pfOWhyVk53SFBfUE1VMlpnUQ?oc=5",
+        "published": "Thu, 18 Jun 2026 09:54:38 GMT"
+      },
+      {
         "title": "IAEA backs Trump in latest dispute with Iran — insists deal calls for nuclear inspectors - New York Post",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQWlOaWdhdE9NN1p2Zm9hbGpoYXhYZTdtS2xDSlFJM1dHVnoxNno0MTdxUVlKZVFoVzRqbWc0MkwxLVFYZ2pXTGZuOGpWSS1kM3lxajlEY2F1MldKa05WVEI0RERrSXFWdnRObnZBRXVuVjVuNEpCMVJid2NVaEt4dERrWjg0X1FKNXF1dXhDT3JvakUzTFA5anhrdHI1UC0xWlRqNzBrNGY4dldQYXJ0bmNFcGs4Y0ZYQWY4OWlNa2tfVEk?oc=5",
-        "published": "Tue, 23 Jun 2026 17:52:00 GMT"
+        "published": "Tue, 23 Jun 2026 19:35:09 GMT"
       },
       {
         "title": "Here’s a primer on uranium enrichment, as Iran’s nuclear program faces scrutiny - Los Angeles Times",
@@ -71,11 +76,6 @@
         "title": "What the US and Iran agreed – and disagreed – on first day of talks - Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY21DTVdsVjFuUXg3VXBVQnFIdExnODVob1QxMUdCRThOd1NPVjJ5VDduLVgzNnJmYS16TTNiYWtTY285UmpQN1NwN09zcFZUS0EzcnVVT2Vpd0J0bGRGeXVlckcxdE5ib0dFQy1wR3NSbzZsU25JT3pDd1dvRVZJU1R6bWhNYmVTX3lvWXhYckptMGJtQzd3Y0dXV0otdjVfRzBseFNrONIBrAFBVV95cUxPTHkwOTRNRk5TSHZBT0l6ZS11MUtSMGdSYVg3NzlrdExpV1FwZVZSYWZlbzhaZHkzc3d2bFBpWEtLVmFWUE8xMlNOMnpJc3NoOXBIcHl4QzNpX250Sk9IbExNaGYyb2Y0UzEwRDYzNlQzRlRqSTRtZVpzSmp2UUVyazgtRGRpZExQNkVrQ2VRdFRoLW8ydHBzRlN0eUpEU29xRU14TE5aeHhIT0JD?oc=5",
         "published": "Tue, 23 Jun 2026 13:14:30 GMT"
-      },
-      {
-        "title": "Trump: IAEA inspectors will access Iranian nuclear sites - Shafaq News | Latest breaking news in Iraq and the world - شفق نيوز",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZlpjalh2T2RrWlVmNTgxd1VsaWZXRWItcUhGaFFoaEVQdVlGMDFSd1d6ckhxc1M1WFBDTE5ERFhUYzFLWWhwbnUxZFdKZE1JVTBtUlRzSk5pZEF5UVlBZW1YUDBKaDgzMVJtWnZ5RXRKem5CbTBRS051c1VpTE1YbERQdFlPbW5UYTlv?oc=5",
-        "published": "Tue, 23 Jun 2026 20:05:12 GMT"
       }
     ]
   },

@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-23T19:08:35.471310+00:00",
+  "generated_at": "2026-06-24T02:47:24.901917+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
+      "category": "nuclear",
+      "title": "Iran nuclear breakout window narrowed to 1-2 weeks; 60% U-235 enrichment confirmed",
+      "summary": "Global metrics confirm Iran has achieved 60% uranium-235 enrichment with estimated breakout time of 1\u20132 weeks. This represents accelerated progress toward weapons-grade material amid collapsed IAEA inspection regime. Concurrent US-Iran nuclear talks in Switzerland remain stalled over missile program exclusion and inspection access to bombed sites (global_metrics, incidents).",
+      "region": "Iran / Global",
+      "source": "global_metrics,incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "critical",
       "category": "diplomatic",
-      "title": "Iran and Oman jointly assume control of Strait of Hormuz; maritime fees imposed",
-      "summary": "Iran and Oman released joint statement confirming establishment of joint administration over the Strait of Hormuz with new fee structure for maritime services per international standards. This represents major shift in regional control and directly impacts global shipping and oil transport. ME Spectator reported ~35K views on breaking announcement (2026-06-23 14:13 UTC).",
-      "region": "Strait of Hormuz",
-      "source": "telegram",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Trump administration threatens Iran over nuclear accord violations; talks risk collapse",
-      "summary": "Trump publicly warned Iran to adhere to ongoing US-Iran nuclear agreement or face military consequences, even as negotiating teams remain in Switzerland. Iran maintains refusal of IAEA inspections and missile-program inclusion. Simultaneous threats during active talks raise imminent escalation risk and could trigger negotiations breakdown. Multiple outlets (RFE/RL, WSJ, Washington Post, Fortune) covering threat statements (incidents feed).",
+      "title": "US-Iran nuclear negotiations collapse over missile program and inspection disputes",
+      "summary": "Trump administration publicly threatens military action against Iran even as delegations negotiate in Switzerland. Iran (via Foreign Ministry Spokesman Ismael Baqaei) categorically rejects IAEA inspector access to damaged nuclear facilities and refuses to include missile program in any agreement. Senate votes to block Trump from unilateral Iran strike authority. Multiple sources (Washington Post, NBC News, Fortune, RFE/RL, Ynetnews) report talks now paused due to escalatory threats (incidents).",
       "region": "Iran / Global",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "US Treasury issues 60-day sanctions waiver on Iranian oil and petrochemical exports",
-      "summary": "US Department of Treasury officially issued 60-day sanctions waiver on Iranian oil, petrochemical products, and natural gas effective through August 21, 2026, contingent on continued nuclear negotiations progress. Signals tacit US commitment to deal finalization but creates window for Iranian non-compliance without immediate penalties. ME Spectator reported ~71K views (2026-06-22 13:34 UTC).",
-      "region": "Iran / Global",
-      "source": "telegram",
+      "category": "incident",
+      "title": "Houthis escalate Red Sea operations; announce ban on Israeli vessel transit",
+      "summary": "Houthis (Ansar Allah) attacked Israel and declared unilateral maritime blockade on Israeli vessels in the Red Sea. Coincides with elevated Houthi status in global proxy metrics (reported as 'Elevated \u2013 Multiple Recent Attacks'). Three US Navy destroyers (USS Carney, USS Mason, USS Laboon) remain deployed in Red Sea to counter such threats (incidents, assets).",
+      "region": "Red Sea",
+      "source": "incidents,assets",
       "confidence": "high"
     },
     {
-      "severity": "medium",
+      "severity": "high",
       "category": "incident",
-      "title": "Israeli airstrikes kill journalists and environmental activist; Gaza-Lebanon ceasefire violations continue",
-      "summary": "Israeli strikes killed Al Jazeera cameraman and six others in Gaza; concurrent Beirut suburbs strikes killed three including Mona Khalil, environmental activist. Multiple sources (PBS, BBC, Al Jazeera, NBC News, New York Times) document escalation amid supposed ceasefire framework. Timing coincides with active US-Iran nuclear talks, raising accidental-escalation risk.",
-      "region": "Gaza / Lebanon",
+      "title": "Israeli airstrikes kill six in Gaza, three in Beirut suburbs amid ceasefire violations",
+      "summary": "Israeli military strikes killed Al Jazeera cameraman and five others in Gaza City; concurrent Beirut suburbs strikes killed three including environmental activist Mona Khalil. Multiple independent sources (BBC, NBC News, New York Times, Al Jazeera, PBS) document breaches of Gaza-Lebanon ceasefire framework. Timing aligns with Hezbollah and Palestinian Islamic Jihad reported as 'Active' status (incidents).",
+      "region": "Gaza / Northern Israel / Beirut",
       "source": "incidents",
       "confidence": "high"
     },
     {
-      "severity": "medium",
-      "category": "asset_movement",
-      "title": "US carriers and destroyers maintain heavy presence across Persian Gulf and Red Sea theater",
-      "summary": "Assets feed confirms USS Abraham Lincoln and Eisenhower carrier strike groups deployed in Arabian Sea and Red Sea, with three destroyers (Carney, Mason, Laboon) positioned in Red Sea. USS Gerald R. Ford in Mediterranean and USS Florida submarine in Persian Gulf (26.33\u00b0N, 51.76\u00b0E). Posture sustained despite 60-day negotiation window, indicating readiness for rapid kinetic escalation if talks collapse.",
-      "region": "Persian Gulf / Red Sea / Mediterranean",
-      "source": "assets",
-      "confidence": "high"
+      "severity": "high",
+      "category": "sentiment_shift",
+      "title": "US negative sentiment on Iran tensions rises; Trump-Iran narrative dominance increases",
+      "summary": "US sentiment analysis shows 46% negative sentiment (up from baseline), with 'trump' (66 mentions), 'iran' (35), 'war' (16), and 'nuclear' (11) as top trending terms. Word frequency spike on nuclear and war terminology signals sustained public discourse tension around escalation risk. Concurrent Senate action to restrict Trump's Iran strike authority reflects domestic political polarization (sentiment).",
+      "region": "Global / US",
+      "source": "sentiment",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran nuclear talks remain on razor's edge: simultaneous sanctions relief, Iranian refusal of inspections, Trump's public threats, Israel's continued Gaza-Lebanon strikes, and Iran-Oman control of Hormuz create fragile equilibrium where any single miscalculation could trigger multi-theater escalation.",
+  "analysis_note": "Iran's nuclear program has reached critical threshold (60% enrichment, 1\u20132 week breakout window) while US-Iran negotiations have stalled over fundamental disagreements on inspections and missile limits; proxy escalation (Houthis, Israel-Gaza-Lebanon) and threatened US military action create imminent dual-track crisis risk.",
   "meta": {
-    "input_tokens": 22281,
+    "input_tokens": 21000,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 819,
-    "cost_usd": 0.0264,
-    "wall_time_s": 11.1,
-    "data_hash": "d2fec87c03333d391b1d456801d9c06095294bf8cc9e2e2b47c00b251ab0627e"
+    "output_tokens": 787,
+    "cost_usd": 0.0249,
+    "wall_time_s": 11.9,
+    "data_hash": "837bddc66d4567b56e27a947abfccb5dee114951fa14591bcf85b753db4cca93"
   }
 }
