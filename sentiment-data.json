@@ -1,28 +1,23 @@
 {
   "us": {
-    "positive": 51,
-    "negative": 46,
-    "neutral": 3,
+    "positive": 50,
+    "negative": 44,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 66,
+        "count": 59,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 27,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
         "word": "house",
-        "count": 16,
+        "count": 15,
         "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 16,
-        "sentiment": "negative"
       },
       {
         "word": "court",
@@ -30,17 +25,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nuclear",
-        "count": 10,
+        "word": "war",
+        "count": 13,
+        "sentiment": "negative"
+      },
+      {
+        "word": "gop",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -50,17 +50,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "allows",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -70,22 +60,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "south",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "president",
         "count": 7,
         "sentiment": "neutral"
       },
       {
+        "word": "nuclear",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "appeals",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -105,6 +95,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "south",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "heads",
         "count": 6,
         "sentiment": "neutral"
@@ -120,22 +115,7 @@
         "sentiment": "negative"
       },
       {
-        "word": "ronaldo",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "powers",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rubio",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "happened",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,43 +133,88 @@
         "word": "carolina",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "capitol",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senators",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rubio",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-24T06:43:18.280749+00:00",
-    "nextRefresh": "2026-06-24T06:43:18.280749+00:00",
-    "articlesAnalyzed": 351,
-    "matchedMentions": 158,
-    "uniquePersonalities": 47,
+    "generatedAt": "2026-06-24T10:18:53.538130+00:00",
+    "nextRefresh": "2026-06-24T10:18:53.538130+00:00",
+    "articlesAnalyzed": 340,
+    "matchedMentions": 148,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 43,
-    "neutral": 16,
+    "positive": 39,
+    "negative": 41,
+    "neutral": 20,
     "wordCloud": [
       {
+        "word": "goyal",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "murder",
+        "count": 10,
+        "sentiment": "negative"
+      },
+      {
         "word": "modi",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "pant",
+        "word": "siya",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "adani",
+        "word": "pune",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
+        "word": "ketan",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abhishek",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -199,12 +224,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "viral",
+        "word": "talks",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "speech",
+        "word": "trade",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "killing",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "adani",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "assembly",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pant",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -214,117 +279,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "businessman",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "goes",
+        "word": "india",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "pune",
+        "word": "greer",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "murder",
+        "word": "deal",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lover",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "bjp",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrest",
+        "count": 4,
         "sentiment": "negative"
       },
       {
-        "word": "address",
+        "word": "west",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "saal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "khelenge",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "goenka",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "prediction",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tamil",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ketan",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leaders",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "siya",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "goyal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "family",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "england",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "unveils",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nuclear",
-        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-24T06:43:30.877824+00:00",
-    "nextRefresh": "2026-06-24T06:43:30.877824+00:00",
-    "articlesAnalyzed": 476,
-    "matchedMentions": 87,
-    "uniquePersonalities": 47,
+    "generatedAt": "2026-06-24T10:19:05.294302+00:00",
+    "nextRefresh": "2026-06-24T10:19:05.294302+00:00",
+    "articlesAnalyzed": 478,
+    "matchedMentions": 110,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   }
 }

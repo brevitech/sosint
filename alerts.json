@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-24T02:47:24.901917+00:00",
+  "generated_at": "2026-06-24T10:19:21.950152+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "nuclear",
-      "title": "Iran nuclear breakout window narrowed to 1-2 weeks; 60% U-235 enrichment confirmed",
-      "summary": "Global metrics confirm Iran has achieved 60% uranium-235 enrichment with estimated breakout time of 1\u20132 weeks. This represents accelerated progress toward weapons-grade material amid collapsed IAEA inspection regime. Concurrent US-Iran nuclear talks in Switzerland remain stalled over missile program exclusion and inspection access to bombed sites (global_metrics, incidents).",
-      "region": "Iran / Global",
-      "source": "global_metrics,incidents",
+      "category": "incident",
+      "title": "Iran's supreme leader killed in major US-Israel coordinated strike",
+      "summary": "AP News reports Iran's supreme leader has been killed in a joint US-Israel military operation. This represents the most significant escalation in the conflict to date and directly triggered Iran's halt of ongoing nuclear negotiations with the US in Switzerland. Multiple incident reports confirm the strike occurred amid broader military operations (incidents feed).",
+      "region": "Iran",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "diplomatic",
-      "title": "US-Iran nuclear negotiations collapse over missile program and inspection disputes",
-      "summary": "Trump administration publicly threatens military action against Iran even as delegations negotiate in Switzerland. Iran (via Foreign Ministry Spokesman Ismael Baqaei) categorically rejects IAEA inspector access to damaged nuclear facilities and refuses to include missile program in any agreement. Senate votes to block Trump from unilateral Iran strike authority. Multiple sources (Washington Post, NBC News, Fortune, RFE/RL, Ynetnews) report talks now paused due to escalatory threats (incidents).",
+      "title": "Iran halts US nuclear talks following Israeli Beirut strike",
+      "summary": "Iran has suspended nuclear negotiations with the US following Israeli airstrikes on Beirut, with MSN and multiple outlets confirming the decision. Trump administration has warned Israel against further attacks, fearing collapse of imminent deal. Concurrent developments show US offering to unblock $12 billion in frozen Iranian assets in two tranches to incentivize talks resumption (incidents, telegram).",
       "region": "Iran / Global",
-      "source": "incidents",
+      "source": "incidents,telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Houthis escalate Red Sea operations; announce ban on Israeli vessel transit",
-      "summary": "Houthis (Ansar Allah) attacked Israel and declared unilateral maritime blockade on Israeli vessels in the Red Sea. Coincides with elevated Houthi status in global proxy metrics (reported as 'Elevated \u2013 Multiple Recent Attacks'). Three US Navy destroyers (USS Carney, USS Mason, USS Laboon) remain deployed in Red Sea to counter such threats (incidents, assets).",
-      "region": "Red Sea",
-      "source": "incidents,assets",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Israeli airstrikes kill six in Gaza, three in Beirut suburbs amid ceasefire violations",
-      "summary": "Israeli military strikes killed Al Jazeera cameraman and five others in Gaza City; concurrent Beirut suburbs strikes killed three including environmental activist Mona Khalil. Multiple independent sources (BBC, NBC News, New York Times, Al Jazeera, PBS) document breaches of Gaza-Lebanon ceasefire framework. Timing aligns with Hezbollah and Palestinian Islamic Jihad reported as 'Active' status (incidents).",
-      "region": "Gaza / Northern Israel / Beirut",
+      "title": "Israel escalates Lebanon operations; kills two in Sidon airstrike",
+      "summary": "Israeli military conducted strike on vehicles in Sidon, Lebanon, killing at least two, contradicting Trump's earlier warning against such attacks. Concurrent Beirut suburbs strikes reported by multiple sources (BBC, NBC News, Al Jazeera). Operations continue despite diplomatic pressure and risks further Iran retaliation (incidents).",
+      "region": "Lebanon / Israel",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "sentiment_shift",
-      "title": "US negative sentiment on Iran tensions rises; Trump-Iran narrative dominance increases",
-      "summary": "US sentiment analysis shows 46% negative sentiment (up from baseline), with 'trump' (66 mentions), 'iran' (35), 'war' (16), and 'nuclear' (11) as top trending terms. Word frequency spike on nuclear and war terminology signals sustained public discourse tension around escalation risk. Concurrent Senate action to restrict Trump's Iran strike authority reflects domestic political polarization (sentiment).",
-      "region": "Global / US",
-      "source": "sentiment",
+      "category": "telegram_signal",
+      "title": "Iran and Oman announce joint Strait of Hormuz administration with maritime fees",
+      "summary": "Middle East Spectator reports (~48K views) that Iran and Oman have issued joint statement establishing shared control over Strait of Hormuz with new maritime service fees per international standards. This represents strategic shift in regional maritime governance amid US-Iran tensions and could disrupt global shipping (telegram).",
+      "region": "Strait of Hormuz",
+      "source": "telegram",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
+      "category": "nuclear",
+      "title": "IAEA inspectors to visit Iran nuclear sites under interim deal framework",
+      "summary": "Multiple sources (IAEA chief statements, UN News, The Independent, wtsp.com) confirm that UN nuclear inspectors will visit Iran's nuclear sites as part of emerging peace agreement. This marks potential breakthrough after months of Iran rejection of IAEA access, though specifics on damaged site inspections remain disputed (incidents, global_metrics).",
+      "region": "Iran",
+      "source": "incidents,global_metrics",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "Iran's nuclear program has reached critical threshold (60% enrichment, 1\u20132 week breakout window) while US-Iran negotiations have stalled over fundamental disagreements on inspections and missile limits; proxy escalation (Houthis, Israel-Gaza-Lebanon) and threatened US military action create imminent dual-track crisis risk.",
+  "analysis_note": "Strategic landscape has shifted dramatically with Iran's supreme leader killed in US-Israel strike, immediately halting nuclear diplomacy and triggering Iranian retaliation threats; concurrent Israeli operations against Lebanon and Iranian proposals for Hormuz co-control indicate multifront escalation with imminent risk of broader regional conflict.",
   "meta": {
-    "input_tokens": 21000,
+    "input_tokens": 19393,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 787,
-    "cost_usd": 0.0249,
-    "wall_time_s": 11.9,
-    "data_hash": "837bddc66d4567b56e27a947abfccb5dee114951fa14591bcf85b753db4cca93"
+    "output_tokens": 708,
+    "cost_usd": 0.0229,
+    "wall_time_s": 9.6,
+    "data_hash": "2ffcc9ec5ea737a7e7339a9cc7e6b0ad079b612b6833eb35d8d1da7fed76b8ee"
   }
 }
