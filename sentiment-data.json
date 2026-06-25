@@ -1,32 +1,32 @@
 {
   "us": {
-    "positive": 51,
-    "negative": 43,
+    "positive": 54,
+    "negative": 40,
     "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 73,
+        "count": 72,
         "sentiment": "neutral"
       },
       {
         "word": "court",
-        "count": 33,
+        "count": 31,
         "sentiment": "neutral"
       },
       {
         "word": "supreme",
-        "count": 32,
+        "count": 30,
         "sentiment": "positive"
       },
       {
-        "word": "iran",
+        "word": "judge",
         "count": 20,
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
-        "count": 19,
+        "word": "iran",
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -35,12 +35,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 14,
-        "sentiment": "negative"
-      },
-      {
-        "word": "house",
+        "word": "administration",
         "count": 14,
         "sentiment": "neutral"
       },
@@ -50,8 +45,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 12,
+        "word": "house",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -65,12 +60,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "immigration",
-        "count": 9,
+        "word": "end",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "protections",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "immigration",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -80,17 +80,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "lets",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "end",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -115,17 +105,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "war",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
         "word": "america",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "seekers",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -153,20 +143,30 @@
         "word": "alcatraz",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "election",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "executive",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-25T19:52:21.160708+00:00",
-    "nextRefresh": "2026-06-25T19:52:21.160708+00:00",
-    "articlesAnalyzed": 341,
+    "generatedAt": "2026-06-25T21:27:45.690023+00:00",
+    "nextRefresh": "2026-06-25T21:27:45.690023+00:00",
+    "articlesAnalyzed": 333,
     "matchedMentions": 169,
-    "uniquePersonalities": 46,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 32,
-    "negative": 49,
-    "neutral": 19,
+    "positive": 25,
+    "negative": 55,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "murder",
@@ -185,7 +185,7 @@
       },
       {
         "word": "india",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -194,23 +194,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "case",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "row",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pradhan",
-        "count": 6,
+        "word": "case",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -229,17 +219,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "table",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
+        "word": "video",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -254,22 +234,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bengal",
-        "count": 4,
+        "word": "pradhan",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "uniform",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "code",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
+        "word": "mann",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -279,22 +249,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "leak",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
         "word": "didn",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "fir",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "video",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -314,17 +274,57 @@
         "sentiment": "neutral"
       },
       {
+        "word": "rahul",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "fear",
         "count": 4,
         "sentiment": "negative"
+      },
+      {
+        "word": "daughter",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "probe",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trade",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wedding",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "takes",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ram",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-25T19:52:33.392585+00:00",
-    "nextRefresh": "2026-06-25T19:52:33.392585+00:00",
-    "articlesAnalyzed": 468,
-    "matchedMentions": 74,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-06-25T21:27:57.867454+00:00",
+    "nextRefresh": "2026-06-25T21:27:57.867454+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 64,
+    "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
 }
