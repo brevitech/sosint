@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-25T11:37:59.030356+00:00",
+  "generated_at": "2026-06-25T17:09:28.784145+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "nuclear",
-      "title": "Iran president rejects missile program inclusion in US accord amid breakout window",
-      "summary": "Iran's president explicitly stated the country's ballistic missile program will never be included in a US Memorandum of Understanding, according to The Jerusalem Post report (incidents feed). This hardening of Iran's negotiating position coincides with continued 60% U-235 enrichment and 1-2 week nuclear breakout estimate (global_metrics), signaling Iran is rejecting key US negotiation preconditions even as talks resume in Switzerland.",
-      "region": "Iran",
+      "category": "incident",
+      "title": "Trump halts planned Iran strike; negotiations resume amid breakout window",
+      "summary": "President Trump announced cancellation of scheduled Iran strike at request of Gulf allies (WXOW, WGEM, The Sumter Item), while simultaneously signaling decision could resume within 10 days (WBMA). Development occurs as Iran maintains 60% U-235 enrichment and ~1-2 week nuclear breakout estimate (global_metrics), and US presses missile program inclusion in Geneva talks (Al-Monitor). Hardened Iranian negotiating stance (rejecting missile program limits per previous alert) combined with imminent strike threat creates high-volatility diplomatic-military standoff.",
+      "region": "Iran / Persian Gulf",
       "source": "incidents,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Iran war day 118: IRGC rejects alternative Hormuz route amid joint Iran-Oman control plan",
-      "summary": "Al Jazeera reports IRGC rejected a new proposed Hormuz shipping route while US Secretary of State Rubio prepares GCC meetings (incidents). Development follows the Iran-Oman joint administration announcement (telegram, 54.6K views) establishing maritime fee collection, indicating Iran is consolidating strategic control over the chokepoint and blocking US-backed workarounds to maintain shipping flow.",
-      "region": "Strait of Hormuz",
-      "source": "incidents,telegram",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Israeli strikes in Lebanon kill 3 as ceasefire framework fractures despite Washington talks",
-      "summary": "NBC News and Al Jazeera confirm Israeli strikes killed 2-3 in Beirut suburbs and southern Lebanon, including sea turtle conservationist Mona Khalil (CBC), with Hezbollah asserting ceasefire violation (incidents). Operations continue despite ongoing Washington negotiations and Senate constraints, indicating Israeli unilateral escalation outside formal diplomatic framework.",
+      "title": "Israeli strikes kill 3 in Lebanon amid ceasefire collapse, Iran response risk",
+      "summary": "Israeli drone strikes in southern Lebanon and Beirut suburbs killed 2-3 civilians including conservationist Mona Khalil (NBC News, Al Jazeera, BBC, Anadolu Agency), occurring despite ceasefire framework and Washington negotiations. Hezbollah asserts violation; multiple strikes logged within 24hrs (Nabatieh area, 33.8-34.1\u00b0N, 35.6-35.9\u00b0E). Pattern indicates Israeli unilateral operations outside formal diplomatic constraints, raising risk of Iranian retaliation that could trigger wider escalation.",
       "region": "Lebanon / Israel",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
+      "category": "asset_movement",
+      "title": "USS Florida submarine positioned in Persian Gulf amid Iran tensions",
+      "summary": "USS Florida submarine deployed to Persian Gulf (25.97\u00b0N, 51.63\u00b0E per assets feed) amid critical threat level (9/10) and negotiations deadlock. Submarine positioning in chokepoint coincides with Iran's consolidation of Hormuz control via Iran-Oman joint fee-collection scheme (previous alert) and reports of ship explosions in strait (KATV citing Strait incident). Asset deployment signals US readiness for rapid response if nuclear talks collapse or Iranian provocation occurs.",
+      "region": "Persian Gulf / Strait of Hormuz",
+      "source": "assets,incidents",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
       "category": "cyber",
-      "title": "Iran-linked cyber group claims FBI drone system breach, threatens World Cup targets",
-      "summary": "France 24 and Middle East Eye report Iran-linked cyber group claims successful penetration of FBI drone systems and threatens World Cup event targets as retaliation for Iran strikes (global_metrics cyber headlines). Claim reflects escalating Iranian cyber warfare capability and willingness to target critical US infrastructure and international sporting events.",
+      "title": "Iran-linked cyber group claims FBI drone system breach, World Cup threat",
+      "summary": "Iran-linked cyber group publicly claims successful penetration of FBI drone control systems and threatens World Cup event targets as retaliation for US Iran strikes (France 24, Middle East Eye per global_metrics cyber headlines). Claim reflects escalating Iranian cyber warfare doctrine and willingness to target critical US infrastructure and mass-casualty civilian events. If credible, represents expansion of Iranian asymmetric response toolkit beyond kinetic strikes.",
       "region": "Global",
       "source": "global_metrics",
       "confidence": "medium"
     },
     {
       "severity": "medium",
-      "category": "diplomatic",
-      "title": "US threatens fresh Iran attacks as talks resume in Switzerland amid ceasefire pause",
-      "summary": "Fortune reports Trump administration threatened new attacks on Iran, causing negotiations to pause, even as US-Iran talks are scheduled to resume Sunday in Switzerland with Tehran claiming Strait of Hormuz closure (incidents). Pattern reflects extreme volatility in diplomatic engagement, with US threats destabilizing negotiation window and signaling potential resumption of hostilities.",
+      "category": "sentiment_shift",
+      "title": "US media sentiment shifts toward Trump court rulings, Iran coverage declines",
+      "summary": "US sentiment data shows positive skew (54% positive vs 42% negative) dominated by Trump-related legal and administrative news (trump: 74 mentions, court: 28, supreme: 27), while Iran coverage drops to 15 mentions\u2014tied with 'federal' and 'house' keywords. Shift reflects domestic political preoccupation and reduced media focus on Iran nuclear/military escalation narrative despite global_metrics threat level at critical (9/10). Sentiment decoupling from objective threat level may indicate reduced public/media pressure on administration Iran policy.",
       "region": "Global",
-      "source": "incidents",
-      "confidence": "high"
+      "source": "sentiment",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "Iran is hardening its nuclear and strategic positions while consolidating Hormuz control and rejecting US missile program demands, even as ceasefire frameworks fracture and cyber escalation accelerates, creating a critical convergence of nuclear threshold, regional proxy activation, and diplomatic breakdown.",
+  "analysis_note": "US-Iran negotiations at critical juncture with Trump simultaneously halting strikes and preserving strike option; Iranian nuclear breakout window narrows to 1-2 weeks while Israel escalates Lebanon operations risking Iranian retaliation; cyber and diplomatic dimensions expanding alongside kinetic threats.",
   "meta": {
-    "input_tokens": 19462,
+    "input_tokens": 24657,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 698,
-    "cost_usd": 0.023,
-    "wall_time_s": 10.6,
-    "data_hash": "97892081e9e7d3aafc9057a054f4e9803d46bac7793a1b09bcd2f5fa551b09b1"
+    "output_tokens": 870,
+    "cost_usd": 0.029,
+    "wall_time_s": 13.8,
+    "data_hash": "f0cd81d07a6afe8f201314e2af5801465f2b03f7e9a59dd1c721d4155795921b"
   }
 }
