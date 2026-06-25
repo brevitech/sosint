@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-25T17:09:28.784145+00:00",
+  "generated_at": "2026-06-25T23:14:03.309328+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Trump halts planned Iran strike; negotiations resume amid breakout window",
-      "summary": "President Trump announced cancellation of scheduled Iran strike at request of Gulf allies (WXOW, WGEM, The Sumter Item), while simultaneously signaling decision could resume within 10 days (WBMA). Development occurs as Iran maintains 60% U-235 enrichment and ~1-2 week nuclear breakout estimate (global_metrics), and US presses missile program inclusion in Geneva talks (Al-Monitor). Hardened Iranian negotiating stance (rejecting missile program limits per previous alert) combined with imminent strike threat creates high-volatility diplomatic-military standoff.",
-      "region": "Iran / Persian Gulf",
-      "source": "incidents,global_metrics",
+      "title": "Iran strikes cargo vessel in Strait of Hormuz, halting UN evacuation operations",
+      "summary": "Iran's IRGC Navy attacked a commercial vessel 7.5 nautical miles off Oman coast on unauthorized route through Strait of Hormuz (26.27\u00b0N, 56.32\u00b0E per incidents feed), forcing UN agency pause of evacuation operations (WSJ, Washington Post, CNBC, NYT, BBC, PBS, CNN, CBS). Multiple corroborating sources confirm Iranian attribution; vessel attempted passage without coordination with Persian Gulf Strait Authority. Attack directly undermines Trump-negotiated deal to reopen strait and signals Iranian rejection of maritime agreements.",
+      "region": "Strait of Hormuz / Persian Gulf",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israeli strikes kill 3 in Lebanon amid ceasefire collapse, Iran response risk",
-      "summary": "Israeli drone strikes in southern Lebanon and Beirut suburbs killed 2-3 civilians including conservationist Mona Khalil (NBC News, Al Jazeera, BBC, Anadolu Agency), occurring despite ceasefire framework and Washington negotiations. Hezbollah asserts violation; multiple strikes logged within 24hrs (Nabatieh area, 33.8-34.1\u00b0N, 35.6-35.9\u00b0E). Pattern indicates Israeli unilateral operations outside formal diplomatic constraints, raising risk of Iranian retaliation that could trigger wider escalation.",
-      "region": "Lebanon / Israel",
+      "title": "Israel kills 3 in Lebanon strikes as ceasefire framework deteriorates",
+      "summary": "Israeli drone strikes in southern Lebanon (33.8-34.1\u00b0N, 35.6-35.9\u00b0E) killed 2-3 civilians including named targets, occurring despite April ceasefire arrangement (Middle East Eye, BBC, CBC, Axios, Al Jazeera, Shafaq News). Multiple incidents logged within 24-hour window in Nabatieh area. Hezbollah asserts ceasefire violation; pattern indicates unilateral Israeli operations continuing outside formal diplomatic constraints, raising Iran retaliation risk.",
+      "region": "Lebanon / Israel border",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "asset_movement",
-      "title": "USS Florida submarine positioned in Persian Gulf amid Iran tensions",
-      "summary": "USS Florida submarine deployed to Persian Gulf (25.97\u00b0N, 51.63\u00b0E per assets feed) amid critical threat level (9/10) and negotiations deadlock. Submarine positioning in chokepoint coincides with Iran's consolidation of Hormuz control via Iran-Oman joint fee-collection scheme (previous alert) and reports of ship explosions in strait (KATV citing Strait incident). Asset deployment signals US readiness for rapid response if nuclear talks collapse or Iranian provocation occurs.",
-      "region": "Persian Gulf / Strait of Hormuz",
-      "source": "assets,incidents",
+      "title": "US carrier strike group concentration in Red Sea amid critical threat level",
+      "summary": "USS Dwight D. Eisenhower carrier, USS Bataan amphibious ship, and three destroyers (Carney, Mason, Laboon) deployed in Red Sea (15.5-15.9\u00b0N, 41.77-42.0\u00b0E) while threat level remains CRITICAL (9/10, global_metrics). Concurrent positioning of USS Gerald R. Ford in Mediterranean and USS Abraham Lincoln in Arabian Sea signals multi-theater readiness. Asset concentration coincides with Houthi announcements to ban Israeli vessels from Red Sea and recent drone/missile activity.",
+      "region": "Red Sea / Arabian Sea / Mediterranean",
+      "source": "assets",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "cyber",
-      "title": "Iran-linked cyber group claims FBI drone system breach, World Cup threat",
-      "summary": "Iran-linked cyber group publicly claims successful penetration of FBI drone control systems and threatens World Cup event targets as retaliation for US Iran strikes (France 24, Middle East Eye per global_metrics cyber headlines). Claim reflects escalating Iranian cyber warfare doctrine and willingness to target critical US infrastructure and mass-casualty civilian events. If credible, represents expansion of Iranian asymmetric response toolkit beyond kinetic strikes.",
-      "region": "Global",
-      "source": "global_metrics",
-      "confidence": "medium"
+      "category": "telegram_signal",
+      "title": "IRGC Navy confirms Hormuz strike via OSINT channels with operational details",
+      "summary": "Middle East Spectator Telegram post (~41.7K views, dated 2026-06-25T15:17:19Z) reports IRGC Navy strike on vessel 7.5nm off Oman; vessel ignored verbal warnings and attempted unapproved route through strait. Post categorized as BREAKING with high engagement, corroborating official-source incident reporting. Specificity of operational detail (warning sequence, route violation) suggests coordinated messaging from Iranian command.",
+      "region": "Strait of Hormuz / Persian Gulf",
+      "source": "telegram,incidents",
+      "confidence": "high"
     },
     {
       "severity": "medium",
       "category": "sentiment_shift",
-      "title": "US media sentiment shifts toward Trump court rulings, Iran coverage declines",
-      "summary": "US sentiment data shows positive skew (54% positive vs 42% negative) dominated by Trump-related legal and administrative news (trump: 74 mentions, court: 28, supreme: 27), while Iran coverage drops to 15 mentions\u2014tied with 'federal' and 'house' keywords. Shift reflects domestic political preoccupation and reduced media focus on Iran nuclear/military escalation narrative despite global_metrics threat level at critical (9/10). Sentiment decoupling from objective threat level may indicate reduced public/media pressure on administration Iran policy.",
+      "title": "US domestic sentiment dominated by Trump court battles; Iran coverage remains secondary",
+      "summary": "Sentiment analysis shows US positive sentiment at 55% (39% negative), with 'Trump' (72 occurrences) and 'court' (26) dominating word cloud ahead of 'Iran' (16 occurrences). Shift reflects focus on Supreme Court rulings and immigration/voting disputes rather than escalation coverage. Global sentiment shows India 54% negative (unrelated murder case), indicating fragmented international attention. Low Iran word-frequency suggests potential gap in public awareness of maritime escalation.",
       "region": "Global",
       "source": "sentiment",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran negotiations at critical juncture with Trump simultaneously halting strikes and preserving strike option; Iranian nuclear breakout window narrows to 1-2 weeks while Israel escalates Lebanon operations risking Iranian retaliation; cyber and diplomatic dimensions expanding alongside kinetic threats.",
+  "analysis_note": "Iran's Hormuz strike breaks down diplomatic framework as nuclear breakout window (~1-2 weeks) narrows; simultaneous Israeli Lebanon operations and proxy escalations (Houthis) create multi-front pressure on negotiations while Trump administration balances military readiness against deal preservation.",
   "meta": {
-    "input_tokens": 24657,
+    "input_tokens": 22955,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 870,
-    "cost_usd": 0.029,
-    "wall_time_s": 13.8,
-    "data_hash": "f0cd81d07a6afe8f201314e2af5801465f2b03f7e9a59dd1c721d4155795921b"
+    "output_tokens": 899,
+    "cost_usd": 0.0274,
+    "wall_time_s": 13.5,
+    "data_hash": "767748b0e820e2575654755be0e8dfcb529ce498d7a67ff5adbc4addfd7d27c4"
   }
 }
