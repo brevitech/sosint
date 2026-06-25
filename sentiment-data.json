@@ -1,37 +1,27 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 51,
+    "positive": 45,
+    "negative": 48,
     "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 72,
+        "count": 69,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 22,
+        "count": 28,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 17,
+        "count": 19,
         "sentiment": "negative"
       },
       {
-        "word": "judge",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gop",
+        "word": "administration",
         "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -40,12 +30,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "judge",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "housing",
+        "word": "gop",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bill",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -55,28 +50,33 @@
         "sentiment": "neutral"
       },
       {
-        "word": "powers",
+        "word": "america",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "earthquakes",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "kennedy",
+        "word": "venezuela",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "center",
+        "word": "housing",
         "count": 7,
         "sentiment": "neutral"
-      },
-      {
-        "word": "blocks",
-        "count": 7,
-        "sentiment": "negative"
       },
       {
         "word": "hegseth",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "state",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -90,7 +90,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "america",
+        "word": "another",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "warren",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -105,171 +110,181 @@
         "sentiment": "neutral"
       },
       {
-        "word": "citizenship",
+        "word": "kennedy",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "center",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "requests",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "billion",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "aid",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "powers",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "great",
         "count": 5,
         "sentiment": "positive"
-      },
-      {
-        "word": "state",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fair",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "reflecting",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pool",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "federal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "proof",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "another",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-25T08:53:32.090222+00:00",
-    "nextRefresh": "2026-06-25T08:53:32.090222+00:00",
+    "generatedAt": "2026-06-25T11:37:18.975392+00:00",
+    "nextRefresh": "2026-06-25T11:37:18.975392+00:00",
     "articlesAnalyzed": 337,
-    "matchedMentions": 146,
+    "matchedMentions": 154,
     "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 36,
-    "negative": 49,
-    "neutral": 15,
+    "positive": 40,
+    "negative": 38,
+    "neutral": 22,
     "wordCloud": [
       {
         "word": "murder",
-        "count": 14,
+        "count": 12,
         "sentiment": "negative"
       },
       {
-        "word": "case",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ketan",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pune",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 8,
+        "word": "india",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "siya",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "father",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "goyal",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "agarwal",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tata",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stalin",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "family",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "adani",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "police",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kumar",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "son",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wedding",
-        "count": 5,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 5,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "goyal",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "son",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amazon",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "ceo",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meets",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "patnaik",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "joins",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjd",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sujata",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "karthikeyan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ketan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "singh",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "billion",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pradhan",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -279,52 +294,37 @@
         "sentiment": "negative"
       },
       {
-        "word": "emergency",
-        "count": 4,
-        "sentiment": "negative"
+        "word": "family",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
-        "word": "row",
+        "word": "pune",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "video",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "pandian",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "vijay",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jab",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hearts",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "retort",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
+        "word": "wife",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-25T08:53:45.182276+00:00",
-    "nextRefresh": "2026-06-25T08:53:45.182276+00:00",
+    "generatedAt": "2026-06-25T11:37:32.384213+00:00",
+    "nextRefresh": "2026-06-25T11:37:32.384213+00:00",
     "articlesAnalyzed": 463,
-    "matchedMentions": 99,
-    "uniquePersonalities": 41,
+    "matchedMentions": 96,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
 }

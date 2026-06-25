@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-25T05:01:20.131269+00:00",
+  "generated_at": "2026-06-25T11:37:59.030356+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran-Oman joint administration of Strait of Hormuz escalates amid nuclear breakout window",
-      "summary": "ME Spectator (53.7K views) reports Iran and Oman released joint statement confirming intention to establish joint administration over Strait of Hormuz with maritime service fees. Development coincides with global_metrics confirming 60% U-235 enrichment and ~1-2 week breakout window, creating dual escalation in strategic chokepoint control and nuclear threshold (telegram, global_metrics).",
-      "region": "Strait of Hormuz / Iran",
-      "source": "telegram,global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Trump suggests ambiguity over Iran school strike accountability amid ongoing talks",
-      "summary": "Multiple incidents sources (NBC News, Reuters, The Times) report Trump stating it may never be known who bombed girls' school in Iran, with Netanyahu claiming he informed but did not seek Trump permission before strike. Uncertainty over attribution reflects tensions between Israeli unilateral action and US negotiation framework with Iran (incidents).",
+      "title": "Iran president rejects missile program inclusion in US accord amid breakout window",
+      "summary": "Iran's president explicitly stated the country's ballistic missile program will never be included in a US Memorandum of Understanding, according to The Jerusalem Post report (incidents feed). This hardening of Iran's negotiating position coincides with continued 60% U-235 enrichment and 1-2 week nuclear breakout estimate (global_metrics), signaling Iran is rejecting key US negotiation preconditions even as talks resume in Switzerland.",
       "region": "Iran",
-      "source": "incidents",
+      "source": "incidents,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "diplomatic",
-      "title": "Pakistan PM claims Iran agrees to future ballistic missile program negotiations",
-      "summary": "ME Spectator reports (~46K views) Pakistan Prime Minister Shehbaz Sharif claims in shocking statement that Iran has agreed to hold negotiations on its ballistic missile program in future. Development suggests potential Iranian concession on previously non-negotiable issue, though without direct Iranian confirmation (telegram).",
-      "region": "Global",
-      "source": "telegram",
-      "confidence": "medium"
+      "category": "incident",
+      "title": "Iran war day 118: IRGC rejects alternative Hormuz route amid joint Iran-Oman control plan",
+      "summary": "Al Jazeera reports IRGC rejected a new proposed Hormuz shipping route while US Secretary of State Rubio prepares GCC meetings (incidents). Development follows the Iran-Oman joint administration announcement (telegram, 54.6K views) establishing maritime fee collection, indicating Iran is consolidating strategic control over the chokepoint and blocking US-backed workarounds to maintain shipping flow.",
+      "region": "Strait of Hormuz",
+      "source": "incidents,telegram",
+      "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israeli strikes in southern Lebanon and Beirut suburbs persist despite ceasefire talks",
-      "summary": "Multiple incidents sources (Al Jazeera, BBC, NBC News, Axios) confirm Israeli strikes killed 2-3 in southern Lebanon and Beirut suburbs after renewed Hezbollah attacks, with operations continuing despite Washington negotiations and Senate constraints. Pattern indicates unilateral Israeli escalation outside formal ceasefire framework (incidents).",
+      "title": "Israeli strikes in Lebanon kill 3 as ceasefire framework fractures despite Washington talks",
+      "summary": "NBC News and Al Jazeera confirm Israeli strikes killed 2-3 in Beirut suburbs and southern Lebanon, including sea turtle conservationist Mona Khalil (CBC), with Hezbollah asserting ceasefire violation (incidents). Operations continue despite ongoing Washington negotiations and Senate constraints, indicating Israeli unilateral escalation outside formal diplomatic framework.",
       "region": "Lebanon / Israel",
       "source": "incidents",
       "confidence": "high"
     },
     {
-      "severity": "medium",
-      "category": "sentiment_shift",
-      "title": "Trump administration tensions over Iran dominate US news cycle amid policy constraints",
-      "summary": "Sentiment data shows US negative sentiment at 51% with 'Trump' (68 mentions), 'Iran' (24), and 'war' (17) dominating word cloud. Senate War Powers vote (50-48) with four GOP defections signals domestic political fracturing over Iran military authority, reflecting deepening constraints on presidential escalation (sentiment, incidents).",
+      "severity": "high",
+      "category": "cyber",
+      "title": "Iran-linked cyber group claims FBI drone system breach, threatens World Cup targets",
+      "summary": "France 24 and Middle East Eye report Iran-linked cyber group claims successful penetration of FBI drone systems and threatens World Cup event targets as retaliation for Iran strikes (global_metrics cyber headlines). Claim reflects escalating Iranian cyber warfare capability and willingness to target critical US infrastructure and international sporting events.",
       "region": "Global",
-      "source": "sentiment,incidents",
+      "source": "global_metrics",
+      "confidence": "medium"
+    },
+    {
+      "severity": "medium",
+      "category": "diplomatic",
+      "title": "US threatens fresh Iran attacks as talks resume in Switzerland amid ceasefire pause",
+      "summary": "Fortune reports Trump administration threatened new attacks on Iran, causing negotiations to pause, even as US-Iran talks are scheduled to resume Sunday in Switzerland with Tehran claiming Strait of Hormuz closure (incidents). Pattern reflects extreme volatility in diplomatic engagement, with US threats destabilizing negotiation window and signaling potential resumption of hostilities.",
+      "region": "Global",
+      "source": "incidents",
       "confidence": "high"
     }
   ],
-  "analysis_note": "Strategic moment characterized by compressed nuclear timeline (1-2 weeks to breakout), contested Strait of Hormuz control, Israeli unilateral escalation outside negotiations, and domestic US political constraints on Iran war powers\u2014creating multiple vectors of imminent escalation risk.",
+  "analysis_note": "Iran is hardening its nuclear and strategic positions while consolidating Hormuz control and rejecting US missile program demands, even as ceasefire frameworks fracture and cyber escalation accelerates, creating a critical convergence of nuclear threshold, regional proxy activation, and diplomatic breakdown.",
   "meta": {
-    "input_tokens": 19187,
+    "input_tokens": 19462,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 660,
-    "cost_usd": 0.0225,
-    "wall_time_s": 9.7,
-    "data_hash": "608aef24f560a9c376ddfa4c1b8bc8d781735aa360c9db9dea57d30ae84308ba"
+    "output_tokens": 698,
+    "cost_usd": 0.023,
+    "wall_time_s": 10.6,
+    "data_hash": "97892081e9e7d3aafc9057a054f4e9803d46bac7793a1b09bcd2f5fa551b09b1"
   }
 }
