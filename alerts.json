@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-06-24T22:13:43.942518+00:00",
+  "generated_at": "2026-06-25T05:01:20.131269+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran nuclear breakout timeline narrows amid memorandum contradictions",
-      "summary": "Rybar reports (145K views) that 17 June memorandum halted 110-day conflict but contains six structural contradictions risking renewed escalation. Combined with global_metrics confirming 60% U-235 enrichment and 1\u20132 week breakout window, ambiguities over $6 billion sovereignty and inspector access create imminent nuclear threshold risk during active US-Iran negotiations (telegram, global_metrics).",
-      "region": "Iran",
+      "title": "Iran-Oman joint administration of Strait of Hormuz escalates amid nuclear breakout window",
+      "summary": "ME Spectator (53.7K views) reports Iran and Oman released joint statement confirming intention to establish joint administration over Strait of Hormuz with maritime service fees. Development coincides with global_metrics confirming 60% U-235 enrichment and ~1-2 week breakout window, creating dual escalation in strategic chokepoint control and nuclear threshold (telegram, global_metrics).",
+      "region": "Strait of Hormuz / Iran",
       "source": "telegram,global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Senate votes to curb Trump's Iran war powers with four GOP defections",
-      "summary": "Rybar reports (140K views) US Senate passed resolution 50\u201348 restricting presidential military authority over Iran using War Powers Act loophole, with four Republicans joining Democrats. Vote signals domestic constraint on escalation but reflects deep division as negotiations continue in Switzerland (telegram, incidents).",
-      "region": "Global",
-      "source": "telegram,incidents",
+      "title": "Trump suggests ambiguity over Iran school strike accountability amid ongoing talks",
+      "summary": "Multiple incidents sources (NBC News, Reuters, The Times) report Trump stating it may never be known who bombed girls' school in Iran, with Netanyahu claiming he informed but did not seek Trump permission before strike. Uncertainty over attribution reflects tensions between Israeli unilateral action and US negotiation framework with Iran (incidents).",
+      "region": "Iran",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "cyber",
-      "title": "Iran-linked group claims FBI drone hack; cyber operations escalate amid talks",
-      "summary": "Global metrics cyber headline reports Iran-linked group claims compromise of FBI drones and threatens World Cup operations. Escalation in cyber domain parallels ongoing Strait of Hormuz tensions and nuclear negotiations, suggesting proxy coordination across multiple domains (global_metrics).",
+      "category": "diplomatic",
+      "title": "Pakistan PM claims Iran agrees to future ballistic missile program negotiations",
+      "summary": "ME Spectator reports (~46K views) Pakistan Prime Minister Shehbaz Sharif claims in shocking statement that Iran has agreed to hold negotiations on its ballistic missile program in future. Development suggests potential Iranian concession on previously non-negotiable issue, though without direct Iranian confirmation (telegram).",
       "region": "Global",
-      "source": "global_metrics",
+      "source": "telegram",
       "confidence": "medium"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israeli strikes continue in Lebanon despite Washington ceasefire pressure",
-      "summary": "Multiple incidents sources (NBC News, Al Jazeera, BBC) confirm Israeli strikes killed at least 5 in southern Lebanon and Beirut suburbs, including environmentalist Mona Khalil. Operations persist despite Trump administration warnings and Senate pushback, indicating unilateral escalation outside negotiation framework (incidents).",
+      "title": "Israeli strikes in southern Lebanon and Beirut suburbs persist despite ceasefire talks",
+      "summary": "Multiple incidents sources (Al Jazeera, BBC, NBC News, Axios) confirm Israeli strikes killed 2-3 in southern Lebanon and Beirut suburbs after renewed Hezbollah attacks, with operations continuing despite Washington negotiations and Senate constraints. Pattern indicates unilateral Israeli escalation outside formal ceasefire framework (incidents).",
       "region": "Lebanon / Israel",
       "source": "incidents",
       "confidence": "high"
@@ -42,21 +42,21 @@
     {
       "severity": "medium",
       "category": "sentiment_shift",
-      "title": "US negative sentiment on Iran climbs to 50% amid war/judge discourse",
-      "summary": "Sentiment analysis shows US negative sentiment at 50% vs 46% positive, with 'trump' (61 mentions), 'judge' (20), and 'war' (11) topping word clouds. Shift reflects polarized domestic debate over presidential Iran authority and judicial intervention, constraining unified negotiation posture (sentiment).",
+      "title": "Trump administration tensions over Iran dominate US news cycle amid policy constraints",
+      "summary": "Sentiment data shows US negative sentiment at 51% with 'Trump' (68 mentions), 'Iran' (24), and 'war' (17) dominating word cloud. Senate War Powers vote (50-48) with four GOP defections signals domestic political fracturing over Iran military authority, reflecting deepening constraints on presidential escalation (sentiment, incidents).",
       "region": "Global",
-      "source": "sentiment",
+      "source": "sentiment,incidents",
       "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran nuclear diplomacy faces compounding pressures: imminent 1\u20132 week breakout window, Senate constraint on Trump's military authority, Israeli unilateral strikes, cyber escalation, and a memorandum riddled with contradictions that either party can exploit for justification of renewed hostilities.",
+  "analysis_note": "Strategic moment characterized by compressed nuclear timeline (1-2 weeks to breakout), contested Strait of Hormuz control, Israeli unilateral escalation outside negotiations, and domestic US political constraints on Iran war powers\u2014creating multiple vectors of imminent escalation risk.",
   "meta": {
-    "input_tokens": 19090,
+    "input_tokens": 19187,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 641,
-    "cost_usd": 0.0223,
-    "wall_time_s": 10.3,
-    "data_hash": "61ea98d8adf6213deb2f8f4dd11c35e37608947e026f5267b1e336f82ef74714"
+    "output_tokens": 660,
+    "cost_usd": 0.0225,
+    "wall_time_s": 9.7,
+    "data_hash": "608aef24f560a9c376ddfa4c1b8bc8d781735aa360c9db9dea57d30ae84308ba"
   }
 }
