@@ -1,61 +1,76 @@
 {
   "us": {
-    "positive": 54,
-    "negative": 42,
-    "neutral": 4,
+    "positive": 51,
+    "negative": 43,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 74,
+        "count": 73,
         "sentiment": "neutral"
       },
       {
         "word": "court",
-        "count": 28,
+        "count": 33,
         "sentiment": "neutral"
       },
       {
         "word": "supreme",
-        "count": 27,
+        "count": 32,
         "sentiment": "positive"
       },
       {
-        "word": "administration",
-        "count": 15,
+        "word": "iran",
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 15,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "federal",
-        "count": 13,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
+        "word": "war",
+        "count": 14,
+        "sentiment": "negative"
+      },
+      {
         "word": "house",
-        "count": 13,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "order",
-        "count": 11,
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "blocks",
-        "count": 10,
+        "count": 12,
         "sentiment": "negative"
       },
       {
-        "word": "list",
+        "word": "asylum",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "immigration",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protections",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -65,17 +80,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "asylum",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
+        "word": "talks",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "immigration",
+        "word": "lets",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "end",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -95,12 +110,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "list",
         "count": 7,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "event",
+        "word": "america",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "seekers",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -120,116 +145,81 @@
         "sentiment": "neutral"
       },
       {
-        "word": "executive",
+        "word": "alligator",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "thousands",
+        "word": "alcatraz",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mail-in",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ufc",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lets",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "end",
-        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-25T17:08:49.825314+00:00",
-    "nextRefresh": "2026-06-25T17:08:49.825314+00:00",
-    "articlesAnalyzed": 342,
+    "generatedAt": "2026-06-25T19:52:21.160708+00:00",
+    "nextRefresh": "2026-06-25T19:52:21.160708+00:00",
+    "articlesAnalyzed": 341,
     "matchedMentions": 169,
-    "uniquePersonalities": 48,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 33,
-    "negative": 52,
-    "neutral": 15,
+    "positive": 32,
+    "negative": 49,
+    "neutral": 19,
     "wordCloud": [
       {
-        "word": "goyal",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
         "word": "murder",
-        "count": 16,
+        "count": 15,
         "sentiment": "negative"
       },
       {
         "word": "siya",
-        "count": 15,
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "goyal",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
-        "count": 9,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "ketan",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pune",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "journalists",
-        "count": 7,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "case",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "chetan",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
+        "word": "bjp",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sena",
+        "word": "pradhan",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "chaudhary",
+        "word": "pune",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "agarwal",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -239,72 +229,72 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "table",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "shinde",
+        "word": "rahul",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "fir",
+        "word": "gandhi",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "video",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pradhan",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fort",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "aap",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sikh",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rebel",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "threatens",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "reacts",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ram",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "temple",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "police",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chetan",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bengal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "uniform",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "code",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bill",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leak",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "didn",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fir",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "video",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -314,16 +304,26 @@
         "sentiment": "positive"
       },
       {
-        "word": "agarwal",
+        "word": "chaudhary",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "meets",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fear",
+        "count": 4,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-25T17:09:04.512678+00:00",
-    "nextRefresh": "2026-06-25T17:09:04.512678+00:00",
-    "articlesAnalyzed": 463,
-    "matchedMentions": 81,
+    "generatedAt": "2026-06-25T19:52:33.392585+00:00",
+    "nextRefresh": "2026-06-25T19:52:33.392585+00:00",
+    "articlesAnalyzed": 468,
+    "matchedMentions": 74,
     "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
