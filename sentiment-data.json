@@ -1,46 +1,41 @@
 {
   "us": {
-    "positive": 46,
-    "negative": 50,
-    "neutral": 4,
+    "positive": 41,
+    "negative": 52,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 61,
+        "count": 68,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 20,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 15,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "war",
+        "count": 17,
+        "sentiment": "negative"
+      },
+      {
+        "word": "bill",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "housing",
         "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "citizenship",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 11,
-        "sentiment": "negative"
-      },
-      {
-        "word": "bill",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "housing",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -55,37 +50,62 @@
         "sentiment": "neutral"
       },
       {
+        "word": "congress",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "blocks",
         "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "gop",
-        "count": 9,
+        "word": "center",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "vote",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "powers",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "case",
-        "count": 6,
+        "word": "kennedy",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "passes",
+        "word": "powers",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "requests",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "billion",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nato",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -96,6 +116,21 @@
       },
       {
         "word": "house",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "orders",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "explain",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "aid",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -115,87 +150,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "america",
+        "word": "passes",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "carlson",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "defense",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "group",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "forever",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chemicals",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kennedy",
-        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-24T22:13:09.940072+00:00",
-    "nextRefresh": "2026-06-24T22:13:09.940072+00:00",
+    "generatedAt": "2026-06-25T00:05:27.697683+00:00",
+    "nextRefresh": "2026-06-25T00:05:27.697683+00:00",
     "articlesAnalyzed": 341,
-    "matchedMentions": 145,
-    "uniquePersonalities": 44,
+    "matchedMentions": 159,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 23,
-    "negative": 56,
+    "positive": 26,
+    "negative": 53,
     "neutral": 21,
     "wordCloud": [
-      {
-        "word": "goyal",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pune",
-        "count": 9,
-        "sentiment": "neutral"
-      },
       {
         "word": "murder",
         "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "ketan",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
+        "word": "goyal",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "siya",
+        "word": "pune",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ketan",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mps",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -214,7 +214,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "punjab",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "agarwal",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "siya",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -229,7 +244,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "mann",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "wants",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sena",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ubt",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "birla",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -239,27 +279,7 @@
         "sentiment": "negative"
       },
       {
-        "word": "family",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tata",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leak",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
         "word": "decide",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -284,47 +304,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "rebels",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
         "word": "rahul",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "punjab",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lohagad",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "accused",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "chaudhary",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "yadav",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "haven",
+        "word": "video",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-24T22:13:22.329261+00:00",
-    "nextRefresh": "2026-06-24T22:13:22.329261+00:00",
+    "generatedAt": "2026-06-25T00:05:39.273738+00:00",
+    "nextRefresh": "2026-06-25T00:05:39.273738+00:00",
     "articlesAnalyzed": 466,
-    "matchedMentions": 81,
-    "uniquePersonalities": 39,
+    "matchedMentions": 77,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
