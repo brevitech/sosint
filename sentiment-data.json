@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 58,
-    "negative": 37,
+    "positive": 56,
+    "negative": 39,
     "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 55,
+        "count": 49,
         "sentiment": "neutral"
       },
       {
         "word": "supreme",
-        "count": 22,
+        "count": 16,
         "sentiment": "positive"
       },
       {
         "word": "court",
-        "count": 22,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -25,7 +25,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "democrats",
         "count": 13,
         "sentiment": "neutral"
       },
@@ -35,17 +35,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "asylum",
+        "word": "house",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "immigration",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nato",
+        "word": "texas",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -60,28 +60,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "america",
+        "word": "senate",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "immigration",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "texas",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "school",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -90,9 +70,24 @@
         "sentiment": "neutral"
       },
       {
+        "word": "school",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "vote",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "fear",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "protect",
@@ -100,32 +95,17 @@
         "sentiment": "positive"
       },
       {
-        "word": "rulings",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "gop",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "defense",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "chief",
+        "word": "public",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "tells",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "end",
+        "word": "liner",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -140,7 +120,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "protections",
+        "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "america",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -150,57 +140,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "key",
+        "word": "rulings",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "johnson",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-26T10:20:12.316249+00:00",
-    "nextRefresh": "2026-06-26T10:20:12.316249+00:00",
-    "articlesAnalyzed": 350,
-    "matchedMentions": 178,
+    "generatedAt": "2026-06-26T13:07:20.573175+00:00",
+    "nextRefresh": "2026-06-26T13:07:20.573175+00:00",
+    "articlesAnalyzed": 353,
+    "matchedMentions": 169,
     "uniquePersonalities": 56,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 43,
-    "negative": 44,
-    "neutral": 13,
+    "positive": 45,
+    "negative": 40,
+    "neutral": 15,
     "wordCloud": [
-      {
-        "word": "siya",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "goyal",
-        "count": 13,
-        "sentiment": "neutral"
-      },
       {
         "word": "ketan",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "donation",
-        "count": 10,
+        "word": "siya",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "murder",
-        "count": 10,
+        "count": 11,
         "sentiment": "negative"
       },
       {
         "word": "ram",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "agarwal",
-        "count": 7,
+        "word": "goyal",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -209,32 +199,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "row",
+        "word": "donation",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "pradhan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "pune",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sena",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "yadav",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "video",
+        "word": "behind",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -244,7 +244,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
+        "word": "agarwal",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -254,32 +254,57 @@
         "sentiment": "positive"
       },
       {
+        "word": "global",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "target",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "adityanath",
+        "word": "modi",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "charles",
+        "word": "khan",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "million",
+        "word": "rahul",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
+        "word": "raut",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "eye",
+        "word": "mandir",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "family",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kejriwal",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hits",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cricketer",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -289,42 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mother",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "death",
         "count": 3,
         "sentiment": "negative"
-      },
-      {
-        "word": "ayodhya",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "emergency",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "emkay",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-26T10:20:25.235092+00:00",
-    "nextRefresh": "2026-06-26T10:20:25.235092+00:00",
-    "articlesAnalyzed": 473,
-    "matchedMentions": 75,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-06-26T13:07:33.064858+00:00",
+    "nextRefresh": "2026-06-26T13:07:33.064858+00:00",
+    "articlesAnalyzed": 474,
+    "matchedMentions": 78,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
 }

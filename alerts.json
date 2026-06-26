@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-26T06:52:42.754503+00:00",
+  "generated_at": "2026-06-26T13:07:45.720323+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran nuclear breakout window narrows to 1-2 weeks amid stalled IAEA access",
-      "summary": "Iran's uranium enrichment at 60% U-235 has compressed estimated breakout time to approximately 1-2 weeks, per global_metrics nuclear data. UN nuclear chief signals inspectors will visit Iranian sites, but Iran conditions access on completion of final deal. IAEA verification headlines dominate feed (NPR, South Carolina Public Radio, Foundation for Defense of Democracies), indicating urgent diplomatic pressure. Parallel cyber attacks on global infrastructure attributed to Iranian actors (Middle East Eye, Radio Free Europe) suggest regime preparing contingencies.",
+      "title": "Iran nuclear breakout remains imminent; 1-2 week window persists amid IAEA negotiations",
+      "summary": "Iran's uranium enrichment at 60% U-235 continues to compress estimated breakout time to 1-2 weeks per global_metrics. UN nuclear chief signals inspectors will visit Iranian sites contingent on final deal completion. Multiple headline corroboration (NPR, South Carolina Public Radio, Foundation for Defense of Democracies) underscores diplomatic urgency as regime prepares potential contingencies amid escalating maritime tensions.",
       "region": "Global / Iran",
-      "source": "global_metrics, telegram",
+      "source": "global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Iran strikes continue undermining Trump Hormuz agreement; UN evacuation paused",
-      "summary": "IRGC Navy attack on cargo vessel 7.5 nautical miles off Oman coast (26.36\u00b0N, 56.1\u00b0E per incidents feed) persists as unresolved escalation. Multiple corroborating outlets (WSJ, Washington Post, CNN, PBS, NYT, BBC, CBS, Al Jazeera, Guardian) confirm Iranian attribution and vessel's unauthorized routing. UN agency formally paused evacuation operations through Strait of Hormuz. Middle East Spectator Telegram post (~48K views) confirms IRGC statement that vessel ignored Persian Gulf Strait Authority coordination and verbal warnings prior to strike.",
+      "title": "Iran escalates Strait of Hormuz challenge; continued attacks test Trump agreement",
+      "summary": "IRGC Navy attack on cargo vessel near Oman (26.37\u00b0N, 56.2\u00b0E) persists as unresolved escalation testing Trump's Hormuz deal. Multi-source corroboration (WSJ, Washington Post, CNN, NBC, NPR, Time, BBC, NYT, CBS, Al Jazeera) confirms Iranian attribution. Vessel reportedly ignored Persian Gulf Strait Authority coordination and verbal warnings prior to strike per Middle East Spectator (~52K views). UN evacuation operations remain paused through strategic waterway.",
       "region": "Strait of Hormuz / Persian Gulf",
       "source": "incidents, telegram",
       "confidence": "high"
@@ -24,39 +24,39 @@
     {
       "severity": "high",
       "category": "asset_movement",
-      "title": "US submarine USS Florida positioned in Persian Gulf as nuclear tension peaks",
-      "summary": "USS Florida submarine now deployed in Persian Gulf (26.49\u00b0N, 52.22\u00b0E per assets feed) alongside existing Red Sea carrier concentration (USS Dwight D. Eisenhower, USS Bataan, destroyers Carney, Mason, Laboon). Multi-theater US presence includes USS Abraham Lincoln (Arabian Sea) and USS Gerald R. Ford (Mediterranean). Threat level remains CRITICAL (9/10). Submarine positioning signals readiness for undersea contingencies amid 1-2 week nuclear breakout estimate and Iranian maritime escalation.",
-      "region": "Persian Gulf / Red Sea / Arabian Sea",
+      "title": "US multi-carrier deployment surge continues amid Persian Gulf nuclear escalation",
+      "summary": "USS Abraham Lincoln (Arabian Sea), USS Gerald R. Ford (Mediterranean), USS Dwight D. Eisenhower (Red Sea), USS Bataan, and destroyers Carney, Mason, Laboon maintain concentrated presence across critical zones. Assets positioned to respond to 1-2 week nuclear breakout window and Iranian maritime aggression. Threat level remains CRITICAL (9/10) per global_metrics.",
+      "region": "Persian Gulf / Red Sea / Arabian Sea / Mediterranean",
       "source": "assets, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel continues Lebanon strikes despite April ceasefire; 3 civilians killed",
-      "summary": "Israeli airstrikes on southern Lebanon (33.75-34.01\u00b0N, 35.52-35.97\u00b0E per incidents feed) killed 3 civilians, including named targets, in violation of ceasefire framework that took effect in April 2026 (Middle East Eye, CBC, Al Jazeera, Axios). Hezbollah asserts ceasefire violation; pattern indicates Israel conducting unilateral operations outside diplomatic constraints. Concurrent Iranian Parliament Speaker and Chief Negotiator Qalibaf attendance at Tehran mourning ceremony (Telegram/ME Spectator, ~51K views) suggests regime positioning for potential retaliation response.",
-      "region": "Lebanon / Israel border",
+      "title": "Israel strikes southern Lebanon amid ceasefire amid Trump pressure on Netanyahu",
+      "summary": "Israeli warplanes struck Lebanon targets (33.71\u00b0N, 35.87\u00b0E region) killing at least two civilians per Hezbollah statement and Middle East Eye, violating ceasefire terms. Trump explicitly told Netanyahu not to strike back at Iran (Axios), attempting to constrain Israeli escalation. Clashes reported in Beit Yahoun with Hebrew media confirming Israeli casualties per ME Spectator (~44K views). Pattern suggests fragility of April ceasefire.",
+      "region": "Northern Israel / Southern Lebanon",
       "source": "incidents, telegram",
       "confidence": "high"
     },
     {
       "severity": "medium",
-      "category": "telegram_signal",
-      "title": "Houthis escalate Red Sea interdiction with formal ban on Israeli vessels",
-      "summary": "Houthis announce blanket prohibition on Israeli shipping in Red Sea (15.83-16.16\u00b0N, 40.8-41.12\u00b0E per incidents feed), per Long War Journal and Asharq Al-Awsat reports. Multiple recent Houthi attacks on Israel documented (incidents category: naval). Declaration signals proxy escalation under Iranian direction alongside IRGC Strait of Hormuz strikes. Proxy force status elevated across board: Hezbollah (Active Exchanges), Iraqi Shiite Militias (Base Strikes Detected), Palestinian Islamic Jihad (Active) per global_metrics.",
-      "region": "Red Sea / Bab al-Mandab",
-      "source": "incidents, global_metrics",
+      "category": "sentiment_shift",
+      "title": "US domestic sentiment stabilizes as Iran conflict discourse remains elevated",
+      "summary": "US sentiment 56% positive / 39% negative with 'trump' (49 mentions), 'iran' (13), 'court', 'supreme' dominating discourse, signaling Trump administration focus on Iran policy and domestic legal battles. No dramatic negative spike from baseline, but 'war' and 'fear' remain in top keywords. Absence of dramatic sentiment collapse suggests public fatigue rather than new crisis catalyst.",
+      "region": "Global",
+      "source": "sentiment",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "Iran nuclear breakout window has contracted to 1-2 weeks while IRGC simultaneously challenges Trump's Hormuz deal and proxies escalate across three theaters (Red Sea, Lebanon, Persian Gulf); US multi-carrier posture and submarine presence indicate preparation for imminent confrontation, but diplomatic verification mechanisms remain unresolved.",
+  "analysis_note": "Iran maintains imminent 1-2 week nuclear breakout capability while testing Trump's Strait of Hormuz agreement through persistent IRGC maritime strikes; multi-carrier US deployment, Israeli-Hezbollah clashes despite ceasefire, and compressed diplomatic timeline create multiple escalation vectors in parallel.",
   "meta": {
-    "input_tokens": 23067,
+    "input_tokens": 19020,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 1066,
-    "cost_usd": 0.0284,
-    "wall_time_s": 15.2,
-    "data_hash": "6b45de4ae274c16a81c35308d56f3eb861578afdd958d153909fa0868ca0bb5a"
+    "output_tokens": 824,
+    "cost_usd": 0.0231,
+    "wall_time_s": 12.7,
+    "data_hash": "5be269e9abb82f94ba4e84680d6530927bf9c5ea67270e7dc32134175a69b713"
   }
 }
