@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 59,
+    "positive": 58,
     "negative": 36,
-    "neutral": 5,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
+        "count": 52,
         "sentiment": "neutral"
       },
       {
         "word": "court",
-        "count": 29,
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "supreme",
-        "count": 28,
+        "count": 24,
         "sentiment": "positive"
       },
       {
@@ -25,38 +25,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
         "word": "iran",
         "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "federal",
+        "word": "judge",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "immigration",
+        "word": "administration",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "end",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "order",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -70,7 +50,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "protections",
+        "word": "nato",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reflecting",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pool",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "immigration",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -80,39 +75,34 @@
         "sentiment": "neutral"
       },
       {
-        "word": "blocks",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "key",
+        "word": "texas",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
+        "word": "school",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vote",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "end",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protections",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "war",
         "count": 6,
         "sentiment": "negative"
-      },
-      {
-        "word": "story",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reflecting",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pool",
-        "count": 6,
-        "sentiment": "neutral"
       },
       {
         "word": "america",
@@ -125,7 +115,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ruling",
+        "word": "defense",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "chief",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tells",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -140,102 +140,87 @@
         "sentiment": "neutral"
       },
       {
-        "word": "lets",
+        "word": "blocks",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "order",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "halts",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seeking",
+        "word": "knife",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-26T02:51:44.755178+00:00",
-    "nextRefresh": "2026-06-26T02:51:44.755178+00:00",
-    "articlesAnalyzed": 346,
-    "matchedMentions": 180,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-06-26T06:52:10.239629+00:00",
+    "nextRefresh": "2026-06-26T06:52:10.239629+00:00",
+    "articlesAnalyzed": 347,
+    "matchedMentions": 169,
+    "uniquePersonalities": 54,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 32,
-    "negative": 45,
-    "neutral": 23,
+    "positive": 38,
+    "negative": 46,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "murder",
-        "count": 12,
+        "count": 17,
         "sentiment": "negative"
       },
       {
         "word": "siya",
-        "count": 9,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "pune",
-        "count": 8,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "goyal",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ketan",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "video",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "city",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "role",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "charles",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "questions",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "mann",
-        "count": 4,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "video",
-        "count": 4,
+        "word": "fort",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "singh",
-        "count": 4,
+        "word": "guilty",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "accused",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "chetan",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -244,7 +229,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "adani",
+        "word": "chaudhary",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "turn",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -254,17 +244,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "plot",
+        "word": "case",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
+        "word": "help",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "global",
+        "word": "boyfriend",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -274,57 +264,67 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fort",
+        "word": "mask",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "daughter",
+        "word": "push",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "continues",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "agarwal",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "birthday",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "gift",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "dipke",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "chetan",
+        "word": "punjab",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "ram",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "fir",
+        "word": "claims",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "questions",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-26T02:51:58.629177+00:00",
-    "nextRefresh": "2026-06-26T02:51:58.629177+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 71,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-06-26T06:52:24.335375+00:00",
+    "nextRefresh": "2026-06-26T06:52:24.335375+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 74,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }

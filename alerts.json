@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-25T23:14:03.309328+00:00",
+  "generated_at": "2026-06-26T06:52:42.754503+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
-      "category": "incident",
-      "title": "Iran strikes cargo vessel in Strait of Hormuz, halting UN evacuation operations",
-      "summary": "Iran's IRGC Navy attacked a commercial vessel 7.5 nautical miles off Oman coast on unauthorized route through Strait of Hormuz (26.27\u00b0N, 56.32\u00b0E per incidents feed), forcing UN agency pause of evacuation operations (WSJ, Washington Post, CNBC, NYT, BBC, PBS, CNN, CBS). Multiple corroborating sources confirm Iranian attribution; vessel attempted passage without coordination with Persian Gulf Strait Authority. Attack directly undermines Trump-negotiated deal to reopen strait and signals Iranian rejection of maritime agreements.",
-      "region": "Strait of Hormuz / Persian Gulf",
-      "source": "incidents",
+      "category": "nuclear",
+      "title": "Iran nuclear breakout window narrows to 1-2 weeks amid stalled IAEA access",
+      "summary": "Iran's uranium enrichment at 60% U-235 has compressed estimated breakout time to approximately 1-2 weeks, per global_metrics nuclear data. UN nuclear chief signals inspectors will visit Iranian sites, but Iran conditions access on completion of final deal. IAEA verification headlines dominate feed (NPR, South Carolina Public Radio, Foundation for Defense of Democracies), indicating urgent diplomatic pressure. Parallel cyber attacks on global infrastructure attributed to Iranian actors (Middle East Eye, Radio Free Europe) suggest regime preparing contingencies.",
+      "region": "Global / Iran",
+      "source": "global_metrics, telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel kills 3 in Lebanon strikes as ceasefire framework deteriorates",
-      "summary": "Israeli drone strikes in southern Lebanon (33.8-34.1\u00b0N, 35.6-35.9\u00b0E) killed 2-3 civilians including named targets, occurring despite April ceasefire arrangement (Middle East Eye, BBC, CBC, Axios, Al Jazeera, Shafaq News). Multiple incidents logged within 24-hour window in Nabatieh area. Hezbollah asserts ceasefire violation; pattern indicates unilateral Israeli operations continuing outside formal diplomatic constraints, raising Iran retaliation risk.",
-      "region": "Lebanon / Israel border",
-      "source": "incidents",
+      "title": "Iran strikes continue undermining Trump Hormuz agreement; UN evacuation paused",
+      "summary": "IRGC Navy attack on cargo vessel 7.5 nautical miles off Oman coast (26.36\u00b0N, 56.1\u00b0E per incidents feed) persists as unresolved escalation. Multiple corroborating outlets (WSJ, Washington Post, CNN, PBS, NYT, BBC, CBS, Al Jazeera, Guardian) confirm Iranian attribution and vessel's unauthorized routing. UN agency formally paused evacuation operations through Strait of Hormuz. Middle East Spectator Telegram post (~48K views) confirms IRGC statement that vessel ignored Persian Gulf Strait Authority coordination and verbal warnings prior to strike.",
+      "region": "Strait of Hormuz / Persian Gulf",
+      "source": "incidents, telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "asset_movement",
-      "title": "US carrier strike group concentration in Red Sea amid critical threat level",
-      "summary": "USS Dwight D. Eisenhower carrier, USS Bataan amphibious ship, and three destroyers (Carney, Mason, Laboon) deployed in Red Sea (15.5-15.9\u00b0N, 41.77-42.0\u00b0E) while threat level remains CRITICAL (9/10, global_metrics). Concurrent positioning of USS Gerald R. Ford in Mediterranean and USS Abraham Lincoln in Arabian Sea signals multi-theater readiness. Asset concentration coincides with Houthi announcements to ban Israeli vessels from Red Sea and recent drone/missile activity.",
-      "region": "Red Sea / Arabian Sea / Mediterranean",
-      "source": "assets",
+      "title": "US submarine USS Florida positioned in Persian Gulf as nuclear tension peaks",
+      "summary": "USS Florida submarine now deployed in Persian Gulf (26.49\u00b0N, 52.22\u00b0E per assets feed) alongside existing Red Sea carrier concentration (USS Dwight D. Eisenhower, USS Bataan, destroyers Carney, Mason, Laboon). Multi-theater US presence includes USS Abraham Lincoln (Arabian Sea) and USS Gerald R. Ford (Mediterranean). Threat level remains CRITICAL (9/10). Submarine positioning signals readiness for undersea contingencies amid 1-2 week nuclear breakout estimate and Iranian maritime escalation.",
+      "region": "Persian Gulf / Red Sea / Arabian Sea",
+      "source": "assets, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "IRGC Navy confirms Hormuz strike via OSINT channels with operational details",
-      "summary": "Middle East Spectator Telegram post (~41.7K views, dated 2026-06-25T15:17:19Z) reports IRGC Navy strike on vessel 7.5nm off Oman; vessel ignored verbal warnings and attempted unapproved route through strait. Post categorized as BREAKING with high engagement, corroborating official-source incident reporting. Specificity of operational detail (warning sequence, route violation) suggests coordinated messaging from Iranian command.",
-      "region": "Strait of Hormuz / Persian Gulf",
-      "source": "telegram,incidents",
+      "category": "incident",
+      "title": "Israel continues Lebanon strikes despite April ceasefire; 3 civilians killed",
+      "summary": "Israeli airstrikes on southern Lebanon (33.75-34.01\u00b0N, 35.52-35.97\u00b0E per incidents feed) killed 3 civilians, including named targets, in violation of ceasefire framework that took effect in April 2026 (Middle East Eye, CBC, Al Jazeera, Axios). Hezbollah asserts ceasefire violation; pattern indicates Israel conducting unilateral operations outside diplomatic constraints. Concurrent Iranian Parliament Speaker and Chief Negotiator Qalibaf attendance at Tehran mourning ceremony (Telegram/ME Spectator, ~51K views) suggests regime positioning for potential retaliation response.",
+      "region": "Lebanon / Israel border",
+      "source": "incidents, telegram",
       "confidence": "high"
     },
     {
       "severity": "medium",
-      "category": "sentiment_shift",
-      "title": "US domestic sentiment dominated by Trump court battles; Iran coverage remains secondary",
-      "summary": "Sentiment analysis shows US positive sentiment at 55% (39% negative), with 'Trump' (72 occurrences) and 'court' (26) dominating word cloud ahead of 'Iran' (16 occurrences). Shift reflects focus on Supreme Court rulings and immigration/voting disputes rather than escalation coverage. Global sentiment shows India 54% negative (unrelated murder case), indicating fragmented international attention. Low Iran word-frequency suggests potential gap in public awareness of maritime escalation.",
-      "region": "Global",
-      "source": "sentiment",
+      "category": "telegram_signal",
+      "title": "Houthis escalate Red Sea interdiction with formal ban on Israeli vessels",
+      "summary": "Houthis announce blanket prohibition on Israeli shipping in Red Sea (15.83-16.16\u00b0N, 40.8-41.12\u00b0E per incidents feed), per Long War Journal and Asharq Al-Awsat reports. Multiple recent Houthi attacks on Israel documented (incidents category: naval). Declaration signals proxy escalation under Iranian direction alongside IRGC Strait of Hormuz strikes. Proxy force status elevated across board: Hezbollah (Active Exchanges), Iraqi Shiite Militias (Base Strikes Detected), Palestinian Islamic Jihad (Active) per global_metrics.",
+      "region": "Red Sea / Bab al-Mandab",
+      "source": "incidents, global_metrics",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "Iran's Hormuz strike breaks down diplomatic framework as nuclear breakout window (~1-2 weeks) narrows; simultaneous Israeli Lebanon operations and proxy escalations (Houthis) create multi-front pressure on negotiations while Trump administration balances military readiness against deal preservation.",
+  "analysis_note": "Iran nuclear breakout window has contracted to 1-2 weeks while IRGC simultaneously challenges Trump's Hormuz deal and proxies escalate across three theaters (Red Sea, Lebanon, Persian Gulf); US multi-carrier posture and submarine presence indicate preparation for imminent confrontation, but diplomatic verification mechanisms remain unresolved.",
   "meta": {
-    "input_tokens": 22955,
+    "input_tokens": 23067,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 899,
-    "cost_usd": 0.0274,
-    "wall_time_s": 13.5,
-    "data_hash": "767748b0e820e2575654755be0e8dfcb529ce498d7a67ff5adbc4addfd7d27c4"
+    "output_tokens": 1066,
+    "cost_usd": 0.0284,
+    "wall_time_s": 15.2,
+    "data_hash": "6b45de4ae274c16a81c35308d56f3eb861578afdd958d153909fa0868ca0bb5a"
   }
 }
