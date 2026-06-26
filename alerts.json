@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-26T13:07:45.720323+00:00",
+  "generated_at": "2026-06-26T18:28:15.757010+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
+      "severity": "high",
+      "category": "incident",
+      "title": "Iran strikes cargo vessel in Strait of Hormuz, testing Trump ceasefire agreement",
+      "summary": "IRGC Navy attacked a cargo vessel 7.5 nautical miles off Oman coast (26.64\u00b0N, 56.23\u00b0E) on June 26, reportedly because the vessel attempted unauthorized passage through Strait of Hormuz without coordination with Persian Gulf Strait Authority and ignored verbal warnings. Trump administration characterized the strike as a 'foolish violation' of ceasefire terms. Multi-source corroboration across NBC, CNN, NYT, AP, Bloomberg, Reuters, WSJ confirms Iranian attribution and escalatory intent amid ongoing maritime tensions.",
+      "region": "Strait of Hormuz / Persian Gulf",
+      "source": "incidents, telegram, global_metrics",
+      "confidence": "high"
+    },
+    {
+      "severity": "critical",
+      "category": "telegram_signal",
+      "title": "Missile and drone alerts reported in Dubai, United Arab Emirates",
+      "summary": "Middle East Spectator reported breaking missile and drone alerts in Dubai on June 26 (~28.7K views, flagged with 'breaking', 'alert', 'missile', 'drone' keywords). Multiple concurrent postings of same alert across 2 hours suggest sustained monitoring of potential Iranian air activity or proxy strikes targeting UAE infrastructure. Escalation beyond Persian Gulf maritime zone into Arabian Peninsula airspace represents geographic expansion of conflict footprint.",
+      "region": "United Arab Emirates / Dubai",
+      "source": "telegram",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
+      "category": "incident",
+      "title": "Israeli forces clash with Hezbollah in southern Lebanon; casualties reported",
+      "summary": "Israeli military attempted advance into town of Beit Yahoun in southern Lebanon (33.97\u00b0N, 35.67\u00b0E) on June 25 and encountered Hezbollah resistance. Hebrew media confirmed Israeli military casualties in the engagement; at least one Israeli soldier reported killed per Middle East Spectator (~53K views). Escalation occurs amid Trump pressure on Netanyahu to avoid striking Iran, suggesting ceasefire erosion at tactical level despite strategic-level diplomatic efforts.",
+      "region": "Northern Israel / Southern Lebanon",
+      "source": "telegram, incidents",
+      "confidence": "high"
+    },
+    {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran nuclear breakout remains imminent; 1-2 week window persists amid IAEA negotiations",
-      "summary": "Iran's uranium enrichment at 60% U-235 continues to compress estimated breakout time to 1-2 weeks per global_metrics. UN nuclear chief signals inspectors will visit Iranian sites contingent on final deal completion. Multiple headline corroboration (NPR, South Carolina Public Radio, Foundation for Defense of Democracies) underscores diplomatic urgency as regime prepares potential contingencies amid escalating maritime tensions.",
+      "title": "Iran nuclear enrichment at 60% U-235; 1-2 week breakout window persists amid ceasefire breakdown",
+      "summary": "Iran maintains uranium enrichment at 60% U-235, compressing estimated weapons-grade breakout time to 1-2 weeks per global_metrics. UN nuclear chief signals IAEA inspectors will visit Iranian sites contingent on final deal completion. Simultaneous maritime escalation (Hormuz strike), regional proxy activity (Lebanon clashes), and UAE air alerts indicate Iran is testing ceasefire boundaries across multiple domains while nuclear program advances unabated, creating compound strategic risk.",
       "region": "Global / Iran",
       "source": "global_metrics",
       "confidence": "high"
     },
     {
-      "severity": "high",
-      "category": "incident",
-      "title": "Iran escalates Strait of Hormuz challenge; continued attacks test Trump agreement",
-      "summary": "IRGC Navy attack on cargo vessel near Oman (26.37\u00b0N, 56.2\u00b0E) persists as unresolved escalation testing Trump's Hormuz deal. Multi-source corroboration (WSJ, Washington Post, CNN, NBC, NPR, Time, BBC, NYT, CBS, Al Jazeera) confirms Iranian attribution. Vessel reportedly ignored Persian Gulf Strait Authority coordination and verbal warnings prior to strike per Middle East Spectator (~52K views). UN evacuation operations remain paused through strategic waterway.",
-      "region": "Strait of Hormuz / Persian Gulf",
-      "source": "incidents, telegram",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "asset_movement",
-      "title": "US multi-carrier deployment surge continues amid Persian Gulf nuclear escalation",
-      "summary": "USS Abraham Lincoln (Arabian Sea), USS Gerald R. Ford (Mediterranean), USS Dwight D. Eisenhower (Red Sea), USS Bataan, and destroyers Carney, Mason, Laboon maintain concentrated presence across critical zones. Assets positioned to respond to 1-2 week nuclear breakout window and Iranian maritime aggression. Threat level remains CRITICAL (9/10) per global_metrics.",
-      "region": "Persian Gulf / Red Sea / Arabian Sea / Mediterranean",
-      "source": "assets, global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "incident",
-      "title": "Israel strikes southern Lebanon amid ceasefire amid Trump pressure on Netanyahu",
-      "summary": "Israeli warplanes struck Lebanon targets (33.71\u00b0N, 35.87\u00b0E region) killing at least two civilians per Hezbollah statement and Middle East Eye, violating ceasefire terms. Trump explicitly told Netanyahu not to strike back at Iran (Axios), attempting to constrain Israeli escalation. Clashes reported in Beit Yahoun with Hebrew media confirming Israeli casualties per ME Spectator (~44K views). Pattern suggests fragility of April ceasefire.",
-      "region": "Northern Israel / Southern Lebanon",
-      "source": "incidents, telegram",
-      "confidence": "high"
-    },
-    {
       "severity": "medium",
       "category": "sentiment_shift",
-      "title": "US domestic sentiment stabilizes as Iran conflict discourse remains elevated",
-      "summary": "US sentiment 56% positive / 39% negative with 'trump' (49 mentions), 'iran' (13), 'court', 'supreme' dominating discourse, signaling Trump administration focus on Iran policy and domestic legal battles. No dramatic negative spike from baseline, but 'war' and 'fear' remain in top keywords. Absence of dramatic sentiment collapse suggests public fatigue rather than new crisis catalyst.",
-      "region": "Global",
-      "source": "sentiment",
-      "confidence": "medium"
+      "title": "US negative sentiment spike amid Iran tensions and Trump administration focus on ceasefire enforcement",
+      "summary": "US sentiment analysis shows 53% negative sentiment vs 44% positive, with 'Trump' (47 mentions), 'Iran' (14 mentions), 'Bolton' (11 mentions), 'threatens' (9 mentions), and 'Hormuz' (7 mentions) as top keywords. Sentiment reflects heightened concern over Iran's ceasefire violations, Trump's threatened response, and internal administration debate (Vance-Rubio split on Iran policy noted in Reuters coverage). Negative sentiment intensity increased relative to prior baseline, signaling public anxiety over imminent escalation risk.",
+      "region": "Global / United States",
+      "source": "sentiment, incidents",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "Iran maintains imminent 1-2 week nuclear breakout capability while testing Trump's Strait of Hormuz agreement through persistent IRGC maritime strikes; multi-carrier US deployment, Israeli-Hezbollah clashes despite ceasefire, and compressed diplomatic timeline create multiple escalation vectors in parallel.",
+  "analysis_note": "Iran is systematically testing Trump's ceasefire boundaries across maritime, aerial, and proxy domains while advancing toward nuclear weapons capability; simultaneous escalation across Hormuz, Lebanon, and UAE signals coordinated pressure campaign designed to extract concessions before 1-2 week nuclear breakout window closes.",
   "meta": {
-    "input_tokens": 19020,
+    "input_tokens": 15624,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 824,
-    "cost_usd": 0.0231,
-    "wall_time_s": 12.7,
-    "data_hash": "5be269e9abb82f94ba4e84680d6530927bf9c5ea67270e7dc32134175a69b713"
+    "output_tokens": 883,
+    "cost_usd": 0.02,
+    "wall_time_s": 12.8,
+    "data_hash": "62c49998e32b05957960bbe6d863695aa98a8a7b28f2e680c2a7cd9d9d4d471d"
   }
 }
