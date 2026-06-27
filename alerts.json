@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-26T18:28:15.757010+00:00",
+  "generated_at": "2026-06-27T00:02:14.959067+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
-      "severity": "high",
+      "severity": "critical",
       "category": "incident",
-      "title": "Iran strikes cargo vessel in Strait of Hormuz, testing Trump ceasefire agreement",
-      "summary": "IRGC Navy attacked a cargo vessel 7.5 nautical miles off Oman coast (26.64\u00b0N, 56.23\u00b0E) on June 26, reportedly because the vessel attempted unauthorized passage through Strait of Hormuz without coordination with Persian Gulf Strait Authority and ignored verbal warnings. Trump administration characterized the strike as a 'foolish violation' of ceasefire terms. Multi-source corroboration across NBC, CNN, NYT, AP, Bloomberg, Reuters, WSJ confirms Iranian attribution and escalatory intent amid ongoing maritime tensions.",
-      "region": "Strait of Hormuz / Persian Gulf",
+      "title": "US strikes Iranian targets after IRGC attacks cargo vessel in Strait of Hormuz",
+      "summary": "US Central Command conducted multiple airstrikes on Iranian missile and drone sites in response to Iran's attack on a commercial vessel in the Strait of Hormuz on June 26. This marks the first direct US retaliation on Iranian soil since the April ceasefire agreement, escalating tensions after Iran's earlier strike on the cargo ship. Multi-source confirmation from CENTCOM, NYT, Reuters, AP, NBC, and Middle East Spectator (~27.5K views) indicates deliberate ceasefire breach by both parties.",
+      "region": "Strait of Hormuz / Southern Iran",
       "source": "incidents, telegram, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "critical",
-      "category": "telegram_signal",
-      "title": "Missile and drone alerts reported in Dubai, United Arab Emirates",
-      "summary": "Middle East Spectator reported breaking missile and drone alerts in Dubai on June 26 (~28.7K views, flagged with 'breaking', 'alert', 'missile', 'drone' keywords). Multiple concurrent postings of same alert across 2 hours suggest sustained monitoring of potential Iranian air activity or proxy strikes targeting UAE infrastructure. Escalation beyond Persian Gulf maritime zone into Arabian Peninsula airspace represents geographic expansion of conflict footprint.",
-      "region": "United Arab Emirates / Dubai",
-      "source": "telegram",
-      "confidence": "medium"
+      "category": "nuclear",
+      "title": "Iran maintains 60% U-235 enrichment amid ceasefire collapse; 1-2 week breakout window persists",
+      "summary": "Iran continues uranium enrichment at 60% U-235 concentration with estimated breakout capability in 1-2 weeks, per global_metrics. Escalating military exchanges (cargo vessel attack, US strikes) occur while IAEA negotiates inspector access to Iranian nuclear sites. NPR and IAEA chief statements confirm deadlock on final nuclear deal terms, leaving Iran positioned for rapid weaponization if diplomatic channel fails.",
+      "region": "Iran (nuclear sites)",
+      "source": "global_metrics",
+      "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israeli forces clash with Hezbollah in southern Lebanon; casualties reported",
-      "summary": "Israeli military attempted advance into town of Beit Yahoun in southern Lebanon (33.97\u00b0N, 35.67\u00b0E) on June 25 and encountered Hezbollah resistance. Hebrew media confirmed Israeli military casualties in the engagement; at least one Israeli soldier reported killed per Middle East Spectator (~53K views). Escalation occurs amid Trump pressure on Netanyahu to avoid striking Iran, suggesting ceasefire erosion at tactical level despite strategic-level diplomatic efforts.",
-      "region": "Northern Israel / Southern Lebanon",
-      "source": "telegram, incidents",
+      "title": "Israel strikes Beirut and southern Lebanon amid escalation outside Trump-brokered ceasefire framework",
+      "summary": "Israeli warplanes conducted attacks on Beirut and southern Lebanon targets following Hezbollah operations, occurring despite Washington negotiations brokered by Secretary Rubio. Incidents reported from Axios and Al Jazeera indicate tactical-level escalation at Israel-Lebanon border, with Israeli forces engaging Hezbollah in Beit Yahoun area and casualties reported. Escalation undermines Trump administration pressure on Netanyahu to avoid direct Iran confrontation.",
+      "region": "Northern Israel / Southern Lebanon / Beirut",
+      "source": "incidents, telegram",
       "confidence": "high"
     },
     {
-      "severity": "critical",
-      "category": "nuclear",
-      "title": "Iran nuclear enrichment at 60% U-235; 1-2 week breakout window persists amid ceasefire breakdown",
-      "summary": "Iran maintains uranium enrichment at 60% U-235, compressing estimated weapons-grade breakout time to 1-2 weeks per global_metrics. UN nuclear chief signals IAEA inspectors will visit Iranian sites contingent on final deal completion. Simultaneous maritime escalation (Hormuz strike), regional proxy activity (Lebanon clashes), and UAE air alerts indicate Iran is testing ceasefire boundaries across multiple domains while nuclear program advances unabated, creating compound strategic risk.",
-      "region": "Global / Iran",
-      "source": "global_metrics",
+      "severity": "high",
+      "category": "telegram_signal",
+      "title": "Multiple Telegram channels report first direct US airstrike violation of Iran-US ceasefire MoU",
+      "summary": "Middle East Spectator broke news of US Central Command airstrike in southern Iran with ~27.5K views, flagged as 'breaking,' 'strike,' 'airstrike,' marking first ceasefire violation on Iranian soil since MoU signed in April. Channel characterizes action as direct escalation response to cargo vessel strike. High engagement indicates OSINT community recognition of ceasefire collapse milestone.",
+      "region": "Global",
+      "source": "telegram",
       "confidence": "high"
     },
     {
       "severity": "medium",
       "category": "sentiment_shift",
-      "title": "US negative sentiment spike amid Iran tensions and Trump administration focus on ceasefire enforcement",
-      "summary": "US sentiment analysis shows 53% negative sentiment vs 44% positive, with 'Trump' (47 mentions), 'Iran' (14 mentions), 'Bolton' (11 mentions), 'threatens' (9 mentions), and 'Hormuz' (7 mentions) as top keywords. Sentiment reflects heightened concern over Iran's ceasefire violations, Trump's threatened response, and internal administration debate (Vance-Rubio split on Iran policy noted in Reuters coverage). Negative sentiment intensity increased relative to prior baseline, signaling public anxiety over imminent escalation risk.",
-      "region": "Global / United States",
-      "source": "sentiment, incidents",
-      "confidence": "high"
+      "title": "US negative sentiment spikes to 60% amid Trump-Iran maritime conflict and classified documents case",
+      "summary": "US sentiment analysis shows 60% negative posts driven by keywords: 'trump' (44 mentions), 'iran' (21), 'strait' (8), 'hormuz' (8), 'strikes' (8), 'violence' (8), reflecting sustained negative framing of both Iran escalation and domestic legal proceedings. Conjunction of foreign military escalation with Trump adviser John Bolton plea and classified documents case amplifies national-level anxiety and polarization. Sentiment shift indicates public perception of multiple simultaneous crises.",
+      "region": "Global",
+      "source": "sentiment",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "Iran is systematically testing Trump's ceasefire boundaries across maritime, aerial, and proxy domains while advancing toward nuclear weapons capability; simultaneous escalation across Hormuz, Lebanon, and UAE signals coordinated pressure campaign designed to extract concessions before 1-2 week nuclear breakout window closes.",
+  "analysis_note": "The Iran-US ceasefire is collapsing: Iran attacked a cargo vessel June 26, the US responded with strikes on Iranian soil the same day, Israel continues escalating in Lebanon despite Washington pressure, and Iran maintains 60% U-235 enrichment with 1-2 week breakout window\u2014creating a three-front escalation (maritime, air, nuclear) with diplomatic off-ramps narrowing.",
   "meta": {
-    "input_tokens": 15624,
+    "input_tokens": 25536,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 883,
-    "cost_usd": 0.02,
-    "wall_time_s": 12.8,
-    "data_hash": "62c49998e32b05957960bbe6d863695aa98a8a7b28f2e680c2a7cd9d9d4d471d"
+    "output_tokens": 878,
+    "cost_usd": 0.0299,
+    "wall_time_s": 11.7,
+    "data_hash": "f1dec299712d2d26ee35cb7f47178b309552f27a798ed32a142fa6d0c3a7ab46"
   }
 }
