@@ -1,27 +1,32 @@
 {
   "us": {
-    "positive": 45,
-    "negative": 51,
+    "positive": 44,
+    "negative": 52,
     "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 42,
+        "count": 43,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 16,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
-        "count": 7,
-        "sentiment": "positive"
+        "word": "claims",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 9,
+        "sentiment": "neutral"
       },
       {
         "word": "court",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -31,31 +36,6 @@
       },
       {
         "word": "national",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "claims",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "netanyahu",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tax",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "strikes",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "democrats",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -65,19 +45,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ruling",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "administration",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "anthropic",
+        "word": "supreme",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "buttigieg",
@@ -90,32 +65,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "guilty",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
         "word": "pool",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "ceasefire",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "strait",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hormuz",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tps",
+        "word": "tax",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -125,14 +80,24 @@
         "sentiment": "neutral"
       },
       {
+        "word": "tps",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "america",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "fear",
+        "word": "anthropic",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "model",
@@ -150,51 +115,106 @@
         "sentiment": "neutral"
       },
       {
-        "word": "john",
+        "word": "reflecting",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "service",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deadly",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "netanyahu",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leaders",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tech",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "massive",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-27T14:25:22.013331+00:00",
-    "nextRefresh": "2026-06-27T14:25:22.013331+00:00",
-    "articlesAnalyzed": 346,
+    "generatedAt": "2026-06-27T16:01:18.166803+00:00",
+    "nextRefresh": "2026-06-27T16:01:18.166803+00:00",
+    "articlesAnalyzed": 348,
     "matchedMentions": 147,
-    "uniquePersonalities": 52,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 40,
-    "negative": 36,
-    "neutral": 24,
+    "positive": 32,
+    "negative": 42,
+    "neutral": 26,
     "wordCloud": [
+      {
+        "word": "siya",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "murder",
+        "count": 10,
+        "sentiment": "negative"
+      },
       {
         "word": "bjp",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "siya",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pune",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "murder",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
         "word": "chief",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ram",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cricket",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "agarwal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "family",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -204,27 +224,42 @@
         "sentiment": "neutral"
       },
       {
+        "word": "tagore",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "maharashtra",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "seychelles",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "family",
+        "word": "pune",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fadnavis",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "viral",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ram",
+        "word": "against",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -234,97 +269,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "row",
+        "word": "slams",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "agarwal",
-        "count": 4,
+        "word": "ketan",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "nadu",
-        "count": 4,
+        "word": "case",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bhagyaraj",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "donation",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "video",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "viral",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ubt",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mlas",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cricket",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
+        "word": "probe",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "behind",
-        "count": 3,
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "mdmk",
-        "count": 3,
+        "word": "goyal-ketan",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "dmk",
-        "count": 3,
+        "word": "matchmaking",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "alliance",
-        "count": 3,
+        "word": "role",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "manickam",
-        "count": 3,
+        "word": "mittal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "focus",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-27T14:25:36.101347+00:00",
-    "nextRefresh": "2026-06-27T14:25:36.101347+00:00",
-    "articlesAnalyzed": 476,
-    "matchedMentions": 75,
-    "uniquePersonalities": 34,
+    "generatedAt": "2026-06-27T16:01:34.477737+00:00",
+    "nextRefresh": "2026-06-27T16:01:34.477737+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 90,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   }
 }
