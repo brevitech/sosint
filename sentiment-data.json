@@ -1,38 +1,18 @@
 {
   "us": {
     "positive": 45,
-    "negative": 52,
-    "neutral": 3,
+    "negative": 51,
+    "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 39,
+        "count": 42,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 18,
+        "count": 16,
         "sentiment": "neutral"
-      },
-      {
-        "word": "national",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tax",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "violence",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "strikes",
-        "count": 8,
-        "sentiment": "negative"
       },
       {
         "word": "supreme",
@@ -45,19 +25,34 @@
         "sentiment": "neutral"
       },
       {
-        "word": "buttigieg",
-        "count": 6,
+        "word": "cup",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "guilty",
-        "count": 6,
-        "sentiment": "negative"
+        "word": "national",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "claims",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "netanyahu",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "tax",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strikes",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "democrats",
@@ -75,12 +70,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "police",
+        "word": "administration",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "false",
+        "word": "anthropic",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "buttigieg",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -90,19 +90,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "john",
+        "word": "guilty",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bolton",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pleads",
-        "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "pool",
@@ -110,17 +100,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cup",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ceasefire",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "happened",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -140,92 +120,102 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "vance",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
-        "count": 5,
+        "word": "america",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "fear",
         "count": 4,
         "sentiment": "negative"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-06-27T12:06:09.378651+00:00",
-    "nextRefresh": "2026-06-27T12:06:09.378651+00:00",
-    "articlesAnalyzed": 346,
-    "matchedMentions": 140,
-    "uniquePersonalities": 46,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 44,
-    "negative": 36,
-    "neutral": 20,
-    "wordCloud": [
-      {
-        "word": "murder",
-        "count": 11,
-        "sentiment": "negative"
       },
       {
-        "word": "modi",
-        "count": 10,
+        "word": "model",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "pune",
-        "count": 10,
+        "word": "false",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "john",
+        "count": 4,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-06-27T14:25:22.013331+00:00",
+    "nextRefresh": "2026-06-27T14:25:22.013331+00:00",
+    "articlesAnalyzed": 346,
+    "matchedMentions": 147,
+    "uniquePersonalities": 52,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 40,
+    "negative": 36,
+    "neutral": 24,
+    "wordCloud": [
+      {
+        "word": "bjp",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "siya",
-        "count": 10,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 8,
+        "word": "pune",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "murder",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "chief",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "seychelles",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cricket",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ram",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bhagyaraj",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "case",
-        "count": 6,
+        "word": "family",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "row",
-        "count": 6,
+        "word": "congress",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -234,62 +224,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "ram",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "brother",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "opinion",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "adani",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "goyal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mann",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "state",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gaza",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "thackeray",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "temple",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "agarwal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhagyaraj",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "donation",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "video",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "viral",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -304,27 +284,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
+        "word": "cricket",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "link",
+        "word": "target",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "chetan",
-        "count": 4,
+        "word": "behind",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mdmk",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dmk",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "alliance",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "manickam",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-27T12:06:23.981421+00:00",
-    "nextRefresh": "2026-06-27T12:06:23.981421+00:00",
+    "generatedAt": "2026-06-27T14:25:36.101347+00:00",
+    "nextRefresh": "2026-06-27T14:25:36.101347+00:00",
     "articlesAnalyzed": 476,
-    "matchedMentions": 97,
-    "uniquePersonalities": 37,
+    "matchedMentions": 75,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
 }

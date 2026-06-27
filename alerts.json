@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-27T07:46:00.803435+00:00",
+  "generated_at": "2026-06-27T14:26:30.548138+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
-      "severity": "critical",
-      "category": "incident",
-      "title": "Ceasefire collapses after US retaliatory strikes on Iranian soil; threat level rises to 9",
-      "summary": "US Central Command conducted multiple airstrikes on Iranian missile and drone facilities in Sirik following Iran's attack on a commercial vessel in the Strait of Hormuz on June 26. This marks the first direct violation of the April ceasefire MoU on Iranian territory, with six US military aircraft striking four targets including radar and weapons storage sites. Global threat level escalated to 9 (CRITICAL \u2014 IMMINENT ESCALATION) per global_metrics; sentiment across US news now 55% negative with \"strikes,\" \"ceasefire,\" and \"violence\" dominating discourse.",
-      "region": "Strait of Hormuz / Southern Iran (Sirik)",
-      "source": "incidents, telegram, global_metrics, sentiment",
+      "severity": "high",
+      "category": "asset_movement",
+      "title": "US threat level downgraded from 9 to 7; ceasefire holds despite escalation cycle",
+      "summary": "Global threat metric decreased from CRITICAL (9) to HIGH (7) between June 26-27, indicating de-escalation trajectory despite active military operations. Brent crude remains stable at $72.60/bbl; Iranian rial holds at 1.37M free-market rate. All four US carrier strike groups remain deployed (Eisenhower in Red Sea, Abraham Lincoln in Arabian Sea, Gerald R. Ford in Mediterranean, Theodore Roosevelt in Pacific) with supporting destroyers and amphibious assets maintaining forward presence without new repositioning orders per assets feed.",
+      "region": "Global",
+      "source": "global_metrics, assets",
       "confidence": "high"
     },
     {
-      "severity": "critical",
+      "severity": "high",
+      "category": "sentiment_shift",
+      "title": "US media sentiment stabilizes at 51% negative; ceasefire rhetoric dominates discourse",
+      "summary": "US news sentiment analysis shows 51% negative, 45% positive, 4% neutral. Top keywords: 'trump' (42 mentions), 'iran' (16), 'ceasefire' (5), 'strikes' (6), indicating public debate focused on diplomatic survival rather than escalation. Sentiment polarity shift from June 26 alarm toward stabilization narrative reflects successful containment messaging by Trump administration, per sentiment feed.",
+      "region": "Global",
+      "source": "sentiment",
+      "confidence": "high"
+    },
+    {
+      "severity": "medium",
       "category": "nuclear",
-      "title": "Iran sustains 60% uranium enrichment with 1-2 week nuclear breakout window amid escalation",
-      "summary": "Iran continues enriching uranium to 60% U-235 concentration, maintaining a critical 1-2 week estimated breakout capability per global_metrics. IAEA chief announced inspector access to Iranian nuclear sites contingent on final nuclear deal completion; NPR and South Carolina Public Radio confirm deadlock on terms. Escalating military exchanges (cargo vessel attack, US strikes) occur while nuclear diplomacy stalls, creating window for rapid weaponization if ceasefire fully collapses.",
+      "title": "Iran maintains 60% uranium enrichment; nuclear breakout window persists at 1-2 weeks",
+      "summary": "Iran continues sustaining 60% U-235 enrichment concentration with estimated 1-2 week nuclear breakout capability. No change from prior reporting, but persistence amid reduced military threat level (down to 7) creates paradox: while conventional escalation pauses, nuclear diplomacy remains deadlocked. IAEA inspector access contingent on final deal terms remains unresolved per global_metrics.",
       "region": "Iran (nuclear sites)",
       "source": "global_metrics",
       "confidence": "high"
     },
     {
-      "severity": "high",
-      "category": "incident",
-      "title": "Israel escalates strikes on Beirut and southern Lebanon despite US-brokered ceasefire talks",
-      "summary": "Israeli warplanes conducted strikes on Beirut and southern Lebanon targets in response to Hezbollah operations, killing three individuals in Lebanon per Al Jazeera and Axios reporting. Escalation occurs amid ongoing Washington negotiations led by Secretary Rubio aimed at restraining Netanyahu from direct Iran confrontation. Incidents cluster at Israel-Lebanon border; tactical-level operations undermine Trump administration's diplomatic framework to prevent regional widening of US-Iran conflict.",
-      "region": "Northern Israel / Southern Lebanon / Beirut",
-      "source": "incidents, sentiment",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "asset_movement",
-      "title": "US carrier strike groups and amphibious assets positioned across Persian Gulf and Red Sea",
-      "summary": "Three US carriers (USS Dwight D. Eisenhower, USS Abraham Lincoln, USS Gerald R. Ford) plus amphibious assault ships (USS Bataan) and three destroyers (USS Carney, USS Mason, USS Laboon) confirmed deployed across critical zones\u2014Red Sea, Arabian Sea, Persian Gulf\u2014per asset tracking. USS Florida submarine in Persian Gulf. Deployment density indicates sustained US readiness posture ahead of potential escalation cycle following ceasefire violation and nuclear program concerns.",
-      "region": "Red Sea / Arabian Sea / Persian Gulf / Mediterranean",
-      "source": "assets",
+      "severity": "medium",
+      "category": "telegram_signal",
+      "title": "Rybar reports Russian prisoner exchange (160-for-160) on Ukraine-Belarus border",
+      "summary": "Rybar Telegram channel (~158K views on June 26) reports Russia-Ukraine POW exchange at 160-for-160 ratio on Ukraine-Belarus frontier, with UAE facilitating transfer. Russia announced concurrent family reunification initiative. Development reflects ongoing tactical-level coordination despite broader conflict intensity; not directly related to US-Iran theater but signals proxy-conflict management parallel.",
+      "region": "Eastern Ukraine",
+      "source": "telegram",
       "confidence": "medium"
     },
     {
-      "severity": "medium",
-      "category": "telegram_signal",
-      "title": "Telegram OSINT channels flag first ceasefire violation as deliberate Iranian policy shift",
-      "summary": "Middle East Spectator Telegram channel (40.1K views) reports CENTCOM announcement characterizing US airstrikes as 'first direct violation of ceasefire on Iranian soil since MoU signed,' signaling deliberate policy reversal by both parties. Rybar and Bellingcat channels amplifying strike confirmation and casualty estimates. High-engagement posts (~40K+ views) across monitored channels confirm widespread awareness; engagement levels and urgent-keyword flags (breaking, airstrike, missile) reflect elevated concern among OSINT community.",
-      "region": "Global (regional intelligence community)",
-      "source": "telegram, incidents",
-      "confidence": "high"
+      "severity": "low",
+      "category": "diplomatic",
+      "title": "Hezbollah and Iraqi Shiite Militias remain active; Hamas status degraded",
+      "summary": "Global metrics show Hezbollah and Iraqi Shiite Militias (PMF) in 'Active' status; Houthis confirmed 'Active - Red Sea' with no new incident reports since June 26 strikes. Hamas marked 'Degraded' per global_metrics. No novel escalation from proxy actors observed in current 24-hour cycle; assessment suggests Israeli strikes on Lebanon and US strikes on Iran produced deterrent effect on immediate retaliation.",
+      "region": "Middle East (Hezbollah/Lebanon, Iraq, Yemen)",
+      "source": "global_metrics",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "Ceasefire framework between US and Iran has collapsed after coordinated violations; nuclear program remains at critical breakout threshold while military escalation accelerates across multiple fronts (Strait of Hormuz, Israel-Lebanon, cyber claims), elevating systemic conflict risk.",
+  "analysis_note": "Ceasefire framework shows resilience: threat level deescalated from critical to elevated, media narrative shifted from alarm to containment, and proxy actors held fire despite provocative incidents. However, Iran's sustained 60% uranium enrichment and unresolved nuclear diplomacy remain the critical vulnerability\u2014any breakdown of current ceasefire could trigger rapid weaponization window.",
   "meta": {
-    "input_tokens": 22131,
+    "input_tokens": 18540,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 910,
-    "cost_usd": 0.0267,
-    "wall_time_s": 14.0,
-    "data_hash": "f83d2777fcfe1b8fca67fff385c0a80f6e3bd5217e0e75eb500f4da60112446c"
+    "output_tokens": 836,
+    "cost_usd": 0.0227,
+    "wall_time_s": 12.6,
+    "data_hash": "4f5b74fbd8814e1f938d1d72311e9c876f1b1e137b3a99e5e47f45c911e8aff0"
   }
 }
