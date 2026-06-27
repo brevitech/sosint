@@ -1,22 +1,17 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 55,
+    "positive": 43,
+    "negative": 54,
     "neutral": 3,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 45,
+        "count": 42,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 24,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tax",
-        "count": 11,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
@@ -26,18 +21,8 @@
       },
       {
         "word": "strikes",
-        "count": 10,
+        "count": 9,
         "sentiment": "negative"
-      },
-      {
-        "word": "strait",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hormuz",
-        "count": 8,
-        "sentiment": "neutral"
       },
       {
         "word": "violence",
@@ -45,12 +30,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "drone",
-        "count": 6,
+        "word": "tax",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "ship",
+        "word": "supreme",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "court",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -65,28 +55,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
+        "word": "strait",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "court",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "peace",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "cargo",
-        "count": 5,
+        "word": "hormuz",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -115,12 +90,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "happened",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "cup",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "happened",
+        "word": "drone",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ship",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -135,7 +120,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "calls",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -150,57 +135,57 @@
         "sentiment": "negative"
       },
       {
-        "word": "rubio",
+        "word": "police",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "false",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "classified",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "documents",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-27T07:45:30.833865+00:00",
-    "nextRefresh": "2026-06-27T07:45:30.833865+00:00",
-    "articlesAnalyzed": 357,
-    "matchedMentions": 148,
-    "uniquePersonalities": 49,
+    "generatedAt": "2026-06-27T10:01:32.888241+00:00",
+    "nextRefresh": "2026-06-27T10:01:32.888241+00:00",
+    "articlesAnalyzed": 338,
+    "matchedMentions": 141,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 38,
-    "negative": 51,
-    "neutral": 11,
+    "positive": 47,
+    "negative": 36,
+    "neutral": 17,
     "wordCloud": [
       {
-        "word": "murder",
-        "count": 16,
-        "sentiment": "negative"
-      },
-      {
         "word": "siya",
-        "count": 16,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "pune",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
+        "word": "modi",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "goyal",
-        "count": 10,
-        "sentiment": "neutral"
+        "word": "murder",
+        "count": 12,
+        "sentiment": "negative"
       },
       {
-        "word": "ketan",
+        "word": "pune",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "agarwal",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -209,32 +194,97 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "goyal",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "seychelles",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "brother",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhagyaraj",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ram",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "police",
+        "word": "ketan",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 5,
+        "word": "agarwal",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "fort",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "updates",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gaza",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chopra",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ubt",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "thackeray",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "adani",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -249,82 +299,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mantri",
+        "word": "state",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "updates",
+        "word": "parents",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "connection",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chetan",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "govt",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sena",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ubt",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "claims",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
+        "word": "date",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "sonia",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gaza",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "arrest",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "indians",
-        "count": 3,
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-27T07:45:45.021526+00:00",
-    "nextRefresh": "2026-06-27T07:45:45.021526+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 76,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-06-27T10:01:45.966273+00:00",
+    "nextRefresh": "2026-06-27T10:01:45.966273+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 91,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
