@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 52,
+    "positive": 46,
+    "negative": 50,
     "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 43,
+        "count": 41,
         "sentiment": "neutral"
       },
       {
@@ -35,13 +35,33 @@
         "sentiment": "neutral"
       },
       {
+        "word": "buttigieg",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "national",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "house",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "false",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "america",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -55,11 +75,6 @@
         "sentiment": "positive"
       },
       {
-        "word": "buttigieg",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "children",
         "count": 5,
         "sentiment": "neutral"
@@ -70,28 +85,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tax",
+        "word": "wins",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vance",
-        "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "tps",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "america",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -101,11 +101,6 @@
       },
       {
         "word": "model",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "false",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -153,73 +148,98 @@
         "word": "massive",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "tax",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-27T16:01:18.166803+00:00",
-    "nextRefresh": "2026-06-27T16:01:18.166803+00:00",
+    "generatedAt": "2026-06-27T17:57:50.057977+00:00",
+    "nextRefresh": "2026-06-27T17:57:50.057977+00:00",
     "articlesAnalyzed": 348,
-    "matchedMentions": 147,
-    "uniquePersonalities": 51,
+    "matchedMentions": 149,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 32,
-    "negative": 42,
-    "neutral": 26,
+    "positive": 26,
+    "negative": 47,
+    "neutral": 27,
     "wordCloud": [
       {
         "word": "siya",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ketan",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "murder",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
-        "word": "bjp",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chief",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "modi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ram",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cricket",
-        "count": 7,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "agarwal",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "goyal",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fadnavis",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "video",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cricket",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "behind",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "defections",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "murder",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "chaudhary",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "family",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tamil",
+        "word": "chief",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -229,12 +249,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "maharashtra",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seychelles",
+        "word": "congress",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -244,37 +259,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fadnavis",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "viral",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "family",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "maharashtra",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "temple",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "slams",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ketan",
+        "word": "uddhav",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -289,42 +289,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "behind",
+        "word": "slams",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chetan",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "undated",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "match",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "killed",
+        "count": 4,
+        "sentiment": "negative"
       },
       {
         "word": "goyal-ketan",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "matchmaking",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "role",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mittal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "focus",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-27T16:01:34.477737+00:00",
-    "nextRefresh": "2026-06-27T16:01:34.477737+00:00",
-    "articlesAnalyzed": 479,
+    "generatedAt": "2026-06-27T17:58:02.653922+00:00",
+    "nextRefresh": "2026-06-27T17:58:02.653922+00:00",
+    "articlesAnalyzed": 482,
     "matchedMentions": 90,
-    "uniquePersonalities": 46,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
