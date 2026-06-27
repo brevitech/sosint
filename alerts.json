@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-27T14:26:30.548138+00:00",
+  "generated_at": "2026-06-27T20:57:09.951939+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
-      "severity": "high",
-      "category": "asset_movement",
-      "title": "US threat level downgraded from 9 to 7; ceasefire holds despite escalation cycle",
-      "summary": "Global threat metric decreased from CRITICAL (9) to HIGH (7) between June 26-27, indicating de-escalation trajectory despite active military operations. Brent crude remains stable at $72.60/bbl; Iranian rial holds at 1.37M free-market rate. All four US carrier strike groups remain deployed (Eisenhower in Red Sea, Abraham Lincoln in Arabian Sea, Gerald R. Ford in Mediterranean, Theodore Roosevelt in Pacific) with supporting destroyers and amphibious assets maintaining forward presence without new repositioning orders per assets feed.",
-      "region": "Global",
-      "source": "global_metrics, assets",
+      "severity": "critical",
+      "category": "incident",
+      "title": "Iran, US trade strikes in Strait of Hormuz; ceasefire at breaking point",
+      "summary": "Commercial tanker struck in Strait of Hormuz; US responded with air strikes on Iranian military sites near Sirik (lat 26.27, lon 56.5). Iran's IRGC issued statement claiming response to US aggression following Israeli violations in Lebanon. Multiple outlets (Reuters, NBC, CENTCOM, Washington Post, CNBC) confirm exchange within past 24 hours. Escalation cycle threatens announced US-Iran memorandum of understanding.",
+      "region": "Strait of Hormuz, Southern Iran (Sirik)",
+      "source": "incidents, telegram",
+      "confidence": "high"
+    },
+    {
+      "severity": "critical",
+      "category": "incident",
+      "title": "Iran launches drone attack on Bahrain; regional escalation spreads",
+      "summary": "Iran conducted drone attack on Bahrain targeting island kingdom, confirmed by multiple sources (Fox News, ABC News, Time Magazine). Attack clustered with Strait of Hormuz strikes and follows Israeli strikes in southern Lebanon, indicating coordinated proxy/state actor escalation across Persian Gulf theater. Gulf countries condemned attack; threatens MOU stability.",
+      "region": "Bahrain, Persian Gulf",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "sentiment_shift",
-      "title": "US media sentiment stabilizes at 51% negative; ceasefire rhetoric dominates discourse",
-      "summary": "US news sentiment analysis shows 51% negative, 45% positive, 4% neutral. Top keywords: 'trump' (42 mentions), 'iran' (16), 'ceasefire' (5), 'strikes' (6), indicating public debate focused on diplomatic survival rather than escalation. Sentiment polarity shift from June 26 alarm toward stabilization narrative reflects successful containment messaging by Trump administration, per sentiment feed.",
-      "region": "Global",
-      "source": "sentiment",
+      "category": "incident",
+      "title": "Israeli strikes southern Lebanon despite framework security deal",
+      "summary": "Israeli drone strikes reported in southern Lebanon (lat 33.66-33.99, lon 35.54-35.96) hours and day after US-brokered Israel-Lebanon security framework agreement signed. At least 1 killed, 2 injured. Hezbollah rejected deal as 'surrender,' indicating deal fragility and continued armed group defiance despite diplomatic breakthrough.",
+      "region": "Southern Lebanon",
+      "source": "incidents",
       "confidence": "high"
     },
     {
-      "severity": "medium",
-      "category": "nuclear",
-      "title": "Iran maintains 60% uranium enrichment; nuclear breakout window persists at 1-2 weeks",
-      "summary": "Iran continues sustaining 60% U-235 enrichment concentration with estimated 1-2 week nuclear breakout capability. No change from prior reporting, but persistence amid reduced military threat level (down to 7) creates paradox: while conventional escalation pauses, nuclear diplomacy remains deadlocked. IAEA inspector access contingent on final deal terms remains unresolved per global_metrics.",
-      "region": "Iran (nuclear sites)",
-      "source": "global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "medium",
+      "severity": "high",
       "category": "telegram_signal",
-      "title": "Rybar reports Russian prisoner exchange (160-for-160) on Ukraine-Belarus border",
-      "summary": "Rybar Telegram channel (~158K views on June 26) reports Russia-Ukraine POW exchange at 160-for-160 ratio on Ukraine-Belarus frontier, with UAE facilitating transfer. Russia announced concurrent family reunification initiative. Development reflects ongoing tactical-level coordination despite broader conflict intensity; not directly related to US-Iran theater but signals proxy-conflict management parallel.",
-      "region": "Eastern Ukraine",
+      "title": "Rybar reports intensified Russian strikes on Ukrainian logistics; 175 drones downed",
+      "summary": "Rybar channel (~164K views) reports Russian Ministry of Defense claims 175 Ukrainian drones shot down June 26-27; ongoing strikes target Ukrainian fuel depots, rail infrastructure, and supply lines in Odessa, Nikolaev, and Kherson regions. Posts emphasize systematic attrition of Ukrainian logistics as new campaign phase. Multiple Rybar posts (130K-164K views) detail infrastructure targeting strategy.",
+      "region": "Eastern Ukraine, Odessa region",
       "source": "telegram",
       "confidence": "medium"
     },
     {
-      "severity": "low",
-      "category": "diplomatic",
-      "title": "Hezbollah and Iraqi Shiite Militias remain active; Hamas status degraded",
-      "summary": "Global metrics show Hezbollah and Iraqi Shiite Militias (PMF) in 'Active' status; Houthis confirmed 'Active - Red Sea' with no new incident reports since June 26 strikes. Hamas marked 'Degraded' per global_metrics. No novel escalation from proxy actors observed in current 24-hour cycle; assessment suggests Israeli strikes on Lebanon and US strikes on Iran produced deterrent effect on immediate retaliation.",
-      "region": "Middle East (Hezbollah/Lebanon, Iraq, Yemen)",
-      "source": "global_metrics",
-      "confidence": "medium"
+      "severity": "high",
+      "category": "nuclear",
+      "title": "Threat level escalates to CRITICAL (9) amid US-Iran strike cycle",
+      "summary": "Global metrics show threat level spiked from 7 to CRITICAL (9) on June 27, indicating imminent escalation assessment. Iran maintains 60% U-235 enrichment with 1-2 week nuclear breakout window; IAEA inspector access contingent on final deal terms. Combined with active Strait of Hormuz strikes and Bahrain drone attack, nuclear program remains unmonitored amid heightened conventional hostilities.",
+      "region": "Global, Iran nuclear sites",
+      "source": "global_metrics, incidents",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "Ceasefire framework shows resilience: threat level deescalated from critical to elevated, media narrative shifted from alarm to containment, and proxy actors held fire despite provocative incidents. However, Iran's sustained 60% uranium enrichment and unresolved nuclear diplomacy remain the critical vulnerability\u2014any breakdown of current ceasefire could trigger rapid weaponization window.",
+  "analysis_note": "US-Iran ceasefire framework is unraveling in real-time as both sides conduct tit-for-tat strikes in Strait of Hormuz and Persian Gulf; concurrent Israeli violations in Lebanon and Iranian regional escalation suggest collapse of diplomatic containment, with threat level now CRITICAL and nuclear diplomacy deadlocked.",
   "meta": {
-    "input_tokens": 18540,
+    "input_tokens": 21292,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 836,
-    "cost_usd": 0.0227,
-    "wall_time_s": 12.6,
-    "data_hash": "4f5b74fbd8814e1f938d1d72311e9c876f1b1e137b3a99e5e47f45c911e8aff0"
+    "output_tokens": 777,
+    "cost_usd": 0.0252,
+    "wall_time_s": 11.5,
+    "data_hash": "54e4627ae57bc167097783c41c1a7b6cc6f61bb99acb8074439988b3960cf619"
   }
 }
