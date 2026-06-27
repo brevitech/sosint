@@ -1,21 +1,21 @@
 {
   "us": {
-    "positive": 49,
-    "negative": 46,
-    "neutral": 5,
+    "positive": 48,
+    "negative": 45,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 51,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 13,
+        "count": 54,
         "sentiment": "neutral"
       },
       {
         "word": "ice",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
         "count": 13,
         "sentiment": "neutral"
       },
@@ -40,6 +40,26 @@
         "sentiment": "neutral"
       },
       {
+        "word": "state",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trooper",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "former",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "oklahoma",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "claims",
         "count": 7,
         "sentiment": "neutral"
@@ -55,17 +75,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "buttigieg",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "court",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "trooper",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
+        "word": "judge",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -75,22 +95,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "former",
+        "word": "sullivan",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "state",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
+        "word": "nominates",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "buttigieg",
+        "word": "cup",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -100,9 +115,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "wins",
+        "word": "ballot",
         "count": 5,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "administration",
@@ -130,43 +150,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "deadly",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pool",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "national",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leaders",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-27T22:00:54.214381+00:00",
-    "nextRefresh": "2026-06-27T22:00:54.214381+00:00",
+    "generatedAt": "2026-06-27T23:57:22.926761+00:00",
+    "nextRefresh": "2026-06-27T23:57:22.926761+00:00",
     "articlesAnalyzed": 342,
-    "matchedMentions": 155,
-    "uniquePersonalities": 52,
+    "matchedMentions": 159,
+    "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 26,
-    "negative": 45,
-    "neutral": 29,
+    "positive": 25,
+    "negative": 42,
+    "neutral": 33,
     "wordCloud": [
       {
         "word": "siya",
@@ -174,12 +174,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ketan",
-        "count": 11,
+        "word": "modi",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "ketan",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -214,17 +214,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "murder",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
         "word": "shah",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "defections",
+        "word": "pune",
         "count": 7,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "murder",
+        "word": "defections",
         "count": 7,
         "sentiment": "negative"
       },
@@ -234,17 +239,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pune",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "family",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tagore",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -257,26 +252,6 @@
         "word": "gandhi",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "maharashtra",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tet",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "paper",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leak",
-        "count": 5,
-        "sentiment": "negative"
       },
       {
         "word": "uddhav",
@@ -317,14 +292,39 @@
         "word": "undated",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "match",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "goyal-ketan",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "matchmaking",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "role",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mittal",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-27T22:01:07.547032+00:00",
-    "nextRefresh": "2026-06-27T22:01:07.547032+00:00",
+    "generatedAt": "2026-06-27T23:57:34.765160+00:00",
+    "nextRefresh": "2026-06-27T23:57:34.765160+00:00",
     "articlesAnalyzed": 467,
-    "matchedMentions": 80,
-    "uniquePersonalities": 33,
+    "matchedMentions": 73,
+    "uniquePersonalities": 29,
     "dataSource": "live-rss"
   }
 }
