@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-28T10:24:36.460241+00:00",
+  "generated_at": "2026-06-28T16:07:31.476031+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran launches coordinated missile and drone strikes on US bases in Kuwait and Bahrain",
-      "summary": "IRGC confirmed joint missile and drone operation targeting eight US military locations including Ali Al-Salem Airbase (Kuwait) and US Navy 5th Fleet HQ (Bahrain) at 02:00-03:00 UTC on June 28. Multiple sources (IRGC statement, ME Spectator ~34K views, CENTCOM confirmation) document this as direct response to prior US strikes on Iranian coastal sites. Represents material escalation beyond Strait of Hormuz attacks.",
-      "region": "Persian Gulf, Kuwait, Bahrain",
-      "source": "telegram, incidents",
+      "title": "Ceasefire collapses as US and Iran escalate tit-for-tat strikes across Gulf",
+      "summary": "US and Iran conducted coordinated retaliatory strikes on June 28, with Iran attacking eight US military targets (Ali Al-Salem Airbase in Kuwait, 5th Fleet HQ in Bahrain) at 02:00-03:00 UTC, and US responding with strikes on Iranian coastal sites and missile/drone positions. Multiple sources (IRGC statement via ME Spectator ~40K views, CENTCOM, Reuters, AP, Al Jazeera, NBC) confirm escalation cycle breaking established ceasefire framework.",
+      "region": "Persian Gulf, Kuwait, Bahrain, Strait of Hormuz",
+      "source": "incidents, telegram, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran nuclear breakout timeline remains critically compressed at 1-2 weeks",
-      "summary": "IAEA confirms Iran's uranium enrichment at 60% U-235 with estimated breakout time of ~1-2 weeks (global_metrics). UN nuclear chief states inspectors will visit sites, but Iran conditions access on completion of final nuclear deal. Concurrent military escalation (missile strikes, US counterstrikes) creates dual-track crisis compressing diplomatic window further.",
+      "title": "Iran nuclear breakout window compressed to 1-2 weeks as crisis deepens",
+      "summary": "IAEA confirms Iran maintains 60% U-235 enrichment with breakout timeline of ~1-2 weeks (global_metrics). UN nuclear chief indicates inspectors will visit sites only after completion of final nuclear deal terms. Concurrent military escalation (strike cycle, regime-change rhetoric) narrows diplomatic resolution window.",
       "region": "Iran",
       "source": "global_metrics, incidents",
       "confidence": "high"
@@ -24,39 +24,39 @@
     {
       "severity": "high",
       "category": "incident",
-      "title": "Trump escalates rhetoric, threatens 'complete the job' militarily against Iran regime",
-      "summary": "President Trump posted on Truth Social that US will be 'forced to militarily complete the job' if Iran continues ceasefire violations, stating 'the Islamic Republic of Iran will no longer exist' (ME Spectator ~34K views, June 28 00:15 UTC). Statement represents explicit regime-change language and most explicit threat to ceasefire framework since April deal. Corroborated across CENTCOM, NBC, CNBC, Iran International.",
-      "region": "Iran, Persian Gulf",
-      "source": "telegram, incidents, sentiment",
+      "title": "UN pauses Strait of Hormuz evacuation after attack on commercial vessel",
+      "summary": "UN agency halted evacuation operations through Strait of Hormuz following attack on commercial shipping, according to AP News. Incident reflects broader pattern of maritime targeting: CENTCOM confirmed additional US strikes on Iranian naval targets in response to prior attack on commercial vessel. Multiple incidents cluster around Hormuz (26.7\u00b0N, 56.3\u00b0E).",
+      "region": "Strait of Hormuz",
+      "source": "incidents, global_metrics",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "diplomatic",
+      "title": "Hezbollah formally rejects US-brokered Israel-Lebanon security framework",
+      "summary": "Hezbollah rejected US-backed Israel-Lebanon security deal as 'surrender,' according to Reuters and Kurdistan24. Netanyahu simultaneously stated Israel retains freedom to strike Hezbollah. Rejection signals breakdown of diplomatic track and risk of escalation on Israel-Lebanon border despite framework announcement.",
+      "region": "Israel-Lebanon border, Northern Israel",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "sentiment_shift",
-      "title": "US negative sentiment spikes to 49% amid Trump Iran rhetoric and escalating strikes",
-      "summary": "Sentiment analysis shows US negative sentiment at 49% (up from prior baseline), with 'trump' (67 mentions), 'iran' (24), and 'claims' (9) dominating word cloud, reflecting polarized domestic discourse on military escalation. Shift indicates material change in public opinion surrounding Iran conflict and Trump administration messaging on regime change versus ceasefire preservation.",
+      "title": "Threat level escalates to CRITICAL as regional proxy forces activate",
+      "summary": "Global threat assessment elevated to 9/10 (CRITICAL\u2014IMMINENT ESCALATION) per global_metrics. Proxy status indicators show Hezbollah (Elevated\u2014Active Exchanges), Houthis (Elevated\u2014Multiple Recent Attacks), Iraqi Shiite Militias (Elevated\u2014Base Strikes Detected). Sentiment volatility remains high (US 48% positive/46% negative) with Trump (58 mentions) dominating discourse. ISW and multiple Telegram channels (ME Spectator, Rybar, Bellingcat) flag escalatory momentum across theater.",
       "region": "Global",
-      "source": "sentiment",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
-      "category": "telegram_signal",
-      "title": "Rybar reports Russian air strike on Voznesensk airfield; two Ukrainian MiG-29s destroyed",
-      "summary": "Rybar Telegram channel (~158K views, June 27 13:38 UTC) reports Russian drone strike on Voznesensk airfield (Nikolaev Oblast) destroying two Ukrainian MiG-29 fighters during launch preparation using Geran-4 Shahed barrage munitions. One fighter reportedly hit on runway during taxi-out with full combat load. Signals sustained Russian air-to-ground pressure on Ukrainian aviation infrastructure; adjacent to Iran theater monitoring focus.",
-      "region": "Eastern Ukraine, Nikolaev Oblast",
-      "source": "telegram",
-      "confidence": "medium"
+      "source": "global_metrics, sentiment, telegram, incidents",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran escalation has entered critical phase with coordinated Iranian strikes on US military bases in Gulf, Trump regime-change rhetoric, and 1-2 week nuclear breakout window, while ceasefire framework collapses under tit-for-tat attacks; concurrent Russia-Ukraine air warfare intensification compounds regional instability.",
+  "analysis_note": "US-Iran military escalation cycle has fractured the June April ceasefire framework; concurrent nuclear breakout compression, maritime closure of Strait of Hormuz, rejection of Lebanon diplomacy, and proxy activation across Hezbollah, Houthis, and PMF create multi-axis crisis with 1-2 week nuclear window.",
   "meta": {
-    "input_tokens": 21645,
+    "input_tokens": 21623,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 812,
+    "output_tokens": 809,
     "cost_usd": 0.0257,
-    "wall_time_s": 12.1,
-    "data_hash": "ccf3805dd2eb0352f6f19c4133ef4bf8536385aa128db976944333b2802a6ada"
+    "wall_time_s": 11.8,
+    "data_hash": "971a7b7dfd95205831e8dec494440e338068b7d64821e2c015788d5c257c7059"
   }
 }
