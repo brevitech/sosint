@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 49,
-    "negative": 45,
+    "positive": 45,
+    "negative": 49,
     "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 59,
+        "count": 67,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 18,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
@@ -21,7 +21,7 @@
       },
       {
         "word": "america",
-        "count": 14,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -35,6 +35,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "cup",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "lance",
         "count": 10,
         "sentiment": "neutral"
@@ -45,7 +50,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "vance",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "trooper",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "claims",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -55,12 +70,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vance",
+        "word": "test",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -70,7 +80,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cup",
+        "word": "policy",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -80,12 +90,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "venezuelan",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "earthquakes",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "western",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hemisphere",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gutting",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "usaid",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -100,27 +130,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "public",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "ballot",
+        "word": "either",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "wins",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "democrats",
+        "word": "focus",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "democracy",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -128,130 +153,85 @@
         "word": "judge",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "anthropic",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "passports",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meloni",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "public",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-28T07:46:56.870869+00:00",
-    "nextRefresh": "2026-06-28T07:46:56.870869+00:00",
-    "articlesAnalyzed": 343,
-    "matchedMentions": 164,
+    "generatedAt": "2026-06-28T10:24:05.770660+00:00",
+    "nextRefresh": "2026-06-28T10:24:05.770660+00:00",
+    "articlesAnalyzed": 346,
+    "matchedMentions": 173,
     "uniquePersonalities": 53,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 40,
-    "negative": 51,
-    "neutral": 9,
+    "positive": 44,
+    "negative": 41,
+    "neutral": 15,
     "wordCloud": [
       {
-        "word": "siya",
+        "word": "modi",
         "count": 21,
         "sentiment": "neutral"
       },
       {
-        "word": "goyal",
-        "count": 17,
+        "word": "siya",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "fort",
-        "count": 13,
+        "word": "india",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "goyal",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mann",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mukherjee",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "murder",
-        "count": 11,
+        "count": 8,
         "sentiment": "negative"
       },
       {
+        "word": "pranab",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "daughter",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "recreate",
-        "count": 10,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "crime",
-        "count": 10,
+        "count": 6,
         "sentiment": "negative"
       },
       {
         "word": "scene",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "caught",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pune",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 9,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "lover",
-        "count": 8,
+        "count": 6,
         "sentiment": "positive"
-      },
-      {
-        "word": "india",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fadnavis",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "khan",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lohagad",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ways",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fiance",
-        "count": 6,
-        "sentiment": "neutral"
       },
       {
         "word": "shinde",
@@ -259,17 +239,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "thackeray",
+        "word": "flight",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sharing",
+        "word": "seychelles",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
-        "word": "flight",
+        "word": "baat",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -279,27 +259,52 @@
         "sentiment": "neutral"
       },
       {
+        "word": "fort",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indian",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "police",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "rukh",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "googled",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "prepared",
+        "word": "praised",
         "count": 4,
         "sentiment": "positive"
       },
       {
-        "word": "answers",
+        "word": "diary",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shares",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "wrote",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lohagad",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ways",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fiance",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -309,22 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "devendra",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "uddhav",
+        "word": "politics",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-28T07:47:08.905416+00:00",
-    "nextRefresh": "2026-06-28T07:47:08.905416+00:00",
-    "articlesAnalyzed": 477,
-    "matchedMentions": 91,
-    "uniquePersonalities": 49,
+    "generatedAt": "2026-06-28T10:24:20.387241+00:00",
+    "nextRefresh": "2026-06-28T10:24:20.387241+00:00",
+    "articlesAnalyzed": 478,
+    "matchedMentions": 96,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   }
 }
