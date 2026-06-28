@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-28T16:07:31.476031+00:00",
+  "generated_at": "2026-06-28T21:59:56.771815+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Ceasefire collapses as US and Iran escalate tit-for-tat strikes across Gulf",
-      "summary": "US and Iran conducted coordinated retaliatory strikes on June 28, with Iran attacking eight US military targets (Ali Al-Salem Airbase in Kuwait, 5th Fleet HQ in Bahrain) at 02:00-03:00 UTC, and US responding with strikes on Iranian coastal sites and missile/drone positions. Multiple sources (IRGC statement via ME Spectator ~40K views, CENTCOM, Reuters, AP, Al Jazeera, NBC) confirm escalation cycle breaking established ceasefire framework.",
+      "title": "Trump threatens 'annihilation' as Iran-US strike cycle intensifies on Day 121",
+      "summary": "US-Iran tit-for-tat strikes escalated sharply on June 28, with Iran attacking eight US military targets (Ali Al-Salem Airbase Kuwait, 5th Fleet HQ Bahrain) and US retaliating against Iranian coastal missile/drone sites near Strait of Hormuz. CNBC reports Trump threatened annihilation; talks described as on hold. Multiple outlets (AP, NBC, Reuters, Al Jazeera, NPR) confirm ceasefire fragility.",
       "region": "Persian Gulf, Kuwait, Bahrain, Strait of Hormuz",
-      "source": "incidents, telegram, global_metrics",
+      "source": "incidents, telegram",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran nuclear breakout window compressed to 1-2 weeks as crisis deepens",
-      "summary": "IAEA confirms Iran maintains 60% U-235 enrichment with breakout timeline of ~1-2 weeks (global_metrics). UN nuclear chief indicates inspectors will visit sites only after completion of final nuclear deal terms. Concurrent military escalation (strike cycle, regime-change rhetoric) narrows diplomatic resolution window.",
+      "title": "Iran nuclear breakout window compressed to 1-2 weeks amid active hostilities",
+      "summary": "IAEA confirms Iran maintains 60% U-235 enrichment with breakout timeline of ~1-2 weeks. UN nuclear chief indicates inspectors will visit sites only after final deal completion. Concurrent military escalation (strike cycle continuing on Day 121) narrows diplomatic window further as threat level stands at CRITICAL (9/10).",
       "region": "Iran",
       "source": "global_metrics, incidents",
       "confidence": "high"
@@ -24,39 +24,39 @@
     {
       "severity": "high",
       "category": "incident",
-      "title": "UN pauses Strait of Hormuz evacuation after attack on commercial vessel",
-      "summary": "UN agency halted evacuation operations through Strait of Hormuz following attack on commercial shipping, according to AP News. Incident reflects broader pattern of maritime targeting: CENTCOM confirmed additional US strikes on Iranian naval targets in response to prior attack on commercial vessel. Multiple incidents cluster around Hormuz (26.7\u00b0N, 56.3\u00b0E).",
+      "title": "UN halts Strait of Hormuz shipping evacuation after vessel attack",
+      "summary": "UN agency suspended evacuation operations through Strait of Hormuz following attack on commercial shipping, per AP News. CENTCOM confirmed US strikes on Iranian naval targets in response. Clustering of maritime incidents around Hormuz (26.7\u201326.41\u00b0N, 56.3\u201356.51\u00b0E) reflects pattern of targeting critical chokepoint.",
       "region": "Strait of Hormuz",
-      "source": "incidents, global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "diplomatic",
-      "title": "Hezbollah formally rejects US-brokered Israel-Lebanon security framework",
-      "summary": "Hezbollah rejected US-backed Israel-Lebanon security deal as 'surrender,' according to Reuters and Kurdistan24. Netanyahu simultaneously stated Israel retains freedom to strike Hezbollah. Rejection signals breakdown of diplomatic track and risk of escalation on Israel-Lebanon border despite framework announcement.",
-      "region": "Israel-Lebanon border, Northern Israel",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "sentiment_shift",
-      "title": "Threat level escalates to CRITICAL as regional proxy forces activate",
-      "summary": "Global threat assessment elevated to 9/10 (CRITICAL\u2014IMMINENT ESCALATION) per global_metrics. Proxy status indicators show Hezbollah (Elevated\u2014Active Exchanges), Houthis (Elevated\u2014Multiple Recent Attacks), Iraqi Shiite Militias (Elevated\u2014Base Strikes Detected). Sentiment volatility remains high (US 48% positive/46% negative) with Trump (58 mentions) dominating discourse. ISW and multiple Telegram channels (ME Spectator, Rybar, Bellingcat) flag escalatory momentum across theater.",
-      "region": "Global",
-      "source": "global_metrics, sentiment, telegram, incidents",
+      "category": "incident",
+      "title": "Israel strikes Beirut as Hezbollah rejects US-brokered Lebanon security deal",
+      "summary": "Hezbollah formally rejected US-backed Israel-Lebanon security framework as 'surrender,' per Reuters and Jerusalem Post. Israel responded with Beirut strikes and destroyed major Hezbollah tunnel in South Lebanon. Netanyahu stated Israel retains freedom to strike Hezbollah. Framework collapse signals imminent escalation on Israel-Lebanon border.",
+      "region": "Israel-Lebanon border, Beirut",
+      "source": "incidents",
       "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "cyber",
+      "title": "Cyber group claims California water system hack in retaliation for Iran strikes",
+      "summary": "Iranian-attributed cyber group claimed responsibility for California water system compromise in retaliation for US airstrikes against Iran, per Middle East Eye. Incident reflects escalating cyber dimension of US-Iran conflict alongside kinetic operations. Nuclear/cyber nexus underscores multi-domain escalation risk.",
+      "region": "Global (US infrastructure target)",
+      "source": "global_metrics",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran military escalation cycle has fractured the June April ceasefire framework; concurrent nuclear breakout compression, maritime closure of Strait of Hormuz, rejection of Lebanon diplomacy, and proxy activation across Hezbollah, Houthis, and PMF create multi-axis crisis with 1-2 week nuclear window.",
+  "analysis_note": "US-Iran military escalation on Day 121 has broken ceasefire framework with coordinated strike cycles, nuclear breakout now compressed to 1-2 weeks, and proxy/cyber dimensions activating in parallel; diplomatic resolution window critically narrowed.",
   "meta": {
-    "input_tokens": 21623,
+    "input_tokens": 21622,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 809,
-    "cost_usd": 0.0257,
-    "wall_time_s": 11.8,
-    "data_hash": "971a7b7dfd95205831e8dec494440e338068b7d64821e2c015788d5c257c7059"
+    "output_tokens": 716,
+    "cost_usd": 0.0252,
+    "wall_time_s": 11.1,
+    "data_hash": "0d07a6b14ce6279a4482c583299ce426081973b5f81e9ada49cf916ce55c31e2"
   }
 }
