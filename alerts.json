@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-27T20:57:09.951939+00:00",
+  "generated_at": "2026-06-28T03:54:46.268692+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran, US trade strikes in Strait of Hormuz; ceasefire at breaking point",
-      "summary": "Commercial tanker struck in Strait of Hormuz; US responded with air strikes on Iranian military sites near Sirik (lat 26.27, lon 56.5). Iran's IRGC issued statement claiming response to US aggression following Israeli violations in Lebanon. Multiple outlets (Reuters, NBC, CENTCOM, Washington Post, CNBC) confirm exchange within past 24 hours. Escalation cycle threatens announced US-Iran memorandum of understanding.",
-      "region": "Strait of Hormuz, Southern Iran (Sirik)",
-      "source": "incidents, telegram",
+      "title": "Trump threatens military completion of Iran conflict after latest Strait strikes",
+      "summary": "President Trump stated US may 'militarily complete the job' after conducting additional strikes on Iranian military targets following a second commercial ship attack in Strait of Hormuz. Multiple sources (Axios, Iran International, NBC News) confirm escalatory rhetoric coinciding with fresh US strikes on Iranian positions. Statement represents material shift toward regime-change language and threatens fragile ceasefire framework.",
+      "region": "Strait of Hormuz, Persian Gulf",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "critical",
-      "category": "incident",
-      "title": "Iran launches drone attack on Bahrain; regional escalation spreads",
-      "summary": "Iran conducted drone attack on Bahrain targeting island kingdom, confirmed by multiple sources (Fox News, ABC News, Time Magazine). Attack clustered with Strait of Hormuz strikes and follows Israeli strikes in southern Lebanon, indicating coordinated proxy/state actor escalation across Persian Gulf theater. Gulf countries condemned attack; threatens MOU stability.",
-      "region": "Bahrain, Persian Gulf",
-      "source": "incidents",
+      "category": "nuclear",
+      "title": "Iran nuclear breakout window narrows to 1-2 weeks amid escalation",
+      "summary": "IAEA reports Iran's uranium enrichment at 60% U-235 with breakout time estimated at ~1-2 weeks. UN nuclear chief states inspectors will visit Iranian sites, but Iran conditions access on completion of final nuclear deal. Nuclear headlines indicate urgent inspection demands amid broader military escalation (global_metrics, IAEA statements). Compressed timeline creates dual-track crisis.",
+      "region": "Iran",
+      "source": "global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Israeli strikes southern Lebanon despite framework security deal",
-      "summary": "Israeli drone strikes reported in southern Lebanon (lat 33.66-33.99, lon 35.54-35.96) hours and day after US-brokered Israel-Lebanon security framework agreement signed. At least 1 killed, 2 injured. Hezbollah rejected deal as 'surrender,' indicating deal fragility and continued armed group defiance despite diplomatic breakthrough.",
-      "region": "Southern Lebanon",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "telegram_signal",
-      "title": "Rybar reports intensified Russian strikes on Ukrainian logistics; 175 drones downed",
-      "summary": "Rybar channel (~164K views) reports Russian Ministry of Defense claims 175 Ukrainian drones shot down June 26-27; ongoing strikes target Ukrainian fuel depots, rail infrastructure, and supply lines in Odessa, Nikolaev, and Kherson regions. Posts emphasize systematic attrition of Ukrainian logistics as new campaign phase. Multiple Rybar posts (130K-164K views) detail infrastructure targeting strategy.",
-      "region": "Eastern Ukraine, Odessa region",
-      "source": "telegram",
+      "category": "asset_movement",
+      "title": "US submarine USS Florida repositioned to Persian Gulf amid escalation",
+      "summary": "USS Florida (nuclear submarine) confirmed deployed to Persian Gulf (lat 25.61, lon 51.80) per assets feed. Deployment occurs during active Strait of Hormuz strike cycle and Iran-US tit-for-tat attacks. Submarine presence signals US readiness for sustained operations and potential strike capability against Iranian targets or naval assets.",
+      "region": "Persian Gulf",
+      "source": "assets",
       "confidence": "medium"
     },
     {
       "severity": "high",
-      "category": "nuclear",
-      "title": "Threat level escalates to CRITICAL (9) amid US-Iran strike cycle",
-      "summary": "Global metrics show threat level spiked from 7 to CRITICAL (9) on June 27, indicating imminent escalation assessment. Iran maintains 60% U-235 enrichment with 1-2 week nuclear breakout window; IAEA inspector access contingent on final deal terms. Combined with active Strait of Hormuz strikes and Bahrain drone attack, nuclear program remains unmonitored amid heightened conventional hostilities.",
-      "region": "Global, Iran nuclear sites",
-      "source": "global_metrics, incidents",
+      "category": "incident",
+      "title": "Commercial vessel struck off Oman coast; UKMTO suspends escort operations",
+      "summary": "Singaporean-flagged container ship Ever Lovely hit by unknown projectile near Oman (lat ~20.9, lon ~58.7) per Rybar Telegram report (~174K views). IMO head Arsenio Domingues suspended newly initiated convoy escort operation in Strait of Hormuz in response. Attribution to Iran not yet confirmed, but incident escalates maritime threat and disrupts stabilization efforts.",
+      "region": "Arabian Sea, Strait of Hormuz",
+      "source": "telegram, incidents",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
+      "category": "telegram_signal",
+      "title": "Russia destroys two Ukrainian MiG-29s on ground; logistics attrition campaign intensifies",
+      "summary": "Rybar reports Russian strike on Voznesensk airfield (Nikolaev Oblast) destroyed two Ukrainian MiG-29 fighters during preflight preparation via Geran-4 Sicar barrage munitions (~139K views, 2026-06-27). Concurrent Russian campaign targeting Ukrainian fuel depots and rail infrastructure across Odessa, Kherson, Nikolaev regions indicates systematic logistics collapse strategy (multiple Rybar posts, 150K-176K views). Marks escalation of anti-logistics warfare.",
+      "region": "Eastern Ukraine (Nikolaev Oblast, Odessa, Kherson)",
+      "source": "telegram",
       "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran ceasefire framework is unraveling in real-time as both sides conduct tit-for-tat strikes in Strait of Hormuz and Persian Gulf; concurrent Israeli violations in Lebanon and Iranian regional escalation suggest collapse of diplomatic containment, with threat level now CRITICAL and nuclear diplomacy deadlocked.",
+  "analysis_note": "US-Iran conflict has entered critical phase with Trump administration adopting explicit regime-change rhetoric, Iran's nuclear breakout window compressing to weeks, maritime commerce under direct attack, and regional proxy forces (Hezbollah, Houthis) elevated; simultaneous Russia-Ukraine logistics collapse campaign signals multi-theater acceleration toward major escalation.",
   "meta": {
-    "input_tokens": 21292,
+    "input_tokens": 26325,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 777,
-    "cost_usd": 0.0252,
-    "wall_time_s": 11.5,
-    "data_hash": "54e4627ae57bc167097783c41c1a7b6cc6f61bb99acb8074439988b3960cf619"
+    "output_tokens": 788,
+    "cost_usd": 0.0303,
+    "wall_time_s": 12.0,
+    "data_hash": "8d5986cbc4fe76007f9002dc607d738442f2e6f109719964a863d224c533cd5c"
   }
 }
