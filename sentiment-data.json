@@ -1,57 +1,32 @@
 {
   "us": {
     "positive": 48,
-    "negative": 46,
-    "neutral": 6,
+    "negative": 47,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 58,
+        "count": 50,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ice",
-        "count": 12,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "america",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "state",
-        "count": 10,
+        "word": "ice",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "director",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "former",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "oklahoma",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trooper",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -65,14 +40,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
+        "word": "state",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "peace",
+        "word": "bill",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cassidy",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "loser",
@@ -95,6 +75,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "vance",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cup",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "sullivan",
         "count": 6,
         "sentiment": "neutral"
@@ -110,14 +100,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "peace",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "records",
@@ -153,24 +138,54 @@
         "word": "reflecting",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "claims",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-28T16:06:41.764888+00:00",
-    "nextRefresh": "2026-06-28T16:06:41.764888+00:00",
-    "articlesAnalyzed": 339,
-    "matchedMentions": 162,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-06-28T18:01:55.713895+00:00",
+    "nextRefresh": "2026-06-28T18:01:55.713895+00:00",
+    "articlesAnalyzed": 341,
+    "matchedMentions": 159,
+    "uniquePersonalities": 52,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 39,
+    "positive": 52,
+    "negative": 28,
     "neutral": 20,
     "wordCloud": [
       {
+        "word": "thackeray",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
         "word": "modi",
         "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "uddhav",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fadnavis",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -179,67 +194,122 @@
         "sentiment": "neutral"
       },
       {
-        "word": "murder",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "siya",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "goyal",
-        "count": 8,
+        "word": "case",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "human",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "guardian",
-        "count": 5,
+        "word": "clip",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "blue",
-        "count": 5,
+        "word": "wings",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "horizon",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 5,
+        "word": "remark",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "police",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rebel",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "mps",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "defections",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "india",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "australia",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "siya",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ketan",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ram",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "murder",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "operation",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "poison",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "six",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "accused",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "janata",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "party",
-        "count": 5,
+        "count": 4,
         "sentiment": "positive"
       },
       {
-        "word": "krishna",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "calls",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "akhilesh",
+        "word": "women",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -247,84 +317,14 @@
         "word": "flight",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "lover",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "searched",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ketan",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ram",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "poison",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "chaudhary",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hour",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fort",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chopra",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wows",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "lakh",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "silvia",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tcherassi",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-28T16:06:54.889975+00:00",
-    "nextRefresh": "2026-06-28T16:06:54.889975+00:00",
-    "articlesAnalyzed": 462,
-    "matchedMentions": 79,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-06-28T18:02:07.938413+00:00",
+    "nextRefresh": "2026-06-28T18:02:07.938413+00:00",
+    "articlesAnalyzed": 481,
+    "matchedMentions": 96,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   }
 }
