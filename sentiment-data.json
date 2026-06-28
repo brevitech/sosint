@@ -1,22 +1,27 @@
 {
   "us": {
-    "positive": 48,
-    "negative": 47,
-    "neutral": 5,
+    "positive": 49,
+    "negative": 45,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 50,
+        "count": 55,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 16,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "america",
-        "count": 10,
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bill",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -45,11 +50,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "cassidy",
         "count": 6,
         "sentiment": "neutral"
@@ -66,11 +66,6 @@
       },
       {
         "word": "schroyer",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "next",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -95,14 +90,49 @@
         "sentiment": "neutral"
       },
       {
-        "word": "test",
+        "word": "louisiana",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "peace",
+        "word": "senate",
         "count": 5,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "claims",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "next",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "republican",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "housing",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "records",
@@ -115,11 +145,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "presidency",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "media",
         "count": 4,
         "sentiment": "neutral"
@@ -128,59 +153,34 @@
         "word": "since",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reflecting",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "israel",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "claims",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-28T18:01:55.713895+00:00",
-    "nextRefresh": "2026-06-28T18:01:55.713895+00:00",
-    "articlesAnalyzed": 341,
-    "matchedMentions": 159,
+    "generatedAt": "2026-06-28T20:09:40.611140+00:00",
+    "nextRefresh": "2026-06-28T20:09:40.611140+00:00",
+    "articlesAnalyzed": 336,
+    "matchedMentions": 166,
     "uniquePersonalities": 52,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 28,
+    "positive": 49,
+    "negative": 31,
     "neutral": 20,
     "wordCloud": [
       {
         "word": "thackeray",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "uddhav",
         "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "murder",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "siya",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -189,8 +189,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "seychelles",
+        "word": "modi",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "goyal",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lover",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "uddhav",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -199,8 +219,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "seychelles",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fort",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -224,26 +249,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "police",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rebel",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "mps",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "defections",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
         "word": "india",
         "count": 6,
         "sentiment": "neutral"
@@ -259,28 +264,33 @@
         "sentiment": "neutral"
       },
       {
-        "word": "siya",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ketan",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "ram",
+        "word": "operation",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "murder",
-        "count": 5,
+        "word": "engagement",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "victim",
+        "count": 4,
         "sentiment": "negative"
       },
       {
-        "word": "operation",
-        "count": 5,
+        "word": "udaipur",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trip",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -289,14 +299,9 @@
         "sentiment": "negative"
       },
       {
-        "word": "six",
+        "word": "indian",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "accused",
-        "count": 4,
-        "sentiment": "negative"
       },
       {
         "word": "janata",
@@ -309,22 +314,17 @@
         "sentiment": "positive"
       },
       {
-        "word": "women",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "flight",
+        "word": "police",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-28T18:02:07.938413+00:00",
-    "nextRefresh": "2026-06-28T18:02:07.938413+00:00",
-    "articlesAnalyzed": 481,
-    "matchedMentions": 96,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-06-28T20:09:52.614911+00:00",
+    "nextRefresh": "2026-06-28T20:09:52.614911+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 84,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
