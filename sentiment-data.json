@@ -1,13 +1,18 @@
 {
   "us": {
-    "positive": 55,
-    "negative": 40,
-    "neutral": 5,
+    "positive": 59,
+    "negative": 37,
+    "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 78,
+        "count": 77,
         "sentiment": "neutral"
+      },
+      {
+        "word": "supreme",
+        "count": 50,
+        "sentiment": "positive"
       },
       {
         "word": "court",
@@ -15,38 +20,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
-        "count": 49,
-        "sentiment": "positive"
-      },
-      {
-        "word": "cook",
-        "count": 20,
-        "sentiment": "neutral"
-      },
-      {
         "word": "power",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lisa",
-        "count": 16,
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "fire",
-        "count": 16,
+        "count": 24,
         "sentiment": "negative"
       },
       {
-        "word": "fed",
-        "count": 15,
+        "word": "cook",
+        "count": 18,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lisa",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -55,8 +50,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rules",
-        "count": 12,
+        "word": "fed",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -65,18 +60,18 @@
         "sentiment": "negative"
       },
       {
-        "word": "carroll",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ruling",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "case",
-        "count": 7,
+        "word": "agency",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rules",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -85,7 +80,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jean",
+        "word": "federal",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -95,7 +90,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "federal",
+        "word": "decision",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "carroll",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blocks",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "reserve",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -105,7 +125,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "america",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -133,88 +153,93 @@
         "word": "expands",
         "count": 6,
         "sentiment": "positive"
-      },
-      {
-        "word": "regulators",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rejects",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "appeal",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-29T16:51:20.192412+00:00",
-    "nextRefresh": "2026-06-29T16:51:20.192412+00:00",
-    "articlesAnalyzed": 343,
-    "matchedMentions": 157,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-06-29T19:02:28.521236+00:00",
+    "nextRefresh": "2026-06-29T19:02:28.521236+00:00",
+    "articlesAnalyzed": 345,
+    "matchedMentions": 161,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
-    "negative": 42,
-    "neutral": 14,
+    "positive": 50,
+    "negative": 40,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "ram",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "loota",
         "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "temple",
         "count": 8,
         "sentiment": "neutral"
       },
       {
+        "word": "temple",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "siya",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "loota",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "assam",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "desh",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sibal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "donation",
+        "word": "modi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "row",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hargila",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
+        "word": "army",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gets",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "praise",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "mann",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "baat",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "goyal",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -224,13 +249,23 @@
         "sentiment": "negative"
       },
       {
-        "word": "case",
+        "word": "neymar",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "collection",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mahindra",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -249,12 +284,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "attacks",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "goyal",
+        "word": "amp",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -284,47 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "thackeray",
+        "word": "claims",
         "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dig",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "emkay",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "financial",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "murmu",
-        "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-29T16:51:33.107773+00:00",
-    "nextRefresh": "2026-06-29T16:51:33.107773+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 55,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-06-29T19:02:43.007239+00:00",
+    "nextRefresh": "2026-06-29T19:02:43.007239+00:00",
+    "articlesAnalyzed": 465,
+    "matchedMentions": 60,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
