@@ -1,42 +1,47 @@
 {
   "us": {
     "positive": 54,
-    "negative": 42,
-    "neutral": 4,
+    "negative": 43,
+    "neutral": 3,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 75,
+        "count": 77,
         "sentiment": "neutral"
       },
       {
         "word": "supreme",
-        "count": 51,
+        "count": 50,
         "sentiment": "positive"
       },
       {
         "word": "court",
-        "count": 51,
+        "count": 50,
         "sentiment": "neutral"
       },
       {
         "word": "cook",
+        "count": 24,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lisa",
         "count": 21,
         "sentiment": "neutral"
       },
       {
         "word": "fire",
-        "count": 20,
+        "count": 19,
         "sentiment": "negative"
-      },
-      {
-        "word": "lisa",
-        "count": 18,
-        "sentiment": "neutral"
       },
       {
         "word": "power",
         "count": 18,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ruling",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -45,22 +50,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "firing",
+        "word": "federal",
         "count": 10,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reserve",
+        "count": 9,
+        "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ruling",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "independent",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -75,27 +75,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "america",
+        "word": "firing",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "save",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "act",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "agencies",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "federal",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "liberal",
+        "word": "governor",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -105,22 +100,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "case",
-        "count": 6,
+        "word": "agency",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "reserve",
-        "count": 6,
+        "word": "america",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "governor",
+        "word": "independent",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "biden",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "liberal",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -148,25 +153,20 @@
         "word": "scotus",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "calls",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-29T22:51:49.023775+00:00",
-    "nextRefresh": "2026-06-29T22:51:49.023775+00:00",
-    "articlesAnalyzed": 349,
+    "generatedAt": "2026-06-29T23:59:07.403117+00:00",
+    "nextRefresh": "2026-06-29T23:59:07.403117+00:00",
+    "articlesAnalyzed": 350,
     "matchedMentions": 161,
-    "uniquePersonalities": 51,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 49,
-    "negative": 40,
-    "neutral": 11,
+    "positive": 47,
+    "negative": 43,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "ram",
@@ -244,6 +244,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "banerjee",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "india",
         "count": 4,
         "sentiment": "neutral"
@@ -260,16 +265,6 @@
       },
       {
         "word": "police",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "never",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "parekh",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -317,14 +312,19 @@
         "word": "desh",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "sibal",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-29T22:51:59.861793+00:00",
-    "nextRefresh": "2026-06-29T22:51:59.861793+00:00",
+    "generatedAt": "2026-06-29T23:59:18.118652+00:00",
+    "nextRefresh": "2026-06-29T23:59:18.118652+00:00",
     "articlesAnalyzed": 467,
-    "matchedMentions": 57,
-    "uniquePersonalities": 38,
+    "matchedMentions": 58,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
