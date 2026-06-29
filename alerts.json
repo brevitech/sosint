@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-29T16:52:05.190811+00:00",
+  "generated_at": "2026-06-29T22:52:11.962548+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran threatens talks collapse as US-Iran strike cycle continues into day 3",
-      "summary": "Iran's foreign ministry announced potential \"complete halt\" to negotiations following renewed US strikes on Iranian coastal targets and Iranian attacks on Bahrain and Kuwait military facilities (32.06\u00b0N, 52.75\u00b0E). Multiple sources (CBS News, AP News, PBS, BBC) confirm ceasefire framework remains effectively dissolved with no diplomatic off-ramps visible.",
-      "region": "Persian Gulf, Bahrain, Kuwait, Iran",
+      "title": "US and Iran agree to \"stand down\" after multi-day strike exchange; ceasefire fragile",
+      "summary": "After 3 days of reciprocal strikes (US airstrikes on Iranian targets, Iranian attacks on Bahrain/Kuwait military facilities, cargo ship strikes in Strait of Hormuz), Washington and Tehran announced mutual de-escalation. However, Iran's foreign ministry maintains threat of \"complete halt\" to negotiations if US military withdrawal demands unmet. Multiple sources (BBC, CBS News, AP News, CENTCOM) confirm temporary pause but acknowledge structural diplomatic collapse remains unresolved.",
+      "region": "Persian Gulf, Strait of Hormuz, Bahrain, Kuwait",
       "source": "incidents, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran maintains 60% U-235 enrichment amid military escalation cycle",
-      "summary": "IAEA confirms Iran sustains 60% uranium enrichment with 1-2 week nuclear breakout window. UN nuclear chief states IAEA inspector access contingent on final deal completion\u2014a condition Iran rejects absent foreign military withdrawal. Concurrent strike cycle and diplomatic framework collapse leaves minimal window for nuclear de-escalation. Global threat level: CRITICAL (9/10).",
+      "title": "Iran sustains 60% U-235 enrichment amid active military escalation",
+      "summary": "IAEA confirms Iran maintains 60% uranium enrichment with 1-2 week breakout window estimated. Nuclear chief states inspector access contingent on final deal completion\u2014condition Iran rejects. Concurrent kinetic strike cycle and diplomatic framework deterioration leave minimal de-escalation pathway. Global threat level remains CRITICAL (9/10).",
       "region": "Iran",
       "source": "global_metrics, incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "cyber",
-      "title": "Iran-linked cyber units claim widespread Israeli military radar compromise",
-      "summary": "Tehran-linked cyber operations claim successful penetration of Israeli air defense radar systems, marking escalation of cyber warfare parallel to kinetic strikes. Concurrent report of Iranian cyberattacks on Israel surge in 2026. Indicates Iran expanding asymmetric pressure beyond conventional strikes into critical infrastructure targeting.",
-      "region": "Israel, Iran",
-      "source": "global_metrics",
-      "confidence": "medium"
-    },
-    {
-      "severity": "high",
       "category": "incident",
-      "title": "Israel retaliates against southern Syria after troops report hostile fire",
-      "summary": "IDF confirmed troops engaged by unidentified forces in southern Syria (35.16\u00b0N, 38.07\u00b0E) and responded with helicopter strikes. Incident signals potential expansion of Israel-Iran proxy confrontation into Syrian territory alongside active Hezbollah escalation on Lebanon border. Marks new geographic vector in broader conflict expansion.",
+      "title": "Israel expands strikes into southern Syria as Hezbollah tensions escalate",
+      "summary": "IDF confirmed engagement with unidentified hostile forces in southern Syria (34.77\u00b0N, 37.93\u00b0E) and conducted helicopter strikes. Al Jazeera reports new Israeli assault forcing families to flee. Marks escalation beyond Lebanon border into Syrian territory, indicating broader regional proxy expansion parallel to Iran-US strike cycle.",
       "region": "Southern Syria",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Iran foreign minister Abbas Araghchi visits Baghdad amid Strait security talks",
-      "summary": "Iranian FM Araghchi traveled to Baghdad (per Rybar Telegram, ~278K views, 28 June) for negotiations on Persian Gulf security architecture. Reports indicate discussions on restructuring Gulf security without foreign interference and Iran reasserting full control over Strait of Hormuz. Signifies Iranian diplomatic push to reshape regional order amid military escalation.",
-      "region": "Baghdad, Persian Gulf",
-      "source": "telegram, incidents",
+      "category": "telegram_signal",
+      "title": "Iranian Foreign Minister Abbas Araghchi visits Baghdad to discuss Strait security framework",
+      "summary": "Rybar reports (~322K views) that Iran's FM traveled to Baghdad for negotiations on Persian Gulf security architecture. Discussions revealed Iran's demand that Hormuz Strait return to full Iranian control and regional security structure be rewritten without foreign interference\u2014hardening demand that contradicts current US-Iran negotiations. Signals Iran escalating maximalist position amid military operations.",
+      "region": "Persian Gulf, Iraq",
+      "source": "telegram",
+      "confidence": "medium"
+    },
+    {
+      "severity": "medium",
+      "category": "sentiment_shift",
+      "title": "US domestic sentiment tilts toward Iran amid judicial/regulatory focus; regional coverage recedes",
+      "summary": "Sentiment analysis shows US positive sentiment at 54% with dominant word clusters on Trump, Supreme Court, and regulatory decisions (\"court,\" \"firing,\" \"fed\"). Iran mentions drop to only 9 occurrences. Indicates US media/public attention pivot away from Middle East conflict toward domestic politics, potentially reducing political pressure on administration to sustain current escalation posture.",
+      "region": "Global",
+      "source": "sentiment",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran strike cycle persists across day 3 with collapsed ceasefire framework, nuclear breakout window narrowing to 1-2 weeks, cyber escalation intensifying, and Iran attempting parallel diplomatic leverage in Baghdad while expanding operational scope to Syria\u2014portending sustained multi-domain confrontation absent near-term negotiated off-ramp.",
+  "analysis_note": "The US-Iran strike cycle has achieved temporary pause, but Iran's nuclear program continues advancing toward breakout while Tehran hardens negotiating demands and expands proxy operations into Syria; diplomatic off-ramps remain closed.",
   "meta": {
-    "input_tokens": 27090,
+    "input_tokens": 25580,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 687,
-    "cost_usd": 0.0305,
-    "wall_time_s": 10.9,
-    "data_hash": "cb116edabd0f0dfde0e35cdfb304934d237e5504c185def2cc0cc98da1fce4e2"
+    "output_tokens": 709,
+    "cost_usd": 0.0291,
+    "wall_time_s": 11.2,
+    "data_hash": "741273b24f44ed2932d57e7ac3b1f65e49e0ba12288159cd6d7e26aa5e86da93"
   }
 }
