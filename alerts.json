@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-29T08:16:30.059863+00:00",
+  "generated_at": "2026-06-29T16:52:05.190811+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "US-Iran strike cycle continues unabated; ceasefire framework collapses on Day 122",
-      "summary": "Iran and US exchanged multiple strikes June 28-29, with Iran targeting Ali Al-Salem Airbase (Kuwait) and 5th Fleet HQ (Bahrain); US retaliated against Iranian coastal missile/drone sites near Strait of Hormuz. Multiple sources (AP, CNBC, PBS, BBC, NBC, Al Jazeera, NYT) confirm ceasefire framework has effectively dissolved. Trump administration maintains hardline posture; formal talks remain on hold.",
-      "region": "Persian Gulf, Kuwait, Bahrain, Strait of Hormuz",
-      "source": "incidents, telegram, global_metrics",
+      "title": "Iran threatens talks collapse as US-Iran strike cycle continues into day 3",
+      "summary": "Iran's foreign ministry announced potential \"complete halt\" to negotiations following renewed US strikes on Iranian coastal targets and Iranian attacks on Bahrain and Kuwait military facilities (32.06\u00b0N, 52.75\u00b0E). Multiple sources (CBS News, AP News, PBS, BBC) confirm ceasefire framework remains effectively dissolved with no diplomatic off-ramps visible.",
+      "region": "Persian Gulf, Bahrain, Kuwait, Iran",
+      "source": "incidents, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "critical",
       "category": "nuclear",
-      "title": "Iran nuclear breakout window remains 1-2 weeks amid active hostilities",
-      "summary": "IAEA confirms Iran maintains 60% U-235 enrichment. UN nuclear chief states inspectors will visit Iranian nuclear sites only after final deal completion. Concurrent military escalation and collapsed diplomatic framework narrows window for de-escalation. Global threat level remains CRITICAL (9/10).",
+      "title": "Iran maintains 60% U-235 enrichment amid military escalation cycle",
+      "summary": "IAEA confirms Iran sustains 60% uranium enrichment with 1-2 week nuclear breakout window. UN nuclear chief states IAEA inspector access contingent on final deal completion\u2014a condition Iran rejects absent foreign military withdrawal. Concurrent strike cycle and diplomatic framework collapse leaves minimal window for nuclear de-escalation. Global threat level: CRITICAL (9/10).",
       "region": "Iran",
       "source": "global_metrics, incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Israel-Hezbollah escalation accelerates after security framework rejection",
-      "summary": "Hezbollah formally rejected US-brokered Israel-Lebanon security framework on June 28, calling it 'surrender.' Israel responded with strikes on Beirut and confirmed destruction of major Hezbollah tunnel in South Lebanon (33.96\u00b0N, 36.08\u00b0E). Netanyahu reiterated Israel's freedom to strike Hezbollah unilaterally. Framework collapse signals imminent escalation risk along Israel-Lebanon border.",
-      "region": "Israel-Lebanon border, Beirut, South Lebanon",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
-      "category": "asset_movement",
-      "title": "US submarine USS Florida deployed to Persian Gulf amid escalation",
-      "summary": "USS Florida (submarine) positioned at 26.33\u00b0N, 52.07\u00b0E in Persian Gulf, reportedly supporting strike operations. Concurrent with escalated US-Iran strikes and emergence of new Iranian coastal targets. Deployment reflects readiness for sustained operations in critical chokepoint zone.",
-      "region": "Persian Gulf",
-      "source": "assets, incidents",
+      "category": "cyber",
+      "title": "Iran-linked cyber units claim widespread Israeli military radar compromise",
+      "summary": "Tehran-linked cyber operations claim successful penetration of Israeli air defense radar systems, marking escalation of cyber warfare parallel to kinetic strikes. Concurrent report of Iranian cyberattacks on Israel surge in 2026. Indicates Iran expanding asymmetric pressure beyond conventional strikes into critical infrastructure targeting.",
+      "region": "Israel, Iran",
+      "source": "global_metrics",
       "confidence": "medium"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "UN suspends Strait of Hormuz shipping evacuation after vessel attack",
-      "summary": "UN agency halted evacuation operations through Strait of Hormuz (26.8\u00b0N, 56.43\u00b0E) following confirmed attack on commercial cargo vessel. CENTCOM confirmed retaliatory US strikes on Iranian naval targets. Clustering of maritime incidents around Hormuz reflects sustained targeting of critical global energy chokepoint. Oil remains at $73/barrel; further escalation risks spike.",
-      "region": "Strait of Hormuz",
-      "source": "incidents, global_metrics",
+      "title": "Israel retaliates against southern Syria after troops report hostile fire",
+      "summary": "IDF confirmed troops engaged by unidentified forces in southern Syria (35.16\u00b0N, 38.07\u00b0E) and responded with helicopter strikes. Incident signals potential expansion of Israel-Iran proxy confrontation into Syrian territory alongside active Hezbollah escalation on Lebanon border. Marks new geographic vector in broader conflict expansion.",
+      "region": "Southern Syria",
+      "source": "incidents",
       "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "incident",
+      "title": "Iran foreign minister Abbas Araghchi visits Baghdad amid Strait security talks",
+      "summary": "Iranian FM Araghchi traveled to Baghdad (per Rybar Telegram, ~278K views, 28 June) for negotiations on Persian Gulf security architecture. Reports indicate discussions on restructuring Gulf security without foreign interference and Iran reasserting full control over Strait of Hormuz. Signifies Iranian diplomatic push to reshape regional order amid military escalation.",
+      "region": "Baghdad, Persian Gulf",
+      "source": "telegram, incidents",
+      "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran strike cycle has definitively broken the fragile ceasefire framework; concurrent Hezbollah rejection of Israel-Lebanon deal and compressed nuclear breakout timeline (1-2 weeks) creates three simultaneous flashpoints with minimal diplomatic off-ramps as threat level holds at CRITICAL (9/10).",
+  "analysis_note": "US-Iran strike cycle persists across day 3 with collapsed ceasefire framework, nuclear breakout window narrowing to 1-2 weeks, cyber escalation intensifying, and Iran attempting parallel diplomatic leverage in Baghdad while expanding operational scope to Syria\u2014portending sustained multi-domain confrontation absent near-term negotiated off-ramp.",
   "meta": {
-    "input_tokens": 22503,
+    "input_tokens": 27090,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 748,
-    "cost_usd": 0.0262,
-    "wall_time_s": 10.8,
-    "data_hash": "65a4fc5dffe99560509481f5180bd2a8f0568eaf88ec1fc2b9e3eb7996fba6a3"
+    "output_tokens": 687,
+    "cost_usd": 0.0305,
+    "wall_time_s": 10.9,
+    "data_hash": "cb116edabd0f0dfde0e35cdfb304934d237e5504c185def2cc0cc98da1fce4e2"
   }
 }
