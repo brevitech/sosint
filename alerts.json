@@ -1,22 +1,31 @@
 {
-  "generated_at": "2026-06-30T04:06:45.871023+00:00",
+  "generated_at": "2026-06-30T11:42:21.915480+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Ceasefire between US and Iran deteriorates as both sides prepare new strikes",
-      "summary": "After initial 28-29 June stand-down agreement, military indicators show continued strike readiness. Multiple CENTCOM reports confirm US conducted additional Iran strikes on 30 June; Iranian military maintains active posture amid Strait of Hormuz tanker attacks. Diplomatic framework fractured\u2014Iran's FM Araghchi hardened demands in Baghdad talks, insisting full Iranian control of Hormuz and exclusion of foreign forces. Breakout risk window remains 1-2 weeks. Sources: incidents (CENTCOM, BBC, CBS News, AP News), telegram (Rybar ~355K views).",
+      "title": "US-Iran ceasefire collapses; reciprocal strikes resume over Hormuz",
+      "summary": "After tentative 28-29 June stand-down, both US and Iran launched additional strikes on 30 June. CENTCOM confirms US struck multiple Iranian targets; Iran targeted commercial shipping near Strait of Hormuz. Iranian FM Araghchi hardened diplomatic demands in Baghdad talks, insisting full Iranian control of Hormuz and exclusion of foreign military presence. Nuclear breakout window estimated 1-2 weeks. Sources: incidents (CENTCOM, PBS, NBC, BBC, AP News), global_metrics (threat level 9/10 - CRITICAL).",
       "region": "Persian Gulf, Strait of Hormuz, Iran",
-      "source": "incidents, telegram, global_metrics",
+      "source": "incidents, global_metrics",
+      "confidence": "high"
+    },
+    {
+      "severity": "high",
+      "category": "nuclear",
+      "title": "Iran's uranium enrichment at 60% U-235; breakout time narrows to 1-2 weeks",
+      "summary": "IAEA verification reports confirm Iran maintains 60% uranium enrichment level amid negotiations. Breakout time estimate has shortened to approximately 1-2 weeks from previous assessments. US insists no Iranian funds will be unfrozen unless nuclear progress materializes; however, both sides publicly dispute whether nuclear matters should be part of current talks framework. Source: global_metrics (nuclear headlines, IAEA verification reports), telegram (ME Spectator ~45K views flagging nuclear stalemate on 29 June).",
+      "region": "Iran",
+      "source": "global_metrics, telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel intensifies multi-front operations in Gaza, Lebanon, and southern Syria simultaneously",
-      "summary": "IDF confirmed strikes in southern Syria (34.98\u00b0N, 38.12\u00b0E) forcing civilian evacuation; concurrent Israeli strikes killed 3+ Palestinians including children in Gaza central zone; Lebanon state media reports southern border strikes. Hezbollah condemns new ceasefire arrangement. Marks coordinated escalation across three territorial sectors despite US-Iran pause. Sources: incidents (Al Jazeera, BBC, Reuters, Times of Israel).",
+      "title": "Israel sustains multi-front strikes across Gaza, Lebanon, southern Syria simultaneously",
+      "summary": "IDF confirmed airstrikes on southern Syria (forcing civilian evacuation), Gaza central zone (killing 8+ Palestinians including 2 children), and southern Lebanon border positions. Hezbollah publicly condemned new ceasefire arrangement despite Israeli-US de-escalation framework. Coordinated strikes indicate sustained Israeli operations across three territorial sectors independent of US-Iran pause. Sources: incidents (Al Jazeera, BBC, Reuters, Boston Herald, WGN-TV, Sentinel Colorado).",
       "region": "Gaza, Southern Lebanon, Southern Syria",
       "source": "incidents",
       "confidence": "high"
@@ -24,39 +33,30 @@
     {
       "severity": "high",
       "category": "asset_movement",
-      "title": "US maintains three carrier strike groups and submarine presence in high-readiness posture",
-      "summary": "USS Dwight D. Eisenhower (Carrier, Red Sea 15.09\u00b0N, 42.40\u00b0E), USS Abraham Lincoln (Carrier, Arabian Sea 21.03\u00b0N, 59.65\u00b0E), and USS Gerald R. Ford (Carrier, Mediterranean 33.98\u00b0N, 30.26\u00b0E) deployed. USS Florida (Submarine, Persian Gulf 26.13\u00b0N, 52.42\u00b0E) positioned for contingency response. Three destroyers (Carney, Mason, Laboon) and amphibious assets (Bataan, Boxer) maintain forward presence. Asset concentration indicates sustained deterrence against Iranian escalation. Sources: assets feed (live-osint confirmed positioning).",
-      "region": "Red Sea, Arabian Sea, Persian Gulf, Mediterranean",
+      "title": "US maintains four-carrier forward presence with submarine contingency in Persian Gulf",
+      "summary": "USS Dwight D. Eisenhower (Red Sea 15.36\u00b0N, 42.27\u00b0E), USS Abraham Lincoln (Arabian Sea 21.31\u00b0N, 60.22\u00b0E), USS Gerald R. Ford (Mediterranean 33.84\u00b0N, 29.95\u00b0E), and USS Theodore Roosevelt (Pacific 15.34\u00b0N, 115.07\u00b0E) remain deployed. USS Florida submarine positioned in Persian Gulf (26.26\u00b0N, 52.23\u00b0E). Three destroyers (Carney, Mason, Laboon) and two amphibious ships (Bataan, Boxer) maintain Red Sea/Pacific readiness. Asset configuration sustains deterrence against Iranian escalation and supports Israeli operations. Source: assets (live-osint confirmed positioning, 54 articles analyzed).",
+      "region": "Red Sea, Arabian Sea, Persian Gulf, Mediterranean, Pacific",
       "source": "assets",
       "confidence": "high"
     },
     {
       "severity": "medium",
-      "category": "telegram_signal",
-      "title": "Rybar reports Iran's FM demands restructured Persian Gulf security architecture excluding US",
-      "summary": "Rybar broadcast (~355K views, 28 June) covering FM Abbas Araghchi's Baghdad visit detailed Iranian hardline position: Hormuz Strait return to full Iranian control, Persian Gulf security framework rewritten without foreign interference. Signals diplomatic collapse trajectory parallel to kinetic cycle. Indicates Iran weaponizing negotiations amid active military posture. Sources: telegram (Rybar).",
-      "region": "Persian Gulf, Iraq",
-      "source": "telegram",
+      "category": "sentiment_shift",
+      "title": "US domestic sentiment shifts toward Trump, Supreme Court amid Iran crisis",
+      "summary": "Sentiment analysis shows US positive sentiment at 56% with spike in 'trump' (73 mentions), 'court' (52), 'supreme' (50), and 'power' (20) keywords over 24 hours. Negative sentiment remains at 39%, dominated by conflict-adjacent terms ('fire' 16, 'act' 11). Shift reflects domestic political polarization during active Persian Gulf crisis rather than traditional hawkish rally-around-flag pattern. Source: sentiment feed (US region analysis).",
+      "region": "Global",
+      "source": "sentiment",
       "confidence": "medium"
-    },
-    {
-      "severity": "medium",
-      "category": "nuclear",
-      "title": "IAEA inspector access remains contingent on incomplete final deal; breakout window static at 1-2 weeks",
-      "summary": "Iran maintains 60% U-235 enrichment. IAEA confirms inspector access tied to final agreement completion\u2014condition Tehran rejects. Multiple nuclear headlines (IAEA chief, Foundation for Defense of Democracies) underscore inspection dispute escalation. No advancement on breakout timeline reduction. Global threat level static at CRITICAL (9/10). Sources: global_metrics (IAEA headlines, nuclear status tracking).",
-      "region": "Iran",
-      "source": "global_metrics",
-      "confidence": "high"
     }
   ],
-  "analysis_note": "US-Iran ceasefire framework fractured within 48 hours; Iran hardened negotiating position on Hormuz/Gulf security while maintaining strike-ready posture and 60% enrichment; Israel escalated multi-theater operations (Gaza/Lebanon/Syria); diplomatic pathway narrowing while kinetic risk remains elevated at CRITICAL threat level.",
+  "analysis_note": "US-Iran ceasefire framework has fractured within 48 hours despite initial agreement; Iran's nuclear breakout window has narrowed to 1-2 weeks; Israel continues independent multi-front operations undeterred by US-Iran pause; four-carrier US presence suggests sustained deterrence posture rather than de-escalation.",
   "meta": {
-    "input_tokens": 25626,
+    "input_tokens": 24069,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 914,
-    "cost_usd": 0.0302,
-    "wall_time_s": 13.5,
-    "data_hash": "683ef8e9df69235fcb21ad5bea15170d06424807793a67fedfbd7bd95ab92799"
+    "output_tokens": 971,
+    "cost_usd": 0.0289,
+    "wall_time_s": 14.5,
+    "data_hash": "bb60f8a883e02584a695f9bd21f0e7c82c702db272e8b4f3c599207bc9ca7c57"
   }
 }
