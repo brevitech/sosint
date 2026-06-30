@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-30T11:42:21.915480+00:00",
+  "generated_at": "2026-06-30T17:02:45.443394+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "US-Iran ceasefire collapses; reciprocal strikes resume over Hormuz",
-      "summary": "After tentative 28-29 June stand-down, both US and Iran launched additional strikes on 30 June. CENTCOM confirms US struck multiple Iranian targets; Iran targeted commercial shipping near Strait of Hormuz. Iranian FM Araghchi hardened diplomatic demands in Baghdad talks, insisting full Iranian control of Hormuz and exclusion of foreign military presence. Nuclear breakout window estimated 1-2 weeks. Sources: incidents (CENTCOM, PBS, NBC, BBC, AP News), global_metrics (threat level 9/10 - CRITICAL).",
+      "title": "US-Iran reciprocal strikes continue; FM Araghchi demands full Iranian Hormuz control",
+      "summary": "Despite tentative ceasefire, both US and Iran conducted additional strikes on 30 June. CENTCOM confirms strikes on multiple Iranian targets; Iran targeted commercial shipping near Strait of Hormuz. Iranian FM Araghchi has hardened negotiating demands in Baghdad talks, insisting full Iranian control over Hormuz and exclusion of foreign military presence. Nuclear breakout window remains 1-2 weeks. Sources: incidents (CENTCOM, PBS, NBC, BBC, AP News, CBS News, NYT), global_metrics (threat level 9/10 CRITICAL).",
       "region": "Persian Gulf, Strait of Hormuz, Iran",
       "source": "incidents, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "nuclear",
-      "title": "Iran's uranium enrichment at 60% U-235; breakout time narrows to 1-2 weeks",
-      "summary": "IAEA verification reports confirm Iran maintains 60% uranium enrichment level amid negotiations. Breakout time estimate has shortened to approximately 1-2 weeks from previous assessments. US insists no Iranian funds will be unfrozen unless nuclear progress materializes; however, both sides publicly dispute whether nuclear matters should be part of current talks framework. Source: global_metrics (nuclear headlines, IAEA verification reports), telegram (ME Spectator ~45K views flagging nuclear stalemate on 29 June).",
-      "region": "Iran",
-      "source": "global_metrics, telegram",
-      "confidence": "high"
+      "category": "cyber",
+      "title": "Iran-linked group claims hack of FBI drone systems; World Cup threat issued",
+      "summary": "Iran-linked cyber group has publicly claimed successful infiltration of US FBI drone command systems and issued threat to target World Cup infrastructure. Represents escalation of Iranian cyber operations during active kinetic conflict phase. Comes amid elevated cyber threat landscape tied to Middle East war. Sources: global_metrics (cyber headlines), media reports (France 24, CBS News, CSIS).",
+      "region": "Global",
+      "source": "global_metrics",
+      "confidence": "medium"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel sustains multi-front strikes across Gaza, Lebanon, southern Syria simultaneously",
-      "summary": "IDF confirmed airstrikes on southern Syria (forcing civilian evacuation), Gaza central zone (killing 8+ Palestinians including 2 children), and southern Lebanon border positions. Hezbollah publicly condemned new ceasefire arrangement despite Israeli-US de-escalation framework. Coordinated strikes indicate sustained Israeli operations across three territorial sectors independent of US-Iran pause. Sources: incidents (Al Jazeera, BBC, Reuters, Boston Herald, WGN-TV, Sentinel Colorado).",
+      "title": "Israel sustains multi-front operations across Gaza, Lebanon, Syria despite US-Iran pause",
+      "summary": "IDF confirmed coordinated airstrikes on 30 June across three sectors: southern Syria (civilian evacuations), Gaza central zone (8+ killed including 2 children), and southern Lebanon border. Hezbollah publicly condemned new ceasefire arrangement. Coordinated multi-sector strikes indicate sustained Israeli operations independent of US-Iran negotiations. Sources: incidents (Al Jazeera, BBC, Reuters, NBC News, Religion News Service, Times of Israel).",
       "region": "Gaza, Southern Lebanon, Southern Syria",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "asset_movement",
-      "title": "US maintains four-carrier forward presence with submarine contingency in Persian Gulf",
-      "summary": "USS Dwight D. Eisenhower (Red Sea 15.36\u00b0N, 42.27\u00b0E), USS Abraham Lincoln (Arabian Sea 21.31\u00b0N, 60.22\u00b0E), USS Gerald R. Ford (Mediterranean 33.84\u00b0N, 29.95\u00b0E), and USS Theodore Roosevelt (Pacific 15.34\u00b0N, 115.07\u00b0E) remain deployed. USS Florida submarine positioned in Persian Gulf (26.26\u00b0N, 52.23\u00b0E). Three destroyers (Carney, Mason, Laboon) and two amphibious ships (Bataan, Boxer) maintain Red Sea/Pacific readiness. Asset configuration sustains deterrence against Iranian escalation and supports Israeli operations. Source: assets (live-osint confirmed positioning, 54 articles analyzed).",
-      "region": "Red Sea, Arabian Sea, Persian Gulf, Mediterranean, Pacific",
-      "source": "assets",
+      "category": "nuclear",
+      "title": "US conditions fund unfreezing on nuclear progress despite agreed talks framework",
+      "summary": "US stated it will not unfreeze any Iranian funds unless progress materializes on nuclear file, contradicting earlier agreement that nuclear matters would not be discussed at current talks stage. Creates asymmetric negotiating position and signals US intent to link non-nuclear economic relief to nuclear concessions. Heightens risk of talks collapse. Sources: telegram (ME Spectator ~48K views, 29 June), global_metrics (nuclear headlines).",
+      "region": "Iran",
+      "source": "telegram, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "medium",
-      "category": "sentiment_shift",
-      "title": "US domestic sentiment shifts toward Trump, Supreme Court amid Iran crisis",
-      "summary": "Sentiment analysis shows US positive sentiment at 56% with spike in 'trump' (73 mentions), 'court' (52), 'supreme' (50), and 'power' (20) keywords over 24 hours. Negative sentiment remains at 39%, dominated by conflict-adjacent terms ('fire' 16, 'act' 11). Shift reflects domestic political polarization during active Persian Gulf crisis rather than traditional hawkish rally-around-flag pattern. Source: sentiment feed (US region analysis).",
-      "region": "Global",
-      "source": "sentiment",
+      "category": "asset_movement",
+      "title": "US maintains forward naval presence: four carriers, three destroyers, submarines deployed",
+      "summary": "US military asset positioning confirmed across theater: USS Eisenhower, Abraham Lincoln, Gerald R. Ford, Theodore Roosevelt (carriers); USS Carney, Mason, Laboon (destroyers); USS Florida (submarine in Persian Gulf); USS Bataan, Boxer (amphibious). Deployment maintains strategic pressure during negotiations while positioning for rapid escalation if talks collapse. Sources: assets (live-osint analysis of 54 articles).",
+      "region": "Red Sea, Arabian Sea, Mediterranean, Pacific, Persian Gulf",
+      "source": "assets",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran ceasefire framework has fractured within 48 hours despite initial agreement; Iran's nuclear breakout window has narrowed to 1-2 weeks; Israel continues independent multi-front operations undeterred by US-Iran pause; four-carrier US presence suggests sustained deterrence posture rather than de-escalation.",
+  "analysis_note": "US-Iran ceasefire remains fragile at day-two breakpoint with reciprocal strikes resuming; nuclear breakout window 1-2 weeks; Israel pursuing independent multi-front operations; cyber escalation and asymmetric negotiating tactics risk rapid collapse of diplomatic efforts.",
   "meta": {
-    "input_tokens": 24069,
+    "input_tokens": 23076,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 971,
-    "cost_usd": 0.0289,
-    "wall_time_s": 14.5,
-    "data_hash": "bb60f8a883e02584a695f9bd21f0e7c82c702db272e8b4f3c599207bc9ca7c57"
+    "output_tokens": 811,
+    "cost_usd": 0.0271,
+    "wall_time_s": 13.6,
+    "data_hash": "f774fbf55d7205f8ec88a637450cdf4b58f8d9c92cbc20359e89bb5812ac1135"
   }
 }
