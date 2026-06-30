@@ -1,42 +1,42 @@
 {
   "us": {
-    "positive": 55,
-    "negative": 41,
-    "neutral": 4,
+    "positive": 51,
+    "negative": 44,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 68,
+        "count": 67,
         "sentiment": "neutral"
       },
       {
         "word": "court",
-        "count": 46,
+        "count": 44,
         "sentiment": "neutral"
       },
       {
         "word": "supreme",
-        "count": 41,
+        "count": 39,
         "sentiment": "positive"
       },
       {
+        "word": "fire",
+        "count": 16,
+        "sentiment": "negative"
+      },
+      {
         "word": "lisa",
-        "count": 17,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "cook",
-        "count": 17,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
-        "word": "fire",
-        "count": 17,
-        "sentiment": "negative"
-      },
-      {
         "word": "power",
-        "count": 15,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -67,6 +67,16 @@
       {
         "word": "reserve",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "biden",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -105,22 +115,17 @@
         "sentiment": "positive"
       },
       {
-        "word": "calls",
-        "count": 7,
-        "sentiment": "neutral"
+        "word": "loser",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
-        "word": "biden",
+        "word": "fundraising",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
+        "word": "event",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -148,69 +153,74 @@
         "word": "destabilizing",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "expands",
-        "count": 6,
-        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-30T04:06:17.791188+00:00",
-    "nextRefresh": "2026-06-30T04:06:17.791188+00:00",
-    "articlesAnalyzed": 349,
-    "matchedMentions": 159,
-    "uniquePersonalities": 49,
+    "generatedAt": "2026-06-30T08:25:57.828296+00:00",
+    "nextRefresh": "2026-06-30T08:25:57.828296+00:00",
+    "articlesAnalyzed": 344,
+    "matchedMentions": 158,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 42,
-    "neutral": 12,
+    "positive": 45,
+    "negative": 24,
+    "neutral": 31,
     "wordCloud": [
       {
-        "word": "modi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bengal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 4,
+        "word": "trump",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 4,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "banerjee",
-        "count": 4,
+        "word": "sena",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "list",
-        "count": 4,
+        "word": "modi",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "obc",
-        "count": 4,
+        "word": "ahir",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "murder",
-        "count": 4,
-        "sentiment": "negative"
+        "word": "case",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
-        "word": "police",
-        "count": 4,
+        "word": "thackeray",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "joins",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shinde",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ketan",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -219,112 +229,102 @@
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "muslim",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "apple",
+        "word": "sachin",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "uddhav",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "asian",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "games",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gait",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "analysis",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ubt",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shiv",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "early",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "siya",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "iphone",
+        "word": "crore",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "pro",
+        "word": "wanted",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "assam",
+        "word": "bengal",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "gets",
+        "word": "adani",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "exposes",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "trump",
+        "word": "billion",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "gadkari",
+        "word": "ram",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "fadnavis",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rss-backed",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leaders",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sidelined",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "claims",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "thackeray",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "emkay",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "financial",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "injured",
-        "count": 2,
-        "sentiment": "negative"
-      },
-      {
-        "word": "fire",
-        "count": 2,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-30T04:06:32.043972+00:00",
-    "nextRefresh": "2026-06-30T04:06:32.043972+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 57,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-06-30T08:26:09.931419+00:00",
+    "nextRefresh": "2026-06-30T08:26:09.931419+00:00",
+    "articlesAnalyzed": 480,
+    "matchedMentions": 66,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
