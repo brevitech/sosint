@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-29T22:52:11.962548+00:00",
+  "generated_at": "2026-06-30T04:06:45.871023+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "US and Iran agree to \"stand down\" after multi-day strike exchange; ceasefire fragile",
-      "summary": "After 3 days of reciprocal strikes (US airstrikes on Iranian targets, Iranian attacks on Bahrain/Kuwait military facilities, cargo ship strikes in Strait of Hormuz), Washington and Tehran announced mutual de-escalation. However, Iran's foreign ministry maintains threat of \"complete halt\" to negotiations if US military withdrawal demands unmet. Multiple sources (BBC, CBS News, AP News, CENTCOM) confirm temporary pause but acknowledge structural diplomatic collapse remains unresolved.",
-      "region": "Persian Gulf, Strait of Hormuz, Bahrain, Kuwait",
-      "source": "incidents, global_metrics",
-      "confidence": "high"
-    },
-    {
-      "severity": "critical",
-      "category": "nuclear",
-      "title": "Iran sustains 60% U-235 enrichment amid active military escalation",
-      "summary": "IAEA confirms Iran maintains 60% uranium enrichment with 1-2 week breakout window estimated. Nuclear chief states inspector access contingent on final deal completion\u2014condition Iran rejects. Concurrent kinetic strike cycle and diplomatic framework deterioration leave minimal de-escalation pathway. Global threat level remains CRITICAL (9/10).",
-      "region": "Iran",
-      "source": "global_metrics, incidents",
+      "title": "Ceasefire between US and Iran deteriorates as both sides prepare new strikes",
+      "summary": "After initial 28-29 June stand-down agreement, military indicators show continued strike readiness. Multiple CENTCOM reports confirm US conducted additional Iran strikes on 30 June; Iranian military maintains active posture amid Strait of Hormuz tanker attacks. Diplomatic framework fractured\u2014Iran's FM Araghchi hardened demands in Baghdad talks, insisting full Iranian control of Hormuz and exclusion of foreign forces. Breakout risk window remains 1-2 weeks. Sources: incidents (CENTCOM, BBC, CBS News, AP News), telegram (Rybar ~355K views).",
+      "region": "Persian Gulf, Strait of Hormuz, Iran",
+      "source": "incidents, telegram, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel expands strikes into southern Syria as Hezbollah tensions escalate",
-      "summary": "IDF confirmed engagement with unidentified hostile forces in southern Syria (34.77\u00b0N, 37.93\u00b0E) and conducted helicopter strikes. Al Jazeera reports new Israeli assault forcing families to flee. Marks escalation beyond Lebanon border into Syrian territory, indicating broader regional proxy expansion parallel to Iran-US strike cycle.",
-      "region": "Southern Syria",
+      "title": "Israel intensifies multi-front operations in Gaza, Lebanon, and southern Syria simultaneously",
+      "summary": "IDF confirmed strikes in southern Syria (34.98\u00b0N, 38.12\u00b0E) forcing civilian evacuation; concurrent Israeli strikes killed 3+ Palestinians including children in Gaza central zone; Lebanon state media reports southern border strikes. Hezbollah condemns new ceasefire arrangement. Marks coordinated escalation across three territorial sectors despite US-Iran pause. Sources: incidents (Al Jazeera, BBC, Reuters, Times of Israel).",
+      "region": "Gaza, Southern Lebanon, Southern Syria",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
+      "category": "asset_movement",
+      "title": "US maintains three carrier strike groups and submarine presence in high-readiness posture",
+      "summary": "USS Dwight D. Eisenhower (Carrier, Red Sea 15.09\u00b0N, 42.40\u00b0E), USS Abraham Lincoln (Carrier, Arabian Sea 21.03\u00b0N, 59.65\u00b0E), and USS Gerald R. Ford (Carrier, Mediterranean 33.98\u00b0N, 30.26\u00b0E) deployed. USS Florida (Submarine, Persian Gulf 26.13\u00b0N, 52.42\u00b0E) positioned for contingency response. Three destroyers (Carney, Mason, Laboon) and amphibious assets (Bataan, Boxer) maintain forward presence. Asset concentration indicates sustained deterrence against Iranian escalation. Sources: assets feed (live-osint confirmed positioning).",
+      "region": "Red Sea, Arabian Sea, Persian Gulf, Mediterranean",
+      "source": "assets",
+      "confidence": "high"
+    },
+    {
+      "severity": "medium",
       "category": "telegram_signal",
-      "title": "Iranian Foreign Minister Abbas Araghchi visits Baghdad to discuss Strait security framework",
-      "summary": "Rybar reports (~322K views) that Iran's FM traveled to Baghdad for negotiations on Persian Gulf security architecture. Discussions revealed Iran's demand that Hormuz Strait return to full Iranian control and regional security structure be rewritten without foreign interference\u2014hardening demand that contradicts current US-Iran negotiations. Signals Iran escalating maximalist position amid military operations.",
+      "title": "Rybar reports Iran's FM demands restructured Persian Gulf security architecture excluding US",
+      "summary": "Rybar broadcast (~355K views, 28 June) covering FM Abbas Araghchi's Baghdad visit detailed Iranian hardline position: Hormuz Strait return to full Iranian control, Persian Gulf security framework rewritten without foreign interference. Signals diplomatic collapse trajectory parallel to kinetic cycle. Indicates Iran weaponizing negotiations amid active military posture. Sources: telegram (Rybar).",
       "region": "Persian Gulf, Iraq",
       "source": "telegram",
       "confidence": "medium"
     },
     {
       "severity": "medium",
-      "category": "sentiment_shift",
-      "title": "US domestic sentiment tilts toward Iran amid judicial/regulatory focus; regional coverage recedes",
-      "summary": "Sentiment analysis shows US positive sentiment at 54% with dominant word clusters on Trump, Supreme Court, and regulatory decisions (\"court,\" \"firing,\" \"fed\"). Iran mentions drop to only 9 occurrences. Indicates US media/public attention pivot away from Middle East conflict toward domestic politics, potentially reducing political pressure on administration to sustain current escalation posture.",
-      "region": "Global",
-      "source": "sentiment",
-      "confidence": "medium"
+      "category": "nuclear",
+      "title": "IAEA inspector access remains contingent on incomplete final deal; breakout window static at 1-2 weeks",
+      "summary": "Iran maintains 60% U-235 enrichment. IAEA confirms inspector access tied to final agreement completion\u2014condition Tehran rejects. Multiple nuclear headlines (IAEA chief, Foundation for Defense of Democracies) underscore inspection dispute escalation. No advancement on breakout timeline reduction. Global threat level static at CRITICAL (9/10). Sources: global_metrics (IAEA headlines, nuclear status tracking).",
+      "region": "Iran",
+      "source": "global_metrics",
+      "confidence": "high"
     }
   ],
-  "analysis_note": "The US-Iran strike cycle has achieved temporary pause, but Iran's nuclear program continues advancing toward breakout while Tehran hardens negotiating demands and expands proxy operations into Syria; diplomatic off-ramps remain closed.",
+  "analysis_note": "US-Iran ceasefire framework fractured within 48 hours; Iran hardened negotiating position on Hormuz/Gulf security while maintaining strike-ready posture and 60% enrichment; Israel escalated multi-theater operations (Gaza/Lebanon/Syria); diplomatic pathway narrowing while kinetic risk remains elevated at CRITICAL threat level.",
   "meta": {
-    "input_tokens": 25580,
+    "input_tokens": 25626,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 709,
-    "cost_usd": 0.0291,
-    "wall_time_s": 11.2,
-    "data_hash": "741273b24f44ed2932d57e7ac3b1f65e49e0ba12288159cd6d7e26aa5e86da93"
+    "output_tokens": 914,
+    "cost_usd": 0.0302,
+    "wall_time_s": 13.5,
+    "data_hash": "683ef8e9df69235fcb21ad5bea15170d06424807793a67fedfbd7bd95ab92799"
   }
 }

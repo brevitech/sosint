@@ -1,42 +1,42 @@
 {
   "us": {
-    "positive": 54,
-    "negative": 43,
-    "neutral": 3,
+    "positive": 55,
+    "negative": 41,
+    "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 77,
+        "count": 68,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 46,
         "sentiment": "neutral"
       },
       {
         "word": "supreme",
-        "count": 50,
+        "count": 41,
         "sentiment": "positive"
       },
       {
-        "word": "court",
-        "count": 50,
+        "word": "lisa",
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "cook",
-        "count": 24,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lisa",
-        "count": 21,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "fire",
-        "count": 19,
+        "count": 17,
         "sentiment": "negative"
       },
       {
         "word": "power",
-        "count": 18,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -45,12 +45,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fed",
-        "count": 10,
+        "word": "save",
+        "count": 11,
+        "sentiment": "positive"
+      },
+      {
+        "word": "act",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "federal",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "america",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -60,32 +70,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "decision",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rules",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "firing",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "save",
-        "count": 8,
-        "sentiment": "positive"
-      },
-      {
-        "word": "act",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -95,23 +80,33 @@
         "sentiment": "neutral"
       },
       {
+        "word": "happened",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "regulators",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "agency",
+        "word": "republican",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "america",
+        "word": "rules",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "independent",
-        "count": 6,
+        "word": "defense",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "calls",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -120,7 +115,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "iran",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "deal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "presidential",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -148,103 +153,33 @@
         "word": "expands",
         "count": 6,
         "sentiment": "positive"
-      },
-      {
-        "word": "scotus",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-06-29T23:59:07.403117+00:00",
-    "nextRefresh": "2026-06-29T23:59:07.403117+00:00",
-    "articlesAnalyzed": 350,
-    "matchedMentions": 161,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-06-30T04:06:17.791188+00:00",
+    "nextRefresh": "2026-06-30T04:06:17.791188+00:00",
+    "articlesAnalyzed": 349,
+    "matchedMentions": 159,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 47,
-    "negative": 43,
-    "neutral": 10,
+    "positive": 46,
+    "negative": 42,
+    "neutral": 12,
     "wordCloud": [
-      {
-        "word": "ram",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "temple",
-        "count": 7,
-        "sentiment": "neutral"
-      },
       {
         "word": "modi",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "siya",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "loota",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "assam",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "murder",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "hargila",
+        "word": "bengal",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "army",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gets",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "praise",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "mann",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "baat",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
+        "word": "bjp",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -254,22 +189,72 @@
         "sentiment": "neutral"
       },
       {
-        "word": "goyal",
+        "word": "banerjee",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ketan",
-        "count": 3,
+        "word": "list",
+        "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "obc",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "murder",
+        "count": 4,
+        "sentiment": "negative"
       },
       {
         "word": "police",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "apple",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "brother",
+        "word": "iphone",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pro",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "assam",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gets",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "exposes",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "trump",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -309,22 +294,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "desh",
+        "word": "emkay",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "sibal",
+        "word": "global",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "financial",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "injured",
+        "count": 2,
+        "sentiment": "negative"
+      },
+      {
+        "word": "fire",
+        "count": 2,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-06-29T23:59:18.118652+00:00",
-    "nextRefresh": "2026-06-29T23:59:18.118652+00:00",
-    "articlesAnalyzed": 467,
-    "matchedMentions": 58,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-06-30T04:06:32.043972+00:00",
+    "nextRefresh": "2026-06-30T04:06:32.043972+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 57,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
