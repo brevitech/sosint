@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-06-30T17:02:45.443394+00:00",
+  "generated_at": "2026-06-30T23:06:40.626348+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "US-Iran reciprocal strikes continue; FM Araghchi demands full Iranian Hormuz control",
-      "summary": "Despite tentative ceasefire, both US and Iran conducted additional strikes on 30 June. CENTCOM confirms strikes on multiple Iranian targets; Iran targeted commercial shipping near Strait of Hormuz. Iranian FM Araghchi has hardened negotiating demands in Baghdad talks, insisting full Iranian control over Hormuz and exclusion of foreign military presence. Nuclear breakout window remains 1-2 weeks. Sources: incidents (CENTCOM, PBS, NBC, BBC, AP News, CBS News, NYT), global_metrics (threat level 9/10 CRITICAL).",
+      "title": "Iran threatens complete halt to negotiations after reciprocal strikes continue",
+      "summary": "On 30 June, both US and Iran conducted additional strikes despite ceasefire agreement; Iran attacked commercial shipping near Strait of Hormuz while CENTCOM struck multiple Iranian targets. Iranian FM Araghchi has threatened complete halt to Baghdad talks, hardening demands for full Iranian control over Hormuz and exclusion of foreign military presence. Nuclear breakout window remains 1-2 weeks. Sources: incidents (CENTCOM, PBS, NBC, BBC, AP, CBS), global_metrics (threat level 9/10 CRITICAL).",
       "region": "Persian Gulf, Strait of Hormuz, Iran",
       "source": "incidents, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "cyber",
-      "title": "Iran-linked group claims hack of FBI drone systems; World Cup threat issued",
-      "summary": "Iran-linked cyber group has publicly claimed successful infiltration of US FBI drone command systems and issued threat to target World Cup infrastructure. Represents escalation of Iranian cyber operations during active kinetic conflict phase. Comes amid elevated cyber threat landscape tied to Middle East war. Sources: global_metrics (cyber headlines), media reports (France 24, CBS News, CSIS).",
-      "region": "Global",
-      "source": "global_metrics",
-      "confidence": "medium"
+      "category": "nuclear",
+      "title": "US conditions Iranian fund unfreezing on nuclear file progress despite agreed talks framework",
+      "summary": "US State Department reaffirmed it will not unfreeze frozen Iranian assets unless concrete progress materializes on nuclear enrichment restrictions, contradicting earlier agreement that nuclear issues would not be discussed at this negotiation phase. Iran currently maintaining 60% U-235 enrichment with estimated 1-2 week breakout window. Represents significant shift in US negotiating position mid-talks. Sources: telegram (ME Spectator, 29 June), global_metrics (nuclear headlines).",
+      "region": "Global, Iran",
+      "source": "telegram, global_metrics",
+      "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel sustains multi-front operations across Gaza, Lebanon, Syria despite US-Iran pause",
-      "summary": "IDF confirmed coordinated airstrikes on 30 June across three sectors: southern Syria (civilian evacuations), Gaza central zone (8+ killed including 2 children), and southern Lebanon border. Hezbollah publicly condemned new ceasefire arrangement. Coordinated multi-sector strikes indicate sustained Israeli operations independent of US-Iran negotiations. Sources: incidents (Al Jazeera, BBC, Reuters, NBC News, Religion News Service, Times of Israel).",
+      "title": "Israel expands multi-sector operations across Gaza, Lebanon, Syria despite ceasefire",
+      "summary": "IDF conducted coordinated airstrikes on 30 June across southern Syria (civilian evacuations reported), Gaza central zone (8+ killed including 2 children per NBC), and southern Lebanon border (large explosion reported by Al Jazeera). Operations continue independent of US-Iran ceasefire negotiations. Hezbollah publicly condemned new ceasefire arrangement. Sources: incidents (Al Jazeera, BBC, Reuters, NBC, Religion News Service, Times of Israel).",
       "region": "Gaza, Southern Lebanon, Southern Syria",
       "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "nuclear",
-      "title": "US conditions fund unfreezing on nuclear progress despite agreed talks framework",
-      "summary": "US stated it will not unfreeze any Iranian funds unless progress materializes on nuclear file, contradicting earlier agreement that nuclear matters would not be discussed at current talks stage. Creates asymmetric negotiating position and signals US intent to link non-nuclear economic relief to nuclear concessions. Heightens risk of talks collapse. Sources: telegram (ME Spectator ~48K views, 29 June), global_metrics (nuclear headlines).",
-      "region": "Iran",
-      "source": "telegram, global_metrics",
-      "confidence": "high"
+      "category": "telegram_signal",
+      "title": "Ukrainian forces conduct major drone strike on Russian territory; 419 drones intercepted across 21 regions",
+      "summary": "Ukrainian formations executed massed attack on Russian territory overnight 29-30 June, deploying 419+ unmanned aerial vehicles across 21 regions. Moscow region targeted with significant drone penetration; partial drone strike reported on private residence in Egorievsk killing six-month-old child en route to hospital; Dubna space communications facility reportedly struck. Represents sustained Ukrainian deep-strike capability despite active conflict. Sources: telegram (Rybar, 30 June, ~146K views).",
+      "region": "Eastern Ukraine, Russia (Moscow, Egorievsk, Dubna)",
+      "source": "telegram",
+      "confidence": "medium"
     },
     {
       "severity": "medium",
-      "category": "asset_movement",
-      "title": "US maintains forward naval presence: four carriers, three destroyers, submarines deployed",
-      "summary": "US military asset positioning confirmed across theater: USS Eisenhower, Abraham Lincoln, Gerald R. Ford, Theodore Roosevelt (carriers); USS Carney, Mason, Laboon (destroyers); USS Florida (submarine in Persian Gulf); USS Bataan, Boxer (amphibious). Deployment maintains strategic pressure during negotiations while positioning for rapid escalation if talks collapse. Sources: assets (live-osint analysis of 54 articles).",
-      "region": "Red Sea, Arabian Sea, Mediterranean, Pacific, Persian Gulf",
-      "source": "assets",
+      "category": "sentiment_shift",
+      "title": "US domestic sentiment shifts sharply toward Trump amid Supreme Court rulings on citizenship",
+      "summary": "US sentiment analysis shows positive sentiment rising to 58% with dramatic surge in Trump-related keywords (54 mentions) and Supreme Court/birthright citizenship terms (37 mentions each) in past 24 hours. Represents significant domestic political realignment amid ongoing Iran conflict. Term 'Trump' now dominant discourse driver in US OSINT feeds, outpacing Iran/military keywords. Sources: sentiment (VADER analysis, top words analysis).",
+      "region": "Global (US domestic)",
+      "source": "sentiment",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran ceasefire remains fragile at day-two breakpoint with reciprocal strikes resuming; nuclear breakout window 1-2 weeks; Israel pursuing independent multi-front operations; cyber escalation and asymmetric negotiating tactics risk rapid collapse of diplomatic efforts.",
+  "analysis_note": "Ceasefire framework collapsing as reciprocal US-Iran strikes resume, nuclear negotiations stall over fund-release conditionality, Israeli operations expand across three fronts, Ukrainian deep-strike capability sustains high tempo, and US domestic political realignment accelerates amid crisis.",
   "meta": {
-    "input_tokens": 23076,
+    "input_tokens": 23074,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 811,
-    "cost_usd": 0.0271,
-    "wall_time_s": 13.6,
-    "data_hash": "f774fbf55d7205f8ec88a637450cdf4b58f8d9c92cbc20359e89bb5812ac1135"
+    "output_tokens": 855,
+    "cost_usd": 0.0273,
+    "wall_time_s": 14.0,
+    "data_hash": "3bd3b66cb46efdb00fe149090b47f17325c2ea864c24c1c1838892fc1dc5dcab"
   }
 }
