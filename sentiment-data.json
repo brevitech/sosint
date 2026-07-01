@@ -1,37 +1,47 @@
 {
   "us": {
     "positive": 59,
-    "negative": 33,
-    "neutral": 8,
+    "negative": 32,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 71,
+        "count": 68,
         "sentiment": "neutral"
       },
       {
         "word": "court",
-        "count": 17,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "supreme",
-        "count": 14,
+        "count": 17,
         "sentiment": "positive"
       },
       {
-        "word": "crypto",
-        "count": 10,
+        "word": "power",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "made",
-        "count": 8,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "crypto",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -45,9 +55,19 @@
         "sentiment": "negative"
       },
       {
-        "word": "earnings",
+        "word": "disclosure",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "strike",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "swift",
+        "count": 5,
+        "sentiment": "positive"
       },
       {
         "word": "carroll",
@@ -65,11 +85,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "force",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "student",
         "count": 5,
         "sentiment": "neutral"
@@ -80,23 +95,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "disclosure",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "north",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ukraine",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "madison",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "square",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "garden",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -108,11 +128,6 @@
         "word": "block",
         "count": 4,
         "sentiment": "negative"
-      },
-      {
-        "word": "office",
-        "count": 4,
-        "sentiment": "neutral"
       },
       {
         "word": "dealt",
@@ -130,22 +145,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "flight",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "air",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ukraine",
+        "word": "ruling",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -156,17 +156,17 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-01T19:46:44.517416+00:00",
-    "nextRefresh": "2026-07-01T19:46:44.517416+00:00",
-    "articlesAnalyzed": 346,
-    "matchedMentions": 137,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-07-01T21:23:23.517690+00:00",
+    "nextRefresh": "2026-07-01T21:23:23.517690+00:00",
+    "articlesAnalyzed": 349,
+    "matchedMentions": 148,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 31,
-    "neutral": 23,
+    "positive": 44,
+    "negative": 32,
+    "neutral": 24,
     "wordCloud": [
       {
         "word": "iran",
@@ -181,16 +181,6 @@
       {
         "word": "khamenei",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dialogue",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -214,17 +204,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "eminent",
+        "word": "bjp",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "sharif",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "urge",
+        "word": "ram",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -234,12 +219,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "seth",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ahir",
+        "word": "unveils",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -256,6 +241,21 @@
       {
         "word": "maharashtra",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dialogue",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kejriwal",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -284,17 +284,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "crore",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "unveils",
+        "word": "dhiraj",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "ram",
+        "word": "army",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -304,27 +309,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bilateral",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "claim",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "govt",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-01T19:46:59.233526+00:00",
-    "nextRefresh": "2026-07-01T19:46:59.233526+00:00",
+    "generatedAt": "2026-07-01T21:23:36.744742+00:00",
+    "nextRefresh": "2026-07-01T21:23:36.744742+00:00",
     "articlesAnalyzed": 463,
-    "matchedMentions": 52,
-    "uniquePersonalities": 36,
+    "matchedMentions": 50,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
