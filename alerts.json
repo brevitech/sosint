@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-01T14:25:10.441408+00:00",
+  "generated_at": "2026-07-01T19:47:13.604216+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Israel threatens third strike on Iran amid continued Gaza-Lebanon escalation",
-      "summary": "Israeli Defense Minister Katz stated IDF is prepared for independent action against Iran and threatened a potential third strike. Simultaneous Israeli airstrikes in Gaza killed 6 including 2 children and an Al Jazeera cameraman, while IDF engaged in helicopter strikes in southern Syria following reported fire-upon incidents. Threat level remains 9/10 (CRITICAL). Sources: incidents (multiple outlets including Middle East Eye, Al Jazeera, Times of Israel), global_metrics (threat level).",
-      "region": "Israel, Iran, Gaza, Syria",
+      "title": "Trump delays Iran strike; ceasefire talks emerge amid escalation",
+      "summary": "US President Trump announced a delay to planned military action against Iran while ceasefire negotiations emerge in the region. Iran launched missiles at Israel during fragile ceasefire period (first such bombardment since April), with damage reported near Beit Shemesh. Threat level remains at 9/10 (CRITICAL). Sources: incidents (multiple outlets including WKYT, KATU, Reuters), global_metrics (threat level).",
+      "region": "Iran, Israel, Global",
       "source": "incidents, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Iran escalates energy infrastructure attacks on Gulf states post-Israeli strike",
-      "summary": "Iran targeted Gulf countries' energy infrastructure following Israeli strike on Iranian gas field. Continued US-Iran reciprocal strikes in Persian Gulf and Strait of Hormuz with Iran attacking commercial shipping and US conducting counter-strikes on missile/drone sites. Brent crude at $71.92. Sources: incidents (ABC News, CENTCOM, NBC News), global_metrics (oil price trend).",
-      "region": "Persian Gulf, Strait of Hormuz, Iran",
+      "title": "Iran strikes Gulf energy infrastructure; US retaliates in Persian Gulf",
+      "summary": "Iran intensified attacks on Gulf energy sites following Israeli strikes on Iranian gas field. US conducting counter-strikes on Iranian missile and drone sites in Persian Gulf and Strait of Hormuz. Multiple Israeli drone strikes in Gaza killed at least 8 Palestinians including 2 children. Brent crude holding at $71.28. Sources: incidents (Spectrum News, Reuters, NBC News), global_metrics (oil price).",
+      "region": "Persian Gulf, Gaza, Israel",
       "source": "incidents, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "nuclear",
-      "title": "US reverses nuclear precondition despite prior agreement, Iran rejects proposal",
-      "summary": "US State Department conditioned unfreezing Iranian assets on nuclear file progress, contradicting explicit agreement that nuclear issues would not be discussed in current negotiation phase. Iran rejected the shift. Enrichment remains at 60% U-235 with 1-2 week breakout window estimated. Parallel talks underway in Doha. Sources: global_metrics (nuclear headlines, breakout timeline), telegram (ME Spectator), incidents (RFE/RL).",
+      "title": "Iran nuclear talks stalled over US asset-freeze condition reversal",
+      "summary": "US State Department conditioned unfreezing Iranian assets on nuclear file progress, contradicting explicit prior agreement that nuclear issues would not be discussed in current negotiation phase. Iran rejected the shift. Enrichment remains at 60% U-235 with 1-2 week breakout window estimated. UN nuclear chief confirming inspectors will visit post-deal. Sources: global_metrics (nuclear headlines, breakout timeline), telegram (ME Spectator).",
       "region": "Iran, Global",
-      "source": "global_metrics, telegram, incidents",
+      "source": "global_metrics, telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Ship runs aground in Strait of Hormuz amid escalating maritime disruption",
-      "summary": "Vessel ran aground in strategically critical Strait of Hormuz, reported by Iranian state TV. Incident compounds ongoing cargo vessel attacks (US official confirmed Iran behind attack on cargo ship near Oman) and heightens risk of regional shipping disruption amid US-Iran strikes. Location: 26.65\u00b0N, 56.14\u00b0E. Sources: incidents (ABC10, CNBC, US official statements).",
-      "region": "Strait of Hormuz",
-      "source": "incidents",
+      "title": "Israeli strikes continue in Lebanon despite ceasefire; Hezbollah engaged",
+      "summary": "Israeli explosion reported in southern Lebanon despite April ceasefire agreement, with Israeli retaliatory strikes confirmed against Hezbollah targets in Beirut suburbs (NPR). Houthis announced ban on Israeli vessels in Red Sea and escalated maritime attacks. Hezbollah status remains 'Active' per global metrics. Sources: incidents (NPR, The New Arab, Long War Journal), global_metrics (proxy status).",
+      "region": "Lebanon, Red Sea, Israel",
+      "source": "incidents, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "medium",
-      "category": "cyber",
-      "title": "Iran-attributed group claims expanded cyber attacks targeting critical infrastructure",
-      "summary": "Iran-linked cyber actors publicly escalated operations, claiming compromise of FBI unmanned aerial systems and issuing threats against World Cup infrastructure. Concurrent physical and cyber strike campaign demonstrates coordinated escalation strategy. Israeli cyber chief tracking related Iranian cyber threats. Sources: global_metrics (cyber headlines), incidents, telegram monitoring.",
+      "category": "telegram_signal",
+      "title": "USS Gerald R. Ford operational strain raises US carrier capability questions",
+      "summary": "ME Spectator Telegram post (~45.6K views, flagged 'nuclear' and 'missile' keywords) critiques US power projection, highlighting USS Gerald R. Ford returning from campaigns with fires and system failures. Analysis underscores cracks in American military-technological dominance narrative amid prolonged Middle East operations. High-engagement OSINT assessment of strategic posture shift. Sources: telegram (ME Spectator, 2026-06-30).",
       "region": "Global",
-      "source": "global_metrics, telegram",
+      "source": "telegram",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran direct military conflict has fractured ceasefire framework with reciprocal strikes accelerating; nuclear negotiations have collapsed over US precondition reversal; maritime chokepoints and Gulf energy infrastructure face active threat; regional proxy systems (Houthis, Lebanese actors, Iraqi militias) remain elevated; breakout risk window at 1-2 weeks.",
+  "analysis_note": "US-Iran escalation cycle continues with mutual strikes, diplomatic breakdown on nuclear talks, and Israeli operations expanding across Gaza, Lebanon, and Syria while Trump administration signals potential negotiation window amid critical threat level (9/10).",
   "meta": {
-    "input_tokens": 23928,
+    "input_tokens": 22173,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 784,
-    "cost_usd": 0.0278,
-    "wall_time_s": 12.0,
-    "data_hash": "82833e57f420a5e6edcdcab149acc9f69e92dd70ce7356a0312fb3c2f5dcc4e0"
+    "output_tokens": 767,
+    "cost_usd": 0.026,
+    "wall_time_s": 11.9,
+    "data_hash": "ac7a7bf3d981ef4c6deaa54872cc9b1d8c02631afee43079dc62130d9d23489d"
   }
 }
