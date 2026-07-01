@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-30T23:06:40.626348+00:00",
+  "generated_at": "2026-07-01T07:12:54.917019+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Iran threatens complete halt to negotiations after reciprocal strikes continue",
-      "summary": "On 30 June, both US and Iran conducted additional strikes despite ceasefire agreement; Iran attacked commercial shipping near Strait of Hormuz while CENTCOM struck multiple Iranian targets. Iranian FM Araghchi has threatened complete halt to Baghdad talks, hardening demands for full Iranian control over Hormuz and exclusion of foreign military presence. Nuclear breakout window remains 1-2 weeks. Sources: incidents (CENTCOM, PBS, NBC, BBC, AP, CBS), global_metrics (threat level 9/10 CRITICAL).",
+      "title": "Iran rejects further negotiations as reciprocal strikes continue unabated",
+      "summary": "Iran's chief negotiator announced talks have ceased following continued US-Iran military strikes around Persian Gulf and Strait of Hormuz on June 30-July 1. Both sides conducted airstrikes despite ceasefire framework; Iran attacked commercial shipping while US struck Iranian missile/drone sites. Brent crude spiked to $72.99. Sources: incidents (CENTCOM, BBC, NYT, NBC, CBS), global_metrics (threat level 9/10, oil prices).",
       "region": "Persian Gulf, Strait of Hormuz, Iran",
       "source": "incidents, global_metrics",
       "confidence": "high"
@@ -15,48 +15,48 @@
     {
       "severity": "high",
       "category": "nuclear",
-      "title": "US conditions Iranian fund unfreezing on nuclear file progress despite agreed talks framework",
-      "summary": "US State Department reaffirmed it will not unfreeze frozen Iranian assets unless concrete progress materializes on nuclear enrichment restrictions, contradicting earlier agreement that nuclear issues would not be discussed at this negotiation phase. Iran currently maintaining 60% U-235 enrichment with estimated 1-2 week breakout window. Represents significant shift in US negotiating position mid-talks. Sources: telegram (ME Spectator, 29 June), global_metrics (nuclear headlines).",
-      "region": "Global, Iran",
-      "source": "telegram, global_metrics",
+      "title": "Iran maintains 60% uranium enrichment amid nuclear file dispute in talks",
+      "summary": "Iran continues operating at 60% U-235 enrichment with 1-2 week estimated nuclear breakout window. US State Department conditioned unfreezing of Iranian assets on nuclear progress, contradicting earlier agreement that nuclear issues would not be discussed at this phase. Iran rejected the precondition shift. Sources: global_metrics (nuclear headlines, breakout timeline), telegram (ME Spectator).",
+      "region": "Iran, Global",
+      "source": "global_metrics, telegram",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israel expands multi-sector operations across Gaza, Lebanon, Syria despite ceasefire",
-      "summary": "IDF conducted coordinated airstrikes on 30 June across southern Syria (civilian evacuations reported), Gaza central zone (8+ killed including 2 children per NBC), and southern Lebanon border (large explosion reported by Al Jazeera). Operations continue independent of US-Iran ceasefire negotiations. Hezbollah publicly condemned new ceasefire arrangement. Sources: incidents (Al Jazeera, BBC, Reuters, NBC, Religion News Service, Times of Israel).",
-      "region": "Gaza, Southern Lebanon, Southern Syria",
-      "source": "incidents",
+      "title": "Houthis escalate Red Sea operations; announce ban on Israeli vessels",
+      "summary": "Houthis (Ansar Allah) announced complete ban on Israeli vessels transiting Red Sea and claimed multiple attacks on Israel and shipping. Proxy force status elevated to 'Elevated - Multiple Recent Attacks.' Al Jazeera and Long War Journal report coordinated naval interdiction campaign. Threat compounds existing Strait of Hormuz closure risk. Sources: incidents (Long War Journal, Council on Foreign Relations), global_metrics (proxy status).",
+      "region": "Red Sea, Arabian Sea",
+      "source": "incidents, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "telegram_signal",
-      "title": "Ukrainian forces conduct major drone strike on Russian territory; 419 drones intercepted across 21 regions",
-      "summary": "Ukrainian formations executed massed attack on Russian territory overnight 29-30 June, deploying 419+ unmanned aerial vehicles across 21 regions. Moscow region targeted with significant drone penetration; partial drone strike reported on private residence in Egorievsk killing six-month-old child en route to hospital; Dubna space communications facility reportedly struck. Represents sustained Ukrainian deep-strike capability despite active conflict. Sources: telegram (Rybar, 30 June, ~146K views).",
-      "region": "Eastern Ukraine, Russia (Moscow, Egorievsk, Dubna)",
-      "source": "telegram",
+      "category": "cyber",
+      "title": "Iran-linked cyber group claims FBI drone hack; threatens World Cup targets",
+      "summary": "Iran-attributed cyber group publicly claimed compromise of FBI unmanned aerial systems and issued threats targeting World Cup infrastructure, representing escalation of cyber operations concurrent with physical strikes. Israeli cyber chief reported surge in Iranian cyberattacks throughout 2026. Multiple attackers claim California water system hack in retaliation for US strikes on Iran. Sources: global_metrics (cyber headlines), incidents (Reuters).",
+      "region": "Global, Iran",
+      "source": "global_metrics, incidents",
       "confidence": "medium"
     },
     {
       "severity": "medium",
       "category": "sentiment_shift",
-      "title": "US domestic sentiment shifts sharply toward Trump amid Supreme Court rulings on citizenship",
-      "summary": "US sentiment analysis shows positive sentiment rising to 58% with dramatic surge in Trump-related keywords (54 mentions) and Supreme Court/birthright citizenship terms (37 mentions each) in past 24 hours. Represents significant domestic political realignment amid ongoing Iran conflict. Term 'Trump' now dominant discourse driver in US OSINT feeds, outpacing Iran/military keywords. Sources: sentiment (VADER analysis, top words analysis).",
-      "region": "Global (US domestic)",
-      "source": "sentiment",
+      "title": "US domestic sentiment on Iran war shows asymmetric partisan divide",
+      "summary": "Polling data indicates most Vermonters (and implied broader US segments) oppose war with Iran and disapprove of Trump administration's escalatory posture. Meanwhile US news sentiment remains 56% positive overall but driven by domestic political coverage (Trump court cases, congressional battles) rather than foreign conflict support. Reflects potential erosion of hawkish consensus. Sources: sentiment (US: positive 56%, negative 36%), incidents (WCAX polling report).",
+      "region": "United States",
+      "source": "sentiment, incidents",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "Ceasefire framework collapsing as reciprocal US-Iran strikes resume, nuclear negotiations stall over fund-release conditionality, Israeli operations expand across three fronts, Ukrainian deep-strike capability sustains high tempo, and US domestic political realignment accelerates amid crisis.",
+  "analysis_note": "Ceasefire framework has collapsed as both US and Iran resume active strikes; nuclear breakout window narrows to 1-2 weeks while proxy escalation (Houthis, Iranian cyber) widens theater; threat level remains critical (9/10) with oil markets pricing instability.",
   "meta": {
-    "input_tokens": 23074,
+    "input_tokens": 23082,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 855,
-    "cost_usd": 0.0273,
-    "wall_time_s": 14.0,
-    "data_hash": "3bd3b66cb46efdb00fe149090b47f17325c2ea864c24c1c1838892fc1dc5dcab"
+    "output_tokens": 781,
+    "cost_usd": 0.027,
+    "wall_time_s": 12.5,
+    "data_hash": "4623aa3cc858612b9a387a6a3e3aaed03610c2a0b7adfda80258f067d4777b3d"
   }
 }
