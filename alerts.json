@@ -1,31 +1,22 @@
 {
-  "generated_at": "2026-07-02T02:47:51.030665+00:00",
+  "generated_at": "2026-07-02T09:58:52.137368+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "US conducts additional strikes on Iran missile and drone sites over Hormuz",
-      "summary": "US military launched fresh airstrikes against Iranian missile and drone facilities in response to Iranian attack on commercial vessel in Persian Gulf. Multiple confirmed strikes reported by CENTCOM across Iranian positions near Strait of Hormuz (lat 31.98, lon 52.77). Threat level remains at 9/10 (CRITICAL). Oil prices fluctuating between $70-71. Sources: incidents (CENTCOM, NBC News, New York Times), global_metrics (threat level).",
+      "title": "Iran threatens complete halt to talks after trading strikes with US over Hormuz",
+      "summary": "Iran warned of a \"complete halt\" to nuclear negotiations following reciprocal strikes with US forces in the Strait of Hormuz region (lat 31.97\u201332.09, lon 52.79\u201353.1). Multiple CENTCOM-confirmed US airstrikes targeted Iranian missile and drone facilities in response to Iranian attack on commercial vessel. Threat level remains at 9/10 (CRITICAL); Brent crude at $70.61. Sources: incidents (CENTCOM, NBC News, CBS News, New York Times), global_metrics (threat level).",
       "region": "Strait of Hormuz, Persian Gulf",
       "source": "incidents, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
-      "category": "incident",
-      "title": "Gaza strikes kill at least 8 Palestinians including 2 children amid fragile ceasefire",
-      "summary": "Israeli drone and artillery strikes in Gaza killed minimum 8 Palestinians, including 2 children and Al Jazeera cameraman, despite April ceasefire agreement. Multiple incidents reported across central and southern Gaza (lat 31.23-31.69, lon 34.21-34.73). Follows pattern of ceasefire violations documented in incidents feed. Sources: incidents (PBS, NBC News, Reuters, Al Jazeera, Religion News Service).",
-      "region": "Gaza",
-      "source": "incidents",
-      "confidence": "high"
-    },
-    {
-      "severity": "high",
       "category": "nuclear",
-      "title": "US reverses prior agreement, conditions Iranian asset freeze on nuclear progress",
-      "summary": "US State Department announced unfreezing of Iranian assets is now contingent on nuclear file advancement, contradicting explicit prior accord that nuclear issues would not be negotiated in current phase. Iran rejected shift and threatened to halt talks. Enrichment remains at 60% U-235 with 1-2 week breakout window. Sources: telegram (ME Spectator, 54.1K views, nuclear flag), global_metrics (nuclear headlines, breakout timeline).",
+      "title": "US reverses agreement; now conditions Iranian asset freeze on nuclear progress",
+      "summary": "US State Department announced unfreezing of Iranian assets contingent on nuclear advancement, contradicting explicit prior accord that nuclear issues would not be negotiated in current phase. Iran rejected the shift. Enrichment remains at 60% U-235 with 1\u20132 week breakout window. IAEA access restrictions tightening following recent strikes. Sources: telegram (ME Spectator, ~55K views, nuclear flag), global_metrics (nuclear headlines, IAEA restrictions).",
       "region": "Iran, Global",
       "source": "telegram, global_metrics",
       "confidence": "high"
@@ -33,30 +24,39 @@
     {
       "severity": "high",
       "category": "incident",
-      "title": "Houthis escalate Red Sea campaign; announce ban on Israeli vessels",
-      "summary": "Houthis formally announced sweeping ban on Israeli shipping in Red Sea and confirmed multiple recent attacks on commercial traffic. Positions coordinated with Iranian proxy escalation in Persian Gulf. Four separate incident reports document Houthi naval threats and attacks. USS Eisenhower, USS Bataan, and destroyers USS Carney, Mason, Laboon deployed to Red Sea in response. Sources: incidents (Long War Journal, Reuters, Seatrade, Asharq Al-Awsat), assets (three destroyers Red Sea-positioned).",
-      "region": "Red Sea, Yemen",
-      "source": "incidents, assets",
+      "title": "Israeli strikes in Gaza kill 6 Palestinians including cameraman; ceasefire violations continue",
+      "summary": "Israeli drone and artillery strikes killed at least 6 Palestinians in Gaza, including Al Jazeera cameraman and 2 children, amid fragile April ceasefire. Multiple incidents reported across central Gaza (lat 31.37\u201331.67, lon 34.19\u201334.64). Documented pattern of ongoing ceasefire breaches. Sources: incidents (PBS, Boston Herald, Religion News Service, Al Jazeera).",
+      "region": "Gaza",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
+      "category": "asset_movement",
+      "title": "US expands naval posture; three destroyers, two amphibious ships positioned in Red Sea",
+      "summary": "USS Carney, USS Mason, and USS Laboon (destroyers) plus USS Bataan and USS Eisenhower (amphibious/carrier) confirmed deployed in Red Sea (lat ~15.3\u201315.8, lon ~41.5\u201341.8) alongside ongoing Houthi escalation. Asset positioning supports Red Sea security amid Iranian proxy activity. Multiple carriers (Abraham Lincoln, Gerald R. Ford) positioned across Arabian Sea and Mediterranean. Sources: assets (live-osint), incidents (naval category reports).",
+      "region": "Red Sea, Arabian Sea, Mediterranean",
+      "source": "assets, incidents",
+      "confidence": "medium"
+    },
+    {
+      "severity": "high",
       "category": "incident",
-      "title": "Drone targets US Embassy Baghdad Green Zone; Iraqi militias escalate",
-      "summary": "Drone attack directed at US Embassy compound in Baghdad Green Zone with unclear impact. Militia personnel attempted interception with small arms fire. Reflects elevated Iraqi Shiite Militia activity status (elevated\u2014base strikes detected per global_metrics). Part of broader proxy escalation tied to US-Iran trading strikes. Sources: telegram (ME Spectator, 51.4K views, drone flag), global_metrics (proxy status elevated).",
-      "region": "Iraq, Baghdad",
+      "title": "Drone targets US Embassy Green Zone Baghdad; Iraqi Shiite militia escalation suspected",
+      "summary": "Drone attack on US Embassy in Baghdad Green Zone reported; attempt made to shoot down with gunfire; impact status unclear. Attributed to Iranian-aligned Iraqi Shiite Militia escalation as proxy activity elevated to \"Active\" status. Incident occurs amid broader US-Iran strike exchange and rising threat indicators. Sources: telegram (ME Spectator, ~54.7K views, drone flag), global_metrics (Iraqi PMF status: Elevated).",
+      "region": "Baghdad, Iraq",
       "source": "telegram, global_metrics",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran direct military exchange escalating across multiple domains (air, naval, proxy) while nuclear talks stalled over asset-freeze reversal; threat level critical; Israel-Gaza ceasefire visibly eroding; Houthis and Iraqi militias amplifying regional destabilization.",
+  "analysis_note": "US-Iran direct strikes over Hormuz have escalated to critical intensity (threat 9/10), with Iran threatening to halt nuclear talks and US reversing asset-freeze agreements\u2014creating dual military-diplomatic crisis while proxy forces (Iraqi militias, Houthis) activate simultaneously and Israeli-Palestinian ceasefire fractures under continued strikes.",
   "meta": {
-    "input_tokens": 20641,
+    "input_tokens": 20849,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 821,
-    "cost_usd": 0.0247,
-    "wall_time_s": 12.0,
-    "data_hash": "f5440c22fbb77bd888f4fd4105bf678af3eab6cad0678f92e1f8c757e5b0b8fc"
+    "output_tokens": 869,
+    "cost_usd": 0.0252,
+    "wall_time_s": 13.0,
+    "data_hash": "eaa9f7865c49fee00636de38e3913a59236c04cffa5da2e5d8da052125eebeeb"
   }
 }
