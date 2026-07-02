@@ -1,17 +1,27 @@
 {
   "us": {
-    "positive": 55,
-    "negative": 40,
+    "positive": 58,
+    "negative": 37,
     "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 53,
+        "count": 49,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 9,
+        "word": "wedding",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "swift",
+        "count": 11,
+        "sentiment": "positive"
+      },
+      {
+        "word": "america",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -20,7 +30,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "america",
+        "word": "florida",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "taylor",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -30,171 +50,146 @@
         "sentiment": "neutral"
       },
       {
-        "word": "wedding",
+        "word": "senate",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rules",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "taylor",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "morgan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "supreme",
-        "count": 6,
+        "word": "endorses",
+        "count": 7,
         "sentiment": "positive"
+      },
+      {
+        "word": "progressive",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "michigan",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "race",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "national",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "voting",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "guard",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kelce",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrat",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "closely",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "watched",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "seat",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tells",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "woods",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "travis",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "president",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "swift",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "agenda",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mail-in",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "voting",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "state",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "friendship",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "bracelets",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rings",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "timeline",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "russian",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "view",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "speech",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "happened",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "anniversary",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "national",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "setback",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mark",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-02T15:11:04.874307+00:00",
-    "nextRefresh": "2026-07-02T15:11:04.874307+00:00",
-    "articlesAnalyzed": 345,
-    "matchedMentions": 141,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-07-02T17:41:48.672139+00:00",
+    "nextRefresh": "2026-07-02T17:41:48.672139+00:00",
+    "articlesAnalyzed": 347,
+    "matchedMentions": 154,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 32,
-    "negative": 47,
-    "neutral": 21,
+    "positive": 31,
+    "negative": 39,
+    "neutral": 30,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "india",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "puri",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "global",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "siya",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "takaichi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "prices",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -209,12 +204,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "test",
+        "word": "oil",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "sister",
+        "word": "minister",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -224,12 +219,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "puri",
+        "word": "seeks",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "claims",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "prices",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -269,62 +274,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "thakur",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "goyal",
+        "word": "saransh",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jain",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "test",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "murder",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "japan",
+        "word": "case",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "sanae",
+        "word": "organisational",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "younger",
+        "word": "chopra",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "fuel",
+        "word": "gender",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "down",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minister",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "alleged",
+        "word": "roles",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-02T15:11:17.746418+00:00",
-    "nextRefresh": "2026-07-02T15:11:17.746418+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 66,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-07-02T17:42:02.446889+00:00",
+    "nextRefresh": "2026-07-02T17:42:02.446889+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 71,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
