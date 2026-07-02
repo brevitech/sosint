@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-07-01T19:47:13.604216+00:00",
+  "generated_at": "2026-07-02T02:47:51.030665+00:00",
   "model": "\u2245 Opus 4.7",
   "effort": "xhigh",
   "alerts": [
     {
       "severity": "critical",
       "category": "incident",
-      "title": "Trump delays Iran strike; ceasefire talks emerge amid escalation",
-      "summary": "US President Trump announced a delay to planned military action against Iran while ceasefire negotiations emerge in the region. Iran launched missiles at Israel during fragile ceasefire period (first such bombardment since April), with damage reported near Beit Shemesh. Threat level remains at 9/10 (CRITICAL). Sources: incidents (multiple outlets including WKYT, KATU, Reuters), global_metrics (threat level).",
-      "region": "Iran, Israel, Global",
+      "title": "US conducts additional strikes on Iran missile and drone sites over Hormuz",
+      "summary": "US military launched fresh airstrikes against Iranian missile and drone facilities in response to Iranian attack on commercial vessel in Persian Gulf. Multiple confirmed strikes reported by CENTCOM across Iranian positions near Strait of Hormuz (lat 31.98, lon 52.77). Threat level remains at 9/10 (CRITICAL). Oil prices fluctuating between $70-71. Sources: incidents (CENTCOM, NBC News, New York Times), global_metrics (threat level).",
+      "region": "Strait of Hormuz, Persian Gulf",
       "source": "incidents, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Iran strikes Gulf energy infrastructure; US retaliates in Persian Gulf",
-      "summary": "Iran intensified attacks on Gulf energy sites following Israeli strikes on Iranian gas field. US conducting counter-strikes on Iranian missile and drone sites in Persian Gulf and Strait of Hormuz. Multiple Israeli drone strikes in Gaza killed at least 8 Palestinians including 2 children. Brent crude holding at $71.28. Sources: incidents (Spectrum News, Reuters, NBC News), global_metrics (oil price).",
-      "region": "Persian Gulf, Gaza, Israel",
-      "source": "incidents, global_metrics",
+      "title": "Gaza strikes kill at least 8 Palestinians including 2 children amid fragile ceasefire",
+      "summary": "Israeli drone and artillery strikes in Gaza killed minimum 8 Palestinians, including 2 children and Al Jazeera cameraman, despite April ceasefire agreement. Multiple incidents reported across central and southern Gaza (lat 31.23-31.69, lon 34.21-34.73). Follows pattern of ceasefire violations documented in incidents feed. Sources: incidents (PBS, NBC News, Reuters, Al Jazeera, Religion News Service).",
+      "region": "Gaza",
+      "source": "incidents",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "nuclear",
-      "title": "Iran nuclear talks stalled over US asset-freeze condition reversal",
-      "summary": "US State Department conditioned unfreezing Iranian assets on nuclear file progress, contradicting explicit prior agreement that nuclear issues would not be discussed in current negotiation phase. Iran rejected the shift. Enrichment remains at 60% U-235 with 1-2 week breakout window estimated. UN nuclear chief confirming inspectors will visit post-deal. Sources: global_metrics (nuclear headlines, breakout timeline), telegram (ME Spectator).",
+      "title": "US reverses prior agreement, conditions Iranian asset freeze on nuclear progress",
+      "summary": "US State Department announced unfreezing of Iranian assets is now contingent on nuclear file advancement, contradicting explicit prior accord that nuclear issues would not be negotiated in current phase. Iran rejected shift and threatened to halt talks. Enrichment remains at 60% U-235 with 1-2 week breakout window. Sources: telegram (ME Spectator, 54.1K views, nuclear flag), global_metrics (nuclear headlines, breakout timeline).",
       "region": "Iran, Global",
-      "source": "global_metrics, telegram",
+      "source": "telegram, global_metrics",
       "confidence": "high"
     },
     {
       "severity": "high",
       "category": "incident",
-      "title": "Israeli strikes continue in Lebanon despite ceasefire; Hezbollah engaged",
-      "summary": "Israeli explosion reported in southern Lebanon despite April ceasefire agreement, with Israeli retaliatory strikes confirmed against Hezbollah targets in Beirut suburbs (NPR). Houthis announced ban on Israeli vessels in Red Sea and escalated maritime attacks. Hezbollah status remains 'Active' per global metrics. Sources: incidents (NPR, The New Arab, Long War Journal), global_metrics (proxy status).",
-      "region": "Lebanon, Red Sea, Israel",
-      "source": "incidents, global_metrics",
+      "title": "Houthis escalate Red Sea campaign; announce ban on Israeli vessels",
+      "summary": "Houthis formally announced sweeping ban on Israeli shipping in Red Sea and confirmed multiple recent attacks on commercial traffic. Positions coordinated with Iranian proxy escalation in Persian Gulf. Four separate incident reports document Houthi naval threats and attacks. USS Eisenhower, USS Bataan, and destroyers USS Carney, Mason, Laboon deployed to Red Sea in response. Sources: incidents (Long War Journal, Reuters, Seatrade, Asharq Al-Awsat), assets (three destroyers Red Sea-positioned).",
+      "region": "Red Sea, Yemen",
+      "source": "incidents, assets",
       "confidence": "high"
     },
     {
-      "severity": "medium",
-      "category": "telegram_signal",
-      "title": "USS Gerald R. Ford operational strain raises US carrier capability questions",
-      "summary": "ME Spectator Telegram post (~45.6K views, flagged 'nuclear' and 'missile' keywords) critiques US power projection, highlighting USS Gerald R. Ford returning from campaigns with fires and system failures. Analysis underscores cracks in American military-technological dominance narrative amid prolonged Middle East operations. High-engagement OSINT assessment of strategic posture shift. Sources: telegram (ME Spectator, 2026-06-30).",
-      "region": "Global",
-      "source": "telegram",
+      "severity": "high",
+      "category": "incident",
+      "title": "Drone targets US Embassy Baghdad Green Zone; Iraqi militias escalate",
+      "summary": "Drone attack directed at US Embassy compound in Baghdad Green Zone with unclear impact. Militia personnel attempted interception with small arms fire. Reflects elevated Iraqi Shiite Militia activity status (elevated\u2014base strikes detected per global_metrics). Part of broader proxy escalation tied to US-Iran trading strikes. Sources: telegram (ME Spectator, 51.4K views, drone flag), global_metrics (proxy status elevated).",
+      "region": "Iraq, Baghdad",
+      "source": "telegram, global_metrics",
       "confidence": "medium"
     }
   ],
-  "analysis_note": "US-Iran escalation cycle continues with mutual strikes, diplomatic breakdown on nuclear talks, and Israeli operations expanding across Gaza, Lebanon, and Syria while Trump administration signals potential negotiation window amid critical threat level (9/10).",
+  "analysis_note": "US-Iran direct military exchange escalating across multiple domains (air, naval, proxy) while nuclear talks stalled over asset-freeze reversal; threat level critical; Israel-Gaza ceasefire visibly eroding; Houthis and Iraqi militias amplifying regional destabilization.",
   "meta": {
-    "input_tokens": 22173,
+    "input_tokens": 20641,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
-    "output_tokens": 767,
-    "cost_usd": 0.026,
-    "wall_time_s": 11.9,
-    "data_hash": "ac7a7bf3d981ef4c6deaa54872cc9b1d8c02631afee43079dc62130d9d23489d"
+    "output_tokens": 821,
+    "cost_usd": 0.0247,
+    "wall_time_s": 12.0,
+    "data_hash": "f5440c22fbb77bd888f4fd4105bf678af3eab6cad0678f92e1f8c757e5b0b8fc"
   }
 }
