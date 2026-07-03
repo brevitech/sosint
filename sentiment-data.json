@@ -1,37 +1,27 @@
 {
   "us": {
-    "positive": 56,
+    "positive": 57,
     "negative": 35,
-    "neutral": 9,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 63,
+        "count": 62,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wedding",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "swift",
-        "count": 17,
+        "count": 16,
         "sentiment": "positive"
       },
       {
-        "word": "wedding",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
         "word": "power",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "america",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "celebrations",
-        "count": 9,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -45,12 +35,22 @@
         "sentiment": "positive"
       },
       {
-        "word": "york",
+        "word": "court",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "house",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "celebrations",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "america",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -65,12 +65,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 7,
+        "word": "europe",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "taylor",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "york",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -105,13 +110,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "heat",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rumoured",
-        "count": 5,
+        "word": "national",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -140,91 +140,71 @@
         "sentiment": "neutral"
       },
       {
+        "word": "heat",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "accounts",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "national",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "biden",
+        "word": "midterms",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-03T12:53:48.932218+00:00",
-    "nextRefresh": "2026-07-03T12:53:48.932218+00:00",
-    "articlesAnalyzed": 360,
-    "matchedMentions": 162,
-    "uniquePersonalities": 54,
+    "generatedAt": "2026-07-03T15:06:49.700703+00:00",
+    "nextRefresh": "2026-07-03T15:06:49.700703+00:00",
+    "articlesAnalyzed": 361,
+    "matchedMentions": 164,
+    "uniquePersonalities": 57,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 42,
-    "negative": 39,
-    "neutral": 19,
+    "positive": 44,
+    "negative": 43,
+    "neutral": 13,
     "wordCloud": [
       {
-        "word": "police",
+        "word": "modi",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "siya",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "goyal",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pune",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dmk",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "thackeray",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "case",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "goyal",
+        "word": "global",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "mla",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ketan",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "agarwal",
+        "word": "bjp",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -234,33 +214,43 @@
         "sentiment": "negative"
       },
       {
-        "word": "arrest",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "siya",
+        "word": "singh",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "pune",
+        "word": "shah",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "tharoor",
-        "count": 3,
+        "word": "court",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "funeral",
-        "count": 3,
-        "sentiment": "negative"
+        "word": "tmc",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
-        "word": "remarks",
-        "count": 3,
+        "word": "zealand",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "thackeray",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -269,42 +259,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "past",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "adani",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "petrol",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "diesel",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "slams",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
+        "word": "abhishek",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -314,17 +269,62 @@
         "sentiment": "neutral"
       },
       {
+        "word": "launched",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "amid",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rukh",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ketan",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "agarwal",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vaibhav",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sooryavanshi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dev",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "meta",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ads",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-03T12:54:00.827696+00:00",
-    "nextRefresh": "2026-07-03T12:54:00.827696+00:00",
-    "articlesAnalyzed": 465,
-    "matchedMentions": 72,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-07-03T15:07:05.283449+00:00",
+    "nextRefresh": "2026-07-03T15:07:05.283449+00:00",
+    "articlesAnalyzed": 481,
+    "matchedMentions": 70,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
