@@ -1,22 +1,27 @@
 {
   "us": {
-    "positive": 51,
-    "negative": 39,
-    "neutral": 10,
+    "positive": 53,
+    "negative": 36,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 69,
+        "count": 70,
         "sentiment": "neutral"
       },
       {
         "word": "swift",
-        "count": 14,
+        "count": 17,
         "sentiment": "positive"
       },
       {
         "word": "wedding",
-        "count": 12,
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -25,23 +30,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 9,
+        "word": "senate",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "video",
-        "count": 8,
+        "word": "taylor",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kelce",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "reflecting",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "pool",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -50,7 +60,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "guardian",
+        "word": "happened",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -65,32 +75,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "country",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "america",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indicted",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "getting",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "posts",
+        "word": "guardian",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "video",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -125,13 +120,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "seat",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "seat",
-        "count": 6,
+        "word": "travis",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -140,7 +135,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "taylor",
+        "word": "democrats",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "america",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indicted",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -148,103 +153,83 @@
         "word": "celebrations",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-03T00:01:43.161770+00:00",
-    "nextRefresh": "2026-07-03T00:01:43.161770+00:00",
+    "generatedAt": "2026-07-03T04:38:18.315714+00:00",
+    "nextRefresh": "2026-07-03T04:38:18.315714+00:00",
     "articlesAnalyzed": 348,
-    "matchedMentions": 169,
-    "uniquePersonalities": 55,
+    "matchedMentions": 167,
+    "uniquePersonalities": 54,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 34,
-    "negative": 37,
-    "neutral": 29,
+    "positive": 37,
+    "negative": 42,
+    "neutral": 21,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tmc",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minister",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "puri",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "defence",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "hardeep",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "khan",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "takaichi",
-        "count": 5,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "india",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "khan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "oil",
+        "word": "siya",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "abdullah",
+        "word": "goyal",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "dialogue",
+        "word": "surrender",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "amp",
+        "word": "bishnoi",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "japan",
+        "word": "house",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "seeks",
+        "word": "firing",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "case",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
+        "word": "zealand",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "next",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -254,17 +239,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
-        "count": 3,
+        "word": "tmc",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "singh",
-        "count": 3,
+        "word": "target",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "surrender",
+        "word": "shows",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -274,57 +259,72 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "gangster",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "firing",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "ties",
+        "word": "anmol",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "soon",
+        "word": "calls",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "backs",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "pakistan",
+        "word": "surfaces",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "real",
+        "word": "japanese",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "sanae",
+        "word": "takaichi",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "chopra",
+        "word": "minister",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "puri",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abdullah",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dialogue",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "seeks",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-03T00:01:54.972005+00:00",
-    "nextRefresh": "2026-07-03T00:01:54.972005+00:00",
-    "articlesAnalyzed": 466,
-    "matchedMentions": 71,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-07-03T04:38:32.551250+00:00",
+    "nextRefresh": "2026-07-03T04:38:32.551250+00:00",
+    "articlesAnalyzed": 478,
+    "matchedMentions": 62,
+    "uniquePersonalities": 32,
     "dataSource": "live-rss"
   }
 }
