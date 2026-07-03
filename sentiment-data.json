@@ -1,27 +1,37 @@
 {
   "us": {
-    "positive": 51,
-    "negative": 40,
+    "positive": 56,
+    "negative": 35,
     "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 51,
+        "count": 63,
         "sentiment": "neutral"
       },
       {
         "word": "swift",
-        "count": 18,
+        "count": 17,
         "sentiment": "positive"
       },
       {
         "word": "wedding",
-        "count": 18,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "power",
-        "count": 11,
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "america",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "celebrations",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -35,32 +45,37 @@
         "sentiment": "positive"
       },
       {
-        "word": "court",
-        "count": 9,
+        "word": "york",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "york",
+        "word": "house",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "legal",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "say",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "taylor",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rumoured",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "celebrations",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
+        "word": "democrats",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -90,6 +105,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "heat",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rumoured",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "reflecting",
         "count": 5,
         "sentiment": "neutral"
@@ -100,22 +125,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nyc",
+        "word": "trade",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "america",
+        "word": "experts",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "europe",
+        "word": "morgan",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "interview",
+        "word": "accounts",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -128,104 +153,69 @@
         "word": "biden",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "child",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ban",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "indicted",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "friendship",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "bracelets",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-03T10:39:59.130861+00:00",
-    "nextRefresh": "2026-07-03T10:39:59.130861+00:00",
-    "articlesAnalyzed": 358,
-    "matchedMentions": 158,
-    "uniquePersonalities": 52,
+    "generatedAt": "2026-07-03T12:53:48.932218+00:00",
+    "nextRefresh": "2026-07-03T12:53:48.932218+00:00",
+    "articlesAnalyzed": 360,
+    "matchedMentions": 162,
+    "uniquePersonalities": 54,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 40,
-    "negative": 37,
-    "neutral": 23,
+    "positive": 42,
+    "negative": 39,
+    "neutral": 19,
     "wordCloud": [
       {
-        "word": "india",
-        "count": 9,
+        "word": "police",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "india",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "amid",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "dmk",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "police",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "adani",
+        "word": "court",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "arrest",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "remarks",
+        "word": "thackeray",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
+        "word": "case",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "nadu",
+        "word": "goyal",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "response",
-        "count": 5,
+        "word": "mla",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -244,52 +234,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "probe",
+        "word": "arrest",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chaudhary",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mla",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "review",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "govt",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "maiden",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zealand",
-        "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "siya",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "goyal",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -299,32 +249,82 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leaders",
+        "word": "tharoor",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "msc",
+        "word": "funeral",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "remarks",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "past",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "adani",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "petrol",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "diesel",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slams",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ram",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meta",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-03T10:40:10.964100+00:00",
-    "nextRefresh": "2026-07-03T10:40:10.964100+00:00",
-    "articlesAnalyzed": 481,
-    "matchedMentions": 78,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-07-03T12:54:00.827696+00:00",
+    "nextRefresh": "2026-07-03T12:54:00.827696+00:00",
+    "articlesAnalyzed": 465,
+    "matchedMentions": 72,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
