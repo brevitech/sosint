@@ -1,26 +1,83 @@
 {
-  "generatedAt": "2026-07-03T07:59:27.670244+00:00",
+  "generatedAt": "2026-07-03T10:40:15.320227+00:00",
   "dataSource": "live-osint",
   "economy": {
-    "brentCrude": 71.84,
+    "brentCrude": 71.86,
     "irrFreeMarket": 1374552
   },
-  "cyber": [],
+  "cyber": [
+    {
+      "title": "The Hidden Systems of Modern War: Ten Takeaways from the Iran War - Modern War Institute -",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNN0FrdEtjV3hYSmYtZGU2R3hiNUpwSDJib2hiZ1dlUG5lYWFGajd1eEpCZFlSVjV1VHFGS0JYUDNaRjhLT1Jic1c4NmYyaF9zWE5VaDlSZnJPaFZ1V1RJUUlMdTdiS2g0bVQ0aXNjQ0NPRU55TXNQbTdrVjBtb00yUUdyZDRldXNXOXBSWUJvUzQ5TDBJUWc?oc=5",
+      "published": "Mon, 22 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Inside Iran’s Cyber War Machine | Alhurra - الحرة",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBkNFZMRlgybEVLUG14RFZ0LTY2TzBWb1FGRkc0ZmtNTjZPOERJalQyR0Z3OTVVXzcxMmt5dXFnSmhiZw?oc=5",
+      "published": "Mon, 22 Jun 2026 17:39:46 GMT"
+    },
+    {
+      "title": "The Escalating Cyber Risk Landscape in Regional Conflicts & Strategic Actions for 2026 - EclecticIQ Blog",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMUZZWnhQZjV1UEFoYkVmc3plZkMwcHAtWmFmdnhZSnRZRTAxNEVBSzNmeGpfaTB1VDZ5ZjdEaHh6WXlRblE0Q3ZCenhhcHdMODd1UUtiNGJKeHFhNks3T0MtS0JIYzFyallkbUtiWUt5UlVRcmd6UXhWa0tKbVI3c21GRmt4Ty12MDRiVUhWdXdQVjRsNWVsUHVwc290bmFqbVRfUG1BR3AwNmtHUEhaREd3?oc=5",
+      "published": "Thu, 11 Jun 2026 08:36:56 GMT"
+    },
+    {
+      "title": "Cyber group claims California water system hack in retaliation for Iran strikes - Middle East Eye",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbnZmbDRpZWNnZUZHcU1EblNmZEdPZlYwT2RBcVJGQ2duMVFRMFVjOUw2ZTRrWG1VU3pINFA1a1VnME9iNGV3SjQyWkZabGsyb1JULU1vY3dma0FVWUNQMFlLRHZzalFfM3kyUS1jNjBuT0JqNG5xQ25hYzhGZnZCTlIwUk92d2gzMno5NFZQdHEyUzhJTE5EZFpOSWIzSlhfeFNQaUYzZFhmMnNtZ19JY2o5YU9CV05UOFI2OXJQZmNkOTJvanVabQ?oc=5",
+      "published": "Fri, 12 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Iran-linked group claims hack of FBI drones, threatens World Cup, monitor reports - France 24",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeFdtZFlwQ0twUU81YTByak96Y3ZLNi1weThRa1FGRmFrUE9WdlNGMjczbm9TSkVpTjRZQ2JkVkdxQnlFR0djUXQ3OHY1a0N4VDQtcXh1UXVZb3JkTkd2NzNPcFFxamZLQmJOcG5uMXlUWGJmX2Z4TVZIQUl1MDJReHhDZzg5QU5mTHZCbURwRkhBOTZyc2hHUWZ0eHV6dFQyYVNlZEROTTVqV3lwZmYwdkZpeVpZaHhHZGd4UVdfRGtQS28?oc=5",
+      "published": "Fri, 12 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Iran-linked group claims hack of FBI drones, threatens World Cup, monitor says - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5NcWlVTEE4al95R0xxeS00b3hOdnB2ZDhldFpiN1U4NmJGU29xWkc2WVVDTEJyR1ZnbzhfSUs0ckNZWldReHlBU1EydVdaRTdveUFOR0s1N1JRRzVwVEE2dXZUMG94ZWEyYzMyWUs5MEd0MUVPU055QTdyVFpEUQ?oc=5",
+      "published": "Fri, 12 Jun 2026 07:00:00 GMT"
+    }
+  ],
   "threat": {
-    "level": 7,
-    "label": "HIGH — ELEVATED"
+    "level": 9,
+    "label": "CRITICAL — IMMINENT ESCALATION"
   },
   "proxies": {
     "Hezbollah": "Active",
-    "Houthis (Ansar Allah)": "Active - Red Sea",
-    "Iraqi Shiite Militias (PMF)": "Active",
+    "Houthis (Ansar Allah)": "Elevated - Multiple Recent Attacks",
+    "Iraqi Shiite Militias (PMF)": "Elevated - Base Strikes Detected",
     "Hamas": "Degraded",
     "Palestinian Islamic Jihad": "Active"
   },
   "nuclear": {
     "enrichment": "60% U-235",
     "breakout": "~1-2 weeks (estimated)",
-    "news": []
+    "news": [
+      {
+        "title": "Grossi: IAEA Inspectors Have Not Yet Returned to Iran - WANA News Agency",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA5cTRCZkM0SlpkeFpfcURKM2NMVkQtMDZRdHVyd0ZiU3RNbnVlaHZnNVdjdkFtVENraUdaa3lDamdFeEpHNzdQbGQwaTBQaG5aenNJSnNzc3FVMVBLakY2bEpjQnhiVWlGNVl4TVVvY2JaSG81dk5RUlNNbUU?oc=5",
+        "published": "Fri, 03 Jul 2026 05:52:12 GMT"
+      },
+      {
+        "title": "U.N. nuclear chief says inspectors will visit Iran, but Iran says only after final deal - NPR",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ZekVWT180T1ZmWHUwN1lCRXNLLVhSbWw0VTUwZ2pRUmdGaGV6R2UtcUZWd0Z3R2txNVdzanVwaGx4VFNLclhPVm9uSEI2QmtEb3lFMzcwUFV4TmhGVmFkRDVkOE5fdXhtelJWWTRZMHd0bGlv?oc=5",
+        "published": "Wed, 24 Jun 2026 07:00:00 GMT"
+      },
+      {
+        "title": "IAEA chief says inspectors will visit nuclear sites under Iran-U.S. interim deal - KUOW",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRnVmUjF4U2F6SkRGTEF4MTJZVEtvTUNRSU5FVVRSNmUtVFQ1UzJhYWh5dTlkYXVxQkRvLWZxZ2NXbWpDdS11SHBUZDNtU0dvUGFVT0xORklUZ1NQa3hkRmg3OHZjblNTOFFDd0tFVHAzMGI4eDJXZzU2eWYxeURCWTJqRFFsMWZabzAwajRTaUtaU3RTR094RjR4R0VETUIyMjZsZUNjNTI5Ymhs?oc=5",
+        "published": "Wed, 24 Jun 2026 16:41:34 GMT"
+      },
+      {
+        "title": "Iran's Nuclear Enrichment Progress: 2008-2025 and Beyond - Foundation for Defense of Democracies",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPa0trbzRoOGQ3ZG1Sb3hHank3SGphNE0zQ3d5VE5Db1VQU1NIREQ0am9MMTJOSVg5aExLLW5yak43eEtFSHN5T3JTQWFBT19xUnlsdmxBeGptcDc3Z1NFVVRNUnVzSmZiUjBPSkpneklnZmlIYW9zNzViT1lxMXVOS3pNdG1IaFNybzM2bTNIWmVEYmRWY2ZPcTN5VQ?oc=5",
+        "published": "Fri, 12 Jun 2026 07:00:00 GMT"
+      },
+      {
+        "title": "US-Iran deal: technical work can begin, says atomic energy agency - UN News",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE43ZzRZWXRtNV9lalVmcHRVb0xJTEpPaUJGaHVmdm1Vdlk2LXl0ajlxLWZFOFNJb0YxVHNPUHM4a2hGQVN2b1pfOWhyVk53SFBfUE1VMlpnUQ?oc=5",
+        "published": "Thu, 18 Jun 2026 07:00:00 GMT"
+      }
+    ]
   },
   "firms": {
     "status": "inactive",
