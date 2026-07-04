@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 60,
+    "positive": 59,
     "negative": 32,
-    "neutral": 8,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,26 +11,21 @@
       },
       {
         "word": "swift",
-        "count": 27,
+        "count": 25,
         "sentiment": "positive"
       },
       {
         "word": "kelce",
-        "count": 21,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "taylor",
-        "count": 13,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "america",
-        "count": 12,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
-        "word": "travis",
+        "word": "taylor",
         "count": 12,
         "sentiment": "neutral"
       },
@@ -40,17 +35,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nyc",
+        "word": "travis",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "celebrations",
+        "word": "nyc",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "speech",
+        "word": "celebrations",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -60,19 +55,14 @@
         "sentiment": "neutral"
       },
       {
+        "word": "speech",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "supreme",
         "count": 7,
         "sentiment": "positive"
-      },
-      {
-        "word": "birthday",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 6,
-        "sentiment": "neutral"
       },
       {
         "word": "york",
@@ -80,17 +70,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "madison",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "square",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "garden",
+        "word": "former",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -100,9 +80,34 @@
         "sentiment": "neutral"
       },
       {
+        "word": "fourth",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "birthday",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "presidents",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "williams",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "wimbledon",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "progress",
+        "count": 5,
+        "sentiment": "positive"
       },
       {
         "word": "wed",
@@ -110,22 +115,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "praises",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "iran",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fourth",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "accounts",
+        "word": "power",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -140,58 +130,68 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fireworks",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "williams",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "injury",
         "count": 4,
         "sentiment": "negative"
+      },
+      {
+        "word": "marries",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ceremony",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "officiated",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "adam",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-04T17:05:57.544243+00:00",
-    "nextRefresh": "2026-07-04T17:05:57.544243+00:00",
-    "articlesAnalyzed": 342,
+    "generatedAt": "2026-07-04T19:03:06.016818+00:00",
+    "nextRefresh": "2026-07-04T19:03:06.016818+00:00",
+    "articlesAnalyzed": 343,
     "matchedMentions": 173,
-    "uniquePersonalities": 52,
+    "uniquePersonalities": 57,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 38,
-    "negative": 44,
-    "neutral": 18,
+    "positive": 44,
+    "negative": 37,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 18,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 12,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "tmc",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "rebels",
+        "word": "adani",
         "count": 8,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
+        "count": 8,
+        "sentiment": "neutral"
       },
       {
         "word": "case",
@@ -199,17 +199,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "trinamool",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rebels",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
         "word": "monsoon",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "aide",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trinamool",
+        "word": "row",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -224,12 +229,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "adani",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "siya",
+        "word": "bjp",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -239,22 +239,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
+        "word": "justice",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "never",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chief",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "govt",
+        "word": "department",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -264,19 +254,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "wedding",
+        "word": "calls",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "aide",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "murder",
+        "word": "sooryavanshi",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trump",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "chandrima",
@@ -289,12 +284,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "govt",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "defiant",
         "count": 4,
         "sentiment": "negative"
       },
       {
-        "word": "quits",
+        "word": "loyalist",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "crisis",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "diplomacy",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -304,27 +314,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "key",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sooryavanshi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "goyal",
+        "word": "siya",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-04T17:06:10.666427+00:00",
-    "nextRefresh": "2026-07-04T17:06:10.666427+00:00",
-    "articlesAnalyzed": 465,
-    "matchedMentions": 94,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-07-04T19:03:19.727414+00:00",
+    "nextRefresh": "2026-07-04T19:03:19.727414+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 97,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
