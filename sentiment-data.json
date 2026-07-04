@@ -1,23 +1,23 @@
 {
   "us": {
-    "positive": 56,
+    "positive": 57,
     "negative": 34,
-    "neutral": 10,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 60,
+        "count": 63,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "america",
+        "count": 23,
         "sentiment": "neutral"
       },
       {
         "word": "swift",
         "count": 21,
         "sentiment": "positive"
-      },
-      {
-        "word": "america",
-        "count": 20,
-        "sentiment": "neutral"
       },
       {
         "word": "kelce",
@@ -46,18 +46,18 @@
       },
       {
         "word": "speech",
-        "count": 7,
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "birthday",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "supreme",
         "count": 7,
         "sentiment": "positive"
-      },
-      {
-        "word": "birthday",
-        "count": 7,
-        "sentiment": "neutral"
       },
       {
         "word": "york",
@@ -85,8 +85,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "heat",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "presidents",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cup",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -105,17 +115,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "celebrates",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "anniversary",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "history",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "migrants",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "heat",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -130,43 +145,28 @@
         "sentiment": "neutral"
       },
       {
+        "word": "golden",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "williams",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wimbledon",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mount",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rushmore",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nyc",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-04T21:54:31.264041+00:00",
-    "nextRefresh": "2026-07-04T21:54:31.264041+00:00",
+    "generatedAt": "2026-07-04T22:54:04.308062+00:00",
+    "nextRefresh": "2026-07-04T22:54:04.308062+00:00",
     "articlesAnalyzed": 341,
-    "matchedMentions": 167,
-    "uniquePersonalities": 53,
+    "matchedMentions": 171,
+    "uniquePersonalities": 52,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 46,
-    "negative": 34,
-    "neutral": 20,
+    "negative": 36,
+    "neutral": 18,
     "wordCloud": [
       {
         "word": "modi",
@@ -214,11 +214,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "monsoon",
         "count": 6,
         "sentiment": "neutral"
@@ -254,6 +249,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "bjp",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "govt",
         "count": 5,
         "sentiment": "neutral"
@@ -280,6 +280,11 @@
       },
       {
         "word": "trump",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "against",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "temple",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-04T21:54:44.506673+00:00",
-    "nextRefresh": "2026-07-04T21:54:44.506673+00:00",
+    "generatedAt": "2026-07-04T22:54:18.400781+00:00",
+    "nextRefresh": "2026-07-04T22:54:18.400781+00:00",
     "articlesAnalyzed": 465,
     "matchedMentions": 87,
-    "uniquePersonalities": 37,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
