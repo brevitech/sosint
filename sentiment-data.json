@@ -1,27 +1,32 @@
 {
   "us": {
-    "positive": 62,
-    "negative": 28,
+    "positive": 64,
+    "negative": 26,
     "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 58,
+        "count": 54,
         "sentiment": "neutral"
       },
       {
         "word": "swift",
-        "count": 35,
+        "count": 37,
         "sentiment": "positive"
       },
       {
         "word": "kelce",
-        "count": 25,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
         "word": "taylor",
-        "count": 17,
+        "count": 18,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "travis",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -31,11 +36,6 @@
       },
       {
         "word": "america",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "travis",
         "count": 15,
         "sentiment": "neutral"
       },
@@ -60,8 +60,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "nyc",
         "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pope",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -71,12 +76,7 @@
       },
       {
         "word": "celebrations",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nyc",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -85,22 +85,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
-        "count": 8,
-        "sentiment": "positive"
-      },
-      {
         "word": "city",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "launches",
-        "count": 6,
+        "word": "migrants",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "pope",
+        "word": "heat",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -110,18 +105,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "power",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attack",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "marks",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -130,9 +115,29 @@
         "sentiment": "positive"
       },
       {
-        "word": "heat",
+        "word": "wed",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "launches",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "praises",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "speech",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "supreme",
+        "count": 5,
+        "sentiment": "positive"
       },
       {
         "word": "iran",
@@ -140,12 +145,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "crypto",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "morgan",
+        "word": "urges",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -156,26 +156,51 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-04T10:04:04.762029+00:00",
-    "nextRefresh": "2026-07-04T10:04:04.762029+00:00",
+    "generatedAt": "2026-07-04T12:03:33.457975+00:00",
+    "nextRefresh": "2026-07-04T12:03:33.457975+00:00",
     "articlesAnalyzed": 347,
-    "matchedMentions": 177,
-    "uniquePersonalities": 56,
+    "matchedMentions": 171,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 31,
-    "neutral": 24,
+    "positive": 50,
+    "negative": 33,
+    "neutral": 17,
     "wordCloud": [
       {
+        "word": "india",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
         "word": "modi",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "siya",
-        "count": 7,
+        "word": "banerjee",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chandrima",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhattacharya",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -184,57 +209,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tmc",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
+        "word": "siya",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "banerjee",
+        "word": "monsoon",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "launches",
+        "word": "wedding",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "goyal",
+        "word": "mamata",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "jodhpur",
+        "word": "mumbai",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "airport",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "terminal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chandrima",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bhattacharya",
+        "word": "case",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -244,27 +244,22 @@
         "sentiment": "negative"
       },
       {
-        "word": "wedding",
+        "word": "vizhinjam",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "adani",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "launches",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "snapchat",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "message",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "twist",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crore",
+        "word": "rajasthan",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -274,27 +269,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "rebels",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "state",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "session",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "posts",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vizhinjam",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "adani",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "film",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ram",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -304,7 +299,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kabhi",
+        "word": "breaks",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "silence",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "ketan",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "murder",
-        "count": 4,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-04T10:04:18.485325+00:00",
-    "nextRefresh": "2026-07-04T10:04:18.485325+00:00",
+    "generatedAt": "2026-07-04T12:03:45.410843+00:00",
+    "nextRefresh": "2026-07-04T12:03:45.410843+00:00",
     "articlesAnalyzed": 465,
-    "matchedMentions": 80,
-    "uniquePersonalities": 43,
+    "matchedMentions": 86,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
