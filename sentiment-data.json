@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 62,
+    "positive": 61,
     "negative": 28,
-    "neutral": 10,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 60,
+        "count": 58,
         "sentiment": "neutral"
       },
       {
         "word": "swift",
-        "count": 23,
+        "count": 29,
         "sentiment": "positive"
       },
       {
@@ -20,27 +20,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
         "word": "kelce",
-        "count": 11,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "taylor",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "heat",
-        "count": 8,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "travis",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "york",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "madison",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "square",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "garden",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "city",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "married",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -50,17 +80,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "supreme",
         "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "house",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "celebrations",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "heat",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -76,11 +111,6 @@
       },
       {
         "word": "nyc",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "york",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -115,11 +145,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "wes",
         "count": 5,
         "sentiment": "neutral"
@@ -128,45 +153,20 @@
         "word": "moore",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "presidential",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "history",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indicted",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "friendship",
-        "count": 4,
-        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-03T22:09:12.382745+00:00",
-    "nextRefresh": "2026-07-03T22:09:12.382745+00:00",
+    "generatedAt": "2026-07-04T00:00:30.713656+00:00",
+    "nextRefresh": "2026-07-04T00:00:30.713656+00:00",
     "articlesAnalyzed": 364,
-    "matchedMentions": 166,
+    "matchedMentions": 173,
     "uniquePersonalities": 56,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 48,
-    "negative": 37,
-    "neutral": 15,
+    "positive": 44,
+    "negative": 38,
+    "neutral": 18,
     "wordCloud": [
       {
         "word": "siya",
@@ -189,11 +189,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trinamool",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "seek",
         "count": 5,
         "sentiment": "neutral"
@@ -202,11 +197,6 @@
         "word": "india",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "party",
-        "count": 4,
-        "sentiment": "positive"
       },
       {
         "word": "probe",
@@ -239,26 +229,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "faction",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "takes",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "control",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "headquarters",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "shah",
         "count": 3,
         "sentiment": "neutral"
@@ -267,6 +237,16 @@
         "word": "orders",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "trinamool",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "party",
+        "count": 3,
+        "sentiment": "positive"
       },
       {
         "word": "khamenei",
@@ -280,6 +260,26 @@
       },
       {
         "word": "indian",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "adani",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ads",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meta",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-03T22:09:24.255432+00:00",
-    "nextRefresh": "2026-07-03T22:09:24.255432+00:00",
-    "articlesAnalyzed": 464,
-    "matchedMentions": 60,
-    "uniquePersonalities": 29,
+    "generatedAt": "2026-07-04T00:00:41.979358+00:00",
+    "nextRefresh": "2026-07-04T00:00:41.979358+00:00",
+    "articlesAnalyzed": 465,
+    "matchedMentions": 63,
+    "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
 }
