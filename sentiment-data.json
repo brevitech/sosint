@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 57,
+    "positive": 56,
     "negative": 34,
-    "neutral": 9,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 63,
+        "count": 67,
         "sentiment": "neutral"
       },
       {
         "word": "america",
-        "count": 23,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
@@ -35,6 +35,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "speech",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "wedding",
         "count": 9,
         "sentiment": "neutral"
@@ -42,16 +47,6 @@
       {
         "word": "pope",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "speech",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "birthday",
-        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -80,7 +75,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fourth",
+        "word": "birthday",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -110,19 +105,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "celebrates",
         "count": 5,
         "sentiment": "positive"
-      },
-      {
-        "word": "anniversary",
-        "count": 5,
-        "sentiment": "neutral"
       },
       {
         "word": "history",
@@ -131,6 +116,11 @@
       },
       {
         "word": "migrants",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fourth",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -150,27 +140,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "williams",
+        "word": "messi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mount",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rushmore",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-04T22:54:04.308062+00:00",
-    "nextRefresh": "2026-07-04T22:54:04.308062+00:00",
+    "generatedAt": "2026-07-04T23:57:42.866071+00:00",
+    "nextRefresh": "2026-07-04T23:57:42.866071+00:00",
     "articlesAnalyzed": 341,
-    "matchedMentions": 171,
-    "uniquePersonalities": 52,
+    "matchedMentions": 174,
+    "uniquePersonalities": 53,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 36,
-    "neutral": 18,
+    "positive": 47,
+    "negative": 33,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 18,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
@@ -180,7 +180,7 @@
       },
       {
         "word": "adani",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -197,6 +197,11 @@
         "word": "case",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "justice",
+        "count": 6,
+        "sentiment": "positive"
       },
       {
         "word": "row",
@@ -219,9 +224,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "justice",
-        "count": 5,
-        "sentiment": "positive"
+        "word": "session",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "department",
@@ -259,8 +264,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "session",
-        "count": 5,
+        "word": "against",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -284,6 +289,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "next",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "visit",
         "count": 4,
         "sentiment": "neutral"
@@ -299,11 +309,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "siya",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "silence",
         "count": 4,
         "sentiment": "neutral"
@@ -312,19 +317,14 @@
         "word": "wasn",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-04T22:54:18.400781+00:00",
-    "nextRefresh": "2026-07-04T22:54:18.400781+00:00",
+    "generatedAt": "2026-07-04T23:57:54.510242+00:00",
+    "nextRefresh": "2026-07-04T23:57:54.510242+00:00",
     "articlesAnalyzed": 465,
-    "matchedMentions": 87,
-    "uniquePersonalities": 38,
+    "matchedMentions": 88,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
