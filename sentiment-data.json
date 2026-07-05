@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 54,
-    "negative": 40,
-    "neutral": 6,
+    "positive": 53,
+    "negative": 39,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 65,
+        "count": 71,
         "sentiment": "neutral"
       },
       {
@@ -40,6 +40,21 @@
         "sentiment": "neutral"
       },
       {
+        "word": "power",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nato",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "summit",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "pope",
         "count": 8,
         "sentiment": "neutral"
@@ -65,11 +80,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "wedding",
         "count": 7,
         "sentiment": "neutral"
@@ -77,16 +87,6 @@
       {
         "word": "shapiro",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leader",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "heat",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -101,6 +101,16 @@
       },
       {
         "word": "former",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cup",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "debate",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -125,6 +135,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "leader",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "paul",
         "count": 5,
         "sentiment": "neutral"
@@ -138,35 +153,20 @@
         "word": "mall",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "travis",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "celebrations",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mamdanis",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-05T17:58:29.236716+00:00",
-    "nextRefresh": "2026-07-05T17:58:29.236716+00:00",
-    "articlesAnalyzed": 342,
-    "matchedMentions": 172,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-07-05T19:22:42.343241+00:00",
+    "nextRefresh": "2026-07-05T19:22:42.343241+00:00",
+    "articlesAnalyzed": 345,
+    "matchedMentions": 181,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 36,
-    "neutral": 23,
+    "positive": 34,
+    "negative": 41,
+    "neutral": 25,
     "wordCloud": [
       {
         "word": "ram",
@@ -175,7 +175,7 @@
       },
       {
         "word": "bjp",
-        "count": 10,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -194,11 +194,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "donation",
         "count": 6,
         "sentiment": "neutral"
@@ -210,16 +205,6 @@
       },
       {
         "word": "thackeray",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tmc",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -254,7 +239,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "police",
+        "word": "india",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -269,27 +259,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "infighting",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "slams",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "kejriwal",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ayodhya",
+        "word": "case",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "ayodhya",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -314,17 +294,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kaziranga",
+        "word": "dosanjh",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "satluj",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "targets",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "aap",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "co-founder",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-05T17:58:41.832402+00:00",
-    "nextRefresh": "2026-07-05T17:58:41.832402+00:00",
-    "articlesAnalyzed": 482,
-    "matchedMentions": 73,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-07-05T19:22:56.366851+00:00",
+    "nextRefresh": "2026-07-05T19:22:56.366851+00:00",
+    "articlesAnalyzed": 468,
+    "matchedMentions": 59,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
