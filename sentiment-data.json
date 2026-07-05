@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 53,
-    "negative": 41,
-    "neutral": 6,
+    "positive": 52,
+    "negative": 40,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,13 +11,28 @@
       },
       {
         "word": "america",
-        "count": 23,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "swift",
         "count": 14,
         "sentiment": "positive"
+      },
+      {
+        "word": "cup",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nato",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "summit",
+        "count": 10,
+        "sentiment": "neutral"
       },
       {
         "word": "vance",
@@ -35,22 +50,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cup",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nato",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "summit",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "speech",
+        "word": "fifa",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -75,27 +75,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "wedding",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "shapiro",
+        "word": "red",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "fifa",
+        "word": "former",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "former",
+        "word": "debate",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "balogun",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -115,32 +130,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "red",
+        "word": "card",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "speech",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "paul",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pelosi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hit-and-run",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fireworks",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mall",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -156,16 +156,16 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-05T20:53:20.153525+00:00",
-    "nextRefresh": "2026-07-05T20:53:20.153525+00:00",
+    "generatedAt": "2026-07-05T21:57:19.221915+00:00",
+    "nextRefresh": "2026-07-05T21:57:19.221915+00:00",
     "articlesAnalyzed": 344,
     "matchedMentions": 176,
-    "uniquePersonalities": 49,
+    "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 38,
-    "negative": 36,
+    "positive": 35,
+    "negative": 39,
     "neutral": 26,
     "wordCloud": [
       {
@@ -249,11 +249,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "khan",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "kejriwal",
         "count": 4,
         "sentiment": "neutral"
@@ -317,14 +312,19 @@
         "word": "internet",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-05T20:53:32.145412+00:00",
-    "nextRefresh": "2026-07-05T20:53:32.145412+00:00",
+    "generatedAt": "2026-07-05T21:57:31.223303+00:00",
+    "nextRefresh": "2026-07-05T21:57:31.223303+00:00",
     "articlesAnalyzed": 467,
-    "matchedMentions": 55,
-    "uniquePersonalities": 34,
+    "matchedMentions": 54,
+    "uniquePersonalities": 33,
     "dataSource": "live-rss"
   }
 }
