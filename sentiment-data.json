@@ -1,17 +1,17 @@
 {
   "us": {
     "positive": 55,
-    "negative": 38,
-    "neutral": 7,
+    "negative": 39,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 76,
+        "count": 73,
         "sentiment": "neutral"
       },
       {
         "word": "america",
-        "count": 24,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
@@ -45,32 +45,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "birthday",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "travis",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "anniversary",
+        "word": "supreme",
         "count": 8,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "putin",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nato",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "summit",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -80,17 +65,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "celebrations",
+        "word": "birthday",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
+        "word": "iran",
         "count": 7,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "former",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "anniversary",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -100,9 +95,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "attack",
+        "word": "calls",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "progress",
@@ -110,27 +105,17 @@
         "sentiment": "positive"
       },
       {
-        "word": "war",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "iran",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "celebrates",
+        "word": "praises",
         "count": 5,
         "sentiment": "positive"
       },
       {
-        "word": "migrants",
+        "word": "khamenei",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "fourth",
+        "word": "migrants",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -150,62 +135,67 @@
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
+        "word": "attack",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "freed",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "prison",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "mount",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-05T10:06:49.274526+00:00",
-    "nextRefresh": "2026-07-05T10:06:49.274526+00:00",
+    "generatedAt": "2026-07-05T12:12:13.511783+00:00",
+    "nextRefresh": "2026-07-05T12:12:13.511783+00:00",
     "articlesAnalyzed": 343,
-    "matchedMentions": 181,
-    "uniquePersonalities": 55,
+    "matchedMentions": 174,
+    "uniquePersonalities": 54,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 38,
-    "negative": 37,
-    "neutral": 25,
+    "positive": 52,
+    "negative": 30,
+    "neutral": 18,
     "wordCloud": [
-      {
-        "word": "india",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tmc",
-        "count": 7,
-        "sentiment": "neutral"
-      },
       {
         "word": "modi",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "india",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "spratt",
+        "word": "bjp",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "takes",
+        "word": "row",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "prasad",
-        "count": 4,
+        "word": "ram",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "adani",
-        "count": 4,
+        "word": "crore",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -214,18 +204,43 @@
         "sentiment": "neutral"
       },
       {
-        "word": "khan",
+        "word": "kishor",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "gauri",
+        "word": "spratt",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "chandrima",
+        "word": "vhp",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bajaj",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "adani",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -234,37 +249,32 @@
         "sentiment": "positive"
       },
       {
-        "word": "kishor",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "tour",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "free",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "police",
+        "word": "breaks",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
+        "word": "film",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "knot",
+        "word": "prasad",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "home",
+        "word": "khan",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gauri",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -274,7 +284,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "couple",
+        "word": "amid",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mandir",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -284,47 +299,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mbappe",
+        "word": "bankipur",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "state",
+        "word": "finance",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "punjab",
+        "word": "ayodhya",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mamata",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ketan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ram",
+        "word": "temple",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-05T10:07:06.436332+00:00",
-    "nextRefresh": "2026-07-05T10:07:06.436332+00:00",
-    "articlesAnalyzed": 467,
-    "matchedMentions": 63,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-07-05T12:12:25.363981+00:00",
+    "nextRefresh": "2026-07-05T12:12:25.363981+00:00",
+    "articlesAnalyzed": 481,
+    "matchedMentions": 64,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
