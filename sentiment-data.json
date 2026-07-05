@@ -1,51 +1,46 @@
 {
   "us": {
-    "positive": 55,
-    "negative": 39,
-    "neutral": 6,
+    "positive": 58,
+    "negative": 38,
+    "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 73,
+        "count": 66,
         "sentiment": "neutral"
       },
       {
         "word": "america",
-        "count": 23,
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "swift",
-        "count": 18,
+        "count": 16,
         "sentiment": "positive"
       },
       {
+        "word": "pope",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
         "word": "kelce",
-        "count": 15,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "speech",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "pope",
-        "count": 11,
+        "word": "fireworks",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "taylor",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wedding",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "travis",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -55,12 +50,7 @@
         "sentiment": "positive"
       },
       {
-        "word": "putin",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fireworks",
+        "word": "pelosi",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -70,7 +60,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "travis",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wedding",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -80,22 +75,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
         "word": "anniversary",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "presidents",
+        "word": "face",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
+        "word": "california",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "car",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -105,14 +100,14 @@
         "sentiment": "positive"
       },
       {
+        "word": "celebrations",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "praises",
         "count": 5,
         "sentiment": "positive"
-      },
-      {
-        "word": "khamenei",
-        "count": 5,
-        "sentiment": "neutral"
       },
       {
         "word": "migrants",
@@ -120,24 +115,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "urges",
+        "word": "iran",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "wes",
+        "word": "heat",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "moore",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attack",
+        "word": "church",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "freed",
@@ -153,24 +143,59 @@
         "word": "mount",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "rushmore",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nation",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-05T12:12:13.511783+00:00",
-    "nextRefresh": "2026-07-05T12:12:13.511783+00:00",
-    "articlesAnalyzed": 343,
-    "matchedMentions": 174,
+    "generatedAt": "2026-07-05T14:27:59.912838+00:00",
+    "nextRefresh": "2026-07-05T14:27:59.912838+00:00",
+    "articlesAnalyzed": 345,
+    "matchedMentions": 169,
     "uniquePersonalities": 54,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 30,
-    "neutral": 18,
+    "positive": 42,
+    "negative": 37,
+    "neutral": 21,
     "wordCloud": [
       {
-        "word": "modi",
-        "count": 7,
+        "word": "ram",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "temple",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "donation",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vhp",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -179,32 +204,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "amid",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "row",
+        "word": "tmc",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ram",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crore",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "kishor",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bihar",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bankipur",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "question",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "opposition",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -214,117 +249,82 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vhp",
+        "word": "wedding",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bajaj",
+        "word": "crore",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "police",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "adani",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "party",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "tour",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "breaks",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "film",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "prasad",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "khan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gauri",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "photo",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "mandir",
-        "count": 3,
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bihar",
-        "count": 3,
+        "word": "infighting",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bankipur",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "finance",
-        "count": 3,
+        "word": "slams",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "ayodhya",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bypoll",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "temple",
+        "word": "shut",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "warning",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "mann",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "urges",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "video",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hindus",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "treated",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-05T12:12:25.363981+00:00",
-    "nextRefresh": "2026-07-05T12:12:25.363981+00:00",
-    "articlesAnalyzed": 481,
-    "matchedMentions": 64,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-07-05T14:28:13.301030+00:00",
+    "nextRefresh": "2026-07-05T14:28:13.301030+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 57,
+    "uniquePersonalities": 32,
     "dataSource": "live-rss"
   }
 }
