@@ -1,37 +1,27 @@
 {
   "us": {
-    "positive": 48,
-    "negative": 41,
+    "positive": 51,
+    "negative": 38,
     "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 65,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "america",
-        "count": 21,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "swift",
-        "count": 14,
-        "sentiment": "positive"
-      },
-      {
-        "word": "fifa",
-        "count": 12,
+        "count": 76,
         "sentiment": "neutral"
       },
       {
         "word": "cup",
-        "count": 12,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "nato",
-        "count": 11,
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "america",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -40,13 +30,33 @@
         "sentiment": "neutral"
       },
       {
+        "word": "fifa",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "swift",
+        "count": 10,
+        "sentiment": "positive"
+      },
+      {
+        "word": "summit",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "calls",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
-        "count": 10,
+        "word": "red",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "card",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -55,42 +65,12 @@
         "sentiment": "neutral"
       },
       {
+        "word": "ukraine",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "balogun",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "summit",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "atlantic",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republishes",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "taylor",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wedding",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "red",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -100,27 +80,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "former",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "debate",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "power",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "anti-trump",
+        "word": "presidency",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "essay",
+        "word": "stock",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "usa",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -135,91 +110,141 @@
         "sentiment": "neutral"
       },
       {
-        "word": "speech",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "card",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "mamdanis",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "travis",
+        "word": "florida",
         "count": 5,
-        "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-07-06T07:07:50.358208+00:00",
-    "nextRefresh": "2026-07-06T07:07:50.358208+00:00",
-    "articlesAnalyzed": 344,
-    "matchedMentions": 172,
-    "uniquePersonalities": 49,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 48,
-    "negative": 32,
-    "neutral": 20,
-    "wordCloud": [
-      {
-        "word": "satluj",
-        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "dosanjh",
-        "count": 10,
+        "word": "race",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "opening",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "market",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gains",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "faces",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kyiv",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strikes",
+        "count": 5,
+        "sentiment": "negative"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-07-06T11:59:16.559576+00:00",
+    "nextRefresh": "2026-07-06T11:59:16.559576+00:00",
+    "articlesAnalyzed": 339,
+    "matchedMentions": 174,
+    "uniquePersonalities": 48,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 38,
+    "negative": 38,
+    "neutral": 24,
+    "wordCloud": [
+      {
+        "word": "india",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kejriwal",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "singh",
+        "word": "row",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "prasad",
+        "word": "shah",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "ban",
-        "count": 4,
-        "sentiment": "negative"
+        "word": "nabin",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
-        "word": "film",
+        "word": "remark",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "temple",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "zee",
+        "word": "australia",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bengaluru",
+        "word": "nitin",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bank",
+        "word": "never",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "parvesh",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "verma",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -229,102 +254,77 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sukhbir",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "badal",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "condemns",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "tribute",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "syama",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mookerjee",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "karur",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stampede",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "case",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "plea",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "australia",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "updates",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kejriwal",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "aap",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ram",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "mandir",
+        "word": "government",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "donation",
+        "word": "congress",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "co-founder",
+        "word": "cooperative",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "insurance",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meeting",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "star",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "birthday",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "singh",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cong",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hits",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "year-old",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dravid",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-06T07:08:04.005051+00:00",
-    "nextRefresh": "2026-07-06T07:08:04.005051+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 65,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-07-06T11:59:29.371232+00:00",
+    "nextRefresh": "2026-07-06T11:59:29.371232+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 82,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
 }
