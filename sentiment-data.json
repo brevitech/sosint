@@ -1,47 +1,57 @@
 {
   "us": {
-    "positive": 50,
-    "negative": 42,
-    "neutral": 8,
+    "positive": 43,
+    "negative": 46,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 82,
+        "count": 71,
         "sentiment": "neutral"
       },
       {
         "word": "fifa",
-        "count": 24,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "balogun",
-        "count": 24,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "red",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "card",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "accounts",
         "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
+        "word": "card",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "platner",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cup",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "accounts",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "assault",
+        "count": 12,
+        "sentiment": "negative"
+      },
+      {
+        "word": "nato",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -50,19 +60,19 @@
         "sentiment": "neutral"
       },
       {
+        "word": "former",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "path",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "strikes",
         "count": 9,
         "sentiment": "negative"
-      },
-      {
-        "word": "against",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nato",
-        "count": 9,
-        "sentiment": "neutral"
       },
       {
         "word": "calls",
@@ -70,22 +80,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "platner",
+        "word": "sexual",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "man",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "assault",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "swift",
-        "count": 8,
-        "sentiment": "positive"
-      },
-      {
-        "word": "white",
+        "word": "rules",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -100,87 +105,82 @@
         "sentiment": "neutral"
       },
       {
-        "word": "allies",
+        "word": "graham",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "suspension",
+        "word": "best",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "forward",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "accuses",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "white",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "swift",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "summit",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "folarin",
+        "word": "campaign",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "man",
+        "word": "reflect",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "woman",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "maine",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "candidate",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wedding",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "australia",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kelce",
+        "word": "power",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-06T20:49:15.227365+00:00",
-    "nextRefresh": "2026-07-06T20:49:15.227365+00:00",
-    "articlesAnalyzed": 342,
-    "matchedMentions": 178,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-07-06T22:09:34.047206+00:00",
+    "nextRefresh": "2026-07-06T22:09:34.047206+00:00",
+    "articlesAnalyzed": 343,
+    "matchedMentions": 180,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 48,
-    "negative": 38,
-    "neutral": 14,
+    "positive": 51,
+    "negative": 36,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 13,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "chief",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "minister",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -227,6 +227,11 @@
         "word": "security",
         "count": 5,
         "sentiment": "positive"
+      },
+      {
+        "word": "bjp",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "dosanjh",
@@ -312,19 +317,14 @@
         "word": "seeks",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-06T20:49:28.802631+00:00",
-    "nextRefresh": "2026-07-06T20:49:28.802631+00:00",
-    "articlesAnalyzed": 466,
+    "generatedAt": "2026-07-06T22:09:45.922044+00:00",
+    "nextRefresh": "2026-07-06T22:09:45.922044+00:00",
+    "articlesAnalyzed": 468,
     "matchedMentions": 73,
-    "uniquePersonalities": 43,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
 }
