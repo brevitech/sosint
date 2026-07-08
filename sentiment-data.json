@@ -1,38 +1,43 @@
 {
   "us": {
-    "positive": 34,
-    "negative": 59,
+    "positive": 35,
+    "negative": 58,
     "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 42,
+        "count": 35,
         "sentiment": "neutral"
       },
       {
         "word": "platner",
-        "count": 29,
+        "count": 32,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 25,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "race",
-        "count": 22,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
         "word": "maine",
-        "count": 21,
+        "count": 24,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "race",
+        "count": 23,
         "sentiment": "neutral"
       },
       {
         "word": "nato",
-        "count": 17,
+        "count": 15,
         "sentiment": "neutral"
+      },
+      {
+        "word": "drop",
+        "count": 15,
+        "sentiment": "negative"
       },
       {
         "word": "graham",
@@ -40,23 +45,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "summit",
-        "count": 14,
+        "word": "court",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "drop",
-        "count": 14,
-        "sentiment": "negative"
-      },
-      {
-        "word": "court",
-        "count": 12,
+        "word": "summit",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "allegation",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
         "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sexual",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -65,19 +75,9 @@
         "sentiment": "negative"
       },
       {
-        "word": "judge",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sexual",
+        "word": "assault",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 9,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "happened",
@@ -85,17 +85,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "election",
-        "count": 9,
+        "word": "calls",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "assault",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "calls",
+        "word": "amid",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -120,24 +115,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "turkey",
+        "word": "election",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 6,
+        "word": "turkey",
+        "count": 7,
         "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "accuses",
-        "count": 6,
-        "sentiment": "negative"
       },
       {
         "word": "greenland",
@@ -145,71 +130,96 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fight",
+        "word": "possible",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "accuses",
+        "count": 5,
         "sentiment": "negative"
       },
       {
-        "word": "karmelo",
+        "word": "allies",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-08T02:22:23.040565+00:00",
-    "nextRefresh": "2026-07-08T02:22:23.040565+00:00",
-    "articlesAnalyzed": 350,
-    "matchedMentions": 164,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-07-08T05:46:06.767162+00:00",
+    "nextRefresh": "2026-07-08T05:46:06.767162+00:00",
+    "articlesAnalyzed": 349,
+    "matchedMentions": 158,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 59,
-    "negative": 20,
-    "neutral": 21,
+    "positive": 48,
+    "negative": 34,
+    "neutral": 18,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 7,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "case",
-        "count": 7,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
-        "count": 6,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "india",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "murder",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "ketan",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "siya",
+        "word": "agarwal",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "tmc",
-        "count": 6,
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
+        "word": "kuch",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ram",
+        "word": "ties",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "khan",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -219,32 +229,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "married",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "police",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ketan",
+        "word": "meets",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "agarwal",
+        "word": "secret",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "murder",
+        "word": "chats",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "global",
+        "word": "siya",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -254,42 +259,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sarma",
+        "word": "another",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "assam",
+        "word": "split",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "brewing",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "temple",
+        "word": "ncp",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "campaign",
+        "word": "patil",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "chetan",
+        "word": "leader",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "vinod",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "indonesia",
+        "word": "tawde",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bengal",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indonesian",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -299,32 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "financial",
+        "word": "global",
         "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "backs",
-        "count": 2,
-        "sentiment": "negative"
-      },
-      {
-        "word": "tough",
-        "count": 2,
-        "sentiment": "negative"
-      },
-      {
-        "word": "anti-drug",
-        "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-08T02:22:37.240548+00:00",
-    "nextRefresh": "2026-07-08T02:22:37.240548+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 56,
-    "uniquePersonalities": 30,
+    "generatedAt": "2026-07-08T05:46:23.409370+00:00",
+    "nextRefresh": "2026-07-08T05:46:23.409370+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 58,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
