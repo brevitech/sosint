@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 45,
-    "negative": 48,
+    "positive": 46,
+    "negative": 47,
     "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 53,
+        "count": 54,
         "sentiment": "neutral"
       },
       {
@@ -16,32 +16,32 @@
       },
       {
         "word": "platner",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 11,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "graham",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "law",
-        "count": 9,
+        "word": "democrats",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "election",
-        "count": 9,
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "law",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -50,29 +50,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "man",
-        "count": 7,
+        "word": "maine",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "race",
-        "count": 6,
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "bill",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "maine",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "housing",
+        "word": "death",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "nato",
@@ -80,12 +75,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "texas",
+        "word": "man",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
+        "word": "withdraws",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -110,12 +105,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "withdraws",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "become",
+        "word": "housing",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -130,12 +120,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "members",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "commission",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "texas",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -150,32 +145,47 @@
         "sentiment": "neutral"
       },
       {
+        "word": "gop",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "blackout",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-10T21:56:51.037479+00:00",
-    "nextRefresh": "2026-07-10T21:56:51.037479+00:00",
+    "generatedAt": "2026-07-10T22:58:30.573436+00:00",
+    "nextRefresh": "2026-07-10T22:58:30.573436+00:00",
     "articlesAnalyzed": 338,
-    "matchedMentions": 130,
-    "uniquePersonalities": 38,
+    "matchedMentions": 131,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 30,
-    "negative": 34,
+    "positive": 31,
+    "negative": 33,
     "neutral": 36,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 15,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "karur",
-        "count": 8,
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zealand",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -185,16 +195,6 @@
       },
       {
         "word": "kishor",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zealand",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -259,11 +259,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "victims",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
         "word": "case",
         "count": 4,
         "sentiment": "neutral"
@@ -317,14 +312,19 @@
         "word": "crash",
         "count": 3,
         "sentiment": "negative"
+      },
+      {
+        "word": "investigator",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-10T21:57:03.843489+00:00",
-    "nextRefresh": "2026-07-10T21:57:03.843489+00:00",
-    "articlesAnalyzed": 466,
-    "matchedMentions": 80,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-07-10T22:58:43.995253+00:00",
+    "nextRefresh": "2026-07-10T22:58:43.995253+00:00",
+    "articlesAnalyzed": 467,
+    "matchedMentions": 81,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
