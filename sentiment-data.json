@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 45,
-    "negative": 45,
+    "positive": 47,
+    "negative": 43,
     "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 50,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
@@ -16,26 +16,26 @@
       },
       {
         "word": "iran",
-        "count": 12,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "election",
         "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "platner",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "nato",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "election",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -50,14 +50,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "won",
+        "word": "law",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "talks",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "won",
+        "count": 5,
+        "sentiment": "positive"
       },
       {
         "word": "sign",
@@ -75,11 +85,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "race",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "republican",
         "count": 5,
         "sentiment": "neutral"
@@ -88,11 +93,6 @@
         "word": "fight",
         "count": 5,
         "sentiment": "negative"
-      },
-      {
-        "word": "real",
-        "count": 5,
-        "sentiment": "neutral"
       },
       {
         "word": "former",
@@ -105,17 +105,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "law",
+        "word": "become",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "cup",
+        "word": "against",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -153,20 +148,25 @@
         "word": "looks",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "corruption",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-10T16:22:05.755758+00:00",
-    "nextRefresh": "2026-07-10T16:22:05.755758+00:00",
-    "articlesAnalyzed": 340,
-    "matchedMentions": 136,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-07-10T18:19:46.225990+00:00",
+    "nextRefresh": "2026-07-10T18:19:46.225990+00:00",
+    "articlesAnalyzed": 342,
+    "matchedMentions": 125,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
+    "positive": 43,
     "negative": 31,
-    "neutral": 23,
+    "neutral": 26,
     "wordCloud": [
       {
         "word": "modi",
@@ -174,18 +174,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "karur",
-        "count": 11,
+        "word": "probe",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "stampede",
-        "count": 9,
-        "sentiment": "negative"
+        "word": "cbi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fadnavis",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "karur",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -194,7 +204,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "police",
+        "word": "pawar",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crash",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "investigator",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "withdraws",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bypoll",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -214,37 +244,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "victims",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "faults",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "bypoll",
+        "word": "candidate",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "wimbledon",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kohli",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "withdraws",
+        "word": "bankipur",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -254,7 +259,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "down",
+        "word": "visit",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ajit",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -264,34 +274,29 @@
         "sentiment": "neutral"
       },
       {
+        "word": "victims",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
         "word": "congress",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "targets",
+        "word": "bihar",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "dmk",
+        "word": "donation",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "fold",
+        "word": "stampede",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bankipur",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "candidate",
-        "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "abhishek",
@@ -312,19 +317,14 @@
         "word": "tower",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "australia",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-10T16:22:24.476535+00:00",
-    "nextRefresh": "2026-07-10T16:22:24.476535+00:00",
-    "articlesAnalyzed": 481,
-    "matchedMentions": 85,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-07-10T18:19:59.436160+00:00",
+    "nextRefresh": "2026-07-10T18:19:59.436160+00:00",
+    "articlesAnalyzed": 482,
+    "matchedMentions": 83,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
