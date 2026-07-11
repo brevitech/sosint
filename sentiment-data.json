@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 47,
-    "negative": 48,
-    "neutral": 5,
+    "positive": 48,
+    "negative": 46,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 55,
+        "count": 54,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 20,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
@@ -55,22 +55,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "death",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
         "word": "housing",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "cup",
+        "word": "security",
         "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "deal",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "threatens",
+        "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "death",
         "count": 5,
         "sentiment": "negative"
       },
@@ -95,6 +100,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "cup",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "man",
         "count": 5,
         "sentiment": "neutral"
@@ -108,11 +118,6 @@
         "word": "doj",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "security",
-        "count": 5,
-        "sentiment": "positive"
       },
       {
         "word": "former",
@@ -130,14 +135,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "swift",
+        "word": "threatens",
         "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "wedding",
-        "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "funeral",
@@ -156,8 +156,8 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-11T10:59:16.706283+00:00",
-    "nextRefresh": "2026-07-11T10:59:16.706283+00:00",
+    "generatedAt": "2026-07-11T11:55:56.371631+00:00",
+    "nextRefresh": "2026-07-11T11:55:56.371631+00:00",
     "articlesAnalyzed": 347,
     "matchedMentions": 147,
     "uniquePersonalities": 42,
@@ -165,12 +165,12 @@
   },
   "india": {
     "positive": 53,
-    "negative": 24,
-    "neutral": 23,
+    "negative": 25,
+    "neutral": 22,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 15,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -180,7 +180,7 @@
       },
       {
         "word": "zealand",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -229,7 +229,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kohli",
+        "word": "global",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -240,6 +240,11 @@
       },
       {
         "word": "visit",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -259,7 +264,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "buzz",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -269,22 +274,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "year-old",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "khan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "hails",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "india-new",
+        "word": "kohli",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -317,13 +312,18 @@
         "word": "federer",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "four",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-11T10:59:31.436537+00:00",
-    "nextRefresh": "2026-07-11T10:59:31.436537+00:00",
-    "articlesAnalyzed": 466,
-    "matchedMentions": 79,
+    "generatedAt": "2026-07-11T11:56:08.551495+00:00",
+    "nextRefresh": "2026-07-11T11:56:08.551495+00:00",
+    "articlesAnalyzed": 480,
+    "matchedMentions": 73,
     "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
