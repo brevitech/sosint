@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 42,
+    "positive": 44,
     "negative": 50,
-    "neutral": 8,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 59,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
@@ -15,22 +15,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
         "word": "york",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "times",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "subpoenas",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -40,7 +25,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "times",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "subpoenas",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "platner",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -60,6 +60,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "case",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "hunter",
         "count": 9,
         "sentiment": "neutral"
@@ -72,11 +77,6 @@
       {
         "word": "suit",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -95,16 +95,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "against",
         "count": 8,
         "sentiment": "neutral"
@@ -117,6 +107,11 @@
       {
         "word": "boys",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -153,24 +148,29 @@
         "word": "bill",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "wins",
+        "count": 6,
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-11T22:41:55.183780+00:00",
-    "nextRefresh": "2026-07-11T22:41:55.183780+00:00",
+    "generatedAt": "2026-07-11T23:50:35.895278+00:00",
+    "nextRefresh": "2026-07-11T23:50:35.895278+00:00",
     "articlesAnalyzed": 357,
-    "matchedMentions": 168,
-    "uniquePersonalities": 41,
+    "matchedMentions": 163,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 50,
-    "negative": 31,
-    "neutral": 19,
+    "positive": 49,
+    "negative": 28,
+    "neutral": 23,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 15,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -179,12 +179,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "india",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "crore",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -204,6 +204,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "congress",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ties",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "away",
         "count": 4,
         "sentiment": "neutral"
@@ -214,22 +224,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "role",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "ambani",
         "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "abdullah",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mla",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "offered",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -249,17 +254,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "delhi",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ties",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -274,7 +269,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "statehood",
+        "word": "centre",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -314,17 +309,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
-        "count": 3,
+        "word": "space",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sector",
+        "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-11T22:42:07.202138+00:00",
-    "nextRefresh": "2026-07-11T22:42:07.202138+00:00",
+    "generatedAt": "2026-07-11T23:50:49.309568+00:00",
+    "nextRefresh": "2026-07-11T23:50:49.309568+00:00",
     "articlesAnalyzed": 465,
-    "matchedMentions": 72,
-    "uniquePersonalities": 35,
+    "matchedMentions": 71,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
