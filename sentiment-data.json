@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 51,
+    "positive": 42,
+    "negative": 50,
     "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 56,
+        "count": 59,
         "sentiment": "neutral"
       },
       {
@@ -21,17 +21,22 @@
       },
       {
         "word": "york",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "times",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "subpoenas",
-        "count": 10,
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -70,8 +75,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
-        "count": 9,
+        "word": "administration",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -95,8 +100,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 7,
+        "word": "case",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "proud",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "boys",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -133,39 +153,19 @@
         "word": "bill",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "race",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wins",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "bribery",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-11T21:43:36.782949+00:00",
-    "nextRefresh": "2026-07-11T21:43:36.782949+00:00",
+    "generatedAt": "2026-07-11T22:41:55.183780+00:00",
+    "nextRefresh": "2026-07-11T22:41:55.183780+00:00",
     "articlesAnalyzed": 357,
-    "matchedMentions": 165,
-    "uniquePersonalities": 40,
+    "matchedMentions": 168,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 49,
-    "negative": 32,
+    "positive": 50,
+    "negative": 31,
     "neutral": 19,
     "wordCloud": [
       {
@@ -230,6 +230,11 @@
       },
       {
         "word": "offered",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "claim",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "congress",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "space",
-        "count": 2,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-11T21:43:47.181512+00:00",
-    "nextRefresh": "2026-07-11T21:43:47.181512+00:00",
+    "generatedAt": "2026-07-11T22:42:07.202138+00:00",
+    "nextRefresh": "2026-07-11T22:42:07.202138+00:00",
     "articlesAnalyzed": 465,
-    "matchedMentions": 69,
-    "uniquePersonalities": 34,
+    "matchedMentions": 72,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
