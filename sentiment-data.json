@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 46,
-    "negative": 47,
-    "neutral": 7,
+    "positive": 45,
+    "negative": 49,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 54,
+        "count": 51,
         "sentiment": "neutral"
       },
       {
@@ -15,32 +15,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "platner",
+        "word": "senate",
         "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "platner",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
         "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "graham",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "election",
-        "count": 10,
+        "word": "maine",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "law",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "race",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bill",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -50,17 +60,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "maine",
+        "word": "housing",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "race",
+        "word": "election",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "man",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blackout",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
+        "word": "cuba",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sign",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -75,12 +100,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "man",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "withdraws",
+        "word": "texas",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -100,12 +120,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "board",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "housing",
+        "word": "become",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -115,62 +130,47 @@
         "sentiment": "positive"
       },
       {
-        "word": "sign",
+        "word": "against",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "members",
+        "word": "attack",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "ufc",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "commission",
+        "word": "suffers",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "texas",
+        "word": "ice",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "musk",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gop",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "blackout",
-        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-10T22:58:30.573436+00:00",
-    "nextRefresh": "2026-07-10T22:58:30.573436+00:00",
-    "articlesAnalyzed": 338,
-    "matchedMentions": 131,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-07-11T00:00:54.035688+00:00",
+    "nextRefresh": "2026-07-11T00:00:54.035688+00:00",
+    "articlesAnalyzed": 344,
+    "matchedMentions": 136,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 31,
+    "positive": 32,
     "negative": 33,
-    "neutral": 36,
+    "neutral": 35,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 16,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-10T22:58:43.995253+00:00",
-    "nextRefresh": "2026-07-10T22:58:43.995253+00:00",
+    "generatedAt": "2026-07-11T00:01:06.220727+00:00",
+    "nextRefresh": "2026-07-11T00:01:06.220727+00:00",
     "articlesAnalyzed": 467,
     "matchedMentions": 81,
-    "uniquePersonalities": 38,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
