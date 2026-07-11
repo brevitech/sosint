@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 49,
-    "neutral": 7,
+    "positive": 42,
+    "negative": 50,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
@@ -16,26 +16,21 @@
       },
       {
         "word": "democrats",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "law",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "platner",
-        "count": 10,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "york",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "times",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "subpoenas",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -46,6 +41,16 @@
       },
       {
         "word": "force",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "law",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "platner",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -65,27 +70,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "subpoenas",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "reporting",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
+        "word": "senate",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israeli",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "settlers",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "graham",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -100,12 +110,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "housing",
+        "word": "bill",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -148,29 +153,29 @@
         "word": "against",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "journalists",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-11T18:54:25.444366+00:00",
-    "nextRefresh": "2026-07-11T18:54:25.444366+00:00",
-    "articlesAnalyzed": 354,
-    "matchedMentions": 156,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-07-11T20:03:27.505037+00:00",
+    "nextRefresh": "2026-07-11T20:03:27.505037+00:00",
+    "articlesAnalyzed": 355,
+    "matchedMentions": 161,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 38,
-    "neutral": 16,
+    "positive": 49,
+    "negative": 34,
+    "neutral": 17,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 12,
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zealand",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -180,12 +185,7 @@
       },
       {
         "word": "india",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zealand",
-        "count": 6,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -214,11 +214,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "away",
         "count": 4,
         "sentiment": "neutral"
@@ -229,17 +224,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ambani",
         "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "mla",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -255,6 +255,16 @@
       },
       {
         "word": "statehood",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "security",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "wife",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -279,26 +289,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "anubrata",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mandal",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "joins",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rebel",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
         "word": "favourite",
         "count": 3,
         "sentiment": "neutral"
@@ -309,22 +299,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ruled",
+        "word": "congress",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "harshit",
-        "count": 3,
+        "word": "reliance",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "anil",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-11T18:54:38.056944+00:00",
-    "nextRefresh": "2026-07-11T18:54:38.056944+00:00",
-    "articlesAnalyzed": 467,
+    "generatedAt": "2026-07-11T20:03:54.006299+00:00",
+    "nextRefresh": "2026-07-11T20:03:54.006299+00:00",
+    "articlesAnalyzed": 465,
     "matchedMentions": 65,
-    "uniquePersonalities": 35,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
 }
