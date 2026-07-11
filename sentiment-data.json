@@ -1,17 +1,22 @@
 {
   "us": {
-    "positive": 43,
-    "negative": 48,
-    "neutral": 9,
+    "positive": 44,
+    "negative": 49,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 51,
+        "count": 53,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
         "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -21,11 +26,6 @@
       },
       {
         "word": "platner",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -90,11 +90,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "judge",
         "count": 7,
         "sentiment": "neutral"
@@ -150,32 +145,37 @@
         "sentiment": "neutral"
       },
       {
+        "word": "against",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "journalists",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-11T17:51:41.798405+00:00",
-    "nextRefresh": "2026-07-11T17:51:41.798405+00:00",
-    "articlesAnalyzed": 353,
-    "matchedMentions": 151,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-07-11T18:54:25.444366+00:00",
+    "nextRefresh": "2026-07-11T18:54:25.444366+00:00",
+    "articlesAnalyzed": 354,
+    "matchedMentions": 156,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 39,
-    "neutral": 20,
+    "positive": 46,
+    "negative": 38,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 15,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "crore",
-        "count": 11,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -185,51 +185,41 @@
       },
       {
         "word": "zealand",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "vietnam",
+        "word": "bjp",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "janaki",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "others",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "abdullah",
-        "count": 5,
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "offered",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "boat",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indian",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ambani",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mla",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "congress",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "away",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -244,12 +234,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "reliance",
+        "word": "ambani",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "anil",
+        "word": "mla",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vijay",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rajinikanth",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -259,7 +259,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
+        "word": "haasan",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pour",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tributes",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "passes",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -284,7 +299,7 @@
         "sentiment": "negative"
       },
       {
-        "word": "khan",
+        "word": "favourite",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -302,29 +317,14 @@
         "word": "harshit",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "rana",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "series",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tragedy",
-        "count": 2,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-11T17:51:55.107777+00:00",
-    "nextRefresh": "2026-07-11T17:51:55.107777+00:00",
-    "articlesAnalyzed": 464,
-    "matchedMentions": 61,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-07-11T18:54:38.056944+00:00",
+    "nextRefresh": "2026-07-11T18:54:38.056944+00:00",
+    "articlesAnalyzed": 467,
+    "matchedMentions": 65,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
