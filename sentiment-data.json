@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 45,
+    "positive": 46,
     "negative": 49,
-    "neutral": 6,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 51,
+        "count": 55,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 15,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
@@ -20,13 +20,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "platner",
+        "word": "democrats",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
-        "count": 11,
+        "word": "platner",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -55,12 +55,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "against",
         "count": 7,
         "sentiment": "neutral"
       },
       {
+        "word": "say",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "housing",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -75,22 +85,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "blackout",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cuba",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "sign",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "death",
+        "word": "conspiracy",
         "count": 5,
         "sentiment": "negative"
       },
@@ -125,14 +125,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "won",
+        "word": "death",
         "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "against",
-        "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "attack",
@@ -145,47 +140,47 @@
         "sentiment": "neutral"
       },
       {
+        "word": "cuba",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "suffers",
         "count": 4,
         "sentiment": "negative"
       },
       {
-        "word": "ice",
+        "word": "blackout",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-11T00:00:54.035688+00:00",
-    "nextRefresh": "2026-07-11T00:00:54.035688+00:00",
+    "generatedAt": "2026-07-11T04:09:04.739602+00:00",
+    "nextRefresh": "2026-07-11T04:09:04.739602+00:00",
     "articlesAnalyzed": 344,
-    "matchedMentions": 136,
-    "uniquePersonalities": 41,
+    "matchedMentions": 143,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 32,
-    "negative": 33,
-    "neutral": 35,
+    "positive": 46,
+    "negative": 25,
+    "neutral": 29,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "karur",
-        "count": 7,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "zealand",
-        "count": 7,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
-        "count": 7,
+        "word": "india",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -194,24 +189,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kishor",
+        "word": "visit",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "series",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "special",
-        "count": 6,
+        "word": "welcome",
+        "count": 5,
         "sentiment": "positive"
-      },
-      {
-        "word": "sky",
-        "count": 6,
-        "sentiment": "neutral"
       },
       {
         "word": "against",
@@ -219,67 +209,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bypoll",
+        "word": "target",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "bihar",
+        "word": "gill",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "probe",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fadnavis",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stampede",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "australia",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "candidate",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bankipur",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "orders",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "welcome",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "auckland",
+        "word": "sky",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -289,42 +229,102 @@
         "sentiment": "neutral"
       },
       {
-        "word": "series",
+        "word": "tricolour",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "speech",
+        "word": "candidate",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kishor",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bypoll",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bihar",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bankipur",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ties",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "withdraws",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ram",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "t20i",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abhishek",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "post",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "harry",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "cbi",
+        "word": "strategic",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "pawar",
+        "word": "partnership",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "crash",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "investigator",
+        "word": "trade",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-11T00:01:06.220727+00:00",
-    "nextRefresh": "2026-07-11T00:01:06.220727+00:00",
-    "articlesAnalyzed": 467,
-    "matchedMentions": 81,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-07-11T04:09:21.861852+00:00",
+    "nextRefresh": "2026-07-11T04:09:21.861852+00:00",
+    "articlesAnalyzed": 482,
+    "matchedMentions": 85,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
 }
