@@ -1,12 +1,12 @@
 {
   "us": {
     "positive": 48,
-    "negative": 48,
-    "neutral": 4,
+    "negative": 47,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 55,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
@@ -16,12 +16,12 @@
       },
       {
         "word": "platner",
-        "count": 12,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 12,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -31,17 +31,17 @@
       },
       {
         "word": "graham",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "maine",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "law",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "maine",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -55,9 +55,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
-        "count": 7,
-        "sentiment": "neutral"
+        "word": "death",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "housing",
@@ -70,14 +70,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "election",
+        "word": "cup",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "death",
+        "word": "against",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "conspiracy",
@@ -91,6 +91,11 @@
       },
       {
         "word": "man",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "election",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -120,19 +125,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fans",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "swift",
         "count": 4,
         "sentiment": "positive"
-      },
-      {
-        "word": "private",
-        "count": 4,
-        "sentiment": "neutral"
       },
       {
         "word": "wedding",
@@ -153,24 +148,29 @@
         "word": "funeral",
         "count": 4,
         "sentiment": "negative"
+      },
+      {
+        "word": "sign",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-11T07:08:48.434046+00:00",
-    "nextRefresh": "2026-07-11T07:08:48.434046+00:00",
-    "articlesAnalyzed": 344,
+    "generatedAt": "2026-07-11T09:22:54.240568+00:00",
+    "nextRefresh": "2026-07-11T09:22:54.240568+00:00",
+    "articlesAnalyzed": 346,
     "matchedMentions": 149,
-    "uniquePersonalities": 49,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 61,
-    "negative": 19,
-    "neutral": 20,
+    "positive": 58,
+    "negative": 20,
+    "neutral": 22,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 22,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -180,86 +180,41 @@
       },
       {
         "word": "india",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kishor",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bankipur",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "series",
-        "count": 6,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "tendulkar",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kohli",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "post",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "federer",
-        "count": 5,
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "welcome",
+        "word": "security",
         "count": 4,
         "sentiment": "positive"
       },
       {
-        "word": "trade",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "candidate",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ties",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kumar",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "t20i",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
+        "word": "questions",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -269,7 +224,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kohli",
+        "word": "gill",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -284,47 +239,92 @@
         "sentiment": "neutral"
       },
       {
+        "word": "karur",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "year-old",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "days",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "india-new",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "prashant",
+        "word": "bjp",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "ayodhya",
+        "word": "kaur",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "luxon",
+        "word": "becomes",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "indian",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "shubman",
+        "word": "rallies",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "ind",
+        "word": "never",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "end",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "four",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "emkay",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "financial",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ruled",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-11T07:09:03.660876+00:00",
-    "nextRefresh": "2026-07-11T07:09:03.660876+00:00",
+    "generatedAt": "2026-07-11T09:23:05.141601+00:00",
+    "nextRefresh": "2026-07-11T09:23:05.141601+00:00",
     "articlesAnalyzed": 482,
-    "matchedMentions": 85,
-    "uniquePersonalities": 44,
+    "matchedMentions": 83,
+    "uniquePersonalities": 52,
     "dataSource": "live-rss"
   }
 }
