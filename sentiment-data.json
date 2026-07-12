@@ -6,18 +6,23 @@
     "wordCloud": [
       {
         "word": "graham",
-        "count": 59,
+        "count": 62,
         "sentiment": "neutral"
       },
       {
         "word": "trump",
-        "count": 53,
+        "count": 54,
         "sentiment": "neutral"
       },
       {
         "word": "death",
-        "count": 21,
+        "count": 28,
         "sentiment": "negative"
+      },
+      {
+        "word": "sudden",
+        "count": 20,
+        "sentiment": "neutral"
       },
       {
         "word": "iran",
@@ -26,7 +31,7 @@
       },
       {
         "word": "lindsey",
-        "count": 17,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
@@ -35,8 +40,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sudden",
-        "count": 14,
+        "word": "ally",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senator",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -45,29 +55,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senator",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
         "word": "leaders",
         "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ally",
-        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "illness",
         "count": 10,
         "sentiment": "negative"
-      },
-      {
-        "word": "tribute",
-        "count": 10,
-        "sentiment": "neutral"
       },
       {
         "word": "foreign",
@@ -80,23 +75,33 @@
         "sentiment": "neutral"
       },
       {
+        "word": "air",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "force",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sen",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "law",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "west",
+        "word": "senate",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sen",
-        "count": 6,
+        "word": "replace",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -140,41 +145,31 @@
         "sentiment": "neutral"
       },
       {
+        "word": "west",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "bank",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "starmer",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mourn",
-        "count": 6,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-12T17:56:22.671436+00:00",
-    "nextRefresh": "2026-07-12T17:56:22.671436+00:00",
+    "generatedAt": "2026-07-12T19:01:53.691686+00:00",
+    "nextRefresh": "2026-07-12T19:01:53.691686+00:00",
     "articlesAnalyzed": 354,
-    "matchedMentions": 186,
-    "uniquePersonalities": 40,
+    "matchedMentions": 187,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 43,
-    "negative": 34,
-    "neutral": 23,
+    "positive": 42,
+    "negative": 37,
+    "neutral": 21,
     "wordCloud": [
       {
         "word": "india",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -196,11 +191,6 @@
       {
         "word": "chopra",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -289,21 +279,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "emkay",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "financial",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "premium",
         "count": 2,
         "sentiment": "neutral"
@@ -317,14 +292,39 @@
         "word": "colonial",
         "count": 2,
         "sentiment": "neutral"
+      },
+      {
+        "word": "cousins",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vinyl",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gifted",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "australia",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "astronauts",
+        "count": 2,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-12T17:56:36.031634+00:00",
-    "nextRefresh": "2026-07-12T17:56:36.031634+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 58,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-07-12T19:02:06.342927+00:00",
+    "nextRefresh": "2026-07-12T19:02:06.342927+00:00",
+    "articlesAnalyzed": 465,
+    "matchedMentions": 52,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
 }
