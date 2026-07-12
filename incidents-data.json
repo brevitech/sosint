@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-12T20:39:08.029109+00:00",
+  "generatedAt": "2026-07-12T21:43:34.388061+00:00",
   "dataSource": "live-osint",
   "incidents": [
     {
       "title": "U.S. strikes Iran over latest ship attack and Tehran responds by hitting Arab states - PBS",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYmNOb0ZjM0xkVXo1ZTFVQjc3cDNsS3JtcWw3c1BBRG04OTBETzItNWM0SmRxSWg5NVdZQTB2SGc0UFkzdmtPekUtM29hY05tVk0wTHlTYmxoWUJiYi1CMWF3dkhsX3Z6Z0Z2N1ZKMG5wY0xrSldhd2lvdGx3V0p3anRUbHlzT29yaDJZRmY3ZVgweWJfNVRVNDNMNE9rZEprTUJvMGFqR3JNRWRMaXY4em9pNkFZUUh6UnfSAb8BQVVfeXFMTW5RV2dXZF9qb1ZaSUVtSU1Va2ZwRS10c3RiTGxqRm9FeU5XSkpRN3NZaHM3TGlmUWpqc2RUYm5rcjFRQkhIQlJSZnR3bmNPVGRKNTZNSE52V0JEU0MtWC1TR3diMDRqZTQyZXAwUHM1Y1FUajkzOWxweDQtRV9OVm1YeEExeWwwWXZPUDR0aG8tX3NldDJtUU9RMndQaHFaY0M1MWJiaWVyZHdrVnNLMVozc0NYSTBNalJyei1TR2s?oc=5",
       "domain": "PBS",
-      "lat": 35.91856682765152,
-      "lon": 51.341704035377724,
+      "lat": 35.47350031059484,
+      "lon": 51.348312012280225,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -15,17 +15,26 @@
       "title": "U.S. Forces Finish Latest Round of Strikes Against Iran - centcom.mil",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUFZncW5PQTNzM1pNellHME5YRXlPa1hCS0E2VG9WUE9KTU1yU2tDcVJFSDhEemprM0ZySnRiaEl5SENLd3hJWnZkeGdCSDc2NHVlS0o3ZHVuZTRrREJ2SDFCR29kSGJ6XzZiV1lTa0FGVUJ5STBJdWdpS1F0MDhCc0NUcmpHLXFRMVBNMU5ZeHBIa2V0SGlERDlYeWU0YVNyMkNfRm81ckFZMjFzVGs4Wmt4anZXalU?oc=5",
       "domain": "centcom.mil",
-      "lat": 32.14102911636118,
-      "lon": 52.81904725386512,
+      "lat": 31.984948723411012,
+      "lon": 53.23627365293688,
       "color": "#ef4444",
       "category": "attack"
     },
     {
-      "title": "Iran reports new attacks on military targets on its largest island near the Strait of Hormuz - AP News",
+      "title": "US strikes Iran again as it tries to limit attacks on ships on the Strait of Hormuz - AP News",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZWNIZWpPMUROMXlXU0EwT1pjWWUycXFoTjBobEJLM0JpWGhjTWZwN0Q2RkxaY3N6cU9fNXZOT194MWFHYllDYUh4RWdEdmF3NVpGQ2tlOTl4dWI5VzVMWlgycVBYcmtSRDR6UV9lQmtoWkZMUWRvLUYwZXhIQzlGcVVpTGlMZElhRkxkT0pkMXlEZDJmSll0c2JsYkY?oc=5",
       "domain": "AP News",
-      "lat": 26.574303667240304,
-      "lon": 56.40451517239145,
+      "lat": 26.34314397815715,
+      "lon": 56.16151152210024,
+      "color": "#3b82f6",
+      "category": "naval"
+    },
+    {
+      "title": "Iran launches attacks on Gulf states after heaviest U.S. strikes in months - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORUNEd2J3SmxCOVdjblNITm5abTREZkJaOXZIRzFNTWFLaTV4aTBsZnB0MXllclhjQzRZb0ppYWZObmIzeXJ5SkNNNU1QalZPRTZEdFo4Qm1tMVFzSi10YXN4aVMxU2gyOXhhTFE5RE9DUVJLT3JPLXV6OVJ0S3FrTm9jX25HUVJFSmNDZXE4eDZGZ3RVemc4enlVUlFncDh4MXZLUUdWVVpVazc2?oc=5",
+      "domain": "The Washington Post",
+      "lat": 31.753533319978587,
+      "lon": 52.91628931972718,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -33,17 +42,8 @@
       "title": "US conducts strikes on Iran missile systems around Strait of Hormuz, Axios reports - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVlFEMTBmd3hvZzZpVnBYcnNnUlBnQW9DRlkydFVqUTM0S3I2emo0TDczX3NJSGNHdXJqZGJreUhDRDhoYnNUck9vRGVpWEVtMGNnNElfY1lzR0NZakdlSWtTZEExQ2YyWFFKWTNhLXpwbk9HRkF6VGs4V0pLTDRRT013Z3dvc1hZVWthV0x6MzFneHlxei1LZWg5NVNKUE1oV2pfTUNlbkIwNU1tVU14MmhXc1Z2VmNNZnR5Q2thYjFDMWRyaUNJbw?oc=5",
       "domain": "Reuters",
-      "lat": 26.771298314859756,
-      "lon": 56.26742925477226,
-      "color": "#f97316",
-      "category": "airstrike"
-    },
-    {
-      "title": "Missiles and drones fired at Gulf states after night of US strikes on Iran - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ1BueGpGZTB1RHB3czg0SjUycDRQbmp4NWJTb3RQdE43NkNWWUlmbm9SdGJOTXRuTlhWbTVZeDRhVHg4Ykd2blBfZDdWS2FsQWxOZXJkdHEyTm5jSlQ5U1ZDX3dRSVN6aVg2RDZKVk53WW0tZlZ4NUFDbkFLVER1eHU4bjhnam5jYUJuSFc4OEwwU19YUldRWmFyMVlpZ1BsVkJOTHVZZVJpRExhalVJVTVtcWR1Z9IBuwFBVV95cUxNQmpTY21EcXRXV1pSUGhxYU1kZ25aRlE0TzRidVJWV3pLaFQzOXkxbEdLcW13c2lGUzFzcnhnYm9mNHNjVktJNTA5dDRrN040blprM3VEamgzb3JjaVdXMDJzTVpaemc3Vmg3QkxoMXdpNEhQREZscmpCMTVVSUp6SmVXMS0yTGZXVjJySFRxRHR3VE83NHZ3WnliRGRnVEFXTjZrelNrYmR0Tldjc0FYWkltSmxtY1JLQkcw?oc=5",
-      "domain": "Al Jazeera",
-      "lat": 31.912971292714577,
-      "lon": 52.83569216140152,
+      "lat": 26.312094768686148,
+      "lon": 56.154889375955065,
       "color": "#f97316",
       "category": "airstrike"
     },
@@ -51,8 +51,8 @@
       "title": "Live - Trump says Strait of Hormuz open as US-Iran attacks continue - ایران اینترنشنال",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nSm95M1E4cU4xLVlDY2xWUldXN2RfUjZ4RWRYWVo2N3UyVkg5RmNDV0Z0LVVBX282TjFLWEUwVEZWN2FUWkh3MkhJcVQ0U01MLXFnN015WlhIam5JbXc?oc=5",
       "domain": "ایران اینترنشنال",
-      "lat": 26.234870187712467,
-      "lon": 56.422920634895156,
+      "lat": 26.584055564824656,
+      "lon": 56.26033414493583,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -60,8 +60,35 @@
       "title": "US insists Strait of Hormuz is open as it exchanges strikes with Iran - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mUS1jZDJRamh4djBqc2lHbkdsWXNMT3pISTJVNzhHaXNoR21neG5RS2NYb3NhaGRNOVNhbVVCMzJqdVItbU12TV80Vmx1dU03TjN0SGtuMGY4UQ?oc=5",
       "domain": "BBC",
-      "lat": 26.742858686307777,
-      "lon": 56.428031100523754,
+      "lat": 26.55130517679288,
+      "lon": 56.43554613484196,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "US soldiers claim generals ignored warnings ahead of Iran strike - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0yd2VwR0Z4ak5ybXY4cjB4M0FLbkRUVWVJakhyNVNZQU05RHBSWVNxNGlUQmJYWFZDc2hjS2Z4V294RWJJMHZYaUQ0WFRzZHctZXhBWm9KZlBWNV8wRFFv?oc=5",
+      "domain": "The Jerusalem Post",
+      "lat": 31.96738355230232,
+      "lon": 53.25288816131378,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "US conducts strikes on Iran missile systems around Strait of Hormuz: Axios - arabnews.jp",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mUGNiYWlyZ0FueGlSUzJOOGEycXJUQTlLdmZHUG81RjVZakxFZkd6V21zV2FCUTRuZlIwQnAtY1huYXh0aE45clNrSWZPamttWGw5bUZqU1ZZemNMcElITVI4YUo?oc=5",
+      "domain": "arabnews.jp",
+      "lat": 26.527876080425784,
+      "lon": 56.388860232798464,
+      "color": "#f97316",
+      "category": "airstrike"
+    },
+    {
+      "title": "The 'facade' of the U.S.-Iran ceasefire crumbles after after largest round of fighting in months - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT2haYmhlME15X09UNEZSTDdkMGx3ZUdueFBtTDZLUWhwSHNfRnNMMXg1SkV2VjM3ZVY3NE1HNDVBMGFxR2lMSUxwZ0NZdi1MNmROME4yVjcwZXl3QTl6dGQyT3RvcUprWGVSSi1QVWt6UTI0bzUwVTdjSDRnVHp0TVdxVEEwOWlTM0lSWHJQWGJUeldncFF6V1FFZWw1YTgxUlpNRWZ3?oc=5",
+      "domain": "Fortune",
+      "lat": 31.8835181317527,
+      "lon": 52.70949576771625,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -69,53 +96,35 @@
       "title": "U.S. and Iran trade airstrikes again amid conflicting claims over Strait of Hormuz - CNBC",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xaHdRYUx5d3FNZW5XV0xzVHpEbUdmMnl2MEI5eFZoVzF1cDRDTUplVWJ5YVhPTlR6bjR6SHJPV0RIODNVWFRxMWNDSVJtSmRpTG4ycW1KU0ZmclV1OGRXeFZkdm9QcGhPNlAtZzFiSTJBRzlsZVNNM9IBfkFVX3lxTFAtc1d6TU4wX2ZJQ2hHY3RTamdPSkVPQkFFY0RkcEJRbGNycUpkNjA0cV94aWQzS1ZrWFNpQnJyZnBNVWxOQ0x5NVRkNENJN0FwcTdoZjdpcTdIS0ZGRkdzQXM2MnVTT2FxREJKczAwQXo5SHczckJSWnJzenJKQQ?oc=5",
       "domain": "CNBC",
-      "lat": 26.25785674837996,
-      "lon": 56.50106952723244,
+      "lat": 26.591885935851018,
+      "lon": 56.5123625726052,
       "color": "#f97316",
       "category": "airstrike"
-    },
-    {
-      "title": "US conducts strikes on Iran missile systems around Strait of Hormuz: Axios - arabnews.jp",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mUGNiYWlyZ0FueGlSUzJOOGEycXJUQTlLdmZHUG81RjVZakxFZkd6V21zV2FCUTRuZlIwQnAtY1huYXh0aE45clNrSWZPamttWGw5bUZqU1ZZemNMcElITVI4YUo?oc=5",
-      "domain": "arabnews.jp",
-      "lat": 26.477944089612595,
-      "lon": 56.12377447061665,
-      "color": "#f97316",
-      "category": "airstrike"
-    },
-    {
-      "title": "U.S. and Iran trade strikes after IRGC declares Strait of Hormuz \"closed\" - Axios",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdlJhTDJCak96YjhqMWZ0bkswUERLaHZuU2o0S1E1dGdSNTRvOVJIM1JUX3pmeENXQlNQbFBpYV85SmJPVHpRclFvMVNsLTd0YXg2ajJyYm9QZHdGQlo3VmszanZHVU9xN2lrRTE5YVctSnQzMEMwRnZtQWc2WWtOWkE0azJfS2gtWDIyX3dVUjNka3RXVFlvdnpHLTdBZw?oc=5",
-      "domain": "Axios",
-      "lat": 26.67089299159909,
-      "lon": 56.61558277448318,
-      "color": "#ef4444",
-      "category": "attack"
-    },
-    {
-      "title": "Iran war: US claims Strait of Hormuz is 'open' amid strikes - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNVNPY0lhcGZoRXpWWmVWclhKWGcxQWM3OG1ncGdmVkJZbEd6djExLU5nVjlMdk9abUZ5WHJZVThDaWktMi1FSW9DUU0zQ0syN2ctOUlGcU9NUjFwd2w1OWFDUDNZSHRPd1RMYVhvN2lSLVpYUDFEeXEyTnM4bVpGRXVwX1M?oc=5",
-      "domain": "DW.com",
-      "lat": 26.623346201220933,
-      "lon": 56.137023488339956,
-      "color": "#ef4444",
-      "category": "attack"
     },
     {
       "title": "Trump suggests a standing order to attack Iran if it assassinates him. But Vance would make the call - AP News",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNS09GLTR6OERMc0tDYndyV0VZQ3NxdEFwa1Zpc1JZZVpzVFVqME1hLWtaNElHNmZsZjZIbjFyRGwyakdSU0U2cjdXSUFaSlVBYks2ejFtOVg5LUpLZGc4akg3SjI1eXY1VHJveE1TMVUyTHgxR1ZCOWExdHAwQXRUZTloanZ2WWVrbWROLVhsR1VDSEZybHQ2OGttdmI2LWc0Z01V?oc=5",
       "domain": "AP News",
-      "lat": 31.90267194518329,
-      "lon": 53.11914004702307,
+      "lat": 32.194602529737885,
+      "lon": 52.701903092575314,
       "color": "#ef4444",
       "category": "attack"
+    },
+    {
+      "title": "Missiles and drones fired at Gulf states after night of US strikes on Iran - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ1BueGpGZTB1RHB3czg0SjUycDRQbmp4NWJTb3RQdE43NkNWWUlmbm9SdGJOTXRuTlhWbTVZeDRhVHg4Ykd2blBfZDdWS2FsQWxOZXJkdHEyTm5jSlQ5U1ZDX3dRSVN6aVg2RDZKVk53WW0tZlZ4NUFDbkFLVER1eHU4bjhnam5jYUJuSFc4OEwwU19YUldRWmFyMVlpZ1BsVkJOTHVZZVJpRExhalVJVTVtcWR1Z9IBuwFBVV95cUxNQmpTY21EcXRXV1pSUGhxYU1kZ25aRlE0TzRidVJWV3pLaFQzOXkxbEdLcW13c2lGUzFzcnhnYm9mNHNjVktJNTA5dDRrN040blprM3VEamgzb3JjaVdXMDJzTVpaemc3Vmg3QkxoMXdpNEhQREZscmpCMTVVSUp6SmVXMS0yTGZXVjJySFRxRHR3VE83NHZ3WnliRGRnVEFXTjZrelNrYmR0Tldjc0FYWkltSmxtY1JLQkcw?oc=5",
+      "domain": "Al Jazeera",
+      "lat": 31.941277372064953,
+      "lon": 53.27814603707464,
+      "color": "#f97316",
+      "category": "airstrike"
     },
     {
       "title": "Iran attacks five Gulf nations, shuts Hormuz after US bombing: All to know - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYjhJbnhrSGdFY20wRFRnMy1DZVhObENaZlJYTHdtNC1qZWVCMk5uTEMtb0c2YkZOaUs5RHR5eWk2eHhuSFdwX2dHUU5FMnhSRzdzM2xJeG8yRHdubGFFdWxuLUJiZW55QUh3Tm12aTNhSVcya0pkeThXcDN3MURHZXNXdklFMTlGSWhDcHpWanV2OE5iLTdIMU5oYlZfOWo0UFFCTXd4Sm9OSy1DVUx4QzJBQdIBuAFBVV95cUxOb2Y4amh0V0tremRhSnNrZTJiSm5mdHBDQVQ3TzBIMVA3WFBqVnpLQkpYTGkwX3RRT04wNC1WcUFRQzd4eEdLd0wxc3ZoWDdJS3psQnZEM1lfaWJLaEMtN0JGVFRyOWRHbU1VaHRhb3U3ZDRpRUNTZmJqQ2N6NGgwbWFfX3RhSFU0ZUpQRVplMWNNVW5QTWVLQ2hDa0VVdXhQLTNxMEU3bWpqcjBkdWFwVDJUNmhYWlRw?oc=5",
       "domain": "Al Jazeera",
-      "lat": 31.932499617676918,
-      "lon": 52.85105728505352,
+      "lat": 31.757749761360476,
+      "lon": 53.11048507369762,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -123,26 +132,8 @@
       "title": "Concern for renewed war in Iran as US attacks military, civilian targets - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcTZ3YWxEMV9tZGVTaEc5WGxLMGhfUHo0bzI5S0Z6VlN0QlFSMkF4MmtOMGo4d0VKc1dtUmdNT0pITksyTkVydTFLUGRQdW5EWklMMkRpNDBXMFRWc2xFNWY4MWg2Y002MUNNV2dUcGJmZ0pQUFY2UUlwN19nallMQldRMzNIZ2o3cXo0cmFfV0hUU3VuSmZkci1pMkVzVk1CSmlvdnh0S0RTTzZyX0Y4ck9R0gG3AUFVX3lxTE1uZnBLRVRJSjFkR1pQa0JuVlpTMzU5cjdYWE40RHNyc2lxT3VHUmVvMjMxSHFXcm9MaGprSENhdjBOaFRxMENRZFhqLUk4bnpBeUJCQ1FHd3ZWVHVNeTJ3OUlmZW1udUxmUTVKcDMxSjNZZFBjUm9DSmhCLTRpZ1lwaGoweUwzSXR4ODJOWmhudXVlMjdoSkpub2E5OGV1MzdrWEJiamZkVURoTktLZWotUVhKeTNmRQ?oc=5",
       "domain": "Al Jazeera",
-      "lat": 31.772713201446155,
-      "lon": 53.29695570958481,
-      "color": "#ef4444",
-      "category": "attack"
-    },
-    {
-      "title": "Iran's Revolutionary Guards claim to destroy US HIMARS missile launchers in Kuwait - Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQ0xTaURreXBkTzJHT3RpY0hQNTdsajZZVURNV0N1bGt1VEhRZXR6em04Smd3M1RfM0JiYVRwcUVYUTlZY3RhUHJJYjhQMFEtU1YzUzFNVnFLMHlxY2NmRENPNG9nUFZOOGg4eFQxelZGczJneDBURFk0VDdqNkFCdC1IMTdRZDBHRFgxWWZsdnNFNW5FaERYd01pN0dITldRaU1WRXI5Tm93aGNUNV9JcDdxZ1ZWNXA2TlBqaTd6WnNNWHRC?oc=5",
-      "domain": "Anadolu Ajansı",
-      "lat": 32.295248749340686,
-      "lon": 53.1324333728196,
-      "color": "#f97316",
-      "category": "airstrike"
-    },
-    {
-      "title": "Israeli forces kill five Palestinians in latest attacks on Gaza - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMzh2V1dWTkhEbWhIeV9RbV9DRmppMTdNVFdxMXlydVRxMnNzeEMwOTZISm1wNWdNeDMwZ0hLVlFxYjF4aVl2c3U0UWp0Rk1IZlMyalVYUUI0Qi1SSzFDcjBYWllOTFhFSGVlMGZVZUk2cXBBa0RPUXRmQnBpYnJwWFREc25rTjdzemRBOEV4V2xwNml3OGxIMUxISDg1RzBkRC1hOVYtQdIBrAFBVV95cUxNZ0hfbVRLTkpNelFEeFdMaHBlRFp4SW43VWpvSVh2cTd2WlVEcE9NNkRsaHB0MklUajhOMGl0RjdSZVRrbFNfckFOSGEtNGZDdlU5dFRHdzhDOHNRS0tQOUg0Mmx4VXlFYk9LdTlYNUxxVzhtNUtHRmh6RmxQVGJ3Z3drX2gzNXdRU2c4VjhOYkFGYi0wY1hITTBGWmFLR0R5S3VRR0JNdXl2XzY4?oc=5",
-      "domain": "Al Jazeera",
-      "lat": 31.5861644474148,
-      "lon": 34.31806063389833,
+      "lat": 31.7291154074608,
+      "lon": 52.87570781161071,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -150,17 +141,26 @@
       "title": "Israeli drone strike kills two Palestinians in Gaza City - Middle East Eye",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbzFnZFdGX25vOENpZlY4U3YzQkU2a2hhM1lGUWtmMGROUkNZbHdtT0pQejVROUhiVjRLU3VhRm1pU2dVUERCaTBOVFNzM0J3cU1TOXZldmxaTHpIX2F0cUtpdWJlRUtrcThJbWEwSlVyRWJfT2QzZUgyT2FGWlYtd0pqaEN5ZVBIdVZIZWJTQU1tSDlURnN3ZTAyLVBRVlY5ZnoxUjBxakpBdU1RTUVz?oc=5",
       "domain": "Middle East Eye",
-      "lat": 31.24136441740228,
-      "lon": 34.316576466459686,
+      "lat": 31.247975512773582,
+      "lon": 34.61952959044978,
       "color": "#f97316",
       "category": "airstrike"
+    },
+    {
+      "title": "Israeli forces kill five Palestinians in latest attacks on Gaza - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMzh2V1dWTkhEbWhIeV9RbV9DRmppMTdNVFdxMXlydVRxMnNzeEMwOTZISm1wNWdNeDMwZ0hLVlFxYjF4aVl2c3U0UWp0Rk1IZlMyalVYUUI0Qi1SSzFDcjBYWllOTFhFSGVlMGZVZUk2cXBBa0RPUXRmQnBpYnJwWFREc25rTjdzemRBOEV4V2xwNml3OGxIMUxISDg1RzBkRC1hOVYtQdIBrAFBVV95cUxNZ0hfbVRLTkpNelFEeFdMaHBlRFp4SW43VWpvSVh2cTd2WlVEcE9NNkRsaHB0MklUajhOMGl0RjdSZVRrbFNfckFOSGEtNGZDdlU5dFRHdzhDOHNRS0tQOUg0Mmx4VXlFYk9LdTlYNUxxVzhtNUtHRmh6RmxQVGJ3Z3drX2gzNXdRU2c4VjhOYkFGYi0wY1hITTBGWmFLR0R5S3VRR0JNdXl2XzY4?oc=5",
+      "domain": "Al Jazeera",
+      "lat": 31.790196202134002,
+      "lon": 34.20158391288525,
+      "color": "#ef4444",
+      "category": "attack"
     },
     {
       "title": "Amnesty Calls for War Crimes Probe as Israel Is “Wiping Out Families” in Lebanon - Truthout",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdWs0RTVneGZ0RTZrb2VNaFpOY09uVnFNc1hrSkoyRnBoaUcyZTZYcGFCd0FFbXVHYWxvZDQ2TzQ0VzRhajdUcFlwNFhOak9KS19hdjNUSFN3WU9MWWsxX05XMU5iaE9MQTNiQ01GMU1XZTZXZDd1SzF4MkswOVE4NVFxUzJMZDJ2OXBLRnVmZHRoeVJfeVRyXzhlbERvLXUtNDFaV3JzM3Fta0RN?oc=5",
       "domain": "Truthout",
-      "lat": 33.98871928105641,
-      "lon": 35.94882598068718,
+      "lat": 33.822808682891896,
+      "lon": 35.744486583160636,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -168,26 +168,17 @@
       "title": "US demands Iran publicly state that Strait of Hormuz is open and Tehran won't attack ships anymore - AP News",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMkgxNzlSWHpvYWVhcGhmNkJTRzJIa2R1Z1ZfOGJYdElvenoxa2diSHR6bTFJaWx2M0VZZ0JWM2Y1VjZrYzBOWTlFTUdLNHk2YzFWZGJJazJNSHU2VUdDbnpHaURzc25SeS1PVXp5dEJVWWdhbDdwUkNCTHhlUVQyXzZYOG5ZNlNSektpNUpYbFNYOEs0ZTl4Tk96SHd6b3M?oc=5",
       "domain": "AP News",
-      "lat": 35.38286744632056,
-      "lon": 51.45619533962609,
+      "lat": 35.50582462597214,
+      "lon": 51.65626955611032,
       "color": "#3b82f6",
       "category": "naval"
-    },
-    {
-      "title": "Israeli drones strike Lebanon despite US-brokered framework deal - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb0dqdDdZaEowU3hjUHV2YmwxMTNfYTdDNlB6WXQ1QWxpR3FtbVhpYzZwbURobFF0VnRGdEx6bktMYVRXeDlKcXE5dHZQZGlkOFZMWHFOTEx1WlkwR2puVWJjV2t4TWxmcmpxUHFGUU54aldQa2ZBNnlZaVkxUDNZT0MxMElrY2pMU3hNclgwb25hVEdCdVpjWS1Wc292bHhiYVNnOGUzalTSAa4BQVVfeXFMTWxIb3NPMWlGUEtoaHAzVDF6MGVaWGhzVDl2SHBfNjhmYTlCS0d3OUxfZmZqNi1iS0hLRklJSU5YY1c1WEdZWlY0NXJXVm1wZllrdk9hOHZVMlZvWFpSdEJ5OVgyZzh6VG42YUlDT0RKa2NxcFVhUDhDd01TVWZXZG9YVGNDZ2FtRDdWWm9KTVByRnQyX0t4NnowUm5sbTJRTTVWMUF4cjRuNDlwX3Jn?oc=5",
-      "domain": "Al Jazeera",
-      "lat": 33.76412720069446,
-      "lon": 35.59110522359627,
-      "color": "#f97316",
-      "category": "airstrike"
     },
     {
       "title": "Israeli jets strike Gaza amid fragile ceasefire with Hamas - Crypto Briefing",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQamszbFRHTDVubFZ1eDZmU3l1ZUtuSVFJTWVJMVpoa0pZcFpaZDktUzVlRnNBQ3l5aExqYkJRQksyRklWTmZKY0Nxbm5tMXdvc0dzeXVsNHRzYTh3MTdjX2NPdlBhSXVveURiVUR0R3ZEOElFb2lRVmRYeW40dWp4djR0ZGg0Qk9fdDVWZHBidw?oc=5",
       "domain": "Crypto Briefing",
-      "lat": 31.460651093822193,
-      "lon": 34.64766562044699,
+      "lat": 31.55639680537394,
+      "lon": 34.70776481539199,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -195,8 +186,8 @@
       "title": "Israeli attack in Gaza kills 6 people, including 9-year-old girl, in latest ceasefire violation - The New Indian Express",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONzNfTUQ1bzJFSWluOVVUc0ZIOUNTVERkVEE4X3Q5Z0Z6OE1Ud0pSQnFvZjFTRkxFbi1BcnVCbXZtLU9HMHYzMmFvZC1TY0RUSWJEY3E2Q3Z5ZUpfOU43V0RqdEhYTkU0VEYyUVRPajFzYWpXd3hRaUg1cF9FZTZSZm1iQ09GbDBMLXhlT25oYTVvOC1pLXNmZmM0dk10V2NHeEVDaUpyZ2xjVU9JVVY1X3p1MUFjZlVUYkFsSTRhTjFiSmlQSEZxaEQwZGJrTG1uNjVOQmkzRDRZblRt0gHqAUFVX3lxTE5NN0RMYlBFM01EVWNGV1FGcmFsbWxXQnh0M1EwUkh0cFBGRS0wd0dIYzVPRGhOSEt3cDNpaVVGRVMtbEhJdlJtUUYyQlo3U190V2N2ZEdLamV3VFdJb2diWkdrU1VhcHZuUlVBcXQwRkZqOHZUajBCVjBYb1JxbXRPdnM4OEdOcGVuRlU3TFo1YjdibEFuZ1dJUkp6clZkMHF2U0ZCMGZYREtOUWhOd3dyczA1VDZ5YnJrdGFfVklxcUhkT2hzUjBoWm0yNHBuWm5qTlFsMVhOeHVpYWhhMVJ4R012NzdCTzlWdw?oc=5",
       "domain": "The New Indian Express",
-      "lat": 31.75491384910226,
-      "lon": 34.48819930097811,
+      "lat": 31.333747855724653,
+      "lon": 34.74998069881764,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -204,17 +195,44 @@
       "title": "Gaza aid worker behind World Cup screenings for Palestinians killed in Israeli strike, hospital boss says - CBS News",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM1IwaF9KTzMxRHFuR2xOLTl0eUMyR0JWeHgyUmg2NHZqX2xlTC1VeHBHbTNaM0pRNnJ1WlFCSHU1Yl9seWZ6OFdKTjJkVnRXSXpENHFwM3VnZG1UX0tNQ2NCbzNhRzROTVA2RUo4ampfZ3JHekc5NjY0aDcxRkhuNTdRTEFGVzRnbDdRcUJPSFE0SGRCLTBXVHR4by1pOTZ0?oc=5",
       "domain": "CBS News",
-      "lat": 31.66201865301596,
-      "lon": 34.56196569982523,
+      "lat": 31.55159114265606,
+      "lon": 34.32029170316658,
       "color": "#ef4444",
       "category": "attack"
+    },
+    {
+      "title": "Netanyahu: Sen. Graham urged me to strike Iran; Trump should have opportunity to pursue diplomacy with Iran - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSlNnSDE2TkVRRGRHN1ZPU1l4bXFsd1RZWWRKSE1KNndEYUppSE1Vc1hOSmJBUW9KQ05LRWdvS0JCVnNSWmNBUkRic2RzcFlaUElCNFlTTjhpMjFDamFYUmJqY2VNS1NzOUZadFF3NTF4RjVWRTViaHlfSFlFNEkyLWlVZ2VCcXZQTTBOTm5Ka1FrRXN2MHQzdThDNUNsclk1YkdKYUlDbWw4TjVZc09iZ1BLcTZ3dXVueXNWSkVkYUlnc0ZzMEdWNWFJcVJnYUxqaVp1blBlLXhPam5zaGEzWVJveXI?oc=5",
+      "domain": "The Times of Israel",
+      "lat": 31.793778548494227,
+      "lon": 53.0557281764793,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "Israeli drones strike Lebanon despite US-brokered framework deal - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb0dqdDdZaEowU3hjUHV2YmwxMTNfYTdDNlB6WXQ1QWxpR3FtbVhpYzZwbURobFF0VnRGdEx6bktMYVRXeDlKcXE5dHZQZGlkOFZMWHFOTEx1WlkwR2puVWJjV2t4TWxmcmpxUHFGUU54aldQa2ZBNnlZaVkxUDNZT0MxMElrY2pMU3hNclgwb25hVEdCdVpjWS1Wc292bHhiYVNnOGUzalTSAa4BQVVfeXFMTWxIb3NPMWlGUEtoaHAzVDF6MGVaWGhzVDl2SHBfNjhmYTlCS0d3OUxfZmZqNi1iS0hLRklJSU5YY1c1WEdZWlY0NXJXVm1wZllrdk9hOHZVMlZvWFpSdEJ5OVgyZzh6VG42YUlDT0RKa2NxcFVhUDhDd01TVWZXZG9YVGNDZ2FtRDdWWm9KTVByRnQyX0t4NnowUm5sbTJRTTVWMUF4cjRuNDlwX3Jn?oc=5",
+      "domain": "Al Jazeera",
+      "lat": 33.85838915770892,
+      "lon": 35.696270857680496,
+      "color": "#f97316",
+      "category": "airstrike"
+    },
+    {
+      "title": "Israel triggers huge explosion in southern Lebanon - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaHNZQ2tIV1FsLS1iMU1Ga3k5X1p2ejU2Q1Y4c0pQMnFDMEVJcWUwLVZ0UGk0MmFYR2VTRzhtRHpCR1NEbDdVbTVWMUthN2pCcDVBdFNpTXppN2Vfc2lZUWpnZ0tOb3dfQ0tscVJHemEtNGhBVTdTT003WFRhN3h0WnRiS3MxdDRYSVlOOWgydGJTSU1ySHhCZENtTWpSRHlhNFBB0gGoAUFVX3lxTE9wbGcxRTI3QndFNmtuVDVkVzVtZHZDZ3M4a2xjQkhiR1B6dGw3MnNQSE5WRU41eWNpb0tHYzgtUUNiV0FSd05mMkNWbWRjeWZtZFJFemZXMlJEQ0xQTGpfczFtTTVuSzQ3UHZ5UWxVUzlpQzU5N2RWN1dyNEZ2N0MyczZBQjBMdEp5ZnlPRktHT3ExNHJ2aWR3MFRvQUFvTHloXzhFOWxUbw?oc=5",
+      "domain": "Al Jazeera",
+      "lat": 33.78814346643248,
+      "lon": 35.84791021685435,
+      "color": "#eab308",
+      "category": "explosion"
     },
     {
       "title": "Yemen's Houthis kill 16 government troops; British agency reports attack on cargo ship in Red Sea - CBS News",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNzJITTlQd1hvOHl2NU9YZGFvcGh4dF8tVnZaeU1RVXZqc1ktX1dTNWZyXzFyMzBCWUVUZkxEc1habjlXdWp4bzBjbnAxUm9PVmp6NG1ndlR2dVVxN2lmMF9DUk1KUEZDb3RueDVPdzZBUWYtLVN3V2J4blVxTnhDSg?oc=5",
       "domain": "CBS News",
-      "lat": 16.198570912576947,
-      "lon": 41.13429863411429,
+      "lat": 15.819415347651375,
+      "lon": 40.70270010437397,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -222,8 +240,8 @@
       "title": "Houthi missile attacks on Israel stokes fresh alarm over Red Sea trade - Shipping Telegraph",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUFVsdlR0b2Q2X1FFeUdtMUhhNWJRTkNjNkhMX0VqbW5YcTAzTmxwX2FvcXVqMkU1SmhfOVFiRGpnTG5YY1ZhaHVsQ1RqN0VOMGtKOHd1VEIwQV9wVTdFd2NTaDhxTEZOTVJsVGFveWJ4Q2xiNGx0Z1ZJOTAwMXRWM0VzdXlIMWliLUowMlNRUTd4NlFyX2pVTkxCM3dDYUNqRjd3czRWblpjbkoxV0liai16eUhBaUt4QkE?oc=5",
       "domain": "Shipping Telegraph",
-      "lat": 15.972395638547107,
-      "lon": 41.272430029951714,
+      "lat": 16.203599520801628,
+      "lon": 41.26219768832655,
       "color": "#f97316",
       "category": "airstrike"
     },
@@ -231,8 +249,8 @@
       "title": "Cargo ship reportedly attacked in Red Sea off Yemen - DW.com",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5LYVN4aG9KdndKaXA5clE3LTVXcHRPVHVjVjNadmlpUWJDRXFOUUhXand3eTE1b3RQWE1YMTdVd3gwXzhzdmxlQmlWZXlUQmlHVzduNTdDbUhVdDBCWjVmNkNZNmlvLTA2VDRuR01wN0d4N1pCZVNvbWFlRFbSAXxBVV95cUxQWURHdGgtM0RiS3ZIa3VoZ3hCSW5Zd1JLVHRaLTI5WnYyNExScjBaNnNuNFFRY0VyOHgyZzAxTEFkMzg5T05xQXdfb3BGU0U5YTNRZFV3dW5OUzRqVXlqMVdoRjNrVUlJNUltRmVWOV9VU0V1YVhZVTZrWDBm?oc=5",
       "domain": "DW.com",
-      "lat": 16.14512683314429,
-      "lon": 40.741031543894735,
+      "lat": 15.936146263202305,
+      "lon": 40.9635572402292,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -240,8 +258,17 @@
       "title": "British military says cargo ship reports being under attack in the Red Sea off the coast of Yemen - ABC News - Breaking News, Latest News and Videos",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNb2pCSVdYTF9aaExNRTVUTXBGa2sxWjg4V0xyYkktNWUyV0RYbTNLbGVkeUdOUU9vSEZHWUF5X1YwYjB0angzcWM0MGsySU84dUVhbFIwUEE4a0tCOHo1aGhKbzNHZG90ajBHNFJmZGh3WVlWX1l3MzdaekdiM1pObWxhU3k2bHZ4TXFSckJMOXpIVUd1N3dsbk02NTh1V1NfYUYzTDZaTdIBrAFBVV95cUxONUpRd1VGOHhRdWdIcUgxdFZxVmV0aXlWSWJkZzlOdUp3ZG1JajctZzFMTTBTQjRKYk56aW95eVpfeEpKR1BYV3R6ZlMxQnM4NzVQVURXYVgtQVVDbkZycTBPWVpWWjg3QWJ0dVppTmdFZy1IVXRJNlg3bVBXa240aFg5VjQ0M0VjXzRnVy0zRl9LVWlOSnFBVUcxcTBxZk1aaTJrM21LVFlab2xT?oc=5",
       "domain": "ABC News - Breaking News, Latest News and Videos",
-      "lat": 15.785736204840015,
-      "lon": 41.0383279017163,
+      "lat": 16.084359457986483,
+      "lon": 41.07165064368304,
+      "color": "#3b82f6",
+      "category": "naval"
+    },
+    {
+      "title": "Another Hormuz? The Red Sea’s Threat to the Global Economy - Council on Foreign Relations",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVGJwUm9MbzR1RUREblM3dEQxcEVsSG11NGVPN1JTczJwY1JhNlIwaDE4MVFrTWo2WWZ6RTI0SlBwNGNEV1pjWlJPZmZLUHZpd3RpWjJZWnJRdlV3akNLR2lrS0N0VlFPRWg5OHc1bVhFdWE1NUhzQW8zRVRVdW1fd1J0bWxtdGFTeVNCV1RR?oc=5",
+      "domain": "Council on Foreign Relations",
+      "lat": 15.894008868982937,
+      "lon": 41.033503757551266,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -249,8 +276,8 @@
       "title": "Houthis attack Israel and announce ban on Israeli vessels in the Red Sea - Long War Journal",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcjlrVndDd1AtejBFU1draFNqWmlNNG90cVlqZXZtUUMxcVI0TC1Zd0trOUtueGZtdGJXQW9lTTBOTUhWNlVUZjkweGNSd2lYYjE5ci1ZbTJybXNnMENOeXBnQVRyV2xSam5MQzdaSU9fcW5MdnFDZ3BtLWhGWU5OeXFYSUxOcEZBdXBIeG8tODB3UXVCMzRTQkVCWTZKZFg2WDA1SFlBTnRrRXlQWmdLRmNnVm40WFZyclFhQV9GMkszQQ?oc=5",
       "domain": "Long War Journal",
-      "lat": 15.91547387536177,
-      "lon": 41.17414539619451,
+      "lat": 15.712232429763764,
+      "lon": 40.760737281357784,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -258,17 +285,17 @@
       "title": "Houthi Fighters Kill 16 Government Troops South Of Hodeidah In Yemen Attack: 33 Sources (West Asian: 19) - NewsCord",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUmFhdHNsUVlBakpLeWxWSzdpTmR4bGl4R19xM01pM19RQXB3MzJLS1BPaTNaTXlmcF8xbUp2Qms1N1l1aU1kN1IwVUptcW1VRllaNVBhS1VKbzc2cWF3VjkybE83TnVUS2h0dDhkcTE1Y0RPUGJoa1k1OVg4LUQtMll6ODZVSUlrWVpEZ3ZlU0lsRzl1RFBxOVBHSS1xazBXR0hHUnJDb1c3WmZ6VVVzeFdTeGdWTy1pWE1xX1A3a3ZldkhzQldxbktzNUVtTkpSTmtTa2lDQTh4cjF6WVdpYnlqZw?oc=5",
       "domain": "NewsCord",
-      "lat": 15.053291387570834,
-      "lon": 43.20681757757175,
+      "lat": 14.947477208966026,
+      "lon": 43.19242889418259,
       "color": "#ef4444",
       "category": "attack"
     },
     {
-      "title": "Explainer-Why are the Houthis threatening to attack Red Sea shipping and what does it mean for oil markets? - Al-Monitor",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQnVtLTk1N29rMFREMHAxblNwZ0NsOUZ0UnYwcWdvZVJDbWNuWnE3X191WGlBOVZnazk4UFQxLXVtQVdvaW5mOUdING85by1BRUs3dURXS3ByVFcyWEdnT19zOVFFWnd3dUtGZ3JTZk5VQUt2TWplaVlZWG9hVG1EbDRVbEpUcWt5RlZzbnhkWFVsVXdkSWxCdUp2b0ZqdE51bXlBUXlTaWFWanc2SnBPb3VyTkM2REpIRWR0M1JTcFU?oc=5",
-      "domain": "Al-Monitor",
-      "lat": 15.965830993190872,
-      "lon": 40.96603938312667,
+      "title": "Yemen's Iran-backed Houthis threaten Israeli shipping in the Red Sea - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLWxJeXJBNklmZEtETkg1d3ZTRkY2NUh4dlNXcy11Y0FYXzVoXzZ2anNoSHhuUTdSSUFvN2V4TzdfTlAwc0NLWEFYZFRuLWx3cUtUNEJmN1dkMVE1bHJhYXJJOW1VVEJZZFRtTTMzUUExNHlKNmtyQWlGbHAxY24xd0ptRnk5MWh5UHNNVmFaRUppckQ0WjlteHFPTHNVa0cxdll4cjdiVmE0dzVwWkhERXFONzM?oc=5",
+      "domain": "Reuters",
+      "lat": 16.149870744379527,
+      "lon": 41.10157773210152,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -276,8 +303,8 @@
       "title": "A Houthi missile attack on Israel stokes fears of renewed Red Sea shipping strikes - AP News",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRlZTZnRnR0tGckFFMFNyZkFpMkFYSm41Y3FmNmtWTlF0ZWZIYlpGZE04SFc4Nm9nZENQMFVNWW1kUURBSjR5Q1pfS3BIR3FFUUNTRDY5N1A4RUxRUHROTnNoLUdNX2J6ckVmNGhJM2dYaFRSQmFXX2VCM1RXcHNxeWlOR2F5VV9qQ2lQa09FS0xndw?oc=5",
       "domain": "AP News",
-      "lat": 15.844676758029106,
-      "lon": 41.249608912150094,
+      "lat": 16.00451888558853,
+      "lon": 41.10641202754366,
       "color": "#f97316",
       "category": "airstrike"
     },
@@ -285,35 +312,26 @@
       "title": "Houthi threaten to attack Israeli ships in the Red Sea - Seatrade Maritime News",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNlJsblp6UEREYUtyelRLaGhBckREZFdGbUcwNkFTYVJ6Q09KRmJ1bHVZUWRsdzJySUFtMGoyVENlSElJbXI4Q1pabzZGb0lnYVdzN3JJSTY3WmJKaDFYWF95YVFrNF9zUGtEUy1YYzRzWEJlREFHaDlaWGlpaXE2NGg0TlpCT0g1Q21uY1loMlBGTzNlcXUxQnpHdkNMdw?oc=5",
       "domain": "Seatrade Maritime News",
-      "lat": 16.198643492290756,
-      "lon": 41.12508766956054,
+      "lat": 15.716798477617997,
+      "lon": 40.71545340769532,
       "color": "#3b82f6",
       "category": "naval"
+    },
+    {
+      "title": "Houthi Escalation Calculus Following Cautious Entry into the Iran War - Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcUFKZkpDZUJ2X3ltS25FQk96bjE4Ynd1ZEg5RzhKSnViUnRpcEZOZEhFa3BOeGdfU1BpN2hfaVlsZ2pibWUzQXMtOUxRWlJSU0ptSkZMRVNiRVdiMk5iYy1vcXc4blJ5V2FaeURHdzIxSVl3QkFfRE9nVTc0NWJhZmtRVU9Qdk1vbmNONjBtdmphWC1LcGRPS2tRcEFGaVEwdlQyXzJtTDR3OVQ0WHMwLVp0TnFEMUQ4dng1dQ?oc=5",
+      "domain": "Institute for the Study of War",
+      "lat": 31.855259866399056,
+      "lon": 52.93480049277152,
+      "color": "#ef4444",
+      "category": "attack"
     },
     {
       "title": "Potential Houthi threat to Red Sea shipping could further damage global economy - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Oc2gzNmFHWFAwM1V6b3dMSjhYUzZjRVlTbTNrSUlra2ZGLUVoZlR3akNWQ2Z0NmJvc29HRFV5eE1aN3MzNDZJTEJvSS1pdmdZV2ZsMkpfUnZZUQ?oc=5",
       "domain": "BBC",
-      "lat": 15.930626406662928,
-      "lon": 41.062800222302585,
-      "color": "#3b82f6",
-      "category": "naval"
-    },
-    {
-      "title": "Houthis Attack Israel, Declare Ban on Israeli Shipping in Red Sea - Asharq Al-Awsat English",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLVU5dmNvM0hva3ZlVmdocTR4aXhDQkltbW54NEQ3ODN5VldGTmU2UjFwNnozZ1NFdXRPcjdBWVZyVWRnb2Q2cWZ6cWR6eTlWZ1V4T01wNkRvVkw1T2NhSTlqcU5ObDRyTnpNb3hlb2Y2MFVoWnFzeFZkVWdpVEFITWNSQkZXUHJxY1FXWW0teWRZbDJXd2VKb1dYbTVINmN3VzRveU9zaw?oc=5",
-      "domain": "Asharq Al-Awsat English",
-      "lat": 15.938289410485794,
-      "lon": 41.029925432545596,
-      "color": "#3b82f6",
-      "category": "naval"
-    },
-    {
-      "title": "British military says cargo ship reports being under attack in Red Sea off coast of Yemen - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOLUhVVHl5YXlaeU4zME1JdXpmVHkySFB6U2ZKazB3Nzl6UFJSM2ZJUzZPSnFDYXp2b0NjY2U4dE9RRHgwYW81Y1dhVmdUcnhSdzdXbUtUazhXT3hKWGxQcUJrZ0ZwVnpEZmFwdDNBQmJGYVRpczNaRkNaNlNDR0FPV3pXUXZ3RDhveDRZMWZMcUxXLU12SW5SWXdVTENxbUVsMG9GdzJYQkRwVzBYY2QwSFlpWmlGcHJQeFRGd3dCNm16bzVRcTlkeGN2eHd4TktNQy1VVWVrYzJOaC1XUVNJQTlRamF4UmRT0gHvAUFVX3lxTE1raFc2U0tjMUx0WHZsOHhlN254d2VQRWF1dVRycU9JN3JwXzJ6QXYzSGV2RUhOVXdvWmtRbmNEUDA2ZGpKb2R4VkdLYW1xZDlPRnpzTE11YUxFVFJSNWZ1N1ZTamdpa3RBRTF5VXROTnJ6enA4M3Q5YmpnbnZFX3YtZFZEOFkxSXJnblZoWDlwbWo0ODJobzkwdF83NmRmVk13TDl0d1Buckx4YnpJenltSFY5Q05fZTNUdnpZTUM0LTU4WnBOLTFKSnB0TWprdXkxZG9RYnU5eVRKV1UyNU1DbDlZbHBiVHktOHRub1E0?oc=5",
-      "domain": "The Hindu",
-      "lat": 15.939384217275647,
-      "lon": 41.283076894625296,
+      "lat": 15.976105169574835,
+      "lon": 40.95249659476356,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -321,62 +339,53 @@
       "title": "Red Sea Uncertainty: A 2026 Forecast for the Houthis Actions - Global Security Review",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM09TQllBek5kaTRFRnlNMTQ2TXZFa0lXV2FrT0ljbEF0Tmg4VXF0YWl6SW5Ub3NUZXdsbWFqazhoc3c0SE9UQm1EaDVZLTYzTUJTMjdEazVtMTVnVENXc1ZSOHNzRjNJTkpKeHZDVEdyRGx2VkN0RVdCRVhRM29jSllmVlpjN1V6MVVLQXppUkxtMmc4SU9nXw?oc=5",
       "domain": "Global Security Review",
-      "lat": 15.747136098351866,
-      "lon": 40.89393433913763,
+      "lat": 16.096558460640438,
+      "lon": 41.24978585067453,
       "color": "#3b82f6",
       "category": "naval"
     },
     {
-      "title": "Houthis Threaten to Widen Iran War by Blocking Israeli Shipping in Red Sea - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeGU3SlpsLTdCdWs1S3JFRTlGbG12aXdsNmM5UmNWZk9yTVhmNFNkZGZwWXo2Si11QU4xQXFOSXpkelN1SnBWWUtqblpCVllMM3NPVzZVZ1JLeEU3NkJaTC04YkFQbDZlRWdRYlVwbXNPS3RjSFRaVUJOcjhMNW45RHRqTmtfZXZIRTctODFVS1otZTRsYlFLTEJR?oc=5",
-      "domain": "The New York Times",
-      "lat": 16.2355927496369,
-      "lon": 41.004812848363635,
+      "title": "Houthis Attack Israel, Declare Ban on Israeli Shipping in Red Sea - Asharq Al-Awsat English",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLVU5dmNvM0hva3ZlVmdocTR4aXhDQkltbW54NEQ3ODN5VldGTmU2UjFwNnozZ1NFdXRPcjdBWVZyVWRnb2Q2cWZ6cWR6eTlWZ1V4T01wNkRvVkw1T2NhSTlqcU5ObDRyTnpNb3hlb2Y2MFVoWnFzeFZkVWdpVEFITWNSQkZXUHJxY1FXWW0teWRZbDJXd2VKb1dYbTVINmN3VzRveU9zaw?oc=5",
+      "domain": "Asharq Al-Awsat English",
+      "lat": 16.135450074549567,
+      "lon": 40.79935065432441,
       "color": "#3b82f6",
       "category": "naval"
     },
     {
-      "title": "Iran pressuring Houthis to attack Red Sea tankers, officials say - South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQV1ZNVUZycTRPT0NKOVJXZUJ4SE9WQ1lYdmdKcE9ZdURsanU4UFpKX0VVRC1JYXFNejZQV1lidjUzZHRORkNQZF9QUjF4ME0xUWJxNXlwSWJEcWtVTWhJdmZQdlRqQ3RLZy1jV1dTeXVNN3RDelh6bGJtbFRhOUtLd2JCcWV3RXRXZmplWFRsVlAxLTV2NXJ3dEREUlRacHhBY1l4NkwxWG94TVQ2dTkyc2tBczluZ2dwcHpzdTlUVXQ5ajFubVHSAcYBQVVfeXFMTjU5bElnTUQ2TmFIOWNjY255TDl2OXEwUmxqYUVTcXlrRWhIYzJuakIwQVhZVkEzTGtUNHZGZlVGR1pRLWphbzJ6dkVSWERMLXJaZXdMd0U0VTBINl9JbFFTVkxVUUtnNTFaVkFnYUJGMFM4dlY0bXVLTWNEZmZ4dmU4UVRaall1Mmxxc2FwMWpicVMwNlE4X1ZlT2VvWnJzOGF2VmE4YUFjeFFJSzJTb2N4Nkxublh2RnFDLVNSQ3RLRUdIS3Rn?oc=5",
-      "domain": "South China Morning Post",
-      "lat": 16.23902700674641,
-      "lon": 40.990775431311235,
-      "color": "#3b82f6",
-      "category": "naval"
+      "title": "US Insists Iran 'Does Not Control' Strait Of Hormuz - Radio Free Europe/Radio Liberty",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWnhyaS1tS3NVV19VeVRlS1RUeUhFblVCTkRCWmg2Z2YwTW1uR051ZFctc3F2eEcyN29hbkJkLUY3THpPVzVaYVRlcTRybGlrTGVsX3ZvTFJyQmRELVNHckg3Nk9uOUw3V2RyN2lZY0dIMW1jLWVQSUVTdXBTZGpuVE55cDBQcG01?oc=5",
+      "domain": "Radio Free Europe/Radio Liberty",
+      "lat": 26.68545999080037,
+      "lon": 56.50570810621376,
+      "color": "#ef4444",
+      "category": "attack"
     },
     {
       "title": "German troops to leave Erbil base in northern Iraq amid regional tensions - Middle East Monitor",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTmN3amRHcGxUMm9fVUozelBPQmVLV195cFJwM3oyNW5QNkdGTkMyWTlFek5oS2tHYmw0Z3VRUkx4RGVwZkZQWHpQSnp0VV9ST0JSV1Fsdk1HUEJIWkViaTY2SEJHVkFvRHh5aGhaUW8tOGtTXzJqXzdNQmxrVzFYZTVMMkFIaWc4UXY2WndBRFo2SGNjcXZMcEJsRjV2Wm9KMk93VW1feGhvRnh0SHB5ZWg1LXNSVG1U0gG-AUFVX3lxTE5QWl9UdDVmNGZFSm1hTVg5OC1fZWxTLTI1ZHVVVGV6SjZRRE9oV1hPaFpMYTNPREJIRGxWVDZxdGt2SnBhd1FoaktZWE5NMEtzblFMYTlhRGc4c1YxS3JWejZTX0MtRXdCRmFlOHppRnlhak9aa2t5YVdUdDB6blVFcE15RTJKV2lveXBmRGdyYVNnMmNXb3pRak5IMjIwQ2wzMkppRktXbDJmeVNadENNMTEwU2hxZ0pEYkFpdmc?oc=5",
       "domain": "Middle East Monitor",
-      "lat": 36.12549121836008,
-      "lon": 43.981103737847306,
+      "lat": 36.46627946106524,
+      "lon": 43.74400692978922,
       "color": "#ef4444",
       "category": "attack"
+    },
+    {
+      "title": "U.S. military accuses Iran of ceasefire violation after Kuwait comes under missile attack - PBS",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdmhYeTJCbHJnazhOOHNsZy1CWm50VF9SMTY1NzhHYWZuZ2htVTBDcEZRNE5mOXFIb2lWWktldThWTGdybVFQMXBjZnctSEx5Um5BTElZQWdnX3pZVF9RQTNlTHJXdTZBSWFXXzhIVHZlUnUxN3daTXZCQXBGbjRJTmNkUDhDa1JhRnNZcW1LY0VQTWpVOWNsUUZMMGU0ZmpDZWVUS3kwTVBhQ2s1Xzl0a05WeWN4c2diZXgxNm0wUdIBxAFBVV95cUxNLWdrMEV6cGVqRXQybTJlWk44dmpZMUw3UGRvQjRSdnFzTEZuVU9tZjVuUHdmdi1Eek5aSmhvVzR4d1BzeDQzak5EQnJvZllpSXVmNWY3bE1kaTBuTXNGQzlCUDNxeUdVQVhfbUY1SVJCZWVVdjRvQTNtV0lyYkNob3FYZzd2YXhjNTNqZnJyTW1FM1phNVIxVXFMdWp6ZXdaRFB0N3djU19LbVkxUHdDcGw0cHRTa2FSN25BUHk3cVJiMldi?oc=5",
+      "domain": "PBS",
+      "lat": 32.04402508477922,
+      "lon": 52.97752032794313,
+      "color": "#f97316",
+      "category": "airstrike"
     },
     {
       "title": "Iraq Summons U.S. Diplomat After Attack on Military Base - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYUZjNjJhRXBaSGVQXzVLZmVoc3hTZXR1QmtETlc2bG95dXlhQnBVZGttWkc5UzhmcFZxY2VEU3Y2MDZDRF9GcERaVHNid2pWWEJaR1lyR1R2Ylg4RWt0RWR1VTRIRnR0cDgtVEhSakFDcUdEekhBZEs0RVljQVpVcm84SDR0UjkzQmVBV1lNVEhlaF8tUzNCODVyM09qQkV0NnNQUUhydE9fT0xBcUp0Uw?oc=5",
       "domain": "The New York Times",
-      "lat": 33.01891220474092,
-      "lon": 42.76040329298443,
-      "color": "#ef4444",
-      "category": "attack"
-    },
-    {
-      "title": "Iran’s war against regional states: UAE bore the brunt, Iraqi Kurdistan still under fire - Long War Journal",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNS0p1ZXZhMGJoUnA5UDduQmR1LWdKMFQ5NFN0cEJzVE1iUjk4cFNiTHF1ZGFhazlTdEo1djRLNnhROGdVcERsNlAtSm9RUFhVNEtUTTlMeGhIemRVOVEyTFBWUzBTdkhaY3FidEtjdkdBRmNhM1ZxY0xtSUF1ZkhFMldOZWhmVkFBczRsOE5yVjltd0Jna1FwazhGN195LTRKeXF6Q2VvN3pIOG9TTExZcmtJbzl0bXRjV21DSGMtX25ZTUtPamtHT004NjB5RnI2bnk4?oc=5",
-      "domain": "Long War Journal",
-      "lat": 31.870626215044954,
-      "lon": 53.290049489914786,
-      "color": "#ef4444",
-      "category": "attack"
-    },
-    {
-      "title": "Iraq is caught in the crossfire of the Iran war, with attacks by both sides on its soil - PBS",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdFh4TnpoQUxrMnRra0QyalEtSjh5czlfZ1RJWFRvYXpnckZZU2VlYjZOOVFpc0padFl3TXpjbVhGVkkxTVo5YVEza0RWejVpNlJubkFPUkFDY0ZvY1RnczVveFRpRUVsNXltYnJnN1UwTHZZbGNsak1iWnRVY2Q0bFlsVmtWS3hlbjVPNHRZVkpEQ1ZNblpqWjJFdlgxdXB5RGFIRGlXdFVMRXRxNzlYMXljQkt2Zjc2SVFCVENR0gHDAUFVX3lxTE1kS1NyNU1YeWthN1FzMzd5NTZzS1Z6bHlRQk1wa2tVdlBrbXctYUQxb2VoNjFaWEpoSHA3YmFBZVFQSW9Qd0ktQzhrVXZwTXp4Wl9WRGRkcU5DaGVrZENUSlRqWjBrQmpZZThJV0JLWm90ajFheWpfQmFJQmNiUmt6YTRrVFJUVlZtNTRQc21tcFBlT3k5RkFKY3hOdzI4c3lwY1JRXzF6T0RSNE1FMW9xNGNKdXl0LUZ6WVFuazNIY0tXYw?oc=5",
-      "domain": "PBS",
-      "lat": 32.94679116117189,
-      "lon": 42.78452162388997,
+      "lat": 32.79943589513345,
+      "lon": 42.837258053209204,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -384,35 +393,17 @@
       "title": "Drone attack on Italian base: a new phase of Iran-backed militia pressure in Iraq? - Decode39",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY3ZXV3JqWmdGanFTTGVqSEpnZFROMW5VM1VWc2dFWE96bzg2VzAwRHdYNjBnV2Rhb0pDM1FDM1Y4d29iQm50QkNkdXNVRjk1bWZOOHhPSDNTZzBmS3ctMUZ2RVVaeXJHWmRRemZoVEJZM2hwTG1aZm5XLTRfM3ZtQmhtMmZ1QzFtMExEb3dIeHVNTXFrNElTRktXbk42UUtYcWpkRzk1OHNzdHd5?oc=5",
       "domain": "Decode39",
-      "lat": 32.79901130939304,
-      "lon": 43.242720542425644,
+      "lat": 33.26649854891035,
+      "lon": 43.127189870544676,
       "color": "#f97316",
       "category": "airstrike"
-    },
-    {
-      "title": "Syria says repelled drone attack from Iraq on US base - The New Arab",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Nd3NDMGpvc1pBSzdWQ0FHYkFUOXlMTGI4cXlGYW52Y04wZHhhM0tGeXdoZkhpSXljN2VCV2kwc2dBRFdRcnN2X2dQMU9ZMkpBelBNSzhjR0hHRVgxNXpaZGh0VjdGaUFEeEJmcF9rcGtRbHZCcENxUWRLc0pTOHc?oc=5",
-      "domain": "The New Arab",
-      "lat": 34.965721603222704,
-      "lon": 38.03977600485983,
-      "color": "#f97316",
-      "category": "airstrike"
-    },
-    {
-      "title": "Iran targets US military bases in the Middle East with retaliatory strikes - France 24",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONUxIak81ZUF2RktDN25uNVpNLU8zN0xXemtSQ1dLemhQS1VWYTRxOENBbGNsVTBBMGI1SEpOVms5VVk4cmlnaUg1QlZ2N0YxMEMzM3YtMi1LS080NWczeHZ4YV9nN1RXdHM1T0tLVWEtSl9IRXAta3lsNExmemVoeXN1TWxDOUJfOGtseGhyLXpLZ2FWbGRmLUE2aHRpMGVXSF95YVZhVk84M0kteVdURTlNTTdIbzhrLUg3ejFmZ3R6YUpDa0RCaHhtd20?oc=5",
-      "domain": "France 24",
-      "lat": 32.09209993423281,
-      "lon": 53.19397136507975,
-      "color": "#ef4444",
-      "category": "attack"
     },
     {
       "title": "Iran has hit far more U.S. military assets than reported, satellite images show - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZWdLU3d1NG14Nk03RmtNUEs4NDlTdFA3ellOb3ViNUNpSWZOMUZEZ1N5bXRjbm5rRDVxeUJLeE9qRGVnTUdaUzU2VjJrbDRFUUhiZ3hZcnI0bXFHRjBrTUNqTEdMVjBsTXR1ZHM3UDdsU2ZTczRMSHNqNjBBUXgzZFhtUjJkNk5iQ2JTc1pmbjNQQQ?oc=5",
       "domain": "The Washington Post",
-      "lat": 31.990349809798914,
-      "lon": 53.174250491789344,
+      "lat": 32.224955594816194,
+      "lon": 53.1365484337483,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -420,35 +411,44 @@
       "title": "Iran attacks damage 20 US military sites since start of war, satellite images show - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTdnc1eHpiOHJRdXRHdEo4T1NLWHBpcVVSX1JMSDVaMlR4a0M1THhaVHNSM3hyZ0MtLVJvdUdORDU0WXp0eWl3bjkwb1NtRDJMNlNSVnpVdC0xQQ?oc=5",
       "domain": "BBC",
-      "lat": 31.836251078273797,
-      "lon": 52.91415071463507,
+      "lat": 31.85158798188943,
+      "lon": 53.03990896947274,
       "color": "#ef4444",
       "category": "attack"
-    },
-    {
-      "title": "Missile barrage on US base in Iraq leaves personnel being evaluated for brain injuries, officials say - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZzF5MUlXRVkxSExsREc0V0ViVlZIbmtVWnQ0QzhuUUVNVGFyQ3o0WHd3a3R4OXgwNVFBVXhSWFM0TDlwSFlNWmRzcE83elBRN1A4b24wNkVHS054djQ1NmZrWlg1dlBGSGxuNjYzeFN1QU9iSEtqc3V4dmZHYWtINXRKRk9rVXQ0Z0ViVjdyWVBpc21hNlHSAZsBQVVfeXFMUEZWbXl2RXZtaVdFd0hnM3BUQWVlQ1VGZHhTMnNDVkphYVh3Nmh0S1BZOUVhZFg1WGtwUGdxbXRxZ0tjaVkyV3VoREVRem15UF9wMEE3akJzWWJOalhIR3BxdFYwMUZHdHhXTzlCYXdnZWRkclFUSkVhV21CaUg4aDM4QkNmUWNFV0k3WkNLOVEzSTl3bzQ2b1hUQmM?oc=5",
-      "domain": "ABC News - Breaking News, Latest News and Videos",
-      "lat": 32.82156247048956,
-      "lon": 42.70348775686372,
-      "color": "#f97316",
-      "category": "airstrike"
     },
     {
       "title": "FPV Drone Attack On U.S. Victory Base In Iraq Is A Stark Warning - Forbes",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbHh2ZlNJbGtrZVpwN1N1UUFPRm9abWhyVUc4ZUtuQTdaSlpITjl3ck5UN01NaTlqeW9lOENpRzNtWGt0RTNqeEs3MVRBNGs3SW9mZXhYQl9wRDhSOFNMUWI3M0MzNUFFWVp1RmpmNzNTTjNhVHBFUF9WRFZBaFgwWHFSdGZ3a1cxelduUnFOeEk5SE0ybjFBRy0yaEN3Mm1kakFabmZTNUE4MU1iUkxvZ3Z3M0lQb0Vl?oc=5",
       "domain": "Forbes",
-      "lat": 33.21868789031984,
-      "lon": 43.0013036715416,
+      "lat": 32.95714139643873,
+      "lon": 42.842885772854245,
       "color": "#f97316",
       "category": "airstrike"
+    },
+    {
+      "title": "Iran and proxies continue attacking regional airports, energy facilities, military bases, and residential areas (March 20-23 updates) - Long War Journal",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPNU1ud0ZRbGxHdnQ5ZUpHRU9PZTkwVG1SVV9vWWRVLXRDeEp1SzVkM2ZacTJsSWhlLTNRR1E2bk1tMGNyM3RCeHRPU0p6ZjUtek9DLTN3THEwb3AwemVTb3BWc19zVjU2WFNGSXhBQWZqazltcFlhVnhrZ2dsSV9Lc0pJbjZyZTdtZFQ1NDVyRGV3RU81eEFQeEt0Tk9sRkdWUTRwTHNxRzIxTFVvb2xFR0NaNkIxT0hqb01INE5ick9kVEhwN0VfNnVHeS1IZHNlTGxKTERna2dJTk5mQlJsaVAxbEFWSThsVVluRGtNbmdjYXBxcERhdHcxOWFVdGRwTS11T0l0cmwweHU0?oc=5",
+      "domain": "Long War Journal",
+      "lat": 32.102586584641074,
+      "lon": 53.2020996480839,
+      "color": "#ef4444",
+      "category": "attack"
     },
     {
       "title": "Iran Update Evening Special Report, March 2, 2026 - Institute for the Study of War",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQalJQSE9kMlhjd3hpbUwwVFYzeTUxOFFUdkxkdlNmdVd0amJXSFpnUkJEMHB6eEFTNlpFMlg3V09kd1lnSC1KdmRhbGNtTEhJdE5kQ09iLXlDbHNtbF9uWG0yS0pBTG8wd2hzNEJwZUZSX0hmOXRnTGFHbnBMOGR2eEMwY0VmcmQxazBIRjZkOTZldi1LbHNUamJTMnczV3c?oc=5",
       "domain": "Institute for the Study of War",
-      "lat": 31.8106766248896,
-      "lon": 52.70563543218238,
+      "lat": 31.843498451772394,
+      "lon": 52.77042988050758,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "Iraq is caught in the crossfire of the Iran war, with attacks by both sides on its soil - PBS",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdFh4TnpoQUxrMnRra0QyalEtSjh5czlfZ1RJWFRvYXpnckZZU2VlYjZOOVFpc0padFl3TXpjbVhGVkkxTVo5YVEza0RWejVpNlJubkFPUkFDY0ZvY1RnczVveFRpRUVsNXltYnJnN1UwTHZZbGNsak1iWnRVY2Q0bFlsVmtWS3hlbjVPNHRZVkpEQ1ZNblpqWjJFdlgxdXB5RGFIRGlXdFVMRXRxNzlYMXljQkt2Zjc2SVFCVENR0gHDAUFVX3lxTE1kS1NyNU1YeWthN1FzMzd5NTZzS1Z6bHlRQk1wa2tVdlBrbXctYUQxb2VoNjFaWEpoSHA3YmFBZVFQSW9Qd0ktQzhrVXZwTXp4Wl9WRGRkcU5DaGVrZENUSlRqWjBrQmpZZThJV0JLWm90ajFheWpfQmFJQmNiUmt6YTRrVFJUVlZtNTRQc21tcFBlT3k5RkFKY3hOdzI4c3lwY1JRXzF6T0RSNE1FMW9xNGNKdXl0LUZ6WVFuazNIY0tXYw?oc=5",
+      "domain": "PBS",
+      "lat": 32.728452228896856,
+      "lon": 42.81409186851126,
       "color": "#ef4444",
       "category": "attack"
     }
