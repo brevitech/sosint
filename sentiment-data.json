@@ -1,48 +1,43 @@
 {
   "us": {
-    "positive": 35,
-    "negative": 59,
-    "neutral": 6,
+    "positive": 40,
+    "negative": 55,
+    "neutral": 5,
     "wordCloud": [
       {
-        "word": "trump",
-        "count": 63,
-        "sentiment": "neutral"
-      },
-      {
         "word": "graham",
-        "count": 53,
+        "count": 54,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 22,
+        "word": "trump",
+        "count": 51,
         "sentiment": "neutral"
       },
       {
         "word": "lindsey",
-        "count": 22,
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dies",
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "sudden",
-        "count": 20,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "death",
-        "count": 20,
-        "sentiment": "negative"
-      },
-      {
-        "word": "dies",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senator",
         "count": 15,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "ally",
@@ -55,18 +50,13 @@
         "sentiment": "negative"
       },
       {
+        "word": "politicians",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
         "word": "leaders",
         "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "netanyahu",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zelenskyy",
-        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -85,42 +75,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "law",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "politicians",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mourned",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "york",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "times",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "subpoenas",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "air",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "force",
+        "word": "senator",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -130,17 +85,47 @@
         "sentiment": "neutral"
       },
       {
+        "word": "law",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "democrats",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "reporting",
+        "word": "york",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "times",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "subpoenas",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "air",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "force",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "sen",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "aged",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,20 +138,35 @@
         "word": "israeli",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "settlers",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "platner",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nato",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-12T15:55:05.341042+00:00",
-    "nextRefresh": "2026-07-12T15:55:05.341042+00:00",
-    "articlesAnalyzed": 353,
+    "generatedAt": "2026-07-12T16:54:28.824180+00:00",
+    "nextRefresh": "2026-07-12T16:54:28.824180+00:00",
+    "articlesAnalyzed": 354,
     "matchedMentions": 181,
-    "uniquePersonalities": 39,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 43,
+    "positive": 45,
     "negative": 37,
-    "neutral": 20,
+    "neutral": 18,
     "wordCloud": [
       {
         "word": "india",
@@ -182,21 +182,6 @@
         "word": "abdullah",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "delivery",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "woman",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "arrested",
-        "count": 4,
-        "sentiment": "negative"
       },
       {
         "word": "delhi",
@@ -224,8 +209,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pawar",
-        "count": 4,
+        "word": "delivery",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -239,9 +224,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "home",
+        "word": "woman",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "arrested",
+        "count": 3,
+        "sentiment": "negative"
       },
       {
         "word": "house",
@@ -249,7 +239,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "bjp",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bloc",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -284,11 +284,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "declares",
         "count": 3,
         "sentiment": "neutral"
@@ -317,14 +312,19 @@
         "word": "swift",
         "count": 3,
         "sentiment": "positive"
+      },
+      {
+        "word": "song",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-12T15:55:30.904744+00:00",
-    "nextRefresh": "2026-07-12T15:55:30.904744+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 68,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-07-12T16:54:46.916835+00:00",
+    "nextRefresh": "2026-07-12T16:54:46.916835+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 62,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
