@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 57,
-    "neutral": 4,
+    "positive": 34,
+    "negative": 58,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "graham",
-        "count": 71,
+        "count": 74,
         "sentiment": "neutral"
       },
       {
@@ -16,51 +16,61 @@
       },
       {
         "word": "death",
-        "count": 27,
+        "count": 26,
         "sentiment": "negative"
       },
       {
         "word": "ally",
-        "count": 18,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "sudden",
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
         "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "lindsey",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 16,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "dies",
-        "count": 15,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "senator",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "illness",
-        "count": 10,
+        "count": 12,
         "sentiment": "negative"
       },
       {
         "word": "settlers",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "replace",
+        "word": "khanna",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mcconnell",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -80,12 +90,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "khanna",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
+        "word": "replace",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -95,19 +100,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "air",
+        "word": "aged",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "force",
+        "word": "detained",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sen",
-        "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "platner",
@@ -115,12 +115,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "critic",
+        "word": "air",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "detained",
+        "word": "force",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sen",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "critic",
         "count": 6,
         "sentiment": "negative"
       },
@@ -143,29 +153,19 @@
         "word": "idf",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "lying",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "west",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-12T21:43:18.225442+00:00",
-    "nextRefresh": "2026-07-12T21:43:18.225442+00:00",
+    "generatedAt": "2026-07-12T22:41:42.233573+00:00",
+    "nextRefresh": "2026-07-12T22:41:42.233573+00:00",
     "articlesAnalyzed": 358,
-    "matchedMentions": 184,
+    "matchedMentions": 190,
     "uniquePersonalities": 38,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 43,
-    "negative": 37,
+    "positive": 44,
+    "negative": 36,
     "neutral": 20,
     "wordCloud": [
       {
@@ -189,11 +189,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "uses",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "chopra",
         "count": 4,
         "sentiment": "neutral"
@@ -205,6 +200,11 @@
       },
       {
         "word": "house",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "uses",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -259,36 +259,6 @@
         "sentiment": "negative"
       },
       {
-        "word": "problem",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "cjp",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "taylor",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "swift",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "song",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pradhan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "premium",
         "count": 2,
         "sentiment": "neutral"
@@ -317,13 +287,43 @@
         "word": "gifted",
         "count": 2,
         "sentiment": "neutral"
+      },
+      {
+        "word": "australia",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sarma",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "roller",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "seized",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
+        "count": 2,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-12T21:43:31.860444+00:00",
-    "nextRefresh": "2026-07-12T21:43:31.860444+00:00",
-    "articlesAnalyzed": 465,
-    "matchedMentions": 51,
+    "generatedAt": "2026-07-12T22:41:54.664028+00:00",
+    "nextRefresh": "2026-07-12T22:41:54.664028+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 50,
     "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
