@@ -1,53 +1,43 @@
 {
   "us": {
-    "positive": 40,
+    "positive": 39,
     "negative": 55,
-    "neutral": 5,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "graham",
-        "count": 54,
+        "count": 59,
         "sentiment": "neutral"
       },
       {
         "word": "trump",
-        "count": 51,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lindsey",
-        "count": 20,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dies",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sudden",
-        "count": 16,
+        "count": 53,
         "sentiment": "neutral"
       },
       {
         "word": "death",
-        "count": 15,
+        "count": 21,
         "sentiment": "negative"
       },
       {
-        "word": "ally",
-        "count": 12,
+        "word": "iran",
+        "count": 20,
         "sentiment": "neutral"
       },
       {
-        "word": "illness",
-        "count": 12,
-        "sentiment": "negative"
+        "word": "lindsey",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dies",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sudden",
+        "count": 14,
+        "sentiment": "neutral"
       },
       {
         "word": "politicians",
@@ -55,9 +45,24 @@
         "sentiment": "neutral"
       },
       {
+        "word": "senator",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
         "word": "leaders",
         "count": 11,
         "sentiment": "neutral"
+      },
+      {
+        "word": "ally",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "illness",
+        "count": 10,
+        "sentiment": "negative"
       },
       {
         "word": "tribute",
@@ -75,47 +80,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senator",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "law",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "west",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "york",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "times",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "subpoenas",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "air",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "force",
+        "word": "senate",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -125,7 +100,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "aged",
+        "word": "judge",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "khanna",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -150,27 +130,47 @@
         "sentiment": "neutral"
       },
       {
+        "word": "democrats",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "nato",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "bank",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "starmer",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mourn",
+        "count": 6,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-12T16:54:28.824180+00:00",
-    "nextRefresh": "2026-07-12T16:54:28.824180+00:00",
+    "generatedAt": "2026-07-12T17:56:22.671436+00:00",
+    "nextRefresh": "2026-07-12T17:56:22.671436+00:00",
     "articlesAnalyzed": 354,
-    "matchedMentions": 181,
+    "matchedMentions": 186,
     "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 37,
-    "neutral": 18,
+    "positive": 43,
+    "negative": 34,
+    "neutral": 23,
     "wordCloud": [
       {
         "word": "india",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -179,17 +179,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "abdullah",
+        "word": "modi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "statehood",
+        "word": "abdullah",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -204,37 +199,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "without",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delivery",
+        "word": "delhi",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "agent",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bengaluru",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "woman",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "arrested",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "house",
+        "word": "statehood",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -247,16 +217,6 @@
         "word": "bloc",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "arrest",
-        "count": 3,
-        "sentiment": "negative"
       },
       {
         "word": "loves",
@@ -272,6 +232,11 @@
         "word": "enjoy",
         "count": 3,
         "sentiment": "positive"
+      },
+      {
+        "word": "without",
+        "count": 3,
+        "sentiment": "neutral"
       },
       {
         "word": "gaining",
@@ -317,14 +282,49 @@
         "word": "song",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "pradhan",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "emkay",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "financial",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "premium",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "coffee",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "colonial",
+        "count": 2,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-12T16:54:46.916835+00:00",
-    "nextRefresh": "2026-07-12T16:54:46.916835+00:00",
+    "generatedAt": "2026-07-12T17:56:36.031634+00:00",
+    "nextRefresh": "2026-07-12T17:56:36.031634+00:00",
     "articlesAnalyzed": 479,
-    "matchedMentions": 62,
-    "uniquePersonalities": 43,
+    "matchedMentions": 58,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
