@@ -1,17 +1,32 @@
 {
   "us": {
-    "positive": 36,
-    "negative": 57,
-    "neutral": 7,
+    "positive": 35,
+    "negative": 59,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
+        "count": 63,
         "sentiment": "neutral"
       },
       {
         "word": "graham",
-        "count": 47,
+        "count": 53,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 22,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lindsey",
+        "count": 22,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sudden",
+        "count": 20,
         "sentiment": "neutral"
       },
       {
@@ -20,29 +35,24 @@
         "sentiment": "negative"
       },
       {
-        "word": "lindsey",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sudden",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
+        "word": "dies",
         "count": 17,
         "sentiment": "neutral"
       },
       {
-        "word": "dies",
+        "word": "senator",
         "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "senator",
-        "count": 14,
+        "word": "ally",
+        "count": 12,
         "sentiment": "neutral"
+      },
+      {
+        "word": "illness",
+        "count": 12,
+        "sentiment": "negative"
       },
       {
         "word": "leaders",
@@ -50,23 +60,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ally",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "illness",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
-        "word": "tribute",
-        "count": 10,
+        "word": "netanyahu",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "zelenskyy",
-        "count": 9,
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tribute",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -80,6 +85,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "law",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "politicians",
         "count": 8,
         "sentiment": "neutral"
@@ -88,11 +98,6 @@
         "word": "mourned",
         "count": 8,
         "sentiment": "negative"
-      },
-      {
-        "word": "netanyahu",
-        "count": 8,
-        "sentiment": "neutral"
       },
       {
         "word": "york",
@@ -145,47 +150,27 @@
         "sentiment": "negative"
       },
       {
-        "word": "armed",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "israeli",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-12T14:51:31.460400+00:00",
-    "nextRefresh": "2026-07-12T14:51:31.460400+00:00",
-    "articlesAnalyzed": 352,
-    "matchedMentions": 175,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-07-12T15:55:05.341042+00:00",
+    "nextRefresh": "2026-07-12T15:55:05.341042+00:00",
+    "articlesAnalyzed": 353,
+    "matchedMentions": 181,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 40,
-    "negative": 41,
-    "neutral": 19,
+    "positive": 43,
+    "negative": 37,
+    "neutral": 20,
     "wordCloud": [
-      {
-        "word": "abdullah",
-        "count": 8,
-        "sentiment": "neutral"
-      },
       {
         "word": "india",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "statehood",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -194,18 +179,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "uses",
+        "word": "abdullah",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 5,
+        "word": "delivery",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "weight",
-        "count": 5,
+        "word": "woman",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -219,17 +204,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "statehood",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bloc",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kumar",
+        "word": "uses",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -249,11 +229,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "delivery",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "agent",
         "count": 3,
         "sentiment": "neutral"
@@ -264,7 +239,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "woman",
+        "word": "home",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -274,12 +249,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
+        "word": "crore",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -287,16 +257,6 @@
         "word": "arrest",
         "count": 3,
         "sentiment": "negative"
-      },
-      {
-        "word": "bankipur",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "push",
-        "count": 3,
-        "sentiment": "neutral"
       },
       {
         "word": "loves",
@@ -317,14 +277,54 @@
         "word": "gaining",
         "count": 3,
         "sentiment": "positive"
+      },
+      {
+        "word": "weight",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "declares",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mourning",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "problem",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "cjp",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "taylor",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "swift",
+        "count": 3,
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-12T14:51:56.014013+00:00",
-    "nextRefresh": "2026-07-12T14:51:56.014013+00:00",
+    "generatedAt": "2026-07-12T15:55:30.904744+00:00",
+    "nextRefresh": "2026-07-12T15:55:30.904744+00:00",
     "articlesAnalyzed": 480,
-    "matchedMentions": 73,
-    "uniquePersonalities": 48,
+    "matchedMentions": 68,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   }
 }
