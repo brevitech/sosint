@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 43,
-    "negative": 50,
+    "positive": 45,
+    "negative": 48,
     "neutral": 7,
     "wordCloud": [
       {
@@ -11,12 +11,7 @@
       },
       {
         "word": "iran",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 12,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
@@ -55,6 +50,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "judge",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "law",
         "count": 9,
         "sentiment": "neutral"
@@ -80,48 +80,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "israeli",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "settlers",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "proud",
-        "count": 8,
-        "sentiment": "positive"
-      },
-      {
-        "word": "boys",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "administration",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "conspiracy",
+        "word": "israeli",
         "count": 7,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "settlers",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "graham",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cup",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -145,7 +125,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "bill",
+        "word": "housing",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nato",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,43 +138,58 @@
         "word": "wins",
         "count": 6,
         "sentiment": "positive"
+      },
+      {
+        "word": "bribery",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "claim",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ex-ceo",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-12T02:12:37.991559+00:00",
-    "nextRefresh": "2026-07-12T02:12:37.991559+00:00",
+    "generatedAt": "2026-07-12T05:52:23.473338+00:00",
+    "nextRefresh": "2026-07-12T05:52:23.473338+00:00",
     "articlesAnalyzed": 357,
     "matchedMentions": 157,
-    "uniquePersonalities": 39,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 49,
+    "positive": 53,
     "negative": 22,
-    "neutral": 29,
+    "neutral": 25,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zealand",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "cues",
+        "word": "india",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zealand",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "nets",
+        "word": "bjp",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -239,34 +239,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ties",
+        "word": "rebel",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chopra",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shubman",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "virat",
-        "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "global",
@@ -284,19 +259,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "using",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "congress",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "rebel",
-        "count": 3,
-        "sentiment": "negative"
       },
       {
         "word": "district",
@@ -304,7 +269,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "chopra",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -314,17 +279,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "hits",
+        "word": "delhi",
         "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "adani",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "emkay",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "financial",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "space",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sector",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "played",
+        "count": 2,
+        "sentiment": "positive"
+      },
+      {
+        "word": "key",
+        "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-12T02:12:50.369858+00:00",
-    "nextRefresh": "2026-07-12T02:12:50.369858+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 72,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-07-12T05:52:38.746521+00:00",
+    "nextRefresh": "2026-07-12T05:52:38.746521+00:00",
+    "articlesAnalyzed": 481,
+    "matchedMentions": 64,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
