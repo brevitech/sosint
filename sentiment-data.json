@@ -1,23 +1,38 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 52,
-    "neutral": 9,
+    "positive": 38,
+    "negative": 55,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 60,
+        "count": 61,
         "sentiment": "neutral"
       },
       {
         "word": "graham",
-        "count": 22,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 20,
+        "count": 19,
         "sentiment": "neutral"
+      },
+      {
+        "word": "dies",
+        "count": 18,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sudden",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "illness",
+        "count": 17,
+        "sentiment": "negative"
       },
       {
         "word": "ally",
@@ -25,38 +40,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dies",
-        "count": 14,
+        "word": "senator",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "illness",
-        "count": 14,
-        "sentiment": "negative"
-      },
-      {
-        "word": "sudden",
+        "word": "lindsey",
         "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "brief",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lindsey",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senator",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "york",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -86,6 +86,11 @@
       },
       {
         "word": "judge",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "platner",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -125,9 +130,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "platner",
+        "word": "death",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "hunter",
@@ -145,56 +150,51 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "sen",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "died",
-        "count": 5,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-12T11:55:08.720227+00:00",
-    "nextRefresh": "2026-07-12T11:55:08.720227+00:00",
+    "generatedAt": "2026-07-12T13:08:33.942427+00:00",
+    "nextRefresh": "2026-07-12T13:08:33.942427+00:00",
     "articlesAnalyzed": 351,
-    "matchedMentions": 155,
-    "uniquePersonalities": 35,
+    "matchedMentions": 159,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 47,
-    "negative": 39,
-    "neutral": 14,
+    "positive": 44,
+    "negative": 40,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "india",
-        "count": 13,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
+        "word": "abdullah",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "bloc",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "statehood",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -209,12 +209,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "weight",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "woman",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "uses",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -249,7 +259,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "abdullah",
+        "word": "chopra",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "without",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -261,11 +281,6 @@
       {
         "word": "global",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "district",
-        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -289,41 +304,26 @@
         "sentiment": "negative"
       },
       {
-        "word": "statehood",
+        "word": "delhi",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "banerjee",
+        "word": "video",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "engaged",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "shares",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "singh",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "adani",
+        "word": "road",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-12T11:55:21.307551+00:00",
-    "nextRefresh": "2026-07-12T11:55:21.307551+00:00",
+    "generatedAt": "2026-07-12T13:08:50.381412+00:00",
+    "nextRefresh": "2026-07-12T13:08:50.381412+00:00",
     "articlesAnalyzed": 480,
-    "matchedMentions": 79,
+    "matchedMentions": 81,
     "uniquePersonalities": 49,
     "dataSource": "live-rss"
   }
