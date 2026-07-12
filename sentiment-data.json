@@ -1,22 +1,37 @@
 {
   "us": {
-    "positive": 43,
-    "negative": 49,
-    "neutral": 8,
+    "positive": 41,
+    "negative": 52,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 60,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "graham",
-        "count": 21,
+        "count": 57,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 21,
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "graham",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "illness",
+        "count": 13,
+        "sentiment": "negative"
+      },
+      {
+        "word": "sudden",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ally",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -25,83 +40,63 @@
         "sentiment": "neutral"
       },
       {
-        "word": "illness",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
-        "word": "office",
-        "count": 10,
+        "word": "brief",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "york",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "platner",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sudden",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "times",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "subpoenas",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "air",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "force",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "law",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "hunter",
-        "count": 9,
+        "word": "times",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "biden",
-        "count": 9,
+        "word": "subpoenas",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "suit",
-        "count": 9,
+        "word": "air",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "force",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "close",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senator",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "reporting",
-        "count": 8,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -110,32 +105,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "brief",
+        "word": "office",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "senator",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ally",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "journalists",
+        "word": "lindsey",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,20 +128,45 @@
         "word": "israeli",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "settlers",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "platner",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nato",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strikes",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "hunter",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-12T08:08:50.121236+00:00",
-    "nextRefresh": "2026-07-12T08:08:50.121236+00:00",
-    "articlesAnalyzed": 359,
-    "matchedMentions": 169,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-07-12T10:22:31.085922+00:00",
+    "nextRefresh": "2026-07-12T10:22:31.085922+00:00",
+    "articlesAnalyzed": 351,
+    "matchedMentions": 151,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
-    "negative": 28,
-    "neutral": 21,
+    "positive": 49,
+    "negative": 36,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "india",
@@ -174,87 +174,67 @@
         "sentiment": "neutral"
       },
       {
-        "word": "home",
+        "word": "target",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crore",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "woman",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "hit",
+        "word": "crore",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "ground",
+        "word": "modi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "running",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kohli",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "holding",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lengthy",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "conversation",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delivery",
+        "word": "bloc",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "arrested",
+        "word": "rift",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "widens",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "stalin",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "refuses",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "join",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "hands",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -269,6 +249,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "delivery",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "agent",
         "count": 3,
         "sentiment": "neutral"
@@ -279,22 +264,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "woman",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "khan",
+        "word": "arrested",
         "count": 3,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "kapoor",
+        "word": "scam",
         "count": 3,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "mother",
+        "word": "uses",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -317,14 +302,29 @@
         "word": "adani",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "emkay",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "financial",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zimbabwe",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-12T08:09:01.612413+00:00",
-    "nextRefresh": "2026-07-12T08:09:01.612413+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 71,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-07-12T10:22:48.339852+00:00",
+    "nextRefresh": "2026-07-12T10:22:48.339852+00:00",
+    "articlesAnalyzed": 481,
+    "matchedMentions": 69,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   }
 }
