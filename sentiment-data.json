@@ -1,42 +1,72 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 53,
-    "neutral": 9,
+    "positive": 36,
+    "negative": 58,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
+        "count": 74,
         "sentiment": "neutral"
       },
       {
         "word": "graham",
-        "count": 48,
+        "count": 49,
         "sentiment": "neutral"
       },
       {
         "word": "senator",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 14,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "death",
+        "count": 15,
+        "sentiment": "negative"
+      },
+      {
+        "word": "hormuz",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lawsuit",
         "count": 13,
         "sentiment": "negative"
       },
       {
-        "word": "mcconnell",
+        "word": "blockade",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "hormuz",
+        "word": "sister",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "irs",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lindsey",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -45,8 +75,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "lindsey",
+        "word": "states",
         "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -55,33 +90,38 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dies",
+        "word": "bill",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "ally",
+        "word": "hegseth",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "platner",
+        "word": "announces",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "blockade",
+        "word": "joint",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "bank",
+        "word": "prosecute",
         "count": 8,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "republicans",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "force",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -90,97 +130,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
+        "word": "mcconnell",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "sudden",
+        "word": "platner",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "altman",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lawsuit",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "absence",
+        "word": "sue",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "morgan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "boss",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pressed",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "contact",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jeffrey",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "epstein",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "return",
+        "word": "merger",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-13T16:27:11.225074+00:00",
-    "nextRefresh": "2026-07-13T16:27:11.225074+00:00",
-    "articlesAnalyzed": 349,
-    "matchedMentions": 170,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-07-13T18:40:06.756661+00:00",
+    "nextRefresh": "2026-07-13T18:40:06.756661+00:00",
+    "articlesAnalyzed": 351,
+    "matchedMentions": 198,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
+    "positive": 45,
     "negative": 30,
-    "neutral": 24,
+    "neutral": 25,
     "wordCloud": [
       {
-        "word": "kohli",
-        "count": 12,
+        "word": "india",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "kohli",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 9,
+        "word": "england",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -189,24 +194,29 @@
         "sentiment": "neutral"
       },
       {
+        "word": "test",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "rohit",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "england",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sharma",
+        "word": "trade",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
+        "word": "crore",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cup",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "ahead",
@@ -214,19 +224,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "reveals",
+        "word": "rahul",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "deal",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
+        "word": "virat",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "party",
@@ -234,52 +249,17 @@
         "sentiment": "positive"
       },
       {
-        "word": "abdullah",
+        "word": "lord",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kishor",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jibe",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "notice",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "false",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "goyal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "virat",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "letter",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
+        "word": "gandhi",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -289,42 +269,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "stays",
+        "word": "historic",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "madras",
-        "count": 4,
+        "word": "abdullah",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "cow",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "slaughter",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ban",
-        "count": 4,
+        "word": "fake",
+        "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "tamil",
-        "count": 4,
+        "word": "rejected",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "quick",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jibe",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "notice",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ram",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-13T16:27:22.527836+00:00",
-    "nextRefresh": "2026-07-13T16:27:22.527836+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 84,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-07-13T18:40:20.584567+00:00",
+    "nextRefresh": "2026-07-13T18:40:20.584567+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 82,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
 }
