@@ -1,38 +1,33 @@
 {
   "us": {
     "positive": 33,
-    "negative": 58,
-    "neutral": 9,
+    "negative": 57,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
+        "count": 70,
         "sentiment": "neutral"
       },
       {
         "word": "graham",
-        "count": 59,
+        "count": 60,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 22,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sister",
-        "count": 16,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 16,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
-        "word": "death",
-        "count": 16,
-        "sentiment": "negative"
+        "word": "sister",
+        "count": 17,
+        "sentiment": "neutral"
       },
       {
         "word": "states",
@@ -40,8 +35,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "death",
+        "count": 14,
+        "sentiment": "negative"
+      },
+      {
         "word": "hormuz",
         "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blockade",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -50,7 +55,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "term",
+        "word": "announces",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -60,28 +65,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
-        "count": 11,
+        "word": "irs",
+        "count": 10,
         "sentiment": "neutral"
-      },
-      {
-        "word": "lawsuit",
-        "count": 11,
-        "sentiment": "negative"
       },
       {
         "word": "lindsey",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "blockade",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "irs",
-        "count": 10,
+        "word": "term",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -95,7 +90,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sudden",
+        "word": "bill",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -103,6 +98,11 @@
         "word": "paramount",
         "count": 9,
         "sentiment": "neutral"
+      },
+      {
+        "word": "lawsuit",
+        "count": 9,
+        "sentiment": "negative"
       },
       {
         "word": "sue",
@@ -115,29 +115,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ally",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "block",
         "count": 8,
         "sentiment": "negative"
-      },
-      {
-        "word": "ukraine",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republican",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "openai",
-        "count": 7,
-        "sentiment": "neutral"
       },
       {
         "word": "man",
@@ -145,32 +125,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "announces",
-        "count": 7,
+        "word": "paramount-warner",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "altman",
-        "count": 7,
+        "word": "mcconnell",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ally",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "settlement",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "platner",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "republican",
+        "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-13T21:51:48.862479+00:00",
-    "nextRefresh": "2026-07-13T21:51:48.862479+00:00",
-    "articlesAnalyzed": 349,
-    "matchedMentions": 206,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-07-13T22:51:44.353658+00:00",
+    "nextRefresh": "2026-07-13T22:51:44.353658+00:00",
+    "articlesAnalyzed": 350,
+    "matchedMentions": 210,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 46,
-    "negative": 23,
-    "neutral": 31,
+    "negative": 25,
+    "neutral": 29,
     "wordCloud": [
       {
         "word": "india",
-        "count": 15,
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -184,18 +189,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "gill",
         "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "party",
-        "count": 8,
+        "count": 9,
         "sentiment": "positive"
       },
       {
@@ -206,11 +206,6 @@
       {
         "word": "rohit",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -234,12 +229,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "trade",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -264,6 +264,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "deal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "kishor",
         "count": 4,
         "sentiment": "neutral"
@@ -281,21 +286,6 @@
       {
         "word": "historic",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fake",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "rejected",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "quick",
-        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -317,14 +307,24 @@
         "word": "nadu",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "singh",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-13T21:52:03.075317+00:00",
-    "nextRefresh": "2026-07-13T21:52:03.075317+00:00",
+    "generatedAt": "2026-07-13T22:52:11.763610+00:00",
+    "nextRefresh": "2026-07-13T22:52:11.763610+00:00",
     "articlesAnalyzed": 466,
-    "matchedMentions": 82,
-    "uniquePersonalities": 43,
+    "matchedMentions": 83,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
 }
