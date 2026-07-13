@@ -1,53 +1,48 @@
 {
   "us": {
-    "positive": 32,
-    "negative": 61,
-    "neutral": 7,
+    "positive": 33,
+    "negative": 58,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 69,
+        "count": 62,
         "sentiment": "neutral"
       },
       {
         "word": "graham",
-        "count": 60,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "death",
-        "count": 19,
-        "sentiment": "negative"
-      },
-      {
-        "word": "hormuz",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senator",
-        "count": 15,
+        "count": 59,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 15,
+        "count": 22,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sister",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 14,
+        "count": 16,
         "sentiment": "neutral"
+      },
+      {
+        "word": "death",
+        "count": 16,
+        "sentiment": "negative"
       },
       {
         "word": "states",
-        "count": 14,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "lawsuit",
+        "word": "hormuz",
         "count": 13,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "judge",
@@ -55,22 +50,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "irs",
-        "count": 12,
+        "word": "term",
+        "count": 11,
         "sentiment": "neutral"
+      },
+      {
+        "word": "senator",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bill",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lawsuit",
+        "count": 11,
+        "sentiment": "negative"
       },
       {
         "word": "lindsey",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sister",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "merger",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -80,14 +80,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "paramount",
+        "word": "irs",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "block",
-        "count": 10,
-        "sentiment": "negative"
+        "word": "merger",
+        "count": 9,
+        "sentiment": "neutral"
       },
       {
         "word": "deal",
@@ -95,17 +95,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "strait",
+        "word": "sudden",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "capitol",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hill",
+        "word": "paramount",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -120,57 +115,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
+        "word": "ally",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "sudden",
+        "word": "block",
         "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "ukraine",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "republicans",
-        "count": 8,
+        "word": "republican",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "return",
-        "count": 8,
+        "word": "openai",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "agenda",
-        "count": 8,
+        "word": "man",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "complicated",
-        "count": 8,
+        "word": "announces",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "sen",
-        "count": 8,
+        "word": "altman",
+        "count": 7,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-13T20:10:01.660258+00:00",
-    "nextRefresh": "2026-07-13T20:10:01.660258+00:00",
-    "articlesAnalyzed": 348,
-    "matchedMentions": 208,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-07-13T21:51:48.862479+00:00",
+    "nextRefresh": "2026-07-13T21:51:48.862479+00:00",
+    "articlesAnalyzed": 349,
+    "matchedMentions": 206,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 46,
-    "negative": 28,
-    "neutral": 26,
+    "negative": 23,
+    "neutral": 31,
     "wordCloud": [
       {
         "word": "india",
-        "count": 13,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -259,6 +259,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "martyrs",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "kishor",
         "count": 4,
         "sentiment": "neutral"
@@ -279,11 +284,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "martyrs",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "fake",
         "count": 3,
         "sentiment": "negative"
@@ -299,12 +299,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "minister",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
+        "word": "mla",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-13T20:10:14.673211+00:00",
-    "nextRefresh": "2026-07-13T20:10:14.673211+00:00",
-    "articlesAnalyzed": 465,
+    "generatedAt": "2026-07-13T21:52:03.075317+00:00",
+    "nextRefresh": "2026-07-13T21:52:03.075317+00:00",
+    "articlesAnalyzed": 466,
     "matchedMentions": 82,
-    "uniquePersonalities": 41,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
