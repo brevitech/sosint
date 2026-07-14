@@ -1,31 +1,36 @@
 {
   "us": {
-    "positive": 35,
-    "negative": 55,
+    "positive": 33,
+    "negative": 57,
     "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 67,
+        "count": 71,
         "sentiment": "neutral"
       },
       {
         "word": "graham",
-        "count": 58,
+        "count": 55,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 19,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
         "word": "hormuz",
-        "count": 15,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "sister",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blockade",
         "count": 14,
         "sentiment": "neutral"
       },
@@ -35,38 +40,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "blockade",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "states",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
         "word": "announces",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senator",
-        "count": 12,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "states",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senator",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "irs",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lindsey",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "merger",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -80,57 +75,42 @@
         "sentiment": "negative"
       },
       {
+        "word": "lindsey",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strikes",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "merger",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "bill",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "paramount",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sue",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "irs",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "strait",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "block",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "strikes",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "deal",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "mcconnell",
+        "word": "paramount",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "man",
-        "count": 7,
+        "word": "sue",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "bros",
+        "word": "settlement",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -140,42 +120,67 @@
         "sentiment": "neutral"
       },
       {
+        "word": "mcconnell",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "platner",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "ice",
+        "word": "criminal",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "court",
         "count": 6,
         "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-07-14T02:00:05.078387+00:00",
-    "nextRefresh": "2026-07-14T02:00:05.078387+00:00",
-    "articlesAnalyzed": 354,
-    "matchedMentions": 203,
-    "uniquePersonalities": 48,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 48,
-    "negative": 28,
-    "neutral": 24,
-    "wordCloud": [
+      },
       {
-        "word": "india",
-        "count": 15,
+        "word": "lawsuit",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "oil",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 11,
+        "word": "block",
+        "count": 6,
+        "sentiment": "negative"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-07-14T05:07:25.581585+00:00",
+    "nextRefresh": "2026-07-14T05:07:25.581585+00:00",
+    "articlesAnalyzed": 359,
+    "matchedMentions": 194,
+    "uniquePersonalities": 44,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 53,
+    "negative": 29,
+    "neutral": 18,
+    "wordCloud": [
+      {
+        "word": "india",
+        "count": 23,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "launches",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "campaign",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -184,77 +189,97 @@
         "sentiment": "neutral"
       },
       {
-        "word": "party",
-        "count": 8,
-        "sentiment": "positive"
-      },
-      {
-        "word": "england",
+        "word": "odi",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
+        "word": "england",
         "count": 7,
         "sentiment": "neutral"
       },
       {
+        "word": "seat",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "t20i",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "security",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "council",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "crore",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "test",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "launches",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "jaishankar",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "team",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "lord",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kishor",
+        "word": "official",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "global",
+        "word": "face",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "cockroach",
+        "word": "drive",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
+        "word": "unsc",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "term",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shake",
         "count": 4,
         "sentiment": "negative"
       },
       {
-        "word": "target",
+        "word": "hangover",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "road",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cup",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "begins",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -264,65 +289,40 @@
         "sentiment": "neutral"
       },
       {
-        "word": "historic",
+        "word": "gill",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "martyrs",
+        "word": "ahead",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "airport",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
+        "word": "yadav",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jaishankar",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "unsc",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "campaign",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "term",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bankipur",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wife",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "assets",
-        "count": 3,
-        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-14T02:00:17.948306+00:00",
-    "nextRefresh": "2026-07-14T02:00:17.948306+00:00",
-    "articlesAnalyzed": 481,
+    "generatedAt": "2026-07-14T05:07:39.257728+00:00",
+    "nextRefresh": "2026-07-14T05:07:39.257728+00:00",
+    "articlesAnalyzed": 480,
     "matchedMentions": 79,
     "uniquePersonalities": 46,
     "dataSource": "live-rss"
