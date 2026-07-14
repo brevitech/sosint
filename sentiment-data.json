@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 34,
-    "negative": 59,
-    "neutral": 7,
+    "positive": 40,
+    "negative": 54,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 70,
+        "count": 59,
         "sentiment": "neutral"
       },
       {
         "word": "graham",
-        "count": 51,
+        "count": 44,
         "sentiment": "neutral"
       },
       {
@@ -21,41 +21,41 @@
       },
       {
         "word": "hormuz",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sister",
         "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "blockade",
-        "count": 12,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "senate",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "senator",
-        "count": 10,
-        "sentiment": "neutral"
+        "word": "strikes",
+        "count": 9,
+        "sentiment": "negative"
       },
       {
-        "word": "ice",
+        "word": "house",
         "count": 9,
         "sentiment": "neutral"
       },
       {
+        "word": "judge",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "irs",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senator",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -65,12 +65,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "strikes",
+        "word": "bill",
         "count": 8,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "bill",
+        "word": "ice",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -85,37 +85,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mcconnell",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "announces",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "states",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "gop",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "settlement",
+        "word": "states",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "launches",
+        "word": "sister",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "happened",
+        "word": "mcconnell",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -125,22 +110,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "lawsuit",
         "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "block",
-        "count": 6,
-        "sentiment": "negative"
+        "word": "home",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
-        "word": "finds",
+        "word": "sue",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "brief",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -153,44 +138,64 @@
         "word": "white",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "law",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "announces",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "paramount",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-14T11:22:29.886392+00:00",
-    "nextRefresh": "2026-07-14T11:22:29.886392+00:00",
+    "generatedAt": "2026-07-14T13:22:29.194290+00:00",
+    "nextRefresh": "2026-07-14T13:22:29.194290+00:00",
     "articlesAnalyzed": 357,
-    "matchedMentions": 187,
+    "matchedMentions": 179,
     "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 49,
-    "negative": 30,
-    "neutral": 21,
+    "positive": 51,
+    "negative": 35,
+    "neutral": 14,
     "wordCloud": [
       {
         "word": "england",
-        "count": 18,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "kohli",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 17,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "odi",
-        "count": 11,
+        "word": "india",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rukh",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -199,17 +204,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rukh",
+        "word": "supreme",
+        "count": 9,
+        "sentiment": "positive"
+      },
+      {
+        "word": "bumrah",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "gambhir",
+        "word": "plea",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "virat",
+        "word": "mannat",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "seeks",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kejriwal",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -219,22 +244,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bumrah",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crore",
+        "word": "samay",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sharma",
+        "word": "allahbadia",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "mannat",
+        "word": "wangchuk",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dismisses",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -244,27 +274,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "writes",
+        "word": "gambhir",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "raina",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "plea",
+        "word": "cjp",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "launches",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
+        "word": "against",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -274,7 +299,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kejriwal",
+        "word": "virat",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -289,42 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "seeks",
+        "word": "case",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "letter",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rohit",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "projects",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ncp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pulls",
-        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-14T11:22:42.271166+00:00",
-    "nextRefresh": "2026-07-14T11:22:42.271166+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 109,
-    "uniquePersonalities": 54,
+    "generatedAt": "2026-07-14T13:22:43.636209+00:00",
+    "nextRefresh": "2026-07-14T13:22:43.636209+00:00",
+    "articlesAnalyzed": 478,
+    "matchedMentions": 107,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   }
 }
