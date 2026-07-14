@@ -1,22 +1,32 @@
 {
   "us": {
-    "positive": 37,
-    "negative": 53,
-    "neutral": 10,
+    "positive": 36,
+    "negative": 55,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 63,
+        "count": 68,
         "sentiment": "neutral"
       },
       {
         "word": "graham",
-        "count": 40,
+        "count": 35,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bill",
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "hormuz",
-        "count": 17,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -25,12 +35,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "senate",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blockade",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
         "word": "death",
-        "count": 12,
+        "count": 11,
         "sentiment": "negative"
       },
       {
-        "word": "iran",
+        "word": "democrats",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -40,32 +60,12 @@
         "sentiment": "neutral"
       },
       {
+        "word": "block",
+        "count": 10,
+        "sentiment": "negative"
+      },
+      {
         "word": "senator",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "blockade",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mcconnell",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "strait",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "epstein",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -85,7 +85,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "darline",
+        "word": "epstein",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -105,14 +110,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "prime",
+        "word": "strait",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
+        "word": "darline",
         "count": 7,
         "sentiment": "neutral"
+      },
+      {
+        "word": "defense",
+        "count": 7,
+        "sentiment": "positive"
       },
       {
         "word": "hegseth",
@@ -120,57 +130,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sworn",
+        "word": "ice",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "irs",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "conspiracy",
+        "word": "stops",
         "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "power",
-        "count": 5,
+        "word": "prime",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "case",
-        "count": 5,
+        "word": "minister",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sovereignty",
+        "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-14T19:11:23.930058+00:00",
-    "nextRefresh": "2026-07-14T19:11:23.930058+00:00",
-    "articlesAnalyzed": 335,
-    "matchedMentions": 187,
+    "generatedAt": "2026-07-14T20:55:08.572934+00:00",
+    "nextRefresh": "2026-07-14T20:55:08.572934+00:00",
+    "articlesAnalyzed": 334,
+    "matchedMentions": 188,
     "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 42,
+    "positive": 43,
     "negative": 42,
-    "neutral": 16,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "india",
-        "count": 20,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
@@ -194,6 +194,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "modi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "bumrah",
         "count": 7,
         "sentiment": "neutral"
@@ -201,16 +206,6 @@
       {
         "word": "rahul",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wangchuk",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -239,7 +234,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "agarkar",
+        "word": "wangchuk",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -264,12 +259,12 @@
         "sentiment": "positive"
       },
       {
-        "word": "group",
+        "word": "image",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "fastest",
+        "word": "row",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -279,17 +274,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "hurt",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
         "word": "rohit",
         "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "without",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nuclear",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -317,14 +312,19 @@
         "word": "cjp",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "seeks",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-14T19:11:37.450040+00:00",
-    "nextRefresh": "2026-07-14T19:11:37.450040+00:00",
+    "generatedAt": "2026-07-14T20:55:21.882622+00:00",
+    "nextRefresh": "2026-07-14T20:55:21.882622+00:00",
     "articlesAnalyzed": 465,
-    "matchedMentions": 78,
-    "uniquePersonalities": 39,
+    "matchedMentions": 77,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
