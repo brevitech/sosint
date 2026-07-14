@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 33,
+    "positive": 32,
     "negative": 57,
-    "neutral": 10,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 71,
+        "count": 67,
         "sentiment": "neutral"
       },
       {
         "word": "graham",
-        "count": 55,
+        "count": 53,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 23,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
@@ -30,17 +30,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "blockade",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
         "word": "senate",
         "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "announces",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blockade",
         "count": 13,
         "sentiment": "neutral"
       },
@@ -65,24 +65,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "launches",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "death",
         "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "lindsey",
-        "count": 8,
+        "word": "launches",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "strikes",
-        "count": 8,
-        "sentiment": "negative"
+        "word": "lindsey",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "merger",
@@ -95,14 +90,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "strait",
+        "word": "paramount",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "paramount",
-        "count": 7,
-        "sentiment": "neutral"
+        "word": "strikes",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "sue",
@@ -111,11 +106,6 @@
       },
       {
         "word": "settlement",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ally",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -135,6 +125,16 @@
         "sentiment": "negative"
       },
       {
+        "word": "strait",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "oil",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "court",
         "count": 6,
         "sentiment": "neutral"
@@ -145,77 +145,102 @@
         "sentiment": "negative"
       },
       {
-        "word": "oil",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "block",
         "count": 6,
         "sentiment": "negative"
+      },
+      {
+        "word": "term",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-14T05:07:25.581585+00:00",
-    "nextRefresh": "2026-07-14T05:07:25.581585+00:00",
-    "articlesAnalyzed": 359,
-    "matchedMentions": 194,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-07-14T07:54:04.462815+00:00",
+    "nextRefresh": "2026-07-14T07:54:04.462815+00:00",
+    "articlesAnalyzed": 358,
+    "matchedMentions": 192,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 53,
-    "negative": 29,
-    "neutral": 18,
+    "positive": 48,
+    "negative": 42,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "india",
-        "count": 23,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "launches",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "campaign",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kohli",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "odi",
-        "count": 8,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "england",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kohli",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jaishankar",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "seat",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "t20i",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "security",
-        "count": 5,
+        "word": "supreme",
+        "count": 7,
         "sentiment": "positive"
       },
       {
-        "word": "council",
-        "count": 5,
+        "word": "bhatt",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "joins",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tumbbad",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gambhir",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sohum",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "team",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -224,107 +249,82 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jaishankar",
+        "word": "meets",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "team",
+        "word": "discusses",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "official",
-        "count": 4,
+        "word": "ukraine",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "face",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "drive",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "unsc",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "term",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shake",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "hangover",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "road",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "begins",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rohit",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ahead",
-        "count": 4,
+        "word": "prasad",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "global",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "plea",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wangchuk",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gautam",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "t20i",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "middle",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "east",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "airport",
-        "count": 3,
-        "sentiment": "neutral"
+        "word": "crisis",
+        "count": 4,
+        "sentiment": "negative"
       },
       {
-        "word": "yadav",
-        "count": 3,
+        "word": "fodder",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-14T05:07:39.257728+00:00",
-    "nextRefresh": "2026-07-14T05:07:39.257728+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 79,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-07-14T07:54:17.966753+00:00",
+    "nextRefresh": "2026-07-14T07:54:17.966753+00:00",
+    "articlesAnalyzed": 478,
+    "matchedMentions": 98,
+    "uniquePersonalities": 56,
     "dataSource": "live-rss"
   }
 }
