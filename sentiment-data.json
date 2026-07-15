@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 53,
+    "positive": 39,
+    "negative": 52,
     "neutral": 9,
     "wordCloud": [
       {
@@ -21,12 +21,7 @@
       },
       {
         "word": "bill",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 13,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -35,39 +30,29 @@
         "sentiment": "neutral"
       },
       {
+        "word": "senate",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
         "word": "democrats",
-        "count": 13,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "hormuz",
-        "count": 10,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
+        "word": "strikes",
         "count": 8,
         "sentiment": "negative"
       },
       {
-        "word": "block",
+        "word": "defense",
         "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "plants",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ice",
-        "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "threatens",
@@ -75,14 +60,29 @@
         "sentiment": "negative"
       },
       {
+        "word": "war",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "next",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "senator",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "defense",
+        "word": "blockade",
         "count": 7,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "block",
+        "count": 7,
+        "sentiment": "negative"
       },
       {
         "word": "hegseth",
@@ -92,6 +92,16 @@
       {
         "word": "sen",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ice",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -110,11 +120,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "blockade",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "protest",
         "count": 6,
         "sentiment": "negative"
@@ -125,14 +130,14 @@
         "sentiment": "neutral"
       },
       {
+        "word": "plants",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "stops",
         "count": 5,
         "sentiment": "negative"
-      },
-      {
-        "word": "next",
-        "count": 5,
-        "sentiment": "neutral"
       },
       {
         "word": "irs",
@@ -148,64 +153,59 @@
         "word": "sworn",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "sister",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-15T04:51:06.449374+00:00",
-    "nextRefresh": "2026-07-15T04:51:06.449374+00:00",
+    "generatedAt": "2026-07-15T07:11:38.430584+00:00",
+    "nextRefresh": "2026-07-15T07:11:38.430584+00:00",
     "articlesAnalyzed": 340,
-    "matchedMentions": 173,
-    "uniquePersonalities": 52,
+    "matchedMentions": 167,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
-    "negative": 37,
-    "neutral": 12,
+    "positive": 48,
+    "negative": 25,
+    "neutral": 27,
     "wordCloud": [
+      {
+        "word": "ncp",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leaders",
+        "count": 9,
+        "sentiment": "neutral"
+      },
       {
         "word": "india",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "england",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "fadnavis",
-        "count": 6,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "meets",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leaders",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ncp",
-        "count": 6,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "factions",
-        "count": 6,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "fuels",
-        "count": 6,
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "buzz",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -214,27 +214,52 @@
         "sentiment": "positive"
       },
       {
-        "word": "buzz",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "merger",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "kevin",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "chopra",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "england",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "khan",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "wangchuk",
+        "word": "action",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "update",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rajamouli",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "varanasi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slow-motion",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jumps",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -249,14 +274,29 @@
         "sentiment": "neutral"
       },
       {
-        "word": "centre",
+        "word": "modi",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "admit",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "quitting",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "party",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "mistake",
+        "count": 3,
+        "sentiment": "negative"
       },
       {
         "word": "congress",
@@ -264,67 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "srk",
+        "word": "invites",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "nick",
+        "word": "event",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "jonas",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "urged",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "watching",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "quantico",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cong",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "strike",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "maharashtra",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "emkay",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
+        "word": "trade",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-15T04:51:30.794891+00:00",
-    "nextRefresh": "2026-07-15T04:51:30.794891+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 59,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-07-15T07:11:48.536612+00:00",
+    "nextRefresh": "2026-07-15T07:11:48.536612+00:00",
+    "articlesAnalyzed": 481,
+    "matchedMentions": 67,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
