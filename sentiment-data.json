@@ -1,17 +1,22 @@
 {
   "us": {
-    "positive": 51,
+    "positive": 52,
     "negative": 43,
-    "neutral": 6,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 58,
+        "count": 59,
         "sentiment": "neutral"
       },
       {
         "word": "epstein",
-        "count": 16,
+        "count": 22,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -20,44 +25,44 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
-        "count": 12,
+        "word": "files",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "vance",
         "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ice",
-        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "hegseth",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "screwed",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "democrats",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pick",
+        "word": "testosterone",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "election",
+        "word": "ice",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "won",
+        "word": "release",
         "count": 7,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "buffett",
@@ -70,27 +75,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "testosterone",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "hormuz",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "todd",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "confirmation",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hearing",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -100,12 +85,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "intelligence",
+        "word": "against",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "election",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -115,29 +100,29 @@
         "sentiment": "neutral"
       },
       {
-        "word": "clayton",
+        "word": "comms",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "biden",
+        "word": "admits",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "errors",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "house",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
+        "word": "won",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vance",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "say",
-        "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "power",
@@ -150,31 +135,41 @@
         "sentiment": "neutral"
       },
       {
-        "word": "strikes",
+        "word": "warns",
         "count": 5,
         "sentiment": "negative"
+      },
+      {
+        "word": "military",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "intelligence",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "pick",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-15T22:54:40.486426+00:00",
-    "nextRefresh": "2026-07-15T22:54:40.486426+00:00",
+    "generatedAt": "2026-07-15T23:55:23.875252+00:00",
+    "nextRefresh": "2026-07-15T23:55:23.875252+00:00",
     "articlesAnalyzed": 342,
-    "matchedMentions": 176,
+    "matchedMentions": 180,
     "uniquePersonalities": 58,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
+    "positive": 44,
     "negative": 43,
-    "neutral": 12,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "india",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tmc",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -184,33 +179,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "banerjee",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "modi",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "madan",
-        "count": 7,
+        "word": "banerjee",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "mitra",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rebel",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "camp",
-        "count": 7,
+        "word": "tmc",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -234,6 +214,31 @@
         "sentiment": "negative"
       },
       {
+        "word": "madan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mitra",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rebel",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "camp",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "mamata",
         "count": 5,
         "sentiment": "neutral"
@@ -249,7 +254,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "trade",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sonam",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wangchuk",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -284,22 +299,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "wife",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sonam",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wangchuk",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -320,10 +320,10 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-15T22:54:51.697038+00:00",
-    "nextRefresh": "2026-07-15T22:54:51.697038+00:00",
+    "generatedAt": "2026-07-15T23:55:37.696527+00:00",
+    "nextRefresh": "2026-07-15T23:55:37.696527+00:00",
     "articlesAnalyzed": 466,
-    "matchedMentions": 74,
+    "matchedMentions": 72,
     "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
