@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 38,
+    "positive": 37,
     "negative": 56,
-    "neutral": 6,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 58,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "graham",
-        "count": 27,
+        "count": 59,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 22,
+        "count": 27,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "graham",
+        "count": 21,
         "sentiment": "neutral"
       },
       {
@@ -25,18 +25,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "hormuz",
         "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "democrats",
-        "count": 15,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "hormuz",
-        "count": 13,
+        "word": "house",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -46,11 +46,6 @@
       },
       {
         "word": "blockade",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senator",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -60,17 +55,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "death",
-        "count": 9,
-        "sentiment": "negative"
-      },
-      {
         "word": "power",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "buffett",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strait",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -80,7 +75,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sister",
+        "word": "senator",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -100,6 +95,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "plants",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
         "word": "gates",
         "count": 6,
         "sentiment": "neutral"
@@ -110,12 +115,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "strait",
+        "word": "strikes",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "until",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "darline",
+        "word": "amid",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -143,63 +153,38 @@
         "word": "sue",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fee",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-14T23:48:28.855465+00:00",
-    "nextRefresh": "2026-07-14T23:48:28.855465+00:00",
-    "articlesAnalyzed": 337,
-    "matchedMentions": 181,
+    "generatedAt": "2026-07-15T01:56:47.344861+00:00",
+    "nextRefresh": "2026-07-15T01:56:47.344861+00:00",
+    "articlesAnalyzed": 335,
+    "matchedMentions": 179,
     "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 38,
-    "negative": 46,
-    "neutral": 16,
+    "positive": 44,
+    "negative": 50,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "india",
-        "count": 15,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "england",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "odi",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
+        "word": "gill",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "kohli",
+        "word": "modi",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -224,27 +209,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ncp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "axar",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "patel",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "wangchuk",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "kejriwal",
+        "word": "rahul",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -257,6 +227,16 @@
         "word": "help",
         "count": 4,
         "sentiment": "positive"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kohli",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
         "word": "gadkari",
@@ -284,17 +264,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "indian",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "cjp",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "seeks",
+        "word": "kejriwal",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -304,12 +279,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "writes",
+        "word": "questions",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "patel",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "axar",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "emkay",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "financial",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-14T23:48:41.609642+00:00",
-    "nextRefresh": "2026-07-14T23:48:41.609642+00:00",
-    "articlesAnalyzed": 465,
-    "matchedMentions": 68,
-    "uniquePersonalities": 33,
+    "generatedAt": "2026-07-15T01:57:00.878561+00:00",
+    "nextRefresh": "2026-07-15T01:57:00.878561+00:00",
+    "articlesAnalyzed": 481,
+    "matchedMentions": 62,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
