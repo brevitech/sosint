@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 37,
-    "negative": 51,
-    "neutral": 12,
+    "positive": 39,
+    "negative": 52,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 73,
+        "count": 68,
         "sentiment": "neutral"
       },
       {
         "word": "house",
-        "count": 18,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
@@ -30,18 +30,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
+        "word": "speech",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "election",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "officials",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -50,12 +40,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "speech",
+        "word": "minister",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "epstein",
+        "word": "iran",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "election",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrat",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -70,14 +75,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "testosterone",
+        "word": "epstein",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "attack",
+        "word": "podcast",
         "count": 7,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "ukraine",
@@ -85,7 +90,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "testosterone",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -95,7 +100,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "elections",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "happened",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -105,28 +115,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "enemies",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "civilization",
+        "word": "shapiro",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "launch",
+        "word": "sounded",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sweeping",
+        "word": "rogan",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "left",
-        "count": 6,
+        "word": "officials",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -135,9 +140,9 @@
         "sentiment": "negative"
       },
       {
-        "word": "zelenskyy",
+        "word": "war",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "ice",
@@ -148,29 +153,24 @@
         "word": "defence",
         "count": 5,
         "sentiment": "positive"
-      },
-      {
-        "word": "primetime",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-16T22:53:16.390618+00:00",
-    "nextRefresh": "2026-07-16T22:53:16.390618+00:00",
-    "articlesAnalyzed": 339,
-    "matchedMentions": 154,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-07-16T23:54:22.888746+00:00",
+    "nextRefresh": "2026-07-16T23:54:22.888746+00:00",
+    "articlesAnalyzed": 340,
+    "matchedMentions": 161,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
+    "positive": 43,
     "negative": 33,
-    "neutral": 26,
+    "neutral": 24,
     "wordCloud": [
       {
         "word": "india",
-        "count": 13,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -194,27 +194,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "odi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wangchuk",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "modi",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kohli",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -224,18 +204,38 @@
         "sentiment": "neutral"
       },
       {
-        "word": "government",
+        "word": "against",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bumrah",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wangchuk",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "plea",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "dead",
+        "word": "kohli",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "former",
+        "word": "odi",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "government",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -244,32 +244,32 @@
         "sentiment": "negative"
       },
       {
-        "word": "crowd",
+        "word": "dead",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "case",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "face",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "amir",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "father",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "equals",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "viv",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "richards",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -309,22 +309,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rbi",
+        "word": "former",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "governor",
+        "word": "rbi",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-16T22:53:28.242621+00:00",
-    "nextRefresh": "2026-07-16T22:53:28.242621+00:00",
+    "generatedAt": "2026-07-16T23:54:34.451324+00:00",
+    "nextRefresh": "2026-07-16T23:54:34.451324+00:00",
     "articlesAnalyzed": 464,
-    "matchedMentions": 79,
-    "uniquePersonalities": 36,
+    "matchedMentions": 81,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
