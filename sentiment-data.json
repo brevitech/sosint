@@ -1,21 +1,21 @@
 {
   "us": {
-    "positive": 53,
-    "negative": 41,
-    "neutral": 6,
+    "positive": 52,
+    "negative": 43,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
+        "count": 61,
         "sentiment": "neutral"
       },
       {
         "word": "epstein",
-        "count": 18,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "files",
         "count": 13,
         "sentiment": "neutral"
       },
@@ -25,8 +25,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "files",
+        "word": "iran",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minister",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -40,12 +50,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
+        "word": "graham",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "china",
+        "word": "ice",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -65,22 +75,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "house",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "york",
+        "word": "military",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "ice",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "next",
+        "word": "china",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -90,19 +95,29 @@
         "sentiment": "neutral"
       },
       {
-        "word": "graham",
+        "word": "next",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "nominee",
+        "word": "against",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "biden",
+        "word": "intelligence",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "condemns",
@@ -115,11 +130,6 @@
         "sentiment": "negative"
       },
       {
-        "word": "starmer",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "screwed",
         "count": 6,
         "sentiment": "negative"
@@ -130,111 +140,126 @@
         "sentiment": "neutral"
       },
       {
-        "word": "grant",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "power",
+        "word": "york",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "times",
+        "word": "say",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "subpoenas",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "military",
+        "word": "ukraine",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-16T08:04:06.229291+00:00",
-    "nextRefresh": "2026-07-16T08:04:06.229291+00:00",
-    "articlesAnalyzed": 345,
-    "matchedMentions": 182,
-    "uniquePersonalities": 54,
+    "generatedAt": "2026-07-16T10:53:48.060337+00:00",
+    "nextRefresh": "2026-07-16T10:53:48.060337+00:00",
+    "articlesAnalyzed": 336,
+    "matchedMentions": 185,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 28,
-    "neutral": 26,
+    "positive": 47,
+    "negative": 22,
+    "neutral": 31,
     "wordCloud": [
       {
         "word": "india",
-        "count": 12,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sharma",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "rajan",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indians",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 5,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "england",
-        "count": 5,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "kohli",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "punjab",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "viral",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "federal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reserve",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "governor",
+        "word": "target",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hydrogen",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "train",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rajya",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sabha",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "key",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "temple",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "explained",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "viral",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -249,7 +274,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "indians",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "raghuram",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -259,72 +294,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "reliance",
+        "word": "rohit",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "flag",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "train",
+        "word": "projects",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "bjp",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "nagpur",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "odi",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "safety",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "lakh",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "former",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rbi",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "appointed",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "federal",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reserve",
+        "word": "against",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-16T08:04:20.772589+00:00",
-    "nextRefresh": "2026-07-16T08:04:20.772589+00:00",
-    "articlesAnalyzed": 481,
-    "matchedMentions": 81,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-07-16T10:54:13.996303+00:00",
+    "nextRefresh": "2026-07-16T10:54:13.996303+00:00",
+    "articlesAnalyzed": 480,
+    "matchedMentions": 83,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   }
 }
