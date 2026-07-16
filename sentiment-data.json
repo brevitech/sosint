@@ -1,22 +1,27 @@
 {
   "us": {
-    "positive": 50,
+    "positive": 47,
     "negative": 45,
-    "neutral": 5,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 58,
+        "count": 62,
         "sentiment": "neutral"
       },
       {
         "word": "epstein",
-        "count": 20,
+        "count": 23,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "files",
-        "count": 13,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -25,47 +30,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "blanche",
-        "count": 12,
+        "word": "white",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
-        "count": 11,
+        "word": "house",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "administration",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "brazil",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
+        "word": "minister",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
-        "count": 8,
+        "word": "blanche",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "tariffs",
+        "word": "screwed",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "hegseth",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -75,77 +70,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zelenskyy",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ice",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "military",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "testosterone",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "next",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "graham",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "messi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "final",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "warns",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "condemns",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "impose",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
         "word": "election",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fires",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "brazil",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attorney",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,29 +93,89 @@
         "word": "ties",
         "count": 6,
         "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-07-16T12:17:13.122481+00:00",
-    "nextRefresh": "2026-07-16T12:17:13.122481+00:00",
-    "articlesAnalyzed": 335,
-    "matchedMentions": 183,
-    "uniquePersonalities": 49,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 50,
-    "negative": 27,
-    "neutral": 23,
-    "wordCloud": [
+      },
       {
-        "word": "india",
-        "count": 17,
+        "word": "won",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "communication",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 14,
+        "word": "defence",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "ice",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "testosterone",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "buffett",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gates",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "politics",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "graham",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "seattle",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hour",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "federal",
+        "count": 5,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-07-16T14:56:22.634217+00:00",
+    "nextRefresh": "2026-07-16T14:56:22.634217+00:00",
+    "articlesAnalyzed": 339,
+    "matchedMentions": 174,
+    "uniquePersonalities": 48,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 48,
+    "negative": 37,
+    "neutral": 15,
+    "wordCloud": [
+      {
+        "word": "india",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wangchuk",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -184,7 +184,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "wangchuk",
+        "word": "puri",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "yatra",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kejriwal",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "education",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minister",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dead",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "rath",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reserve",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kohli",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -199,7 +249,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "odi",
+        "word": "rahul",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -209,52 +259,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "reserve",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "train",
+        "word": "sonam",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "meeting",
+        "word": "crowd",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "viral",
+        "word": "tmc",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "key",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kohli",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "flag",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hydrogen",
+        "word": "forces",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -264,67 +284,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "koel",
+        "word": "mann",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "mallick",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "resigns",
+        "word": "protest",
         "count": 4,
         "sentiment": "negative"
       },
       {
-        "word": "rajya",
+        "word": "help",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "face",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "sabha",
+        "word": "meeting",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "kharge",
+        "word": "hazare",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "writes",
+        "word": "playing",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "all-party",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delimitation",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "govt",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-16T12:17:25.868927+00:00",
-    "nextRefresh": "2026-07-16T12:17:25.868927+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 92,
-    "uniquePersonalities": 53,
+    "generatedAt": "2026-07-16T14:56:37.304762+00:00",
+    "nextRefresh": "2026-07-16T14:56:37.304762+00:00",
+    "articlesAnalyzed": 480,
+    "matchedMentions": 103,
+    "uniquePersonalities": 52,
     "dataSource": "live-rss"
   }
 }
