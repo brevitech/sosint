@@ -1,37 +1,32 @@
 {
   "us": {
     "positive": 52,
-    "negative": 43,
-    "neutral": 5,
+    "negative": 42,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 59,
+        "count": 62,
         "sentiment": "neutral"
       },
       {
         "word": "epstein",
-        "count": 22,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 13,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "blanche",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "files",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vance",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "china",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -40,13 +35,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "screwed",
-        "count": 9,
-        "sentiment": "negative"
+        "word": "files",
+        "count": 10,
+        "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "vance",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ice",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -55,12 +55,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ice",
+        "word": "blockade",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "release",
+        "word": "democrats",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -75,6 +75,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "strikes",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "military",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "hormuz",
         "count": 6,
         "sentiment": "neutral"
@@ -85,39 +95,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "countries",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "election",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "announces",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "comms",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "admits",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "errors",
+        "word": "screwed",
         "count": 6,
         "sentiment": "negative"
-      },
-      {
-        "word": "house",
-        "count": 6,
-        "sentiment": "neutral"
       },
       {
         "word": "won",
@@ -130,58 +115,83 @@
         "sentiment": "neutral"
       },
       {
-        "word": "china",
+        "word": "release",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "election",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senators",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "times",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "subpoenas",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "warns",
-        "count": 5,
+        "count": 4,
         "sentiment": "negative"
-      },
-      {
-        "word": "military",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "intelligence",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "pick",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-15T23:55:23.875252+00:00",
-    "nextRefresh": "2026-07-15T23:55:23.875252+00:00",
-    "articlesAnalyzed": 342,
-    "matchedMentions": 180,
-    "uniquePersonalities": 58,
+    "generatedAt": "2026-07-16T02:07:08.184663+00:00",
+    "nextRefresh": "2026-07-16T02:07:08.184663+00:00",
+    "articlesAnalyzed": 343,
+    "matchedMentions": 177,
+    "uniquePersonalities": 55,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
+    "positive": 48,
     "negative": 43,
-    "neutral": 13,
+    "neutral": 9,
     "wordCloud": [
+      {
+        "word": "modi",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
+        "count": 10,
+        "sentiment": "neutral"
+      },
       {
         "word": "india",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "bjp",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "protest",
         "count": 8,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "banerjee",
@@ -189,12 +199,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
+        "word": "madan",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mitra",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rebel",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "camp",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "gadkari",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mamata",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -204,42 +239,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protest",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "madan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mitra",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rebel",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "camp",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
+        "word": "trade",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "mamata",
+        "word": "deal",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -249,12 +254,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "joins",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "england",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
+        "word": "against",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jantar",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mantar",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -265,11 +285,6 @@
       },
       {
         "word": "wangchuk",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "adani",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -294,37 +309,22 @@
         "sentiment": "negative"
       },
       {
-        "word": "bumrah",
+        "word": "target",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "wife",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "party",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "against",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "govt",
-        "count": 3,
+        "word": "bumrah",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-15T23:55:37.696527+00:00",
-    "nextRefresh": "2026-07-15T23:55:37.696527+00:00",
-    "articlesAnalyzed": 466,
-    "matchedMentions": 72,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-07-16T02:07:21.850259+00:00",
+    "nextRefresh": "2026-07-16T02:07:21.850259+00:00",
+    "articlesAnalyzed": 481,
+    "matchedMentions": 75,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
