@@ -1,41 +1,51 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 55,
-    "neutral": 7,
+    "positive": 31,
+    "negative": 64,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 73,
+        "count": 75,
         "sentiment": "neutral"
       },
       {
         "word": "election",
-        "count": 21,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "house",
-        "count": 14,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "claims",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "politics",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "speech",
+        "word": "interference",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "democrats",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "address",
+        "word": "speech",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -50,37 +60,52 @@
         "sentiment": "neutral"
       },
       {
+        "word": "criticize",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "unverified",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "democrat",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "political",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "teleprompter",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "critics",
+        "word": "war",
         "count": 7,
         "sentiment": "negative"
       },
       {
-        "word": "operator",
+        "word": "thing",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attack",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "system",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cup",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "bets",
+        "word": "teleprompter",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "operator",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -100,97 +125,67 @@
         "sentiment": "neutral"
       },
       {
+        "word": "final",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "drops",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "interference",
+        "word": "launches",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "shapiro",
+        "word": "wide-ranging",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sounded",
+        "word": "integrity",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "rogan",
+        "word": "electoral",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "podcast",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "rubio",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "countries",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "social",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "posts",
-        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-17T10:42:01.332579+00:00",
-    "nextRefresh": "2026-07-17T10:42:01.332579+00:00",
+    "generatedAt": "2026-07-17T12:04:47.800163+00:00",
+    "nextRefresh": "2026-07-17T12:04:47.800163+00:00",
     "articlesAnalyzed": 347,
-    "matchedMentions": 168,
-    "uniquePersonalities": 50,
+    "matchedMentions": 176,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 39,
-    "negative": 30,
-    "neutral": 31,
+    "positive": 42,
+    "negative": 29,
+    "neutral": 29,
     "wordCloud": [
       {
-        "word": "india",
+        "word": "sharma",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "kohli",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sharma",
+        "word": "modi",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "england",
-        "count": 7,
+        "word": "india",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "rohit",
-        "count": 7,
+        "word": "kohli",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -199,13 +194,43 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "khan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rohit",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "virat",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "bank",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sonam",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wangchuk",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leader",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -224,37 +249,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "virat",
-        "count": 5,
-        "sentiment": "neutral"
+        "word": "protest",
+        "count": 4,
+        "sentiment": "negative"
       },
       {
-        "word": "sonam",
+        "word": "reveals",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "wangchuk",
+        "word": "train",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ncp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "coach",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leader",
+        "word": "pakistan",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -294,11 +304,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bumrah",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "gautam",
         "count": 4,
         "sentiment": "neutral"
@@ -309,22 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "tmc",
+        "word": "bjp",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-17T10:42:24.616992+00:00",
-    "nextRefresh": "2026-07-17T10:42:24.616992+00:00",
-    "articlesAnalyzed": 478,
-    "matchedMentions": 84,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-07-17T12:05:00.633994+00:00",
+    "nextRefresh": "2026-07-17T12:05:00.633994+00:00",
+    "articlesAnalyzed": 476,
+    "matchedMentions": 92,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   }
 }
