@@ -1,57 +1,47 @@
 {
   "us": {
-    "positive": 33,
-    "negative": 58,
+    "positive": 38,
+    "negative": 53,
     "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 67,
+        "count": 62,
         "sentiment": "neutral"
       },
       {
         "word": "election",
-        "count": 22,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "speech",
-        "count": 11,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "china",
-        "count": 11,
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "speech",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "power",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "claims",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "democrat",
+        "word": "house",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "white",
-        "count": 7,
-        "sentiment": "neutral"
+        "word": "war",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
-        "word": "vance",
-        "count": 7,
+        "word": "claims",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -70,12 +60,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "white",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "administration",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "foreign",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -87,31 +82,6 @@
       {
         "word": "midterm",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shapiro",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sounded",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rogan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "podcast",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "team",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -130,16 +100,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "testosterone",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "foreign",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ice",
         "count": 5,
         "sentiment": "neutral"
@@ -150,47 +110,92 @@
         "sentiment": "neutral"
       },
       {
+        "word": "graham",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "elections",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "guide",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "america",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "american",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "questions",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "defence",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "iran",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-17T18:00:38.695546+00:00",
-    "nextRefresh": "2026-07-17T18:00:38.695546+00:00",
+    "generatedAt": "2026-07-17T20:01:50.313604+00:00",
+    "nextRefresh": "2026-07-17T20:01:50.313604+00:00",
     "articlesAnalyzed": 346,
-    "matchedMentions": 161,
-    "uniquePersonalities": 48,
+    "matchedMentions": 146,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 36,
-    "negative": 32,
-    "neutral": 32,
+    "positive": 35,
+    "negative": 30,
+    "neutral": 35,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sharma",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 10,
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sharma",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 8,
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -204,38 +209,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ravi",
+        "word": "bcci",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kohli",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "odi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "punjab",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "drops",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "final",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -264,39 +239,39 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pakistan",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rohit",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
+        "word": "video",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "ncp",
+        "word": "tharoor",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "message",
+        "word": "stuck",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "kerala",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "space",
+        "word": "hotel",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "lift",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rescued",
+        "count": 3,
+        "sentiment": "positive"
       },
       {
         "word": "bangladesh",
@@ -304,27 +279,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "party",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "case",
+        "word": "high",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "aap",
+        "word": "station",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "punjab",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "haryana",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "event",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "track",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-17T18:00:55.680753+00:00",
-    "nextRefresh": "2026-07-17T18:00:55.680753+00:00",
-    "articlesAnalyzed": 482,
-    "matchedMentions": 94,
-    "uniquePersonalities": 49,
+    "generatedAt": "2026-07-17T20:02:02.978702+00:00",
+    "nextRefresh": "2026-07-17T20:02:02.978702+00:00",
+    "articlesAnalyzed": 468,
+    "matchedMentions": 79,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
