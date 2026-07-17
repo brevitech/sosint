@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 38,
+    "positive": 39,
     "negative": 55,
-    "neutral": 7,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 78,
+        "count": 75,
         "sentiment": "neutral"
       },
       {
         "word": "election",
-        "count": 19,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "house",
-        "count": 18,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -26,7 +26,7 @@
       },
       {
         "word": "white",
-        "count": 14,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -60,16 +60,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "testosterone",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "bets",
         "count": 7,
         "sentiment": "neutral"
@@ -80,8 +70,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "china",
-        "count": 7,
+        "word": "political",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -91,6 +81,11 @@
       },
       {
         "word": "drops",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "china",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -120,6 +115,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "rubio",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "minister",
         "count": 5,
         "sentiment": "neutral"
@@ -130,7 +130,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "testosterone",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -143,44 +153,34 @@
         "word": "networks",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "fired",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "bill",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-17T05:37:06.590832+00:00",
-    "nextRefresh": "2026-07-17T05:37:06.590832+00:00",
-    "articlesAnalyzed": 348,
-    "matchedMentions": 159,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-07-17T08:01:23.667092+00:00",
+    "nextRefresh": "2026-07-17T08:01:23.667092+00:00",
+    "articlesAnalyzed": 350,
+    "matchedMentions": 162,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 32,
-    "negative": 41,
-    "neutral": 27,
+    "positive": 39,
+    "negative": 26,
+    "neutral": 35,
     "wordCloud": [
       {
         "word": "india",
-        "count": 12,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
-        "word": "sonam",
+        "word": "modi",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "wangchuk",
-        "count": 11,
+        "word": "kohli",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -189,27 +189,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ncp",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kohli",
+        "word": "sonam",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "odi",
+        "word": "wangchuk",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "khan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
+        "word": "coach",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -219,37 +209,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "idiots",
+        "word": "delhi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "kaushal",
+        "word": "train",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "claim",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protest",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "coach",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nda",
+        "word": "odi",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -259,72 +234,97 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
-        "count": 4,
+        "word": "rohit",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "worker",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dehradun",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "event",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "killed",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "iron",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rod",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "falls",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "puri",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fbi",
-        "count": 4,
+        "word": "gautam",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "gambhir",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "man",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "begins",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cross-country",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "foot",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hydrogen",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "flags",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kaushal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "route",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "irani",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gives",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reveals",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-17T05:37:34.118743+00:00",
-    "nextRefresh": "2026-07-17T05:37:34.118743+00:00",
-    "articlesAnalyzed": 462,
-    "matchedMentions": 94,
-    "uniquePersonalities": 47,
+    "generatedAt": "2026-07-17T08:01:50.687981+00:00",
+    "nextRefresh": "2026-07-17T08:01:50.687981+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 97,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   }
 }
