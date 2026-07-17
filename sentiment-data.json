@@ -1,22 +1,17 @@
 {
   "us": {
-    "positive": 43,
+    "positive": 42,
     "negative": 49,
-    "neutral": 8,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 68,
+        "count": 61,
         "sentiment": "neutral"
       },
       {
         "word": "election",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "china",
-        "count": 11,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -25,13 +20,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 10,
+        "word": "senate",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 9,
+        "word": "china",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -45,13 +40,8 @@
         "sentiment": "negative"
       },
       {
-        "word": "administration",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "claims",
-        "count": 8,
+        "word": "power",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -60,12 +50,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "address",
-        "count": 7,
+        "word": "white",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "administration",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -100,6 +90,26 @@
         "sentiment": "neutral"
       },
       {
+        "word": "address",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "canada",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wildfire",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "smoke",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "security",
         "count": 5,
         "sentiment": "positive"
@@ -120,21 +130,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dhs",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "down",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "results",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "guide",
         "count": 5,
         "sentiment": "neutral"
@@ -150,23 +145,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "primetime",
+        "word": "threatens",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "questions",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-17T21:46:50.457917+00:00",
-    "nextRefresh": "2026-07-17T21:46:50.457917+00:00",
+    "generatedAt": "2026-07-17T22:43:31.602977+00:00",
+    "nextRefresh": "2026-07-17T22:43:31.602977+00:00",
     "articlesAnalyzed": 347,
-    "matchedMentions": 146,
-    "uniquePersonalities": 44,
+    "matchedMentions": 138,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 36,
-    "negative": 27,
-    "neutral": 37,
+    "positive": 35,
+    "negative": 29,
+    "neutral": 36,
     "wordCloud": [
       {
         "word": "modi",
@@ -254,6 +254,11 @@
         "sentiment": "positive"
       },
       {
+        "word": "final",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "high",
         "count": 3,
         "sentiment": "neutral"
@@ -312,19 +317,14 @@
         "word": "japan",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "push",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-17T21:47:04.196469+00:00",
-    "nextRefresh": "2026-07-17T21:47:04.196469+00:00",
+    "generatedAt": "2026-07-17T22:43:45.826380+00:00",
+    "nextRefresh": "2026-07-17T22:43:45.826380+00:00",
     "articlesAnalyzed": 467,
-    "matchedMentions": 73,
-    "uniquePersonalities": 37,
+    "matchedMentions": 75,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
