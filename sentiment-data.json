@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 30,
+    "positive": 33,
     "negative": 58,
-    "neutral": 12,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 70,
+        "count": 67,
         "sentiment": "neutral"
       },
       {
@@ -15,48 +15,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "speech",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
         "word": "china",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "speech",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vance",
-        "count": 8,
+        "word": "house",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "claims",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -65,17 +45,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "white",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "team",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ice",
+        "word": "vance",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -90,12 +65,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "ukraine",
+        "word": "cup",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "foreign",
+        "word": "war",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "administration",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -106,11 +86,6 @@
       },
       {
         "word": "midterm",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "address",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -135,81 +110,106 @@
         "sentiment": "neutral"
       },
       {
-        "word": "end",
+        "word": "team",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "hegseth",
+        "word": "security",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cuts",
-        "count": 5,
-        "sentiment": "negative"
+        "sentiment": "positive"
       },
       {
         "word": "minister",
         "count": 5,
         "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-07-17T16:10:37.426486+00:00",
-    "nextRefresh": "2026-07-17T16:10:37.426486+00:00",
-    "articlesAnalyzed": 346,
-    "matchedMentions": 172,
-    "uniquePersonalities": 47,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 39,
-    "negative": 34,
-    "neutral": 27,
-    "wordCloud": [
-      {
-        "word": "congress",
-        "count": 11,
-        "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sharma",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wangchuk",
+        "word": "ukraine",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
+        "word": "testosterone",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "foreign",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ice",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dhs",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "guide",
+        "count": 5,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-07-17T18:00:38.695546+00:00",
+    "nextRefresh": "2026-07-17T18:00:38.695546+00:00",
+    "articlesAnalyzed": 346,
+    "matchedMentions": 161,
+    "uniquePersonalities": 48,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 36,
+    "negative": 32,
+    "neutral": 32,
+    "wordCloud": [
+      {
+        "word": "modi",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sharma",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wangchuk",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "ravi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kohli",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -234,7 +234,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "government",
+        "word": "final",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -259,7 +264,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "global",
+        "word": "pakistan",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -269,62 +274,57 @@
         "sentiment": "neutral"
       },
       {
+        "word": "rohit",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ncp",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "message",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "space",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bangladesh",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "party",
         "count": 3,
         "sentiment": "positive"
       },
       {
-        "word": "protest",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "star",
+        "word": "case",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "school",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "track",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tmc",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "doctor",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "khan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "final",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "showing",
+        "word": "aap",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-17T16:10:48.001355+00:00",
-    "nextRefresh": "2026-07-17T16:10:48.001355+00:00",
+    "generatedAt": "2026-07-17T18:00:55.680753+00:00",
+    "nextRefresh": "2026-07-17T18:00:55.680753+00:00",
     "articlesAnalyzed": 482,
     "matchedMentions": 94,
-    "uniquePersonalities": 53,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   }
 }
