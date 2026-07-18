@@ -1,21 +1,21 @@
 {
   "us": {
-    "positive": 43,
-    "negative": 49,
-    "neutral": 8,
+    "positive": 45,
+    "negative": 48,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "election",
-        "count": 15,
+        "count": 63,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "election",
         "count": 14,
         "sentiment": "neutral"
       },
@@ -25,13 +25,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "speech",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "speech",
-        "count": 8,
+        "word": "graham",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -50,9 +55,19 @@
         "sentiment": "neutral"
       },
       {
+        "word": "senate",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "energy",
         "count": 5,
         "sentiment": "positive"
+      },
+      {
+        "word": "canada",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "china",
@@ -90,22 +105,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "next",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "plan",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "doctors",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "evidence",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -120,27 +125,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "graham",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "york",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "air",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "finds",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "canada",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -153,28 +143,58 @@
         "word": "access",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "missing",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "white",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-18T16:51:58.754121+00:00",
-    "nextRefresh": "2026-07-18T16:51:58.754121+00:00",
-    "articlesAnalyzed": 341,
-    "matchedMentions": 140,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-07-18T17:52:42.850412+00:00",
+    "nextRefresh": "2026-07-18T17:52:42.850412+00:00",
+    "articlesAnalyzed": 342,
+    "matchedMentions": 138,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 54,
-    "negative": 24,
-    "neutral": 22,
+    "positive": 55,
+    "negative": 28,
+    "neutral": 17,
     "wordCloud": [
       {
-        "word": "india",
-        "count": 16,
+        "word": "rebels",
+        "count": 12,
+        "sentiment": "negative"
+      },
+      {
+        "word": "banerjee",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "odi",
+        "word": "india",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sena",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mps",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -189,17 +209,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vikram",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "launch",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tmc",
+        "word": "abhishek",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -209,22 +219,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "vikram",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "launch",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "return",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "merger",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ubt",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "lord",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -234,17 +264,37 @@
         "sentiment": "negative"
       },
       {
+        "word": "birla",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shinde",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "resign",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "rahul",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "speaker",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shiv",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "cwg",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "opening",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ceremony",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -254,77 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jantar",
+        "word": "gandhi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "mantar",
+        "word": "removal",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "birla",
+        "word": "gautam",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ubt",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "decider",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "return",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "skyroot",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "claims",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lovlina",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "flagbearers",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rohit",
-        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-18T16:52:10.332961+00:00",
-    "nextRefresh": "2026-07-18T16:52:10.332961+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 113,
-    "uniquePersonalities": 54,
+    "generatedAt": "2026-07-18T17:52:56.708993+00:00",
+    "nextRefresh": "2026-07-18T17:52:56.708993+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 119,
+    "uniquePersonalities": 52,
     "dataSource": "live-rss"
   }
 }
