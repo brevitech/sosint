@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 45,
-    "negative": 48,
-    "neutral": 7,
+    "positive": 38,
+    "negative": 53,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 63,
+        "count": 59,
         "sentiment": "neutral"
       },
       {
@@ -16,18 +16,28 @@
       },
       {
         "word": "election",
-        "count": 14,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "cup",
+        "word": "killed",
+        "count": 10,
+        "sentiment": "negative"
+      },
+      {
+        "word": "jordan",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "speech",
-        "count": 8,
+        "word": "cup",
+        "count": 9,
         "sentiment": "neutral"
+      },
+      {
+        "word": "missing",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
         "word": "graham",
@@ -40,9 +50,19 @@
         "sentiment": "neutral"
       },
       {
+        "word": "speech",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "final",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "attacks",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "say",
@@ -55,22 +75,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 6,
+        "word": "air",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "energy",
+        "word": "iranian",
         "count": 5,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "canada",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "china",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -100,7 +115,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "attacks",
+        "word": "war",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "strikes",
         "count": 5,
         "sentiment": "negative"
       },
@@ -115,6 +135,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "updates",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "cnbc",
         "count": 5,
         "sentiment": "neutral"
@@ -125,56 +150,41 @@
         "sentiment": "neutral"
       },
       {
-        "word": "air",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "finds",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tariffs",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "access",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "missing",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "white",
-        "count": 4,
+        "word": "norman",
+        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-18T17:52:42.850412+00:00",
-    "nextRefresh": "2026-07-18T17:52:42.850412+00:00",
-    "articlesAnalyzed": 342,
-    "matchedMentions": 138,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-07-18T18:56:14.891914+00:00",
+    "nextRefresh": "2026-07-18T18:56:14.891914+00:00",
+    "articlesAnalyzed": 343,
+    "matchedMentions": 141,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 55,
-    "negative": 28,
+    "positive": 51,
+    "negative": 32,
     "neutral": 17,
     "wordCloud": [
       {
         "word": "rebels",
-        "count": 12,
+        "count": 14,
         "sentiment": "negative"
       },
       {
         "word": "banerjee",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abhishek",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -194,22 +204,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "wangchuk",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "sharma",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
+        "word": "return",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -219,14 +219,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vikram",
-        "count": 8,
+        "word": "sharma",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "launch",
+        "word": "resign",
         "count": 8,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "odi",
@@ -234,7 +234,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "return",
+        "word": "vikram",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "launch",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -274,11 +279,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "resign",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
         "word": "rahul",
         "count": 6,
         "sentiment": "neutral"
@@ -314,17 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gautam",
+        "word": "retirement",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-18T17:52:56.708993+00:00",
-    "nextRefresh": "2026-07-18T17:52:56.708993+00:00",
+    "generatedAt": "2026-07-18T18:56:31.021524+00:00",
+    "nextRefresh": "2026-07-18T18:56:31.021524+00:00",
     "articlesAnalyzed": 466,
-    "matchedMentions": 119,
-    "uniquePersonalities": 52,
+    "matchedMentions": 114,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   }
 }
