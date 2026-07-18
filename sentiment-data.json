@@ -1,46 +1,56 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 53,
-    "neutral": 9,
+    "positive": 41,
+    "negative": 51,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 59,
+        "count": 60,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 15,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "election",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "killed",
-        "count": 10,
+        "count": 11,
         "sentiment": "negative"
       },
       {
         "word": "jordan",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "cup",
-        "count": 9,
+        "word": "graham",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "missing",
-        "count": 8,
+        "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "graham",
+        "word": "norman",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cup",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "speech",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -50,19 +60,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "speech",
+        "word": "iranian",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "final",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attacks",
-        "count": 6,
-        "sentiment": "negative"
       },
       {
         "word": "say",
@@ -80,7 +80,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iranian",
+        "word": "troops",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -93,11 +93,6 @@
         "word": "security",
         "count": 5,
         "sentiment": "positive"
-      },
-      {
-        "word": "ahead",
-        "count": 5,
-        "sentiment": "neutral"
       },
       {
         "word": "screening",
@@ -120,6 +115,11 @@
         "sentiment": "negative"
       },
       {
+        "word": "final",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "strikes",
         "count": 5,
         "sentiment": "negative"
@@ -135,11 +135,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "updates",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "cnbc",
         "count": 5,
         "sentiment": "neutral"
@@ -150,23 +145,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "norman",
+        "word": "bid",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "seat",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-18T18:56:14.891914+00:00",
-    "nextRefresh": "2026-07-18T18:56:14.891914+00:00",
+    "generatedAt": "2026-07-18T20:02:17.309653+00:00",
+    "nextRefresh": "2026-07-18T20:02:17.309653+00:00",
     "articlesAnalyzed": 343,
-    "matchedMentions": 141,
-    "uniquePersonalities": 43,
+    "matchedMentions": 144,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
-    "negative": 32,
-    "neutral": 17,
+    "positive": 49,
+    "negative": 35,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "rebels",
@@ -190,16 +190,6 @@
       },
       {
         "word": "india",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sena",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -229,32 +219,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "odi",
+        "word": "mps",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "vikram",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "launch",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "merger",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ubt",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "modi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -284,22 +259,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "speaker",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shiv",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cwg",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ahead",
+        "word": "sena",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -309,7 +269,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "removal",
+        "word": "merger",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ubt",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -317,14 +282,49 @@
         "word": "retirement",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "jantar",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mantar",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mamata",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "thackeray",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "awards",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "national",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-18T18:56:31.021524+00:00",
-    "nextRefresh": "2026-07-18T18:56:31.021524+00:00",
-    "articlesAnalyzed": 466,
-    "matchedMentions": 114,
-    "uniquePersonalities": 51,
+    "generatedAt": "2026-07-18T20:02:30.503558+00:00",
+    "nextRefresh": "2026-07-18T20:02:30.503558+00:00",
+    "articlesAnalyzed": 468,
+    "matchedMentions": 106,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   }
 }
