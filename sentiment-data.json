@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 47,
-    "negative": 46,
-    "neutral": 7,
+    "positive": 43,
+    "negative": 49,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 63,
+        "count": 62,
         "sentiment": "neutral"
       },
       {
@@ -16,12 +16,17 @@
       },
       {
         "word": "iran",
-        "count": 13,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "cup",
-        "count": 11,
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -30,22 +35,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "final",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ahead",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "four",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -65,11 +55,6 @@
         "sentiment": "positive"
       },
       {
-        "word": "canada",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "china",
         "count": 5,
         "sentiment": "neutral"
@@ -78,6 +63,11 @@
         "word": "security",
         "count": 5,
         "sentiment": "positive"
+      },
+      {
+        "word": "ahead",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "screening",
@@ -93,6 +83,11 @@
         "word": "epstein",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "attacks",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "next",
@@ -111,16 +106,6 @@
       },
       {
         "word": "evidence",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "elections",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "updates",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -153,44 +138,74 @@
         "word": "finds",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "canada",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tariffs",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "access",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-18T15:51:34.628610+00:00",
-    "nextRefresh": "2026-07-18T15:51:34.628610+00:00",
+    "generatedAt": "2026-07-18T16:51:58.754121+00:00",
+    "nextRefresh": "2026-07-18T16:51:58.754121+00:00",
     "articlesAnalyzed": 341,
-    "matchedMentions": 142,
-    "uniquePersonalities": 43,
+    "matchedMentions": 140,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 29,
-    "neutral": 19,
+    "positive": 54,
+    "negative": 24,
+    "neutral": 22,
     "wordCloud": [
       {
         "word": "india",
-        "count": 15,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "odi",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "wangchuk",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "sharma",
-        "count": 11,
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vikram",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "launch",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "sonam",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -199,44 +214,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "abhishek",
+        "word": "lord",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "vikram",
+        "word": "mps",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abhishek",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "launch",
+        "word": "rebel",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lord",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tmc",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jantar",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mantar",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "awards",
-        "count": 6,
-        "sentiment": "positive"
+        "sentiment": "negative"
       },
       {
         "word": "cwg",
@@ -254,42 +249,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "national",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "film",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rohit",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rebel",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "mps",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ahead",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jantar",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mantar",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "birla",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ubt",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -299,7 +279,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dev",
+        "word": "banerjee",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -309,22 +289,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "removal",
-        "count": 5,
+        "word": "skyroot",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 5,
+        "word": "claims",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lovlina",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "flagbearers",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cjp",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rohit",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-18T15:51:47.731372+00:00",
-    "nextRefresh": "2026-07-18T15:51:47.731372+00:00",
-    "articlesAnalyzed": 478,
-    "matchedMentions": 112,
-    "uniquePersonalities": 52,
+    "generatedAt": "2026-07-18T16:52:10.332961+00:00",
+    "nextRefresh": "2026-07-18T16:52:10.332961+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 113,
+    "uniquePersonalities": 54,
     "dataSource": "live-rss"
   }
 }
