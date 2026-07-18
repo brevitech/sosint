@@ -1,22 +1,17 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 51,
+    "positive": 42,
+    "negative": 50,
     "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 68,
+        "count": 70,
         "sentiment": "neutral"
       },
       {
         "word": "election",
-        "count": 20,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "speech",
-        "count": 10,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
@@ -30,7 +25,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "graham",
+        "word": "claims",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -40,23 +35,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "speech",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "war",
         "count": 8,
         "sentiment": "negative"
       },
       {
-        "word": "claims",
+        "word": "graham",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "canada",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -65,12 +55,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "threatens",
+        "word": "canada",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "security",
+        "count": 6,
+        "sentiment": "positive"
       },
       {
         "word": "administration",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "elections",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -80,9 +80,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "security",
+        "word": "access",
         "count": 5,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "foreign",
@@ -91,21 +91,6 @@
       },
       {
         "word": "epstein",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wildfire",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "smoke",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "elections",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -120,6 +105,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "senate",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "air",
         "count": 4,
         "sentiment": "neutral"
@@ -130,12 +120,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "threatens",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
         "word": "tariffs",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "access",
+        "word": "media",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -153,29 +148,34 @@
         "word": "ukraine",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-17T23:47:25.276845+00:00",
-    "nextRefresh": "2026-07-17T23:47:25.276845+00:00",
-    "articlesAnalyzed": 347,
-    "matchedMentions": 142,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-07-18T01:59:38.937717+00:00",
+    "nextRefresh": "2026-07-18T01:59:38.937717+00:00",
+    "articlesAnalyzed": 349,
+    "matchedMentions": 143,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 34,
-    "negative": 32,
-    "neutral": 34,
+    "negative": 38,
+    "neutral": 28,
     "wordCloud": [
-      {
-        "word": "modi",
-        "count": 9,
-        "sentiment": "neutral"
-      },
       {
         "word": "sharma",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -184,17 +184,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "congress",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "court",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -209,7 +204,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "station",
+        "word": "ahead",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wangchuk",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -219,49 +224,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "wangchuk",
+        "word": "sonam",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "video",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tharoor",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stuck",
+        "word": "dispute",
         "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "kerala",
+        "word": "case",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "hotel",
+        "word": "pawar",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "lift",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rescued",
-        "count": 3,
-        "sentiment": "positive"
       },
       {
         "word": "final",
@@ -269,42 +249,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "high",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "turmoil",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "haryana",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "track",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tmc",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gets",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "paper",
+        "word": "dehradun",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -314,17 +259,72 @@
         "sentiment": "neutral"
       },
       {
-        "word": "family",
+        "word": "japan",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "push",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "government",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "stands",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kanwariyas",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "assures",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "security",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "pilgrims",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "urges",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "discipline",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odis",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ashwin",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-17T23:47:38.098488+00:00",
-    "nextRefresh": "2026-07-17T23:47:38.098488+00:00",
+    "generatedAt": "2026-07-18T01:59:52.839649+00:00",
+    "nextRefresh": "2026-07-18T01:59:52.839649+00:00",
     "articlesAnalyzed": 467,
-    "matchedMentions": 79,
-    "uniquePersonalities": 42,
+    "matchedMentions": 71,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
