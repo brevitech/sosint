@@ -1,22 +1,40 @@
 {
-  "generatedAt": "2026-07-19T02:11:06.556316+00:00",
+  "generatedAt": "2026-07-19T05:46:54.782387+00:00",
   "dataSource": "live-osint",
   "incidents": [
-    {
-      "title": "U.S. launches new airstrikes to 'punish' Iran for troop deaths - NPR",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcHdrMGtDbk9GejZad2dqd0k2TWVKSnYxcVhpVHNPbDVKU0xyOEJSXzhHbzEzTl9EOE1jVjNSZnIydVdObUFCNXEtZXN5dW1qU2RfUXdqX28zSVJCaE1vTkN1NHA1SjZiMHVzNUt1VkdKVTFoZ0tPYjJZV3hJLU81OTVxRGgwMGJq?oc=5",
-      "domain": "NPR",
-      "lat": 31.971933298277158,
-      "lon": 52.719302482125215,
-      "color": "#f97316",
-      "category": "airstrike"
-    },
     {
       "title": "U.S. strikes Iran after 2 service members killed, 1 missing in attack on Jordan base - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUDhIaFk3Yi1tNnR6Y3Y3QlhhUjVKSEp2bWJrLVJGQ3kyZ00yUUVrZ3AtV2JRS0ZmN1dCU25CUGFwNFVYLTd6QVRRV3dzNlpHN3lPX0xSaWxpX2laSkNxWmdKQnhNU25BRmJFNXFHM1lHZFJIckZnVllzenNRS081NWhpR2xVQ0ZfT0NDXzV2M2FTdHlPUXpPTWdRdXBKR0xJOUdqWUwyYTN2Rlly?oc=5",
       "domain": "The Washington Post",
-      "lat": 31.763352866525842,
-      "lon": 53.289275351666355,
+      "lat": 32.262250234090985,
+      "lon": 53.20141614540147,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "U.S. launches new airstrikes to 'punish' Iran for troop deaths - NPR",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcHdrMGtDbk9GejZad2dqd0k2TWVKSnYxcVhpVHNPbDVKU0xyOEJSXzhHbzEzTl9EOE1jVjNSZnIydVdObUFCNXEtZXN5dW1qU2RfUXdqX28zSVJCaE1vTkN1NHA1SjZiMHVzNUt1VkdKVTFoZ0tPYjJZV3hJLU81OTVxRGgwMGJq?oc=5",
+      "domain": "NPR",
+      "lat": 32.19796762396297,
+      "lon": 53.02642916066453,
+      "color": "#f97316",
+      "category": "airstrike"
+    },
+    {
+      "title": "Iran Update Special Report, July 18, 2026 - Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMjk0Tm1fVGFJX2Jmak11R3Y4QVFzTm9KQng4NElpLWljaUwtX0xRZ244ZXAtUzJoRE1odDNkMGx2c2pBRXpVN0VUdWtRRDJxNHR5Y3FvSGl0WmI4MlJXTFR4TG1yNTd2amlGeUdWRFdmSnBnSzR2SEJUU3pjQUgxYlJzcGl1ak5ZZmpud21ETF9Dbk9t?oc=5",
+      "domain": "Institute for the Study of War",
+      "lat": 32.07930789991088,
+      "lon": 53.202547513650124,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "Trump on 2 troops killed in Iran attack: ‘A very sad thing’ - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMXVSUjF3Qzh0STJuMTd5OC1XRFFuRlV6Q0lpeVdYcXBpWjFBUVNGNkZLZ3h2OHIxQjBsa0lZa1NGQ3Z4U0g1cWdPZll3N2dzR3ZxUUpsSzRHSHhQZm9RcTRMVVVXekc0WFMxR1AweHN0NFRUODBvUDJjRXp4dEZBYXhBRjVES2FiNUM0a2dLS05KcTc4X045U3Z5Z9IBoAFBVV95cUxOb0E0OEJiNUx0RlFOU19MY1k3bFJtcGtvWlphYWxqNXQ4QUdxSWcxNkhwcmFJS2ktSFhBb0hxMUxLQ25Vc0R0MlNmZ1FWVHVqbjRwWXREbExsT0I0YmFINHVpcVYyaHVoUW9qZnFUWm1Ya0dWNWg0ZThrUDFqbTBCSmowanpWSXpCX2dQcUdSdjVsZTQtVVZNX1lXeUU3WnNj?oc=5",
+      "domain": "NewsNation",
+      "lat": 31.844982280613642,
+      "lon": 53.06497162262738,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -24,44 +42,35 @@
       "title": "Two U.S. Troops Were Killed, One Is Missing After Iran Missile Attack in Jordan - WSJ",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMl9xOG02Si12Z1duVWRuUVFYNk40WGNXNWhwZk5qTjlOUVR4aDVGVW9qeG5pcExQcmlTRi1YZjNOcndLVWJGMmhtbnNQc2F2dFg0d29teWsxUVNGbTQ5SHI2QU5fa2Q0NFNXQndyYWlET01zMDZwUWc1NUZRS3ZFS1dXYS1jUnlKU0dDcGUxV08xUVhDR1V0RF9qZl9XX2xlLVBKM1pZZ0drY2VYMnBqSFN4SGdsVUxhNTI3VXJ3?oc=5",
       "domain": "WSJ",
-      "lat": 32.189441273220865,
-      "lon": 53.15970349552728,
+      "lat": 32.14233965997556,
+      "lon": 53.18289278164234,
       "color": "#f97316",
       "category": "airstrike"
+    },
+    {
+      "title": "US renews strikes on Iran after two military personnel killed by Iranian attack - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcmZSOG9seXNyMUFGTW1NMF9XWUVNYUZLczBFRWFTTDZZYnRjX081R3pnUzl6NTFVM053aG50T09hb2pMSlFxTGV6T2V0ZEZaRUFtNjVTSk01MWFrb05KcHdVdHZHMktERXlFVEdKTGFrTlo0cl9SY0hjb0dpb01rMDh6Z2l5MFoyWGI2VjA3cGx1UTN1T1RqU0RCeHVLdVlWUEJIU0dHaFl2SEpKN1AySUlMeUJPQVBtWUtPY1BHUUw5bGZxTEpCRQ?oc=5",
+      "domain": "Reuters",
+      "lat": 31.816516478374734,
+      "lon": 53.146311992845426,
+      "color": "#ef4444",
+      "category": "attack"
     },
     {
       "title": "U.S. military launches new airstrikes to punish Iran for deaths of US troops - PBS",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYXBIN0R3SHpXbkk0c3dxVF91UWRNTG42S3JsV0FBb1VsOUNRSlhxczBvdFFZNW9RcDJrTXNpWkZVWWp2TlVNcm83RldmazZDZEdvYUNEcnhjekM0SVNOSFgwdEsySU5aamloaVhXNWN6a203bmFqQjR2LTdpelFlUW5GNExWWUhLb2ZCbU94TWxUeUxJaG5hb3p1VTMxMld6Tm5YM01NSmtBNGhMdFHSAbMBQVVfeXFMT0t4eXNoZGhRdm4wZ0VidFp2U1F6YmtMaEVqYmxxeFZwX2JHUUV4aW1weTVOZjVBVXFUMFUyZV8wSGtSd2hjQWdfaGcxWERwNU1ydkZUT0d6TEIySFAtX3BkV09nM0pYNGZ1Tk82ZWtfblZFUGhObEotRG00RXZkZnlseTRLTjlfdzlkTDZSU2tjajJKei1XY0lVdk5obkJwdmJwSkk0RjdPT3RDaTAzd04yQnc?oc=5",
       "domain": "PBS",
-      "lat": 31.816787750133795,
-      "lon": 52.91268130178084,
+      "lat": 32.08042904545654,
+      "lon": 52.82112829586496,
       "color": "#f97316",
       "category": "airstrike"
     },
     {
-      "title": "Trump on 2 troops killed in Iran attack: ‘A very sad thing’ - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMXVSUjF3Qzh0STJuMTd5OC1XRFFuRlV6Q0lpeVdYcXBpWjFBUVNGNkZLZ3h2OHIxQjBsa0lZa1NGQ3Z4U0g1cWdPZll3N2dzR3ZxUUpsSzRHSHhQZm9RcTRMVVVXekc0WFMxR1AweHN0NFRUODBvUDJjRXp4dEZBYXhBRjVES2FiNUM0a2dLS05KcTc4X045U3Z5Z9IBoAFBVV95cUxOb0E0OEJiNUx0RlFOU19MY1k3bFJtcGtvWlphYWxqNXQ4QUdxSWcxNkhwcmFJS2ktSFhBb0hxMUxLQ25Vc0R0MlNmZ1FWVHVqbjRwWXREbExsT0I0YmFINHVpcVYyaHVoUW9qZnFUWm1Ya0dWNWg0ZThrUDFqbTBCSmowanpWSXpCX2dQcUdSdjVsZTQtVVZNX1lXeUU3WnNj?oc=5",
-      "domain": "NewsNation",
-      "lat": 32.148698788396906,
-      "lon": 52.72266105262852,
-      "color": "#ef4444",
-      "category": "attack"
-    },
-    {
-      "title": "Why Jordan Is Becoming a New Focus in the U.S.-Iran War - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYjJpX0J1a0pBNnFRc3B6V05UbmJ6S0VobFpudlVJMUdWU1BGZmljdkFMcm01LVRQdHpGNHNsVWRYT3hTeFlIdjNjM2pQRXl6bjhsUkRncm9aWGlfbDhtNGZ2MzZlMDlBZlhfeGFpTGcyRjNLSTloa0ExcFl1MkhmYzR2dUxSb2s?oc=5",
-      "domain": "The New York Times",
-      "lat": 32.279382462649465,
-      "lon": 52.89332980596623,
-      "color": "#ef4444",
-      "category": "attack"
-    },
-    {
-      "title": "Two Americans Killed, One Missing, as Iran Attacks US Base in Jordan - Air & Space Forces Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPemtiUjZpYks1aWFabVItbEJlT01lTmx4blJONElNYU9jemZMNFFpWWgtaUo3ZjBaalpSVkFHRnd5VlJzM1NSTTlRNzFrYUFJbTFZUWlZdmRsN0s1cVV1R1ZHOVdCV2pGMkVhMVJUUjVZYi1XeGhZeFhXdFVLcEZwcVhFMzR0N1dUMzdNcDhRakNWSUE4Wkt1cklJeXB0SnJ1Z0E?oc=5",
-      "domain": "Air & Space Forces Magazine",
-      "lat": 32.249033282795054,
-      "lon": 53.29726244873039,
+      "title": "US hits Iran for eighth consecutive night, Iran returns fire on Gulf bases - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ09yckNWOXBKdUdHbkN3aWtnVnNaU21melI0c0VWeWpGZHpKNnlwR2g2N0Y0bHQtYWRia0hWUkVFVEd3N3I1T1NZQjJ5LW9UaW9CNS1CT2xDSkluc25uS0pqSjdlS1MxSEsyX0puUnZIVnF0VUlMVXBHNTNmbGIzWEpJN3pla0czTkpvcldMX2JRVWU0SksxSjkxWXHSAaIBQVVfeXFMT3dMM18yU2kwVkRlTklZY00tQW02LTRiYUFycDZqcDFsaUZPR1N3Wmc4R21yS2NibDU3WXBhOU1sNUp1MkVpTGFuZThCZ1lvYUYzYkF5VjhHVk1kYUNtbVVHOTlfeWRJNk9QMlpWRXZCNzNOeFp5VkNCekdmeFB5MDVwcGJ0MDV3d1F6OHVOd2ZmRGhNNGhyVkxTeGZZS0JzVW9R?oc=5",
+      "domain": "Al Jazeera",
+      "lat": 31.74062862152233,
+      "lon": 52.90127084459374,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -69,8 +78,44 @@
       "title": "2 U.S. service members killed, 1 missing after Iran strike on Jordan, military says - CBS News",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14TjVrN1ZtOW1JOUExS0dfN2xxaHZneW1lN3g0dGp4Ql9MRUx3dVBzTlVkbVNvOVFnb19GR1hXNTFDSG5PbHBZdmJFdnd5NHpKTHpnV0JyUXBWeHVlOWNSel85LW9GdWt0eXFHM2doT2FfXzQ?oc=5",
       "domain": "CBS News",
-      "lat": 32.07004870531965,
-      "lon": 52.70722641462382,
+      "lat": 32.023645872631874,
+      "lon": 53.151267341591655,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "Two Americans Killed, One Missing, as Iran Attacks US Base in Jordan - Air & Space Forces Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPemtiUjZpYks1aWFabVItbEJlT01lTmx4blJONElNYU9jemZMNFFpWWgtaUo3ZjBaalpSVkFHRnd5VlJzM1NSTTlRNzFrYUFJbTFZUWlZdmRsN0s1cVV1R1ZHOVdCV2pGMkVhMVJUUjVZYi1XeGhZeFhXdFVLcEZwcVhFMzR0N1dUMzdNcDhRakNWSUE4Wkt1cklJeXB0SnJ1Z0E?oc=5",
+      "domain": "Air & Space Forces Magazine",
+      "lat": 31.973253511820143,
+      "lon": 52.92782496334961,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "Why Jordan Is Becoming a New Focus in the U.S.-Iran War - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYjJpX0J1a0pBNnFRc3B6V05UbmJ6S0VobFpudlVJMUdWU1BGZmljdkFMcm01LVRQdHpGNHNsVWRYT3hTeFlIdjNjM2pQRXl6bjhsUkRncm9aWGlfbDhtNGZ2MzZlMDlBZlhfeGFpTGcyRjNLSTloa0ExcFl1MkhmYzR2dUxSb2s?oc=5",
+      "domain": "The New York Times",
+      "lat": 32.2190856842519,
+      "lon": 52.96105360008636,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "Krishnamoorthi Condemns Deadly Iranian Attack, Warns Iran Against Further Attacks, and Calls for Diplomacy to End Trump’s Illegal War - House.gov",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeTUyV1p1SU5yckI3NjNaUVpfWld6NjRvLUdyQ09LNkczMTZFMU1ZZUluQTg3dDBlSEZOT2NoWjZNTS0yTVpxLXRjbXAxcHAwWlE2aFZIUUkydjk4RWMxX19TczhxdjF3UFk2bmNEYjhnMGxwOHhNVE5jb0lDcF9TUzA4REtnYmNRNHlwRzJORkszTUtRdzg2R00tNFRtckdZdGczeXRqRlVLTU9UQk1qNUNta29DNUlOZkcyeWVFbWw4TWM?oc=5",
+      "domain": "House.gov",
+      "lat": 32.15885579294619,
+      "lon": 53.211114435658864,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "Israeli strikes kill Palestinians attending Gaza funeral for earlier strike victim - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQU0l2SzBLNkJrRlU3OWNGWmE1MXdfeVZfUk5MRXdETUJHQ1Z0ZFdiVm5GV09IOTRDdFZMYXR2c05HTjZzZTNZMEJmOVdUVWVoaEJNLURmdjNhNlVWb0pMSHlHUDBEa2hyQmpldkh6RVZOSHhDaUVvLW1JeWppMFpvaU9YVTdfSEtWTFluS0pOcmRwRU00Z0ZWd01qR0ZJVnZUOTAzUzlqel9lQ2U5ejYtWVd6Rmx1RHdoZEF4TDNJSTFNOUZjMnhnWHlueVg?oc=5",
+      "domain": "Reuters",
+      "lat": 31.33071417208755,
+      "lon": 34.290761915826174,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -78,8 +123,8 @@
       "title": "Israeli strike on Gaza funeral killed at least seven people, hospital says - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTWhVenpiTk9KY1p2aDlVc0xhT3F1VFZaNGNUY2g0RTJTS1NnaUNUcE1NQzZuVTNITnBvZnVRNzVwWHJNekEwOWt5U1FZRWc3S2daRzA4SjJNWlJjcXIyWVVQSkdoRnYwRjd5cVAxYVVpWW4xSllfbWt4RHhQN1dDV0hMSVhVcTdrU2xkQ3dTVlRmNjA?oc=5",
       "domain": "The Guardian",
-      "lat": 31.682956398334856,
-      "lon": 34.53801834645096,
+      "lat": 31.730452755672363,
+      "lon": 34.60629475367666,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -87,17 +132,35 @@
       "title": "US military launches new airstrikes to ‘swiftly punish’ Iran for deaths of US troops - Orlando Sentinel",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZFRtSllYU1dseWRIUjA3aVN0cjV4Zmg1aHdlQUx3NWVvLVZWb0Z3Y0xWVHRGekxudld4TTNyNGVkR01uaGFvRm40VUd1ZVdMSUFBOGRLZWRoT21tWTFPR3VacDZGR1FYWmZ5eEZNcmJLd0s2UWZnVW1aX2gzSkZVcXFPTFZpN0tMUUpBTVJYNUhRQXNlY0hqYlpnZzlXRjJHUFhLX1c0TndjYTItY0VLVlJtZHZhbmhuU1NXdnk5MlRwWmVz?oc=5",
       "domain": "Orlando Sentinel",
-      "lat": 32.01069021484055,
-      "lon": 53.024245863430224,
+      "lat": 31.723689260777824,
+      "lon": 52.77357623362605,
       "color": "#f97316",
       "category": "airstrike"
+    },
+    {
+      "title": "Iranian strike kills 2 US troops in Jordan, 3rd is MIA, as Tehran vows ‘unforgettable lessons’ - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbm9MRkZ0bUctYk1VekJqV2VESmhBd2ZNV2o1RlZEWjhXUHR3WkE4bmRPNFVVUlFHemVkMmo5SU1yZ2NFczc1dkNIYnExanNBYlBmWmdDS1ZzZHNJanZGV2NRYjc2c3h1eTQ1cEw2bXZCd3doSHpIOTBoMjN0VHFoRV93dWxPSkpsNWJyWTE5dEZPZTc2R2pGeGpzTUFzV3FrazRYVkg1SXRTX3J3WlhN0gG0AUFVX3lxTE5qZnlIRlFpZ2RTMmRPY1pQS3RBM0FkOS10ZGhkSHRjVXdIMExVb0xTbVhJYlAwOTFnUWdDdVk0YlpZblAydGd0NEV5a0I0ZGg5dTFISXE3Qk02X21iQlBxWFN2LUM1MkNZdHlLeTZGRWRGMzdoODNYRWc0Zmp5VHhRX1ZHckxBRHh1WDhSUEE4VkRHSTRTYm9GMHJPSnFEQlZDWVZXbEZ6d2diMmZ6MEU5Y1ludQ?oc=5",
+      "domain": "The Times of Israel",
+      "lat": 35.92122742344592,
+      "lon": 51.63407859356003,
+      "color": "#ef4444",
+      "category": "attack"
     },
     {
       "title": "Israeli Strike in Gaza Kills Seven People, Health Officials Say - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUGFLRlhwZmZoY0pCMnhlVEg3QTJyWC1DU1kzeFFEZUNLNVlOZ3pXRG1UdHlUUWpDelpBejhzVjI5M2VkVGMxUmNsc2pQd3J6aHhKbDFjWFpmX0ZQTnBwT1VDQmpYVklVeXBNWU1ZSHFNeWJhbGxIRlVBTW9Xd2JFTHhwNDRaX0xaSU9lQ1M4clFyQQ?oc=5",
       "domain": "The New York Times",
-      "lat": 31.49311842538018,
-      "lon": 34.5912139527241,
+      "lat": 31.21322101755521,
+      "lon": 34.26624606234799,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "US military says 2 troops are dead and 1 is missing after Iran attacks a base in Jordan - seMissourian",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT0VValhfNUFKVlVsVTRCVDR5YWkzVG1vSmladVl3N1R6ZXd4ZkN5cEhCRlA0ZEZIM0dJa0htN3ZhZjNWNTk2bTZsYV9lMnVLM1Nob1Q1UlA5NjNzUzg2aE5jQXZaYk5ZS19WalM2S3FCRU5nNDMtZ2VsdGJEdExaRWM5XzJxYzc1bnZOTDVvNVVTRFlaYXB6Q2lJVzFPdFF6OVRMU3ZNVTJXekxtSmxWNw?oc=5",
+      "domain": "seMissourian",
+      "lat": 31.78797802196708,
+      "lon": 52.939108049736596,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -105,8 +168,17 @@
       "title": "The Iran Strikes, Explained: How We Got Here and What It Means - American Jewish Committee (AJC)",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
       "domain": "American Jewish Committee (AJC)",
-      "lat": 32.086911255674835,
-      "lon": 52.74624937190265,
+      "lat": 32.07624240246941,
+      "lon": 53.22750619298548,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "Israeli strike on Gaza funeral kills 7, wounds 22, hospital says | Daily Sabah - Daily Sabah",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZTQxUXJkTmM3WkhTdnQyblZtSGdIb20xb2dzTUpoam42N1BxaGZkNmY3d3BZbElpTEFhMS0wam5IOTlMWGdsQldJTl96QU5VelpPWGM0RjkySkVra0hhOVlFeVlVdWxzY1lCQWhmN2NVeVlNeUIwZ0JWVkI4UE9ibmhCSm5ZMXlVUTVGdGlBLWw5TXJCeDZxTGZrVlllb2hUU3hNWjhhVdIBrAFBVV95cUxNcVVHTmFPMzdqRUlLbV9Wc2NOX2MwQTlFZ2xuS2N6S3N4bFFHTmtrWVd1RnU1RWx2UWNWbDRta3FacW5zX2RlcTVEdnkwa3dyUWlCX3dEZlZpbDRpVDVfQjJwb1cwbi1SS19lOUg2RWd3XzhoRVRpYWtrVEJkXzZXLVpjMGJhcFpNTWVNVW9yeGt0N2RrbDFia1RJMlNrbVhmYkdLelY4dTBDaGxp?oc=5",
+      "domain": "Daily Sabah",
+      "lat": 31.70810297356787,
+      "lon": 34.16146944933699,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -114,44 +186,17 @@
       "title": "Israel must stay out of the latest Iran-US fighting - The Hill",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX0RXb0l1S1N2dFcyVGpGV3RXUDFZVkJxelBmRFdiR1pPT1VmTzE4ZWhxdC1PYTFkQXF3TFdJbEdHMVJPa3pEMGs1djRGeTluN1dOV3ltWVFYSFVxYnQ5bkU0Tlo0S1hGR3BXcERXRTJfTHlEZ2JRQkZtZ09uMWw0NE12aFVIS0FWcngwWdIBkgFBVV95cUxNdkl6UnBSQzhtT1hUa1NuNWJjQi11cVZndjA3MnVSNXdkcUhqMDlQQkdZVG1KVTRUX1VIY25VRTBQNk9Xb0E0MjhjWWV5Wjl1b2FTOU4zbE95d0ZiWHU1ZGVyMXdwQ2xGUlZTNXhKVmE1VjZ1M0gtYXNYXzU4Uk9pWFk5Y2lGRmxwV1RUeThNUUxvdw?oc=5",
       "domain": "The Hill",
-      "lat": 32.12087595123975,
-      "lon": 52.98589489002925,
+      "lat": 31.870141662233703,
+      "lon": 53.15282043831826,
       "color": "#ef4444",
       "category": "attack"
-    },
-    {
-      "title": "Israeli Strikes Kill Palestinians Attending Gaza Funeral for Earlier Strike Victim - GV Wire",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVnoxcGlPRzZiRXFhcGlhbkotM1Z4MkNhSmh4bXF3TnNFcmZYYTJCNmEyeVREeTlXSHRMRkhod3diNnZac09CVko4Y01ybVNCLVlXUnY2QnR0TzY1YjhRc1B6bTZYOWdxVXdjVzUtLVlHbU1aY1NGM1lpSXhEZG1aX0ViVHA0R1dDVTJpQ2kzcDNjaktJeF9OVWRUMFh0a3Rka3ktcWpCQmNVSy1mbFZnU1VOUQ?oc=5",
-      "domain": "GV Wire",
-      "lat": 31.429065233449304,
-      "lon": 34.309000618653954,
-      "color": "#ef4444",
-      "category": "attack"
-    },
-    {
-      "title": "Israeli Drone Strike Kills Three Palestinians in Gaza City - - IMEMC News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZ2hwZkpZbjBWbkFrUktuOERaOVlrUEtabkFSdjJTbDZRQjRESFFHN2ltcnBwbHJyZjJEQ0EtNW12bEhENHZuTC1XRG1Yb1RYa0t3RUFiR2o5aHExZTltcDlOTVVGQXpTWEZqUVNySlR5ZzJhZThwbnhtRXVVQ1ZtNjhucjVEanUtWnpKMk1B?oc=5",
-      "domain": "- IMEMC News",
-      "lat": 31.713910551776227,
-      "lon": 34.37618640663153,
-      "color": "#f97316",
-      "category": "airstrike"
     },
     {
       "title": "Israeli attacks on Gaza kill 14, including mourners attending funeral - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUEg1aUQyWDJXLXdxYklVQ0ZtQzlxa1VMNVBOd1lhREpFcHpaUWFsd3ZXVHVkOFZxYkRwM2RBbU9KTDRKNHpOWmZHOVo2bkVEUW5uTE9JNVo1UEg0YThpMXlzNTQ4NlZXc0ZKUXBINWdDeFpjWnBIQUFHNzlEdzIxdEkyeXRiWXVUSTBEelJlQjhZWnBJS05KTThoXzRDVW1rUFJ4QzUtdm85QmxkTnfSAbMBQVVfeXFMT2RWQjNQZWtHTXRUV3YtU0xMTjZ3R2F5NFRHUjN1cWlyZGJsVThEVDdmdEFzS2s0Z1hta1QybkVBeWxpeGlGOGczWGhILUp6UFlBSS05YVJQYUtVY3hfa1UtT1FJTG9ZMmJUd0VZN3FFNFNvM3E3UlRLMk5TRVh0bXlhYkdILUlOLVZ3V3d2MWJLVlV2UnRzNGp0ZDc0SWEwOGVUeDNCSFFDdHVwMHQwYUx2TVU?oc=5",
       "domain": "Al Jazeera",
-      "lat": 31.43499755599816,
-      "lon": 34.47706604202061,
-      "color": "#ef4444",
-      "category": "attack"
-    },
-    {
-      "title": "An Israeli strike on a funeral in Gaza kills 7 people and wounds 22, a local hospital says - WDIO News",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNFlVekV2MXp5VjVOaEZBLTV4b28yaDB6OUZXNXlPR1ItQ09EVGRpYnZSeUdjaUdYSFlqNWI4dkJkX3hLcVB1M3FHYmlueDVmOTBBZHQ0V1laZnBUZVl1VG9TZlBfVml5LTJBTjJ1TUMtam9BTGZRNFpXcnhZSGQ3cURycWhYeHRoYlgwbzRRWnlXYjI2MW1QN290VlczZllmUVRBUlRDM0ZHZE5XQjduYjZUSW10M3QyU2wxTUFZQVo?oc=5",
-      "domain": "WDIO News",
-      "lat": 31.73068876068188,
-      "lon": 34.70218405130839,
+      "lat": 31.687803076903645,
+      "lon": 34.66564798763305,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -159,8 +204,8 @@
       "title": "Why Iranian, Houthi threats to Red Sea shipping matter more for oil now - Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNb2VIVDBvQW5VRElkejZ4aTNza0V1ZmRZaWRnanljRVI4c0l0VnBZeG9pNm5YajNORzM1NFVaZW11NGh6T2pZeU9jZmpiQl9fWXhpemcyZjlDTGltOXhzdk5ZblBQM0xpcmlhS0ZzWkJmRFdhWTRURHNMamd4dThqMDNGYXZvNXJ6d0x3eTBZWWl4MUZZTnZ5d3NCZnJzWTNieEVGc1Y0MlU1VjVTUnYzR0dVVVJKUVJfSl8wTjZhVEUzSFBOZnc?oc=5",
       "domain": "Reuters",
-      "lat": 15.82188069631815,
-      "lon": 41.27872747871684,
+      "lat": 15.938957969258524,
+      "lon": 41.05653050746905,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -168,8 +213,8 @@
       "title": "Houthis Attack Israel, Declare Ban on Israeli Shipping in Red Sea - ASHARQ AL-AWSAT English",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLVU5dmNvM0hva3ZlVmdocTR4aXhDQkltbW54NEQ3ODN5VldGTmU2UjFwNnozZ1NFdXRPcjdBWVZyVWRnb2Q2cWZ6cWR6eTlWZ1V4T01wNkRvVkw1T2NhSTlqcU5ObDRyTnpNb3hlb2Y2MFVoWnFzeFZkVWdpVEFITWNSQkZXUHJxY1FXWW0teWRZbDJXd2VKb1dYbTVINmN3VzRveU9zaw?oc=5",
       "domain": "ASHARQ AL-AWSAT English",
-      "lat": 16.11949722533062,
-      "lon": 41.1016490591622,
+      "lat": 15.914323799639746,
+      "lon": 41.15304704994706,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -177,17 +222,26 @@
       "title": "Iran tells Houthis to close Red Sea gateway if US hits power network, sources say - New York Post",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYWs1Qm92MnNnaGZTQ19uMVdyUlRCTkVYY09oZm1kN1M0eTFkQ3Q5eFNqSGxQYkwtVEQxblBLdllFOHV1T0JPUmhKeXpWcmx6MzRmSzVDTGtETVRxQUxsVzhJdXExY3J5QURQV3k0U192NWxjZWlyR0FLWnNfLW5LU3UxVmVZR2c3RlR1YUQxaUk0Tm1ucDNISThySWxQUXltbHdvSVVJdzBIQU5UYjhwNXJqT1FoOGRlM1dtbFdWdw?oc=5",
       "domain": "New York Post",
-      "lat": 16.02649835581582,
-      "lon": 40.93446011380508,
+      "lat": 16.096561773395553,
+      "lon": 40.936291914743634,
       "color": "#3b82f6",
       "category": "naval"
+    },
+    {
+      "title": "Houthi missile attacks on Israel stokes fresh alarm over Red Sea trade - Shipping Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUFVsdlR0b2Q2X1FFeUdtMUhhNWJRTkNjNkhMX0VqbW5YcTAzTmxwX2FvcXVqMkU1SmhfOVFiRGpnTG5YY1ZhaHVsQ1RqN0VOMGtKOHd1VEIwQV9wVTdFd2NTaDhxTEZOTVJsVGFveWJ4Q2xiNGx0Z1ZJOTAwMXRWM0VzdXlIMWliLUowMlNRUTd4NlFyX2pVTkxCM3dDYUNqRjd3czRWblpjbkoxV0liai16eUhBaUt4QkE?oc=5",
+      "domain": "Shipping Telegraph",
+      "lat": 16.23432093893066,
+      "lon": 40.75080392124246,
+      "color": "#f97316",
+      "category": "airstrike"
     },
     {
       "title": "Iran threatens Red Sea shipping, tells Houthis to ready Bab el-Mandeb blockade - Ynetnews",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZaVgyTEhNMWFaQ2wzaERhSWcwTFlvcHdIb2o1ZE9ZVTg5NGQ1Z1VNbk1yRTdhVE43SkY0QUJ0cmxlSVpGOUhMaFZzWnZrejh1QVExV0lB?oc=5",
       "domain": "Ynetnews",
-      "lat": 15.850103376827311,
-      "lon": 41.17583274224824,
+      "lat": 15.712792940303249,
+      "lon": 40.82122515939069,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -195,8 +249,8 @@
       "title": "Yemen's Houthis kill 16 government troops; British agency reports attack on cargo ship in Red Sea - CBS News",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNzJITTlQd1hvOHl2NU9YZGFvcGh4dF8tVnZaeU1RVXZqc1ktX1dTNWZyXzFyMzBCWUVUZkxEc1habjlXdWp4bzBjbnAxUm9PVmp6NG1ndlR2dVVxN2lmMF9DUk1KUEZDb3RueDVPdzZBUWYtLVN3V2J4blVxTnhDSg?oc=5",
       "domain": "CBS News",
-      "lat": 16.16181836446173,
-      "lon": 41.02288711300307,
+      "lat": 15.884366256751859,
+      "lon": 41.09447124868048,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -204,8 +258,8 @@
       "title": "EXCLUSIVE: Iran tells Houthis to close Red Sea gateway if US hits power network, sources say - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNnlkS245LVFESkFHd2V1MjVwTjdoSm9ZZmRWTlRUZ0dBdkN1VlRPUHU0ZXZLbjNVWGVIdGxldS1uVi1TOFctd2VXQy1jeXRmLWhyOVczWmpaRVY1Ml9sVWQ2N3ktdE5iRUNOcTdaWnZmNzdzT1M4NG1jMkNIeFVaa05YSHhRdHZYQ3BDS3lnb2pkYmFpYS1NR2E5WHBuOEFsTWljaDNsWGVqZ1VKSFlaNmd2UkU4aE1Xa29XeDNVcFdZZnh4bjFSQ1NuUQ?oc=5",
       "domain": "Reuters",
-      "lat": 15.731182679380694,
-      "lon": 40.9793505928988,
+      "lat": 16.001967903132073,
+      "lon": 41.02502362104283,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -213,8 +267,8 @@
       "title": "Special report: EU eyes wider mandate as Red Sea Houthi threat grows - Euronews.com",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORHBUNkdXRHd2ckFxR2xpQ0lHcVlfZ2NxR0pfRnBSdFVYSEhDNDBFUW5ONU1XWElla0FSakdTRVlFZU9ObDhhcV9Kd1dqWkZEcUtDVGZPZnVtbC04ZTFIN0VBS3JIUWxKelJDTnAwT3RBQmJyTlZCaU5IcmphR1JBUjIxSHdKLXJzcnhJeXRHaEJDSWdranRfMTFDejF5b0d1RnlqVTNtWXBBYUE?oc=5",
       "domain": "Euronews.com",
-      "lat": 16.14976102635255,
-      "lon": 40.95392368258394,
+      "lat": 16.063362960982563,
+      "lon": 40.956272994670115,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -222,8 +276,8 @@
       "title": "Iran calls on Houthis to prepare to cut off Red Sea gateway — can the terror group do it? - Fox News",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPLTJuNGxpLXA2aUlIVjUtUU1YWW54UHBfbVo1ZENFRkdXWTBDV19QNHBqM1FlOXJUZndLd1d2bDRkVWJ5WmdvNEdYWEFVeHpOdkhYS19qeVVkZjc0NmpaYUFJZjJNQ3I5YlFXQlNaVmxoemxNdGFaNG1oQXQ0WWlwVG50Q0I1T0ltdkctMGRPUnFPVHNQVjBtb3FzaHk5OFA1OGd1S2pB0gGrAUFVX3lxTE00U2stelBNc0RsV0tqWllLelBGR2p0TlYyaW9tT0dvLVRnV05pdm1nVTh0S3hNMUJ1SURzcjUyd1RtcjMtSmV3NE85N1d4YmpsQkhWLS1abFEtR0NTTE5YdHJPLTBfMUZzRW9iUkJsdU0yaHJUSUgwT1JOODlWSXNSakg3ZWhlZ1RvckxISHJ3cmNSTkFndV9GVnJuRHJWNlZTWTl0bzhWQUV1MA?oc=5",
       "domain": "Fox News",
-      "lat": 15.712664731780547,
-      "lon": 41.09193072447306,
+      "lat": 16.169349420736687,
+      "lon": 41.223654713086745,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -231,8 +285,8 @@
       "title": "Another Hormuz? The Red Sea’s Threat to the Global Economy - Council on Foreign Relations",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVGJwUm9MbzR1RUREblM3dEQxcEVsSG11NGVPN1JTczJwY1JhNlIwaDE4MVFrTWo2WWZ6RTI0SlBwNGNEV1pjWlJPZmZLUHZpd3RpWjJZWnJRdlV3akNLR2lrS0N0VlFPRWg5OHc1bVhFdWE1NUhzQW8zRVRVdW1fd1J0bWxtdGFTeVNCV1RR?oc=5",
       "domain": "Council on Foreign Relations",
-      "lat": 15.862045420024572,
-      "lon": 40.92972849670796,
+      "lat": 16.096247691402805,
+      "lon": 40.774321512918874,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -240,8 +294,8 @@
       "title": "Iran asked the Houthis to be ready to block the Red Sea in case of a US strike - Reuters - Українські Національні Новини (УНН)",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdi1oUkMzaTFVMlQzbjRrYU5NeEVqcjdSWjhkUkRQY2FJUl8tZF9aTXk0MnFnMERnLXczUGRqWkt4T0RzX2VXUmtsbUkxYmNsUHJUZE1xZmNHSTFEZXRkZ1FibDVoLVlUU1kteEJkSFAzaHNLYlJLRGh2RVFnT1NVaExOSHg1SllFQUdyU0J0U0VJQ0t2eEhBeVBXeUh6eTlENGd5SHFKSFl5NjJmRXfSAawBQVVfeXFMT0pfbUt3a2xNNmRxVjFqWWlpV2lWTUpOVDFmMXo5NFRIN0s3QzgxZkRzcGxKRXRqWGVQN2hqYm1FcGlPZGJHcy0td1M5X19lbVY3d0dPTGU2OGtnR3AzczJrYjExcE1LQXlwQjQ1UjJtSzZZeFpvMWEzd0ZOZEZCbWc2dlg4bnEtT3B4T1BNUnVIcEJvYXFoNXVkeDJTR2RaN05LVHhlVllqWW4wLQ?oc=5",
       "domain": "Українські Національні Новини (УНН)",
-      "lat": 15.836798454287528,
-      "lon": 41.14282627846057,
+      "lat": 16.20670551709224,
+      "lon": 40.81066549590863,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -249,8 +303,8 @@
       "title": "Report: Iran Tells Yemen's Houthis to Prepare to Close Red Sea Oil Route if U.S. Strikes Power Grid - Haaretz",
       "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNaHJtQ3V1anczR21CZTRTV0lMQk1FSktocXJCaHJpSjBSOWhRZkx6ZXRmVFVqbVJ4NDhFRDVfc0VuVFNjb2x5WmlFQ1RQOXhyZmJiTndNT21NWmVMNUROdTQycy1HbVdlSmJJSkVEODZUVDZBcjdOLWVzeUdmNVZDNVBrbmRELUREM3RsbUZfY0gxYnp1OWxJaUFlSjYxR3dnSXcwcEJVOE55b3Vsc3hjT28yZ2xEeGpKei1nSjJFV3J3ZmNRSVIzU002a2I4N3RnV1gtRzRUVXBsOUZWbkVoeU1QRWsyeEZmNnRFeUMtNlB5X1ZUQVNfR1ZfZ3NJWWExV0xjalg5MDduRExMcnBSdA?oc=5",
       "domain": "Haaretz",
-      "lat": 15.91938747857995,
-      "lon": 41.19789144132228,
+      "lat": 15.728911735825237,
+      "lon": 41.07305646809305,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -258,17 +312,8 @@
       "title": "Red Sea Chokepoint: Iran-Backed Houthis Threaten Another Key Trade Route - Newsweek",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd1NkSGJlNXJiZUdfM3dPSDFuR1JfUUNzV1ptVzg1T2NOVzM2R2IyR0tZX0htTjJvUE5LRDB3ZDdVeDBzRTlWeDZnOTRSbXZYeUpOYV9PRnBScW1GMHlESS1rN0JxeTliTERtN1ptLUNnS2R4VjhRU0c0NDlFTl9MaXFDdm1GOVBnRll0R1BBd1ZLOXo1VHFPU0F4ZEc?oc=5",
       "domain": "Newsweek",
-      "lat": 15.705837561568867,
-      "lon": 41.28879945040531,
-      "color": "#3b82f6",
-      "category": "naval"
-    },
-    {
-      "title": "Iran urges Houthis to prepare for possible Red Sea oil route closure - Nation Thailand",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00UzEwSUpuWkdFYVFXYi1DMkI5Z3Y2ZjlCUDNPNUJHdXZiVG9rUUZDMThPNExlSzlFNmJZTnRDTjRXRWxqQV9PaDd6bGhISFVwQlF4OWRkMXJHbFA0a0g0?oc=5",
-      "domain": "Nation Thailand",
-      "lat": 15.79010985354459,
-      "lon": 40.749239895181994,
+      "lat": 15.719573099604126,
+      "lon": 40.906766117153786,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -276,8 +321,8 @@
       "title": "U.S. military says 2 troops are dead and 1 is missing after Iran attacks a base in Jordan - PBS",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQ3JISjVhU09hRnRaRnlUT3VMb3lSM0hrVmtmTGZBT21IVXoxS2I4ZFZkTzFTeDFLaS04SzZpNkFSd21RUG1vcFZrbklTa2hVZVBoVEdmUGw2RkMxSGczVkNEUFlMM0hUcHhSYndJNV9NYWoxMkJnQ051SnNGby0xbWZIcmthZC1iM1hCaUlxaHBkbE51LWZ1c0JJckVRcjNNZ2pXend5SlR2enNPUXhhbUREYVN4X0lwc3NiV1V0YW7SAcYBQVVfeXFMTjUtaWRqREtKekdYRDVaOWVSNVZCRUpDQ19OZWtsNXVQdVRJeF9HX1RrRUxkUVljU1JTc0otQzNrZTd0NjlpcHQweUh0NEp2Tk5JS01ISkt6QmZPM2FLdXFYQXozUjctZ1pudS0xODlTaDBVR2U0YWNfTl9HemdBQXBYSXdCc1ZLdkxaUENGekdTazN4a0k0RmV2eEJHMURfYlVFRE9OZms0aExXRmtMcGZKdEhyM1BrTWFiRmN5SUJyU2RwcTVB?oc=5",
       "domain": "PBS",
-      "lat": 32.21937228660261,
-      "lon": 52.9923138395624,
+      "lat": 31.75383398429913,
+      "lon": 53.10250162307225,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -285,8 +330,8 @@
       "title": "Iran strikes eastern Syria, in first such attack during current war - Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQXVvLTBxWklNRDU2M0l1QTZhUmloM0xqbFM2RWwxaS0yckJVNXZTbkFlZDBQUHZHbDVfOGRDdlNlSDJQNUg5VnZodUs5MzdsUjQxZjFyZl9LaTdBbGhxWU16dk9kRXFKZm9OblFOX0NKNWdweGI4UXNLb0daSjNzdGVmZFJzRjZHUzZFWW51OFhXVjNpeHk2SUs2cGhNeC1VMWxsQVNjWkIzTlFBTjhiRUlrS3o2aDBWb2dCOFlHMWVBMFdt?oc=5",
       "domain": "Reuters",
-      "lat": 35.29973646123514,
-      "lon": 37.934934641641114,
+      "lat": 35.02589734093068,
+      "lon": 38.22376992352473,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -294,8 +339,8 @@
       "title": "Iran claims Tanf attack to warn Syria over Hezbollah arms - The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JckloRGVWSi1RX2NpUVQ1WV82ZG5hcDFLbGhwUnlrcldmaVA1dXdDUG5idlVFOUNSeFg2MUhrYXhvSE5DaFUyb1NCQ1NPZXZFUElBeng1OXpTTlpTbDk2alNoZUFON04wdVE?oc=5",
       "domain": "The Jerusalem Post",
-      "lat": 35.18281431122279,
-      "lon": 38.045891957046855,
+      "lat": 35.25250518635055,
+      "lon": 38.21988003452433,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -303,8 +348,8 @@
       "title": "Iran says civilian infrastructure hit by latest U.S. strikes, expands attacks to Syria, Bahrain - CNBC",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtd2pWYzQ1aTluVWJEYUphVUI4T202cEFxZ1VoUHQ4N1lVTGpEQVFZcGM2Ym1TMjJtZDBOVG1wQy1oZl9xV1FvazBZX3lwOWRwdjFidHpDWHZra1hqcWVyM2VzeTZmMFVjMEhaZ25BSHhmQjVJZjNr0gF8QVVfeXFMT2xJel9LN3Y5UmRaWlgwOVJBZjVaSURLTjhGNFhmb3hBa2RzbXd5dUQxSmJOdC1lOWJlMWhmWXhVZk9hSjN1LWFNZ05WQTkyWFpRdGVGTXlqc2RjenJOVk94YTBnY1RYZkNmZEhwVTloN1l2aVBUWTRSaEowSw?oc=5",
       "domain": "CNBC",
-      "lat": 35.15792916044335,
-      "lon": 38.02193900631054,
+      "lat": 35.12071467998972,
+      "lon": 38.105813932461956,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -312,17 +357,8 @@
       "title": "IRGC says it hit US special operations unit in Syria as bombs fall on Iran for sixth night - Middle East Eye",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYjMzRXpGR3JrSFlxYUFYSFRSb1NKbndENV9qbUNtYWw2aXBOVzk3b3ltZGo1LVRHLWNubGowaWxNTmRKVW9XQUVnV0JCLW84U2I5N21ab1hVN1F0akhfRHNScDZMZ0U0Y3ctTDM2N2VuMC0xRGRNUVRZMHBRLW9XYUxpWmVtNVlKUWxsVVQ0NFFFVzNvSnhfNDhsZ29VOEcydFE?oc=5",
       "domain": "Middle East Eye",
-      "lat": 34.91420555854448,
-      "lon": 37.907536150272975,
-      "color": "#ef4444",
-      "category": "attack"
-    },
-    {
-      "title": "Syria Military Source Denies Iran Bombed Al-Tanf Base - ASHARQ AL-AWSAT English",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQVNZaS1GXzEzQ3IwSWt1UmNjdHBGUjFhUDZzRHVmYXZfSGJNek42STlLNXU2RlNkQW95TERDZENweDFkN0tRdVc1bEs1WUdhLVQwa3BWNm1FOGxwSkFSR3RxMjVwWXpYNzF6YUxYMEZQOXZEWTNRYVBQbVZuV25NdWNHc2M3RGtDQlhQenpudkdQSmM2eTZka2RBQmtVbUwx?oc=5",
-      "domain": "ASHARQ AL-AWSAT English",
-      "lat": 35.29869439391215,
-      "lon": 38.00220140621731,
+      "lat": 34.732220531793445,
+      "lon": 38.07814275092408,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -330,17 +366,8 @@
       "title": "U.S. strikes bridges in Iran; Tehran targets U.S. bases in the Gulf - NPR",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1kVloyRVRzdnA0Ulk3R1AxaTNtWDMyTHdWQXlZOU8zb2hjaXZEblFnQUptai04Y3pSUlFxSURpWS0tU1hwNFdnMndjMlotMUJQUVZ2NmdOZ0t6czZXZk1YRTU0dnhMY3lEeVhlX29aUQ?oc=5",
       "domain": "NPR",
-      "lat": 35.93800790087435,
-      "lon": 51.40756919694393,
-      "color": "#ef4444",
-      "category": "attack"
-    },
-    {
-      "title": "US denies Iran's claim it killed American troops in Syria - thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONElTdjZJTzZPMkktT084S0x0NVhEa3AzVFdKb0xmemtOVXBIYUtlVEZEdmZ6Q2J5NXNlbnV4VUZWUUw2RXU5Q3FYRTVMYmdpcE9nMWdXOXh5R2J2a0NSdmo4ckhULTBXSzdnLXBRRGpKVXhOUUtaSmIyd3hyTlJHV2JxX0F1WnNWQ0dlUFdCdHZnd21JOGNfblQwTWlxRTY0b3c?oc=5",
-      "domain": "thenationalnews.com",
-      "lat": 35.283921379716936,
-      "lon": 38.16062179649191,
+      "lat": 35.615036344282046,
+      "lon": 51.49440635360425,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -348,17 +375,26 @@
       "title": "U.S. strikes bridges around key port in Iran, expanding campaign in battle over Hormuz - NBC News",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVEI2eGZFYnBWb2RZWU4yZERtYmVSMVdLeVk0UzJWOVp2bFRiVHFRQlpMaGwzQy15b1JsZlpfbU1ZRC0wNUZudldSdlRocWtueC1xekxieTZQQXdBMFY4Z1B1ZHlwWGFPaHdkM2FxaFhQekxrWVQ0WHJFdnhQZE4tTEkwdHFoSHhzVzV0TEtIZWFwRXNBMXFfLTlMLTFzMDY1Smc?oc=5",
       "domain": "NBC News",
-      "lat": 31.925034764509185,
-      "lon": 52.75215788356725,
+      "lat": 32.201703377743115,
+      "lon": 53.03670822222773,
       "color": "#ef4444",
       "category": "attack"
     },
     {
-      "title": "Iran warns ‘people should stay away from US bases’ as Tehran escalates attacks - New York Post",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTnhqSXBFclVIN3ZkNzJKYllwcUR4dVQtei13ajRzMEsxa1YzaF9UWXlkQmM3Y09ScG5BZzViSzl0bDBrZ3ljRmM0VDNrUXhNVUQ4NG5vckpMTl9lYmUyN1N2SzcwOWpqdUdNUW9ZOU1vWmQ5VTRtaUJ3ZnVTNU1MN1Yzdi1xM1k3WjJCd2ZZTmczRWJx?oc=5",
-      "domain": "New York Post",
-      "lat": 35.53638714062397,
-      "lon": 51.557597714500275,
+      "title": "US denies Iran's claim it killed American troops in Syria - thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONElTdjZJTzZPMkktT084S0x0NVhEa3AzVFdKb0xmemtOVXBIYUtlVEZEdmZ6Q2J5NXNlbnV4VUZWUUw2RXU5Q3FYRTVMYmdpcE9nMWdXOXh5R2J2a0NSdmo4ckhULTBXSzdnLXBRRGpKVXhOUUtaSmIyd3hyTlJHV2JxX0F1WnNWQ0dlUFdCdHZnd21JOGNfblQwTWlxRTY0b3c?oc=5",
+      "domain": "thenationalnews.com",
+      "lat": 34.76128635799616,
+      "lon": 38.05006423042554,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "Syria Military Source Denies Iran Bombed Al-Tanf Base - ASHARQ AL-AWSAT English",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQVNZaS1GXzEzQ3IwSWt1UmNjdHBGUjFhUDZzRHVmYXZfSGJNek42STlLNXU2RlNkQW95TERDZENweDFkN0tRdVc1bEs1WUdhLVQwa3BWNm1FOGxwSkFSR3RxMjVwWXpYNzF6YUxYMEZQOXZEWTNRYVBQbVZuV25NdWNHc2M3RGtDQlhQenpudkdQSmM2eTZka2RBQmtVbUwx?oc=5",
+      "domain": "ASHARQ AL-AWSAT English",
+      "lat": 34.82529444354913,
+      "lon": 38.047446937468756,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -366,8 +402,17 @@
       "title": "Iran targets US bases in Iraq, Jordan, Oman and Syria - Arab News",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83QmpaTHlmckViVzJJbjZxaG1CV2VDZnpBZUZJSFFqRXRkVF9VOEhVMVlsTjVPaWE5a3JnZmVrZ3owSS14X3dXVDdYN0hGa3RJNWVUek9mLTdMaXBocHc?oc=5",
       "domain": "Arab News",
-      "lat": 34.87995984514374,
-      "lon": 38.15761847853166,
+      "lat": 34.94557318188757,
+      "lon": 37.827695552145954,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "Iran warns ‘people should stay away from US bases’ as Tehran escalates attacks - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTnhqSXBFclVIN3ZkNzJKYllwcUR4dVQtei13ajRzMEsxa1YzaF9UWXlkQmM3Y09ScG5BZzViSzl0bDBrZ3ljRmM0VDNrUXhNVUQ4NG5vckpMTl9lYmUyN1N2SzcwOWpqdUdNUW9ZOU1vWmQ5VTRtaUJ3ZnVTNU1MN1Yzdi1xM1k3WjJCd2ZZTmczRWJx?oc=5",
+      "domain": "New York Post",
+      "lat": 35.95089683087334,
+      "lon": 51.31637518769671,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -375,8 +420,8 @@
       "title": "Iran attacks Kurdistan Freedom Party bases in Iraq amid 2026 crisis - Crypto Briefing",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORDJjaFZJSDY4d3M1V1pvRnR3SVdUNGhEdWlYUDU3TmJKT0RXSGRDMldGUU44T19jbTkwQm52ZVRJakVKU2JweFBXbEJEN044V2FYZ1BvRmZSOVpRRmxnaE9ubzlrbmxiZXZJbGRqVVctSzV2TGRDREtQZTBFM2hGM2xGeWR2bzNBSGpQazJ2bnFlSWI0dkNzU2NKZw?oc=5",
       "domain": "Crypto Briefing",
-      "lat": 32.84267920679599,
-      "lon": 42.80680160026962,
+      "lat": 32.794854463578396,
+      "lon": 42.719338597594174,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -384,11 +429,11 @@
       "title": "Iran's IRGC claims it targeted US command center in Syria, state media reports - The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xVlRiT3cxTTRUQ0M4T1VGcEw5R2VZU0dyTHRSdFc0QVFzU0VxUHhxMGRwRU9Tem9QV2FydzhKb1V6QWl2MEZLNk1xQ3d1bmdkV2ZSYXdROFU3dlhEckZHLW9yendSYnZ4SGc?oc=5",
       "domain": "The Jerusalem Post",
-      "lat": 35.00429064664146,
-      "lon": 37.77461702664182,
+      "lat": 34.79421786746738,
+      "lon": 37.832755365390575,
       "color": "#ef4444",
       "category": "attack"
     }
   ],
-  "count": 43
+  "count": 48
 }
