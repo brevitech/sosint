@@ -1,33 +1,38 @@
 {
   "us": {
-    "positive": 37,
-    "negative": 52,
-    "neutral": 11,
+    "positive": 36,
+    "negative": 51,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 56,
+        "count": 58,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 24,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
         "word": "killed",
-        "count": 17,
+        "count": 18,
         "sentiment": "negative"
       },
       {
         "word": "cup",
-        "count": 13,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 13,
+        "count": 12,
         "sentiment": "negative"
+      },
+      {
+        "word": "election",
+        "count": 11,
+        "sentiment": "neutral"
       },
       {
         "word": "graham",
@@ -35,7 +40,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "election",
+        "word": "speech",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -50,23 +55,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "final",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "speech",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "toward",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -75,23 +65,53 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iranian",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "calls",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "service",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "buffett",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rips",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iranian",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "toward",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "service",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "another",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -115,7 +135,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "american",
+        "word": "warner",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -133,44 +153,24 @@
         "word": "el-sayed",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "rips",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seat",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "york",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-19T20:08:26.116268+00:00",
-    "nextRefresh": "2026-07-19T20:08:26.116268+00:00",
-    "articlesAnalyzed": 343,
-    "matchedMentions": 147,
+    "generatedAt": "2026-07-19T21:45:34.885503+00:00",
+    "nextRefresh": "2026-07-19T21:45:34.885503+00:00",
+    "articlesAnalyzed": 344,
+    "matchedMentions": 144,
     "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 34,
-    "neutral": 25,
+    "positive": 40,
+    "negative": 33,
+    "neutral": 27,
     "wordCloud": [
       {
         "word": "sharma",
-        "count": 19,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
@@ -199,18 +199,33 @@
         "sentiment": "neutral"
       },
       {
-        "word": "series",
-        "count": 7,
+        "word": "rohit",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "rohit",
+        "word": "series",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bengal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "seek",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -231,21 +246,6 @@
       {
         "word": "tendulkar",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bengal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seek",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -279,6 +279,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "future",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nod",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "tmc",
         "count": 4,
         "sentiment": "neutral"
@@ -307,24 +317,14 @@
         "word": "against",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hours",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-19T20:08:37.118355+00:00",
-    "nextRefresh": "2026-07-19T20:08:37.118355+00:00",
+    "generatedAt": "2026-07-19T21:45:47.175336+00:00",
+    "nextRefresh": "2026-07-19T21:45:47.175336+00:00",
     "articlesAnalyzed": 464,
-    "matchedMentions": 79,
-    "uniquePersonalities": 40,
+    "matchedMentions": 84,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
