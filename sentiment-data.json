@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 48,
+    "positive": 43,
+    "negative": 49,
     "neutral": 8,
     "wordCloud": [
       {
@@ -11,8 +11,13 @@
       },
       {
         "word": "iran",
-        "count": 16,
+        "count": 18,
         "sentiment": "neutral"
+      },
+      {
+        "word": "killed",
+        "count": 14,
+        "sentiment": "negative"
       },
       {
         "word": "election",
@@ -25,18 +30,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "killed",
-        "count": 12,
-        "sentiment": "negative"
-      },
-      {
         "word": "graham",
-        "count": 12,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "missing",
-        "count": 10,
+        "count": 9,
         "sentiment": "negative"
       },
       {
@@ -45,24 +45,34 @@
         "sentiment": "neutral"
       },
       {
+        "word": "war",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "cup",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "speech",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "cup",
+        "word": "strikes",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 6,
         "sentiment": "negative"
+      },
+      {
+        "word": "soldiers",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "memphis",
@@ -135,11 +145,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "troops",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "iranian",
         "count": 5,
         "sentiment": "neutral"
@@ -148,54 +153,39 @@
         "word": "canada",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-18T23:48:36.585155+00:00",
-    "nextRefresh": "2026-07-18T23:48:36.585155+00:00",
-    "articlesAnalyzed": 335,
-    "matchedMentions": 149,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-07-19T02:10:37.407266+00:00",
+    "nextRefresh": "2026-07-19T02:10:37.407266+00:00",
+    "articlesAnalyzed": 339,
+    "matchedMentions": 152,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 34,
-    "neutral": 21,
+    "positive": 49,
+    "negative": 35,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "rebels",
-        "count": 14,
+        "count": 15,
         "sentiment": "negative"
       },
       {
         "word": "banerjee",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tmc",
-        "count": 10,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "return",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 9,
+        "word": "abhishek",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -204,62 +194,47 @@
         "sentiment": "negative"
       },
       {
-        "word": "modi",
+        "word": "tmc",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "wangchuk",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "odi",
+        "word": "india",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lord",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sonam",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "birla",
-        "count": 6,
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wangchuk",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "sharma",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 5,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "vikram",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
-        "count": 5,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "sena",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sonam",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hour",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -274,37 +249,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "mamata",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "cwg",
+        "word": "modi",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "cjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rebel",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "hour",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nod",
+        "word": "mps",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -314,16 +269,61 @@
         "sentiment": "neutral"
       },
       {
+        "word": "merger",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shinde",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nod",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "future",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "government",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "within",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "skyroot",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "private",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-18T23:48:50.648556+00:00",
-    "nextRefresh": "2026-07-18T23:48:50.648556+00:00",
-    "articlesAnalyzed": 465,
-    "matchedMentions": 87,
+    "generatedAt": "2026-07-19T02:11:04.176128+00:00",
+    "nextRefresh": "2026-07-19T02:11:04.176128+00:00",
+    "articlesAnalyzed": 481,
+    "matchedMentions": 80,
     "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
