@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 35,
-    "negative": 59,
-    "neutral": 6,
+    "positive": 34,
+    "negative": 58,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
@@ -16,7 +16,7 @@
       },
       {
         "word": "killed",
-        "count": 17,
+        "count": 19,
         "sentiment": "negative"
       },
       {
@@ -26,23 +26,18 @@
       },
       {
         "word": "election",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jordan",
         "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "cup",
+        "word": "jordan",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "final",
-        "count": 9,
-        "sentiment": "neutral"
+        "word": "war",
+        "count": 11,
+        "sentiment": "negative"
       },
       {
         "word": "soldiers",
@@ -50,12 +45,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 9,
-        "sentiment": "negative"
+        "word": "power",
+        "count": 8,
+        "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "cup",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -80,19 +75,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "spain",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "white",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "attacks",
+        "word": "calls",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "strikes",
@@ -105,7 +95,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
+        "word": "rips",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -120,17 +110,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "messi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "troops",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "calls",
+        "word": "final",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -138,6 +118,11 @@
         "word": "administration",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "attacks",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "launches",
@@ -153,44 +138,54 @@
         "word": "bill",
         "count": 5,
         "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-07-19T14:50:33.644534+00:00",
-    "nextRefresh": "2026-07-19T14:50:33.644534+00:00",
-    "articlesAnalyzed": 335,
-    "matchedMentions": 149,
-    "uniquePersonalities": 42,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 41,
-    "negative": 39,
-    "neutral": 20,
-    "wordCloud": [
+      },
       {
-        "word": "england",
-        "count": 10,
+        "word": "service",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
+        "word": "claims",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "el-sayed",
+        "count": 5,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-07-19T15:52:52.382314+00:00",
+    "nextRefresh": "2026-07-19T15:52:52.382314+00:00",
+    "articlesAnalyzed": 337,
+    "matchedMentions": 146,
+    "uniquePersonalities": 43,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 29,
+    "negative": 43,
+    "neutral": 28,
+    "wordCloud": [
+      {
         "word": "modi",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "england",
         "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "kharge",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tmc",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -201,6 +196,11 @@
       {
         "word": "odi",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -219,7 +219,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "delimitation",
+        "word": "sharma",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -234,21 +239,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sindhu",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "japan",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "title",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ram",
         "count": 5,
         "sentiment": "neutral"
@@ -259,12 +249,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sharma",
-        "count": 5,
+        "word": "bengal",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "pawar",
+        "word": "shah",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -299,32 +294,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cup",
-        "count": 4,
+        "word": "any",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "target",
-        "count": 4,
+        "word": "against",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "kohli",
-        "count": 4,
+        "word": "bill",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "urges",
+        "word": "delimitation",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rohit",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-19T14:50:45.924348+00:00",
-    "nextRefresh": "2026-07-19T14:50:45.924348+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 85,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-07-19T15:53:06.483003+00:00",
+    "nextRefresh": "2026-07-19T15:53:06.483003+00:00",
+    "articlesAnalyzed": 464,
+    "matchedMentions": 76,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
