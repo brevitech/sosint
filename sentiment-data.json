@@ -1,63 +1,68 @@
 {
   "us": {
-    "positive": 35,
+    "positive": 34,
     "negative": 58,
-    "neutral": 7,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 56,
+        "count": 62,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "election",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "graham",
-        "count": 14,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "killed",
-        "count": 11,
+        "count": 16,
         "sentiment": "negative"
       },
       {
+        "word": "election",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
         "word": "jordan",
-        "count": 11,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "cup",
-        "count": 9,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "white",
-        "count": 9,
+        "word": "graham",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "norman",
-        "count": 9,
+        "word": "final",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "soldiers",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "strikes",
-        "count": 8,
+        "count": 9,
         "sentiment": "negative"
       },
       {
         "word": "war",
-        "count": 8,
+        "count": 9,
         "sentiment": "negative"
+      },
+      {
+        "word": "white",
+        "count": 8,
+        "sentiment": "neutral"
       },
       {
         "word": "politics",
@@ -70,22 +75,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "soldiers",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "speech",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "spain",
-        "count": 6,
+        "word": "norman",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "final",
+        "word": "spain",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -110,17 +110,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "york",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "air",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "finds",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -153,24 +143,39 @@
         "word": "collapse",
         "count": 5,
         "sentiment": "negative"
+      },
+      {
+        "word": "service",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "updates",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-19T11:52:42.675055+00:00",
-    "nextRefresh": "2026-07-19T11:52:42.675055+00:00",
-    "articlesAnalyzed": 333,
-    "matchedMentions": 145,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-07-19T13:05:30.807111+00:00",
+    "nextRefresh": "2026-07-19T13:05:30.807111+00:00",
+    "articlesAnalyzed": 332,
+    "matchedMentions": 151,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 43,
-    "negative": 38,
-    "neutral": 19,
+    "positive": 39,
+    "negative": 41,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "rahul",
         "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kharge",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -184,27 +189,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kharge",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seek",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "lord",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "probe",
+        "word": "donation",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
+        "word": "modi",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -219,17 +214,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sharma",
+        "word": "tmc",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "seek",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "office",
+        "word": "theft",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -244,29 +239,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "theft",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nod",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "gandhi",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "donation",
+        "word": "probe",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "rebels",
-        "count": 6,
-        "sentiment": "negative"
+        "word": "india",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "demolition",
@@ -284,7 +274,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "office",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sindhu",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "japan",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "title",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "pair",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "merger",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-19T11:52:54.909337+00:00",
-    "nextRefresh": "2026-07-19T11:52:54.909337+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 92,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-07-19T13:05:41.421180+00:00",
+    "nextRefresh": "2026-07-19T13:05:41.421180+00:00",
+    "articlesAnalyzed": 478,
+    "matchedMentions": 90,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
 }
