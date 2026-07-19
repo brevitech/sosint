@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 55,
+    "positive": 35,
+    "negative": 58,
     "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 53,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
@@ -15,13 +15,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "graham",
+        "word": "election",
         "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "election",
-        "count": 13,
+        "word": "graham",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -51,6 +51,11 @@
       },
       {
         "word": "strikes",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "war",
         "count": 8,
         "sentiment": "negative"
       },
@@ -85,17 +90,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "launches",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "missing",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "war",
         "count": 6,
         "sentiment": "negative"
       },
@@ -105,106 +100,91 @@
         "sentiment": "neutral"
       },
       {
-        "word": "memphis",
+        "word": "buffett",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "rallies",
+        "word": "claims",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "progressive",
-        "count": 6,
+        "word": "york",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "democrat",
-        "count": 6,
+        "word": "air",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "four",
-        "count": 6,
+        "word": "finds",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "fatal",
-        "count": 6,
+        "word": "troops",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iranian",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "epstein",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "launches",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "collapse",
+        "count": 5,
         "sentiment": "negative"
-      },
-      {
-        "word": "shootings",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "taskforce",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fight",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "lives",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-19T10:22:55.627356+00:00",
-    "nextRefresh": "2026-07-19T10:22:55.627356+00:00",
-    "articlesAnalyzed": 335,
-    "matchedMentions": 148,
+    "generatedAt": "2026-07-19T11:52:42.675055+00:00",
+    "nextRefresh": "2026-07-19T11:52:42.675055+00:00",
+    "articlesAnalyzed": 333,
+    "matchedMentions": 145,
     "uniquePersonalities": 38,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
-    "negative": 33,
-    "neutral": 23,
+    "positive": 43,
+    "negative": 38,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kharge",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ram",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "probe",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "temple",
+        "word": "england",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "sharma",
+        "word": "odi",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kharge",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -214,52 +194,57 @@
         "sentiment": "neutral"
       },
       {
+        "word": "lord",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "probe",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ram",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "temple",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sharma",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "office",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dialogue",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bumrah",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "theft",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "donation",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "odi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rebels",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "england",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "silence",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "unacceptable",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "independent",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -274,12 +259,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "birla",
+        "word": "donation",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "kumar",
+        "word": "rebels",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "demolition",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abhishek",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rohit",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -289,12 +299,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "lord",
+        "word": "become",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "office",
+        "word": "indian",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pair",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -302,28 +317,13 @@
         "word": "merger",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "shinde",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sena",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bcci",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-19T10:23:25.548540+00:00",
-    "nextRefresh": "2026-07-19T10:23:25.548540+00:00",
-    "articlesAnalyzed": 477,
-    "matchedMentions": 97,
+    "generatedAt": "2026-07-19T11:52:54.909337+00:00",
+    "nextRefresh": "2026-07-19T11:52:54.909337+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 92,
     "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
