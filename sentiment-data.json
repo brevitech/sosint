@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 34,
-    "negative": 58,
-    "neutral": 8,
+    "positive": 35,
+    "negative": 59,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
+        "count": 57,
         "sentiment": "neutral"
       },
       {
@@ -16,17 +16,22 @@
       },
       {
         "word": "killed",
-        "count": 16,
+        "count": 17,
         "sentiment": "negative"
       },
       {
-        "word": "election",
+        "word": "graham",
         "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "jordan",
+        "word": "election",
         "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jordan",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -35,24 +40,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "graham",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
         "word": "final",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "soldiers",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "strikes",
         "count": 9,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "war",
@@ -60,7 +55,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "white",
+        "word": "power",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "platner",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -70,12 +70,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "speech",
+        "word": "american",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -90,14 +85,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "missing",
+        "word": "white",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attacks",
         "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "american",
+        "word": "strikes",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "buffett",
@@ -110,7 +110,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "iranian",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "air",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "messi",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -120,17 +130,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iranian",
+        "word": "calls",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "administration",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "epstein",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -145,72 +150,42 @@
         "sentiment": "negative"
       },
       {
-        "word": "service",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "updates",
+        "word": "bill",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-19T13:05:30.807111+00:00",
-    "nextRefresh": "2026-07-19T13:05:30.807111+00:00",
-    "articlesAnalyzed": 332,
-    "matchedMentions": 151,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-07-19T14:50:33.644534+00:00",
+    "nextRefresh": "2026-07-19T14:50:33.644534+00:00",
+    "articlesAnalyzed": 335,
+    "matchedMentions": 149,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 39,
-    "negative": 41,
+    "positive": 41,
+    "negative": 39,
     "neutral": 20,
     "wordCloud": [
-      {
-        "word": "rahul",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kharge",
-        "count": 10,
-        "sentiment": "neutral"
-      },
       {
         "word": "england",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "odi",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lord",
+        "word": "modi",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "donation",
+        "word": "rahul",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kharge",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ram",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "temple",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -224,18 +199,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "theft",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dialogue",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bumrah",
-        "count": 6,
+        "word": "odi",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -249,32 +214,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 5,
+        "word": "donation",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "students",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "demolition",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
+        "word": "delimitation",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "office",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bumrah",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -294,37 +249,82 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rohit",
+        "word": "ram",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "temple",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sharma",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pawar",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "demolition",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abhishek",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lord",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dialogue",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "theft",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cup",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "kohli",
-        "count": 5,
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "become",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indian",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pair",
-        "count": 5,
+        "word": "urges",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-19T13:05:41.421180+00:00",
-    "nextRefresh": "2026-07-19T13:05:41.421180+00:00",
-    "articlesAnalyzed": 478,
-    "matchedMentions": 90,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-07-19T14:50:45.924348+00:00",
+    "nextRefresh": "2026-07-19T14:50:45.924348+00:00",
+    "articlesAnalyzed": 480,
+    "matchedMentions": 85,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   }
 }
