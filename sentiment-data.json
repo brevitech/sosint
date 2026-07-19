@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 36,
-    "negative": 51,
-    "neutral": 13,
+    "positive": 38,
+    "negative": 50,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 58,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
@@ -16,12 +16,12 @@
       },
       {
         "word": "killed",
-        "count": 18,
+        "count": 17,
         "sentiment": "negative"
       },
       {
         "word": "cup",
-        "count": 16,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -55,22 +55,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "final",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "norman",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "calls",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "buffett",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -125,6 +115,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "members",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "something",
         "count": 5,
         "sentiment": "neutral"
@@ -153,20 +148,25 @@
         "word": "el-sayed",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-19T21:45:34.885503+00:00",
-    "nextRefresh": "2026-07-19T21:45:34.885503+00:00",
-    "articlesAnalyzed": 344,
-    "matchedMentions": 144,
+    "generatedAt": "2026-07-19T22:45:42.141644+00:00",
+    "nextRefresh": "2026-07-19T22:45:42.141644+00:00",
+    "articlesAnalyzed": 346,
+    "matchedMentions": 140,
     "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 40,
-    "negative": 33,
-    "neutral": 27,
+    "negative": 34,
+    "neutral": 26,
     "wordCloud": [
       {
         "word": "sharma",
@@ -234,6 +234,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "temple",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "india",
         "count": 6,
         "sentiment": "neutral"
@@ -265,11 +270,6 @@
       },
       {
         "word": "ram",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "temple",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-19T21:45:47.175336+00:00",
-    "nextRefresh": "2026-07-19T21:45:47.175336+00:00",
-    "articlesAnalyzed": 464,
-    "matchedMentions": 84,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-07-19T22:45:54.583932+00:00",
+    "nextRefresh": "2026-07-19T22:45:54.583932+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 85,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
 }
