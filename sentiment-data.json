@@ -1,17 +1,17 @@
 {
   "us": {
     "positive": 35,
-    "negative": 56,
-    "neutral": 9,
+    "negative": 55,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 49,
+        "count": 53,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 21,
+        "count": 26,
         "sentiment": "neutral"
       },
       {
@@ -20,17 +20,22 @@
         "sentiment": "negative"
       },
       {
-        "word": "graham",
-        "count": 15,
+        "word": "war",
+        "count": 13,
+        "sentiment": "negative"
+      },
+      {
+        "word": "jordan",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "election",
-        "count": 12,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "jordan",
+        "word": "graham",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -40,13 +45,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
         "word": "fetterman",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -65,16 +65,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "platner",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "politics",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "speech",
         "count": 7,
         "sentiment": "neutral"
@@ -85,17 +75,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "final",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "troops",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -105,8 +85,23 @@
         "sentiment": "neutral"
       },
       {
+        "word": "toward",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "buffett",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strikes",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "final",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -130,11 +125,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "collapse",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
         "word": "something",
         "count": 5,
         "sentiment": "neutral"
@@ -150,51 +140,66 @@
         "sentiment": "neutral"
       },
       {
-        "word": "strikes",
+        "word": "el-sayed",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rips",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-19T17:54:32.770649+00:00",
-    "nextRefresh": "2026-07-19T17:54:32.770649+00:00",
-    "articlesAnalyzed": 340,
-    "matchedMentions": 142,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-07-19T18:58:52.059931+00:00",
+    "nextRefresh": "2026-07-19T18:58:52.059931+00:00",
+    "articlesAnalyzed": 342,
+    "matchedMentions": 143,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 40,
+    "positive": 39,
     "negative": 32,
-    "neutral": 28,
+    "neutral": 29,
     "wordCloud": [
+      {
+        "word": "sharma",
+        "count": 13,
+        "sentiment": "neutral"
+      },
       {
         "word": "odi",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "sharma",
+        "word": "lord",
         "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "slams",
+        "word": "century",
         "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "england",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "lord",
+        "word": "seek",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -209,22 +214,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "century",
-        "count": 7,
+        "word": "slams",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "record",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seek",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -249,17 +244,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "anand",
+        "word": "shah",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "rohit",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bat",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "row",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -279,17 +284,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kolkata",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rohit",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "history",
+        "word": "anand",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -304,26 +299,31 @@
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "series",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "buzz",
-        "count": 4,
+        "word": "against",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "political",
+        "word": "hindu",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lit",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-19T17:54:45.050392+00:00",
-    "nextRefresh": "2026-07-19T17:54:45.050392+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 82,
+    "generatedAt": "2026-07-19T18:59:05.699381+00:00",
+    "nextRefresh": "2026-07-19T18:59:05.699381+00:00",
+    "articlesAnalyzed": 464,
+    "matchedMentions": 80,
     "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
