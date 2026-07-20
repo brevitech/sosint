@@ -1,22 +1,22 @@
 {
   "us": {
     "positive": 39,
-    "negative": 47,
-    "neutral": 14,
+    "negative": 48,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 56,
+        "count": 53,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 21,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "killed",
-        "count": 17,
+        "count": 19,
         "sentiment": "negative"
       },
       {
@@ -25,13 +25,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 12,
-        "sentiment": "negative"
-      },
-      {
         "word": "election",
         "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -40,13 +40,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fetterman",
+        "word": "war",
         "count": 10,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "vance",
-        "count": 9,
+        "word": "fetterman",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -55,12 +55,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jordan",
-        "count": 8,
+        "word": "baby",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
+        "word": "boy",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "usha",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jordan",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -105,24 +115,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "baby",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "boy",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "usha",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "calls",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "child",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strikes",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "rips",
@@ -140,61 +150,41 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iranian",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "administration",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "child",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-19T23:52:55.013129+00:00",
-    "nextRefresh": "2026-07-19T23:52:55.013129+00:00",
-    "articlesAnalyzed": 350,
-    "matchedMentions": 148,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-07-20T02:31:09.236117+00:00",
+    "nextRefresh": "2026-07-20T02:31:09.236117+00:00",
+    "articlesAnalyzed": 354,
+    "matchedMentions": 149,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 34,
-    "neutral": 21,
+    "positive": 39,
+    "negative": 38,
+    "neutral": 23,
     "wordCloud": [
       {
-        "word": "sharma",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "odi",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lord",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "england",
-        "count": 10,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "series",
+        "word": "gill",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "bengal",
+        "word": "sharma",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -209,53 +199,33 @@
         "sentiment": "neutral"
       },
       {
-        "word": "temple",
-        "count": 6,
+        "word": "lord",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "record",
-        "count": 6,
+        "word": "series",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "neet",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bengal",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "shah",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rohit",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "century",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bat",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kharge",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ram",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 5,
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -264,7 +234,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nod",
+        "word": "ram",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "temple",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bumrah",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -284,32 +264,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "delimitation",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
+        "word": "injury",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "india",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "slams",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "neet",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "history",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ton",
+        "word": "nod",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -317,13 +287,43 @@
         "word": "devotees",
         "count": 3,
         "sentiment": "positive"
+      },
+      {
+        "word": "betrayed",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "rahul",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kharge",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "probe",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "donation",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-19T23:53:07.296127+00:00",
-    "nextRefresh": "2026-07-19T23:53:07.296127+00:00",
-    "articlesAnalyzed": 465,
-    "matchedMentions": 71,
+    "generatedAt": "2026-07-20T02:31:20.129529+00:00",
+    "nextRefresh": "2026-07-20T02:31:20.129529+00:00",
+    "articlesAnalyzed": 482,
+    "matchedMentions": 64,
     "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
