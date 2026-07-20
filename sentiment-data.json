@@ -1,17 +1,32 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 50,
-    "neutral": 12,
+    "positive": 37,
+    "negative": 53,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 46,
+        "count": 54,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "graham",
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "bros",
         "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -35,59 +50,49 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 13,
+        "word": "darline",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "graham",
-        "count": 12,
+        "word": "cup",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 11,
+        "word": "war",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "netanyahu",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "air",
+        "word": "full",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "term",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "killed",
-        "count": 8,
+        "count": 7,
         "sentiment": "negative"
       },
       {
-        "word": "cup",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "darline",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "south",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "carolina",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seat",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
+        "word": "canadian",
         "count": 7,
         "sentiment": "neutral"
+      },
+      {
+        "word": "strikes",
+        "count": 7,
+        "sentiment": "negative"
       },
       {
         "word": "shakira",
@@ -105,24 +110,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "politics",
+        "word": "latest",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "brother",
-        "count": 7,
+        "word": "power",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "air",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "soldiers",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "attack",
-        "count": 6,
-        "sentiment": "negative"
       },
       {
         "word": "madonna",
@@ -148,29 +153,24 @@
         "word": "colourful",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "half-time",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-20T21:06:23.808157+00:00",
-    "nextRefresh": "2026-07-20T21:06:23.808157+00:00",
+    "generatedAt": "2026-07-20T22:54:35.616674+00:00",
+    "nextRefresh": "2026-07-20T22:54:35.616674+00:00",
     "articlesAnalyzed": 352,
-    "matchedMentions": 149,
-    "uniquePersonalities": 39,
+    "matchedMentions": 157,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 31,
+    "positive": 45,
+    "negative": 32,
     "neutral": 23,
     "wordCloud": [
       {
         "word": "gandhi",
-        "count": 16,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
@@ -180,12 +180,12 @@
       },
       {
         "word": "rahul",
-        "count": 11,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 10,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -215,6 +215,11 @@
       },
       {
         "word": "govt",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "anti-youth",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -249,6 +254,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "india",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "dares",
         "count": 4,
         "sentiment": "neutral"
@@ -256,11 +266,6 @@
       {
         "word": "england",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -279,14 +284,19 @@
         "sentiment": "negative"
       },
       {
+        "word": "youth",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "claims",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "fight",
         "count": 3,
         "sentiment": "negative"
-      },
-      {
-        "word": "anti-youth",
-        "count": 3,
-        "sentiment": "neutral"
       },
       {
         "word": "attacks",
@@ -307,24 +317,14 @@
         "word": "series",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "odis",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-20T21:06:35.744961+00:00",
-    "nextRefresh": "2026-07-20T21:06:35.744961+00:00",
+    "generatedAt": "2026-07-20T22:54:46.559467+00:00",
+    "nextRefresh": "2026-07-20T22:54:46.559467+00:00",
     "articlesAnalyzed": 465,
-    "matchedMentions": 68,
-    "uniquePersonalities": 36,
+    "matchedMentions": 74,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
