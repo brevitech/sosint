@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 47,
+    "positive": 41,
+    "negative": 45,
     "neutral": 14,
     "wordCloud": [
       {
@@ -16,38 +16,43 @@
       },
       {
         "word": "killed",
-        "count": 19,
+        "count": 20,
         "sentiment": "negative"
       },
       {
         "word": "cup",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "election",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vance",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "speech",
-        "count": 10,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "fetterman",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "speech",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "something",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "election",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "spain",
         "count": 9,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "positive",
+        "count": 9,
+        "sentiment": "positive"
       },
       {
         "word": "graham",
@@ -55,9 +60,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "strikes",
+        "word": "vance",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
         "count": 8,
         "sentiment": "negative"
+      },
+      {
+        "word": "shakira",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bieber",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "baby",
@@ -75,22 +95,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shakira",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "madonna",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "justin",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bieber",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -115,72 +125,117 @@
         "sentiment": "neutral"
       },
       {
-        "word": "hegseth",
+        "word": "argentina",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "spain",
+        "word": "strikes",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "rather",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
+        "word": "fixate",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "child",
+        "word": "loss",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "rips",
+        "word": "buffett",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jordan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "burnham",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "calls",
-        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-20T06:12:32.425278+00:00",
-    "nextRefresh": "2026-07-20T06:12:32.425278+00:00",
-    "articlesAnalyzed": 353,
-    "matchedMentions": 149,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-07-20T09:55:05.214821+00:00",
+    "nextRefresh": "2026-07-20T09:55:05.214821+00:00",
+    "articlesAnalyzed": 339,
+    "matchedMentions": 154,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 43,
-    "negative": 35,
-    "neutral": 22,
+    "positive": 38,
+    "negative": 41,
+    "neutral": 21,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 16,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
-        "word": "monsoon",
+        "word": "cjp",
         "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "session",
-        "count": 12,
+        "word": "protest",
+        "count": 13,
+        "sentiment": "negative"
+      },
+      {
+        "word": "parliament",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "year-old",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sharma",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "monsoon",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pradhan",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "youth",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -189,142 +244,87 @@
         "sentiment": "neutral"
       },
       {
-        "word": "year-old",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "youth",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "parliament",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "maharashtra",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 6,
+        "word": "session",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "england",
-        "count": 6,
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lord",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "series",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "productive",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "neet",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "dig",
-        "count": 4,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "pradhan",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "anand",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "inside",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "loss",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "lord",
-        "count": 4,
+        "word": "retirement",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "odi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amit",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bcci",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "opinion",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "team",
-        "count": 3,
+        "word": "sanjay",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "students",
-        "count": 3,
+        "word": "vande",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wangchuk",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minister",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hindu",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lit",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "life",
-        "count": 3,
+        "word": "mataram",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-20T06:12:46.614540+00:00",
-    "nextRefresh": "2026-07-20T06:12:46.614540+00:00",
-    "articlesAnalyzed": 478,
-    "matchedMentions": 81,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-07-20T09:55:17.853191+00:00",
+    "nextRefresh": "2026-07-20T09:55:17.853191+00:00",
+    "articlesAnalyzed": 461,
+    "matchedMentions": 102,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
 }
