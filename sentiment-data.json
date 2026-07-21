@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 36,
-    "negative": 55,
-    "neutral": 9,
+    "positive": 38,
+    "negative": 54,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 54,
+        "count": 51,
         "sentiment": "neutral"
       },
       {
@@ -36,8 +36,13 @@
       },
       {
         "word": "war",
-        "count": 10,
+        "count": 11,
         "sentiment": "negative"
+      },
+      {
+        "word": "judge",
+        "count": 10,
+        "sentiment": "neutral"
       },
       {
         "word": "merger",
@@ -65,16 +70,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "killed",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
         "word": "canada",
         "count": 7,
         "sentiment": "neutral"
@@ -95,11 +90,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "burnham",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "latest",
         "count": 7,
         "sentiment": "neutral"
@@ -113,6 +103,11 @@
         "word": "power",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "killed",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "deaths",
@@ -153,178 +148,183 @@
         "word": "canadian",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "mamdani",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-21T02:09:35.459445+00:00",
-    "nextRefresh": "2026-07-21T02:09:35.459445+00:00",
-    "articlesAnalyzed": 352,
-    "matchedMentions": 157,
+    "generatedAt": "2026-07-21T05:45:11.567297+00:00",
+    "nextRefresh": "2026-07-21T05:45:11.567297+00:00",
+    "articlesAnalyzed": 354,
+    "matchedMentions": 147,
     "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 50,
-    "negative": 29,
-    "neutral": 21,
+    "positive": 43,
+    "negative": 32,
+    "neutral": 25,
     "wordCloud": [
       {
-        "word": "cjp",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
         "word": "modi",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protest",
-        "count": 9,
-        "sentiment": "negative"
-      },
-      {
-        "word": "rahul",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lord",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sharma",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "anti-youth",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "govt",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seat-sharing",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "buzz",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "yadav",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "centre",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indian",
-        "count": 3,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "parliament",
-        "count": 3,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "government",
-        "count": 3,
+        "word": "monsoon",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
-        "count": 3,
+        "word": "session",
+        "count": 12,
         "sentiment": "neutral"
+      },
+      {
+        "word": "cjp",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ashwin",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sharma",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nda",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "india",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lord",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "statement",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "makes",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slams",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "virat",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rohit",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "called",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kohli",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "updates",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "attacks",
+        "word": "mps",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protesters",
         "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "delhi",
+        "word": "days",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "cannot",
+        "word": "hindu",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "lit",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "emkay",
+        "word": "life",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "global",
+        "word": "unplugged",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "financial",
+        "word": "launches",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "noise",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "retirement",
+        "word": "usha",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-21T02:09:48.953329+00:00",
-    "nextRefresh": "2026-07-21T02:09:48.953329+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 68,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-07-21T05:45:36.252879+00:00",
+    "nextRefresh": "2026-07-21T05:45:36.252879+00:00",
+    "articlesAnalyzed": 462,
+    "matchedMentions": 91,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   }
 }
