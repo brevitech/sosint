@@ -1,38 +1,43 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 54,
-    "neutral": 8,
+    "positive": 44,
+    "negative": 49,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 56,
+        "count": 57,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 14,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "tariffs",
-        "count": 12,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
-        "count": 10,
+        "word": "house",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 8,
+        "count": 11,
         "sentiment": "negative"
+      },
+      {
+        "word": "democrats",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 8,
+        "sentiment": "neutral"
       },
       {
         "word": "biden",
@@ -40,9 +45,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "president",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "canadian",
         "count": 7,
         "sentiment": "neutral"
+      },
+      {
+        "word": "warns",
+        "count": 7,
+        "sentiment": "negative"
       },
       {
         "word": "cup",
@@ -50,12 +65,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "canada",
+        "word": "goods",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
+        "word": "deaths",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "appeals",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mahdawi",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -65,39 +90,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "escalation",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "canadian",
+        "word": "trade",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "launches",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "deaths",
+        "word": "strikes",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bros",
-        "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "hunter",
@@ -120,12 +125,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mahdawi",
+        "word": "amid",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "goods",
+        "word": "release",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "review",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "canada",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -135,78 +150,48 @@
         "sentiment": "neutral"
       },
       {
-        "word": "intensify",
+        "word": "fresh",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "warns",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "shakira",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bieber",
-        "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-21T15:39:33.759560+00:00",
-    "nextRefresh": "2026-07-21T15:39:33.759560+00:00",
-    "articlesAnalyzed": 336,
-    "matchedMentions": 128,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-07-21T17:12:08.483951+00:00",
+    "nextRefresh": "2026-07-21T17:12:08.483951+00:00",
+    "articlesAnalyzed": 332,
+    "matchedMentions": 140,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 36,
-    "negative": 51,
-    "neutral": 13,
+    "positive": 33,
+    "negative": 52,
+    "neutral": 15,
     "wordCloud": [
       {
-        "word": "rahul",
-        "count": 28,
+        "word": "gandhi",
+        "count": 32,
         "sentiment": "neutral"
       },
       {
         "word": "protest",
-        "count": 26,
+        "count": 31,
         "sentiment": "negative"
       },
       {
-        "word": "gandhi",
-        "count": 22,
+        "word": "rahul",
+        "count": 31,
         "sentiment": "neutral"
       },
       {
         "word": "cjp",
-        "count": 17,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "site",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "away",
+        "word": "congress",
         "count": 11,
         "sentiment": "neutral"
-      },
-      {
-        "word": "detained",
-        "count": 9,
-        "sentiment": "negative"
       },
       {
         "word": "aap",
@@ -214,7 +199,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "swipe",
+        "word": "modi",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mps",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -224,33 +214,73 @@
         "sentiment": "neutral"
       },
       {
-        "word": "near",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "residence",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "outside",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "jantar",
+        "word": "police",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dharna",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "site",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "mantar",
+        "word": "away",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "swipe",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sit-in",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "centre",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "singh",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "surprised",
+        "count": 6,
+        "sentiment": "positive"
       },
       {
         "word": "lord",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "priyanka",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -259,72 +289,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "govt",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "neet",
+        "word": "jantar",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "paper",
+        "word": "mantar",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "sudden",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "residence",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "leak",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "singh",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "plans",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "turned",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "likely",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
+        "word": "house",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-21T15:39:45.237085+00:00",
-    "nextRefresh": "2026-07-21T15:39:45.237085+00:00",
-    "articlesAnalyzed": 481,
-    "matchedMentions": 106,
-    "uniquePersonalities": 49,
+    "generatedAt": "2026-07-21T17:12:28.310974+00:00",
+    "nextRefresh": "2026-07-21T17:12:28.310974+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 119,
+    "uniquePersonalities": 55,
     "dataSource": "live-rss"
   }
 }
