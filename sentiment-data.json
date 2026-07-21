@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 43,
-    "negative": 50,
-    "neutral": 7,
+    "positive": 38,
+    "negative": 54,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 52,
+        "count": 50,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 19,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
@@ -21,7 +21,7 @@
       },
       {
         "word": "bros",
-        "count": 13,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -31,16 +31,16 @@
       },
       {
         "word": "senate",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "merger",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "cup",
+        "word": "tariffs",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deaths",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -55,27 +55,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tariffs",
-        "count": 9,
+        "word": "merger",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "strikes",
         "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "strikes",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "warns",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "deaths",
+        "word": "cup",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -85,7 +75,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "latest",
+        "word": "netanyahu",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "escalation",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -95,12 +95,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "netanyahu",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
+        "word": "canadian",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -110,38 +105,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "warns",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
         "word": "soldiers",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "canadian",
+        "word": "mamdani",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "arrested",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "air",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "home",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -150,81 +125,121 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "trade",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fresh",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "latest",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "injuries",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-21T08:18:16.971245+00:00",
-    "nextRefresh": "2026-07-21T08:18:16.971245+00:00",
-    "articlesAnalyzed": 340,
-    "matchedMentions": 145,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-07-21T11:03:05.325215+00:00",
+    "nextRefresh": "2026-07-21T11:03:05.325215+00:00",
+    "articlesAnalyzed": 338,
+    "matchedMentions": 131,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 42,
-    "negative": 40,
-    "neutral": 18,
+    "positive": 31,
+    "negative": 53,
+    "neutral": 16,
     "wordCloud": [
       {
+        "word": "protest",
+        "count": 23,
+        "sentiment": "negative"
+      },
+      {
         "word": "cjp",
-        "count": 19,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 15,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "students",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
+        "word": "delhi",
         "count": 10,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "against",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "mps",
+        "word": "parliament",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crackdown",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "government",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "amid",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "parliament",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "monsoon",
+        "word": "jantar",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "session",
+        "word": "mantar",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "paper",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "police",
+        "word": "mps",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -234,97 +249,82 @@
         "sentiment": "neutral"
       },
       {
+        "word": "lord",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "neet",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "monsoon",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "lord",
+        "word": "session",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "future",
+        "word": "opposition",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "outside",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "kohli",
+        "word": "kharge",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "congress",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "along",
-        "count": 4,
+        "word": "plans",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 4,
+        "word": "turned",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "leaks",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seek",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "brutality",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "crackdown",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "speaker",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "west",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bengal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "khan",
-        "count": 4,
+        "word": "asks",
+        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-21T08:18:43.624098+00:00",
-    "nextRefresh": "2026-07-21T08:18:43.624098+00:00",
-    "articlesAnalyzed": 464,
-    "matchedMentions": 102,
-    "uniquePersonalities": 51,
+    "generatedAt": "2026-07-21T11:03:30.305027+00:00",
+    "nextRefresh": "2026-07-21T11:03:30.305027+00:00",
+    "articlesAnalyzed": 477,
+    "matchedMentions": 118,
+    "uniquePersonalities": 53,
     "dataSource": "live-rss"
   }
 }
