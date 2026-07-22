@@ -1,27 +1,27 @@
 {
   "us": {
-    "positive": 35,
-    "negative": 61,
-    "neutral": 4,
+    "positive": 38,
+    "negative": 57,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 58,
+        "count": 60,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 28,
+        "count": 26,
         "sentiment": "neutral"
       },
       {
         "word": "hegseth",
-        "count": 15,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 14,
+        "count": 16,
         "sentiment": "negative"
       },
       {
@@ -41,16 +41,11 @@
       },
       {
         "word": "tariffs",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "happened",
+        "word": "trade",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -75,11 +70,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "far",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "price",
         "count": 8,
         "sentiment": "neutral"
@@ -87,11 +77,6 @@
       {
         "word": "biden",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hearing",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -110,12 +95,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "senate",
+        "word": "far",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "attends",
+        "word": "happened",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -125,17 +115,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nolan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wells",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "autopsy",
+        "word": "hearing",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -145,52 +125,72 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tensions",
+        "word": "hormuz",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "hormuz",
+        "word": "cost",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pentagon",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arwa",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mahdawi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "georgia",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-22T17:11:23.668064+00:00",
-    "nextRefresh": "2026-07-22T17:11:23.668064+00:00",
+    "generatedAt": "2026-07-22T19:06:29.307936+00:00",
+    "nextRefresh": "2026-07-22T19:06:29.307936+00:00",
     "articlesAnalyzed": 329,
-    "matchedMentions": 150,
-    "uniquePersonalities": 30,
+    "matchedMentions": 153,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 42,
-    "negative": 53,
-    "neutral": 5,
+    "positive": 37,
+    "negative": 55,
+    "neutral": 8,
     "wordCloud": [
       {
+        "word": "rahul",
+        "count": 23,
+        "sentiment": "neutral"
+      },
+      {
         "word": "protest",
-        "count": 25,
+        "count": 21,
         "sentiment": "negative"
       },
       {
-        "word": "pradhan",
-        "count": 22,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 22,
-        "sentiment": "neutral"
-      },
-      {
         "word": "gandhi",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "paper",
         "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "neet",
-        "count": 14,
+        "word": "pradhan",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -199,23 +199,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 13,
+        "word": "neet",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "resignation",
-        "count": 12,
+        "word": "leak",
+        "count": 10,
         "sentiment": "negative"
       },
       {
-        "word": "cjp",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "opposition",
-        "count": 10,
+        "word": "india",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -224,13 +219,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "students",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "residence",
-        "count": 7,
+        "word": "opposition",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cjp",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -239,34 +239,29 @@
         "sentiment": "neutral"
       },
       {
+        "word": "resignation",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
         "word": "rankings",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "paper",
+        "word": "pawar",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "centre",
+        "word": "support",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "adani",
+        "word": "protests",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "return",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lalit",
-        "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "amid",
@@ -279,22 +274,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "leak",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "tribunal",
+        "word": "discuss",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "police",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "plea",
+        "word": "leaks",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -304,7 +289,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "outside",
+        "word": "sabha",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chopra",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -317,13 +312,18 @@
         "word": "ranaut",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "rohit",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-22T17:11:38.044040+00:00",
-    "nextRefresh": "2026-07-22T17:11:38.044040+00:00",
-    "articlesAnalyzed": 465,
-    "matchedMentions": 120,
+    "generatedAt": "2026-07-22T19:06:43.141805+00:00",
+    "nextRefresh": "2026-07-22T19:06:43.141805+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 110,
     "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
