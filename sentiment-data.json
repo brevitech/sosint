@@ -1,47 +1,32 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 57,
-    "neutral": 5,
+    "positive": 43,
+    "negative": 56,
+    "neutral": 1,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 60,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 26,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 16,
-        "sentiment": "negative"
-      },
-      {
-        "word": "dignified",
-        "count": 10,
-        "sentiment": "positive"
-      },
-      {
-        "word": "transfer",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 10,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
         "word": "tariffs",
-        "count": 9,
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "price",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -50,14 +35,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mamdani",
-        "count": 8,
+        "word": "house",
+        "count": 9,
         "sentiment": "neutral"
-      },
-      {
-        "word": "arrest",
-        "count": 8,
-        "sentiment": "negative"
       },
       {
         "word": "netanyahu",
@@ -65,12 +45,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iranian",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "price",
+        "word": "hegseth",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -80,9 +55,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "killed",
+        "word": "mamdani",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrest",
         "count": 7,
         "sentiment": "negative"
+      },
+      {
+        "word": "iranian",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "attacks",
@@ -90,33 +75,13 @@
         "sentiment": "negative"
       },
       {
-        "word": "threatens",
+        "word": "war",
         "count": 7,
         "sentiment": "negative"
       },
       {
-        "word": "far",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "happened",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hearing",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -125,17 +90,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "hormuz",
+        "word": "killed",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "cost",
+        "word": "threatens",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "pentagon",
+        "word": "senate",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -150,66 +115,106 @@
         "sentiment": "neutral"
       },
       {
-        "word": "georgia",
+        "word": "white",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hearing",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dignified",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "transfer",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "justice",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "plants",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hormuz",
+        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-22T19:06:29.307936+00:00",
-    "nextRefresh": "2026-07-22T19:06:29.307936+00:00",
+    "generatedAt": "2026-07-22T21:00:21.746026+00:00",
+    "nextRefresh": "2026-07-22T21:00:21.746026+00:00",
     "articlesAnalyzed": 329,
-    "matchedMentions": 153,
-    "uniquePersonalities": 37,
+    "matchedMentions": 141,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 37,
-    "negative": 55,
-    "neutral": 8,
+    "positive": 40,
+    "negative": 51,
+    "neutral": 9,
     "wordCloud": [
       {
-        "word": "rahul",
-        "count": 23,
+        "word": "modi",
+        "count": 20,
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
-        "count": 21,
-        "sentiment": "negative"
-      },
-      {
-        "word": "gandhi",
+        "word": "pradhan",
         "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "paper",
-        "count": 15,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
-        "word": "pradhan",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
+        "word": "protest",
         "count": 14,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "neet",
+        "word": "rahul",
         "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "leak",
+        "count": 12,
+        "sentiment": "negative"
+      },
+      {
+        "word": "resignation",
         "count": 10,
         "sentiment": "negative"
       },
       {
         "word": "india",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -219,12 +224,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "students",
+        "word": "pawar",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "opposition",
+        "word": "neet",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -234,14 +239,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "resignation",
+        "word": "protests",
         "count": 7,
         "sentiment": "negative"
+      },
+      {
+        "word": "govt",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "rankings",
@@ -249,19 +254,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pawar",
+        "word": "writes",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "support",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "protests",
-        "count": 6,
-        "sentiment": "negative"
       },
       {
         "word": "amid",
@@ -274,12 +269,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "discuss",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leaks",
+        "word": "minister",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -289,7 +279,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sabha",
+        "word": "hazare",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -304,12 +294,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
+        "word": "opposition",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "ranaut",
+        "word": "lalit",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jaishankar",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -317,14 +312,19 @@
         "word": "rohit",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "system",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-22T19:06:43.141805+00:00",
-    "nextRefresh": "2026-07-22T19:06:43.141805+00:00",
+    "generatedAt": "2026-07-22T21:00:31.138057+00:00",
+    "nextRefresh": "2026-07-22T21:00:31.138057+00:00",
     "articlesAnalyzed": 466,
-    "matchedMentions": 110,
-    "uniquePersonalities": 43,
+    "matchedMentions": 100,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
