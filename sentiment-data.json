@@ -1,52 +1,47 @@
 {
   "us": {
-    "positive": 38,
+    "positive": 37,
     "negative": 57,
-    "neutral": 5,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 55,
+        "count": 48,
         "sentiment": "neutral"
       },
       {
         "word": "hegseth",
-        "count": 35,
+        "count": 37,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 31,
+        "count": 30,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 19,
+        "count": 23,
         "sentiment": "negative"
       },
       {
         "word": "senate",
-        "count": 17,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "cost",
-        "count": 13,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "house",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "military",
         "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "canada",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tariffs",
-        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -56,11 +51,11 @@
       },
       {
         "word": "far",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "hearing",
+        "word": "happened",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -70,12 +65,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "military",
+        "word": "hearing",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "funds",
+        "word": "president",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tariffs",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "canada",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -85,17 +90,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "president",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "request",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "cup",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arizona",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -110,7 +110,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "zelenskyy",
+        "word": "chief",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -120,19 +120,14 @@
         "sentiment": "negative"
       },
       {
-        "word": "announces",
+        "word": "pentagon",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
+        "word": "failure",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "launches",
-        "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "biden",
@@ -140,47 +135,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tells",
+        "word": "key",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "happened",
+        "word": "testosterone",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
-        "count": 6,
+        "word": "plan",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-22T02:07:46.741958+00:00",
-    "nextRefresh": "2026-07-22T02:07:46.741958+00:00",
-    "articlesAnalyzed": 339,
-    "matchedMentions": 187,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-07-22T05:44:24.647532+00:00",
+    "nextRefresh": "2026-07-22T05:44:24.647532+00:00",
+    "articlesAnalyzed": 343,
+    "matchedMentions": 180,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 31,
-    "negative": 56,
-    "neutral": 13,
+    "positive": 22,
+    "negative": 69,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 30,
+        "count": 31,
         "sentiment": "neutral"
       },
       {
         "word": "protest",
-        "count": 29,
+        "count": 30,
         "sentiment": "negative"
       },
       {
+        "word": "cjp",
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
         "word": "gandhi",
-        "count": 24,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
@@ -189,82 +194,107 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "students",
         "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cjp",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "students",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
-        "count": 12,
-        "sentiment": "neutral"
+        "word": "resignation",
+        "count": 11,
+        "sentiment": "negative"
       },
       {
-        "word": "outside",
+        "word": "india",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "parliament",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "owe",
+        "word": "slams",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "education",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minister",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "outrage",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "slams",
+        "word": "congress",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "dharmendra",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "resignation",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "education",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "dharna",
+        "word": "neet",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "priyanka",
+        "word": "amid",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "moved",
+        "word": "crackdown",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "centre",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "owe",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "outrage",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "protests",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "support",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "jantar",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mantar",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -274,56 +304,26 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "questions",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "seeks",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "police",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crackdown",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cong",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "lord",
-        "count": 5,
+        "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "politics",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fitness",
-        "count": 4,
-        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-22T02:07:57.981787+00:00",
-    "nextRefresh": "2026-07-22T02:07:57.981787+00:00",
-    "articlesAnalyzed": 481,
-    "matchedMentions": 100,
+    "generatedAt": "2026-07-22T05:44:38.312800+00:00",
+    "nextRefresh": "2026-07-22T05:44:38.312800+00:00",
+    "articlesAnalyzed": 477,
+    "matchedMentions": 101,
     "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
