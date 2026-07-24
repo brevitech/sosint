@@ -1,32 +1,27 @@
 {
   "us": {
-    "positive": 36,
-    "negative": 56,
-    "neutral": 8,
+    "positive": 37,
+    "negative": 57,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 74,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 16,
+        "count": 78,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 16,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "tariffs",
-        "count": 14,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 13,
+        "count": 15,
         "sentiment": "negative"
       },
       {
@@ -35,23 +30,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "trade",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "countries",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 8,
+        "word": "house",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
-        "count": 7,
-        "sentiment": "positive"
-      },
-      {
-        "word": "white",
-        "count": 7,
+        "word": "deal",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -60,22 +55,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "countries",
+        "word": "court",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "musk",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
+        "word": "zelenskyy",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -90,17 +75,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "man",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "cuts",
         "count": 5,
         "sentiment": "negative"
       },
       {
-        "word": "resolution",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minister",
+        "word": "ukraine",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -115,9 +100,34 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrat",
+        "word": "strikes",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "white",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "concerns",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "claims",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "supreme",
+        "count": 5,
+        "sentiment": "positive"
       },
       {
         "word": "doj",
@@ -130,82 +140,72 @@
         "sentiment": "neutral"
       },
       {
-        "word": "powers",
+        "word": "major",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "dodgers",
+        "word": "senate",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "warren",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vote",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "running",
+        "word": "season",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-23T23:55:42.258566+00:00",
-    "nextRefresh": "2026-07-23T23:55:42.258566+00:00",
-    "articlesAnalyzed": 336,
-    "matchedMentions": 157,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-07-24T02:14:27.979444+00:00",
+    "nextRefresh": "2026-07-24T02:14:27.979444+00:00",
+    "articlesAnalyzed": 337,
+    "matchedMentions": 166,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 28,
-    "negative": 62,
-    "neutral": 10,
+    "positive": 26,
+    "negative": 58,
+    "neutral": 16,
     "wordCloud": [
       {
-        "word": "protest",
-        "count": 16,
-        "sentiment": "negative"
-      },
-      {
         "word": "modi",
-        "count": 16,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
-        "word": "protests",
-        "count": 15,
+        "word": "protest",
+        "count": 17,
         "sentiment": "negative"
       },
       {
         "word": "cjp",
-        "count": 13,
+        "count": 16,
         "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leak",
-        "count": 12,
-        "sentiment": "negative"
       },
       {
         "word": "paper",
-        "count": 12,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "pradhan",
-        "count": 11,
+        "word": "protests",
+        "count": 14,
+        "sentiment": "negative"
+      },
+      {
+        "word": "leak",
+        "count": 14,
+        "sentiment": "negative"
+      },
+      {
+        "word": "india",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wangchuk",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -219,23 +219,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 9,
+        "word": "sonam",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "leaks",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "resignation",
-        "count": 8,
-        "sentiment": "negative"
+        "word": "pradhan",
+        "count": 9,
+        "sentiment": "neutral"
       },
       {
-        "word": "wangchuk",
-        "count": 8,
+        "word": "gandhi",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -244,14 +244,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "neet",
+        "word": "fast",
         "count": 7,
         "sentiment": "neutral"
-      },
-      {
-        "word": "demand",
-        "count": 7,
-        "sentiment": "negative"
       },
       {
         "word": "student",
@@ -259,22 +254,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sonam",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
+        "word": "neet",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "hazare",
+        "word": "resignation",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "ends",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "days",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -284,9 +279,24 @@
         "sentiment": "neutral"
       },
       {
+        "word": "parliament",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "opposition",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "mps",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "demand",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "dipke",
@@ -307,24 +317,14 @@
         "word": "meeting",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "china",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "days",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-23T23:55:54.262824+00:00",
-    "nextRefresh": "2026-07-23T23:55:54.262824+00:00",
-    "articlesAnalyzed": 465,
-    "matchedMentions": 92,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-07-24T02:14:41.989016+00:00",
+    "nextRefresh": "2026-07-24T02:14:41.989016+00:00",
+    "articlesAnalyzed": 480,
+    "matchedMentions": 96,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
