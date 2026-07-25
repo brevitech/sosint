@@ -1,17 +1,12 @@
 {
   "us": {
-    "positive": 44,
+    "positive": 45,
     "negative": 46,
-    "neutral": 10,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 71,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 14,
+        "count": 68,
         "sentiment": "neutral"
       },
       {
@@ -26,6 +21,11 @@
       },
       {
         "word": "nuclear",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -50,12 +50,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "graham",
+        "word": "troy",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "collins",
+        "word": "jackson",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -72,16 +72,6 @@
       {
         "word": "states",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "netanyahu",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -120,14 +110,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "collins",
         "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "conflict",
-        "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "calls",
@@ -140,11 +125,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "susan",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "tech",
         "count": 4,
         "sentiment": "neutral"
@@ -153,89 +133,109 @@
         "word": "smithsonian",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "history",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ers",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "won",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "fourth",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-25T14:58:17.336088+00:00",
-    "nextRefresh": "2026-07-25T14:58:17.336088+00:00",
+    "generatedAt": "2026-07-25T16:06:01.891162+00:00",
+    "nextRefresh": "2026-07-25T16:06:01.891162+00:00",
     "articlesAnalyzed": 335,
-    "matchedMentions": 153,
+    "matchedMentions": 150,
     "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 29,
-    "negative": 57,
-    "neutral": 14,
+    "positive": 28,
+    "negative": 56,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "pradhan",
-        "count": 131,
+        "count": 138,
         "sentiment": "neutral"
       },
       {
         "word": "resignation",
-        "count": 51,
-        "sentiment": "negative"
-      },
-      {
-        "word": "cjp",
-        "count": 40,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "resigns",
-        "count": 36,
+        "count": 54,
         "sentiment": "negative"
       },
       {
         "word": "education",
-        "count": 30,
+        "count": 36,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "cjp",
+        "count": 36,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "resigns",
+        "count": 34,
+        "sentiment": "negative"
+      },
+      {
+        "word": "protest",
+        "count": 28,
+        "sentiment": "negative"
+      },
+      {
+        "word": "dharmendra",
         "count": 28,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 26,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dharmendra",
-        "count": 26,
-        "sentiment": "neutral"
-      },
-      {
         "word": "minister",
-        "count": 24,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
+        "word": "rahul",
+        "count": 27,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
         "count": 24,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 20,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
-        "word": "students",
-        "count": 17,
+        "word": "joshi",
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "exit",
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "govt",
         "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "joshi",
-        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -249,17 +249,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "exit",
-        "count": 13,
+        "word": "students",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pralhad",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "victory",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "amid",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "demands",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -269,17 +274,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "centre",
+        "word": "quits",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "dipke",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "victory",
+        "word": "demands",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -289,7 +289,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "abhijeet",
+        "word": "ministry",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "priyanka",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "oppn",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dipke",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -302,28 +317,13 @@
         "word": "ends",
         "count": 8,
         "sentiment": "neutral"
-      },
-      {
-        "word": "jantar",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mantar",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "quits",
-        "count": 8,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-25T14:58:29.343439+00:00",
-    "nextRefresh": "2026-07-25T14:58:29.343439+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 195,
+    "generatedAt": "2026-07-25T16:06:17.634314+00:00",
+    "nextRefresh": "2026-07-25T16:06:17.634314+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 194,
     "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
