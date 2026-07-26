@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 37,
-    "negative": 52,
-    "neutral": 11,
+    "positive": 36,
+    "negative": 54,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 56,
+        "count": 50,
         "sentiment": "neutral"
       },
       {
@@ -20,28 +20,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nuclear",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "war",
-        "count": 8,
+        "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "power",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dinner",
+        "word": "nuclear",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "voting",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -50,12 +35,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "biden",
-        "count": 5,
+        "word": "appeals",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "takes",
+        "word": "court",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dinner",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -70,12 +60,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "appeals",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
+        "word": "power",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -85,19 +70,44 @@
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
+        "word": "voting",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "longstanding",
+        "word": "maine",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mamdani",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "government",
+        "word": "calls",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "order",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "party",
+        "count": 4,
+        "sentiment": "positive"
       },
       {
         "word": "ice",
@@ -110,7 +120,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "burnham",
+        "word": "senate",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -120,122 +130,92 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jackson",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "maine",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "collins",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "warner",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "cyclospora",
-        "count": 4,
-        "sentiment": "neutral"
+        "word": "accuses",
+        "count": 3,
+        "sentiment": "negative"
       },
       {
-        "word": "weekend",
+        "word": "government",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "boosts",
+        "word": "biden",
         "count": 3,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ghostwriter",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-26T16:08:43.839767+00:00",
-    "nextRefresh": "2026-07-26T16:08:43.839767+00:00",
+    "generatedAt": "2026-07-26T17:58:05.600136+00:00",
+    "nextRefresh": "2026-07-26T17:58:05.600136+00:00",
     "articlesAnalyzed": 319,
-    "matchedMentions": 133,
-    "uniquePersonalities": 48,
+    "matchedMentions": 125,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 34,
-    "negative": 40,
-    "neutral": 26,
+    "negative": 39,
+    "neutral": 27,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 51,
+        "count": 43,
         "sentiment": "neutral"
       },
       {
         "word": "exam",
-        "count": 31,
+        "count": 33,
         "sentiment": "neutral"
       },
       {
         "word": "reforms",
-        "count": 28,
+        "count": 29,
         "sentiment": "neutral"
       },
       {
         "word": "pradhan",
-        "count": 28,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "announces",
-        "count": 23,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "task",
-        "count": 23,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "force",
-        "count": 23,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
+        "word": "announces",
         "count": 19,
         "sentiment": "neutral"
       },
       {
-        "word": "resignation",
-        "count": 14,
-        "sentiment": "negative"
-      },
-      {
-        "word": "bjp",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mann",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 13,
+        "word": "minister",
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "education",
-        "count": 12,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "students",
-        "count": 12,
+        "word": "gold",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -249,8 +229,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gold",
+        "word": "mann",
         "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chanu",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -259,49 +254,59 @@
         "sentiment": "neutral"
       },
       {
-        "word": "neet",
+        "word": "kargil",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chanu",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protest",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "games",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "baat",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "punjab",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "cwg",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "resignation",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "won",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "polls",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "kargil",
+        "word": "pralhad",
         "count": 7,
         "sentiment": "neutral"
+      },
+      {
+        "word": "joshi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "diwas",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wins",
+        "count": 7,
+        "sentiment": "positive"
       },
       {
         "word": "nilekani-led",
@@ -312,19 +317,14 @@
         "word": "infosys",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "student",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-26T16:08:56.792826+00:00",
-    "nextRefresh": "2026-07-26T16:08:56.792826+00:00",
+    "generatedAt": "2026-07-26T17:58:16.586256+00:00",
+    "nextRefresh": "2026-07-26T17:58:16.586256+00:00",
     "articlesAnalyzed": 480,
-    "matchedMentions": 147,
-    "uniquePersonalities": 37,
+    "matchedMentions": 150,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
