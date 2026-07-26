@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 32,
-    "negative": 59,
-    "neutral": 9,
+    "positive": 35,
+    "negative": 57,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 57,
+        "count": 59,
         "sentiment": "neutral"
       },
       {
@@ -40,6 +40,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "ahead",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "white",
         "count": 6,
         "sentiment": "neutral"
@@ -47,6 +52,16 @@
       {
         "word": "house",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -70,11 +85,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "netanyahu",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "dinner",
         "count": 5,
         "sentiment": "neutral"
@@ -90,12 +100,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "netanyahu",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "military",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "burnham",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -120,14 +135,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "accuses",
+        "word": "party",
         "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "biden",
-        "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "vows",
@@ -140,37 +150,27 @@
         "sentiment": "negative"
       },
       {
-        "word": "party",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "delay",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "cyclospora",
+        "word": "senator",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-26T20:52:32.430717+00:00",
-    "nextRefresh": "2026-07-26T20:52:32.430717+00:00",
+    "generatedAt": "2026-07-26T21:54:32.253328+00:00",
+    "nextRefresh": "2026-07-26T21:54:32.253328+00:00",
     "articlesAnalyzed": 322,
-    "matchedMentions": 136,
-    "uniquePersonalities": 43,
+    "matchedMentions": 138,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 33,
-    "negative": 44,
-    "neutral": 23,
+    "negative": 43,
+    "neutral": 24,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 44,
+        "count": 46,
         "sentiment": "neutral"
       },
       {
@@ -185,7 +185,7 @@
       },
       {
         "word": "force",
-        "count": 21,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
@@ -214,7 +214,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
+        "word": "shah",
         "count": 12,
         "sentiment": "neutral"
       },
@@ -224,12 +224,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mann",
+        "word": "minister",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "mann",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -239,29 +239,24 @@
         "sentiment": "neutral"
       },
       {
+        "word": "india",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "nandan",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "kargil",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "education",
+        "word": "rahul",
         "count": 8,
         "sentiment": "neutral"
-      },
-      {
-        "word": "kargil",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wins",
-        "count": 7,
-        "sentiment": "positive"
       },
       {
         "word": "nilekani-led",
@@ -299,6 +294,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "education",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "student",
         "count": 6,
         "sentiment": "neutral"
@@ -314,17 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "wins",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-26T20:52:43.560454+00:00",
-    "nextRefresh": "2026-07-26T20:52:43.560454+00:00",
+    "generatedAt": "2026-07-26T21:54:44.723239+00:00",
+    "nextRefresh": "2026-07-26T21:54:44.723239+00:00",
     "articlesAnalyzed": 466,
-    "matchedMentions": 139,
-    "uniquePersonalities": 35,
+    "matchedMentions": 144,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
