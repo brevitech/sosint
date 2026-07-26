@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 36,
+    "positive": 35,
     "negative": 55,
-    "neutral": 9,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
+        "count": 64,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 19,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 14,
+        "count": 11,
         "sentiment": "negative"
       },
       {
@@ -35,8 +35,23 @@
         "sentiment": "neutral"
       },
       {
+        "word": "white",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "nuclear",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -56,21 +71,6 @@
       },
       {
         "word": "vetting",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gop",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -105,7 +105,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "burnham",
+        "word": "cyclospora",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -130,6 +130,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "biden",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "party",
         "count": 4,
         "sentiment": "positive"
@@ -148,19 +153,14 @@
         "word": "attacks",
         "count": 4,
         "sentiment": "negative"
-      },
-      {
-        "word": "senator",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-26T22:55:43.390334+00:00",
-    "nextRefresh": "2026-07-26T22:55:43.390334+00:00",
-    "articlesAnalyzed": 323,
-    "matchedMentions": 140,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-07-26T23:56:37.036745+00:00",
+    "nextRefresh": "2026-07-26T23:56:37.036745+00:00",
+    "articlesAnalyzed": 325,
+    "matchedMentions": 139,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
@@ -195,7 +195,7 @@
       },
       {
         "word": "pradhan",
-        "count": 16,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -249,6 +249,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "rahul",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "kargil",
         "count": 9,
         "sentiment": "neutral"
@@ -259,8 +264,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 8,
+        "word": "gandhi",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -312,18 +317,13 @@
         "word": "wins",
         "count": 6,
         "sentiment": "positive"
-      },
-      {
-        "word": "cjp",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-26T22:55:56.715354+00:00",
-    "nextRefresh": "2026-07-26T22:55:56.715354+00:00",
+    "generatedAt": "2026-07-26T23:56:49.434651+00:00",
+    "nextRefresh": "2026-07-26T23:56:49.434651+00:00",
     "articlesAnalyzed": 466,
-    "matchedMentions": 147,
+    "matchedMentions": 148,
     "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
