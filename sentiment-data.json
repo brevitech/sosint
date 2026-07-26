@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 34,
-    "negative": 56,
-    "neutral": 10,
+    "positive": 32,
+    "negative": 59,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,12 +11,22 @@
       },
       {
         "word": "iran",
-        "count": 14,
+        "count": 18,
         "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 13,
+        "sentiment": "negative"
       },
       {
         "word": "tariffs",
         "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ice",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -25,28 +35,43 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 9,
-        "sentiment": "negative"
-      },
-      {
-        "word": "ice",
+        "word": "nuclear",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "nuclear",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "appeals",
+        "word": "white",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "house",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "border",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "czar",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vetting",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "officer",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "netanyahu",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -65,7 +90,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "military",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "appeals",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -80,17 +120,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "order",
+        "word": "accuses",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "biden",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "white",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
+        "word": "vows",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -100,101 +140,61 @@
         "sentiment": "negative"
       },
       {
-        "word": "military",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "party",
         "count": 4,
         "sentiment": "positive"
       },
       {
-        "word": "border",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "czar",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "officer",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "killing",
+        "word": "delay",
         "count": 4,
         "sentiment": "negative"
       },
       {
-        "word": "cleared",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "vetting",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "states",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "warner",
+        "word": "cyclospora",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-26T19:13:59.469332+00:00",
-    "nextRefresh": "2026-07-26T19:13:59.469332+00:00",
-    "articlesAnalyzed": 320,
-    "matchedMentions": 130,
+    "generatedAt": "2026-07-26T20:52:32.430717+00:00",
+    "nextRefresh": "2026-07-26T20:52:32.430717+00:00",
+    "articlesAnalyzed": 322,
+    "matchedMentions": 136,
     "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 31,
-    "negative": 46,
+    "positive": 33,
+    "negative": 44,
     "neutral": 23,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 40,
+        "count": 44,
         "sentiment": "neutral"
       },
       {
         "word": "exam",
-        "count": 27,
+        "count": 32,
         "sentiment": "neutral"
       },
       {
         "word": "reforms",
-        "count": 23,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pradhan",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "task",
-        "count": 16,
+        "count": 28,
         "sentiment": "neutral"
       },
       {
         "word": "force",
+        "count": 21,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "task",
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pradhan",
         "count": 16,
         "sentiment": "neutral"
       },
@@ -204,8 +204,13 @@
         "sentiment": "neutral"
       },
       {
+        "word": "nilekani",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
         "word": "gold",
-        "count": 13,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -214,7 +219,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "chanu",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -224,7 +229,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chanu",
+        "word": "shah",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cwg",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -234,33 +244,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cwg",
+        "word": "india",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nilekani",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "education",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "polls",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -299,12 +289,22 @@
         "sentiment": "negative"
       },
       {
-        "word": "won",
+        "word": "bjp",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "co-founder",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "student",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "high-powered",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-26T19:14:07.859572+00:00",
-    "nextRefresh": "2026-07-26T19:14:07.859572+00:00",
-    "articlesAnalyzed": 465,
-    "matchedMentions": 138,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-07-26T20:52:43.560454+00:00",
+    "nextRefresh": "2026-07-26T20:52:43.560454+00:00",
+    "articlesAnalyzed": 466,
+    "matchedMentions": 139,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
