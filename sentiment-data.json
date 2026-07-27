@@ -1,27 +1,27 @@
 {
   "us": {
-    "positive": 46,
-    "negative": 45,
+    "positive": 47,
+    "negative": 44,
     "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 63,
+        "count": 67,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 17,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "amid",
-        "count": 15,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
-        "word": "netanyahu",
-        "count": 13,
+        "word": "senate",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -36,6 +36,11 @@
       },
       {
         "word": "zelenskyy",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "netanyahu",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -60,9 +65,14 @@
         "sentiment": "negative"
       },
       {
-        "word": "michigan",
-        "count": 8,
+        "word": "administration",
+        "count": 9,
         "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
         "word": "hegseth",
@@ -85,28 +95,18 @@
         "sentiment": "negative"
       },
       {
-        "word": "war",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "tariffs",
+        "word": "asks",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "order",
+        "word": "say",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "power",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -115,32 +115,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cleared",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "calls",
+        "word": "michigan",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "mcconnell",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "asks",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "doj",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
+        "word": "order",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -150,22 +130,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "meeting",
+        "word": "benedict",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "federal",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mcconnell",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-27T22:01:26.317664+00:00",
-    "nextRefresh": "2026-07-27T22:01:26.317664+00:00",
-    "articlesAnalyzed": 342,
-    "matchedMentions": 154,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-07-27T23:58:05.748668+00:00",
+    "nextRefresh": "2026-07-27T23:58:05.748668+00:00",
+    "articlesAnalyzed": 334,
+    "matchedMentions": 163,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 42,
-    "negative": 44,
+    "positive": 44,
+    "negative": 42,
     "neutral": 14,
     "wordCloud": [
       {
@@ -179,17 +179,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "welcome",
         "count": 7,
         "sentiment": "positive"
       },
       {
-        "word": "india",
+        "word": "cjp",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -224,6 +219,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "shah",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "protesters",
         "count": 6,
         "sentiment": "negative"
@@ -234,13 +234,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
+        "word": "india",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "cjp",
+        "word": "modi",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pradhan",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -250,6 +255,11 @@
       },
       {
         "word": "education",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -274,11 +284,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "kejriwal",
         "count": 5,
         "sentiment": "neutral"
@@ -299,32 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pradhan",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "viral",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "website",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sibal",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-27T22:01:40.121952+00:00",
-    "nextRefresh": "2026-07-27T22:01:40.121952+00:00",
+    "generatedAt": "2026-07-27T23:58:17.346097+00:00",
+    "nextRefresh": "2026-07-27T23:58:17.346097+00:00",
     "articlesAnalyzed": 467,
-    "matchedMentions": 78,
-    "uniquePersonalities": 43,
+    "matchedMentions": 81,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
 }
