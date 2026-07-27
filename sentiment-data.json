@@ -6,27 +6,22 @@
     "wordCloud": [
       {
         "word": "trump",
-        "count": 61,
+        "count": 63,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "amid",
-        "count": 14,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "netanyahu",
         "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zelenskyy",
-        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -36,6 +31,11 @@
       },
       {
         "word": "voting",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zelenskyy",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -50,9 +50,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "funeral",
+        "word": "graham",
         "count": 9,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "backs",
@@ -60,7 +60,7 @@
         "sentiment": "negative"
       },
       {
-        "word": "order",
+        "word": "michigan",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -80,14 +80,14 @@
         "sentiment": "negative"
       },
       {
-        "word": "graham",
+        "word": "funeral",
         "count": 8,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "power",
+        "word": "war",
         "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "tariffs",
@@ -95,12 +95,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "say",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "doj",
+        "word": "order",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -110,22 +105,42 @@
         "sentiment": "neutral"
       },
       {
+        "word": "judge",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dismisses",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cleared",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "calls",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mcconnell",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "asks",
-        "count": 7,
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "doj",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "administration",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "threat",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "mcconnell",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -138,50 +153,40 @@
         "word": "meeting",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "america",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "urges",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "calls",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-27T20:18:34.330072+00:00",
-    "nextRefresh": "2026-07-27T20:18:34.330072+00:00",
-    "articlesAnalyzed": 340,
-    "matchedMentions": 147,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-07-27T22:01:26.317664+00:00",
+    "nextRefresh": "2026-07-27T22:01:26.317664+00:00",
+    "articlesAnalyzed": 342,
+    "matchedMentions": 154,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 45,
-    "neutral": 9,
+    "positive": 42,
+    "negative": 44,
+    "neutral": 14,
     "wordCloud": [
       {
         "word": "opposition",
-        "count": 9,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "minister",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "cjp",
+        "word": "modi",
         "count": 8,
         "sentiment": "neutral"
+      },
+      {
+        "word": "welcome",
+        "count": 7,
+        "sentiment": "positive"
       },
       {
         "word": "india",
@@ -189,18 +194,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
+        "word": "crore",
         "count": 7,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "legal",
         "count": 7,
-        "sentiment": "positive"
-      },
-      {
-        "word": "welcome",
-        "count": 6,
         "sentiment": "positive"
       },
       {
@@ -224,28 +224,38 @@
         "sentiment": "neutral"
       },
       {
-        "word": "seeks",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "protesters",
         "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "modi",
+        "word": "seeks",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "protest",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "cjp",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
-        "count": 6,
+        "word": "odisha",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "education",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mps",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -259,9 +269,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "resignation",
+        "word": "announces",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "kejriwal",
@@ -284,7 +299,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "pradhan",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -294,37 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tata",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "profit",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "cwg",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gen",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "website",
+        "word": "rahul",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-27T20:18:47.339411+00:00",
-    "nextRefresh": "2026-07-27T20:18:47.339411+00:00",
-    "articlesAnalyzed": 466,
-    "matchedMentions": 74,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-07-27T22:01:40.121952+00:00",
+    "nextRefresh": "2026-07-27T22:01:40.121952+00:00",
+    "articlesAnalyzed": 467,
+    "matchedMentions": 78,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
