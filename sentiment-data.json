@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 34,
-    "negative": 61,
+    "positive": 32,
+    "negative": 63,
     "neutral": 5,
     "wordCloud": [
       {
@@ -11,16 +11,26 @@
       },
       {
         "word": "iran",
-        "count": 15,
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "netanyahu",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 10,
+        "count": 11,
         "sentiment": "negative"
       },
       {
-        "word": "netanyahu",
+        "word": "accuses",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "tariffs",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -30,49 +40,79 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ice",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tariffs",
+        "word": "burnham",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "maine",
+        "word": "mamdani",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "party",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "ahead",
-        "count": 6,
+        "word": "fomenting",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "accuses",
-        "count": 6,
+        "word": "hate",
+        "count": 7,
         "sentiment": "negative"
       },
       {
+        "word": "ahead",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "power",
-        "count": 6,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "gop",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "burnham",
+        "word": "visit",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ice",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrest",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "calls",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "midterms",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "threat",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "deal",
@@ -80,42 +120,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "border",
+        "word": "party",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "jeffries",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "czar",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vetting",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cyclospora",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "appeals",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mail-in",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "voting",
+        "word": "maine",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -125,126 +140,101 @@
         "sentiment": "neutral"
       },
       {
-        "word": "zelensky",
+        "word": "deliver",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "support",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "ukraine",
+        "word": "corruption",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mamdani",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fomenting",
+        "word": "zelenskyy",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-27T06:24:00.194634+00:00",
-    "nextRefresh": "2026-07-27T06:24:00.194634+00:00",
-    "articlesAnalyzed": 330,
-    "matchedMentions": 137,
-    "uniquePersonalities": 49,
+    "generatedAt": "2026-07-27T10:37:25.975683+00:00",
+    "nextRefresh": "2026-07-27T10:37:25.975683+00:00",
+    "articlesAnalyzed": 328,
+    "matchedMentions": 152,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 38,
-    "neutral": 17,
+    "positive": 40,
+    "negative": 40,
+    "neutral": 20,
     "wordCloud": [
       {
-        "word": "exam",
-        "count": 20,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "parliament",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reforms",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 14,
+        "word": "against",
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "pradhan",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nilekani",
-        "count": 12,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "india",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minister",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "gold",
+        "word": "neet",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "chanu",
+        "word": "parliament",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "cwg",
-        "count": 9,
-        "sentiment": "neutral"
+        "word": "leak",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
-        "word": "force",
+        "word": "kejriwal",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 7,
+        "word": "gadkari",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "session",
+        "word": "exam",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "neet",
+        "word": "online",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "task",
+        "word": "zindabad",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "urges",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "education",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -254,77 +244,87 @@
         "sentiment": "negative"
       },
       {
-        "word": "wins",
+        "word": "announces",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "debate",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "anti-paper",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "singh",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "welcome",
+        "count": 5,
         "sentiment": "positive"
       },
       {
-        "word": "shah",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minister",
+        "word": "congress",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "politics",
+        "word": "law",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "nandan",
+        "word": "student",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "education",
+        "word": "games",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "jantar",
+        "word": "amid",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "mantar",
+        "word": "bill",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "indian",
-        "count": 5,
+        "word": "mps",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "taps",
-        "count": 5,
+        "word": "court",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "aadhaar",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "architect",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cjp",
-        "count": 5,
+        "word": "nilekani-led",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-27T06:24:15.437276+00:00",
-    "nextRefresh": "2026-07-27T06:24:15.437276+00:00",
+    "generatedAt": "2026-07-27T10:37:37.218727+00:00",
+    "nextRefresh": "2026-07-27T10:37:37.218727+00:00",
     "articlesAnalyzed": 479,
-    "matchedMentions": 125,
-    "uniquePersonalities": 49,
+    "matchedMentions": 126,
+    "uniquePersonalities": 58,
     "dataSource": "live-rss"
   }
 }
