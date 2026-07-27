@@ -1,86 +1,106 @@
 {
   "us": {
-    "positive": 36,
-    "negative": 56,
-    "neutral": 8,
+    "positive": 33,
+    "negative": 60,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 44,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 14,
+        "count": 51,
         "sentiment": "neutral"
       },
       {
         "word": "netanyahu",
-        "count": 12,
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
-        "word": "accuses",
         "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "mamdani",
+        "word": "tariffs",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "accuses",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "mamdani",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "threat",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "fauci",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "graham",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "fomenting",
-        "count": 8,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "hate",
-        "count": 8,
+        "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "nuclear",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ahead",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tariffs",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "gop",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 6,
+        "word": "mayor",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "arrest",
-        "count": 6,
+        "count": 5,
         "sentiment": "negative"
       },
       {
-        "word": "calls",
-        "count": 6,
+        "word": "nuclear",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zelenskyy",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -90,28 +110,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "graham",
+        "word": "say",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "decision",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "notes",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "election",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ice",
-        "count": 4,
+        "word": "senators",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -120,79 +125,49 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mayor",
+        "word": "support",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "burnham",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "threat",
+        "word": "calls",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "data",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
         "word": "military",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "speed",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "say",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "midterms",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-27T13:35:48.256448+00:00",
-    "nextRefresh": "2026-07-27T13:35:48.256448+00:00",
-    "articlesAnalyzed": 338,
-    "matchedMentions": 140,
-    "uniquePersonalities": 54,
+    "generatedAt": "2026-07-27T16:13:00.906669+00:00",
+    "nextRefresh": "2026-07-27T16:13:00.906669+00:00",
+    "articlesAnalyzed": 336,
+    "matchedMentions": 136,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 38,
-    "neutral": 17,
+    "positive": 43,
+    "negative": 44,
+    "neutral": 13,
     "wordCloud": [
-      {
-        "word": "nilekani",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minister",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 11,
-        "sentiment": "neutral"
-      },
       {
         "word": "protest",
         "count": 11,
@@ -200,131 +175,156 @@
       },
       {
         "word": "cjp",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "gadkari",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "exam",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pradhan",
+        "word": "minister",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "leak",
-        "count": 8,
+        "word": "gen",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "education",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "legal",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "centre",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "resignation",
+        "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "nandan",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kejriwal",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
+        "word": "shinde",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "opinion",
+        "word": "sibal",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "breaking",
+        "word": "govt",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "point",
-        "count": 6,
-        "sentiment": "neutral"
+        "word": "warning",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
-        "word": "letter",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fix",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "exams",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "task",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "force",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reforms",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jantar",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mantar",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jobs",
+        "word": "odisha",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "meta",
+        "word": "seeks",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kejriwal",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gadkari",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "parliament",
-        "count": 5,
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "anti-paper",
-        "count": 5,
+        "word": "birla",
+        "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "leak",
+        "count": 4,
+        "sentiment": "negative"
       },
       {
         "word": "bill",
-        "count": 5,
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "order",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jobs",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "karur",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "stampede",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "victims",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "court",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-27T13:36:02.746561+00:00",
-    "nextRefresh": "2026-07-27T13:36:02.746561+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 121,
-    "uniquePersonalities": 53,
+    "generatedAt": "2026-07-27T16:13:15.461164+00:00",
+    "nextRefresh": "2026-07-27T16:13:15.461164+00:00",
+    "articlesAnalyzed": 480,
+    "matchedMentions": 90,
+    "uniquePersonalities": 50,
     "dataSource": "live-rss"
   }
 }
