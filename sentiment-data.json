@@ -1,32 +1,52 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 47,
-    "neutral": 15,
+    "positive": 37,
+    "negative": 49,
+    "neutral": 14,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 64,
+        "count": 65,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 21,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "netanyahu",
-        "count": 15,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "washington",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zelensky",
         "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "michigan",
         "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "visit",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -40,12 +60,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "senate",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "judge",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "johnson",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -80,21 +105,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "say",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "washington",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "supreme",
         "count": 7,
         "sentiment": "positive"
@@ -110,7 +120,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "johnson",
+        "word": "graham",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -135,7 +145,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ice",
+        "word": "against",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -143,98 +153,83 @@
         "word": "fauci",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "zelensky",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mcconnell",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-28T05:41:59.555191+00:00",
-    "nextRefresh": "2026-07-28T05:41:59.555191+00:00",
+    "generatedAt": "2026-07-28T08:25:19.286142+00:00",
+    "nextRefresh": "2026-07-28T08:25:19.286142+00:00",
     "articlesAnalyzed": 336,
     "matchedMentions": 169,
-    "uniquePersonalities": 51,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 37,
-    "negative": 49,
-    "neutral": 14,
+    "positive": 42,
+    "negative": 46,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "india",
-        "count": 15,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pradhan",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "cjp",
-        "count": 9,
+        "word": "pradhan",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pawar",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meta",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "video",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "sri",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "lanka",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
+        "word": "against",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
+        "word": "students",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "protests",
+        "word": "rahul",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "bjp",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "squad",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jadeja",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "returns",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crore",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -244,87 +239,92 @@
         "sentiment": "neutral"
       },
       {
-        "word": "parliament",
+        "word": "target",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "meta",
+        "word": "opinion",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "resignation",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "protest",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "jana",
+        "word": "facebook",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "nayagan",
+        "word": "home",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ex-cricketer",
+        "word": "minister",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "warning",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "kohli",
+        "word": "shah",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "nda",
+        "word": "removed",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "debate",
+        "word": "generation",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "legal",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "aid",
+        "word": "global",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "sibal",
+        "word": "squad",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "jadeja",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "returns",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "exit",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "centre",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "parth",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ncp",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-28T05:42:15.318468+00:00",
-    "nextRefresh": "2026-07-28T05:42:15.318468+00:00",
-    "articlesAnalyzed": 479,
-    "matchedMentions": 84,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-07-28T08:25:29.608981+00:00",
+    "nextRefresh": "2026-07-28T08:25:29.608981+00:00",
+    "articlesAnalyzed": 480,
+    "matchedMentions": 78,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
