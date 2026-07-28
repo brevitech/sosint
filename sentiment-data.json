@@ -1,51 +1,61 @@
 {
   "us": {
     "positive": 35,
-    "negative": 55,
-    "neutral": 10,
+    "negative": 58,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 65,
+        "count": 69,
         "sentiment": "neutral"
       },
       {
         "word": "netanyahu",
-        "count": 22,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zelenskyy",
-        "count": 12,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
         "word": "graham",
-        "count": 12,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "funeral",
+        "count": 17,
+        "sentiment": "negative"
+      },
+      {
+        "word": "iran",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
         "count": 12,
         "sentiment": "negative"
       },
       {
         "word": "zelensky",
-        "count": 10,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 10,
+        "word": "visit",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lindsey",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "democrats",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zelenskyy",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -55,72 +65,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "lindsey",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
         "word": "johnson",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
+        "word": "house",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "michigan",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "administration",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ceremonies",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attendance",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "supreme",
-        "count": 8,
-        "sentiment": "positive"
-      },
-      {
-        "word": "voting",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ukraine",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "mail-in",
+        "word": "service",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
+        "word": "white",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -130,12 +110,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deliver",
+        "word": "updates",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "order",
+        "word": "deliver",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -145,91 +125,171 @@
         "sentiment": "neutral"
       },
       {
+        "word": "supreme",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "senate",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "voting",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "benedict",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "tariffs",
+        "word": "face",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ice",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-28T11:12:37.340225+00:00",
-    "nextRefresh": "2026-07-28T11:12:37.340225+00:00",
-    "articlesAnalyzed": 331,
-    "matchedMentions": 168,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-07-28T13:52:43.314576+00:00",
+    "nextRefresh": "2026-07-28T13:52:43.314576+00:00",
+    "articlesAnalyzed": 327,
+    "matchedMentions": 160,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 39,
-    "negative": 39,
-    "neutral": 22,
+    "positive": 44,
+    "negative": 38,
+    "neutral": 18,
     "wordCloud": [
       {
-        "word": "bjp",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
         "word": "modi",
-        "count": 10,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "pradhan",
-        "count": 9,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "india",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slams",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "parliament",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "parliament",
+        "word": "writes",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mekedatu",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "monsoon",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "centre",
+        "word": "session",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "supreme",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "minister",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "meta",
+        "word": "pralhad",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "protesters",
+        "word": "joshi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "angle",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "priyanka",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "government",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "protest",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "gadkari",
+        "word": "reply",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "home",
+        "word": "cjp",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "final",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lok",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sabha",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -239,92 +299,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "monsoon",
+        "word": "terrorists",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "pellet",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "session",
+        "word": "protesters",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "students",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "calls",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "govt",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "slams",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "government",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "panel",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gather",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dust",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mekedatu",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "video",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kohli",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sri",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lanka",
+        "word": "updates",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-28T11:12:46.439593+00:00",
-    "nextRefresh": "2026-07-28T11:12:46.439593+00:00",
-    "articlesAnalyzed": 480,
-    "matchedMentions": 88,
-    "uniquePersonalities": 49,
+    "generatedAt": "2026-07-28T13:52:58.946582+00:00",
+    "nextRefresh": "2026-07-28T13:52:58.946582+00:00",
+    "articlesAnalyzed": 479,
+    "matchedMentions": 98,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   }
 }
