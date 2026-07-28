@@ -1,52 +1,62 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 55,
-    "neutral": 6,
+    "positive": 38,
+    "negative": 58,
+    "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 82,
+        "count": 79,
         "sentiment": "neutral"
       },
       {
         "word": "graham",
-        "count": 41,
+        "count": 36,
         "sentiment": "neutral"
       },
       {
         "word": "netanyahu",
-        "count": 27,
+        "count": 26,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "zelenskyy",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "funeral",
-        "count": 17,
-        "sentiment": "negative"
-      },
-      {
-        "word": "iran",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
-        "count": 13,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "administration",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "funeral",
+        "count": 14,
+        "sentiment": "negative"
+      },
+      {
+        "word": "fauci",
         "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 12,
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lindsey",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -60,18 +70,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "lindsey",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fauci",
-        "count": 9,
+        "word": "remembered",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -80,23 +80,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "diaries",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "remembered",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "capitol",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -115,27 +100,12 @@
         "sentiment": "positive"
       },
       {
-        "word": "memorial",
+        "word": "meetings",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "sen",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "diaries",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "face",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
+        "word": "house",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -143,6 +113,11 @@
         "word": "wars",
         "count": 6,
         "sentiment": "negative"
+      },
+      {
+        "word": "biden",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "leaders",
@@ -153,14 +128,39 @@
         "word": "attend",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "capitol",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "white",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "warns",
+        "count": 5,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-28T21:59:18.871822+00:00",
-    "nextRefresh": "2026-07-28T21:59:18.871822+00:00",
+    "generatedAt": "2026-07-28T23:04:40.069671+00:00",
+    "nextRefresh": "2026-07-28T23:04:40.069671+00:00",
     "articlesAnalyzed": 336,
-    "matchedMentions": 175,
-    "uniquePersonalities": 41,
+    "matchedMentions": 177,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
@@ -174,17 +174,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "minister",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
-        "count": 9,
+        "word": "paper",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "paper",
+        "word": "india",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -200,6 +200,11 @@
       },
       {
         "word": "education",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -224,17 +229,12 @@
         "sentiment": "neutral"
       },
       {
+        "word": "rahul",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "appointment",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -289,27 +289,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nepal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mea",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gets",
+        "word": "against",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -317,14 +297,34 @@
         "word": "leak",
         "count": 4,
         "sentiment": "negative"
+      },
+      {
+        "word": "singh",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reforms",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gets",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-28T21:59:34.308650+00:00",
-    "nextRefresh": "2026-07-28T21:59:34.308650+00:00",
+    "generatedAt": "2026-07-28T23:04:53.782467+00:00",
+    "nextRefresh": "2026-07-28T23:04:53.782467+00:00",
     "articlesAnalyzed": 465,
     "matchedMentions": 74,
-    "uniquePersonalities": 40,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
