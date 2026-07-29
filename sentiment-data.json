@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 43,
-    "negative": 51,
+    "positive": 41,
+    "negative": 53,
     "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 80,
+        "count": 78,
         "sentiment": "neutral"
       },
       {
         "word": "fauci",
-        "count": 26,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 21,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
@@ -80,11 +80,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "dulles",
         "count": 7,
         "sentiment": "neutral"
@@ -100,6 +95,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "sec",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "wars",
         "count": 6,
         "sentiment": "negative"
@@ -108,6 +108,11 @@
         "word": "drag",
         "count": 6,
         "sentiment": "negative"
+      },
+      {
+        "word": "bill",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "questions",
@@ -145,42 +150,37 @@
         "sentiment": "negative"
       },
       {
-        "word": "praises",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "arwa",
+        "word": "fed",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-29T21:55:41.078758+00:00",
-    "nextRefresh": "2026-07-29T21:55:41.078758+00:00",
-    "articlesAnalyzed": 334,
-    "matchedMentions": 164,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-07-29T22:56:33.286300+00:00",
+    "nextRefresh": "2026-07-29T22:56:33.286300+00:00",
+    "articlesAnalyzed": 335,
+    "matchedMentions": 176,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 30,
-    "negative": 38,
-    "neutral": 32,
+    "negative": 33,
+    "neutral": 37,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 22,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 20,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -194,21 +194,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "students",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "police",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protesters",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
         "word": "govt",
         "count": 7,
         "sentiment": "neutral"
@@ -219,22 +204,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "meta",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "parliament",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kumar",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "action",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -249,12 +219,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "meta",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "centre",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "advice",
+        "word": "students",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kumar",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -267,6 +247,11 @@
         "word": "opposition",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "protesters",
+        "count": 4,
+        "sentiment": "negative"
       },
       {
         "word": "reviewing",
@@ -317,14 +302,29 @@
         "word": "nadu",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "returns",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "targets",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-29T21:55:53.235242+00:00",
-    "nextRefresh": "2026-07-29T21:55:53.235242+00:00",
-    "articlesAnalyzed": 466,
-    "matchedMentions": 80,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-07-29T22:56:45.957231+00:00",
+    "nextRefresh": "2026-07-29T22:56:45.957231+00:00",
+    "articlesAnalyzed": 467,
+    "matchedMentions": 76,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
