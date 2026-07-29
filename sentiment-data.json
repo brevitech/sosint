@@ -1,17 +1,17 @@
 {
   "us": {
     "positive": 38,
-    "negative": 56,
-    "neutral": 6,
+    "negative": 57,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 73,
+        "count": 76,
         "sentiment": "neutral"
       },
       {
         "word": "fauci",
-        "count": 30,
+        "count": 29,
         "sentiment": "neutral"
       },
       {
@@ -21,27 +21,27 @@
       },
       {
         "word": "iran",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "netanyahu",
-        "count": 16,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "covid",
-        "count": 16,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "hearing",
-        "count": 16,
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "netanyahu",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "graham",
-        "count": 13,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -105,17 +105,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "doj",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "robots",
+        "word": "questions",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -145,56 +135,61 @@
         "sentiment": "neutral"
       },
       {
-        "word": "testimony",
-        "count": 6,
+        "word": "bans",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "toss",
+        "word": "humanoid",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "robots",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "comey",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-29T15:50:12.307297+00:00",
-    "nextRefresh": "2026-07-29T15:50:12.307297+00:00",
-    "articlesAnalyzed": 330,
-    "matchedMentions": 163,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-07-29T17:10:06.295321+00:00",
+    "nextRefresh": "2026-07-29T17:10:06.295321+00:00",
+    "articlesAnalyzed": 332,
+    "matchedMentions": 157,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 38,
-    "negative": 35,
-    "neutral": 27,
+    "positive": 36,
+    "negative": 32,
+    "neutral": 32,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 38,
+        "count": 28,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 27,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 16,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "shah",
-        "count": 16,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "students",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "remarks",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -204,37 +199,12 @@
         "sentiment": "neutral"
       },
       {
+        "word": "remarks",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "bjp",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "parliament",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protest",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "gill",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amit",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "slams",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "demands",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -254,37 +224,62 @@
         "sentiment": "neutral"
       },
       {
+        "word": "amit",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "parliament",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "cwg",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "ranaut",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "police",
+        "word": "india",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meta",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "action",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cjp",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crackdown",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "never",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
+        "word": "kumar",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -299,32 +294,37 @@
         "sentiment": "negative"
       },
       {
-        "word": "odi",
+        "word": "cjp",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "quotes",
-        "count": 5,
+        "word": "crore",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
-        "count": 5,
+        "word": "crackdown",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "pradhan",
-        "count": 5,
+        "word": "gadkari",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "metro",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-29T15:50:25.153825+00:00",
-    "nextRefresh": "2026-07-29T15:50:25.153825+00:00",
-    "articlesAnalyzed": 465,
-    "matchedMentions": 99,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-07-29T17:10:18.547319+00:00",
+    "nextRefresh": "2026-07-29T17:10:18.547319+00:00",
+    "articlesAnalyzed": 478,
+    "matchedMentions": 103,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
