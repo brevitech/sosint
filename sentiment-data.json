@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 52,
+    "positive": 43,
+    "negative": 51,
     "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 40,
+        "count": 37,
         "sentiment": "neutral"
       },
       {
@@ -16,12 +16,22 @@
       },
       {
         "word": "iran",
-        "count": 13,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "fauci",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blanche",
         "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -30,24 +40,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "blanche",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "nomination",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "amid",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "republicans",
@@ -55,17 +55,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "poll",
-        "count": 6,
-        "sentiment": "neutral"
+        "word": "war",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "campaign",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -75,12 +70,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "america",
+        "word": "poll",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cap",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "strike",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "data",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -110,12 +115,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "targets",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "effort",
+        "word": "republican",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -123,11 +123,6 @@
         "word": "halt",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "rejects",
-        "count": 4,
-        "sentiment": "negative"
       },
       {
         "word": "treatment",
@@ -140,11 +135,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "maga",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "worse",
         "count": 4,
         "sentiment": "negative"
@@ -153,29 +143,39 @@
         "word": "arwa",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "mahdawi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "say",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-30T21:02:34.367858+00:00",
-    "nextRefresh": "2026-07-30T21:02:34.367858+00:00",
+    "generatedAt": "2026-07-30T23:00:07.573165+00:00",
+    "nextRefresh": "2026-07-30T23:00:07.573165+00:00",
     "articlesAnalyzed": 338,
-    "matchedMentions": 124,
-    "uniquePersonalities": 41,
+    "matchedMentions": 136,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 34,
-    "negative": 47,
+    "positive": 36,
+    "negative": 45,
     "neutral": 19,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 17,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "against",
-        "count": 17,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
@@ -185,16 +185,26 @@
       },
       {
         "word": "parliament",
-        "count": 13,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 12,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leak",
+        "count": 10,
+        "sentiment": "negative"
+      },
+      {
+        "word": "notice",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -214,14 +224,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "notice",
-        "count": 9,
+        "word": "bill",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "leak",
+        "word": "indian",
         "count": 8,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "court",
@@ -230,6 +240,11 @@
       },
       {
         "word": "video",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "anti-paper",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -244,16 +259,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "anti-paper",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "contempt",
         "count": 6,
         "sentiment": "negative"
@@ -264,22 +269,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "indian",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "jaishankar",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gaumutra",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "remark",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -304,7 +294,7 @@
         "sentiment": "negative"
       },
       {
-        "word": "govt",
+        "word": "remark",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -317,13 +307,23 @@
         "word": "kharge",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "paper",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "punjab",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-30T21:02:45.490689+00:00",
-    "nextRefresh": "2026-07-30T21:02:45.490689+00:00",
-    "articlesAnalyzed": 466,
-    "matchedMentions": 98,
+    "generatedAt": "2026-07-30T23:00:31.912838+00:00",
+    "nextRefresh": "2026-07-30T23:00:31.912838+00:00",
+    "articlesAnalyzed": 467,
+    "matchedMentions": 100,
     "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
