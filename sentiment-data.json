@@ -1,17 +1,22 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 50,
-    "neutral": 12,
+    "positive": 45,
+    "negative": 44,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 42,
+        "count": 37,
         "sentiment": "neutral"
       },
       {
         "word": "fauci",
-        "count": 22,
+        "count": 21,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -20,12 +25,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vote",
+        "word": "nomination",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -35,18 +35,38 @@
         "sentiment": "neutral"
       },
       {
-        "word": "graham",
+        "word": "vote",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "poll",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "nomination",
+        "word": "invokes",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "hearing",
-        "count": 6,
+        "word": "demand",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "treatment",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -55,12 +75,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cup",
-        "count": 5,
+        "word": "answers",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "hits",
+        "word": "wounded",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "troops",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strike",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "graham",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -70,34 +105,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "attorney",
-        "count": 5,
+        "word": "committee",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "general",
-        "count": 5,
+        "word": "cdc",
+        "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "say",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "schumer",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gop",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pardon",
-        "count": 5,
-        "sentiment": "positive"
       },
       {
         "word": "paul",
@@ -105,7 +120,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "airport",
+        "word": "attack",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "hearing",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -133,44 +153,24 @@
         "word": "honouring",
         "count": 4,
         "sentiment": "positive"
-      },
-      {
-        "word": "war",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "attacks",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "pause",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ahead",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-30T13:47:17.703273+00:00",
-    "nextRefresh": "2026-07-30T13:47:17.703273+00:00",
-    "articlesAnalyzed": 330,
-    "matchedMentions": 135,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-07-30T15:48:33.258441+00:00",
+    "nextRefresh": "2026-07-30T15:48:33.258441+00:00",
+    "articlesAnalyzed": 331,
+    "matchedMentions": 142,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
-    "negative": 34,
-    "neutral": 15,
+    "positive": 48,
+    "negative": 35,
+    "neutral": 17,
     "wordCloud": [
       {
-        "word": "chopra",
-        "count": 16,
+        "word": "gandhi",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -179,52 +179,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kharge",
-        "count": 12,
+        "word": "chopra",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "javelin",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "remark",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "parliament",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cwg",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "neeraj",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
+        "word": "against",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "final",
+        "word": "rahul",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "neeraj",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "star",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "action",
+        "word": "parliament",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kharge",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sabha",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "remark",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cwg",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -234,22 +244,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "throw",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rohit",
-        "count": 6,
+        "word": "indian",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "police",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "final",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahane",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "action",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -259,72 +279,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "rajan",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "passport",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "lok",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "thakur",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "full",
+        "word": "privilege",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "notice",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "indian",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "charge",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "qualify",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "threatening",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "violence",
-        "count": 4,
-        "sentiment": "negative"
       },
       {
         "word": "amit",
-        "count": 4,
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-30T13:47:30.336954+00:00",
-    "nextRefresh": "2026-07-30T13:47:30.336954+00:00",
-    "articlesAnalyzed": 466,
-    "matchedMentions": 99,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-07-30T15:48:48.919986+00:00",
+    "nextRefresh": "2026-07-30T15:48:48.919986+00:00",
+    "articlesAnalyzed": 480,
+    "matchedMentions": 113,
+    "uniquePersonalities": 52,
     "dataSource": "live-rss"
   }
 }
