@@ -1,13 +1,31 @@
 {
-  "generatedAt": "2026-07-30T11:02:56.877297+00:00",
+  "generatedAt": "2026-07-30T13:47:32.620614+00:00",
   "dataSource": "live-osint",
   "incidents": [
+    {
+      "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTU0lxSXpCeTVrS1JXemlVdmNyZ2NjaDhpWFhCY2hwa2pmdk5yblB4M2FBN3cwQU9RTWJCRTJCTDFGaHZEZC1ENUEwdGFCLUhrY1VrZU1GVHhOZw?oc=5",
+      "domain": "BBC",
+      "lat": 31.829079583581347,
+      "lon": 53.233269162015446,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "Egypt Suffers First Drone Attack, Widening the Iran War - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM0ZOOGk4MHA3dEUteWJQN1lCWXY4LUtIV3dyNTRLb05BMmxuT0dVRFFpNWM0Z2JCaFRzUndQblAwYW5UTVRIY0M0N2QtdGZNVXpTMG5Yd1NyaW5fSG82NU4xd1NRekM3aFhSTXRVc1RHT2RhdXdJc2xSTzRxUG1KMHRsajhvYnVya09XZlpsdWlDMGVoMGJJNmVkamkxX3k0bUxF?oc=5",
+      "domain": "WSJ",
+      "lat": 32.09809368803213,
+      "lon": 53.29125859538795,
+      "color": "#f97316",
+      "category": "airstrike"
+    },
     {
       "title": "U.S. strikes Iran after Trump reportedly issues menacing new threat - NBC News",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOV3JOYlFiUXFyNW54dFJ4TjN3QmoyT2xYOEdORm80bWJOQXVCUXNFa2ZOUFFseVdlRUhHSGllZUZDT29ObkM2cTNaRzVwYXlPT2l6b3J1czZwel9jZlBORUl1VVdjZXk5SV9CMG5Fd2ZVUUwzeFNLb05weWw5MnVmRVgzVF9lYWQ0bldEV0lSR1VRNWN5REpnZl9oODVVTGtqM3JadmNGVUZYTjZOalViRXMyYmRaT1k?oc=5",
       "domain": "NBC News",
-      "lat": 31.788592846215295,
-      "lon": 52.89620054754951,
+      "lat": 31.71005226333169,
+      "lon": 53.08313030083796,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -15,8 +33,17 @@
       "title": "U.S. hits dozens more targets in Iran as violence widens - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUE5LbjBwN0lKZVVxQXJRcjEydEtIeUlNUjgyRzBnU1RQUE1fN2dSZkdKb1BWVTJ4cF8zcUJoNXh4dGlBcGRhaGNCNXNqck9LWl85WmhfQ1RlNUoyZ1JSRHY1VmpqM3ZWUHN6TWpnN3Y4Sl8zci12UUk4S1RvUHZJa3Y1WjJBb01SZ3dSOWV2ZXVGSklPODE2V2poQTUwNFNLd3o1V3AwbnM3TVVoUnlrbmdUOW5UYmI0UFB3?oc=5",
       "domain": "The Washington Post",
-      "lat": 31.954736486861965,
-      "lon": 52.797889455791314,
+      "lat": 31.78812742417236,
+      "lon": 52.869629158047836,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "US launches ‘heavy wave’ of new attacks on Iran - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZUJwNER6Z1d6T0p5aVBwUnpZM2JUQWFxR2pSdVB4cVhCVGZkRDBvcVV4WDMwS0hEUDhpNTdWaEszeURRc1otQnJ3Z0toUlF3bThfN1Zvam5EYlItMU5JVU0yalYyT0RFS29Ycl9WSXZzUnpkQ004SmRfMFR3SUZRdmg0a3FBckd0LVhFMlNB0gGTAUFVX3lxTE1id1NxcERIelVSWk9aamxvSE1tQ3duZkY5VFRPVm5hQzd4bEp6MENxeXNjRlhIczlvbG1ZQ19HeHJxY2JNOE5LVHVqMGhYeGhGa3Z6QjZnNjhQcjRBcHNXeVRObXN4a2l6WUtxcUpTalNYSEdRR3k5dEJKN3lFZjEwcFFzLVFzZkx1NXJsMFByQnJWZw?oc=5",
+      "domain": "Al Jazeera",
+      "lat": 31.84550626656545,
+      "lon": 53.05002478426694,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -24,8 +51,8 @@
       "title": "Iran says it will 'punish the aggressor today' after 'heavy wave' of U.S. strikes - CNBC",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9XNEQtTmI4b05ld1AyOTdUWUFTQ2ZRN2N0a1NOa25VeUN3VzhKMGpCMGprYktVek1rOVhXWTlkR2l0Y3hYNFNjdkkwV2NQRWN4S0NkVEIyTmZQMnZycHlJb2hlbHRpaFhZRjdka016X25CaFp0TGJVbmhB0gF_QVVfeXFMTTZOb1R6MDkyQXpaZmtHbHZQM05kUjJTZHBpMWsxNzRraWFReE0tOXptdkFyWE51eVctZUdTaDFiU0p6cWU4eTZXRi1XMXktOFdRbm9hNzFIOEwzd3RRXzNVM203SHYxMklMbXdXdkNHcnNLQmpwclVNZHVOYlBrdw?oc=5",
       "domain": "CNBC",
-      "lat": 31.903938921523622,
-      "lon": 52.97667092823032,
+      "lat": 32.04052359093817,
+      "lon": 52.97793418172835,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -33,8 +60,8 @@
       "title": "Iran resumes missile attacks as U.S. and Saudis strike Tehran-backed militias in Iraq - PBS",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX1RjTFkzeVVSc1VTY01URmRzdE05ZDEtNFpEV0htbHlybXBkWmllbjZPVHhiMHM5RVpMeXBRMkdkMEFWcFJ3WEQ4ck1xZnQ4RkY2S2pjLXgtMEpxbThuOHJSZzUzLWxzNFF3WGxseFdIYUIzbWdtVV92SU94UTlrckg3OXZILVMzYTZOZlRDT1FDbWJvdzN2Y2FtSDVUTWg1U2VpMmlJeWxyVzdSdTMxZm54akF5aENfWDFN0gHAAUFVX3lxTFBQSzJNRUJWMEpkdmFBTDctNV9qczFXMjFiVm9EMDZqOHV2MlRhaW16QTBXQkF5Mk9LTnhkMkpQcmVpcWJlcXR0NG43aWw4NlU4YWVZcjVhcTVkdGp4eFBkZGhwZ0treWs3d2Rnd0NOYTF2WUVNTEpDdXNXckJ6RFVQWWlYZGFwWlZTaVQ0MWdoazhJUlBfWl9qSFdTbnd4Z0Q4REdYWmhQcF9na3hfaGVIU2V6QUVCVklwRGhXUTQzaQ?oc=5",
       "domain": "PBS",
-      "lat": 35.59916113200089,
-      "lon": 51.183327270884746,
+      "lat": 35.404028339762036,
+      "lon": 51.35049856821977,
       "color": "#f97316",
       "category": "airstrike"
     },
@@ -42,44 +69,62 @@
       "title": "U.S. launches fresh airstrikes in Iran - Axios",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rQ1RKODJBX0dQMWg1QzlUaEJ2SF9oMFZqMF85dFVSSm5vemNBM3NFZWZOZmd5cWNxOVVfdHdhYkNROVFBeDlkRG9ISThqQ29RMFFwWjI4UHMxZzZiYlAtd0NUbUJJR1BsMkd5S2h4YXk5dw?oc=5",
       "domain": "Axios",
-      "lat": 32.25648808323599,
-      "lon": 53.148669019197804,
+      "lat": 31.920795964186894,
+      "lon": 52.928945165838506,
       "color": "#f97316",
       "category": "airstrike"
     },
     {
-      "title": "US launches ‘heavy wave’ of new strikes on Iran - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZUJwNER6Z1d6T0p5aVBwUnpZM2JUQWFxR2pSdVB4cVhCVGZkRDBvcVV4WDMwS0hEUDhpNTdWaEszeURRc1otQnJ3Z0toUlF3bThfN1Zvam5EYlItMU5JVU0yalYyT0RFS29Ycl9WSXZzUnpkQ004SmRfMFR3SUZRdmg0a3FBckd0LVhFMlNB0gGTAUFVX3lxTE1id1NxcERIelVSWk9aamxvSE1tQ3duZkY5VFRPVm5hQzd4bEp6MENxeXNjRlhIczlvbG1ZQ19HeHJxY2JNOE5LVHVqMGhYeGhGa3Z6QjZnNjhQcjRBcHNXeVRObXN4a2l6WUtxcUpTalNYSEdRR3k5dEJKN3lFZjEwcFFzLVFzZkx1NXJsMFByQnJWZw?oc=5",
-      "domain": "Al Jazeera",
-      "lat": 32.19369305487601,
-      "lon": 53.232934622856575,
+      "title": "Trump retaliates after Iran attack as expert warns regime is growing more dangerous - foxnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMDVsSlRLT1JGNkJhSGMybjJDRDhEa0hOYmg5bzcyZWhCMTljYWhSZXI0N05MdlcxbGxJU1hNT2d5dFEzSzlPRnlKOWdrcTNvbkl0M3JqejBtTjloMWhKY0hrRUJyalpzY3J6dkdNVDlKdDZLOWhWY1JXZ1NaU2FMMWNkNndkek54NnFMZ1NZdWtmMDV2SU50MXJBcmdoNHZ1WVBIMjdTV2V1VXPSAbABQVVfeXFMTTR0V0VZYkFfVzd2QzFUcHlnRkhJTFJHT3c5aFdZbFpVdGNXalZnalpxUTZDWk9rb1QxMGRzd2tlZGFrcGtNb0lDX1VNSnJ0ektaenZLMWlmeHNvejlpLXVpeXYtN0gtaHpteTJBNGpCTUVXem5hYXpVSm1GSVd3Ny05a3ZJOEtWdWlLZ2E3TjUwZ2RwZ0NUZlJYRUF0aEc3Z0xPWW1NbkxBSHhLRTdGM3k?oc=5",
+      "domain": "foxnews.com",
+      "lat": 31.964024978933196,
+      "lon": 52.76207985941033,
       "color": "#ef4444",
       "category": "attack"
     },
     {
-      "title": "The U.S. Commander With a Two-Week Plan to Escalate Strikes in Iran - wsj.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTDVYSUFFSElLME1NRE5TZEV0SkZveHc5Y054RFhxN0t4T0FENjROVVRIVl9tdGZZczRtMnJRR0JnVklLeEQ4SmE5QWlaYzNTeTBHU3VEZ2haTm5keXMweGRpZWN0Mk4xMXFobEVwQTJwVWdJNmoydnpZXzYtX05QQWxxZzlLanlNMHFWNHdQaU0tbVZpMGhNQ0tNRHF2REFpQjNYcHd4U0R1VFd1d09rRQ?oc=5",
-      "domain": "wsj.com",
-      "lat": 31.95448160736852,
-      "lon": 53.265262102055395,
+      "title": "U.S. Retaliates Against Iran for Tuesday’s Surprise Attack - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMzE4Ukhpa3VkYlpOWVFxRHZsMXVHelByM1V1LTZIbTgwV05nTGVMZldpanR5M1BWb29HNXk2SkNzaGZqZDYydk84XzctZk5ZUlNwUVVJTmV2QW54ZC12Z2h4Y0JRdlgya0Y3S29wN1cxcUFCc19mLWdWRm9EUmJIRE01bXhvY0NXN3BVbGhReUJ1NUZKTFp6RTNkVDRIbU92WjNGNk1qRzhLN3N3aEJMYWVJNktVYVR1SlBQYVVR?oc=5",
+      "domain": "WSJ",
+      "lat": 32.20486338100453,
+      "lon": 53.08338646983666,
       "color": "#ef4444",
       "category": "attack"
-    },
-    {
-      "title": "Iran resumes missile attacks as U.S. and Saudis strike Tehran-backed militias in Iraq - NPR",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5nSDd2SUo2dDhpaXVqVEJHMzBqaWZnV3hJR1h2Qk5YY0xMOG9uZ3g2elBFSnIzV0QyTEpqN1N2dDdYVWpsbDdMQ2l3RGpTVGpGbWtrVEk1WWFtb21sdV9QejRfdWlzcWlCOFFRX1JyaU1mSFNRRHJv?oc=5",
-      "domain": "NPR",
-      "lat": 35.82681590867245,
-      "lon": 51.1429787800588,
-      "color": "#f97316",
-      "category": "airstrike"
     },
     {
       "title": "Trump threatens to hit Iran ‘hard’ following missile attack on U.S. assets - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeHp4X1hONlVjM0VkRzlxeHQ1eUQ5X0ZTY1pRVHBmUThjc2o1RjlMVlRuSkREbXZNbUl4b3R2dGk5Q0otMTlCbVo3UmpFVWN6cUEwLXZpRUxJbGxyU1pBbE5UZlZVLWpmektjZ1FRQmJYeWpRa0I5bWRWZ0ZEaFJZOUt5bm11T3BJZmhmSjVvN3I5MWJJMllTY0tKS3lsbERiOWRDTTBuY0M3c2FJWmpqanN2N0lzb0tGc3BWYU1TQS1raHc0ZWc?oc=5",
       "domain": "The Washington Post",
-      "lat": 31.937240930946665,
-      "lon": 52.96610624769563,
+      "lat": 31.834744606541957,
+      "lon": 53.250892827192104,
+      "color": "#f97316",
+      "category": "airstrike"
+    },
+    {
+      "title": "Iran vows to ‘punish the aggressor today’ after U.S. unleashes ‘heavy wave’ of strikes - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTnN0M1BBZmhESEUzUk12VFVZck5SUHJ3RVRVeS02WkVfZ3pEN3lOalM1YzlTWkZXbE9LSk1HY3JmaEs1bVNOTXlpY1ZFMW1HRzd4VFMwWWk0WHJPMTR5NUIwZ1c4MTJnTVFuZjRJSHVzbndGaE04OVh6R3J2SU9RaGpiVVlYSHFLa1lCLTZVek5VRWF0QnFqUnZIczJ2RklIYnAwQjJDdzZDZXNJazZIMA?oc=5",
+      "domain": "NBC News",
+      "lat": 32.28872074475043,
+      "lon": 53.1582350463061,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "The US and Iran trade missile barrages as hopes dim for a quick resolution - AP News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnhRWEFZaDdpMkNfSDhNVmJ6NmxmQUxmZVlfZHJldjhpdVBLdnlaYzVOX3pYNE0wTkhyYmRjempCeDBMNURTejFDNlB5RThIYlhOOWlfb2xvbElYbEl4X3NhUlpYaWwwTkhxSDZSazdXMVc0ei1CYW4xakkzUENEb0tPRXJ4VktVVExvZGpTWnJ6azU5cjVEUmdPS3V0LUE?oc=5",
+      "domain": "AP News",
+      "lat": 31.938807100832253,
+      "lon": 52.89853065157241,
+      "color": "#f97316",
+      "category": "airstrike"
+    },
+    {
+      "title": "Iran resumes missile attacks as U.S. and Saudis strike Tehran-backed militias in Iraq - NPR",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5nSDd2SUo2dDhpaXVqVEJHMzBqaWZnV3hJR1h2Qk5YY0xMOG9uZ3g2elBFSnIzV0QyTEpqN1N2dDdYVWpsbDdMQ2l3RGpTVGpGbWtrVEk1WWFtb21sdV9QejRfdWlzcWlCOFFRX1JyaU1mSFNRRHJv?oc=5",
+      "domain": "NPR",
+      "lat": 35.430542548510516,
+      "lon": 51.423121799677055,
       "color": "#f97316",
       "category": "airstrike"
     },
@@ -87,44 +132,17 @@
       "title": "US launches ‘powerful’ strikes on Iran after Jordan attack - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORUduYWoyS3lENW9CNzRqN0VKV01PUVdqWktUNTRkY2NMRVk2Ri1qR05pdGRrVTJpLWc0S3l4djRrTUZNYkI3Qm5ESV91MEUwOVVSSnFMU1NjWlJwNkZtYXhnOUZFQmticUpHMmM5OEt1TlI1Y2dtYzY3RG96OWE2UzdhV2lhc0Y5MnF3VXlhMmp1clo4SS13aXdfckhIS19JZFpaRFFqSWE2ZEnSAbABQVVfeXFMTVNVQW43WF9jRFFWSnFnbWJaLXNfazc5S2pyY0Q0VVgtVklZaDQ3YXU1aDk0VXBqamdBMzBSamlGUHRRWkNiRXVMMzk1UnQ2TWV0bkxoWEp1RzlELUlJdmd6aERDTlJFbWg4MXBJSWl0amZRcng2eXN5LWlEWUQ5OWh6NWdnY2VEaWhieWI4aHNpSnp0NG56MWVDSFVXYm15a0xJRk1QUm1NSG9aZ1hxVm4?oc=5",
       "domain": "Al Jazeera",
-      "lat": 32.063215908551996,
-      "lon": 52.7852466763659,
+      "lat": 31.920695843651096,
+      "lon": 53.0509202364902,
       "color": "#ef4444",
       "category": "attack"
     },
     {
-      "title": "Iran attacks US forces in Jordan as Trump meets Netanyahu - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMjBFSGpuMjV3TGl0TUtZdlRCWERoc29wQU03XzJYbC1LWktVZks2ZGdpMGpUM1JFbmJLa05yQXU5QTE3WU80b1dTU18wUWdldFE4dGRTSlItYWlnNVB0TGpEa2ZGTWVCVGlJbWI4ZjVLVU5hVUtrX09OOEpacFczU1kzaDUwMThxcUR4eUZLenZaanJDODlFT2F1bk9rNGxyemtjddIBqgFBVV95cUxQOEkyVFAxd2oycDhpYVM1ZDdUYmVSaTVWMTFIQ3RZb0NZWXBmTWtFRWg2cmJrX01ISVVZSjloX3lvV2g0a3pXZTFQTDU3Z0wyTmNEOFJNd3ZiSWMtNTE1anJlMXU0SHJ1blctOFkyaFVvYVJ6UVJhQldxZG1ESzZFWllEYmFLbkRYbHg3UE9rWmdvcGY1c0s4ZHdlRERIdHUweldFM0NFd0VMZw?oc=5",
-      "domain": "Al Jazeera",
-      "lat": 32.25762429473554,
-      "lon": 53.00775737731932,
-      "color": "#ef4444",
-      "category": "attack"
-    },
-    {
-      "title": "US launches fresh strikes on Iran after days-long pause, amid fears the war is widening - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSnVOeXVGanRXY1VyT01TUlVGZTNxSjlDR05vcTlHcjdRNFU5OFJIRnZSd3RsV3VtNVpCY1lua05jV0F4cnltUlZhek5iYVZTeXFOLUpqaHpjSWdhbGVRZENRR0dHT1RrSTZ6M0l5d0c0RHMwOXFnYjNFcmJ0SFdSTURlU0NPdw?oc=5",
-      "domain": "The Guardian",
-      "lat": 31.819587232734126,
-      "lon": 52.776215745974106,
-      "color": "#ef4444",
-      "category": "attack"
-    },
-    {
-      "title": "Trump retaliates after Iran attack as expert warns regime is growing more dangerous - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMDVsSlRLT1JGNkJhSGMybjJDRDhEa0hOYmg5bzcyZWhCMTljYWhSZXI0N05MdlcxbGxJU1hNT2d5dFEzSzlPRnlKOWdrcTNvbkl0M3JqejBtTjloMWhKY0hrRUJyalpzY3J6dkdNVDlKdDZLOWhWY1JXZ1NaU2FMMWNkNndkek54NnFMZ1NZdWtmMDV2SU50MXJBcmdoNHZ1WVBIMjdTV2V1VXPSAbABQVVfeXFMTTR0V0VZYkFfVzd2QzFUcHlnRkhJTFJHT3c5aFdZbFpVdGNXalZnalpxUTZDWk9rb1QxMGRzd2tlZGFrcGtNb0lDX1VNSnJ0ektaenZLMWlmeHNvejlpLXVpeXYtN0gtaHpteTJBNGpCTUVXem5hYXpVSm1GSVd3Ny05a3ZJOEtWdWlLZ2E3TjUwZ2RwZ0NUZlJYRUF0aEc3Z0xPWW1NbkxBSHhLRTdGM3k?oc=5",
-      "domain": "Fox News",
-      "lat": 32.14146573389618,
-      "lon": 53.239739312935114,
-      "color": "#ef4444",
-      "category": "attack"
-    },
-    {
-      "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTU0lxSXpCeTVrS1JXemlVdmNyZ2NjaDhpWFhCY2hwa2pmdk5yblB4M2FBN3cwQU9RTWJCRTJCTDFGaHZEZC1ENUEwdGFCLUhrY1VrZU1GVHhOZw?oc=5",
-      "domain": "BBC",
-      "lat": 32.0262050975851,
-      "lon": 53.25440287759529,
+      "title": "US Air Force took off from Israel to strike Iran, Defense Minister Katz says - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0d2NnZ3NWUmhHQmV6X1p1M0JLSm92SUlDWnJSYjV0LW9sQnNsZjNfbHdlTUUtclBONFNwamlUWWJjckRmMGxwYnYtZElhZTdHR2VudDJWR2x4Y1VDd2JETk96a2RfZXhzRTV0YmRB?oc=5",
+      "domain": "The Jerusalem Post",
+      "lat": 31.72594720153123,
+      "lon": 53.22833886685974,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -132,26 +150,8 @@
       "title": "Trump and Netanyahu explored all Iran options including attack, Israeli official says - Reuters",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNGRMX1g5X0U3ckZtQjhIMHFGMHVjWmZoNlU5bDBydGRabk5LR1dGUUNSaXFHWUQyWnJqd2VJS09KSmU3ZXVtVjBqemVDdTJJNE9JVDkxTm5udWZ1bVRYYmxUdmExbHFsdENjc2N3Yi15R0tEVUxuRXJiQUk4akd2dy1ZU3g5S21wNjhTX29NODVtaUNRU2JoSi04T29pUzNFMGtKR3cyZUN1RF8zZEVTZTFxSkhXZU9ESHphSWhhR1R4ZUlMSnNsVlNQTUxwRTg?oc=5",
       "domain": "Reuters",
-      "lat": 32.111866596798016,
-      "lon": 53.10549442250424,
-      "color": "#ef4444",
-      "category": "attack"
-    },
-    {
-      "title": "Drone Attack In Egypt: Iran's Warning To Global Energy Traffic - i24NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNakNIbWo1WXFpX1hpZkdiajVTZlk2TllhZzB5S184a201ZDhaNGd5WDdyWDJodjl5ZnpVWWdrak8zbS1IWFRIYzJtbndJajhkZjFBa0w4a0RHV2JhRTMwekI3YXFTODRxRmt5Z3B5eGkyNjlMQ05peDZiRVRucmh5ZENUNTJ1UXNYaEJRX2VyOTU3MHExak4yU1N4d01lTzM0YmhuZnNfYThVclVZSW9CR1BlcVZlLUt2V0ZrbTlGcTh5YkxoWjdDSA?oc=5",
-      "domain": "i24NEWS",
-      "lat": 32.00570368412868,
-      "lon": 53.114422784007836,
-      "color": "#f97316",
-      "category": "airstrike"
-    },
-    {
-      "title": "US Air Force took off from Israel to strike Iran, Defense Minister Katz says - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0d2NnZ3NWUmhHQmV6X1p1M0JLSm92SUlDWnJSYjV0LW9sQnNsZjNfbHdlTUUtclBONFNwamlUWWJjckRmMGxwYnYtZElhZTdHR2VudDJWR2x4Y1VDd2JETk96a2RfZXhzRTV0YmRB?oc=5",
-      "domain": "The Jerusalem Post",
-      "lat": 32.06179661926759,
-      "lon": 53.16369373340509,
+      "lat": 31.723148928366598,
+      "lon": 53.190794478850776,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -159,8 +159,8 @@
       "title": "Israeli strike on displaced Palestinians’ tent in Gaza kills 3, including child - Anadolu Ajansı",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQanhna082T0ZrNmI5RC11aXJWOFd0MmhFTThiRWQ4UXpwTzhlMkNIanNrTlQxbU5QaGkxRU9xeURCLXlKZk1QM0tpSVMzZ0dzSUtLSmRPMFZvMjgtUlMwbWdlcWVKWkZmYnBwSmRMZWtueE5saF9XMmhGV1Y4UWh6eVBfdUp0di1JdFZWbHMyRkw2dGtBaUt0M3V0ZUxMdWg1Q1BJM2NEUjJsQkF2eG5SVkx2cXB3dVc0VklySkR6UQ?oc=5",
       "domain": "Anadolu Ajansı",
-      "lat": 31.716812730529817,
-      "lon": 34.49406331868527,
+      "lat": 31.726349306654374,
+      "lon": 34.3557451720995,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -168,8 +168,17 @@
       "title": "Israeli strikes kill at least a dozen people in Gaza, including police officers - PBS",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcmxxX2xjYjhQTUpRNWtzYlZ0RVRiMVZKZS1xSW1KT3dfMlQyQ1gySlB1OFAxWGJlU2c2VkxzT0h6YUhpV3N6NWRDNklIUExUYTRWeFBJdEtDNmNtSF96MWItakN3NVQ0cVVPLS02cFRkRWNncU1oWm1MRnJNeVd2U2R5OFJkR0Z4S1AtWC1vU1liY0hFWnV6bW5PbC1QS0dXZW0xb3VHdWptYXBRRkNOYkVWTEFCM25idUY3NNIBwgFBVV95cUxNRW5sVEc5NTBHYWVua1F4Y3VIODRTZkI4UXZEc1VjUnJmWmgwVEowNF9mR2EtM2hjY1d4MF90aEhJZk1YSWpNVlRMVHZYQzFpWVFzc3dQTWx3NlRYdklUaFFkbGJ6UU9TMm9tbjZpLXV0SGlMVG9kbFJWZ0ROZ0RTdzliYVMtSmN4Z1ZZZ0tCa3p5M2JPa29ublZkaFhQaEFyMmZacGNVZDZkMG0taFM5YTBYU3F2VnBDRjBTV0t6anozZw?oc=5",
       "domain": "PBS",
-      "lat": 31.668292321448245,
-      "lon": 34.52095290422606,
+      "lat": 31.708231569148502,
+      "lon": 34.263158468971426,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "The Mirage of the Riyadh Shield: Why MBS Refuses to Strike Tehran and What It Means for Israel - Algemeiner.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQOG1KdGlGMlFtZWJQQW5fYXg5QUxWQjgycXJEOUh4dlNKQXJxRWRRV3Fuemt5S3gxbWRpMVJQS2hobGFsd09xUjk0TjZZYVhiZ2JXeV9XZ0NqOVFqeUF2Y2w5emdtSUhMdHBZdlRNMUdZRmdDNFRfaVpFNUV6VzJLOHBFdzZqc1N1LUJOLTRnRUpraGtJM1NsTWlaQktOSjlkYzhMc19neG1fQ3lvakpmZlNjdFhKR1piNFh4WTdqdXBNcTdvbS1vUEN0bVo?oc=5",
+      "domain": "Algemeiner.com",
+      "lat": 35.94320309705685,
+      "lon": 51.63161212107104,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -177,35 +186,17 @@
       "title": "An attack on Israel would be ‘painful’ for Iran, Danny Danon says | Elizabeth Vargas Reports - NewsNation",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOckQtelZHUmtmUlA5M1hFNTRfbDEzcGVNMzJIaFZGMnNDLXhqNW01WVB3TURPNVA1M3ByckhaNmxDVDZuZDd6NDMya3luVzlRVFBkN1oxd2VKbkZnR1pnT05aZWRUbHdHRnVZN0VGTkx2cG0ta250eS1Zc0c0OWYzVTUyblJESHFXTHAyOVRMQWdVQVJ5aV9rZ2dDM3hFeXpTS00tSVFOQk42MGtFZjJaTl9zUk9Bd1hYaXNwX2JnRkFPaVlzeTZMMURXRm9qQQ?oc=5",
       "domain": "NewsNation",
-      "lat": 31.770879360790655,
-      "lon": 53.2835599368724,
+      "lat": 32.13441556255244,
+      "lon": 53.19512250015673,
       "color": "#ef4444",
       "category": "attack"
-    },
-    {
-      "title": "US joins forces with Saudis to strike Tehran-backed militias in Iraq - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUnhldC1JdU5femNoX1VfRUkycHJIWE00Q1hqR1dhV2tpX0JWbm9pMmJjWUdod2Jib01KRjhzNTRNUU5tQ0UxZkN3eTZhcl9pVFJtYzUxRUQwcVNjWk8tb21BS2t0c0drM1hGRU9TMUlLWGtpb2RrNmFhS3ZoYVEweHZaNjM5SE0?oc=5",
-      "domain": "The Guardian",
-      "lat": 35.69569014954816,
-      "lon": 51.58884238524812,
-      "color": "#ef4444",
-      "category": "attack"
-    },
-    {
-      "title": "Iranian sources tell NYT that Egypt drone strike was designed to showcase Tehran's capabilities - timesofisrael.com",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORHRyXy1LOW42Szlxbl9Ccllra1ZSTkcyRmIwaElCdDc3MDk1MS01djN1TmVaVU52VUFXOHRTMFo4OUdqc0JLMnZZUGlXbkZjcUdLYkNnelhEOWJ2dkJqLWZkb0RNRzVTQlZkN19YSzVlQjVBOEJDZy1hc0lYS3ZTZDBPMGZNam5yNmRqWFRCWXJLYmdTenk1Rk5BeGplU2MtSnVIeGwzZmUzOWlOMk44dFNTbF9IMTloM2JJU2dJWDAzMVNDeEtvd01uVTd3TnhNY3FuUFNCMA?oc=5",
-      "domain": "timesofisrael.com",
-      "lat": 35.94718473966936,
-      "lon": 51.18860169797615,
-      "color": "#f97316",
-      "category": "airstrike"
     },
     {
       "title": "7 Palestinians injured as Israeli jets strike residential building in Gaza refugee camp - Anadolu Ajansı",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUlJMNHp3LTg4bmY5RWs5NjFFZ2xGTHA0OVNOX0F0TzRxNGR6TEZtSTNDdE5FclVWdWxyNG52UVZvbi1ua3E4ZVpOVDk1dTZBcWwyc1FFWVU2aF9wYW5BVW9wX21uZHZkY0xGd1RLckNMWlM4OFhIeGd6Qm1jc1BLUDNJUGJBX21BY3lSdnh2Z1hDZ0tsNmtaTy03QURTSzdGcW5LODBNelFBb21QLWZRaWw5ajkwdnpKdmVySThRVXVQMHViZGN0eXZuY2Y?oc=5",
       "domain": "Anadolu Ajansı",
-      "lat": 31.56277641120399,
-      "lon": 34.39153625419007,
+      "lat": 31.4782808565319,
+      "lon": 34.260617222658624,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -213,26 +204,26 @@
       "title": "Iran hits US in Jordan, US-Saudi strikes on Iraq: Is war spreading? - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSVV1b2V2VWVhQk1UYWVreXhnOWJnQ2cyTGc3dUtwRWlJZ3cwQVdlVTRnMmhOV0gyTFJRcHdzUWJkMkQ3TW5uTHJhRzZPaERfMDZ5Z2c3SnY4TndEMFg1LVR0QkdpbnVLUWI4ZGxaOUFxOEpSSWxkbllYOHBUYlY1YlhRcW05TE91d1ZKQmhGalZ5MUp6Ry0xX3F6RXU3dzE2TkdhV2dUNVnSAa4BQVVfeXFMT2RzYlVEN3prcnBYaHQ3cFBrSTZlZGdmdnZGSFdCcmhvWXBvQ1FYVGE3dVRTM2h4RHFvQUlFeEEwWnR1S1gzYk1xWW1QMXlWM1c0dFRlT280RDNydFVoQTJZdmRsMFQzeGJmdnVJTmxlSUlCNWt0anVMbFpPT2lOOTlXOFZVZGM3N25ndUZLUVZjZ3o2V1pPbE1WQ1M4eWlLTkluM1ZqMldVSFVETTlB?oc=5",
       "domain": "Al Jazeera",
-      "lat": 33.12034346338906,
-      "lon": 43.00801712119824,
+      "lat": 33.18083150253498,
+      "lon": 43.022206340839055,
       "color": "#ef4444",
       "category": "attack"
     },
     {
-      "title": "Red Sea shipping slows after Houthi attack on Saudi Arabia, data shows - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNWxxNDU1SHBqVXozbmd1VHRWYVpQWGVqVUVTUHVlakJjS2lKMHBCbDJCS1hucGROTV90dUhuNS1mUEdKVEtBZjR2b1FwSFZJejdVLWR3WFMxWGV6NVk5YWFOa2o3ZHdnX1R2enpyRm53YnBmRmZyS2trSjFiQ2VSbjZQZ2JhbTdRbnh0RVlleDhYTmtUUjJWN0JpTV9lNXU1X3cwazNYcHhzZkNic1hQdTdxMXZEaEM5MDhQZA?oc=5",
-      "domain": "Reuters",
-      "lat": 15.87469146886674,
-      "lon": 41.155441389085105,
-      "color": "#3b82f6",
-      "category": "naval"
+      "title": "US joins forces with Saudis to strike Tehran-backed militias in Iraq - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUnhldC1JdU5femNoX1VfRUkycHJIWE00Q1hqR1dhV2tpX0JWbm9pMmJjWUdod2Jib01KRjhzNTRNUU5tQ0UxZkN3eTZhcl9pVFJtYzUxRUQwcVNjWk8tb21BS2t0c0drM1hGRU9TMUlLWGtpb2RrNmFhS3ZoYVEweHZaNjM5SE0?oc=5",
+      "domain": "The Guardian",
+      "lat": 35.67689568472435,
+      "lon": 51.66902973079544,
+      "color": "#ef4444",
+      "category": "attack"
     },
     {
       "title": "Saudi Arabia seeks international coalition against Houthis in Red Sea - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUk5DNlFtUFNDdkhMSkVpNDNIeGFZLUI5Q3NscTk3NC1kY09KWC1lblMwNlc1N0ZhdEQ1VUhjUFJ1Qk9oVFpEWWpHUkRkS2wtazVjU0ZwSGFydk81aXQycWw1NVpBWmdMdGlOQTlhWDBQbi1lS0stajVZZDlPazJLZkF6NzVpTGlCLXV0aWt0ejNsTEdRMmZsYU5OM1huZy05ekhZR05Qek0wRm5UWGNF0gG0AUFVX3lxTFA2Y3VkOTJ4TmktdFJjSXIwNUhmWkMtS0pTTFNna0pGMTR2aU9FcEtvN3EwSTVsVl9YVkN6cFFyUVYzTDVuWFNKVGc4UUZGV1NTS09QX0hHa2NPd1NWOTN4T2xMcUxrUkRzdkNTdm1HSjdfSk9NY3p3cU1vY0xRYWxaeXllbGNEZUs1dEIxOW50cXZ4MGR6ajdGbEVrYUp4dTRXMkRGd29CS1FIQTVNV2ZOd2syUA?oc=5",
       "domain": "Al Jazeera",
-      "lat": 15.734126197466928,
-      "lon": 40.999252555794875,
+      "lat": 16.125225403273756,
+      "lon": 40.728870890128974,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -240,8 +231,8 @@
       "title": "Red Sea shipping slows after Houthi attacks on Saudi Arabia: Data - The Hill",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbUJ1SDBUemI2cWFuY1JIaGJRLXctbFJwaXotNTQwTGtEZXNjVWloZVRPLUJHWUppUlBXUkNRZzRrVDRBVEF0VXE3RnZ1VVhWLTZfVjgyakhRRXNTaU9EMkRqUTJmMDhjQW5vWFNkZll4WkdxRWg4S1h1dXZNX0ZCZUJPUkV5TEczaWtJTk1Jb1N0ejBKXzlMaEhVTjN0Y2fSAaQBQVVfeXFMTnVGZGlCekdzNlVsc3VnN19POFY4c0tnQXZja0xMVTQxa1NfWEY4NjBnN0l3N2lUMjBUWDRjNW5vUG5NSDNPWUlER0puUlhJb1NIUDBtc1pGLWxsNDBueHEzaWlYSWNBMFQxOG5DUzZBZzJhdVRNeDN6Ui1sUkVQcWVfOUJUQ2tYOTJLV1Q0M0VDY0tfNjdPQ253QkhDX2xfSl9idGQ?oc=5",
       "domain": "The Hill",
-      "lat": 16.03257662955225,
-      "lon": 41.03000329817717,
+      "lat": 15.895618080758549,
+      "lon": 40.78860595799065,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -249,8 +240,8 @@
       "title": "US military launches new strikes on Iran as clashes escalate over shipping routes - AP News",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZHFrc1BFd1MyNGJEdWFibkJiY1dGVjRNY2tOWUNTbEZTaEw5Z3liZFUxOWExS3ZhdExIZGpjRUFsSW9WWVcyZC1aRmdaRWtVSUFyVHBxeU5wOWZfYTBYbFpZZ25uYUVxUE8tRzQ0d2VOYVk2bTZlUW8yY0RZdnFmQnVqQjRkc2RoQ2Nya19n?oc=5",
       "domain": "AP News",
-      "lat": 32.23847912623235,
-      "lon": 53.08661710468385,
+      "lat": 31.888109775481155,
+      "lon": 52.850013200106325,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -258,8 +249,8 @@
       "title": "Yemen's Houthis attack Saudi tankers in the Red Sea, threatening to widen Iran war - PBS",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc3lpSXEyQTdWMEgxRzJUZGZsLVd2M2FQNkYwd1hPazR2MVFsYjlVRFVBMHlXUjUtem1EVWdHaXp1RjdwYXVoajlWUzFsUzJ0aUN6N1M3OENWcWZNUzByV3Q0VHBTWjVHMGdFdjkwY1o2d1N4R09YWkJUYUFrLTFsTzF6NjZnUUF5LXZ3X2NmNWJiTGMxbkQtX2dQaVFLOXpkY0dUaVN0bDNhV1ZEbFhEWjNVVlJDUdIBuwFBVV95cUxNZXRKaWZKMEhyWnZ4UG50OWh1blFORFlvVHQxUlJMaFp5U0hJc2FXeHRwT212V1haZE5HeDhVUTRVOHJ2RXZuYXFaWGRET3RVamtPTUtfbmdmeUVQMDduYWp0UmpoM05nNUZjX09VeHg3UUxmWGxYRTZkd0NORzdoV29yU3d6ZVlLMmlBNHpPSjdCRHRIa3NCRnpfOFRqaDQxY0ZVZ2tmcVRBTGc3RDFtUkVTVlFDcFV5ek04?oc=5",
       "domain": "PBS",
-      "lat": 16.23654733179143,
-      "lon": 41.10333886219347,
+      "lat": 15.775526619245898,
+      "lon": 41.12813001523117,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -267,8 +258,17 @@
       "title": "Houthis Claim Attack on Saudi Oil Tanker in Red Sea - Crude Oil Prices Today | OilPrice.com",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZi01Q19FS2ZLc29VZkxKbm45UWlpbEQyRzZhMHp2SUktbS1rVHpGT2w3dTFRazNheEtNb2FhSmZhUlU5a1Y4WFBodXZsOFBMRU1mUjlGaEVpTk02VkY4bTR4UU1BWHFCdWpCX3RmNDRueGlWU3h1azQzYk9ac21feEJSbFA1UjJwYzBUZnlGN2pqVWpWVl9pdTM0LWZnMkc0eWpwdFdWZW5xM1HSAbABQVVfeXFMUE5wWTByWXhDNFZxUlVkSjR6cVJkRnY4Y09ZWUhQc25nYzVkUXhONnVHcFhyN2VHVFJ6dm9sYk9MYko4cVNLendPLUVGUVo2SnZVc19fbzc4QjA1R2lnWWVjX19rQTRoVlltRzB5N2pyamt0cVM4OWcwZUJ0ZFFjZlFhYkhnUkpYaXNFcU9UZF9DeG9nUGdyc2ZCX3BVeWItTDh4SkkxMmhfLVRzQzA0bGY?oc=5",
       "domain": "Crude Oil Prices Today | OilPrice.com",
-      "lat": 16.229787819691172,
-      "lon": 40.73400906820619,
+      "lat": 15.72338493259177,
+      "lon": 40.81757248548688,
+      "color": "#3b82f6",
+      "category": "naval"
+    },
+    {
+      "title": "China in touch with Yemen's Houthis to allow ships to sail through Red Sea, sources say - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPR3VlbkFfZi10TlpkWGNLYUJ4d0NISk5JVlg4VGI2MmNma0xDUkdyX3NNalg4SDNQRkJWOWRqT0o1VkxuTS1xXzFVZi1fSTBoRnRORGxZdUZDdVN0dVNCaUo3eVBVenNpUnRWaUtpOHlCbGk3M3E1NXJaSzJ3cUszd05mWjVrQWYwX1ZuSGE2aWliVkZIeHJmdGN4T29LUUtVcEdxYnh3dHNQVTg5ZS1SdlNKaDhVeG9BT0tXdnJtYnN2UQ?oc=5",
+      "domain": "Reuters",
+      "lat": 16.263283472468665,
+      "lon": 40.943537493964996,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -276,17 +276,17 @@
       "title": "Houthis deploy missiles and drones to attack ships in southern Red Sea, naval group says - CNBC",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdUZmU0NNWkJ4dWdsLVV3LVZBMzFkTjh2cTBFZmNRRDVHczFkZHJVdWFmWFMxMUZ2N3ZlczFUbHBtSGk1QXdTTGVXTFZPVlF0cmh5RUlJbUdTM0FMYmxTUjNxQURpaGk1QlZEWWxkaER1LUhKNFNzSTFwRFljX25nYnh3UGp0MkEx0gGOAUFVX3lxTE5PNnJudUJ5aUFST0EyYy1vX3FWVnhZWE9DRXRCS0VRenhhQ1pXMWRuMFhIb0ZHSktjOHI0ZnV3azMyRVBjVkRxbktYY3k4dWhueUFncmd2MzE0YU1tVnQtVlRRNFcwSnE5alpmRnR6dkRyd3BvS3FiQmY1RFhuUzVFTk13RHczT1FtUUhmM0E?oc=5",
       "domain": "CNBC",
-      "lat": 15.70988613122977,
-      "lon": 40.87630569071656,
+      "lat": 15.9604537969917,
+      "lon": 41.277211451618875,
       "color": "#f97316",
       "category": "airstrike"
     },
     {
-      "title": "Houthis Claim Fourth Attack on Saudi Tanker as Red Sea Blockade Intensifies - gCaptain",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa1BVTEhzZkxRLW1XV2dSbmRjRjBuQl82QklfTWVSVlBhVE1YYVhJOEtscFY4UTZ6c2hHTHRXZ2FwT3ByeHpMeGkyOEtoaDIyc0NoX1hWRFRXNFZHVFFKTHlyNmVSaWd2QW4zWUJvZnEzREVzQnVwdGgwVFdwc1NyZ0NpNEF2QlFBaWRSZlk1TzJQa09odXlyakU4clV3QQ?oc=5",
+      "title": "Red Sea Shipping Slows After Houthi Attack On Saudi Arabia - gCaptain",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV2c5NDRTMmNyRDFkWEtHa09xVzN3QUI4cnM4U1JiNUdOdVhNdFE0cHdicHZmUWpBWXlpNWZmcTNoa0hkd2J6bm4tb09DdS1iZ2lwbTVZV0RSckx2bUp6emZnaTRRREdLbzJmUE9zRW45T1JyMTQ4bTV2SlcyTldwSV8yQzFkYXc?oc=5",
       "domain": "gCaptain",
-      "lat": 16.06705190804966,
-      "lon": 41.054955155655676,
+      "lat": 16.09937859693291,
+      "lon": 40.947357836777016,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -294,26 +294,17 @@
       "title": "Yemen’s Houthis claim missile attack on Saudi Arabia oil tanker - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeXdUQWdOYmRjRG9CX2NuY1ZpV2JGOXJabW01SXkzNnVGN3BRQ2o2cWNBeEcxdlJHOWhpZDdubXpZOTVid2JrbUFaSDRIaDNNTGlYN1JkckQxV1BaTXluOW5NRkRFdlU2bGFlbTBRQjBTS2lqcVl0LWN2SkR5R0k1VjdKOWlrRDZ5TWwzVVpMODl0YndhN1BqM2ZnX2Q4MjNVOGk2aS130gGrAUFVX3lxTE5YUmZiY1FvNzBYcE9TUUk5MHg5VnI2aW5rTmF6TFVCaDVtSm52MXpOUGFXQnF3UUFoQWVPSklPWGRpV21xQ3dYZlZtNHVERHp2RzZZNVVLV0hmWlgwUi0tU013YXNkYl9CVVhWTS1JQ2FSeDBiY2VyTFR6WG92UTRwVTFXSWNLVWNpOWRpTC15Q3BTLWJQTUE5NzY3bzljelJ0N1dOMGRVNTExRQ?oc=5",
       "domain": "Al Jazeera",
-      "lat": 15.27160714644091,
-      "lon": 48.15820088223548,
+      "lat": 14.836600746443311,
+      "lon": 48.00837324475267,
       "color": "#f97316",
       "category": "airstrike"
     },
     {
-      "title": "China in touch with Yemen's Houthis to allow ships to sail through Red Sea, sources say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPR3VlbkFfZi10TlpkWGNLYUJ4d0NISk5JVlg4VGI2MmNma0xDUkdyX3NNalg4SDNQRkJWOWRqT0o1VkxuTS1xXzFVZi1fSTBoRnRORGxZdUZDdVN0dVNCaUo3eVBVenNpUnRWaUtpOHlCbGk3M3E1NXJaSzJ3cUszd05mWjVrQWYwX1ZuSGE2aWliVkZIeHJmdGN4T29LUUtVcEdxYnh3dHNQVTg5ZS1SdlNKaDhVeG9BT0tXdnJtYnN2UQ?oc=5",
+      "title": "Trump vows to punish Iran for Houthi attacks in Red Sea; oil surges over $100 - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOck9rMklSSHp1Z0E2UmlqZUJHSWNxRXNSZGtZd1JTOFdSbUE2amI3RHFmaUNuSS1nU1NzaThJdVIwVzZFcXVIaXNjU3lrSVYtaDF5THNwWkpqUHVwTEFsWklsbnp4ZllTMndIYWhRM0RZa09qaTNiVXVCNmh5a2p6MnBidG1kWkJSUVJnb1RuOXdUcU5MRDVxbzJmcDE2UWZsaVZYRDdCdHlYcG1kUTdKT093ZXI4b3VkWjZNRzdDUDIwWEFWMHRia2FIY3dIdw?oc=5",
       "domain": "Reuters",
-      "lat": 16.08128794020454,
-      "lon": 40.83052484056725,
-      "color": "#3b82f6",
-      "category": "naval"
-    },
-    {
-      "title": "Trump threatens 'major military punishment' after Houthi attacks on tankers in Red Sea - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ1l5SUY2elBtblhXVHpmaUc2MWotQlJoQzZwWHZZakZ0ckxueTVUeFBiNWM3ZUxtS0w4bmtYZG9TM1hqWnRuNWFxME9IUkxDSGJ2VzNweFZKY3RrN1Y2UjBEM3V1ZWp3amdQdWZpQk9XWUxFVFFFS1BsbndBMUlaZFJpdkdMRzFWRFpGbm5hei1YdVRPSEZlQUdYMFZ0SkVCT0VrMXFOUWtNZVRjb1FOTXlMV1RNajhxUVE?oc=5",
-      "domain": "PBS",
-      "lat": 15.743292358431551,
-      "lon": 41.22735410263663,
+      "lat": 16.17723497545655,
+      "lon": 41.104931894375206,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -321,8 +312,17 @@
       "title": "Saudi military strikes Houthi targets in Yemen after Iran-backed militia attacked Red Sea shipping - CNBC",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPczRiQmJ3SUp1TUJNbnNVa2I4ME5TeWFON3BtaGVySWFXdExrUkI5RnB6VDJIWGpZdmVOcUZCcDY4ZVY4eDktT3JVQXhqNklPUjFYdUhyQXRTV1R3NG1SSVEycHpJeFJaYWNaNElqb3JsUXVEY2xTOXVzV1dkV184T21zU09Ca2NZV0ZSSm1PclNmQWxXVnJj0gGcAUFVX3lxTE9BNXJWRGsyeE1Ta1FqT3RqdklsQWo1TFZrSTExWDBGaDluY0NFdzZJZFEwSHp3VWFtNmFaV19xVmJ1YkM0REhmVDhGcmFwQkVMYzd0UVRxQVZFOGNjWHFFczNhelNheUpqT3RpVVBYbzJMRGNuR1ZsRzZ6SkVpTkRib2VlbGhBeG5hbGhmdEYtUkQ4OUc5LTJoRGJVUQ?oc=5",
       "domain": "CNBC",
-      "lat": 16.137012209161245,
-      "lon": 41.277743537616914,
+      "lat": 16.202818499980967,
+      "lon": 41.24932498773922,
+      "color": "#3b82f6",
+      "category": "naval"
+    },
+    {
+      "title": "Trump threatens 'major military punishment' after Houthi attacks on tankers in Red Sea - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ1l5SUY2elBtblhXVHpmaUc2MWotQlJoQzZwWHZZakZ0ckxueTVUeFBiNWM3ZUxtS0w4bmtYZG9TM1hqWnRuNWFxME9IUkxDSGJ2VzNweFZKY3RrN1Y2UjBEM3V1ZWp3amdQdWZpQk9XWUxFVFFFS1BsbndBMUlaZFJpdkdMRzFWRFpGbm5hei1YdVRPSEZlQUdYMFZ0SkVCT0VrMXFOUWtNZVRjb1FOTXlMV1RNajhxUVE?oc=5",
+      "domain": "PBS",
+      "lat": 16.21779172603951,
+      "lon": 40.97608572103126,
       "color": "#3b82f6",
       "category": "naval"
     },
@@ -330,53 +330,44 @@
       "title": "A new threat by Yemen's Houthis could widen the Iran war and put another trade chokepoint at risk - AP News",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVUZfTktHOEMzX3BScUNmSmY1QU1tZnczMHJJNHJBUmY1UXFNaHAzS3oyMDlBOGtVR3BxNHdwUlBIVXN5MWZRcXJ5YTM4MVlVM2J3TXd0MU5SWWJZRWlnS2FpSzFYS25NLUw3NjJYak5PS05pd2ZqSjBIRkJHczZhdHF1X0lFaWNmdy1RMjZpd2tBTjdla0VOc3JmTWo5TC0yM2JZd001dkFPRDVT?oc=5",
       "domain": "AP News",
-      "lat": 32.27970751442028,
-      "lon": 53.01666463991068,
+      "lat": 31.921847741472302,
+      "lon": 52.95838395045067,
       "color": "#ef4444",
       "category": "attack"
     },
     {
-      "title": "Houthis Claim Strikes on 2 Saudi Oil Tankers in Red Sea - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUnVaX2NCcGJoU01vZ3k5ZWltZUx0Q1hKdDduNUZ0TXlrOVkyNE5abVBGS0hEN3E3ejlHYmZJQ2lpNHdrV3UwLXRvTEpZTHN6YmJCSFNNQ0d1T3A5NlgzY3hyQkRqX1FyUDNTRUxXQU94WV9MWV9UZk9GX0VEb2w5WVNTUVdDU2JZT2RhRmd5VVdsaFpm?oc=5",
-      "domain": "The New York Times",
-      "lat": 16.297092786734645,
-      "lon": 40.76643214615844,
+      "title": "Houthis Claim Fourth Attack on Saudi Tanker as Red Sea Blockade Intensifies - gCaptain",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa1BVTEhzZkxRLW1XV2dSbmRjRjBuQl82QklfTWVSVlBhVE1YYVhJOEtscFY4UTZ6c2hHTHRXZ2FwT3ByeHpMeGkyOEtoaDIyc0NoX1hWRFRXNFZHVFFKTHlyNmVSaWd2QW4zWUJvZnEzREVzQnVwdGgwVFdwc1NyZ0NpNEF2QlFBaWRSZlk1TzJQa09odXlyakU4clV3QQ?oc=5",
+      "domain": "gCaptain",
+      "lat": 15.844236776305909,
+      "lon": 40.84938185079354,
       "color": "#3b82f6",
       "category": "naval"
+    },
+    {
+      "title": "The U.S. retaliates against a 'surprise attack' by Iran in Jordan - NPR",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OY1JhT0ZDaDFtbWNIX2VYSHBGUGRISXF0dGNRa2VQR19pYzVsODZJOXNYcWgxTnJPRl9faUdpMEtTU2RTWWZBZEdMYlN3UHJjVjgySEIyS3Z3aTNZczd4YzlUS2R1eFF6VldyMg?oc=5",
+      "domain": "NPR",
+      "lat": 31.963484911219393,
+      "lon": 52.81365776236331,
+      "color": "#ef4444",
+      "category": "attack"
     },
     {
       "title": "US launches ‘heavy’ wave of strikes in response to Iran’s attack on bases in Jordan - EL PAÍS English",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNekpPYnFBY3dSTi1wRkRsS0V4VEJFOFVzTUdubFE3bk9tU2JXZ2VsbjAwRFlDN1gxVVFlTGhYVnIyMHhvRUhlU1dKOTk1ODZ0R1hxUlktTU5xOG5pVUhRWDlwTUl3OHNkMENxNFRVblVrU3pxRGpjSy13QVVjTVhyVDlFcTk3Y0tadnRLcnJ2Y3dWZG1ISDA2VTJUQmROT210TndYS09od3FFVzFNS0hmTUJSbkhHMXJuc1BETk9QSG8wQlA5WUHSAdoBQVVfeXFMT1pvRERFNVVKX3REbjBRc0pzNk1VQ2tWNFZmLXM0OERIMnF4RDlWSUQwN011RlNGTjJGY1MtaVBibnFPbXRYbHN3YlJ4VDJBRUV2UnRqS2xISU82R2U0VHFPaXVCS0FHdVFuNm5DRl91RW9JVVBJUXBmSjVHcWpycjlYbXcxZVp4STlyWDNpZzIxM0E2a2NDcFhsRk9XTF84TUJPM0R2LXVCaVBnRVFmTXVzR1VDd0J4WWVKYTR1c25qeGUxMWd6eGRVRHFCcDR3RUlla0h4ZU5wS3c?oc=5",
       "domain": "EL PAÍS English",
-      "lat": 32.24435595804423,
-      "lon": 53.134967839462945,
+      "lat": 32.004811403576966,
+      "lon": 52.71810932543747,
       "color": "#ef4444",
       "category": "attack"
-    },
-    {
-      "title": "Iran launches missiles at U.S. base for first time since Trump paused strikes - Axios",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nWDMyNnhqaERiaVJhaTJCa1NweVpqd3U1V20wcVlNWmdTOE1lUk5PaWxENjlMNjU2dDhUcS12Nlk1cGpWYURmQWlPclc2djdGNmgxUDl2X3lKcjlvTmgwSWFBaXF4NFZaTEpjUVpoeFYtaVpNaUE?oc=5",
-      "domain": "Axios",
-      "lat": 31.760599752128005,
-      "lon": 52.854182198845834,
-      "color": "#f97316",
-      "category": "airstrike"
     },
     {
       "title": "U.S. pauses Iran strikes for second straight night as talks move in positive direction - CBS News",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX3lNZnhiOVFueGNzd0dnbGM3V0d5emVUZTZhaXRRNmVpXzhVaVNRcVlWQ29XcGZDUnkwM0hhN1BYRmhnWEZhQlhFU1ItX0x6R3k3enA3VC00LVpKQi1xMWJPeXJ3VmQ5WDRhbzIzLWZ3MUgwS25ScHZOOXRnWmxWMzFacTlvRWNC?oc=5",
       "domain": "CBS News",
-      "lat": 31.788635530422972,
-      "lon": 53.1908622303211,
-      "color": "#ef4444",
-      "category": "attack"
-    },
-    {
-      "title": "Iraq calls Saudi-US attacks a ‘flagrant violation of sovereignty’ - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWGxVQzVBdnpIRnZwZlhGWlFJYVY2NHRpeHFubTVJSGpiTkFBVUJiYjhYZmFFR29ROFIxaUY0RnNQX0ZnZlR5Q2JKeEltTVNoNWxUQUFNdDA0SFdYaVIwQ2R2NGNGdHFpYi1ueHdod1FhcVEzM252TDhMNFpLSFlYemh0UGo1eTVRVmE2TFNoamRzdnhCRVdodVpiNGc1U2dfUVVtSNIBqgFBVV95cUxPSXdKRmRQSW9BdU93NWUzQUxreGhPbmZVdzVEeGVsb1JwZmlZN2JTMmFuTjRyc1U3VWZQNFBWZGJtd0pienlFZ25fbDZRWThzelRBb0wzS2o1UFk4MGVwOWg2T3BURFVPb3pnSmNzNXpta0ZoUHVUX3Z4TTdsRk5HWjc2QUJyRV9va3FpX2xleG5RNmRVdTZpZVVBazhMcENOeE81b282aWlyZw?oc=5",
-      "domain": "Al Jazeera",
-      "lat": 33.0021158934294,
-      "lon": 42.8665287448154,
+      "lat": 32.270316806485766,
+      "lon": 52.753651074179956,
       "color": "#ef4444",
       "category": "attack"
     },
@@ -384,20 +375,38 @@
       "title": "US thwarts an Iranian missile attack and launches strikes with Saudi Arabia against militias in Iraq - AP News",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRWlwZk94dzhfNkVQUDNyVWRCekU3RmZJa09ldGwyOFZ1NzlCWEJhWXN5ZjRqdWRGX25RMWZyMHJJai1LVHZxOVNaZ2NFQ1pyTnI5Q1hONTZZR1Zid25ULUV4T3EyNGtRQTQzSVJPQ3pyS2RKM0I1VUF5cl9ZY2VDd3VwQzMxNzgybnlEXzdXV3RlRUxGX2JZMjZKcHk?oc=5",
       "domain": "AP News",
-      "lat": 32.873075079371574,
-      "lon": 43.189894195200054,
+      "lat": 32.714190933254514,
+      "lon": 42.76901231945423,
       "color": "#f97316",
       "category": "airstrike"
     },
     {
-      "title": "US resumes direct attacks on Iran as regional fighting intensifies - Euronews",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd0NTREpBcktuMlBoRkQ3SEQ3Q1pkSXVNUUNxWWdJTy1DSkhEZzYxbm5DOGtsTlFaV3pYV3dNMnFYTjNzeWRKQUhLaTdXa0tqdVNQN2tJalREUC1OSGNMSjRoU2xYUThqQzNaVUFGSmh1NGFxemZJR180UVpMdEdRUUdsTXJqcDN0WFN2MmgtTnUyR0REVTJEUTFZYVdrdm42RFZwRkFLNTRMZXh4Mms2YThVVWdNYVdyV0dPaG1YX2JCRVF2?oc=5",
-      "domain": "Euronews",
-      "lat": 32.07807401466879,
-      "lon": 52.83107939903038,
+      "title": "Iran attacks US forces in Jordan as Trump meets Netanyahu - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMjBFSGpuMjV3TGl0TUtZdlRCWERoc29wQU03XzJYbC1LWktVZks2ZGdpMGpUM1JFbmJLa05yQXU5QTE3WU80b1dTU18wUWdldFE4dGRTSlItYWlnNVB0TGpEa2ZGTWVCVGlJbWI4ZjVLVU5hVUtrX09OOEpacFczU1kzaDUwMThxcUR4eUZLenZaanJDODlFT2F1bk9rNGxyemtjddIBqgFBVV95cUxQOEkyVFAxd2oycDhpYVM1ZDdUYmVSaTVWMTFIQ3RZb0NZWXBmTWtFRWg2cmJrX01ISVVZSjloX3lvV2g0a3pXZTFQTDU3Z0wyTmNEOFJNd3ZiSWMtNTE1anJlMXU0SHJ1blctOFkyaFVvYVJ6UVJhQldxZG1ESzZFWllEYmFLbkRYbHg3UE9rWmdvcGY1c0s4ZHdlRERIdHUweldFM0NFd0VMZw?oc=5",
+      "domain": "Al Jazeera",
+      "lat": 32.093402863451765,
+      "lon": 52.827998908834,
       "color": "#ef4444",
       "category": "attack"
+    },
+    {
+      "title": "Iraq calls Saudi-US attacks a ‘flagrant violation of sovereignty’ - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWGxVQzVBdnpIRnZwZlhGWlFJYVY2NHRpeHFubTVJSGpiTkFBVUJiYjhYZmFFR29ROFIxaUY0RnNQX0ZnZlR5Q2JKeEltTVNoNWxUQUFNdDA0SFdYaVIwQ2R2NGNGdHFpYi1ueHdod1FhcVEzM252TDhMNFpLSFlYemh0UGo1eTVRVmE2TFNoamRzdnhCRVdodVpiNGc1U2dfUVVtSNIBqgFBVV95cUxPSXdKRmRQSW9BdU93NWUzQUxreGhPbmZVdzVEeGVsb1JwZmlZN2JTMmFuTjRyc1U3VWZQNFBWZGJtd0pienlFZ25fbDZRWThzelRBb0wzS2o1UFk4MGVwOWg2T3BURFVPb3pnSmNzNXpta0ZoUHVUX3Z4TTdsRk5HWjc2QUJyRV9va3FpX2xleG5RNmRVdTZpZVVBazhMcENOeE81b282aWlyZw?oc=5",
+      "domain": "Al Jazeera",
+      "lat": 33.18017643234431,
+      "lon": 42.9778156081928,
+      "color": "#ef4444",
+      "category": "attack"
+    },
+    {
+      "title": "Iran launches missiles at U.S. base for first time since Trump paused strikes - Axios",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nWDMyNnhqaERiaVJhaTJCa1NweVpqd3U1V20wcVlNWmdTOE1lUk5PaWxENjlMNjU2dDhUcS12Nlk1cGpWYURmQWlPclc2djdGNmgxUDl2X3lKcjlvTmgwSWFBaXF4NFZaTEpjUVpoeFYtaVpNaUE?oc=5",
+      "domain": "Axios",
+      "lat": 31.820197616362528,
+      "lon": 52.82757099904778,
+      "color": "#f97316",
+      "category": "airstrike"
     }
   ],
-  "count": 44
+  "count": 45
 }
