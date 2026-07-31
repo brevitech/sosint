@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 53,
-    "neutral": 5,
+    "positive": 44,
+    "negative": 50,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 42,
+        "count": 39,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 13,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -25,19 +25,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fauci",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "blanche",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "hamas",
-        "count": 6,
+        "word": "fauci",
+        "count": 8,
         "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 7,
+        "sentiment": "negative"
       },
       {
         "word": "power",
@@ -45,22 +45,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
         "word": "republicans",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "hamas",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "announces",
+        "word": "members",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -70,27 +65,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "disarm",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gaza",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "family",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cap",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
+        "word": "announces",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -100,12 +75,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "contempt",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "members",
+        "word": "least",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -125,12 +95,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rejects",
+        "word": "campaign",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "campaign",
+        "word": "targets",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -153,63 +123,118 @@
         "word": "worse",
         "count": 4,
         "sentiment": "negative"
+      },
+      {
+        "word": "arwa",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mahdawi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "say",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "concerns",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cook",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "school",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-31T04:19:22.095966+00:00",
-    "nextRefresh": "2026-07-31T04:19:22.095966+00:00",
-    "articlesAnalyzed": 338,
-    "matchedMentions": 137,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-07-31T07:47:32.182286+00:00",
+    "nextRefresh": "2026-07-31T07:47:32.182286+00:00",
+    "articlesAnalyzed": 344,
+    "matchedMentions": 132,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 33,
-    "negative": 54,
-    "neutral": 13,
+    "positive": 34,
+    "negative": 51,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 22,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leak",
-        "count": 14,
-        "sentiment": "negative"
-      },
-      {
-        "word": "against",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "parliament",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "anti-paper",
-        "count": 9,
+        "count": 29,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "parliament",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chopra",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "javelin",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leak",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "bill",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "remarks",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "final",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -219,58 +244,43 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
-        "count": 9,
+        "word": "neeraj",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "notice",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "remarks",
-        "count": 8,
+        "word": "cjp",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "protests",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "india",
-        "count": 8,
+        "word": "student",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "dipke",
-        "count": 8,
+        "word": "firs",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "court",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "video",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "case",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "opposition",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "police",
-        "count": 7,
+        "word": "anti-paper",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -279,52 +289,42 @@
         "sentiment": "negative"
       },
       {
-        "word": "protest",
+        "word": "police",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "resign",
         "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "patnaik",
+        "word": "head",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "hockey",
+        "word": "broke",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "bones",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "jersey",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "action",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chopra",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "javelin",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cjp",
-        "count": 6,
-        "sentiment": "neutral"
+        "word": "protest",
+        "count": 5,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-31T04:19:34.572390+00:00",
-    "nextRefresh": "2026-07-31T04:19:34.572390+00:00",
-    "articlesAnalyzed": 467,
-    "matchedMentions": 112,
-    "uniquePersonalities": 49,
+    "generatedAt": "2026-07-31T07:47:46.903247+00:00",
+    "nextRefresh": "2026-07-31T07:47:46.903247+00:00",
+    "articlesAnalyzed": 478,
+    "matchedMentions": 123,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   }
 }
