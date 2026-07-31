@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 43,
-    "negative": 52,
+    "positive": 42,
+    "negative": 53,
     "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 40,
+        "count": 42,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 14,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -35,9 +35,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 7,
+        "word": "hamas",
+        "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "republicans",
@@ -45,28 +55,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "hamas",
+        "word": "amid",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "campaign",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
+        "word": "announces",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "disarm",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gaza",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -80,9 +90,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "strike",
+        "word": "administration",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "nomination",
@@ -93,11 +103,6 @@
         "word": "contempt",
         "count": 4,
         "sentiment": "negative"
-      },
-      {
-        "word": "announces",
-        "count": 4,
-        "sentiment": "neutral"
       },
       {
         "word": "members",
@@ -115,12 +120,17 @@
         "sentiment": "negative"
       },
       {
+        "word": "maga",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "rejects",
         "count": 4,
         "sentiment": "negative"
       },
       {
-        "word": "amid",
+        "word": "campaign",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -130,12 +140,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "treatment",
+        "word": "house",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "poll",
+        "word": "treatment",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -143,30 +153,20 @@
         "word": "worse",
         "count": 4,
         "sentiment": "negative"
-      },
-      {
-        "word": "arwa",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mahdawi",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-31T00:10:47.213835+00:00",
-    "nextRefresh": "2026-07-31T00:10:47.213835+00:00",
+    "generatedAt": "2026-07-31T04:19:22.095966+00:00",
+    "nextRefresh": "2026-07-31T04:19:22.095966+00:00",
     "articlesAnalyzed": 338,
     "matchedMentions": 137,
-    "uniquePersonalities": 47,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 37,
-    "negative": 47,
-    "neutral": 16,
+    "positive": 33,
+    "negative": 54,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "modi",
@@ -174,32 +174,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "leak",
+        "count": 14,
+        "sentiment": "negative"
+      },
+      {
         "word": "against",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "parliament",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
         "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 13,
+        "word": "parliament",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "leak",
-        "count": 11,
-        "sentiment": "negative"
-      },
-      {
-        "word": "rahul",
+        "word": "bill",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -209,23 +199,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "remarks",
+        "word": "gandhi",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cjp",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "anti-paper",
-        "count": 8,
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cwg",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -234,12 +229,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "indian",
+        "word": "remarks",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "action",
+        "word": "protests",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "india",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dipke",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -250,6 +255,11 @@
       },
       {
         "word": "video",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -269,62 +279,52 @@
         "sentiment": "negative"
       },
       {
-        "word": "protests",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "seafarers",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jaishankar",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dipke",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "woman",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "protest",
-        "count": 5,
+        "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "attacks",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "amit",
-        "count": 5,
+        "word": "patnaik",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "remark",
-        "count": 5,
+        "word": "hockey",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "abhijeet",
-        "count": 5,
+        "word": "jersey",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "action",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chopra",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "javelin",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cjp",
+        "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-31T00:11:00.946122+00:00",
-    "nextRefresh": "2026-07-31T00:11:00.946122+00:00",
+    "generatedAt": "2026-07-31T04:19:34.572390+00:00",
+    "nextRefresh": "2026-07-31T04:19:34.572390+00:00",
     "articlesAnalyzed": 467,
-    "matchedMentions": 104,
-    "uniquePersonalities": 40,
+    "matchedMentions": 112,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   }
 }
