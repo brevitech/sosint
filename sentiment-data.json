@@ -1,21 +1,26 @@
 {
   "us": {
-    "positive": 34,
+    "positive": 35,
     "negative": 46,
-    "neutral": 20,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 45,
+        "count": 49,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "help",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "hamas",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hamas",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -30,13 +35,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "potential",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strikes",
+        "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "potential",
-        "count": 7,
+        "word": "irs",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -65,22 +75,12 @@
         "sentiment": "neutral"
       },
       {
+        "word": "musk",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "minnesota",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "irs",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "release",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -95,17 +95,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "return",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "democrats",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "personal",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -120,13 +110,33 @@
         "sentiment": "neutral"
       },
       {
-        "word": "reveals",
+        "word": "key",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zelenskyy",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "asks",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "starlink",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "russia",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -143,30 +153,20 @@
         "word": "missile",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "republican",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ceuta",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-31T20:59:22.132120+00:00",
-    "nextRefresh": "2026-07-31T20:59:22.132120+00:00",
+    "generatedAt": "2026-07-31T22:09:44.172223+00:00",
+    "nextRefresh": "2026-07-31T22:09:44.172223+00:00",
     "articlesAnalyzed": 347,
-    "matchedMentions": 130,
-    "uniquePersonalities": 44,
+    "matchedMentions": 129,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 40,
-    "neutral": 14,
+    "positive": 50,
+    "negative": 34,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "modi",
@@ -175,22 +175,27 @@
       },
       {
         "word": "cwg",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "javelin",
-        "count": 12,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "chopra",
-        "count": 10,
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "javelin",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 9,
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "final",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -209,7 +214,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "final",
+        "word": "silver",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "neeraj",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -254,12 +264,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "singh",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "throw",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "discuss",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "yashvir",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bronze",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indian",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -274,11 +304,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "medal",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
         "word": "commonwealth",
         "count": 5,
         "sentiment": "neutral"
@@ -289,41 +314,16 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
-        "count": 4,
+        "word": "double",
+        "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "remarks",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "avoid",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "poonawalla",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attacks",
-        "count": 4,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-31T20:59:33.409720+00:00",
-    "nextRefresh": "2026-07-31T20:59:33.409720+00:00",
-    "articlesAnalyzed": 416,
-    "matchedMentions": 89,
+    "generatedAt": "2026-07-31T22:09:57.126461+00:00",
+    "nextRefresh": "2026-07-31T22:09:57.126461+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 94,
     "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
