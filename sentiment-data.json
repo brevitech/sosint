@@ -1,17 +1,17 @@
 {
   "us": {
     "positive": 43,
-    "negative": 51,
-    "neutral": 6,
+    "negative": 52,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 37,
+        "count": 40,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 16,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -20,38 +20,33 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fauci",
+        "word": "democrats",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "blanche",
+        "word": "fauci",
         "count": 10,
         "sentiment": "neutral"
       },
       {
+        "word": "blanche",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "power",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nomination",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 6,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "republicans",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hamas",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -70,8 +65,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "poll",
+        "word": "judge",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "family",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -85,7 +85,7 @@
         "sentiment": "negative"
       },
       {
-        "word": "data",
+        "word": "nomination",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -93,6 +93,11 @@
         "word": "contempt",
         "count": 4,
         "sentiment": "negative"
+      },
+      {
+        "word": "announces",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
         "word": "members",
@@ -110,12 +115,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "washington",
+        "word": "rejects",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "republican",
+        "word": "amid",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -130,7 +135,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "americans",
+        "word": "poll",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -148,29 +153,24 @@
         "word": "mahdawi",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "say",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-07-30T23:00:07.573165+00:00",
-    "nextRefresh": "2026-07-30T23:00:07.573165+00:00",
+    "generatedAt": "2026-07-31T00:10:47.213835+00:00",
+    "nextRefresh": "2026-07-31T00:10:47.213835+00:00",
     "articlesAnalyzed": 338,
-    "matchedMentions": 136,
-    "uniquePersonalities": 45,
+    "matchedMentions": 137,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 36,
-    "negative": 45,
-    "neutral": 19,
+    "positive": 37,
+    "negative": 47,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 18,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
@@ -179,32 +179,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
         "word": "parliament",
         "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "shah",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "leak",
+        "count": 11,
+        "sentiment": "negative"
+      },
+      {
+        "word": "rahul",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "leak",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
-        "word": "notice",
+        "word": "bjp",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -219,17 +219,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
-        "count": 10,
+        "word": "bill",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
+        "word": "anti-paper",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "notice",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "indian",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "action",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -244,7 +254,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "anti-paper",
+        "word": "opposition",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -254,12 +264,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "action",
-        "count": 7,
-        "sentiment": "neutral"
+        "word": "contempt",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
-        "word": "contempt",
+        "word": "protests",
         "count": 6,
         "sentiment": "negative"
       },
@@ -294,6 +304,11 @@
         "sentiment": "negative"
       },
       {
+        "word": "amit",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "remark",
         "count": 5,
         "sentiment": "neutral"
@@ -302,28 +317,13 @@
         "word": "abhijeet",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "kharge",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "paper",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "punjab",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-07-30T23:00:31.912838+00:00",
-    "nextRefresh": "2026-07-30T23:00:31.912838+00:00",
+    "generatedAt": "2026-07-31T00:11:00.946122+00:00",
+    "nextRefresh": "2026-07-31T00:11:00.946122+00:00",
     "articlesAnalyzed": 467,
-    "matchedMentions": 100,
+    "matchedMentions": 104,
     "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
