@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 35,
-    "negative": 50,
-    "neutral": 15,
+    "positive": 34,
+    "negative": 52,
+    "neutral": 14,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,7 +11,7 @@
       },
       {
         "word": "iran",
-        "count": 11,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -22,6 +22,11 @@
       {
         "word": "fauci",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -45,28 +50,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "blanche",
+        "word": "crisis",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "capitol",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hamas",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "against",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -75,7 +65,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "democrats",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "debate",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blanche",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -86,11 +91,6 @@
       },
       {
         "word": "street",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rules",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -125,12 +125,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "israel",
+        "word": "near",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "israel",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -145,7 +145,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fund",
+        "word": "hamas",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -156,77 +156,102 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-01T08:12:04.867351+00:00",
-    "nextRefresh": "2026-08-01T08:12:04.867351+00:00",
+    "generatedAt": "2026-08-01T10:37:40.990309+00:00",
+    "nextRefresh": "2026-08-01T10:37:40.990309+00:00",
     "articlesAnalyzed": 340,
-    "matchedMentions": 115,
-    "uniquePersonalities": 39,
+    "matchedMentions": 124,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 58,
-    "negative": 26,
-    "neutral": 16,
+    "positive": 56,
+    "negative": 29,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 27,
+        "count": 30,
         "sentiment": "neutral"
       },
       {
         "word": "chopra",
-        "count": 22,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "neeraj",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cwg",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "games",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "silver",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "commonwealth",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "indian",
+        "word": "every",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "games",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "javelin",
+        "word": "crore",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "doval",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indian",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gold",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "message",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "airport",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cwg",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "successes",
         "count": 6,
         "sentiment": "positive"
-      },
-      {
-        "word": "every",
-        "count": 6,
-        "sentiment": "neutral"
       },
       {
         "word": "proud",
@@ -239,92 +264,67 @@
         "sentiment": "positive"
       },
       {
-        "word": "message",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "airport",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "slams",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gold",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pant",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "viral",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fir",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cjp",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "winning",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "final",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "internet",
-        "count": 5,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "inaugurates",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhogapuram",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "national",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nsa",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrest",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "praises",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "andhra",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "girl",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kejriwal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-01T08:12:16.269058+00:00",
-    "nextRefresh": "2026-08-01T08:12:16.269058+00:00",
+    "generatedAt": "2026-08-01T10:37:51.777077+00:00",
+    "nextRefresh": "2026-08-01T10:37:51.777077+00:00",
     "articlesAnalyzed": 430,
-    "matchedMentions": 97,
-    "uniquePersonalities": 39,
+    "matchedMentions": 100,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
