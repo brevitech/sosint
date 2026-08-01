@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 33,
-    "negative": 59,
+    "positive": 38,
+    "negative": 54,
     "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 55,
+        "count": 61,
         "sentiment": "neutral"
       },
       {
         "word": "reflecting",
-        "count": 14,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "pool",
-        "count": 14,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -30,18 +30,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gaza",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hamas",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "senate",
-        "count": 7,
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -55,7 +50,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "ahead",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minnesota",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -65,12 +65,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
+        "word": "hamas",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "case",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abuse",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "claims",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "miller",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -85,22 +100,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pirro",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ceuta",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
+        "word": "gaza",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "israel",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "plan",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -125,12 +135,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fire",
+        "word": "pirro",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "spain",
+        "word": "ceuta",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -140,37 +150,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "minnesota",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "water",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "threat",
-        "count": 4,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-01T20:07:30.236511+00:00",
-    "nextRefresh": "2026-08-01T20:07:30.236511+00:00",
+    "generatedAt": "2026-08-01T21:49:52.107434+00:00",
+    "nextRefresh": "2026-08-01T21:49:52.107434+00:00",
     "articlesAnalyzed": 339,
-    "matchedMentions": 140,
-    "uniquePersonalities": 46,
+    "matchedMentions": 143,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 45,
-    "neutral": 10,
+    "positive": 49,
+    "negative": 44,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 18,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -184,17 +184,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "video",
+        "word": "poonawalla",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "poonawalla",
+        "word": "shah",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -209,23 +204,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "doval",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "doval",
+        "word": "dipke",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "cjp",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dipke",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -244,7 +234,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cwg",
+        "word": "video",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -265,6 +255,16 @@
       },
       {
         "word": "bjp",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cwg",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-01T20:07:47.527180+00:00",
-    "nextRefresh": "2026-08-01T20:07:47.527180+00:00",
+    "generatedAt": "2026-08-01T21:50:02.615549+00:00",
+    "nextRefresh": "2026-08-01T21:50:02.615549+00:00",
     "articlesAnalyzed": 415,
-    "matchedMentions": 77,
-    "uniquePersonalities": 31,
+    "matchedMentions": 72,
+    "uniquePersonalities": 32,
     "dataSource": "live-rss"
   }
 }
