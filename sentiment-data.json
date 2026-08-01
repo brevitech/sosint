@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 54,
+    "positive": 40,
+    "negative": 52,
     "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 61,
+        "count": 63,
         "sentiment": "neutral"
       },
       {
@@ -21,17 +21,22 @@
       },
       {
         "word": "iran",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fund",
-        "count": 10,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 9,
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fund",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -40,7 +45,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "blanche",
+        "word": "case",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hamas",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -50,27 +60,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "minnesota",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "musk",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hamas",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -97,6 +92,26 @@
       {
         "word": "gop",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "guthrie",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "water",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blanche",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -135,31 +150,16 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pirro",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ceuta",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "guthrie",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "water",
+        "word": "defends",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-01T21:49:52.107434+00:00",
-    "nextRefresh": "2026-08-01T21:49:52.107434+00:00",
+    "generatedAt": "2026-08-01T22:49:36.907535+00:00",
+    "nextRefresh": "2026-08-01T22:49:36.907535+00:00",
     "articlesAnalyzed": 339,
-    "matchedMentions": 143,
+    "matchedMentions": 146,
     "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
@@ -209,13 +209,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dipke",
+        "word": "cjp",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "cjp",
-        "count": 6,
+        "word": "dipke",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-01T21:50:02.615549+00:00",
-    "nextRefresh": "2026-08-01T21:50:02.615549+00:00",
+    "generatedAt": "2026-08-01T22:49:48.003044+00:00",
+    "nextRefresh": "2026-08-01T22:49:48.003044+00:00",
     "articlesAnalyzed": 415,
-    "matchedMentions": 72,
-    "uniquePersonalities": 32,
+    "matchedMentions": 71,
+    "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
 }
