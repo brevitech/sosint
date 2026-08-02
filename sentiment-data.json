@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 33,
-    "negative": 54,
+    "positive": 32,
+    "negative": 55,
     "neutral": 13,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 71,
+        "count": 66,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 25,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 13,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -35,14 +35,19 @@
         "sentiment": "neutral"
       },
       {
+        "word": "strikes",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
         "word": "senate",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "strikes",
+        "word": "plan",
         "count": 7,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "case",
@@ -75,16 +80,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "access",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ahead",
         "count": 6,
         "sentiment": "neutral"
@@ -110,14 +105,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "cancels",
         "count": 5,
         "sentiment": "negative"
       },
       {
-        "word": "cancels",
+        "word": "washington",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "help",
@@ -135,6 +130,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "access",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "senators",
         "count": 5,
         "sentiment": "neutral"
@@ -145,46 +145,56 @@
         "sentiment": "neutral"
       },
       {
-        "word": "strike",
+        "word": "attack",
         "count": 4,
         "sentiment": "negative"
       },
       {
-        "word": "reached",
+        "word": "strike",
         "count": 4,
-        "sentiment": "positive"
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-02T10:36:07.799740+00:00",
-    "nextRefresh": "2026-08-02T10:36:07.799740+00:00",
-    "articlesAnalyzed": 339,
-    "matchedMentions": 153,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-08-02T11:58:22.948729+00:00",
+    "nextRefresh": "2026-08-02T11:58:22.948729+00:00",
+    "articlesAnalyzed": 341,
+    "matchedMentions": 152,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 37,
-    "negative": 51,
-    "neutral": 12,
+    "positive": 34,
+    "negative": 59,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 17,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 9,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "against",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "campaign",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "launches",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mother",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -194,18 +204,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mother",
+        "word": "bumrah",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "campaign",
+        "word": "lanka",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "youth",
-        "count": 5,
+        "word": "dies",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "girl",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -224,37 +239,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "viksit",
+        "word": "youth",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bharat",
+        "word": "ruled",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "sri",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "nasha",
+        "word": "crore",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "yuva",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dipke",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "finance",
+        "word": "fir",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -264,7 +269,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "test",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -284,9 +289,9 @@
         "sentiment": "positive"
       },
       {
-        "word": "girl",
+        "word": "abused",
         "count": 3,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "chaiwalaz",
@@ -299,32 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dies",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "suicide",
         "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "kishor",
+        "word": "viksit",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "action",
+        "word": "bharat",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-02T10:36:19.851402+00:00",
-    "nextRefresh": "2026-08-02T10:36:19.851402+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 73,
-    "uniquePersonalities": 34,
+    "generatedAt": "2026-08-02T11:58:34.429947+00:00",
+    "nextRefresh": "2026-08-02T11:58:34.429947+00:00",
+    "articlesAnalyzed": 415,
+    "matchedMentions": 71,
+    "uniquePersonalities": 30,
     "dataSource": "live-rss"
   }
 }
