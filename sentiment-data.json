@@ -1,17 +1,22 @@
 {
   "us": {
-    "positive": 33,
+    "positive": 32,
     "negative": 54,
-    "neutral": 13,
+    "neutral": 14,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 72,
+        "count": 74,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
         "count": 26,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -25,24 +30,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "strikes",
-        "count": 9,
-        "sentiment": "negative"
-      },
-      {
-        "word": "war",
-        "count": 9,
+        "count": 10,
         "sentiment": "negative"
       },
       {
         "word": "democrats",
         "count": 9,
         "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
         "word": "saudi",
@@ -125,17 +125,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "help",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
         "word": "fund",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -153,68 +143,83 @@
         "word": "biden",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "vandalism",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "water",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-02T05:51:47.087114+00:00",
-    "nextRefresh": "2026-08-02T05:51:47.087114+00:00",
-    "articlesAnalyzed": 341,
-    "matchedMentions": 156,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-08-02T08:13:11.814549+00:00",
+    "nextRefresh": "2026-08-02T08:13:11.814549+00:00",
+    "articlesAnalyzed": 337,
+    "matchedMentions": 151,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
+    "positive": 43,
     "negative": 44,
-    "neutral": 5,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dipke",
-        "count": 6,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "questions",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "message",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "forgiveness",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "students",
-        "count": 5,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "against",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "launches",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "youth",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nasha",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "yuva",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dipke",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -229,22 +234,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gold",
+        "word": "questions",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "cwg",
+        "word": "message",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "prasad",
+        "word": "forgiveness",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "video",
+        "word": "students",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -259,22 +264,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pawan",
+        "word": "viksit",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "kalyan",
+        "word": "bharat",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "abuses",
+        "word": "mukt",
         "count": 3,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "residence",
+        "word": "abhiyan",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fir",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "urges",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tilak",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -289,42 +314,17 @@
         "sentiment": "positive"
       },
       {
-        "word": "shah",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "boxers",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shehzad",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "poonawalla",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sarcastic",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "swipe",
+        "word": "prasad",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-02T05:51:59.058576+00:00",
-    "nextRefresh": "2026-08-02T05:51:59.058576+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 61,
-    "uniquePersonalities": 29,
+    "generatedAt": "2026-08-02T08:13:21.274846+00:00",
+    "nextRefresh": "2026-08-02T08:13:21.274846+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 63,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
