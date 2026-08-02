@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 31,
+    "positive": 30,
     "negative": 59,
-    "neutral": 10,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 71,
+        "count": 70,
         "sentiment": "neutral"
       },
       {
@@ -15,14 +15,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
-        "count": 12,
-        "sentiment": "neutral"
+        "word": "strikes",
+        "count": 10,
+        "sentiment": "negative"
       },
       {
-        "word": "strikes",
-        "count": 9,
-        "sentiment": "negative"
+        "word": "deal",
+        "count": 10,
+        "sentiment": "neutral"
       },
       {
         "word": "reflecting",
@@ -40,6 +40,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "war",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
         "word": "democrats",
         "count": 8,
         "sentiment": "neutral"
@@ -50,9 +55,19 @@
         "sentiment": "neutral"
       },
       {
+        "word": "claims",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "abuse",
         "count": 7,
         "sentiment": "negative"
+      },
+      {
+        "word": "fund",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "senate",
@@ -60,17 +75,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
         "word": "case",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "doj",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -95,13 +100,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "gop",
-        "count": 6,
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -125,11 +125,6 @@
         "sentiment": "positive"
       },
       {
-        "word": "fund",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "attack",
         "count": 5,
         "sentiment": "negative"
@@ -150,23 +145,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senators",
+        "word": "cnn",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "doj",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-02T14:57:57.597224+00:00",
-    "nextRefresh": "2026-08-02T14:57:57.597224+00:00",
-    "articlesAnalyzed": 340,
+    "generatedAt": "2026-08-02T16:02:01.183372+00:00",
+    "nextRefresh": "2026-08-02T16:02:01.183372+00:00",
+    "articlesAnalyzed": 341,
     "matchedMentions": 152,
-    "uniquePersonalities": 42,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 43,
-    "negative": 49,
-    "neutral": 8,
+    "positive": 39,
+    "negative": 55,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "modi",
@@ -179,22 +179,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "dies",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "mother",
-        "count": 5,
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dies",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -234,11 +229,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gen",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "launches",
         "count": 4,
         "sentiment": "neutral"
@@ -264,12 +254,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "congress",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "gandhi",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "remarks",
+        "word": "assam",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -280,16 +275,6 @@
       },
       {
         "word": "glasgow",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -309,22 +294,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ravi",
+        "word": "takes",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "friendship",
+        "word": "against",
         "count": 3,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nasha",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "yuva",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gen",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-02T14:58:10.659099+00:00",
-    "nextRefresh": "2026-08-02T14:58:10.659099+00:00",
+    "generatedAt": "2026-08-02T16:02:20.809057+00:00",
+    "nextRefresh": "2026-08-02T16:02:20.809057+00:00",
     "articlesAnalyzed": 431,
-    "matchedMentions": 68,
-    "uniquePersonalities": 37,
+    "matchedMentions": 62,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
 }
