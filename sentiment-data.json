@@ -1,38 +1,33 @@
 {
   "us": {
-    "positive": 32,
+    "positive": 33,
     "negative": 54,
-    "neutral": 14,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 74,
+        "count": 71,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 26,
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 12,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "reflecting",
-        "count": 12,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "pool",
-        "count": 12,
+        "count": 9,
         "sentiment": "neutral"
-      },
-      {
-        "word": "strikes",
-        "count": 10,
-        "sentiment": "negative"
       },
       {
         "word": "democrats",
@@ -40,19 +35,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "saudi",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "senate",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
+      },
+      {
+        "word": "strikes",
+        "count": 7,
+        "sentiment": "negative"
       },
       {
         "word": "case",
@@ -70,17 +60,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "fund",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "minnesota",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "musk",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hamas",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -120,17 +110,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "prince",
+        "word": "war",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "fund",
+        "word": "cancels",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
+      },
+      {
+        "word": "help",
+        "count": 5,
+        "sentiment": "positive"
       },
       {
         "word": "gaza",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hamas",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -145,37 +145,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vandalism",
+        "word": "strike",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "water",
+        "word": "reached",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-02T08:13:11.814549+00:00",
-    "nextRefresh": "2026-08-02T08:13:11.814549+00:00",
-    "articlesAnalyzed": 337,
-    "matchedMentions": 151,
-    "uniquePersonalities": 47,
+    "generatedAt": "2026-08-02T10:36:07.799740+00:00",
+    "nextRefresh": "2026-08-02T10:36:07.799740+00:00",
+    "articlesAnalyzed": 339,
+    "matchedMentions": 153,
+    "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 43,
-    "negative": 44,
-    "neutral": 13,
+    "positive": 37,
+    "negative": 51,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 16,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -184,12 +184,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "launches",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "rahul",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "launches",
+        "word": "mother",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "campaign",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -199,8 +209,33 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 5,
+        "word": "sharma",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "drugs",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "anti-drugs",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "viksit",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bharat",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -219,44 +254,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "education",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "finance",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
+        "word": "gandhi",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "message",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "forgiveness",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "students",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "apology",
-        "count": 4,
-        "sentiment": "positive"
       },
       {
         "word": "target",
@@ -264,67 +269,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "viksit",
+        "word": "gave",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "bharat",
+        "word": "jeevandaan",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "mukt",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhiyan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fir",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "urges",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tilak",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "calls",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kejriwal",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "forgive",
+        "word": "forgiving",
         "count": 3,
         "sentiment": "positive"
       },
       {
-        "word": "prasad",
+        "word": "girl",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chaiwalaz",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "founder",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dies",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "suicide",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "kishor",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "action",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-02T08:13:21.274846+00:00",
-    "nextRefresh": "2026-08-02T08:13:21.274846+00:00",
+    "generatedAt": "2026-08-02T10:36:19.851402+00:00",
+    "nextRefresh": "2026-08-02T10:36:19.851402+00:00",
     "articlesAnalyzed": 430,
-    "matchedMentions": 63,
-    "uniquePersonalities": 35,
+    "matchedMentions": 73,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
 }
