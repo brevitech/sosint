@@ -1,61 +1,71 @@
 {
   "us": {
-    "positive": 37,
+    "positive": 33,
     "negative": 54,
-    "neutral": 9,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 67,
+        "count": 72,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 18,
+        "count": 26,
         "sentiment": "neutral"
       },
       {
         "word": "reflecting",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "pool",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "deal",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strikes",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "war",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "democrats",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "plan",
+        "word": "saudi",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "hamas",
+        "word": "senate",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "fund",
+        "word": "case",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "doj",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "order",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -70,12 +80,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "hamas",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "plan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "access",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "case",
+        "word": "ahead",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -95,18 +115,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "doj",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "gop",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "saudi",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -115,14 +125,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "strikes",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
         "word": "help",
         "count": 5,
         "sentiment": "positive"
+      },
+      {
+        "word": "fund",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "power",
@@ -130,17 +140,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "blanche",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "gaza",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "israel",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -156,66 +156,26 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-02T02:13:46.488127+00:00",
-    "nextRefresh": "2026-08-02T02:13:46.488127+00:00",
+    "generatedAt": "2026-08-02T05:51:47.087114+00:00",
+    "nextRefresh": "2026-08-02T05:51:47.087114+00:00",
     "articlesAnalyzed": 341,
-    "matchedMentions": 149,
-    "uniquePersonalities": 45,
+    "matchedMentions": 156,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 57,
-    "negative": 40,
-    "neutral": 3,
+    "positive": 51,
+    "negative": 44,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 18,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "poonawalla",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seeks",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "doval",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -224,47 +184,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shehzad",
+        "word": "india",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "questions",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "sarcastic",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "dictator",
+        "word": "message",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "anil",
+        "word": "forgiveness",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "students",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ambani",
+        "word": "education",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "fund",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pappu",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "yadav",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "youth",
+        "word": "finance",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -279,7 +239,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cjp",
+        "word": "prasad",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -294,36 +254,76 @@
         "sentiment": "positive"
       },
       {
-        "word": "presents",
+        "word": "target",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "lokmanya",
-        "count": 4,
+        "word": "pawan",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "tilak",
-        "count": 4,
+        "word": "kalyan",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "award",
-        "count": 4,
+        "word": "abuses",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "residence",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kejriwal",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "forgive",
+        "count": 3,
         "sentiment": "positive"
       },
       {
-        "word": "bajaj",
-        "count": 4,
+        "word": "shah",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "boxers",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shehzad",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "poonawalla",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sarcastic",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "swipe",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-02T02:13:59.505758+00:00",
-    "nextRefresh": "2026-08-02T02:13:59.505758+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 72,
+    "generatedAt": "2026-08-02T05:51:59.058576+00:00",
+    "nextRefresh": "2026-08-02T05:51:59.058576+00:00",
+    "articlesAnalyzed": 432,
+    "matchedMentions": 61,
     "uniquePersonalities": 29,
     "dataSource": "live-rss"
   }
