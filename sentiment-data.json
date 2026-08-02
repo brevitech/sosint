@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 24,
-    "negative": 64,
+    "positive": 25,
+    "negative": 63,
     "neutral": 12,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 70,
+        "count": 68,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 27,
+        "count": 26,
         "sentiment": "neutral"
       },
       {
@@ -21,11 +21,6 @@
       },
       {
         "word": "strikes",
-        "count": 14,
-        "sentiment": "negative"
-      },
-      {
-        "word": "war",
         "count": 12,
         "sentiment": "negative"
       },
@@ -35,11 +30,6 @@
         "sentiment": "negative"
       },
       {
-        "word": "deal",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
         "word": "reflecting",
         "count": 11,
         "sentiment": "neutral"
@@ -47,6 +37,16 @@
       {
         "word": "pool",
         "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 11,
+        "sentiment": "negative"
+      },
+      {
+        "word": "deal",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -75,13 +75,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "gop",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
-        "count": 8,
+        "word": "democrats",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -156,21 +156,26 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-02T21:50:20.100532+00:00",
-    "nextRefresh": "2026-08-02T21:50:20.100532+00:00",
+    "generatedAt": "2026-08-02T22:51:00.201176+00:00",
+    "nextRefresh": "2026-08-02T22:51:00.201176+00:00",
     "articlesAnalyzed": 342,
-    "matchedMentions": 158,
+    "matchedMentions": 156,
     "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 32,
-    "negative": 57,
-    "neutral": 11,
+    "positive": 33,
+    "negative": 55,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "modi",
         "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -179,13 +184,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "rahul",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -210,11 +210,6 @@
       },
       {
         "word": "test",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -249,7 +244,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "culture",
+        "word": "bjp",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -294,11 +289,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "missing",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
         "word": "takes",
         "count": 3,
         "sentiment": "neutral"
@@ -317,14 +307,24 @@
         "word": "yuva",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "series",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sri",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-02T21:50:32.147500+00:00",
-    "nextRefresh": "2026-08-02T21:50:32.147500+00:00",
-    "articlesAnalyzed": 416,
-    "matchedMentions": 63,
-    "uniquePersonalities": 34,
+    "generatedAt": "2026-08-02T22:51:11.388088+00:00",
+    "nextRefresh": "2026-08-02T22:51:11.388088+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 60,
+    "uniquePersonalities": 32,
     "dataSource": "live-rss"
   }
 }
