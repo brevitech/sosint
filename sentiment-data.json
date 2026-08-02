@@ -1,36 +1,36 @@
 {
   "us": {
-    "positive": 27,
-    "negative": 61,
+    "positive": 24,
+    "negative": 64,
     "neutral": 12,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 74,
+        "count": 70,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 26,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
         "word": "miller",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pool",
-        "count": 12,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "strikes",
-        "count": 12,
+        "count": 14,
         "sentiment": "negative"
       },
       {
         "word": "war",
+        "count": 12,
+        "sentiment": "negative"
+      },
+      {
+        "word": "abuse",
         "count": 12,
         "sentiment": "negative"
       },
@@ -45,9 +45,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "abuse",
+        "word": "pool",
         "count": 11,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 9,
+        "sentiment": "neutral"
       },
       {
         "word": "moreno",
@@ -58,11 +63,6 @@
         "word": "claims",
         "count": 9,
         "sentiment": "neutral"
-      },
-      {
-        "word": "help",
-        "count": 8,
-        "sentiment": "positive"
       },
       {
         "word": "resign",
@@ -80,22 +80,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "gop",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "max",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 6,
+        "word": "allegations",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "vandalism",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "musk",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -120,21 +125,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "allegations",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gop",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "cnn",
         "count": 6,
         "sentiment": "neutral"
@@ -153,20 +143,30 @@
         "word": "against",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "michigan",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cites",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-02T20:48:00.195606+00:00",
-    "nextRefresh": "2026-08-02T20:48:00.195606+00:00",
-    "articlesAnalyzed": 341,
+    "generatedAt": "2026-08-02T21:50:20.100532+00:00",
+    "nextRefresh": "2026-08-02T21:50:20.100532+00:00",
+    "articlesAnalyzed": 342,
     "matchedMentions": 158,
-    "uniquePersonalities": 41,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 32,
-    "negative": 55,
-    "neutral": 13,
+    "negative": 57,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "modi",
@@ -174,12 +174,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 11,
+        "word": "against",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "india",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -209,16 +209,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "test",
         "count": 4,
         "sentiment": "neutral"
@@ -244,13 +234,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sri",
-        "count": 4,
+        "word": "tamil",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "lanka",
-        "count": 4,
+        "word": "nadu",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "major",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -289,11 +284,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "government",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "glasgow",
         "count": 3,
         "sentiment": "neutral"
@@ -314,16 +304,26 @@
         "sentiment": "neutral"
       },
       {
+        "word": "assam",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "nasha",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "yuva",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-02T20:48:25.786636+00:00",
-    "nextRefresh": "2026-08-02T20:48:25.786636+00:00",
+    "generatedAt": "2026-08-02T21:50:32.147500+00:00",
+    "nextRefresh": "2026-08-02T21:50:32.147500+00:00",
     "articlesAnalyzed": 416,
-    "matchedMentions": 65,
+    "matchedMentions": 63,
     "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
