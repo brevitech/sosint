@@ -1,23 +1,38 @@
 {
   "us": {
-    "positive": 22,
-    "negative": 65,
-    "neutral": 13,
+    "positive": 24,
+    "negative": 68,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 64,
+        "count": 70,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 26,
+        "count": 30,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "miller",
         "count": 11,
         "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 10,
+        "sentiment": "negative"
+      },
+      {
+        "word": "strikes",
+        "count": 10,
+        "sentiment": "negative"
       },
       {
         "word": "reflecting",
@@ -30,28 +45,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
-        "count": 9,
+        "word": "senate",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "strikes",
-        "count": 9,
-        "sentiment": "negative"
+        "word": "deal",
+        "count": 8,
+        "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "europe",
         "count": 8,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "gop",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "former",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -65,17 +75,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "claims",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
+        "word": "calls",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -85,7 +90,22 @@
         "sentiment": "negative"
       },
       {
-        "word": "against",
+        "word": "republicans",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blanche",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "denies",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "plan",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -93,16 +113,6 @@
         "word": "vandalism",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "son-in-law",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "resign",
-        "count": 6,
-        "sentiment": "negative"
       },
       {
         "word": "moreno",
@@ -115,13 +125,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
+        "word": "cnn",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "cnn",
-        "count": 6,
+        "word": "holds",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "doj",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -130,43 +145,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "concerns",
+        "word": "allegations",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "michigan",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senator",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gaza",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "plan",
+        "word": "sanders",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-03T06:16:21.190129+00:00",
-    "nextRefresh": "2026-08-03T06:16:21.190129+00:00",
-    "articlesAnalyzed": 336,
-    "matchedMentions": 147,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-08-03T10:37:29.691344+00:00",
+    "nextRefresh": "2026-08-03T10:37:29.691344+00:00",
+    "articlesAnalyzed": 332,
+    "matchedMentions": 150,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 42,
-    "negative": 37,
-    "neutral": 21,
+    "positive": 35,
+    "negative": 48,
+    "neutral": 17,
     "wordCloud": [
       {
         "word": "bankipur",
@@ -174,72 +174,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kishor",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
+        "word": "bjp",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leads",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "against",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bypoll",
-        "count": 7,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "brij",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhushan",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "phogat",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "opposition",
+        "word": "wrestlers",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "bumrah",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "datia",
+        "word": "kishor",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "test",
+        "word": "acquittal",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sri",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lanka",
+        "word": "appeal",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -249,22 +234,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "votes",
+        "word": "yadav",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bypoll",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "case",
+        "word": "kejriwal",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "police",
+        "word": "jantar",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "singh",
+        "word": "mantar",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -274,57 +264,67 @@
         "sentiment": "negative"
       },
       {
+        "word": "gold",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ruled",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cjp",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bumrah",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sri",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lanka",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "series",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "election",
+        "word": "chopra",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
+        "word": "datia",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bihar",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kamra",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shows",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hindutva",
+        "word": "manjalpur",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-03T06:16:32.880310+00:00",
-    "nextRefresh": "2026-08-03T06:16:32.880310+00:00",
-    "articlesAnalyzed": 429,
-    "matchedMentions": 83,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-08-03T10:37:42.585692+00:00",
+    "nextRefresh": "2026-08-03T10:37:42.585692+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 91,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   }
 }
