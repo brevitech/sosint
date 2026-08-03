@@ -1,22 +1,17 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 54,
+    "positive": 38,
+    "negative": 55,
     "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 77,
+        "count": 78,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "blanche",
-        "count": 12,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -25,7 +20,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "blanche",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tariffs",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "deal",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "states",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -45,32 +60,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "reflecting",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "states",
+        "word": "pool",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "state",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pirro",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sue",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "washington",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "todd",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "calls",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "plan",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -95,12 +115,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "state",
-        "count": 5,
+        "word": "military",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "money",
+        "word": "commission",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "general",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -110,12 +135,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "reflecting",
+        "word": "todd",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "pool",
+        "word": "calls",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -128,45 +153,20 @@
         "word": "romania",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "danube",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rock",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "water",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "max",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "left",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-03T20:23:22.059153+00:00",
-    "nextRefresh": "2026-08-03T20:23:22.059153+00:00",
-    "articlesAnalyzed": 333,
-    "matchedMentions": 161,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-08-03T22:03:38.630677+00:00",
+    "nextRefresh": "2026-08-03T22:03:38.630677+00:00",
+    "articlesAnalyzed": 328,
+    "matchedMentions": 165,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 56,
-    "negative": 26,
-    "neutral": 18,
+    "negative": 27,
+    "neutral": 17,
     "wordCloud": [
       {
         "word": "bankipur",
@@ -304,11 +304,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "won",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
         "word": "coach",
         "count": 4,
         "sentiment": "neutral"
@@ -317,14 +312,19 @@
         "word": "days",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "lost",
+        "count": 4,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-03T20:23:31.662834+00:00",
-    "nextRefresh": "2026-08-03T20:23:31.662834+00:00",
+    "generatedAt": "2026-08-03T22:03:50.552853+00:00",
+    "nextRefresh": "2026-08-03T22:03:50.552853+00:00",
     "articlesAnalyzed": 415,
-    "matchedMentions": 95,
-    "uniquePersonalities": 44,
+    "matchedMentions": 91,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
 }
