@@ -1,17 +1,27 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 52,
-    "neutral": 8,
+    "positive": 43,
+    "negative": 51,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 78,
+        "count": 75,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 18,
+        "count": 22,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chance",
+        "count": 13,
+        "sentiment": "positive"
+      },
+      {
+        "word": "states",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -20,12 +30,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "states",
+        "word": "tariffs",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "michigan",
+        "word": "talks",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -35,44 +45,34 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tariffs",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chance",
-        "count": 10,
-        "sentiment": "positive"
-      },
-      {
         "word": "senate",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "primary",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blanche",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "pirro",
+        "word": "deal",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "reflecting",
+        "word": "sue",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "pool",
+        "word": "michigan",
         "count": 8,
         "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 8,
-        "sentiment": "negative"
       },
       {
         "word": "abuse",
@@ -85,17 +85,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sue",
+        "word": "military",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "primary",
+        "word": "making",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "oil",
+        "word": "gop",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pirro",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reflecting",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pool",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -115,14 +130,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "case",
+        "word": "oil",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "el-sayed",
+        "word": "war",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "declines",
@@ -135,78 +150,58 @@
         "sentiment": "negative"
       },
       {
-        "word": "blanche",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "military",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "commission",
+        "word": "calls",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-04T10:32:08.239999+00:00",
-    "nextRefresh": "2026-08-04T10:32:08.239999+00:00",
-    "articlesAnalyzed": 337,
-    "matchedMentions": 162,
+    "generatedAt": "2026-08-04T12:56:42.819470+00:00",
+    "nextRefresh": "2026-08-04T12:56:42.819470+00:00",
+    "articlesAnalyzed": 338,
+    "matchedMentions": 156,
     "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 36,
-    "negative": 55,
-    "neutral": 9,
+    "positive": 31,
+    "negative": 63,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "stalin",
-        "count": 34,
+        "count": 40,
         "sentiment": "neutral"
       },
       {
         "word": "udhayanidhi",
-        "count": 28,
+        "count": 31,
         "sentiment": "neutral"
       },
       {
         "word": "remarks",
-        "count": 21,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kejriwal",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trisha",
-        "count": 15,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "arrest",
-        "count": 11,
+        "count": 18,
         "sentiment": "negative"
       },
       {
-        "word": "against",
-        "count": 10,
+        "word": "modi",
+        "count": 17,
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
-        "count": 10,
-        "sentiment": "negative"
+        "word": "trisha",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kejriwal",
+        "count": 13,
+        "sentiment": "neutral"
       },
       {
         "word": "dmk",
@@ -214,73 +209,98 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "arrested",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "cwg",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stopped",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "actor",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "govt",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vijay",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bankipur",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "madras",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "release",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "tvk",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "aap",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 6,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "row",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slams",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "government",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "students",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cwg",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "alleged",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrested",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "kishor",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "stopped",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "son",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "updates",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -294,37 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vijay",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "high",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "orders",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "anand",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
+        "word": "aap",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-04T10:32:19.188895+00:00",
-    "nextRefresh": "2026-08-04T10:32:19.188895+00:00",
-    "articlesAnalyzed": 429,
+    "generatedAt": "2026-08-04T12:56:55.987584+00:00",
+    "nextRefresh": "2026-08-04T12:56:55.987584+00:00",
+    "articlesAnalyzed": 416,
     "matchedMentions": 118,
-    "uniquePersonalities": 43,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
