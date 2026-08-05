@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 47,
-    "neutral": 13,
+    "positive": 41,
+    "negative": 48,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
@@ -10,27 +10,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 12,
+        "word": "miller",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
-        "word": "miller",
-        "count": 11,
+        "word": "senate",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "house",
-        "count": 9,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "michigan",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abuse",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "primary",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "allegations",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ohio",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -40,7 +55,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "national",
+        "word": "faces",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "domestic",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -50,27 +75,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "primary",
+        "word": "republican",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "texas",
-        "count": 6,
+        "word": "poll",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "revokes",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visa",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ambassador",
+        "word": "say",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -80,7 +95,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "access",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "spacex",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "growing",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "resign",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "national",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -95,6 +130,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "administration",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "results",
         "count": 6,
         "sentiment": "neutral"
@@ -105,62 +150,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "spat",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "strait",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "access",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "states",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abuse",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "spacex",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "musk",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "poll",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lawmakers",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-04T22:57:57.294602+00:00",
-    "nextRefresh": "2026-08-04T22:57:57.294602+00:00",
-    "articlesAnalyzed": 339,
-    "matchedMentions": 144,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-08-05T00:04:03.586859+00:00",
+    "nextRefresh": "2026-08-05T00:04:03.586859+00:00",
+    "articlesAnalyzed": 340,
+    "matchedMentions": 149,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
@@ -199,13 +199,18 @@
         "sentiment": "negative"
       },
       {
-        "word": "chief",
+        "word": "remarks",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "remarks",
+        "word": "govt",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -219,17 +224,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "bail",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "govt",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -269,22 +264,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "minister",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "talks",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "captain",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rss",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -317,14 +307,24 @@
         "word": "sunetra",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "ncp",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-04T22:58:05.838602+00:00",
-    "nextRefresh": "2026-08-04T22:58:05.838602+00:00",
-    "articlesAnalyzed": 416,
+    "generatedAt": "2026-08-05T00:04:16.372229+00:00",
+    "nextRefresh": "2026-08-05T00:04:16.372229+00:00",
+    "articlesAnalyzed": 417,
     "matchedMentions": 88,
-    "uniquePersonalities": 40,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
