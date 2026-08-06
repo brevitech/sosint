@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 37,
-    "negative": 58,
-    "neutral": 5,
+    "positive": 35,
+    "negative": 59,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 45,
+        "count": 43,
         "sentiment": "neutral"
       },
       {
@@ -16,17 +16,17 @@
       },
       {
         "word": "democrats",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "michigan",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "miller",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "michigan",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -80,21 +80,6 @@
         "sentiment": "negative"
       },
       {
-        "word": "party",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "man",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chief",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "judge",
         "count": 5,
         "sentiment": "neutral"
@@ -105,19 +90,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "arrested",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "golf",
+        "word": "man",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "course",
+        "word": "party",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "vote",
@@ -153,83 +133,78 @@
         "word": "diplomatic",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "abuse",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "claims",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrested",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "golf",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-06T05:43:17.428292+00:00",
-    "nextRefresh": "2026-08-06T05:43:17.428292+00:00",
-    "articlesAnalyzed": 339,
+    "generatedAt": "2026-08-06T08:25:44.106811+00:00",
+    "nextRefresh": "2026-08-06T08:25:44.106811+00:00",
+    "articlesAnalyzed": 344,
     "matchedMentions": 139,
     "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 33,
-    "negative": 52,
-    "neutral": 15,
+    "positive": 26,
+    "negative": 60,
+    "neutral": 14,
     "wordCloud": [
       {
-        "word": "india",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "parliament",
+        "word": "kejriwal",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rijiju",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meta",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meets",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bid",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "end",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "logjam",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kejriwal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "restricted",
-        "count": 5,
+        "count": 8,
         "sentiment": "negative"
       },
       {
         "word": "account",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meta",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "soren",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "rahane",
+        "word": "jharkhand",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -239,22 +214,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "protest",
         "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "amid",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "students",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 5,
+        "word": "parliament",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "session",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sabha",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrest",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "student",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "panel",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -264,9 +264,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
+        "word": "modi",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "down",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slams",
+        "count": 3,
+        "sentiment": "neutral"
       },
       {
         "word": "talks",
@@ -274,7 +289,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jharkhand",
+        "word": "seeks",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "explanation",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -284,47 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sitharaman",
+        "word": "rajya",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "taxation",
+        "word": "adjourned",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "laws",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amendment",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lok",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sabha",
+        "word": "till",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-06T05:43:27.745132+00:00",
-    "nextRefresh": "2026-08-06T05:43:27.745132+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 63,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-08-06T08:25:53.904650+00:00",
+    "nextRefresh": "2026-08-06T08:25:53.904650+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 65,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
