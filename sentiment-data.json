@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 54,
+    "positive": 37,
+    "negative": 58,
     "neutral": 5,
     "wordCloud": [
       {
@@ -10,77 +10,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "el-sayed",
-        "count": 14,
-        "sentiment": "neutral"
+        "word": "contempt",
+        "count": 18,
+        "sentiment": "negative"
       },
       {
-        "word": "democrats",
-        "count": 14,
+        "word": "fauci",
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "el-sayed",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "votes",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fauci",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "contempt",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
-        "word": "vote",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abdul",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "miller",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "congress",
-        "count": 6,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "michigan",
-        "count": 6,
+        "word": "panel",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "committee",
-        "count": 5,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "billion",
+        "word": "security",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "golf",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "primary",
+        "word": "man",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -95,12 +75,7 @@
         "sentiment": "positive"
       },
       {
-        "word": "officials",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "air",
+        "word": "michigan",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -130,21 +105,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "abuse",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "claims",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "man",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "reflecting",
         "count": 4,
         "sentiment": "neutral"
@@ -153,49 +113,79 @@
         "word": "pool",
         "count": 4,
         "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-08-06T11:16:36.350301+00:00",
-    "nextRefresh": "2026-08-06T11:16:36.350301+00:00",
-    "articlesAnalyzed": 345,
-    "matchedMentions": 147,
-    "uniquePersonalities": 53,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 41,
-    "negative": 51,
-    "neutral": 8,
-    "wordCloud": [
+      },
       {
-        "word": "modi",
-        "count": 10,
+        "word": "emergency",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "iran",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "exam",
+        "word": "amid",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mamma",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mia",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "tariffs",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "refund",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ignites",
+        "count": 4,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-08-06T13:53:21.039775+00:00",
+    "nextRefresh": "2026-08-06T13:53:21.039775+00:00",
+    "articlesAnalyzed": 346,
+    "matchedMentions": 131,
+    "uniquePersonalities": 46,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 40,
+    "negative": 44,
+    "neutral": 16,
+    "wordCloud": [
+      {
+        "word": "parliament",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "kejriwal",
+        "word": "sabha",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bill",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "budget",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nilekani",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reforms",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -204,67 +194,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "meta",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "restricted",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "account",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "door",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "yadav",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "students",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "parliament",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "session",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rajya",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sabha",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seeks",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "task",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "force",
+        "word": "debate",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -274,32 +204,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "down",
+        "word": "students",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "closed",
+        "word": "rajya",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rijiju",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rss",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "kumar",
+        "word": "rahul",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "sparks",
+        "word": "prayagraj",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "buzz",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stalin",
+        "word": "seeks",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -309,22 +249,82 @@
         "sentiment": "neutral"
       },
       {
+        "word": "session",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "appropriation",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
+        "word": "meets",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrest",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "yadav",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "state",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhagwat",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "updates",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "approves",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "lok",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "passes",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-06T11:16:46.803016+00:00",
-    "nextRefresh": "2026-08-06T11:16:46.803016+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 82,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-08-06T13:53:46.714138+00:00",
+    "nextRefresh": "2026-08-06T13:53:46.714138+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 70,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
