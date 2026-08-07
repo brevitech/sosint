@@ -1,22 +1,42 @@
 {
   "us": {
-    "positive": 43,
+    "positive": 42,
     "negative": 53,
-    "neutral": 4,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 51,
+        "count": 63,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 22,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "russia",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "passes",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sanctions",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bill",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -25,12 +45,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tennessee",
+        "word": "judge",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -45,17 +60,42 @@
         "sentiment": "neutral"
       },
       {
+        "word": "house",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "confirms",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fema",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "graham",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "todd",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "america",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "russia",
+        "word": "sen",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -65,22 +105,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "vote",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "primary",
+        "word": "effort",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "face",
+        "word": "tps",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protections",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -90,7 +130,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "late",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -105,87 +145,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "michigan",
+        "word": "tennessee",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "passes",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sanctions",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "strait",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "orders",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "german",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "firm",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "halt",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "projects",
-        "count": 4,
+        "word": "end",
+        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-07T17:43:53.222568+00:00",
-    "nextRefresh": "2026-08-07T17:43:53.222568+00:00",
+    "generatedAt": "2026-08-07T18:47:08.429761+00:00",
+    "nextRefresh": "2026-08-07T18:47:08.429761+00:00",
     "articlesAnalyzed": 342,
-    "matchedMentions": 129,
-    "uniquePersonalities": 38,
+    "matchedMentions": 144,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
+    "positive": 57,
     "negative": 28,
-    "neutral": 21,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "india",
-        "count": 12,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -205,6 +200,11 @@
       },
       {
         "word": "students",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -216,6 +216,11 @@
       {
         "word": "kishor",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -234,7 +239,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "neet",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "cup",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "youth",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -284,11 +299,6 @@
         "sentiment": "negative"
       },
       {
-        "word": "bjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "daal",
         "count": 4,
         "sentiment": "neutral"
@@ -307,24 +317,14 @@
         "word": "gen",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "youth",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-07T17:44:04.625397+00:00",
-    "nextRefresh": "2026-08-07T17:44:04.625397+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 74,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-08-07T18:47:19.994642+00:00",
+    "nextRefresh": "2026-08-07T18:47:19.994642+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 75,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
 }
