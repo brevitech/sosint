@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 53,
-    "neutral": 7,
+    "positive": 37,
+    "negative": 52,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 68,
+        "count": 70,
         "sentiment": "neutral"
       },
       {
@@ -31,7 +31,7 @@
       },
       {
         "word": "iran",
-        "count": 11,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -45,6 +45,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "democrats",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "judge",
         "count": 8,
         "sentiment": "neutral"
@@ -52,6 +57,11 @@
       {
         "word": "miller",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -65,12 +75,7 @@
         "sentiment": "negative"
       },
       {
-        "word": "democrats",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
+        "word": "hormuz",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -90,7 +95,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "records",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -100,27 +105,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "party",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
         "word": "panel",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "officials",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "million",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hormuz",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -140,42 +130,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mcconnell",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "financial",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "records",
+        "word": "bbc",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "help",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "war",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "happened",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-07T03:46:04.163240+00:00",
-    "nextRefresh": "2026-08-07T03:46:04.163240+00:00",
-    "articlesAnalyzed": 352,
-    "matchedMentions": 152,
+    "generatedAt": "2026-08-07T05:36:09.790571+00:00",
+    "nextRefresh": "2026-08-07T05:36:09.790571+00:00",
+    "articlesAnalyzed": 351,
+    "matchedMentions": 155,
     "uniquePersonalities": 52,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 49,
-    "negative": 36,
-    "neutral": 15,
+    "positive": 42,
+    "negative": 41,
+    "neutral": 17,
     "wordCloud": [
       {
-        "word": "shah",
-        "count": 14,
+        "word": "rahul",
+        "count": 17,
         "sentiment": "neutral"
       },
       {
-        "word": "bhagwat",
-        "count": 11,
+        "word": "india",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -184,74 +189,44 @@
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "backs",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "rajya",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sabha",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amit",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "handloom",
-        "count": 6,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 6,
+        "word": "gill",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "students",
-        "count": 6,
+        "word": "crore",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "protest",
-        "count": 6,
+        "count": 7,
         "sentiment": "negative"
       },
       {
-        "word": "gen",
+        "word": "rijiju",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sitharaman",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
+        "word": "ready",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "dhoni",
@@ -269,22 +244,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "sri",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "protesters",
-        "count": 5,
-        "sentiment": "negative"
+        "word": "lanka",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
-        "word": "rss",
+        "word": "bill",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
+        "word": "students",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "national",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhagwat",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "warm-up",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "game",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -294,37 +294,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rijiju",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sri",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lanka",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sitharaman",
+        "word": "upi",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "fcra",
+        "word": "humiliated",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "vijay-stalin",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "junior",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 4,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-07T03:46:17.730751+00:00",
-    "nextRefresh": "2026-08-07T03:46:17.730751+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 101,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-08-07T05:36:22.470067+00:00",
+    "nextRefresh": "2026-08-07T05:36:22.470067+00:00",
+    "articlesAnalyzed": 429,
+    "matchedMentions": 96,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
