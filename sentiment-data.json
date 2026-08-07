@@ -1,27 +1,22 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 56,
-    "neutral": 5,
+    "positive": 43,
+    "negative": 53,
+    "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 69,
+        "count": 60,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 24,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "court",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "russia",
-        "count": 12,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -40,27 +35,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sanctions",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "governor",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "passes",
+        "word": "russia",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -70,7 +50,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "graham",
+        "word": "attorney",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "general",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -85,11 +70,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "blanche",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "tps",
         "count": 8,
         "sentiment": "neutral"
@@ -100,17 +80,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "confirms",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fema",
+        "word": "judge",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -120,22 +90,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "attorney",
+        "word": "sanctions",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "general",
+        "word": "bill",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "america",
+        "word": "administration",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blanche",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sen",
+        "word": "federal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "passes",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "graham",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,20 +143,30 @@
         "word": "effort",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "todd",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "el-sayed",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-07T19:48:53.564861+00:00",
-    "nextRefresh": "2026-08-07T19:48:53.564861+00:00",
+    "generatedAt": "2026-08-07T20:35:03.610103+00:00",
+    "nextRefresh": "2026-08-07T20:35:03.610103+00:00",
     "articlesAnalyzed": 342,
-    "matchedMentions": 155,
+    "matchedMentions": 148,
     "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 61,
-    "negative": 23,
-    "neutral": 16,
+    "positive": 62,
+    "negative": 20,
+    "neutral": 18,
     "wordCloud": [
       {
         "word": "india",
@@ -175,17 +175,17 @@
       },
       {
         "word": "rahul",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -199,7 +199,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ranaut",
+        "word": "pawar",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -269,6 +269,21 @@
         "sentiment": "neutral"
       },
       {
+        "word": "puts",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "end",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "singh",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "verdict",
         "count": 3,
         "sentiment": "positive"
@@ -294,11 +309,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trump",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "rude",
         "count": 3,
         "sentiment": "negative"
@@ -307,23 +317,13 @@
         "word": "wake-up",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "tharoor",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pradhan",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-07T19:49:06.347531+00:00",
-    "nextRefresh": "2026-08-07T19:49:06.347531+00:00",
-    "articlesAnalyzed": 417,
-    "matchedMentions": 69,
+    "generatedAt": "2026-08-07T20:35:18.281033+00:00",
+    "nextRefresh": "2026-08-07T20:35:18.281033+00:00",
+    "articlesAnalyzed": 416,
+    "matchedMentions": 64,
     "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
