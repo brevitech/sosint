@@ -1,36 +1,36 @@
 {
   "us": {
-    "positive": 48,
-    "negative": 45,
-    "neutral": 7,
+    "positive": 45,
+    "negative": 49,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 51,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "orders",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "birthright",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "citizenship",
-        "count": 13,
+        "count": 52,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "orders",
         "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "birthright",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "citizenship",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -40,17 +40,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "iran",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "democrats",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "primary",
+        "word": "saudi",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "key",
+        "word": "arabia",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "general",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -65,12 +75,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "happened",
+        "word": "blanche",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "mcconnell",
+        "word": "attorney",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "primary",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "face",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -90,17 +110,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "general",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "saudi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "arabia",
+        "word": "nomination",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -110,17 +120,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "house",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "face",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "faces",
+        "word": "against",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -140,61 +145,41 @@
         "sentiment": "neutral"
       },
       {
-        "word": "blanche",
+        "word": "abuse",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "attorney",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "targets",
+        "word": "turkey",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-07T11:41:12.641093+00:00",
-    "nextRefresh": "2026-08-07T11:41:12.641093+00:00",
-    "articlesAnalyzed": 343,
-    "matchedMentions": 145,
+    "generatedAt": "2026-08-07T12:51:39.027179+00:00",
+    "nextRefresh": "2026-08-07T12:51:39.027179+00:00",
+    "articlesAnalyzed": 342,
+    "matchedMentions": 150,
     "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 40,
-    "negative": 36,
-    "neutral": 24,
+    "positive": 44,
+    "negative": 42,
+    "neutral": 14,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 19,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 12,
+        "word": "shah",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "pawar",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meets",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gen",
+        "word": "india",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -209,22 +194,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "breakfast",
+        "word": "meets",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "sunetra",
+        "word": "rahul",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "kishor",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
+        "word": "gen",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -239,12 +219,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "gandhi",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "parth",
+        "word": "bjp",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -264,22 +249,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "rijiju",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "bhagwat",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chief",
+        "word": "jantar",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "case",
+        "word": "mantar",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -294,17 +274,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "target",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "birla",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "house",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "amit",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhagwat",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -317,14 +307,24 @@
         "word": "sangeetha",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "withdraws",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "divorce",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-07T11:41:26.827128+00:00",
-    "nextRefresh": "2026-08-07T11:41:26.827128+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 99,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-08-07T12:51:51.177981+00:00",
+    "nextRefresh": "2026-08-07T12:51:51.177981+00:00",
+    "articlesAnalyzed": 432,
+    "matchedMentions": 96,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
