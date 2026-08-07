@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 37,
-    "negative": 51,
-    "neutral": 12,
+    "positive": 41,
+    "negative": 50,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 68,
+        "count": 65,
         "sentiment": "neutral"
       },
       {
@@ -15,32 +15,37 @@
         "sentiment": "neutral"
       },
       {
+        "word": "senate",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
         "word": "birthright",
-        "count": 17,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "citizenship",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 16,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 12,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "tennessee",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "signs",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "key",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -55,42 +60,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fauci",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "contempt",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
         "word": "democrats",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "hormuz",
+        "word": "happened",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "key",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "votes",
+        "word": "mcconnell",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -100,18 +80,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "happened",
+        "word": "war",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "fauci",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "federal",
+        "word": "contempt",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "panel",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hormuz",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -125,6 +115,11 @@
         "sentiment": "negative"
       },
       {
+        "word": "primary",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "financial",
         "count": 5,
         "sentiment": "neutral"
@@ -135,9 +130,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "faces",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "house",
@@ -150,42 +150,57 @@
         "sentiment": "positive"
       },
       {
-        "word": "gop",
+        "word": "votes",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-07T08:52:32.489382+00:00",
-    "nextRefresh": "2026-08-07T08:52:32.489382+00:00",
-    "articlesAnalyzed": 353,
+    "generatedAt": "2026-08-07T09:56:07.420071+00:00",
+    "nextRefresh": "2026-08-07T09:56:07.420071+00:00",
+    "articlesAnalyzed": 345,
     "matchedMentions": 146,
-    "uniquePersonalities": 48,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 43,
-    "neutral": 11,
+    "positive": 47,
+    "negative": 40,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 15,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gen",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mps",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minister",
         "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "shah",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gen",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -194,72 +209,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 7,
+        "word": "bhagwat",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
+        "word": "cauvery",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "doesn",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sri",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lanka",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "favourite",
+        "word": "batman",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "leader",
+        "word": "kejriwal",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "protesting",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "anti-national",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cauvery",
+        "word": "session",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -274,32 +249,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "bjp",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "mps",
+        "word": "tamil",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "worry",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "trinamool",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "abdullah",
+        "word": "rebels",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "ex-uddhav",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "praises",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "rss",
+        "word": "sena",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "remark",
+        "word": "hits",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "response",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -314,17 +309,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "session",
+        "word": "avoid",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "lutyens",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-07T08:52:44.324257+00:00",
-    "nextRefresh": "2026-08-07T08:52:44.324257+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 94,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-08-07T09:56:17.087356+00:00",
+    "nextRefresh": "2026-08-07T09:56:17.087356+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 90,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
