@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 43,
+    "positive": 42,
     "negative": 52,
-    "neutral": 5,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 70,
+        "count": 68,
         "sentiment": "neutral"
       },
       {
@@ -16,12 +16,7 @@
       },
       {
         "word": "court",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 14,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -40,13 +35,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ballroom",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 11,
+        "word": "house",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -61,6 +51,16 @@
       },
       {
         "word": "america",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ballroom",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -95,11 +95,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "appeals",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "effort",
         "count": 8,
         "sentiment": "neutral"
@@ -130,17 +125,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rules",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "renews",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "graham",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "appeals",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,33 +148,43 @@
         "word": "party",
         "count": 6,
         "sentiment": "positive"
+      },
+      {
+        "word": "fema",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-08T04:51:17.398322+00:00",
-    "nextRefresh": "2026-08-08T04:51:17.398322+00:00",
+    "generatedAt": "2026-08-08T05:38:24.972307+00:00",
+    "nextRefresh": "2026-08-08T05:38:24.972307+00:00",
     "articlesAnalyzed": 347,
-    "matchedMentions": 147,
-    "uniquePersonalities": 40,
+    "matchedMentions": 145,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 50,
-    "neutral": 9,
+    "positive": 42,
+    "negative": 47,
+    "neutral": 11,
     "wordCloud": [
       {
-        "word": "shah",
-        "count": 8,
+        "word": "rahul",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "rijiju",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -194,8 +199,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 6,
+        "word": "gandhi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pant",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -204,17 +219,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rijiju",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
+        "word": "game",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "bill",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dhami",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "uttarakhand",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -232,11 +252,6 @@
         "word": "leak",
         "count": 4,
         "sentiment": "negative"
-      },
-      {
-        "word": "gandhi",
-        "count": 4,
-        "sentiment": "neutral"
       },
       {
         "word": "daal",
@@ -259,72 +274,57 @@
         "sentiment": "negative"
       },
       {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "singh",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "protest",
         "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "student",
+        "word": "minister",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "amit",
+        "word": "responds",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "cwg",
+        "word": "land",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "chopra",
+        "word": "statement",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "advances",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "javelin",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "throw",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "final",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "yashvir",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rohit",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pant",
+        "word": "sparks",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-08T04:51:31.260462+00:00",
-    "nextRefresh": "2026-08-08T04:51:31.260462+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 64,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-08-08T05:38:36.338775+00:00",
+    "nextRefresh": "2026-08-08T05:38:36.338775+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 66,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
 }
