@@ -1,46 +1,31 @@
 {
   "us": {
     "positive": 42,
-    "negative": 51,
-    "neutral": 7,
+    "negative": 52,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 66,
+        "count": 62,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 25,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "blanche",
-        "count": 13,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
-        "count": 10,
+        "word": "father",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "fire",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
-        "word": "lisa",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cook",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "confirms",
+        "word": "general",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -50,17 +35,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "general",
+        "word": "bill",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "father",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fed",
+        "word": "attorney",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -70,8 +50,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "attorney",
-        "count": 7,
+        "word": "fire",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "lisa",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cook",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "confirms",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -80,12 +75,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "governor",
+        "word": "todd",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "confirmed",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -95,18 +90,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "passes",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "america",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
-        "count": 7,
+        "word": "hunter",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "biden",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -145,51 +145,61 @@
         "sentiment": "neutral"
       },
       {
-        "word": "russia",
+        "word": "fed",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sanctions",
+        "word": "democrats",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-08T15:24:00.243021+00:00",
-    "nextRefresh": "2026-08-08T15:24:00.243021+00:00",
-    "articlesAnalyzed": 347,
-    "matchedMentions": 153,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-08-08T16:26:11.377509+00:00",
+    "nextRefresh": "2026-08-08T16:26:11.377509+00:00",
+    "articlesAnalyzed": 349,
+    "matchedMentions": 152,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
-    "negative": 32,
-    "neutral": 17,
+    "positive": 50,
+    "negative": 36,
+    "neutral": 14,
     "wordCloud": [
+      {
+        "word": "rahul",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 11,
+        "sentiment": "neutral"
+      },
       {
         "word": "delimitation",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 11,
+        "word": "gandhi",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 8,
+        "word": "prayagraj",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "students",
+        "word": "rijiju",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -199,14 +209,34 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
+        "word": "mps",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "injured",
+        "word": "protest",
         "count": 5,
         "sentiment": "negative"
+      },
+      {
+        "word": "students",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ranchi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "event",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bill",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "all-party",
@@ -214,27 +244,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cji",
+        "word": "against",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "surya",
+        "word": "chhatron",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "kant",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rijiju",
+        "word": "goonj",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -254,19 +274,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "support",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
         "word": "questions",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "injured",
+        "count": 4,
+        "sentiment": "negative"
       },
       {
         "word": "target",
@@ -279,52 +294,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "away",
+        "word": "youth",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
+        "word": "taarak",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "nadu",
+        "word": "mehta",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "ooltah",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "bharat",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "convocation",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gen",
+        "word": "chashmah",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-08T15:24:26.592216+00:00",
-    "nextRefresh": "2026-08-08T15:24:26.592216+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 77,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-08-08T16:26:23.081600+00:00",
+    "nextRefresh": "2026-08-08T16:26:23.081600+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 90,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
 }
