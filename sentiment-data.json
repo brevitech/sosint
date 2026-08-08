@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 54,
+    "positive": 43,
+    "negative": 53,
     "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 53,
+        "count": 54,
         "sentiment": "neutral"
       },
       {
@@ -16,12 +16,7 @@
       },
       {
         "word": "blanche",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "father",
-        "count": 12,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -35,22 +30,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "father",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "iran",
         "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "happened",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "messi",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "general",
+        "word": "confirmation",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "corruption",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -60,7 +60,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "attorney",
+        "word": "general",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -85,11 +85,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "confirmation",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "allows",
         "count": 6,
         "sentiment": "neutral"
@@ -103,11 +98,6 @@
         "word": "breathtaking",
         "count": 6,
         "sentiment": "positive"
-      },
-      {
-        "word": "corruption",
-        "count": 6,
-        "sentiment": "neutral"
       },
       {
         "word": "schumer",
@@ -140,37 +130,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dies",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "todd",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "good",
+        "word": "attorney",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "confirmed",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pardon",
+        "count": 4,
         "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-08T19:24:42.491727+00:00",
-    "nextRefresh": "2026-08-08T19:24:42.491727+00:00",
-    "articlesAnalyzed": 341,
-    "matchedMentions": 140,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-08-08T20:21:57.596644+00:00",
+    "nextRefresh": "2026-08-08T20:21:57.596644+00:00",
+    "articlesAnalyzed": 344,
+    "matchedMentions": 136,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 47,
-    "negative": 35,
+    "positive": 42,
+    "negative": 40,
     "neutral": 18,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 18,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -179,18 +179,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "delimitation",
         "count": 10,
         "sentiment": "neutral"
       },
       {
+        "word": "india",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "vance",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -202,6 +207,11 @@
         "word": "women",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "injured",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "ranchi",
@@ -239,27 +249,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "students",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "protest",
         "count": 5,
         "sentiment": "negative"
       },
       {
+        "word": "u-turn",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minister",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "prayagraj",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "toxic",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trailer",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -289,9 +294,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "injured",
-        "count": 4,
-        "sentiment": "negative"
+        "word": "singh",
+        "count": 3,
+        "sentiment": "neutral"
       },
       {
         "word": "dials",
@@ -312,19 +317,14 @@
         "word": "son",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "government",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-08T19:24:52.966936+00:00",
-    "nextRefresh": "2026-08-08T19:24:52.966936+00:00",
+    "generatedAt": "2026-08-08T20:22:07.660323+00:00",
+    "nextRefresh": "2026-08-08T20:22:07.660323+00:00",
     "articlesAnalyzed": 416,
     "matchedMentions": 85,
-    "uniquePersonalities": 39,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
