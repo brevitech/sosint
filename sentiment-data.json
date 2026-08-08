@@ -1,21 +1,31 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 53,
-    "neutral": 5,
+    "positive": 45,
+    "negative": 49,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 68,
+        "count": 71,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 26,
+        "count": 24,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blanche",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "court",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "politics",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -40,16 +50,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "confirms",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "blanche",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "general",
         "count": 9,
         "sentiment": "neutral"
@@ -61,11 +61,6 @@
       },
       {
         "word": "administration",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "politics",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -85,12 +80,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "iran",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "confirms",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "party",
         "count": 7,
         "sentiment": "positive"
       },
       {
         "word": "governor",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ballroom",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -110,16 +120,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ballroom",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "judge",
         "count": 7,
         "sentiment": "neutral"
@@ -127,6 +127,11 @@
       {
         "word": "white",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "todd",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -148,29 +153,24 @@
         "word": "fema",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "todd",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-08T10:26:00.368966+00:00",
-    "nextRefresh": "2026-08-08T10:26:00.368966+00:00",
-    "articlesAnalyzed": 347,
+    "generatedAt": "2026-08-08T11:22:54.512186+00:00",
+    "nextRefresh": "2026-08-08T11:22:54.512186+00:00",
+    "articlesAnalyzed": 344,
     "matchedMentions": 156,
-    "uniquePersonalities": 42,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 50,
-    "negative": 38,
-    "neutral": 12,
+    "positive": 47,
+    "negative": 40,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 12,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -184,18 +184,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pant",
-        "count": 5,
+        "word": "delimitation",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "dhami",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 5,
+        "word": "rijiju",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -204,57 +199,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dialogue",
+        "word": "mps",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "dignity",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "inclusion",
+        "word": "shah",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "access",
+        "word": "amid",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "justice",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "cji",
+        "word": "bhogapuram",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "surya",
+        "word": "women",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "kant",
+        "word": "quota",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "police",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "land",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "uttarakhand",
+        "word": "post",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -264,7 +239,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rijiju",
+        "word": "bill",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "questions",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -272,16 +252,6 @@
         "word": "injured",
         "count": 4,
         "sentiment": "negative"
-      },
-      {
-        "word": "shah",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
       },
       {
         "word": "sri",
@@ -309,22 +279,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "delimitation",
+        "word": "against",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "iit",
+        "word": "airport",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "javelin",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ashish",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "warm-up",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "test",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "left",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-08T10:26:11.581234+00:00",
-    "nextRefresh": "2026-08-08T10:26:11.581234+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 76,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-08-08T11:23:06.970952+00:00",
+    "nextRefresh": "2026-08-08T11:23:06.970952+00:00",
+    "articlesAnalyzed": 414,
+    "matchedMentions": 73,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
 }
