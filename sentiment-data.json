@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 53,
+    "positive": 44,
+    "negative": 50,
     "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 74,
+        "count": 68,
         "sentiment": "neutral"
       },
       {
@@ -17,11 +17,6 @@
       {
         "word": "blanche",
         "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -40,12 +35,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "bill",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "politics",
+        "word": "court",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -55,13 +50,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "confirms",
+        "word": "administration",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "clinton",
-        "count": 7,
+        "word": "house",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "confirms",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -71,6 +71,11 @@
       },
       {
         "word": "governor",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "politics",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -85,17 +90,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "america",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -125,52 +120,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "el-sayed",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "fema",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "goes",
+        "word": "berkshire",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "unmentioned",
+        "word": "ceo",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "ignored",
+        "word": "greg",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "bush",
+        "word": "abel",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "company",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hunter",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-08T13:41:17.734220+00:00",
-    "nextRefresh": "2026-08-08T13:41:17.734220+00:00",
+    "generatedAt": "2026-08-08T14:26:46.229078+00:00",
+    "nextRefresh": "2026-08-08T14:26:46.229078+00:00",
     "articlesAnalyzed": 346,
-    "matchedMentions": 164,
-    "uniquePersonalities": 51,
+    "matchedMentions": 155,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 55,
-    "negative": 34,
-    "neutral": 11,
+    "positive": 52,
+    "negative": 36,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 13,
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delimitation",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -179,18 +184,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "delimitation",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "rahul",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "post",
-        "count": 6,
+        "word": "jharkhand",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -204,12 +204,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "students",
+        "word": "against",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "mps",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -219,7 +224,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
+        "word": "congress",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "post",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -229,22 +239,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "mps",
+        "word": "adityanath",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "cjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "game",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "test",
+        "word": "gandhi",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -259,7 +259,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jharkhand",
+        "word": "students",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -269,6 +269,11 @@
         "sentiment": "negative"
       },
       {
+        "word": "support",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
         "word": "questions",
         "count": 4,
         "sentiment": "neutral"
@@ -276,6 +281,21 @@
       {
         "word": "target",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "away",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "all-party",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -289,42 +309,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "law",
+        "word": "dmk",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "krishna",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gen",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "backs",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "bills",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "complete",
+        "word": "fir",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-08T13:41:34.826326+00:00",
-    "nextRefresh": "2026-08-08T13:41:34.826326+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 88,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-08-08T14:26:57.981032+00:00",
+    "nextRefresh": "2026-08-08T14:26:57.981032+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 81,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
