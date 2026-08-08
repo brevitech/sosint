@@ -1,8 +1,8 @@
 {
   "us": {
     "positive": 42,
-    "negative": 52,
-    "neutral": 6,
+    "negative": 53,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
@@ -15,13 +15,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
         "word": "fire",
-        "count": 12,
+        "count": 14,
         "sentiment": "negative"
       },
       {
@@ -35,8 +30,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "court",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -51,16 +51,6 @@
       },
       {
         "word": "america",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ballroom",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -95,7 +85,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "ballroom",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "effort",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -135,11 +135,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "appeals",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "el-sayed",
         "count": 6,
         "sentiment": "neutral"
@@ -153,34 +148,39 @@
         "word": "fema",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "orders",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-08T05:38:24.972307+00:00",
-    "nextRefresh": "2026-08-08T05:38:24.972307+00:00",
+    "generatedAt": "2026-08-08T06:41:56.420652+00:00",
+    "nextRefresh": "2026-08-08T06:41:56.420652+00:00",
     "articlesAnalyzed": 347,
-    "matchedMentions": 145,
-    "uniquePersonalities": 39,
+    "matchedMentions": 149,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 42,
-    "negative": 47,
-    "neutral": 11,
+    "positive": 44,
+    "negative": 48,
+    "neutral": 8,
     "wordCloud": [
       {
-        "word": "rahul",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "india",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "rijiju",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -199,12 +199,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
+        "word": "sabha",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -219,12 +214,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "game",
+        "word": "singh",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
+        "word": "gandhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "women",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mekedatu",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "without",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "game",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -239,53 +259,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tharoor",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "paper",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leak",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "daal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hai",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "victory",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "warning",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
         "word": "target",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "singh",
-        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -294,7 +269,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "minister",
+        "word": "modi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dam",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -317,13 +297,33 @@
         "word": "sparks",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "direction",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rajya",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chair",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attend",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-08T05:38:36.338775+00:00",
-    "nextRefresh": "2026-08-08T05:38:36.338775+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 66,
+    "generatedAt": "2026-08-08T06:42:07.590834+00:00",
+    "nextRefresh": "2026-08-08T06:42:07.590834+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 63,
     "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
