@@ -1,22 +1,27 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 50,
-    "neutral": 6,
+    "positive": 42,
+    "negative": 51,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 68,
+        "count": 66,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 24,
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "blanche",
-        "count": 11,
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bill",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -35,13 +40,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bill",
+        "word": "confirms",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "politics",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "general",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "father",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -55,17 +70,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
-        "count": 8,
+        "word": "attorney",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "confirms",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "general",
+        "word": "messi",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -75,7 +85,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "politics",
+        "word": "court",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -85,7 +95,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "passes",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -95,8 +105,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "attorney",
-        "count": 6,
+        "word": "house",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -105,7 +115,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "passes",
+        "word": "confirmation",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "allows",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pervasive",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "breathtaking",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "corruption",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "schumer",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -118,69 +153,34 @@
         "word": "sanctions",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "fema",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "berkshire",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ceo",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "greg",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abel",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "company",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hunter",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-08T14:26:46.229078+00:00",
-    "nextRefresh": "2026-08-08T14:26:46.229078+00:00",
-    "articlesAnalyzed": 346,
-    "matchedMentions": 155,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-08-08T15:24:00.243021+00:00",
+    "nextRefresh": "2026-08-08T15:24:00.243021+00:00",
+    "articlesAnalyzed": 347,
+    "matchedMentions": 153,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 36,
-    "neutral": 12,
+    "positive": 51,
+    "negative": 32,
+    "neutral": 17,
     "wordCloud": [
       {
-        "word": "modi",
-        "count": 14,
+        "word": "delimitation",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "delimitation",
-        "count": 12,
+        "word": "modi",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 11,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -189,12 +189,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jharkhand",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rijiju",
+        "word": "students",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -204,32 +199,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "bill",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "post",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -239,12 +209,32 @@
         "sentiment": "negative"
       },
       {
-        "word": "adityanath",
+        "word": "all-party",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "cji",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "surya",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kant",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mps",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rijiju",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -259,7 +249,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "students",
+        "word": "jharkhand",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -294,11 +284,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "all-party",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "tamil",
         "count": 3,
         "sentiment": "neutral"
@@ -309,22 +294,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dmk",
+        "word": "against",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "fir",
+        "word": "bharat",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "convocation",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gen",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-08T14:26:57.981032+00:00",
-    "nextRefresh": "2026-08-08T14:26:57.981032+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 81,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-08-08T15:24:26.592216+00:00",
+    "nextRefresh": "2026-08-08T15:24:26.592216+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 77,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
