@@ -1,41 +1,71 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 52,
-    "neutral": 4,
+    "positive": 40,
+    "negative": 58,
+    "neutral": 2,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 43,
+        "count": 53,
         "sentiment": "neutral"
       },
       {
         "word": "biden",
-        "count": 13,
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "hunter",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "blanche",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "assault",
+        "count": 10,
+        "sentiment": "negative"
+      },
+      {
+        "word": "blanche",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "father",
-        "count": 7,
+        "word": "iran",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "simulate",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "election",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "threats",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "continues",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "voting",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "plan",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -45,9 +75,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cancer",
+        "word": "rejects",
         "count": 6,
         "sentiment": "negative"
+      },
+      {
+        "word": "gaza",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "father",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "senate",
@@ -55,27 +100,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "general",
+        "word": "primary",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "game",
+        "word": "cancer",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "south",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "todd",
+        "word": "point",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "confirmed",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attorney",
+        "word": "netanyahu",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -85,106 +135,56 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "spread",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "judge",
         "count": 4,
         "sentiment": "neutral"
       },
       {
+        "word": "middle",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crisis",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
         "word": "midterms",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "happened",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "confirmation",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "corruption",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "harming",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "making",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dems",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pain",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "war",
-        "count": 3,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-09T11:23:27.032018+00:00",
-    "nextRefresh": "2026-08-09T11:23:27.032018+00:00",
-    "articlesAnalyzed": 340,
-    "matchedMentions": 116,
+    "generatedAt": "2026-08-09T12:38:50.502401+00:00",
+    "nextRefresh": "2026-08-09T12:38:50.502401+00:00",
+    "articlesAnalyzed": 341,
+    "matchedMentions": 123,
     "uniquePersonalities": 39,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 38,
-    "negative": 47,
-    "neutral": 15,
+    "positive": 40,
+    "negative": 50,
+    "neutral": 10,
     "wordCloud": [
-      {
-        "word": "students",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pawar",
-        "count": 11,
-        "sentiment": "neutral"
-      },
       {
         "word": "rahul",
         "count": 10,
         "sentiment": "neutral"
       },
       {
+        "word": "died",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
         "word": "baramati",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pawar",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -194,17 +194,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "died",
+        "word": "students",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attack",
         "count": 7,
         "sentiment": "negative"
       },
       {
-        "word": "shah",
+        "word": "police",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "police",
+        "word": "shah",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -214,7 +219,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "jharkhand",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protests",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "banerjee",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "car",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "near",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kolkata",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -239,14 +269,14 @@
         "sentiment": "negative"
       },
       {
-        "word": "jharkhand",
+        "word": "amid",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "protests",
+        "word": "alleges",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "ajit",
@@ -264,6 +294,11 @@
         "sentiment": "negative"
       },
       {
+        "word": "landing",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "assam",
         "count": 5,
         "sentiment": "neutral"
@@ -274,57 +309,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
+        "word": "justice",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "attack",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "car",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "near",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "incident",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "since",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "landing",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "aaryan",
+        "word": "chief",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-09T11:23:39.781336+00:00",
-    "nextRefresh": "2026-08-09T11:23:39.781336+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 93,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-08-09T12:39:04.854962+00:00",
+    "nextRefresh": "2026-08-09T12:39:04.854962+00:00",
+    "articlesAnalyzed": 428,
+    "matchedMentions": 98,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   }
 }
