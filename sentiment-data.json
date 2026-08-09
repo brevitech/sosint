@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 55,
+    "positive": 40,
+    "negative": 56,
     "neutral": 4,
     "wordCloud": [
       {
@@ -33,6 +33,11 @@
         "word": "iran",
         "count": 10,
         "sentiment": "neutral"
+      },
+      {
+        "word": "fire",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
         "word": "cancer",
@@ -148,49 +153,74 @@
         "word": "effort",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "tps",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-09T05:49:41.312747+00:00",
-    "nextRefresh": "2026-08-09T05:49:41.312747+00:00",
-    "articlesAnalyzed": 345,
-    "matchedMentions": 133,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-08-09T06:45:56.638271+00:00",
+    "nextRefresh": "2026-08-09T06:45:56.638271+00:00",
+    "articlesAnalyzed": 346,
+    "matchedMentions": 136,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 48,
-    "negative": 36,
-    "neutral": 16,
+    "positive": 50,
+    "negative": 33,
+    "neutral": 17,
     "wordCloud": [
-      {
-        "word": "modi",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delimitation",
-        "count": 11,
-        "sentiment": "neutral"
-      },
       {
         "word": "rahul",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
-        "count": 8,
+        "word": "modi",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delimitation",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "internal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "matter",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "supriya",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sule",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sunetra",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kishor",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "pradhan",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -209,7 +239,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "thackeray",
+        "word": "amid",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -220,11 +250,6 @@
       },
       {
         "word": "goonj",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "students",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -244,27 +269,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
+        "word": "pawar-prashant",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "dials",
+        "word": "rift",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "protesting",
+        "word": "buzz",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "youth",
+        "word": "hits",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sri",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "gen",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -277,54 +317,14 @@
         "word": "ties",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "all-party",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "govt",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meeting",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mislead",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "breaks",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-09T05:49:53.409070+00:00",
-    "nextRefresh": "2026-08-09T05:49:53.409070+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 89,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-08-09T06:46:07.933048+00:00",
+    "nextRefresh": "2026-08-09T06:46:07.933048+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 88,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   }
 }
