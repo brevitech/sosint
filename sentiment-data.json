@@ -1,37 +1,42 @@
 {
   "us": {
-    "positive": 30,
-    "negative": 67,
-    "neutral": 3,
+    "positive": 32,
+    "negative": 62,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
+        "count": 68,
         "sentiment": "neutral"
       },
       {
         "word": "rejects",
-        "count": 16,
+        "count": 19,
         "sentiment": "negative"
       },
       {
         "word": "plan",
-        "count": 16,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "gaza",
-        "count": 14,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "netanyahu",
-        "count": 13,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "biden",
-        "count": 13,
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -40,19 +45,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "israel",
+        "word": "assault",
         "count": 10,
+        "sentiment": "negative"
+      },
+      {
+        "word": "el-sayed",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "hunter",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
-      },
-      {
-        "word": "assault",
-        "count": 10,
-        "sentiment": "negative"
       },
       {
         "word": "threats",
@@ -100,7 +105,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "el-sayed",
+        "word": "america",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "michigan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hamas",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -120,73 +135,53 @@
         "sentiment": "neutral"
       },
       {
+        "word": "brand",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "keeps",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "crackdown",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "blanche",
+        "word": "peace",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "father",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cancer",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "ocasio-cortez",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "michigan",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-09T17:25:47.637963+00:00",
-    "nextRefresh": "2026-08-09T17:25:47.637963+00:00",
-    "articlesAnalyzed": 343,
-    "matchedMentions": 135,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-08-09T18:32:16.845148+00:00",
+    "nextRefresh": "2026-08-09T18:32:16.845148+00:00",
+    "articlesAnalyzed": 344,
+    "matchedMentions": 144,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 41,
-    "neutral": 14,
+    "positive": 42,
+    "negative": 42,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "india",
-        "count": 14,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "banerjee",
-        "count": 8,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "car",
+        "word": "attack",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "died",
@@ -194,12 +189,37 @@
         "sentiment": "negative"
       },
       {
-        "word": "attack",
+        "word": "car",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "director",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "navin",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "near",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kolkata",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mamata",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -214,28 +234,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "stones",
+        "word": "killed",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "sri",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
+        "word": "lanka",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "director",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "navin",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mamata",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -249,7 +259,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "coach",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "modi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "stones",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -264,22 +284,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sri",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lanka",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "alleges",
+        "word": "gets",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "kolkata",
+        "word": "extension",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "alleges",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -302,29 +317,14 @@
         "word": "chief",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "surya",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kant",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "convocation",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-09T17:26:00.786855+00:00",
-    "nextRefresh": "2026-08-09T17:26:00.786855+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 86,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-08-09T18:32:31.331064+00:00",
+    "nextRefresh": "2026-08-09T18:32:31.331064+00:00",
+    "articlesAnalyzed": 416,
+    "matchedMentions": 84,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
