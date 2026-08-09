@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 43,
-    "negative": 51,
-    "neutral": 6,
+    "positive": 44,
+    "negative": 52,
+    "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
@@ -15,13 +15,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "blanche",
-        "count": 14,
+        "word": "iran",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 12,
+        "word": "blanche",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -31,11 +31,6 @@
       },
       {
         "word": "father",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -45,8 +40,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "general",
-        "count": 7,
+        "word": "senate",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -75,7 +70,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "attorney",
+        "word": "general",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -150,47 +145,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "todd",
+        "word": "attorney",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "country",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-08T23:22:58.658720+00:00",
-    "nextRefresh": "2026-08-08T23:22:58.658720+00:00",
+    "generatedAt": "2026-08-09T01:16:51.360110+00:00",
+    "nextRefresh": "2026-08-09T01:16:51.360110+00:00",
     "articlesAnalyzed": 344,
-    "matchedMentions": 137,
-    "uniquePersonalities": 45,
+    "matchedMentions": 133,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 45,
-    "negative": 39,
-    "neutral": 16,
+    "negative": 36,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 17,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 15,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "delimitation",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "vance",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -204,7 +204,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "minister",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -219,24 +219,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
+        "word": "pradhan",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "singh",
+        "word": "injured",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ties",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "review",
@@ -245,6 +235,11 @@
       },
       {
         "word": "ranchi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -259,12 +254,42 @@
         "sentiment": "neutral"
       },
       {
+        "word": "students",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "u-turn",
         "count": 4,
         "sentiment": "neutral"
       },
       {
+        "word": "dials",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sen",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "discusses",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gen",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "all-party",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -275,11 +300,6 @@
       },
       {
         "word": "jharkhand",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "students",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -297,33 +317,13 @@
         "word": "protest",
         "count": 4,
         "sentiment": "negative"
-      },
-      {
-        "word": "support",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "injured",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "dials",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congratulates",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-08T23:23:09.618167+00:00",
-    "nextRefresh": "2026-08-08T23:23:09.618167+00:00",
+    "generatedAt": "2026-08-09T01:17:04.311621+00:00",
+    "nextRefresh": "2026-08-09T01:17:04.311621+00:00",
     "articlesAnalyzed": 417,
-    "matchedMentions": 88,
+    "matchedMentions": 96,
     "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
