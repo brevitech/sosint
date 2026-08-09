@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 56,
+    "positive": 43,
+    "negative": 53,
     "neutral": 4,
     "wordCloud": [
       {
@@ -33,11 +33,6 @@
         "word": "iran",
         "count": 10,
         "sentiment": "neutral"
-      },
-      {
-        "word": "fire",
-        "count": 8,
-        "sentiment": "negative"
       },
       {
         "word": "cancer",
@@ -153,20 +148,25 @@
         "word": "effort",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "midterms",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-09T06:45:56.638271+00:00",
-    "nextRefresh": "2026-08-09T06:45:56.638271+00:00",
+    "generatedAt": "2026-08-09T07:49:53.386257+00:00",
+    "nextRefresh": "2026-08-09T07:49:53.386257+00:00",
     "articlesAnalyzed": 346,
-    "matchedMentions": 136,
+    "matchedMentions": 133,
     "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 50,
-    "negative": 33,
-    "neutral": 17,
+    "positive": 49,
+    "negative": 36,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "rahul",
@@ -180,7 +180,7 @@
       },
       {
         "word": "delimitation",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -284,17 +284,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "hits",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sri",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "talks",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -317,14 +312,19 @@
         "word": "ties",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-09T06:46:07.933048+00:00",
-    "nextRefresh": "2026-08-09T06:46:07.933048+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 88,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-08-09T07:50:06.016490+00:00",
+    "nextRefresh": "2026-08-09T07:50:06.016490+00:00",
+    "articlesAnalyzed": 416,
+    "matchedMentions": 81,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
