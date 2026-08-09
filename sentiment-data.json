@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 35,
-    "negative": 56,
-    "neutral": 9,
+    "positive": 41,
+    "negative": 51,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 61,
+        "count": 57,
         "sentiment": "neutral"
       },
       {
@@ -35,8 +35,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 10,
+        "word": "house",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -55,11 +55,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "primary",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "iran",
         "count": 8,
         "sentiment": "neutral"
@@ -70,8 +65,28 @@
         "sentiment": "neutral"
       },
       {
+        "word": "ocasio-cortez",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "america",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "announces",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -80,19 +95,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "primary",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "posts",
+        "word": "decision",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "assault",
-        "count": 6,
-        "sentiment": "negative"
       },
       {
         "word": "michigan",
@@ -100,22 +110,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "brand",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "keeps",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crackdown",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -135,37 +130,42 @@
         "sentiment": "negative"
       },
       {
+        "word": "eggs",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "boat",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "gop",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "threats",
-        "count": 5,
-        "sentiment": "negative"
+        "word": "scharf",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
-        "word": "gop",
-        "count": 5,
+        "word": "counsel",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-09T21:26:11.274606+00:00",
-    "nextRefresh": "2026-08-09T21:26:11.274606+00:00",
+    "generatedAt": "2026-08-09T22:24:17.893840+00:00",
+    "nextRefresh": "2026-08-09T22:24:17.893840+00:00",
     "articlesAnalyzed": 347,
-    "matchedMentions": 148,
-    "uniquePersonalities": 47,
+    "matchedMentions": 146,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 40,
+    "positive": 40,
+    "negative": 41,
     "neutral": 19,
     "wordCloud": [
       {
@@ -199,12 +199,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "director",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "navin",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "kolkata",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "mamata",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -219,32 +239,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "director",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "navin",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "bjp",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "ncp",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crore",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-09T21:26:24.375044+00:00",
-    "nextRefresh": "2026-08-09T21:26:24.375044+00:00",
-    "articlesAnalyzed": 416,
-    "matchedMentions": 81,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-08-09T22:24:28.044487+00:00",
+    "nextRefresh": "2026-08-09T22:24:28.044487+00:00",
+    "articlesAnalyzed": 415,
+    "matchedMentions": 85,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   }
 }
