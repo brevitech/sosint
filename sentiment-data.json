@@ -1,27 +1,32 @@
 {
   "us": {
-    "positive": 31,
+    "positive": 30,
     "negative": 67,
-    "neutral": 2,
+    "neutral": 3,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 61,
+        "count": 62,
         "sentiment": "neutral"
       },
       {
         "word": "rejects",
-        "count": 17,
+        "count": 16,
         "sentiment": "negative"
       },
       {
         "word": "plan",
-        "count": 17,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "gaza",
-        "count": 15,
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "netanyahu",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -30,22 +35,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "israel",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "netanyahu",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
         "word": "democrats",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "point",
+        "word": "israel",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -65,7 +60,22 @@
         "sentiment": "negative"
       },
       {
+        "word": "senate",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "primary",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "iran",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "point",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -110,12 +120,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "primary",
+        "word": "crackdown",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -135,11 +140,6 @@
         "sentiment": "negative"
       },
       {
-        "word": "america",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ocasio-cortez",
         "count": 5,
         "sentiment": "neutral"
@@ -156,21 +156,21 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-09T16:27:50.440709+00:00",
-    "nextRefresh": "2026-08-09T16:27:50.440709+00:00",
-    "articlesAnalyzed": 342,
-    "matchedMentions": 134,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-08-09T17:25:47.637963+00:00",
+    "nextRefresh": "2026-08-09T17:25:47.637963+00:00",
+    "articlesAnalyzed": 343,
+    "matchedMentions": 135,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
-    "negative": 44,
-    "neutral": 12,
+    "positive": 45,
+    "negative": 41,
+    "neutral": 14,
     "wordCloud": [
       {
         "word": "india",
-        "count": 10,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -184,14 +184,14 @@
         "sentiment": "neutral"
       },
       {
+        "word": "rahul",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "died",
         "count": 7,
         "sentiment": "negative"
-      },
-      {
-        "word": "justice",
-        "count": 6,
-        "sentiment": "positive"
       },
       {
         "word": "attack",
@@ -200,6 +200,16 @@
       },
       {
         "word": "near",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "justice",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "students",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -214,7 +224,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "students",
+        "word": "director",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "navin",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -224,17 +239,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
+        "word": "jharkhand",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "crore",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -256,6 +271,16 @@
       {
         "word": "lanka",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "alleges",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kolkata",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -292,39 +317,14 @@
         "word": "convocation",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "react",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "injured",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "protest",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "alleges",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kolkata",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-09T16:28:01.865043+00:00",
-    "nextRefresh": "2026-08-09T16:28:01.865043+00:00",
-    "articlesAnalyzed": 414,
-    "matchedMentions": 79,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-08-09T17:26:00.786855+00:00",
+    "nextRefresh": "2026-08-09T17:26:00.786855+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 86,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
