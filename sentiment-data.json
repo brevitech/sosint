@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 54,
+    "positive": 41,
+    "negative": 55,
     "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 49,
+        "count": 47,
         "sentiment": "neutral"
       },
       {
@@ -90,27 +90,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "general",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "game",
-        "count": 4,
+        "word": "senate",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "data",
+        "word": "game",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -145,66 +135,56 @@
         "sentiment": "neutral"
       },
       {
-        "word": "effort",
+        "word": "midterms",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "midterms",
+        "word": "talks",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "despite",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "harming",
+        "count": 4,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-09T09:33:46.997004+00:00",
-    "nextRefresh": "2026-08-09T09:33:46.997004+00:00",
-    "articlesAnalyzed": 346,
-    "matchedMentions": 128,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-08-09T10:27:42.295016+00:00",
+    "nextRefresh": "2026-08-09T10:27:42.295016+00:00",
+    "articlesAnalyzed": 343,
+    "matchedMentions": 123,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 42,
-    "negative": 44,
-    "neutral": 14,
+    "positive": 38,
+    "negative": 47,
+    "neutral": 15,
     "wordCloud": [
       {
+        "word": "pawar",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
         "word": "rahul",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "baramati",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "internal",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "matter",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "supriya",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sule",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sunetra",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kishor",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
+        "word": "students",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -214,8 +194,73 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pawar",
-        "count": 7,
+        "word": "series",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trainer",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "aircraft",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crashes",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ajit",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "accident",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "internal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "matter",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "supriya",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sule",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sunetra",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kishor",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -229,17 +274,7 @@
         "sentiment": "negative"
       },
       {
-        "word": "series",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
+        "word": "modi",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -254,77 +289,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "baramati",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "tried",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "sri",
-        "count": 5,
-        "sentiment": "neutral"
+        "word": "protests",
+        "count": 4,
+        "sentiment": "negative"
       },
       {
-        "word": "lanka",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pawar-prashant",
+        "word": "incident",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "rift",
+        "word": "since",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "buzz",
+        "word": "shah",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "financial",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tendulkar",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ajit",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "govt",
+        "word": "landing",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-09T09:33:58.216169+00:00",
-    "nextRefresh": "2026-08-09T09:33:58.216169+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 80,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-08-09T10:27:52.741879+00:00",
+    "nextRefresh": "2026-08-09T10:27:52.741879+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 87,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
