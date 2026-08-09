@@ -1,32 +1,42 @@
 {
   "us": {
-    "positive": 33,
-    "negative": 65,
+    "positive": 31,
+    "negative": 67,
     "neutral": 2,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 59,
+        "count": 61,
         "sentiment": "neutral"
       },
       {
         "word": "rejects",
-        "count": 15,
+        "count": 17,
         "sentiment": "negative"
       },
       {
         "word": "plan",
-        "count": 15,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "gaza",
-        "count": 13,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "biden",
-        "count": 11,
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "netanyahu",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -35,7 +45,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "netanyahu",
+        "word": "point",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hunter",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -45,17 +60,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "israel",
+        "word": "threats",
         "count": 9,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "hunter",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "point",
+        "word": "iran",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -70,11 +80,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "threats",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
         "word": "continues",
         "count": 8,
         "sentiment": "neutral"
@@ -85,17 +90,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "blanche",
+        "word": "el-sayed",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -115,7 +110,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "el-sayed",
+        "word": "senate",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "primary",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blanche",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -123,6 +128,11 @@
         "word": "father",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "cancer",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "america",
@@ -140,37 +150,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "primary",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "court",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "birthright",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-09T15:25:26.534340+00:00",
-    "nextRefresh": "2026-08-09T15:25:26.534340+00:00",
-    "articlesAnalyzed": 339,
-    "matchedMentions": 129,
+    "generatedAt": "2026-08-09T16:27:50.440709+00:00",
+    "nextRefresh": "2026-08-09T16:27:50.440709+00:00",
+    "articlesAnalyzed": 342,
+    "matchedMentions": 134,
     "uniquePersonalities": 39,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 43,
-    "negative": 48,
-    "neutral": 9,
+    "positive": 44,
+    "negative": 44,
+    "neutral": 12,
     "wordCloud": [
       {
-        "word": "students",
-        "count": 8,
+        "word": "india",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -180,11 +180,6 @@
       },
       {
         "word": "car",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -219,7 +214,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kolkata",
+        "word": "students",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -230,6 +225,11 @@
       },
       {
         "word": "rahul",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -314,17 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "kolkata",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-09T15:25:39.372490+00:00",
-    "nextRefresh": "2026-08-09T15:25:39.372490+00:00",
+    "generatedAt": "2026-08-09T16:28:01.865043+00:00",
+    "nextRefresh": "2026-08-09T16:28:01.865043+00:00",
     "articlesAnalyzed": 414,
     "matchedMentions": 79,
-    "uniquePersonalities": 40,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
