@@ -1,8 +1,8 @@
 {
   "us": {
     "positive": 35,
-    "negative": 58,
-    "neutral": 7,
+    "negative": 56,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
@@ -10,28 +10,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rejects",
-        "count": 18,
-        "sentiment": "negative"
-      },
-      {
         "word": "plan",
         "count": 18,
         "sentiment": "neutral"
       },
       {
-        "word": "gaza",
+        "word": "netanyahu",
         "count": 16,
         "sentiment": "neutral"
       },
       {
-        "word": "netanyahu",
-        "count": 14,
-        "sentiment": "neutral"
+        "word": "rejects",
+        "count": 16,
+        "sentiment": "negative"
       },
       {
-        "word": "israel",
-        "count": 12,
+        "word": "gaza",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -40,12 +35,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "point",
+        "word": "senate",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "israel",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -70,13 +65,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "michigan",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 7,
+        "word": "point",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -103,6 +93,16 @@
         "word": "assault",
         "count": 6,
         "sentiment": "negative"
+      },
+      {
+        "word": "michigan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "brand",
@@ -140,6 +140,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "democrats",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "threats",
         "count": 5,
         "sentiment": "negative"
@@ -148,29 +153,24 @@
         "word": "gop",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "spider-man",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-09T20:25:25.696436+00:00",
-    "nextRefresh": "2026-08-09T20:25:25.696436+00:00",
-    "articlesAnalyzed": 345,
-    "matchedMentions": 144,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-08-09T21:26:11.274606+00:00",
+    "nextRefresh": "2026-08-09T21:26:11.274606+00:00",
+    "articlesAnalyzed": 347,
+    "matchedMentions": 148,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 40,
+    "positive": 41,
     "negative": 40,
-    "neutral": 20,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "india",
-        "count": 16,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -199,11 +199,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "near",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "kolkata",
         "count": 6,
         "sentiment": "neutral"
@@ -212,11 +207,6 @@
         "word": "mamata",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "killed",
-        "count": 6,
-        "sentiment": "negative"
       },
       {
         "word": "sri",
@@ -269,17 +259,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "baramati",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pawar",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "alleges",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "near",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -299,14 +284,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
+        "word": "role",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "role",
+        "word": "killed",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "against",
@@ -317,13 +302,28 @@
         "word": "gets",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "extension",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "justice",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "students",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-09T20:25:38.110578+00:00",
-    "nextRefresh": "2026-08-09T20:25:38.110578+00:00",
+    "generatedAt": "2026-08-09T21:26:24.375044+00:00",
+    "nextRefresh": "2026-08-09T21:26:24.375044+00:00",
     "articlesAnalyzed": 416,
-    "matchedMentions": 85,
+    "matchedMentions": 81,
     "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
