@@ -1,27 +1,37 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 58,
-    "neutral": 2,
+    "positive": 35,
+    "negative": 62,
+    "neutral": 3,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 53,
+        "count": 56,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rejects",
+        "count": 11,
+        "sentiment": "negative"
+      },
+      {
+        "word": "plan",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gaza",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "biden",
-        "count": 12,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "democrats",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hunter",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -35,7 +45,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "hunter",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "netanyahu",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -65,7 +80,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
+        "word": "iran",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -75,22 +95,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rejects",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "gaza",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "father",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
+        "word": "point",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -100,14 +105,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "primary",
+        "word": "father",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "cancer",
+        "word": "primary",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "south",
@@ -115,24 +120,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "israel",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "point",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "netanyahu",
-        "count": 4,
+        "word": "deal",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "court",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "cancer",
+        "count": 4,
+        "sentiment": "negative"
       },
       {
         "word": "judge",
@@ -150,47 +150,37 @@
         "sentiment": "negative"
       },
       {
-        "word": "midterms",
+        "word": "confirmation",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-09T12:38:50.502401+00:00",
-    "nextRefresh": "2026-08-09T12:38:50.502401+00:00",
+    "generatedAt": "2026-08-09T13:44:20.899976+00:00",
+    "nextRefresh": "2026-08-09T13:44:20.899976+00:00",
     "articlesAnalyzed": 341,
-    "matchedMentions": 123,
-    "uniquePersonalities": 39,
+    "matchedMentions": 122,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 40,
-    "negative": 50,
-    "neutral": 10,
+    "positive": 42,
+    "negative": 47,
+    "neutral": 11,
     "wordCloud": [
-      {
-        "word": "rahul",
-        "count": 10,
-        "sentiment": "neutral"
-      },
       {
         "word": "died",
         "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "baramati",
-        "count": 9,
+        "word": "banerjee",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "pawar",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 9,
+        "word": "car",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -199,24 +189,29 @@
         "sentiment": "neutral"
       },
       {
-        "word": "attack",
-        "count": 7,
-        "sentiment": "negative"
+        "word": "india",
+        "count": 8,
+        "sentiment": "neutral"
       },
       {
-        "word": "police",
+        "word": "baramati",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "pawar",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "rahul",
         "count": 7,
         "sentiment": "neutral"
+      },
+      {
+        "word": "justice",
+        "count": 6,
+        "sentiment": "positive"
       },
       {
         "word": "jharkhand",
@@ -224,19 +219,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "protests",
+        "word": "attack",
         "count": 6,
         "sentiment": "negative"
-      },
-      {
-        "word": "banerjee",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "car",
-        "count": 6,
-        "sentiment": "neutral"
       },
       {
         "word": "near",
@@ -249,24 +234,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trainer",
+        "word": "gill",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "aircraft",
+        "word": "assam",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "crashes",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "accident",
-        "count": 6,
-        "sentiment": "negative"
       },
       {
         "word": "amid",
@@ -274,24 +249,19 @@
         "sentiment": "neutral"
       },
       {
+        "word": "protests",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
         "word": "alleges",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "ajit",
+        "word": "mamata",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "answer",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crime",
-        "count": 5,
-        "sentiment": "negative"
       },
       {
         "word": "landing",
@@ -299,7 +269,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "assam",
+        "word": "police",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -309,22 +279,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "justice",
-        "count": 4,
-        "sentiment": "positive"
+        "word": "crore",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "chief",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trainer",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "aircraft",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crashes",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ajit",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-09T12:39:04.854962+00:00",
-    "nextRefresh": "2026-08-09T12:39:04.854962+00:00",
-    "articlesAnalyzed": 428,
-    "matchedMentions": 98,
-    "uniquePersonalities": 49,
+    "generatedAt": "2026-08-09T13:44:31.961232+00:00",
+    "nextRefresh": "2026-08-09T13:44:31.961232+00:00",
+    "articlesAnalyzed": 429,
+    "matchedMentions": 95,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   }
 }
