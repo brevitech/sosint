@@ -1,27 +1,32 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 52,
+    "positive": 41,
+    "negative": 55,
     "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 55,
+        "count": 50,
         "sentiment": "neutral"
       },
       {
         "word": "biden",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "blanche",
-        "count": 13,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "hunter",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blanche",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "father",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -30,14 +35,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "father",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "effort",
-        "count": 8,
-        "sentiment": "neutral"
+        "word": "cancer",
+        "count": 7,
+        "sentiment": "negative"
       },
       {
         "word": "deal",
@@ -60,42 +60,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "america",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "general",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "court",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cancer",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "judge",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tps",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protections",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -120,22 +90,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fire",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "fed",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lisa",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cook",
+        "word": "senate",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -145,7 +100,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "attorney",
+        "word": "general",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -153,24 +108,69 @@
         "word": "game",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "data",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attorney",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pardon",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "good",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "administration",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "spread",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "effort",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tps",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-09T04:59:11.849986+00:00",
-    "nextRefresh": "2026-08-09T04:59:11.849986+00:00",
-    "articlesAnalyzed": 346,
-    "matchedMentions": 135,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-08-09T05:49:41.312747+00:00",
+    "nextRefresh": "2026-08-09T05:49:41.312747+00:00",
+    "articlesAnalyzed": 345,
+    "matchedMentions": 133,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 49,
+    "positive": 48,
     "negative": 36,
-    "neutral": 15,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 19,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
@@ -284,6 +284,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "govt",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "gandhi",
         "count": 4,
         "sentiment": "neutral"
@@ -312,19 +317,14 @@
         "word": "breaks",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "silence",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-09T04:59:37.378708+00:00",
-    "nextRefresh": "2026-08-09T04:59:37.378708+00:00",
+    "generatedAt": "2026-08-09T05:49:53.409070+00:00",
+    "nextRefresh": "2026-08-09T05:49:53.409070+00:00",
     "articlesAnalyzed": 432,
-    "matchedMentions": 88,
-    "uniquePersonalities": 39,
+    "matchedMentions": 89,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
 }
