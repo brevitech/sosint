@@ -1,17 +1,22 @@
 {
   "us": {
-    "positive": 45,
-    "negative": 47,
-    "neutral": 8,
+    "positive": 46,
+    "negative": 49,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 60,
+        "count": 63,
         "sentiment": "neutral"
       },
       {
         "word": "gaza",
         "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "order",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -25,17 +30,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "order",
+        "word": "signs",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "signs",
-        "count": 10,
+        "word": "blanche",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "blanche",
+        "word": "shots",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -60,12 +65,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "childhood",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "rejection",
         "count": 7,
         "sentiment": "negative"
       },
       {
         "word": "iran",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vaccine",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -80,12 +95,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shots",
+        "word": "executive",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vaccines",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "point",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mmr",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -96,11 +121,6 @@
       },
       {
         "word": "break",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vaccine",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -120,11 +140,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "executive",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "biden",
         "count": 5,
         "sentiment": "neutral"
@@ -138,35 +153,20 @@
         "word": "cdc",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "failed",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "democratic",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "childhood",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-10T19:51:56.422161+00:00",
-    "nextRefresh": "2026-08-10T19:51:56.422161+00:00",
-    "articlesAnalyzed": 326,
-    "matchedMentions": 132,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-08-10T20:35:55.895797+00:00",
+    "nextRefresh": "2026-08-10T20:35:55.895797+00:00",
+    "articlesAnalyzed": 321,
+    "matchedMentions": 134,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 38,
-    "negative": 42,
-    "neutral": 20,
+    "positive": 36,
+    "negative": 40,
+    "neutral": 24,
     "wordCloud": [
       {
         "word": "rahul",
@@ -175,7 +175,7 @@
       },
       {
         "word": "india",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -184,12 +184,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "reply",
+        "word": "parliament",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "reply",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -219,62 +219,7 @@
         "sentiment": "negative"
       },
       {
-        "word": "parliament",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "suvendu",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "arrest",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "amp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "sparks",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "distribution",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rights",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "battle",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "major",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "studios",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "car",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -284,22 +229,22 @@
         "sentiment": "negative"
       },
       {
-        "word": "bill",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "away",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "officer",
+        "word": "cup",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "cup",
+        "word": "govt",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -317,14 +262,69 @@
         "word": "jantar",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "mantar",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "car",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bill",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "star",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gives",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pant",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cricket",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vande",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mataram",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sung",
+        "count": 2,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-10T19:52:07.790675+00:00",
-    "nextRefresh": "2026-08-10T19:52:07.790675+00:00",
-    "articlesAnalyzed": 415,
-    "matchedMentions": 65,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-08-10T20:36:04.383488+00:00",
+    "nextRefresh": "2026-08-10T20:36:04.383488+00:00",
+    "articlesAnalyzed": 414,
+    "matchedMentions": 58,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
