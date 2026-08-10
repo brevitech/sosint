@@ -1,32 +1,32 @@
 {
   "us": {
-    "positive": 46,
-    "negative": 49,
-    "neutral": 5,
+    "positive": 47,
+    "negative": 47,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 63,
+        "count": 67,
         "sentiment": "neutral"
       },
       {
         "word": "gaza",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "order",
-        "count": 13,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "netanyahu",
-        "count": 13,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "plan",
-        "count": 13,
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "order",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -45,12 +45,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "iran",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "vaccine",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -75,17 +75,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "iran",
+        "word": "rejects",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "zuckerberg",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "vaccine",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sanders",
+        "word": "house",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -115,9 +115,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "zuckerberg",
+        "word": "peace",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "break",
@@ -125,12 +125,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "scharf",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "counsel",
+        "word": "white",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -145,32 +140,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rejects",
+        "word": "politics",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "cdc",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "schedule",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-10T20:35:55.895797+00:00",
-    "nextRefresh": "2026-08-10T20:35:55.895797+00:00",
-    "articlesAnalyzed": 321,
-    "matchedMentions": 134,
+    "generatedAt": "2026-08-10T21:36:15.293218+00:00",
+    "nextRefresh": "2026-08-10T21:36:15.293218+00:00",
+    "articlesAnalyzed": 326,
+    "matchedMentions": 140,
     "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 36,
-    "negative": 40,
-    "neutral": 24,
+    "negative": 41,
+    "neutral": 23,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -180,16 +180,6 @@
       },
       {
         "word": "gandhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "parliament",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reply",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -219,7 +209,17 @@
         "sentiment": "negative"
       },
       {
+        "word": "parliament",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "suvendu",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bill",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -229,7 +229,22 @@
         "sentiment": "negative"
       },
       {
+        "word": "reply",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "away",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -239,12 +254,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "shah",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "modi",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -270,11 +285,6 @@
       },
       {
         "word": "car",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -307,23 +317,13 @@
         "word": "vande",
         "count": 2,
         "sentiment": "neutral"
-      },
-      {
-        "word": "mataram",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sung",
-        "count": 2,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-10T20:36:04.383488+00:00",
-    "nextRefresh": "2026-08-10T20:36:04.383488+00:00",
-    "articlesAnalyzed": 414,
-    "matchedMentions": 58,
+    "generatedAt": "2026-08-10T21:36:26.964689+00:00",
+    "nextRefresh": "2026-08-10T21:36:26.964689+00:00",
+    "articlesAnalyzed": 413,
+    "matchedMentions": 59,
     "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
