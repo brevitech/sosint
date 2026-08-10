@@ -1,28 +1,18 @@
 {
   "us": {
-    "positive": 45,
-    "negative": 48,
+    "positive": 46,
+    "negative": 47,
     "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 65,
+        "count": 63,
         "sentiment": "neutral"
       },
       {
         "word": "netanyahu",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "plan",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rejects",
         "count": 15,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "house",
@@ -30,8 +20,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gaza",
+        "word": "rejects",
         "count": 14,
+        "sentiment": "negative"
+      },
+      {
+        "word": "plan",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gaza",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -42,6 +42,11 @@
       {
         "word": "iran",
         "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ocasio-cortez",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -60,8 +65,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ocasio-cortez",
-        "count": 9,
+        "word": "hamas",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -76,16 +81,6 @@
       },
       {
         "word": "democratic",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hamas",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "israel",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -105,7 +100,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "point",
+        "word": "alexandria",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "eggs",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -145,32 +145,37 @@
         "sentiment": "positive"
       },
       {
-        "word": "blanche",
+        "word": "israel",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "attorney",
+        "word": "blanche",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-10T05:20:59.734934+00:00",
-    "nextRefresh": "2026-08-10T05:20:59.734934+00:00",
-    "articlesAnalyzed": 342,
-    "matchedMentions": 149,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-08-10T07:20:54.985326+00:00",
+    "nextRefresh": "2026-08-10T07:20:54.985326+00:00",
+    "articlesAnalyzed": 343,
+    "matchedMentions": 153,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 49,
-    "negative": 33,
-    "neutral": 18,
+    "positive": 52,
+    "negative": 38,
+    "neutral": 10,
     "wordCloud": [
       {
-        "word": "rahul",
-        "count": 14,
+        "word": "india",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -179,67 +184,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "students",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 8,
+        "word": "objecting",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "cji",
-        "count": 8,
+        "word": "distorted",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "map",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "surya",
-        "count": 8,
-        "sentiment": "neutral"
+        "word": "protest",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
-        "word": "kant",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
+        "word": "rahul",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "director",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "navin",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nalsar",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "convocation",
+        "word": "role",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -249,67 +224,72 @@
         "sentiment": "neutral"
       },
       {
+        "word": "cji",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "surya",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kant",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "invite",
         "count": 6,
         "sentiment": "positive"
       },
       {
-        "word": "against",
+        "word": "tamil",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "coach",
+        "word": "praises",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "boxer",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sri",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lanka",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rift",
+        "word": "opinion",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "emerges",
+        "word": "state",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ncpi",
+        "word": "shah",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "break",
+        "word": "lovlina",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ranks",
+        "word": "gill",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ties",
+        "word": "delimitation",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "banerjee",
+        "word": "minister",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -317,14 +297,34 @@
         "word": "attack",
         "count": 4,
         "sentiment": "negative"
+      },
+      {
+        "word": "banerjee",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "restaurant",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "glasgow",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "university",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-10T05:21:10.727232+00:00",
-    "nextRefresh": "2026-08-10T05:21:10.727232+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 81,
-    "uniquePersonalities": 32,
+    "generatedAt": "2026-08-10T07:21:06.791964+00:00",
+    "nextRefresh": "2026-08-10T07:21:06.791964+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 86,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
