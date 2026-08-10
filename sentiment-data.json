@@ -1,12 +1,12 @@
 {
   "us": {
     "positive": 45,
-    "negative": 47,
-    "neutral": 8,
+    "negative": 48,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 54,
+        "count": 51,
         "sentiment": "neutral"
       },
       {
@@ -45,6 +45,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "sanders",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "rejects",
         "count": 7,
         "sentiment": "negative"
@@ -55,7 +60,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ocasio-cortez",
+        "word": "zuckerberg",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -105,39 +115,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sanders",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zuckerberg",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "pressure",
         "count": 4,
         "sentiment": "negative"
-      },
-      {
-        "word": "officials",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "food",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "race",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "governor",
-        "count": 4,
-        "sentiment": "neutral"
       },
       {
         "word": "rejection",
@@ -153,24 +133,49 @@
         "word": "final",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "word",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ocasio-cortez",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "renews",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-10T15:55:45.149869+00:00",
-    "nextRefresh": "2026-08-10T15:55:45.149869+00:00",
-    "articlesAnalyzed": 329,
-    "matchedMentions": 128,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-08-10T16:49:43.026788+00:00",
+    "nextRefresh": "2026-08-10T16:49:43.026788+00:00",
+    "articlesAnalyzed": 331,
+    "matchedMentions": 129,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 47,
-    "negative": 36,
+    "positive": 40,
+    "negative": 43,
     "neutral": 17,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 13,
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "parliament",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -179,18 +184,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "students",
-        "count": 7,
+        "word": "reply",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "reply",
-        "count": 7,
+        "word": "gandhi",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -199,19 +199,29 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "parliament",
+        "word": "debate",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "jharkhand",
+        "word": "rijiju",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "away",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "students",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "govt",
@@ -224,7 +234,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "amit",
+        "word": "modi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -239,7 +254,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "leadership",
+        "word": "demand",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "swipe",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -249,7 +269,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "ordered",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "student",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -292,38 +317,13 @@
         "word": "studios",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "car",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "student",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rijiju",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-10T15:55:58.728977+00:00",
-    "nextRefresh": "2026-08-10T15:55:58.728977+00:00",
-    "articlesAnalyzed": 416,
-    "matchedMentions": 78,
+    "generatedAt": "2026-08-10T16:49:56.949822+00:00",
+    "nextRefresh": "2026-08-10T16:49:56.949822+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 82,
     "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
