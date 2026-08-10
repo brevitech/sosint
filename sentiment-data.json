@@ -1,12 +1,22 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 48,
-    "neutral": 8,
+    "positive": 45,
+    "negative": 49,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 61,
+        "count": 64,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "plan",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gaza",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -15,23 +25,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
-        "count": 12,
+        "word": "netanyahu",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "gaza",
-        "count": 12,
-        "sentiment": "neutral"
+        "word": "rejects",
+        "count": 13,
+        "sentiment": "negative"
       },
       {
         "word": "white",
         "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "netanyahu",
-        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -40,17 +45,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rejects",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
         "word": "ocasio-cortez",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "biden",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -66,11 +61,16 @@
       },
       {
         "word": "el-sayed",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "hunter",
+        "word": "point",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "america",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -80,7 +80,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "america",
+        "word": "biden",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -100,9 +100,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "decision",
+        "word": "power",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "peace",
+        "count": 6,
+        "sentiment": "positive"
       },
       {
         "word": "assault",
@@ -110,17 +115,22 @@
         "sentiment": "negative"
       },
       {
-        "word": "michigan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "democratic",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "israel",
+        "word": "race",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hunter",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "father",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -140,76 +150,56 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "rare",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "secretary",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-10T09:13:36.225631+00:00",
-    "nextRefresh": "2026-08-10T09:13:36.225631+00:00",
-    "articlesAnalyzed": 332,
-    "matchedMentions": 149,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-08-10T11:03:05.263677+00:00",
+    "nextRefresh": "2026-08-10T11:03:05.263677+00:00",
+    "articlesAnalyzed": 334,
+    "matchedMentions": 155,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 56,
-    "negative": 35,
-    "neutral": 9,
+    "positive": 54,
+    "negative": 38,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 16,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 16,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "shah",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "students",
-        "count": 10,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "protest",
-        "count": 9,
+        "count": 10,
         "sentiment": "negative"
       },
       {
-        "word": "bjp",
+        "word": "banerjee",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "action",
+        "word": "boxer",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tamil",
+        "word": "students",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -219,12 +209,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "banerjee",
+        "word": "abhishek",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "boxer",
+        "word": "travel",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abroad",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -249,22 +244,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "parliament",
+        "word": "crackdown",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "protesters",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "rijiju",
+        "word": "eye",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "treatment",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -279,32 +274,12 @@
         "sentiment": "neutral"
       },
       {
+        "word": "parliament",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "court",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "travel",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abroad",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "centre",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "govt",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -314,17 +289,42 @@
         "sentiment": "positive"
       },
       {
-        "word": "reply",
-        "count": 5,
+        "word": "queries",
+        "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amit",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "supreme",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "allows",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "incompetent",
+        "count": 4,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-10T09:13:45.784730+00:00",
-    "nextRefresh": "2026-08-10T09:13:45.784730+00:00",
+    "generatedAt": "2026-08-10T11:03:19.745246+00:00",
+    "nextRefresh": "2026-08-10T11:03:19.745246+00:00",
     "articlesAnalyzed": 430,
-    "matchedMentions": 98,
-    "uniquePersonalities": 43,
+    "matchedMentions": 89,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
