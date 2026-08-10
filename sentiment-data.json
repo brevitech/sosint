@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 45,
-    "negative": 50,
+    "positive": 47,
+    "negative": 48,
     "neutral": 5,
     "wordCloud": [
       {
@@ -11,7 +11,7 @@
       },
       {
         "word": "plan",
-        "count": 18,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -20,27 +20,37 @@
         "sentiment": "neutral"
       },
       {
+        "word": "house",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
         "word": "rejects",
-        "count": 16,
+        "count": 15,
         "sentiment": "negative"
       },
       {
         "word": "gaza",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "biden",
-        "count": 12,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "white",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "scharf",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "counsel",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "biden",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -50,37 +60,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "israel",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hunter",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "scharf",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "counsel",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "iran",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "point",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "ocasio-cortez",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hunter",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -115,6 +110,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "point",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "primary",
         "count": 6,
         "sentiment": "neutral"
@@ -135,6 +135,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "democratic",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "peace",
         "count": 5,
         "sentiment": "positive"
@@ -148,24 +153,19 @@
         "word": "attorney",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "general",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-09T23:25:22.273593+00:00",
-    "nextRefresh": "2026-08-09T23:25:22.273593+00:00",
-    "articlesAnalyzed": 347,
-    "matchedMentions": 145,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-08-10T01:18:35.136020+00:00",
+    "nextRefresh": "2026-08-10T01:18:35.136020+00:00",
+    "articlesAnalyzed": 342,
+    "matchedMentions": 149,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 40,
-    "negative": 43,
+    "positive": 43,
+    "negative": 40,
     "neutral": 17,
     "wordCloud": [
       {
@@ -179,14 +179,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "attack",
         "count": 8,
         "sentiment": "negative"
+      },
+      {
+        "word": "rahul",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "died",
@@ -199,32 +199,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "director",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "navin",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "kolkata",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "mamata",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "delhi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -244,22 +224,37 @@
         "sentiment": "neutral"
       },
       {
+        "word": "director",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "navin",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mamata",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "bjp",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "ncp",
+        "word": "shah",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "coach",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stones",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -274,7 +269,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "chief",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "surya",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kant",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "convocation",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -304,27 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gets",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "extension",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "justice",
         "count": 3,
         "sentiment": "positive"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-09T23:25:35.107421+00:00",
-    "nextRefresh": "2026-08-09T23:25:35.107421+00:00",
-    "articlesAnalyzed": 416,
-    "matchedMentions": 86,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-08-10T01:18:47.891968+00:00",
+    "nextRefresh": "2026-08-10T01:18:47.891968+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 83,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
