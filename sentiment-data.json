@@ -1,16 +1,16 @@
 {
   "us": {
-    "positive": 47,
-    "negative": 47,
-    "neutral": 6,
+    "positive": 45,
+    "negative": 50,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 67,
+        "count": 64,
         "sentiment": "neutral"
       },
       {
-        "word": "gaza",
+        "word": "plan",
         "count": 16,
         "sentiment": "neutral"
       },
@@ -20,13 +20,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
+        "word": "gaza",
         "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "order",
-        "count": 14,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -35,19 +35,24 @@
         "sentiment": "neutral"
       },
       {
+        "word": "shots",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zuckerberg",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "blanche",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "shots",
+        "word": "rejects",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 8,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "vaccine",
@@ -65,37 +70,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "childhood",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rejection",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "rejects",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "zuckerberg",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "house",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "sworn",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "executive",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -110,7 +90,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "childhood",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "mmr",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -135,12 +125,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "rejection",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
         "word": "biden",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "politics",
+        "word": "executive",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -153,33 +148,38 @@
         "word": "schedule",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "failed",
+        "count": 5,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-10T21:36:15.293218+00:00",
-    "nextRefresh": "2026-08-10T21:36:15.293218+00:00",
+    "generatedAt": "2026-08-10T22:31:54.434827+00:00",
+    "nextRefresh": "2026-08-10T22:31:54.434827+00:00",
     "articlesAnalyzed": 326,
-    "matchedMentions": 140,
-    "uniquePersonalities": 41,
+    "matchedMentions": 141,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 36,
-    "negative": 41,
-    "neutral": 23,
+    "positive": 39,
+    "negative": 39,
+    "neutral": 22,
     "wordCloud": [
       {
         "word": "rahul",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -194,22 +194,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jharkhand",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "students",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
+        "word": "parliament",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "parliament",
+        "word": "govt",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -234,12 +234,42 @@
         "sentiment": "neutral"
       },
       {
+        "word": "jharkhand",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
         "word": "against",
         "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "away",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "soren",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slams",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -269,11 +299,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "injured",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
         "word": "jantar",
         "count": 3,
         "sentiment": "neutral"
@@ -292,39 +317,14 @@
         "word": "gill",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "star",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gives",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pant",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cricket",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vande",
-        "count": 2,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-10T21:36:26.964689+00:00",
-    "nextRefresh": "2026-08-10T21:36:26.964689+00:00",
+    "generatedAt": "2026-08-10T22:32:06.118871+00:00",
+    "nextRefresh": "2026-08-10T22:32:06.118871+00:00",
     "articlesAnalyzed": 413,
-    "matchedMentions": 59,
-    "uniquePersonalities": 35,
+    "matchedMentions": 57,
+    "uniquePersonalities": 32,
     "dataSource": "live-rss"
   }
 }
