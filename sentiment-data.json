@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 46,
-    "negative": 47,
-    "neutral": 7,
+    "positive": 49,
+    "negative": 45,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
@@ -16,12 +16,7 @@
       },
       {
         "word": "plan",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "netanyahu",
-        "count": 13,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -30,7 +25,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "point",
+        "word": "netanyahu",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sanders",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -40,28 +40,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sanders",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "rejection",
         "count": 7,
         "sentiment": "negative"
       },
       {
-        "word": "rejects",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "biden",
-        "count": 7,
+        "word": "point",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 7,
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zuckerberg",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -80,24 +75,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "israel",
+        "word": "biden",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "ocasio-cortez",
+        "word": "rejects",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reflecting",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pool",
-        "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "obama",
@@ -105,9 +90,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "zuckerberg",
+        "word": "failed",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "unlikely",
@@ -125,7 +110,42 @@
         "sentiment": "neutral"
       },
       {
+        "word": "ocasio-cortez",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "peace",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
         "word": "administration",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reflecting",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pool",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pause",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "development",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -133,44 +153,24 @@
         "word": "podcast",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "renews",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "staff",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "secretary",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fauci",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-10T17:47:07.520219+00:00",
-    "nextRefresh": "2026-08-10T17:47:07.520219+00:00",
-    "articlesAnalyzed": 330,
-    "matchedMentions": 127,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-08-10T18:49:36.353746+00:00",
+    "nextRefresh": "2026-08-10T18:49:36.353746+00:00",
+    "articlesAnalyzed": 326,
+    "matchedMentions": 122,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 38,
+    "positive": 36,
+    "negative": 43,
     "neutral": 21,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 16,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -180,7 +180,7 @@
       },
       {
         "word": "gandhi",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -190,8 +190,18 @@
       },
       {
         "word": "jharkhand",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "shah",
@@ -199,17 +209,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
         "word": "away",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sparks",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -229,11 +229,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "target",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "sri",
         "count": 5,
         "sentiment": "neutral"
@@ -241,6 +236,11 @@
       {
         "word": "lanka",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -264,14 +264,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "student",
+        "word": "case",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "arrest",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "amp",
@@ -282,6 +282,11 @@
         "word": "war",
         "count": 4,
         "sentiment": "negative"
+      },
+      {
+        "word": "sparks",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
         "word": "distribution",
@@ -312,19 +317,14 @@
         "word": "car",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "firing",
-        "count": 4,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-10T17:47:20.761899+00:00",
-    "nextRefresh": "2026-08-10T17:47:20.761899+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 79,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-08-10T18:49:47.615765+00:00",
+    "nextRefresh": "2026-08-10T18:49:47.615765+00:00",
+    "articlesAnalyzed": 415,
+    "matchedMentions": 75,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
