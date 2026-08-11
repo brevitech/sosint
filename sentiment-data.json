@@ -1,33 +1,33 @@
 {
   "us": {
-    "positive": 39,
+    "positive": 42,
     "negative": 54,
-    "neutral": 7,
+    "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 12,
+        "count": 60,
         "sentiment": "neutral"
       },
       {
         "word": "order",
-        "count": 12,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 12,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "biden",
-        "count": 9,
+        "word": "judge",
+        "count": 10,
         "sentiment": "neutral"
+      },
+      {
+        "word": "threat",
+        "count": 9,
+        "sentiment": "negative"
       },
       {
         "word": "court",
@@ -45,32 +45,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "threat",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "former",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "department",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "vaccines",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "hunter",
+        "word": "president",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -80,12 +65,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
+        "word": "former",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -125,7 +105,22 @@
         "sentiment": "positive"
       },
       {
-        "word": "russia",
+        "word": "department",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fire",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "catering",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -135,42 +130,47 @@
         "sentiment": "positive"
       },
       {
-        "word": "defends",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "sue",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "office",
-        "count": 5,
+        "word": "north",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "primary",
-        "count": 5,
+        "word": "claims",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "truck",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "russia",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-11T18:55:12.795112+00:00",
-    "nextRefresh": "2026-08-11T18:55:12.795112+00:00",
+    "generatedAt": "2026-08-11T19:58:05.164406+00:00",
+    "nextRefresh": "2026-08-11T19:58:05.164406+00:00",
     "articlesAnalyzed": 331,
-    "matchedMentions": 145,
+    "matchedMentions": 137,
     "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 51,
-    "negative": 28,
-    "neutral": 21,
+    "negative": 27,
+    "neutral": 22,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -184,6 +184,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "gandhi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "crore",
         "count": 6,
         "sentiment": "neutral"
@@ -194,12 +199,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "bjp",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "india",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -214,22 +219,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vande",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mataram",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "banerjee",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -274,6 +264,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "punjab",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "fraud",
         "count": 3,
         "sentiment": "negative"
@@ -284,12 +284,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "president",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
+        "word": "centre",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -309,22 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
+        "word": "cup",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "sri",
-        "count": 3,
+        "word": "didn",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
+        "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-11T18:55:24.340667+00:00",
-    "nextRefresh": "2026-08-11T18:55:24.340667+00:00",
+    "generatedAt": "2026-08-11T19:58:17.489863+00:00",
+    "nextRefresh": "2026-08-11T19:58:17.489863+00:00",
     "articlesAnalyzed": 417,
-    "matchedMentions": 69,
-    "uniquePersonalities": 40,
+    "matchedMentions": 67,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
