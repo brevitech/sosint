@@ -1,22 +1,42 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 50,
-    "neutral": 6,
+    "positive": 43,
+    "negative": 52,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 58,
+        "count": 57,
         "sentiment": "neutral"
       },
       {
         "word": "order",
-        "count": 15,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "catering",
-        "count": 9,
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -26,36 +46,16 @@
       },
       {
         "word": "plane",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vaccine",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "signs",
+        "word": "switch",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "childhood",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -65,12 +65,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "switch",
+        "word": "vaccine",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "netanyahu",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "threat",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "signs",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -100,8 +110,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fauci",
-        "count": 6,
+        "word": "sue",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -115,9 +125,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "netanyahu",
+        "word": "supreme",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "south",
@@ -125,22 +135,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "return",
-        "count": 5,
+        "word": "north",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "state",
-        "count": 5,
+        "word": "korean",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "executive",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
+        "word": "plan",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -148,34 +153,34 @@
         "word": "candidates",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "threat",
-        "count": 4,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-11T15:55:55.865723+00:00",
-    "nextRefresh": "2026-08-11T15:55:55.865723+00:00",
-    "articlesAnalyzed": 331,
-    "matchedMentions": 135,
+    "generatedAt": "2026-08-11T16:54:18.667418+00:00",
+    "nextRefresh": "2026-08-11T16:54:18.667418+00:00",
+    "articlesAnalyzed": 321,
+    "matchedMentions": 133,
     "uniquePersonalities": 36,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 54,
-    "negative": 22,
-    "neutral": 24,
+    "positive": 55,
+    "negative": 25,
+    "neutral": 20,
     "wordCloud": [
       {
+        "word": "shah",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "modi",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "bill",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -194,12 +199,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "lok",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sonia",
+        "word": "sabha",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -210,6 +215,11 @@
       },
       {
         "word": "president",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sonia",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -279,11 +289,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "crore",
         "count": 4,
         "sentiment": "neutral"
@@ -312,18 +317,13 @@
         "word": "lanka",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "insult",
-        "count": 3,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-11T15:56:10.703078+00:00",
-    "nextRefresh": "2026-08-11T15:56:10.703078+00:00",
+    "generatedAt": "2026-08-11T16:54:29.944118+00:00",
+    "nextRefresh": "2026-08-11T16:54:29.944118+00:00",
     "articlesAnalyzed": 432,
-    "matchedMentions": 68,
+    "matchedMentions": 71,
     "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
