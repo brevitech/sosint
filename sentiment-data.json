@@ -1,17 +1,32 @@
 {
   "us": {
-    "positive": 51,
-    "negative": 42,
-    "neutral": 7,
+    "positive": 44,
+    "negative": 50,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 49,
+        "count": 58,
         "sentiment": "neutral"
       },
       {
         "word": "order",
-        "count": 12,
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "catering",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "secret",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "plane",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -25,28 +40,38 @@
         "sentiment": "neutral"
       },
       {
-        "word": "south",
+        "word": "signs",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "signs",
+        "word": "childhood",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "childhood",
+        "word": "container",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "switch",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "netanyahu",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -55,12 +80,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gaza",
+        "word": "corps",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "blanche",
+        "word": "traveling",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kept",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dark",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -80,32 +115,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bezos",
+        "word": "netanyahu",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
+        "word": "south",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "pentagon",
+        "word": "return",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
+        "word": "state",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "hormuz",
+        "word": "executive",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "power",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -118,123 +153,48 @@
         "word": "threat",
         "count": 4,
         "sentiment": "negative"
-      },
-      {
-        "word": "split",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mmr",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hunter",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "politics",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bid",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "weekly",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "graham",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-11T14:16:46.102557+00:00",
-    "nextRefresh": "2026-08-11T14:16:46.102557+00:00",
-    "articlesAnalyzed": 326,
-    "matchedMentions": 137,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-08-11T15:55:55.865723+00:00",
+    "nextRefresh": "2026-08-11T15:55:55.865723+00:00",
+    "articlesAnalyzed": 331,
+    "matchedMentions": 135,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 47,
-    "negative": 29,
+    "positive": 54,
+    "negative": 22,
     "neutral": 24,
     "wordCloud": [
       {
-        "word": "rahul",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "parliament",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
         "word": "modi",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "rijiju",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "away",
+        "word": "bill",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "monsoon",
+        "word": "vande",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "session",
+        "word": "mataram",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "challenges",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "face",
+        "word": "court",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "amit",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reception",
+        "word": "shah",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -244,37 +204,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "rahul",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "adani",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "relief",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "bill",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vande",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mataram",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
+        "word": "president",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -284,27 +219,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kiren",
+        "word": "murmu",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
+        "word": "gives",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "lok",
+        "word": "assent",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "sabha",
+        "word": "adani",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "relief",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "case",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -314,17 +254,77 @@
         "sentiment": "neutral"
       },
       {
+        "word": "reception",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "supriya",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "sule",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "daughter",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pics",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sri",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lanka",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "insult",
+        "count": 3,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-11T14:16:59.171187+00:00",
-    "nextRefresh": "2026-08-11T14:16:59.171187+00:00",
-    "articlesAnalyzed": 416,
-    "matchedMentions": 79,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-08-11T15:56:10.703078+00:00",
+    "nextRefresh": "2026-08-11T15:56:10.703078+00:00",
+    "articlesAnalyzed": 432,
+    "matchedMentions": 68,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
