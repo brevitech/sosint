@@ -1,32 +1,22 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 59,
+    "positive": 41,
+    "negative": 56,
     "neutral": 3,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 72,
+        "count": 70,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 19,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "order",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "block",
-        "count": 12,
-        "sentiment": "negative"
-      },
-      {
-        "word": "minnesota",
-        "count": 11,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -35,9 +25,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "department",
+        "word": "south",
         "count": 10,
         "sentiment": "neutral"
+      },
+      {
+        "word": "block",
+        "count": 10,
+        "sentiment": "negative"
       },
       {
         "word": "administration",
@@ -50,12 +45,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "carolina",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minnesota",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "graham",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "mail-in",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "faces",
+        "word": "threat",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "department",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -65,14 +80,14 @@
         "sentiment": "neutral"
       },
       {
+        "word": "replace",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "legal",
         "count": 6,
         "sentiment": "positive"
-      },
-      {
-        "word": "former",
-        "count": 6,
-        "sentiment": "neutral"
       },
       {
         "word": "iran",
@@ -80,44 +95,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "threat",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "officials",
+        "word": "polls",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "monitoring",
+        "word": "race",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "polling",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sites",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "largest",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "counties",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "justice",
-        "count": 6,
-        "sentiment": "positive"
       },
       {
         "word": "democratic",
@@ -153,20 +138,35 @@
         "word": "fees",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "musician",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "using",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-11T22:35:55.922188+00:00",
-    "nextRefresh": "2026-08-11T22:35:55.922188+00:00",
-    "articlesAnalyzed": 332,
+    "generatedAt": "2026-08-11T23:34:16.934775+00:00",
+    "nextRefresh": "2026-08-11T23:34:16.934775+00:00",
+    "articlesAnalyzed": 334,
     "matchedMentions": 143,
-    "uniquePersonalities": 41,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 50,
-    "negative": 30,
-    "neutral": 20,
+    "negative": 29,
+    "neutral": 21,
     "wordCloud": [
       {
         "word": "gandhi",
@@ -220,6 +220,11 @@
       },
       {
         "word": "within",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fadnavis",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "cup",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "act",
-        "count": 2,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-11T22:36:09.136204+00:00",
-    "nextRefresh": "2026-08-11T22:36:09.136204+00:00",
+    "generatedAt": "2026-08-11T23:34:29.571724+00:00",
+    "nextRefresh": "2026-08-11T23:34:29.571724+00:00",
     "articlesAnalyzed": 416,
-    "matchedMentions": 64,
-    "uniquePersonalities": 38,
+    "matchedMentions": 66,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
