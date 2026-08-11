@@ -1,17 +1,37 @@
 {
   "us": {
     "positive": 38,
-    "negative": 58,
-    "neutral": 4,
+    "negative": 59,
+    "neutral": 3,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 61,
+        "count": 72,
         "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "order",
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "block",
+        "count": 12,
+        "sentiment": "negative"
       },
       {
         "word": "minnesota",
         "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "voting",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -20,12 +40,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "order",
+        "word": "administration",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -35,33 +50,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "counties",
+        "word": "mail-in",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "block",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "iran",
+        "word": "faces",
         "count": 7,
         "sentiment": "neutral"
-      },
-      {
-        "word": "threat",
-        "count": 7,
-        "sentiment": "negative"
       },
       {
         "word": "office",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "center",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -70,14 +70,19 @@
         "sentiment": "positive"
       },
       {
-        "word": "power",
+        "word": "former",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "former",
+        "word": "iran",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "threat",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "officials",
@@ -105,6 +110,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "counties",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "justice",
         "count": 6,
         "sentiment": "positive"
@@ -120,17 +130,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "primary",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "state",
+        "word": "limit",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "north",
+        "word": "against",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -140,33 +145,28 @@
         "sentiment": "neutral"
       },
       {
+        "word": "center",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "fees",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "musician",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vaccines",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-11T21:40:11.750496+00:00",
-    "nextRefresh": "2026-08-11T21:40:11.750496+00:00",
+    "generatedAt": "2026-08-11T22:35:55.922188+00:00",
+    "nextRefresh": "2026-08-11T22:35:55.922188+00:00",
     "articlesAnalyzed": 332,
-    "matchedMentions": 137,
-    "uniquePersonalities": 45,
+    "matchedMentions": 143,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 29,
-    "neutral": 19,
+    "positive": 50,
+    "negative": 30,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "gandhi",
@@ -185,6 +185,11 @@
       },
       {
         "word": "jobs",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -214,13 +219,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "case",
-        "count": 4,
+        "word": "within",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 4,
+        "word": "visit",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -230,6 +235,11 @@
       },
       {
         "word": "chief",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -284,6 +294,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "case",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "white",
         "count": 3,
         "sentiment": "neutral"
@@ -299,32 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "didn",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protest",
-        "count": 2,
-        "sentiment": "negative"
-      },
-      {
-        "word": "site",
+        "word": "act",
         "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-11T21:40:24.711839+00:00",
-    "nextRefresh": "2026-08-11T21:40:24.711839+00:00",
+    "generatedAt": "2026-08-11T22:36:09.136204+00:00",
+    "nextRefresh": "2026-08-11T22:36:09.136204+00:00",
     "articlesAnalyzed": 416,
-    "matchedMentions": 62,
-    "uniquePersonalities": 39,
+    "matchedMentions": 64,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
