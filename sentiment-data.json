@@ -1,16 +1,26 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 53,
-    "neutral": 6,
+    "positive": 44,
+    "negative": 49,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 48,
+        "count": 46,
         "sentiment": "neutral"
       },
       {
         "word": "secretary",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leavitt",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "karoline",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -25,33 +35,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "leavitt",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "karoline",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "rubio",
         "count": 8,
         "sentiment": "neutral"
       },
       {
+        "word": "hegseth",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "iran",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -71,16 +66,6 @@
       },
       {
         "word": "ambassador",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lakers",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "remarks",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -120,12 +105,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "groups",
+        "word": "kushner",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iger",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lakers",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "politics",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gives",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -138,35 +153,20 @@
         "word": "posts",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "leaving",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "threat",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "election",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-12T21:39:50.064514+00:00",
-    "nextRefresh": "2026-08-12T21:39:50.064514+00:00",
-    "articlesAnalyzed": 337,
-    "matchedMentions": 115,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-08-12T22:34:52.567592+00:00",
+    "nextRefresh": "2026-08-12T22:34:52.567592+00:00",
+    "articlesAnalyzed": 339,
+    "matchedMentions": 117,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 39,
-    "negative": 31,
-    "neutral": 30,
+    "positive": 41,
+    "negative": 30,
+    "neutral": 29,
     "wordCloud": [
       {
         "word": "tata",
@@ -320,9 +320,9 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-12T21:40:01.784258+00:00",
-    "nextRefresh": "2026-08-12T21:40:01.784258+00:00",
-    "articlesAnalyzed": 413,
+    "generatedAt": "2026-08-12T22:35:05.259093+00:00",
+    "nextRefresh": "2026-08-12T22:35:05.259093+00:00",
+    "articlesAnalyzed": 415,
     "matchedMentions": 64,
     "uniquePersonalities": 35,
     "dataSource": "live-rss"
