@@ -1,12 +1,37 @@
 {
   "us": {
-    "positive": 46,
-    "negative": 49,
-    "neutral": 5,
+    "positive": 39,
+    "negative": 55,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 47,
+        "count": 49,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rubio",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "secretary",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leavitt",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -15,12 +40,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rubio",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "south",
+        "word": "karoline",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -30,9 +50,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "secret",
-        "count": 5,
+        "word": "hegseth",
+        "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "threat",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "plane",
@@ -50,6 +75,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "remarks",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "south",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "administration",
         "count": 5,
         "sentiment": "neutral"
@@ -60,9 +95,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "threat",
+        "word": "role",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "end",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "access",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
         "word": "thousands",
@@ -80,39 +130,19 @@
         "sentiment": "neutral"
       },
       {
+        "word": "truth",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "social",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "groups",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "flight",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cook",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "backs",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "governor",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democratic",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "support",
-        "count": 4,
-        "sentiment": "positive"
       },
       {
         "word": "awards",
@@ -123,103 +153,48 @@
         "word": "musician",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "canceled",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kennedy",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "center",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "performance",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "billion",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kelce",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-12T18:55:14.463074+00:00",
-    "nextRefresh": "2026-08-12T18:55:14.463074+00:00",
-    "articlesAnalyzed": 334,
+    "generatedAt": "2026-08-12T19:58:45.117967+00:00",
+    "nextRefresh": "2026-08-12T19:58:45.117967+00:00",
+    "articlesAnalyzed": 335,
     "matchedMentions": 118,
-    "uniquePersonalities": 35,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 35,
-    "neutral": 20,
+    "positive": 41,
+    "negative": 31,
+    "neutral": 28,
     "wordCloud": [
       {
-        "word": "chandrasekaran",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
         "word": "tata",
-        "count": 15,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "sons",
-        "count": 8,
+        "word": "chandrasekaran",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "shah",
-        "count": 6,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 5,
-        "sentiment": "neutral"
+        "word": "ready",
+        "count": 4,
+        "sentiment": "positive"
       },
       {
-        "word": "makes",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "several",
+        "word": "bjp",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "chairmen",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cyrus",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mistry",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stood",
+        "word": "sons",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -249,12 +224,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bumrah",
+        "word": "india",
         "count": 4,
         "sentiment": "neutral"
       },
       {
+        "word": "parliament",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "session",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "opposition",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "singh",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "remarks",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "makes",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -294,37 +299,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "warning",
+        "word": "chandra",
         "count": 3,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "reappointment",
+        "word": "bumrah",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "monsoon",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "succession",
-        "count": 2,
-        "sentiment": "positive"
-      },
-      {
-        "word": "plan",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "takeaways",
+        "word": "highlights",
         "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-12T18:55:26.128484+00:00",
-    "nextRefresh": "2026-08-12T18:55:26.128484+00:00",
-    "articlesAnalyzed": 415,
-    "matchedMentions": 62,
-    "uniquePersonalities": 33,
+    "generatedAt": "2026-08-12T19:58:57.035658+00:00",
+    "nextRefresh": "2026-08-12T19:58:57.035658+00:00",
+    "articlesAnalyzed": 414,
+    "matchedMentions": 64,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
