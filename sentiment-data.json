@@ -1,37 +1,37 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 49,
-    "neutral": 7,
+    "positive": 42,
+    "negative": 50,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 46,
+        "count": 45,
         "sentiment": "neutral"
       },
       {
         "word": "secretary",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leavitt",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "karoline",
+        "word": "leavitt",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "karoline",
         "count": 9,
         "sentiment": "neutral"
       },
       {
+        "word": "white",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "house",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -70,13 +70,28 @@
         "sentiment": "neutral"
       },
       {
+        "word": "amid",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "south",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "say",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -105,6 +120,26 @@
         "sentiment": "neutral"
       },
       {
+        "word": "air",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "force",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attacks",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
         "word": "kushner",
         "count": 4,
         "sentiment": "neutral"
@@ -118,59 +153,24 @@
         "word": "lakers",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "politics",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gives",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "service",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "posts",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-12T22:34:52.567592+00:00",
-    "nextRefresh": "2026-08-12T22:34:52.567592+00:00",
-    "articlesAnalyzed": 339,
-    "matchedMentions": 117,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-08-12T23:35:49.967333+00:00",
+    "nextRefresh": "2026-08-12T23:35:49.967333+00:00",
+    "articlesAnalyzed": 334,
+    "matchedMentions": 121,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 30,
-    "neutral": 29,
+    "positive": 42,
+    "negative": 28,
+    "neutral": 30,
     "wordCloud": [
       {
         "word": "tata",
-        "count": 16,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -195,6 +195,11 @@
       },
       {
         "word": "sons",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "group",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -264,11 +269,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "group",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "remarks",
         "count": 3,
         "sentiment": "neutral"
@@ -320,10 +320,10 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-12T22:35:05.259093+00:00",
-    "nextRefresh": "2026-08-12T22:35:05.259093+00:00",
-    "articlesAnalyzed": 415,
-    "matchedMentions": 64,
+    "generatedAt": "2026-08-12T23:36:02.366782+00:00",
+    "nextRefresh": "2026-08-12T23:36:02.366782+00:00",
+    "articlesAnalyzed": 416,
+    "matchedMentions": 67,
     "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
