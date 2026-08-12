@@ -1,62 +1,32 @@
 {
   "us": {
-    "positive": 36,
-    "negative": 60,
+    "positive": 43,
+    "negative": 53,
     "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 65,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 21,
+        "count": 61,
         "sentiment": "neutral"
       },
       {
         "word": "primary",
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
         "count": 17,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "order",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "south",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "graham",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "carolina",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "darline",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "runoff",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
         "word": "minnesota",
-        "count": 13,
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -65,42 +35,22 @@
         "sentiment": "negative"
       },
       {
-        "word": "voting",
+        "word": "order",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "norman",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republican",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wisconsin",
+        "word": "wins",
         "count": 10,
+        "sentiment": "positive"
+      },
+      {
+        "word": "governor",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "face",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ralph",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "polls",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
+        "word": "south",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -110,13 +60,33 @@
         "sentiment": "neutral"
       },
       {
+        "word": "voting",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "iran",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "close",
+        "word": "race",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democratic",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "carolina",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "graham",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -125,27 +95,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "threat",
+        "word": "wisconsin",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "threat",
+        "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "power",
+        "word": "administration",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "legal",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "against",
+        "word": "progressive",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "democratic",
+        "word": "anti-ice",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sentiments",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "remains",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "close",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,103 +138,118 @@
         "word": "results",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "darline",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "runoff",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-12T01:24:55.034425+00:00",
-    "nextRefresh": "2026-08-12T01:24:55.034425+00:00",
+    "generatedAt": "2026-08-12T04:02:03.072325+00:00",
+    "nextRefresh": "2026-08-12T04:02:03.072325+00:00",
     "articlesAnalyzed": 336,
-    "matchedMentions": 148,
-    "uniquePersonalities": 36,
+    "matchedMentions": 143,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 48,
+    "positive": 50,
     "negative": 26,
-    "neutral": 26,
+    "neutral": 24,
     "wordCloud": [
-      {
-        "word": "gandhi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
       {
         "word": "modi",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jobs",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jharkhand",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kishor",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 4,
+        "word": "against",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "case",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lok",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sabha",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bill",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meets",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "within",
+        "word": "rahul",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "drops",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "adani",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "high",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "fadnavis",
+        "word": "ties",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
+        "word": "jharkhand",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "punjab",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chief",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crore",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
+        "word": "shah",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -264,22 +264,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "president",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vande",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mataram",
+        "word": "gives",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -289,22 +274,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "kishor",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jobs",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "bankipur",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lok",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sabha",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "centre",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -317,14 +297,34 @@
         "word": "tariff",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "nod",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "emkay",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-12T01:25:06.151648+00:00",
-    "nextRefresh": "2026-08-12T01:25:06.151648+00:00",
-    "articlesAnalyzed": 415,
-    "matchedMentions": 61,
-    "uniquePersonalities": 32,
+    "generatedAt": "2026-08-12T04:02:16.751307+00:00",
+    "nextRefresh": "2026-08-12T04:02:16.751307+00:00",
+    "articlesAnalyzed": 428,
+    "matchedMentions": 54,
+    "uniquePersonalities": 33,
     "dataSource": "live-rss"
   }
 }
