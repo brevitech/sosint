@@ -1,37 +1,37 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 55,
-    "neutral": 7,
+    "positive": 41,
+    "negative": 53,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 54,
+        "count": 48,
         "sentiment": "neutral"
       },
       {
         "word": "secretary",
-        "count": 12,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "white",
-        "count": 11,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "house",
-        "count": 11,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "leavitt",
-        "count": 11,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "karoline",
-        "count": 10,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -41,7 +41,7 @@
       },
       {
         "word": "iran",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -55,21 +55,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "role",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "access",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "truth",
         "count": 5,
         "sentiment": "positive"
@@ -78,11 +63,6 @@
         "word": "social",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "threat",
-        "count": 5,
-        "sentiment": "negative"
       },
       {
         "word": "plane",
@@ -115,17 +95,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "end",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "posts",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "sued",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "access",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -140,12 +115,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "catering",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
+        "word": "president",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -153,24 +123,54 @@
         "word": "groups",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "service",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "posts",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leaving",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "threat",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "election",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-12T20:50:33.545357+00:00",
-    "nextRefresh": "2026-08-12T20:50:33.545357+00:00",
-    "articlesAnalyzed": 336,
-    "matchedMentions": 121,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-08-12T21:39:50.064514+00:00",
+    "nextRefresh": "2026-08-12T21:39:50.064514+00:00",
+    "articlesAnalyzed": 337,
+    "matchedMentions": 115,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 42,
-    "negative": 30,
-    "neutral": 28,
+    "positive": 39,
+    "negative": 31,
+    "neutral": 30,
     "wordCloud": [
       {
         "word": "tata",
-        "count": 15,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -254,6 +254,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "steps",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "down",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "group",
         "count": 3,
         "sentiment": "neutral"
@@ -307,24 +317,14 @@
         "word": "chandra",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "bumrah",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "monsoon",
-        "count": 2,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-12T20:50:43.840720+00:00",
-    "nextRefresh": "2026-08-12T20:50:43.840720+00:00",
-    "articlesAnalyzed": 414,
-    "matchedMentions": 67,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-08-12T21:40:01.784258+00:00",
+    "nextRefresh": "2026-08-12T21:40:01.784258+00:00",
+    "articlesAnalyzed": 413,
+    "matchedMentions": 64,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
