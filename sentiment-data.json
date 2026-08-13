@@ -1,12 +1,12 @@
 {
   "us": {
     "positive": 33,
-    "negative": 58,
-    "neutral": 9,
+    "negative": 59,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 58,
+        "count": 57,
         "sentiment": "neutral"
       },
       {
@@ -25,8 +25,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "votes",
+        "word": "uss",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abraham",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lincoln",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -35,37 +50,32 @@
         "sentiment": "negative"
       },
       {
-        "word": "judge",
+        "word": "votes",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "harvard",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "uss",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abraham",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lincoln",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "white",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "secretary",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "harvard",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -75,32 +85,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "secretary",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "leavitt",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "close",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "students",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
+        "word": "court",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -120,17 +115,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "protect",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "jewish",
+        "word": "iran",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "administration",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "conditions",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -145,32 +140,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "close",
+        "word": "renovations",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "renovations",
+        "word": "private",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-13T19:54:22.701533+00:00",
-    "nextRefresh": "2026-08-13T19:54:22.701533+00:00",
+    "generatedAt": "2026-08-13T20:36:24.199996+00:00",
+    "nextRefresh": "2026-08-13T20:36:24.199996+00:00",
     "articlesAnalyzed": 343,
-    "matchedMentions": 153,
-    "uniquePersonalities": 46,
+    "matchedMentions": 155,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 55,
-    "negative": 26,
-    "neutral": 19,
+    "positive": 60,
+    "negative": 19,
+    "neutral": 21,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 13,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -190,11 +190,6 @@
       },
       {
         "word": "urges",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -274,11 +269,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "policy",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "chandrasekaran",
         "count": 4,
         "sentiment": "neutral"
@@ -317,14 +307,24 @@
         "word": "replace",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "rounds",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jharkhand",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-13T19:54:34.549978+00:00",
-    "nextRefresh": "2026-08-13T19:54:34.549978+00:00",
+    "generatedAt": "2026-08-13T20:36:38.096775+00:00",
+    "nextRefresh": "2026-08-13T20:36:38.096775+00:00",
     "articlesAnalyzed": 416,
-    "matchedMentions": 74,
-    "uniquePersonalities": 39,
+    "matchedMentions": 67,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
