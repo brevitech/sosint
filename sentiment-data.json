@@ -1,12 +1,12 @@
 {
   "us": {
     "positive": 45,
-    "negative": 46,
-    "neutral": 9,
+    "negative": 48,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 43,
+        "count": 45,
         "sentiment": "neutral"
       },
       {
@@ -20,7 +20,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "karoline",
+        "word": "white",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -30,12 +35,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "white",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
+        "word": "karoline",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -70,7 +70,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "ambassador",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "iran",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "role",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -80,7 +90,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "japan",
+        "word": "amid",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -95,23 +105,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ambassador",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "air",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "putin",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "islands",
-        "count": 4,
+        "word": "senate",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -130,53 +130,63 @@
         "sentiment": "neutral"
       },
       {
+        "word": "putin",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "taylor",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "thousands",
+        "word": "official",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "expulsion",
+        "word": "japan",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "force",
+        "word": "islands",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-13T09:58:31.721702+00:00",
-    "nextRefresh": "2026-08-13T09:58:31.721702+00:00",
-    "articlesAnalyzed": 337,
-    "matchedMentions": 123,
+    "generatedAt": "2026-08-13T11:01:53.083793+00:00",
+    "nextRefresh": "2026-08-13T11:01:53.083793+00:00",
+    "articlesAnalyzed": 339,
+    "matchedMentions": 128,
     "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 54,
-    "negative": 32,
-    "neutral": 14,
+    "negative": 30,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "tata",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "session",
         "count": 10,
         "sentiment": "neutral"
+      },
+      {
+        "word": "exit",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trusts",
+        "count": 8,
+        "sentiment": "positive"
       },
       {
         "word": "kharge",
@@ -199,14 +209,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "exit",
-        "count": 6,
+        "word": "maharashtra",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "trusts",
-        "count": 6,
+        "word": "successor",
+        "count": 4,
         "sentiment": "positive"
+      },
+      {
+        "word": "leaves",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
         "word": "purification",
@@ -259,6 +274,21 @@
         "sentiment": "neutral"
       },
       {
+        "word": "chandra",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "harbhajan",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kohli",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "target",
         "count": 4,
         "sentiment": "neutral"
@@ -269,12 +299,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "leaves",
+        "word": "billion",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "billion",
+        "word": "spending",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "limbo",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -282,49 +317,14 @@
         "word": "rally",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "maharashtra",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "arrested",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "crore",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "debate",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "starrer",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "race",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rajya",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-13T09:58:46.943640+00:00",
-    "nextRefresh": "2026-08-13T09:58:46.943640+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 65,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-08-13T11:02:02.965686+00:00",
+    "nextRefresh": "2026-08-13T11:02:02.965686+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 74,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
