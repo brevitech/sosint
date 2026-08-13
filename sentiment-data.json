@@ -1,17 +1,22 @@
 {
   "us": {
-    "positive": 45,
+    "positive": 46,
     "negative": 47,
-    "neutral": 8,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 46,
+        "count": 49,
         "sentiment": "neutral"
       },
       {
         "word": "secretary",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rubio",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -40,11 +45,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rubio",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "iran",
         "count": 7,
         "sentiment": "neutral"
@@ -57,6 +57,26 @@
       {
         "word": "social",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "decoy",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "switched",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "planes",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "official",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -80,22 +100,32 @@
         "sentiment": "positive"
       },
       {
+        "word": "posts",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "ambassador",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "air",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
-        "count": 5,
+        "word": "bessent",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "say",
+        "word": "flight",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "turkey",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -105,17 +135,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "posts",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "leaving",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "plane",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -133,84 +153,39 @@
         "word": "swift",
         "count": 4,
         "sentiment": "positive"
-      },
-      {
-        "word": "best",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "night",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "life",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "thousands",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-13T01:26:43.300015+00:00",
-    "nextRefresh": "2026-08-13T01:26:43.300015+00:00",
-    "articlesAnalyzed": 334,
-    "matchedMentions": 132,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-08-13T04:06:04.790381+00:00",
+    "nextRefresh": "2026-08-13T04:06:04.790381+00:00",
+    "articlesAnalyzed": 335,
+    "matchedMentions": 131,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 37,
-    "negative": 29,
-    "neutral": 34,
+    "positive": 35,
+    "negative": 35,
+    "neutral": 30,
     "wordCloud": [
       {
         "word": "tata",
-        "count": 21,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chandrasekaran",
         "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "shah",
-        "count": 9,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "ready",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "sons",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 5,
+        "word": "chandrasekaran",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "chandra",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "singh",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -234,12 +209,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "sri",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "lanka",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -249,59 +229,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "slams",
+        "word": "target",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 4,
-        "sentiment": "neutral"
+        "word": "ready",
+        "count": 3,
+        "sentiment": "positive"
       },
       {
-        "word": "parliament",
+        "word": "arrest",
         "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "session",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "answer",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "opposition",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mann",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "parole",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "beant",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "convict",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bengal",
-        "count": 3,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "steps",
@@ -314,16 +254,76 @@
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
+        "word": "india",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slams",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "makes",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mockery",
         "count": 3,
         "sentiment": "negative"
+      },
+      {
+        "word": "country",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "plea",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "emkay",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "financial",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "answer",
+        "count": 2,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-13T01:26:55.193174+00:00",
-    "nextRefresh": "2026-08-13T01:26:55.193174+00:00",
-    "articlesAnalyzed": 414,
-    "matchedMentions": 73,
+    "generatedAt": "2026-08-13T04:06:16.771729+00:00",
+    "nextRefresh": "2026-08-13T04:06:16.771729+00:00",
+    "articlesAnalyzed": 429,
+    "matchedMentions": 63,
     "uniquePersonalities": 33,
     "dataSource": "live-rss"
   }
