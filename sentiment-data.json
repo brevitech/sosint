@@ -1,37 +1,42 @@
 {
   "us": {
-    "positive": 33,
+    "positive": 35,
     "negative": 59,
-    "neutral": 8,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 55,
+        "count": 59,
         "sentiment": "neutral"
       },
       {
         "word": "kennedy",
-        "count": 14,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "center",
-        "count": 14,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "board",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "votes",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
         "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "hegseth",
         "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "votes",
-        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -50,17 +55,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
         "word": "lawsuit",
         "count": 11,
         "sentiment": "negative"
       },
       {
-        "word": "democrats",
+        "word": "against",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "name",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -70,7 +80,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "name",
+        "word": "power",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "building",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -90,22 +105,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "democrats",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "house",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "building",
+        "word": "case",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "accused",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "white",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -130,51 +150,36 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "appeals",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "socialist",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ambassador",
-        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-13T22:35:31.046800+00:00",
-    "nextRefresh": "2026-08-13T22:35:31.046800+00:00",
-    "articlesAnalyzed": 343,
-    "matchedMentions": 163,
+    "generatedAt": "2026-08-13T23:35:51.932641+00:00",
+    "nextRefresh": "2026-08-13T23:35:51.932641+00:00",
+    "articlesAnalyzed": 344,
+    "matchedMentions": 165,
     "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 59,
-    "negative": 19,
-    "neutral": 22,
+    "positive": 62,
+    "negative": 15,
+    "neutral": 23,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 10,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "sabha",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bengal",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -185,6 +190,11 @@
       },
       {
         "word": "urges",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -215,11 +225,6 @@
       },
       {
         "word": "name",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bengal",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -264,12 +269,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "withdraws",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banga",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "cji",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "against",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -294,11 +309,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "netaji",
         "count": 4,
         "sentiment": "neutral"
@@ -307,21 +317,11 @@
         "word": "remarks",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "replace",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rounds",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-13T22:35:43.718065+00:00",
-    "nextRefresh": "2026-08-13T22:35:43.718065+00:00",
+    "generatedAt": "2026-08-13T23:36:03.833011+00:00",
+    "nextRefresh": "2026-08-13T23:36:03.833011+00:00",
     "articlesAnalyzed": 416,
     "matchedMentions": 68,
     "uniquePersonalities": 35,
