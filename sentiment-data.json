@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 35,
-    "negative": 60,
+    "positive": 36,
+    "negative": 59,
     "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 56,
+        "count": 55,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 15,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -27,11 +27,6 @@
       {
         "word": "hegseth",
         "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -85,6 +80,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "power",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "democrats",
         "count": 9,
         "sentiment": "neutral"
@@ -125,12 +125,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "japan",
+        "word": "white",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "senate",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -156,31 +156,46 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-14T08:10:39.564005+00:00",
-    "nextRefresh": "2026-08-14T08:10:39.564005+00:00",
-    "articlesAnalyzed": 336,
-    "matchedMentions": 161,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-08-14T09:55:06.710097+00:00",
+    "nextRefresh": "2026-08-14T09:55:06.710097+00:00",
+    "articlesAnalyzed": 334,
+    "matchedMentions": 157,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 48,
-    "negative": 37,
-    "neutral": 15,
+    "positive": 53,
+    "negative": 30,
+    "neutral": 17,
     "wordCloud": [
       {
-        "word": "india",
-        "count": 10,
+        "word": "against",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
-        "count": 9,
+        "word": "india",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 9,
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -194,22 +209,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "case",
+        "word": "questions",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 7,
+        "word": "savarkar",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 7,
+        "word": "remarks",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "independence",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "quashes",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "test",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -234,27 +259,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bar",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "council",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "savarkar",
+        "word": "speech",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "remarks",
+        "word": "modi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
+        "word": "gill",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "series",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slams",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -264,67 +289,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "test",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sindhu",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "partition",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "independence",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "singh",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ashwin",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "slams",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "batch",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "threat",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "sri",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lanka",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "seeks",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arunachal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "supreme",
+        "count": 4,
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-14T08:10:52.704228+00:00",
-    "nextRefresh": "2026-08-14T08:10:52.704228+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 86,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-08-14T09:55:22.278037+00:00",
+    "nextRefresh": "2026-08-14T09:55:22.278037+00:00",
+    "articlesAnalyzed": 432,
+    "matchedMentions": 88,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
