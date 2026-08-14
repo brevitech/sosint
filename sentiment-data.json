@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 36,
+    "positive": 35,
     "negative": 60,
-    "neutral": 4,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 54,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 13,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -30,17 +30,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "power",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "drops",
         "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "election",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -60,6 +65,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "lawsuit",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
         "word": "nevada",
         "count": 9,
         "sentiment": "neutral"
@@ -71,11 +81,6 @@
       },
       {
         "word": "center",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -115,11 +120,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "accused",
         "count": 7,
         "sentiment": "negative"
@@ -135,42 +135,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "lawsuit",
-        "count": 7,
-        "sentiment": "negative"
+        "word": "dismisses",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "antisemitism",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "harvard",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "forging",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "certificate",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "votes",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-14T06:09:04.051222+00:00",
-    "nextRefresh": "2026-08-14T06:09:04.051222+00:00",
-    "articlesAnalyzed": 335,
-    "matchedMentions": 162,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-08-14T08:10:39.564005+00:00",
+    "nextRefresh": "2026-08-14T08:10:39.564005+00:00",
+    "articlesAnalyzed": 336,
+    "matchedMentions": 161,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 53,
-    "negative": 39,
-    "neutral": 8,
+    "positive": 48,
+    "negative": 37,
+    "neutral": 15,
     "wordCloud": [
       {
-        "word": "modi",
-        "count": 9,
+        "word": "india",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -179,17 +179,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tata",
+        "word": "rahul",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 7,
+        "word": "cji",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "nalsar",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -199,28 +204,48 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nalsar",
+        "word": "modi",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "manan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mishra",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "surya",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kant",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "bar",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "council",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chandra",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "savarkar",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -229,17 +254,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ashwin",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kant",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chandrasekaran",
+        "word": "questions",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -249,8 +264,33 @@
         "sentiment": "neutral"
       },
       {
-        "word": "name",
+        "word": "test",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sindhu",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "partition",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "independence",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "singh",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ashwin",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -259,39 +299,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jibe",
+        "word": "batch",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "students",
+        "word": "threat",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cji",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "surya",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sons",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "replace",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rounds",
-        "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "target",
@@ -299,32 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "partition",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "horrors",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "remembrance",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mumbai",
-        "count": 3,
+        "word": "sri",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-14T06:09:17.813385+00:00",
-    "nextRefresh": "2026-08-14T06:09:17.813385+00:00",
-    "articlesAnalyzed": 428,
-    "matchedMentions": 74,
-    "uniquePersonalities": 34,
+    "generatedAt": "2026-08-14T08:10:52.704228+00:00",
+    "nextRefresh": "2026-08-14T08:10:52.704228+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 86,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
