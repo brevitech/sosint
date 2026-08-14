@@ -1,37 +1,27 @@
 {
   "us": {
-    "positive": 36,
-    "negative": 59,
+    "positive": 39,
+    "negative": 56,
     "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 55,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 14,
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "case",
         "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -60,6 +50,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "administration",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "lawsuit",
         "count": 9,
         "sentiment": "negative"
@@ -75,42 +70,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "center",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "power",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kennedy",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "board",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "building",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "name",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
+        "word": "senate",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -125,12 +90,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "white",
+        "word": "house",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "center",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -153,49 +123,59 @@
         "word": "forging",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "certificate",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "japan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kennedy",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "board",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "name",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-14T09:55:06.710097+00:00",
-    "nextRefresh": "2026-08-14T09:55:06.710097+00:00",
-    "articlesAnalyzed": 334,
-    "matchedMentions": 157,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-08-14T10:53:45.669378+00:00",
+    "nextRefresh": "2026-08-14T10:53:45.669378+00:00",
+    "articlesAnalyzed": 335,
+    "matchedMentions": 156,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 53,
-    "negative": 30,
-    "neutral": 17,
+    "positive": 58,
+    "negative": 28,
+    "neutral": 14,
     "wordCloud": [
       {
-        "word": "against",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
         "word": "india",
-        "count": 11,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "against",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -204,22 +184,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nalsar",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "questions",
+        "word": "test",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "savarkar",
+        "word": "rahul",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sri",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "remarks",
+        "word": "lanka",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -229,12 +214,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "quashes",
+        "word": "case",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "test",
+        "word": "quashes",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -249,6 +234,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "nalsar",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "surya",
         "count": 6,
         "sentiment": "neutral"
@@ -259,22 +249,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "speech",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
-        "count": 5,
+        "word": "bar",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "series",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "questions",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -284,27 +269,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "gandhi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "row",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "sri",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lanka",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seeks",
+        "word": "tata",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "seeks",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -314,16 +294,36 @@
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
+        "word": "ahead",
         "count": 4,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "firs",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "samay",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "raina",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "defamation",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-14T09:55:22.278037+00:00",
-    "nextRefresh": "2026-08-14T09:55:22.278037+00:00",
+    "generatedAt": "2026-08-14T10:54:04.332556+00:00",
+    "nextRefresh": "2026-08-14T10:54:04.332556+00:00",
     "articlesAnalyzed": 432,
-    "matchedMentions": 88,
+    "matchedMentions": 83,
     "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
