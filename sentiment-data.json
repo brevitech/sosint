@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 35,
-    "negative": 56,
-    "neutral": 9,
+    "positive": 38,
+    "negative": 54,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 58,
+        "count": 63,
         "sentiment": "neutral"
       },
       {
         "word": "court",
-        "count": 15,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -35,12 +35,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "administration",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "case",
+        "word": "judge",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -65,17 +65,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "police",
+        "word": "federal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "uss",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lincoln",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "tariffs",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -90,49 +95,39 @@
         "sentiment": "neutral"
       },
       {
+        "word": "case",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "electors",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "federal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "uss",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lincoln",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leavitt",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ceo",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "construction",
+        "word": "visit",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "power",
-        "count": 4,
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "mangione",
-        "count": 4,
+        "word": "care",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "police",
+        "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "accused",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "japan",
@@ -141,6 +136,11 @@
       },
       {
         "word": "karoline",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leavitt",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -156,17 +156,17 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-14T20:25:28.945857+00:00",
-    "nextRefresh": "2026-08-14T20:25:28.945857+00:00",
-    "articlesAnalyzed": 334,
-    "matchedMentions": 137,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-08-14T21:19:54.391572+00:00",
+    "nextRefresh": "2026-08-14T21:19:54.391572+00:00",
+    "articlesAnalyzed": 335,
+    "matchedMentions": 140,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 39,
-    "negative": 43,
-    "neutral": 18,
+    "positive": 42,
+    "negative": 42,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "remarks",
@@ -175,7 +175,7 @@
       },
       {
         "word": "rahul",
-        "count": 12,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -185,7 +185,7 @@
       },
       {
         "word": "modi",
-        "count": 9,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -274,6 +274,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "amp",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "president",
         "count": 4,
         "sentiment": "neutral"
@@ -312,19 +317,14 @@
         "word": "sucked",
         "count": 3,
         "sentiment": "negative"
-      },
-      {
-        "word": "blood",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-14T20:25:37.986088+00:00",
-    "nextRefresh": "2026-08-14T20:25:37.986088+00:00",
+    "generatedAt": "2026-08-14T21:20:06.789504+00:00",
+    "nextRefresh": "2026-08-14T21:20:06.789504+00:00",
     "articlesAnalyzed": 418,
-    "matchedMentions": 72,
-    "uniquePersonalities": 33,
+    "matchedMentions": 74,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
 }
