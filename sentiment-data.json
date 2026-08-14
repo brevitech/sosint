@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 39,
+    "positive": 40,
     "negative": 56,
-    "neutral": 5,
+    "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 56,
+        "count": 57,
         "sentiment": "neutral"
       },
       {
@@ -16,7 +16,7 @@
       },
       {
         "word": "against",
-        "count": 13,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -35,29 +35,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "uss",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abraham",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lincoln",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "administration",
         "count": 9,
         "sentiment": "neutral"
-      },
-      {
-        "word": "lawsuit",
-        "count": 9,
-        "sentiment": "negative"
       },
       {
         "word": "nevada",
@@ -70,12 +50,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "lawsuit",
         "count": 8,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "senate",
+        "word": "house",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -85,28 +65,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "accused",
-        "count": 7,
-        "sentiment": "negative"
+        "word": "uss",
+        "count": 8,
+        "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "abraham",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lincoln",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "center",
+        "word": "senate",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dismisses",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -120,6 +100,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "accused",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
         "word": "forging",
         "count": 6,
         "sentiment": "neutral"
@@ -130,17 +115,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "japan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
+        "word": "leavitt",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "kennedy",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "center",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,29 +138,49 @@
         "word": "name",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "building",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pentagon",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "biden-era",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-14T10:53:45.669378+00:00",
-    "nextRefresh": "2026-08-14T10:53:45.669378+00:00",
-    "articlesAnalyzed": 335,
-    "matchedMentions": 156,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-08-14T11:40:34.512377+00:00",
+    "nextRefresh": "2026-08-14T11:40:34.512377+00:00",
+    "articlesAnalyzed": 334,
+    "matchedMentions": 154,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 58,
-    "negative": 28,
-    "neutral": 14,
+    "positive": 59,
+    "negative": 26,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "india",
-        "count": 17,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "against",
-        "count": 10,
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -185,6 +190,11 @@
       },
       {
         "word": "test",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -204,17 +214,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "independence",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -254,12 +254,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "tata",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "samay",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "series",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
+        "word": "relief",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "remarks",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -279,52 +299,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tata",
+        "word": "sells",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "seeks",
+        "word": "jamshedpur",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "arunachal",
+        "word": "tamil",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "firs",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "samay",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "raina",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "defamation",
+        "word": "nadu",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-14T10:54:04.332556+00:00",
-    "nextRefresh": "2026-08-14T10:54:04.332556+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 83,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-08-14T11:41:01.366811+00:00",
+    "nextRefresh": "2026-08-14T11:41:01.366811+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 81,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
