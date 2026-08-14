@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 37,
+    "positive": 35,
     "negative": 56,
-    "neutral": 7,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 59,
+        "count": 58,
         "sentiment": "neutral"
       },
       {
@@ -15,13 +15,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "white",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
-        "count": 8,
+        "word": "house",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -30,23 +30,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "white",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "construction",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "election",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -70,7 +55,22 @@
         "sentiment": "positive"
       },
       {
+        "word": "against",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "iran",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tariffs",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -92,21 +92,6 @@
       {
         "word": "electors",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "biden-era",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "police",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tariffs",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -135,17 +120,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nearly",
-        "count": 4,
+        "word": "construction",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "enough",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "effort",
+        "word": "power",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -153,20 +133,40 @@
         "word": "mangione",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "japan",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "karoline",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gomez",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sued",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-14T19:43:51.740772+00:00",
-    "nextRefresh": "2026-08-14T19:43:51.740772+00:00",
+    "generatedAt": "2026-08-14T20:25:28.945857+00:00",
+    "nextRefresh": "2026-08-14T20:25:28.945857+00:00",
     "articlesAnalyzed": 334,
-    "matchedMentions": 142,
-    "uniquePersonalities": 38,
+    "matchedMentions": 137,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 38,
-    "neutral": 16,
+    "positive": 39,
+    "negative": 43,
+    "neutral": 18,
     "wordCloud": [
       {
         "word": "remarks",
@@ -175,57 +175,27 @@
       },
       {
         "word": "rahul",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "india",
         "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 10,
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "shah",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "independence",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lok",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sabha",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seeks",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "privilege",
-        "count": 7,
-        "sentiment": "positive"
-      },
-      {
-        "word": "notice",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -234,7 +204,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nation",
+        "word": "independence",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -244,22 +214,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "amit",
+        "word": "nation",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
+        "word": "lok",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sabha",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "seeks",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "privilege",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "notice",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "singh",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -274,22 +259,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "indus",
+        "word": "amit",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "waters",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reply",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "remark",
+        "word": "govt",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -299,9 +274,29 @@
         "sentiment": "neutral"
       },
       {
+        "word": "president",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "relief",
         "count": 4,
         "sentiment": "positive"
+      },
+      {
+        "word": "soren",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 3,
+        "sentiment": "neutral"
       },
       {
         "word": "red",
@@ -317,14 +312,19 @@
         "word": "sucked",
         "count": 3,
         "sentiment": "negative"
+      },
+      {
+        "word": "blood",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-14T19:44:04.752072+00:00",
-    "nextRefresh": "2026-08-14T19:44:04.752072+00:00",
+    "generatedAt": "2026-08-14T20:25:37.986088+00:00",
+    "nextRefresh": "2026-08-14T20:25:37.986088+00:00",
     "articlesAnalyzed": 418,
-    "matchedMentions": 74,
-    "uniquePersonalities": 31,
+    "matchedMentions": 72,
+    "uniquePersonalities": 33,
     "dataSource": "live-rss"
   }
 }
