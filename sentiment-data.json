@@ -1,8 +1,8 @@
 {
   "us": {
     "positive": 38,
-    "negative": 51,
-    "neutral": 11,
+    "negative": 50,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,7 +11,7 @@
       },
       {
         "word": "court",
-        "count": 12,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -25,13 +25,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ballroom",
+        "word": "abraham",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "abraham",
-        "count": 8,
+        "word": "ballroom",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -40,19 +40,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "white",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "asks",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "supreme",
-        "count": 6,
-        "sentiment": "positive"
       },
       {
         "word": "hormuz",
@@ -61,11 +51,6 @@
       },
       {
         "word": "territory",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "election",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -80,9 +65,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "asks",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "supreme",
+        "count": 5,
+        "sentiment": "positive"
       },
       {
         "word": "house",
@@ -97,6 +87,11 @@
       {
         "word": "strait",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "primary",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -125,11 +120,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
         "word": "ahead",
         "count": 4,
         "sentiment": "neutral"
@@ -153,63 +143,73 @@
         "word": "police",
         "count": 4,
         "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-08-15T03:33:58.834896+00:00",
-    "nextRefresh": "2026-08-15T03:33:58.834896+00:00",
-    "articlesAnalyzed": 328,
-    "matchedMentions": 136,
-    "uniquePersonalities": 37,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 54,
-    "negative": 28,
-    "neutral": 18,
-    "wordCloud": [
+      },
       {
-        "word": "modi",
-        "count": 35,
+        "word": "rally",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 18,
+        "word": "order",
+        "count": 4,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-08-15T04:23:58.228969+00:00",
+    "nextRefresh": "2026-08-15T04:23:58.228969+00:00",
+    "articlesAnalyzed": 338,
+    "matchedMentions": 133,
+    "uniquePersonalities": 36,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 60,
+    "negative": 21,
+    "neutral": 19,
+    "wordCloud": [
+      {
+        "word": "modi",
+        "count": 54,
         "sentiment": "neutral"
       },
       {
         "word": "independence",
-        "count": 15,
+        "count": 30,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 12,
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "speech",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "red",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "remarks",
-        "count": 9,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "i-day",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "speech",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "red",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "remarks",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -219,17 +219,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "energy",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "gill",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kharge",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fragile",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bharat",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "murmu",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "exams",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -239,17 +254,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "dreams",
         "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "skip",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
-        "count": 5,
+        "word": "event",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "nation",
+        "word": "straight",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "security",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "saptadhara",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -274,57 +309,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "singh",
+        "word": "exams",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "quotes",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "updates",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dream",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "greets",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "fragile",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "students",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "union",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ministers",
-        "count": 3,
+        "word": "test",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-15T03:34:13.228888+00:00",
-    "nextRefresh": "2026-08-15T03:34:13.228888+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 87,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-08-15T04:24:24.434729+00:00",
+    "nextRefresh": "2026-08-15T04:24:24.434729+00:00",
+    "articlesAnalyzed": 415,
+    "matchedMentions": 101,
+    "uniquePersonalities": 29,
     "dataSource": "live-rss"
   }
 }
