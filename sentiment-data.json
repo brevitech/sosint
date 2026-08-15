@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 37,
-    "negative": 51,
-    "neutral": 12,
+    "positive": 36,
+    "negative": 53,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
@@ -10,17 +10,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "court",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "uss",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "lincoln",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -47,11 +47,6 @@
       {
         "word": "president",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "primary",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -110,11 +105,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "mamdani",
         "count": 4,
         "sentiment": "neutral"
@@ -140,37 +130,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "putin",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "conditions",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "bbc",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "subpoena",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "family",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "members",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lawsuit",
+        "count": 3,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-15T08:21:09.468050+00:00",
-    "nextRefresh": "2026-08-15T08:21:09.468050+00:00",
-    "articlesAnalyzed": 330,
-    "matchedMentions": 125,
-    "uniquePersonalities": 33,
+    "generatedAt": "2026-08-15T09:20:28.127122+00:00",
+    "nextRefresh": "2026-08-15T09:20:28.127122+00:00",
+    "articlesAnalyzed": 329,
+    "matchedMentions": 120,
+    "uniquePersonalities": 32,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 60,
+    "positive": 59,
     "negative": 24,
-    "neutral": 16,
+    "neutral": 17,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 69,
+        "count": 63,
         "sentiment": "neutral"
       },
       {
@@ -180,21 +180,26 @@
       },
       {
         "word": "speech",
-        "count": 24,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 21,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
         "word": "i-day",
-        "count": 16,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "kharge",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -204,18 +209,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "free",
-        "count": 10,
-        "sentiment": "positive"
-      },
-      {
-        "word": "coaching",
-        "count": 10,
+        "word": "event",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 9,
+        "word": "gandhi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "skip",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -224,23 +229,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "red",
+        "word": "free",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "coaching",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "event",
+        "word": "congress",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "skip",
-        "count": 6,
+        "word": "red",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -249,12 +254,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bharat",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fort",
+        "word": "dimaagi",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -264,12 +264,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fragile",
+        "word": "fort",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abdullah",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "training",
+        "word": "saptadhara",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -279,27 +284,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "calls",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "shortest",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "viksit",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dimaagi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "galle",
+        "word": "bharat",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -309,21 +304,26 @@
         "sentiment": "neutral"
       },
       {
-        "word": "abdullah",
+        "word": "target",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "exams",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "straight",
+        "word": "centre",
         "count": 4,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-15T08:21:28.977465+00:00",
-    "nextRefresh": "2026-08-15T08:21:28.977465+00:00",
-    "articlesAnalyzed": 414,
-    "matchedMentions": 126,
+    "generatedAt": "2026-08-15T09:20:40.145073+00:00",
+    "nextRefresh": "2026-08-15T09:20:40.145073+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 128,
     "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
