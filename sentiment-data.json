@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 36,
-    "negative": 53,
+    "positive": 38,
+    "negative": 51,
     "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 55,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
@@ -130,6 +130,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "taliban",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "bbc",
         "count": 3,
         "sentiment": "neutral"
@@ -148,39 +153,34 @@
         "word": "members",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "lawsuit",
-        "count": 3,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-15T09:20:28.127122+00:00",
-    "nextRefresh": "2026-08-15T09:20:28.127122+00:00",
-    "articlesAnalyzed": 329,
-    "matchedMentions": 120,
-    "uniquePersonalities": 32,
+    "generatedAt": "2026-08-15T10:17:20.428702+00:00",
+    "nextRefresh": "2026-08-15T10:17:20.428702+00:00",
+    "articlesAnalyzed": 330,
+    "matchedMentions": 123,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 59,
-    "negative": 24,
-    "neutral": 17,
+    "negative": 25,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 63,
+        "count": 59,
         "sentiment": "neutral"
       },
       {
         "word": "independence",
-        "count": 39,
+        "count": 38,
         "sentiment": "neutral"
       },
       {
         "word": "speech",
-        "count": 27,
+        "count": 26,
         "sentiment": "neutral"
       },
       {
@@ -190,26 +190,36 @@
       },
       {
         "word": "i-day",
-        "count": 15,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "kharge",
-        "count": 13,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "naxals",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "event",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "youth",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -224,11 +234,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "youth",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "free",
         "count": 8,
         "sentiment": "positive"
@@ -239,12 +244,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "red",
+        "word": "abdullah",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -254,27 +254,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dimaagi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "announces",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "fort",
+        "word": "red",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "abdullah",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "saptadhara",
+        "word": "message",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -289,12 +279,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shortest",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bharat",
+        "word": "dimaagi",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -304,27 +289,42 @@
         "sentiment": "neutral"
       },
       {
+        "word": "fort",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "target",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "exams",
+        "word": "straight",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "mallikarjun",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "centre",
+        "word": "fragile",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "saptadhara",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-15T09:20:40.145073+00:00",
-    "nextRefresh": "2026-08-15T09:20:40.145073+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 128,
-    "uniquePersonalities": 31,
+    "generatedAt": "2026-08-15T10:17:39.727460+00:00",
+    "nextRefresh": "2026-08-15T10:17:39.727460+00:00",
+    "articlesAnalyzed": 429,
+    "matchedMentions": 130,
+    "uniquePersonalities": 32,
     "dataSource": "live-rss"
   }
 }
