@@ -1,21 +1,36 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 49,
-    "neutral": 11,
+    "positive": 38,
+    "negative": 52,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 58,
+        "count": 53,
         "sentiment": "neutral"
       },
       {
         "word": "court",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "ballroom",
+        "word": "iran",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "uss",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lincoln",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abraham",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -40,22 +55,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "uss",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lincoln",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
+        "word": "ballroom",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -66,11 +66,6 @@
       },
       {
         "word": "hormuz",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abraham",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -90,37 +85,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "asks",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "supreme",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "white",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "declare",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "territory",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "concerns",
+        "word": "health",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -130,17 +100,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mamdani",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "police",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rally",
+        "word": "president",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -153,83 +113,108 @@
         "word": "doj",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "construction",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bbc",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "subpoena",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "family",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "members",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lawsuit",
+        "count": 3,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-15T11:15:14.996706+00:00",
-    "nextRefresh": "2026-08-15T11:15:14.996706+00:00",
+    "generatedAt": "2026-08-15T12:26:44.650287+00:00",
+    "nextRefresh": "2026-08-15T12:26:44.650287+00:00",
     "articlesAnalyzed": 331,
-    "matchedMentions": 124,
-    "uniquePersonalities": 34,
+    "matchedMentions": 120,
+    "uniquePersonalities": 33,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 59,
-    "negative": 25,
-    "neutral": 16,
+    "positive": 55,
+    "negative": 26,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 47,
+        "count": 42,
         "sentiment": "neutral"
       },
       {
         "word": "independence",
-        "count": 38,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
         "word": "speech",
-        "count": 23,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 18,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "i-day",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kharge",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "event",
-        "count": 9,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "congress",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kharge",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "gen",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "skip",
-        "count": 8,
+        "word": "rahul",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "youth",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -239,33 +224,48 @@
         "sentiment": "neutral"
       },
       {
-        "word": "abdullah",
+        "word": "naxals",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "event",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hits",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gen",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abdullah",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "skip",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "free",
-        "count": 7,
+        "count": 6,
         "sentiment": "positive"
       },
       {
         "word": "coaching",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "naxals",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "red",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "saptadhara",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -294,17 +294,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "target",
-        "count": 5,
+        "word": "bjp",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "straight",
+        "word": "saptadhara",
         "count": 4,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
-        "word": "mallikarjun",
+        "word": "calls",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -314,17 +314,17 @@
         "sentiment": "positive"
       },
       {
-        "word": "tamil",
+        "word": "dimagi",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-15T11:15:27.920199+00:00",
-    "nextRefresh": "2026-08-15T11:15:27.920199+00:00",
-    "articlesAnalyzed": 429,
-    "matchedMentions": 130,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-08-15T12:26:57.898497+00:00",
+    "nextRefresh": "2026-08-15T12:26:57.898497+00:00",
+    "articlesAnalyzed": 414,
+    "matchedMentions": 113,
+    "uniquePersonalities": 32,
     "dataSource": "live-rss"
   }
 }
