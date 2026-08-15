@@ -1,8 +1,8 @@
 {
   "us": {
     "positive": 38,
-    "negative": 52,
-    "neutral": 10,
+    "negative": 51,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
@@ -60,11 +60,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "federal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "asks",
         "count": 5,
         "sentiment": "neutral"
@@ -95,12 +90,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "putin",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "primary",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "federal",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -156,17 +156,17 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-15T06:28:49.982634+00:00",
-    "nextRefresh": "2026-08-15T06:28:49.982634+00:00",
+    "generatedAt": "2026-08-15T07:26:05.557889+00:00",
+    "nextRefresh": "2026-08-15T07:26:05.557889+00:00",
     "articlesAnalyzed": 335,
     "matchedMentions": 131,
     "uniquePersonalities": 34,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 24,
-    "neutral": 24,
+    "positive": 57,
+    "negative": 23,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "modi",
@@ -175,7 +175,7 @@
       },
       {
         "word": "independence",
-        "count": 41,
+        "count": 38,
         "sentiment": "neutral"
       },
       {
@@ -185,17 +185,12 @@
       },
       {
         "word": "india",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 12,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "i-day",
-        "count": 12,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -204,22 +199,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "naxals",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
         "word": "free",
-        "count": 9,
+        "count": 10,
         "sentiment": "positive"
       },
       {
         "word": "coaching",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "kharge",
+        "word": "bharat",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "shortest",
+        "word": "kharge",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -229,22 +229,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bharat",
+        "word": "viksit",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "rahul",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "skip",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "announces",
+        "word": "event",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -254,37 +249,47 @@
         "sentiment": "neutral"
       },
       {
+        "word": "announces",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "training",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "viksit",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delivers",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dhara",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "event",
+        "word": "gen",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "energy",
+        "word": "saptadhara",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "defence",
         "count": 5,
         "sentiment": "positive"
       },
       {
-        "word": "saptadhara",
+        "word": "congress",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dimaagi",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -299,13 +304,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "target",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
-        "count": 5,
+        "word": "fragile",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-15T06:29:14.240691+00:00",
-    "nextRefresh": "2026-08-15T06:29:14.240691+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 128,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-08-15T07:26:19.413390+00:00",
+    "nextRefresh": "2026-08-15T07:26:19.413390+00:00",
+    "articlesAnalyzed": 429,
+    "matchedMentions": 132,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
