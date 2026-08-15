@@ -1,12 +1,22 @@
 {
   "us": {
-    "positive": 37,
-    "negative": 54,
+    "positive": 36,
+    "negative": 55,
     "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
         "count": 46,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "uss",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lincoln",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -35,16 +45,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "uss",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lincoln",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "strait",
         "count": 6,
         "sentiment": "neutral"
@@ -63,6 +63,11 @@
         "word": "support",
         "count": 6,
         "sentiment": "positive"
+      },
+      {
+        "word": "primary",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "court",
@@ -85,8 +90,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "primary",
-        "count": 5,
+        "word": "democrats",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -96,6 +101,11 @@
       },
       {
         "word": "dnc",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "conditions",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -143,23 +153,13 @@
         "word": "judge",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "return",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-15T21:15:51.793728+00:00",
-    "nextRefresh": "2026-08-15T21:15:51.793728+00:00",
-    "articlesAnalyzed": 342,
-    "matchedMentions": 126,
+    "generatedAt": "2026-08-15T22:15:06.107284+00:00",
+    "nextRefresh": "2026-08-15T22:15:06.107284+00:00",
+    "articlesAnalyzed": 343,
+    "matchedMentions": 124,
     "uniquePersonalities": 37,
     "dataSource": "live-rss"
   },
@@ -320,8 +320,8 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-15T21:16:01.772877+00:00",
-    "nextRefresh": "2026-08-15T21:16:01.772877+00:00",
+    "generatedAt": "2026-08-15T22:15:20.977007+00:00",
+    "nextRefresh": "2026-08-15T22:15:20.977007+00:00",
     "articlesAnalyzed": 418,
     "matchedMentions": 101,
     "uniquePersonalities": 32,
