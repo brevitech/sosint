@@ -1,12 +1,12 @@
 {
   "us": {
     "positive": 36,
-    "negative": 57,
-    "neutral": 7,
+    "negative": 56,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 55,
+        "count": 54,
         "sentiment": "neutral"
       },
       {
@@ -15,13 +15,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "uss",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lincoln",
-        "count": 8,
+        "word": "ballroom",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -30,13 +25,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "abraham",
+        "word": "uss",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "ballroom",
-        "count": 6,
+        "word": "lincoln",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -46,6 +41,11 @@
       },
       {
         "word": "hormuz",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abraham",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -85,12 +85,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "health",
+        "word": "alaska",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "order",
+        "word": "senate",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "harris",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "support",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "ahead",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "primary",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -115,16 +135,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "aircraft",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "carrier",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "bbc",
         "count": 3,
         "sentiment": "neutral"
@@ -143,29 +153,19 @@
         "word": "lawsuit",
         "count": 3,
         "sentiment": "negative"
-      },
-      {
-        "word": "japan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gomez",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-15T14:16:28.905907+00:00",
-    "nextRefresh": "2026-08-15T14:16:28.905907+00:00",
-    "articlesAnalyzed": 331,
-    "matchedMentions": 121,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-08-15T15:14:38.999863+00:00",
+    "nextRefresh": "2026-08-15T15:14:38.999863+00:00",
+    "articlesAnalyzed": 336,
+    "matchedMentions": 124,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 55,
-    "negative": 23,
+    "positive": 51,
+    "negative": 27,
     "neutral": 22,
     "wordCloud": [
       {
@@ -180,12 +180,17 @@
       },
       {
         "word": "india",
-        "count": 15,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "speech",
-        "count": 14,
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kharge",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -195,7 +200,12 @@
       },
       {
         "word": "bjp",
-        "count": 7,
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -204,22 +214,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kharge",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "congress",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cji",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -239,11 +234,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gen",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "free",
         "count": 5,
         "sentiment": "positive"
@@ -259,12 +249,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "abdullah",
+        "word": "father",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "remark",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gen",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "padikkal",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "coaching",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cji",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -302,26 +317,11 @@
         "word": "badminton",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "sindhu",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "father",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "remark",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-15T14:16:43.272494+00:00",
-    "nextRefresh": "2026-08-15T14:16:43.272494+00:00",
+    "generatedAt": "2026-08-15T15:15:02.208933+00:00",
+    "nextRefresh": "2026-08-15T15:15:02.208933+00:00",
     "articlesAnalyzed": 432,
     "matchedMentions": 98,
     "uniquePersonalities": 34,
