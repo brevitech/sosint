@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 33,
-    "negative": 60,
+    "positive": 35,
+    "negative": 58,
     "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 48,
+        "count": 49,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -75,6 +75,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "family",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "court",
         "count": 5,
         "sentiment": "neutral"
@@ -95,12 +100,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "family",
+        "word": "federal",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "federal",
+        "word": "taliban",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -148,29 +153,24 @@
         "word": "trial",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "seeks",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-15T16:17:37.884333+00:00",
-    "nextRefresh": "2026-08-15T16:17:37.884333+00:00",
+    "generatedAt": "2026-08-15T17:16:01.029636+00:00",
+    "nextRefresh": "2026-08-15T17:16:01.029636+00:00",
     "articlesAnalyzed": 336,
-    "matchedMentions": 126,
-    "uniquePersonalities": 40,
+    "matchedMentions": 130,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 30,
+    "positive": 51,
+    "negative": 31,
     "neutral": 18,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 32,
+        "count": 33,
         "sentiment": "neutral"
       },
       {
@@ -185,27 +185,37 @@
       },
       {
         "word": "speech",
-        "count": 12,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "i-day",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 8,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 8,
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -219,9 +229,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "row",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "youth",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "free",
+        "count": 6,
+        "sentiment": "positive"
       },
       {
         "word": "kharge",
@@ -239,7 +259,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "row",
+        "word": "coaching",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -259,9 +279,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "free",
+        "word": "cji",
         "count": 5,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "announces",
@@ -279,12 +299,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vande",
+        "word": "students",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
+        "word": "lawyers",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -297,34 +317,14 @@
         "word": "maiden",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "century",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "devdutt",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "coaching",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reacts",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-15T16:17:48.161738+00:00",
-    "nextRefresh": "2026-08-15T16:17:48.161738+00:00",
+    "generatedAt": "2026-08-15T17:16:16.975443+00:00",
+    "nextRefresh": "2026-08-15T17:16:16.975443+00:00",
     "articlesAnalyzed": 433,
-    "matchedMentions": 105,
-    "uniquePersonalities": 37,
+    "matchedMentions": 109,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
