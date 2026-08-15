@@ -1,22 +1,12 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 53,
+    "positive": 38,
+    "negative": 54,
     "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 47,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "strait",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hormuz",
-        "count": 7,
+        "count": 46,
         "sentiment": "neutral"
       },
       {
@@ -45,6 +35,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "strait",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hormuz",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "alaska",
         "count": 6,
         "sentiment": "neutral"
@@ -63,11 +63,6 @@
         "word": "support",
         "count": 6,
         "sentiment": "positive"
-      },
-      {
-        "word": "territory",
-        "count": 5,
-        "sentiment": "neutral"
       },
       {
         "word": "ballroom",
@@ -115,6 +110,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "territory",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "candidate",
         "count": 4,
         "sentiment": "neutral"
@@ -145,47 +145,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "judge",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "disagree",
+        "word": "return",
         "count": 3,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-15T19:18:09.308416+00:00",
-    "nextRefresh": "2026-08-15T19:18:09.308416+00:00",
-    "articlesAnalyzed": 336,
-    "matchedMentions": 123,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-08-15T20:15:58.843941+00:00",
+    "nextRefresh": "2026-08-15T20:15:58.843941+00:00",
+    "articlesAnalyzed": 338,
+    "matchedMentions": 120,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 48,
+    "positive": 47,
     "negative": 31,
-    "neutral": 21,
+    "neutral": 22,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 30,
+        "count": 29,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 21,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "independence",
-        "count": 16,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "speech",
-        "count": 13,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -320,8 +320,8 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-15T19:18:20.776192+00:00",
-    "nextRefresh": "2026-08-15T19:18:20.776192+00:00",
+    "generatedAt": "2026-08-15T20:16:10.463272+00:00",
+    "nextRefresh": "2026-08-15T20:16:10.463272+00:00",
     "articlesAnalyzed": 418,
     "matchedMentions": 103,
     "uniquePersonalities": 33,
