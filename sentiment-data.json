@@ -1,12 +1,17 @@
 {
   "us": {
     "positive": 39,
-    "negative": 53,
-    "neutral": 8,
+    "negative": 54,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 53,
+        "count": 51,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -16,11 +21,6 @@
       },
       {
         "word": "lincoln",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -82,6 +82,11 @@
       {
         "word": "primary",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -148,29 +153,24 @@
         "word": "seeks",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "family",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-16T12:28:19.918830+00:00",
-    "nextRefresh": "2026-08-16T12:28:19.918830+00:00",
-    "articlesAnalyzed": 338,
-    "matchedMentions": 131,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-08-16T13:26:41.844227+00:00",
+    "nextRefresh": "2026-08-16T13:26:41.844227+00:00",
+    "articlesAnalyzed": 328,
+    "matchedMentions": 128,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 37,
-    "negative": 45,
-    "neutral": 18,
+    "negative": 44,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 21,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
@@ -184,8 +184,13 @@
         "sentiment": "neutral"
       },
       {
+        "word": "india",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
         "word": "banerjee",
-        "count": 16,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -201,11 +206,6 @@
       {
         "word": "vimal",
         "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -229,16 +229,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "row",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "naxals",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "shroff",
         "count": 10,
         "sentiment": "neutral"
@@ -249,27 +239,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "rahul",
+        "word": "naxals",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "list",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vande",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mataram",
+        "word": "row",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -304,27 +284,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "list",
+        "word": "vande",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "i-day",
+        "word": "mataram",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "death",
+        "word": "rahul",
         "count": 7,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "asish",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mla",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bangladesh",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-16T12:28:31.883472+00:00",
-    "nextRefresh": "2026-08-16T12:28:31.883472+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 125,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-08-16T13:26:52.607989+00:00",
+    "nextRefresh": "2026-08-16T13:26:52.607989+00:00",
+    "articlesAnalyzed": 433,
+    "matchedMentions": 120,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
