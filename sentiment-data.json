@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 37,
-    "negative": 56,
+    "positive": 38,
+    "negative": 55,
     "neutral": 7,
     "wordCloud": [
       {
@@ -100,11 +100,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "family",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ballroom",
         "count": 4,
         "sentiment": "neutral"
@@ -153,48 +148,53 @@
         "word": "board",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "australia",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-16T02:21:57.062064+00:00",
-    "nextRefresh": "2026-08-16T02:21:57.062064+00:00",
+    "generatedAt": "2026-08-16T03:43:08.993475+00:00",
+    "nextRefresh": "2026-08-16T03:43:08.993475+00:00",
     "articlesAnalyzed": 343,
-    "matchedMentions": 124,
-    "uniquePersonalities": 40,
+    "matchedMentions": 127,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 33,
-    "neutral": 22,
+    "positive": 36,
+    "negative": 38,
+    "neutral": 26,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 30,
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "independence",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "soren",
-        "count": 9,
+        "word": "banerjee",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "youth",
+        "word": "rahul",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "independence",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "soren",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -204,9 +204,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "speech",
+        "word": "demand",
         "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "students",
@@ -214,57 +214,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "demand",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "row",
+        "word": "found",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "kharge",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "padikkal",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "i-day",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "injury",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "coach",
+        "word": "office",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "support",
-        "count": 5,
+        "count": 6,
         "sentiment": "positive"
       },
       {
-        "word": "gandhi",
+        "word": "speech",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "withdraw",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -274,17 +249,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
+        "word": "speaker",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "naxals",
+        "word": "bjp",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "century",
+        "word": "youth",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "padikkal",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "star",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "i-day",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -294,7 +289,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "withdraw",
+        "word": "asish",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dead",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "gandhi",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -304,27 +309,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mother",
+        "word": "deputy",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "government",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "announces",
+        "word": "chief",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-16T02:22:08.228612+00:00",
-    "nextRefresh": "2026-08-16T02:22:08.228612+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 105,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-08-16T03:43:19.432904+00:00",
+    "nextRefresh": "2026-08-16T03:43:19.432904+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 100,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
