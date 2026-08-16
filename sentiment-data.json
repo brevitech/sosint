@@ -1,12 +1,17 @@
 {
   "us": {
-    "positive": 50,
+    "positive": 49,
     "negative": 43,
-    "neutral": 7,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 43,
+        "count": 45,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gaza",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -15,22 +20,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "kushner",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hamas",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "meets",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "uss",
-        "count": 6,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "lincoln",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vaccine",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "netanyahu",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "claims",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -40,32 +80,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kushner",
+        "word": "leader",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "hamas",
+        "word": "push",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "gaza",
+        "word": "road",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "map",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "peace",
+        "count": 5,
+        "sentiment": "positive"
       },
       {
         "word": "bid",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vaccine",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -80,29 +120,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
+        "word": "envoy",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "leader",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "push",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "netanyahu",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "peace",
-        "count": 4,
-        "sentiment": "positive"
       },
       {
         "word": "court",
@@ -115,22 +135,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "high",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "strait",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hormuz",
+        "word": "president",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -143,30 +153,20 @@
         "word": "republican",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "state",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "conditions",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-16T20:15:24.493443+00:00",
-    "nextRefresh": "2026-08-16T20:15:24.493443+00:00",
-    "articlesAnalyzed": 343,
-    "matchedMentions": 133,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-08-16T21:14:43.653065+00:00",
+    "nextRefresh": "2026-08-16T21:14:43.653065+00:00",
+    "articlesAnalyzed": 345,
+    "matchedMentions": 142,
+    "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 34,
-    "negative": 57,
-    "neutral": 9,
+    "positive": 33,
+    "negative": 60,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "row",
@@ -204,12 +204,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "opposition",
+        "word": "rahul",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "opposition",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -239,7 +239,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "jharkhand",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -264,17 +264,12 @@
         "sentiment": "neutral"
       },
       {
+        "word": "congress",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "didn",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jharkhand",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "students",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -317,14 +312,19 @@
         "word": "maharashtra",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "fda",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-16T20:15:36.530819+00:00",
-    "nextRefresh": "2026-08-16T20:15:36.530819+00:00",
+    "generatedAt": "2026-08-16T21:14:54.543482+00:00",
+    "nextRefresh": "2026-08-16T21:14:54.543482+00:00",
     "articlesAnalyzed": 417,
-    "matchedMentions": 96,
-    "uniquePersonalities": 37,
+    "matchedMentions": 94,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
