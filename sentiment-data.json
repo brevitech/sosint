@@ -1,27 +1,17 @@
 {
   "us": {
-    "positive": 40,
+    "positive": 39,
     "negative": 52,
-    "neutral": 8,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 46,
+        "count": 47,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "uss",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lincoln",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -41,6 +31,16 @@
       },
       {
         "word": "against",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "family",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -70,27 +70,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "uss",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lincoln",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "primary",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "families",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "conditions",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "family",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
+        "word": "bbc",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -105,6 +100,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "concerns",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "state",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "sailors",
         "count": 4,
         "sentiment": "neutral"
@@ -115,27 +120,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "abraham",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "national",
         "count": 4,
         "sentiment": "neutral"
       },
       {
+        "word": "help",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
         "word": "ben",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "board",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bbc",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -153,29 +148,49 @@
         "word": "lawsuit",
         "count": 3,
         "sentiment": "negative"
+      },
+      {
+        "word": "five",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-16T15:15:55.001269+00:00",
-    "nextRefresh": "2026-08-16T15:15:55.001269+00:00",
+    "generatedAt": "2026-08-16T16:17:42.583203+00:00",
+    "nextRefresh": "2026-08-16T16:17:42.583203+00:00",
     "articlesAnalyzed": 341,
-    "matchedMentions": 124,
-    "uniquePersonalities": 46,
+    "matchedMentions": 122,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 34,
-    "negative": 50,
+    "positive": 33,
+    "negative": 51,
     "neutral": 16,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 17,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "shah",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
         "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vande",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mataram",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -184,37 +199,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dimagi",
+        "word": "row",
         "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "fda",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "opposition",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "banerjee",
+        "word": "vimal",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "vande",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mataram",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
+        "word": "gandhi",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -224,17 +224,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "naxals",
+        "word": "dimagi",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "ajay",
+        "word": "dead",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "leader",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "devgn",
+        "word": "asish",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "elaichi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "opposition",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -244,8 +264,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vimal",
-        "count": 8,
+        "word": "chief",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -254,7 +274,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "naxals",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -264,67 +284,47 @@
         "sentiment": "neutral"
       },
       {
+        "word": "ajay",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "devgn",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "suicide",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "rahul",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "mla",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "rukh",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shares",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "proud",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "suicide",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "cji",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "surya",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kant",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ex-tmc",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "death",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "elaichi",
+        "word": "congress",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-16T15:16:11.296573+00:00",
-    "nextRefresh": "2026-08-16T15:16:11.296573+00:00",
+    "generatedAt": "2026-08-16T16:18:00.063730+00:00",
+    "nextRefresh": "2026-08-16T16:18:00.063730+00:00",
     "articlesAnalyzed": 432,
-    "matchedMentions": 103,
-    "uniquePersonalities": 41,
+    "matchedMentions": 114,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
 }
