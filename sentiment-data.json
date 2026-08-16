@@ -1,12 +1,17 @@
 {
   "us": {
-    "positive": 49,
-    "negative": 43,
+    "positive": 48,
+    "negative": 44,
     "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 45,
+        "count": 52,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hamas",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -15,7 +20,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "uss",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lincoln",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -25,12 +35,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "hamas",
+        "word": "iran",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "korea",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -40,17 +50,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "uss",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lincoln",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
+        "word": "claims",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -65,37 +65,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "house",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rubio",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leader",
+        "word": "pentagon",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "push",
+        "word": "south",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "road",
+        "word": "key",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "map",
+        "word": "military",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "drills",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -105,7 +100,12 @@
         "sentiment": "positive"
       },
       {
-        "word": "bid",
+        "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "conditions",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -120,56 +120,71 @@
         "sentiment": "neutral"
       },
       {
-        "word": "envoy",
+        "word": "scale",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "record",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "replace",
+        "word": "ahead",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "high",
+        "word": "talks",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
+        "word": "war",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "commander",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "trial",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republican",
+        "word": "health",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-16T21:14:43.653065+00:00",
-    "nextRefresh": "2026-08-16T21:14:43.653065+00:00",
-    "articlesAnalyzed": 345,
-    "matchedMentions": 142,
+    "generatedAt": "2026-08-16T22:15:06.082269+00:00",
+    "nextRefresh": "2026-08-16T22:15:06.082269+00:00",
+    "articlesAnalyzed": 348,
+    "matchedMentions": 151,
     "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 33,
-    "negative": 60,
-    "neutral": 7,
+    "positive": 32,
+    "negative": 59,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "row",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vande",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mataram",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -179,12 +194,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vande",
+        "word": "rahul",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "mataram",
+        "word": "modi",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -199,27 +214,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "opposition",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 9,
+        "word": "naxal",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "naxal",
+        "word": "sonia",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -232,11 +237,6 @@
         "word": "dead",
         "count": 7,
         "sentiment": "negative"
-      },
-      {
-        "word": "sonia",
-        "count": 7,
-        "sentiment": "neutral"
       },
       {
         "word": "jharkhand",
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-16T21:14:54.543482+00:00",
-    "nextRefresh": "2026-08-16T21:14:54.543482+00:00",
+    "generatedAt": "2026-08-16T22:15:20.001594+00:00",
+    "nextRefresh": "2026-08-16T22:15:20.001594+00:00",
     "articlesAnalyzed": 417,
-    "matchedMentions": 94,
-    "uniquePersonalities": 36,
+    "matchedMentions": 96,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
