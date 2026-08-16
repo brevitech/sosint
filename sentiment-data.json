@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 51,
+    "positive": 39,
+    "negative": 54,
     "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 50,
+        "count": 54,
         "sentiment": "neutral"
       },
       {
         "word": "uss",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "lincoln",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -80,6 +80,11 @@
         "sentiment": "positive"
       },
       {
+        "word": "abraham",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "rubio",
         "count": 6,
         "sentiment": "neutral"
@@ -90,7 +95,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "abraham",
+        "word": "sailors",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -100,7 +105,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "record",
+        "word": "families",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -148,24 +153,19 @@
         "word": "unsolicited",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "vance",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-16T09:21:59.910267+00:00",
-    "nextRefresh": "2026-08-16T09:21:59.910267+00:00",
+    "generatedAt": "2026-08-16T10:17:17.533444+00:00",
+    "nextRefresh": "2026-08-16T10:17:17.533444+00:00",
     "articlesAnalyzed": 338,
-    "matchedMentions": 134,
-    "uniquePersonalities": 43,
+    "matchedMentions": 140,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 40,
+    "positive": 43,
+    "negative": 38,
     "neutral": 19,
     "wordCloud": [
       {
@@ -175,52 +175,32 @@
       },
       {
         "word": "banerjee",
-        "count": 20,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "shah",
-        "count": 19,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "rukh",
-        "count": 16,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "ajay",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "devgn",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shroff",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vimal",
         "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "found",
-        "count": 12,
+        "word": "devgn",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "khan",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "students",
-        "count": 12,
+        "word": "shroff",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -229,17 +209,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "asish",
+        "word": "khan",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dimagi",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "office",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tiger",
+        "word": "vimal",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -249,9 +234,19 @@
         "sentiment": "neutral"
       },
       {
+        "word": "proud",
+        "count": 9,
+        "sentiment": "positive"
+      },
+      {
         "word": "dead",
         "count": 9,
         "sentiment": "negative"
+      },
+      {
+        "word": "found",
+        "count": 9,
+        "sentiment": "neutral"
       },
       {
         "word": "death",
@@ -259,32 +254,27 @@
         "sentiment": "negative"
       },
       {
-        "word": "soren",
+        "word": "row",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "aide",
+        "word": "chidambaram",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "explain",
+        "word": "office",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "days",
+        "word": "tiger",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "notices",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
+        "word": "soren",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -294,7 +284,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trinamool",
+        "word": "india",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "asish",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "aide",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-16T09:22:18.453581+00:00",
-    "nextRefresh": "2026-08-16T09:22:18.453581+00:00",
-    "articlesAnalyzed": 429,
-    "matchedMentions": 131,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-08-16T10:17:27.483307+00:00",
+    "nextRefresh": "2026-08-16T10:17:27.483307+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 127,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
 }
