@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 55,
+    "positive": 41,
+    "negative": 53,
     "neutral": 6,
     "wordCloud": [
       {
@@ -16,11 +16,6 @@
       },
       {
         "word": "lincoln",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -46,6 +41,11 @@
       },
       {
         "word": "house",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -156,30 +156,115 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-16T05:22:40.004705+00:00",
-    "nextRefresh": "2026-08-16T05:22:40.004705+00:00",
+    "generatedAt": "2026-08-16T06:30:49.565831+00:00",
+    "nextRefresh": "2026-08-16T06:30:49.565831+00:00",
     "articlesAnalyzed": 337,
-    "matchedMentions": 130,
-    "uniquePersonalities": 41,
+    "matchedMentions": 132,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 40,
-    "negative": 41,
-    "neutral": 19,
+    "negative": 38,
+    "neutral": 22,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 22,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "banerjee",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rukh",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ajay",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "devgn",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shroff",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "khan",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "notice",
         "count": 11,
         "sentiment": "neutral"
       },
       {
+        "word": "found",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "office",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tiger",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "explain",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vimal",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "days",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tukaram",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mundhe",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "soren",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fda",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -189,12 +274,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "found",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "office",
+        "word": "asish",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -204,127 +284,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "demand",
+        "word": "hits",
         "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "independence",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rukh",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "khan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ajay",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "devgn",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shroff",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tukaram",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mundhe",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vimal",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "support",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "bjp",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "asish",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dead",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "withdraw",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "urges",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "speech",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "youth",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "students",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "murmu",
-        "count": 5,
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dead",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "trinamool",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "demand",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "remark",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tribute",
+        "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-16T05:22:50.573401+00:00",
-    "nextRefresh": "2026-08-16T05:22:50.573401+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 98,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-08-16T06:31:00.723544+00:00",
+    "nextRefresh": "2026-08-16T06:31:00.723544+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 110,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
