@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 53,
-    "neutral": 6,
+    "positive": 42,
+    "negative": 51,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 51,
+        "count": 50,
         "sentiment": "neutral"
       },
       {
@@ -100,7 +100,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "record",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "administration",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "five",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -125,6 +135,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "national",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "candidate",
         "count": 4,
         "sentiment": "neutral"
@@ -138,49 +153,34 @@
         "word": "vance",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ahead",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bid",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-16T08:22:00.556716+00:00",
-    "nextRefresh": "2026-08-16T08:22:00.556716+00:00",
+    "generatedAt": "2026-08-16T09:21:59.910267+00:00",
+    "nextRefresh": "2026-08-16T09:21:59.910267+00:00",
     "articlesAnalyzed": 338,
     "matchedMentions": 134,
     "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 39,
+    "positive": 41,
     "negative": 40,
-    "neutral": 21,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 24,
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "banerjee",
-        "count": 19,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "shah",
-        "count": 18,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
@@ -219,8 +219,13 @@
         "sentiment": "neutral"
       },
       {
+        "word": "students",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
         "word": "congress",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -244,29 +249,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "notice",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "students",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "dead",
         "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "aide",
-        "count": 8,
+        "word": "death",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "soren",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "death",
+        "word": "aide",
         "count": 8,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "explain",
@@ -279,12 +279,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "soren",
+        "word": "notices",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "notice",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "trinamool",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cji",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kant",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -297,34 +317,14 @@
         "word": "vajpayee",
         "count": 7,
         "sentiment": "neutral"
-      },
-      {
-        "word": "anniversary",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hits",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "murmu",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "notices",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-16T08:22:13.493642+00:00",
-    "nextRefresh": "2026-08-16T08:22:13.493642+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 122,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-08-16T09:22:18.453581+00:00",
+    "nextRefresh": "2026-08-16T09:22:18.453581+00:00",
+    "articlesAnalyzed": 429,
+    "matchedMentions": 131,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
 }
