@@ -35,6 +35,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "power",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "white",
         "count": 6,
         "sentiment": "neutral"
@@ -70,6 +75,11 @@
         "sentiment": "positive"
       },
       {
+        "word": "rubio",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "primary",
         "count": 6,
         "sentiment": "neutral"
@@ -95,12 +105,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "family",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "family",
+        "word": "court",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -143,34 +153,24 @@
         "word": "brown",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "record",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "board",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-16T04:29:53.707940+00:00",
-    "nextRefresh": "2026-08-16T04:29:53.707940+00:00",
-    "articlesAnalyzed": 343,
-    "matchedMentions": 128,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-08-16T05:22:40.004705+00:00",
+    "nextRefresh": "2026-08-16T05:22:40.004705+00:00",
+    "articlesAnalyzed": 337,
+    "matchedMentions": 130,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 42,
-    "negative": 37,
-    "neutral": 21,
+    "positive": 40,
+    "negative": 41,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 26,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
@@ -179,17 +179,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "independence",
+        "word": "soren",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "soren",
+        "word": "india",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -214,7 +209,7 @@
         "sentiment": "negative"
       },
       {
-        "word": "students",
+        "word": "independence",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -249,16 +244,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "issued",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "notices",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "tukaram",
         "count": 6,
         "sentiment": "neutral"
@@ -274,14 +259,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "elaichi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "support",
         "count": 6,
         "sentiment": "positive"
+      },
+      {
+        "word": "bjp",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "congress",
@@ -314,16 +299,31 @@
         "sentiment": "neutral"
       },
       {
+        "word": "speech",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "youth",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "murmu",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-16T04:30:06.833603+00:00",
-    "nextRefresh": "2026-08-16T04:30:06.833603+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 101,
+    "generatedAt": "2026-08-16T05:22:50.573401+00:00",
+    "nextRefresh": "2026-08-16T05:22:50.573401+00:00",
+    "articlesAnalyzed": 432,
+    "matchedMentions": 98,
     "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
