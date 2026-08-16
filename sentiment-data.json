@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 45,
-    "negative": 47,
-    "neutral": 8,
+    "positive": 48,
+    "negative": 45,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,17 +11,17 @@
       },
       {
         "word": "house",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -36,6 +36,11 @@
       },
       {
         "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bid",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -62,11 +67,6 @@
       {
         "word": "desantis",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gaza",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -120,11 +120,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "national",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "kushner",
         "count": 3,
         "sentiment": "neutral"
@@ -136,6 +131,11 @@
       },
       {
         "word": "leader",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gaza",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -156,31 +156,31 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-16T18:20:27.914207+00:00",
-    "nextRefresh": "2026-08-16T18:20:27.914207+00:00",
+    "generatedAt": "2026-08-16T19:17:29.817885+00:00",
+    "nextRefresh": "2026-08-16T19:17:29.817885+00:00",
     "articlesAnalyzed": 342,
-    "matchedMentions": 131,
+    "matchedMentions": 132,
     "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 36,
-    "negative": 56,
-    "neutral": 8,
+    "positive": 34,
+    "negative": 57,
+    "neutral": 9,
     "wordCloud": [
       {
+        "word": "row",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
         "word": "vande",
-        "count": 13,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "mataram",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
-        "count": 12,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -219,7 +219,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "naxal",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -229,14 +229,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "dimagi",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "dimagi",
-        "count": 8,
-        "sentiment": "neutral"
+        "word": "dead",
+        "count": 7,
+        "sentiment": "negative"
       },
       {
         "word": "proud",
@@ -244,7 +244,7 @@
         "sentiment": "positive"
       },
       {
-        "word": "tamil",
+        "word": "karnataka",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -254,12 +254,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "naxal",
+        "word": "didn",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "didn",
+        "word": "congress",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -270,6 +270,11 @@
       },
       {
         "word": "students",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "maharashtra",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "fda",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-16T18:20:38.289905+00:00",
-    "nextRefresh": "2026-08-16T18:20:38.289905+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 102,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-08-16T19:17:42.801819+00:00",
+    "nextRefresh": "2026-08-16T19:17:42.801819+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 97,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
