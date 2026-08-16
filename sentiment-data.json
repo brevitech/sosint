@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 39,
+    "positive": 40,
     "negative": 52,
-    "neutral": 9,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
@@ -35,22 +35,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "strait",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hormuz",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "rubio",
         "count": 6,
         "sentiment": "neutral"
       },
       {
+        "word": "against",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strait",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hormuz",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -70,27 +75,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "families",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "conditions",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "five",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seeks",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -115,16 +105,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "territory",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rejects",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
         "word": "sailors",
         "count": 4,
         "sentiment": "neutral"
@@ -145,6 +125,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "ben",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "board",
         "count": 3,
         "sentiment": "neutral"
@@ -153,20 +138,35 @@
         "word": "bbc",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "subpoena",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "members",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lawsuit",
+        "count": 3,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-16T14:16:55.772809+00:00",
-    "nextRefresh": "2026-08-16T14:16:55.772809+00:00",
+    "generatedAt": "2026-08-16T15:15:55.001269+00:00",
+    "nextRefresh": "2026-08-16T15:15:55.001269+00:00",
     "articlesAnalyzed": 341,
-    "matchedMentions": 127,
-    "uniquePersonalities": 44,
+    "matchedMentions": 124,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 38,
-    "negative": 44,
-    "neutral": 18,
+    "positive": 34,
+    "negative": 50,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "modi",
@@ -175,42 +175,42 @@
       },
       {
         "word": "shah",
-        "count": 15,
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rijiju",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dimagi",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "fda",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ajay",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "devgn",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vimal",
-        "count": 11,
+        "word": "opposition",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "banerjee",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "rukh",
-        "count": 10,
+        "word": "vande",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mataram",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -219,32 +219,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rijiju",
+        "word": "india",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "dimagi",
+        "word": "naxals",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "notice",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "opposition",
+        "word": "ajay",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "khan",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shroff",
+        "word": "devgn",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -254,17 +244,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vande",
+        "word": "vimal",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sonia",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "mataram",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "naxals",
+        "word": "gandhi",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -274,18 +264,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "suicide",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
         "word": "mla",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 6,
+        "word": "rukh",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -299,17 +284,22 @@
         "sentiment": "positive"
       },
       {
-        "word": "students",
+        "word": "suicide",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "cji",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "tmc",
+        "word": "surya",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "didn",
+        "word": "kant",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -317,14 +307,24 @@
         "word": "ex-tmc",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "death",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "elaichi",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-16T14:17:11.207949+00:00",
-    "nextRefresh": "2026-08-16T14:17:11.207949+00:00",
-    "articlesAnalyzed": 433,
+    "generatedAt": "2026-08-16T15:16:11.296573+00:00",
+    "nextRefresh": "2026-08-16T15:16:11.296573+00:00",
+    "articlesAnalyzed": 432,
     "matchedMentions": 103,
-    "uniquePersonalities": 39,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
