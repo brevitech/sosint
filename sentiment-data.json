@@ -1,12 +1,22 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 47,
-    "neutral": 9,
+    "positive": 45,
+    "negative": 48,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 52,
+        "count": 55,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "korea",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "south",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -15,13 +25,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gaza",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "south",
-        "count": 14,
+        "word": "netanyahu",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -30,17 +35,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "korea",
+        "word": "meets",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "netanyahu",
+        "word": "talks",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "military",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "drills",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gaza",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -50,19 +65,24 @@
         "sentiment": "positive"
       },
       {
-        "word": "military",
-        "count": 8,
+        "word": "power",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "uss",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "lincoln",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
+      },
+      {
+        "word": "good",
+        "count": 7,
+        "sentiment": "positive"
       },
       {
         "word": "house",
@@ -90,19 +110,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "drills",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "war",
         "count": 6,
         "sentiment": "negative"
-      },
-      {
-        "word": "israel",
-        "count": 6,
-        "sentiment": "neutral"
       },
       {
         "word": "plan",
@@ -110,82 +120,72 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "politics",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
+        "word": "cuts",
         "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "kim",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "citing",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "relationship",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jong-un",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "claims",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vaccine",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rare",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "blanche",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "key",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meeting",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "orders",
-        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-17T10:26:18.660067+00:00",
-    "nextRefresh": "2026-08-17T10:26:18.660067+00:00",
+    "generatedAt": "2026-08-17T11:20:11.225496+00:00",
+    "nextRefresh": "2026-08-17T11:20:11.225496+00:00",
     "articlesAnalyzed": 333,
     "matchedMentions": 149,
-    "uniquePersonalities": 47,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 49,
-    "negative": 31,
-    "neutral": 20,
+    "positive": 48,
+    "negative": 25,
+    "neutral": 27,
     "wordCloud": [
       {
-        "word": "rahul",
-        "count": 24,
+        "word": "bjp",
+        "count": 30,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 20,
+        "word": "rahul",
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "irani",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "soren",
-        "count": 11,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -194,9 +194,29 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 8,
+        "word": "soren",
+        "count": 9,
         "sentiment": "neutral"
+      },
+      {
+        "word": "ram",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "team",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
         "word": "announces",
@@ -209,17 +229,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "students",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "jharkhand",
+        "word": "reshuffle",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "letter",
+        "word": "madhav",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -234,14 +254,29 @@
         "sentiment": "neutral"
       },
       {
+        "word": "comeback",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "massive",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "assets",
         "count": 6,
         "sentiment": "positive"
       },
       {
-        "word": "ally",
+        "word": "modi",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "protesting",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "against",
@@ -249,7 +284,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ajay",
+        "word": "list",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -259,72 +294,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "party",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "full",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protest",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "fda",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "devgn",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shroff",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "explained",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "among",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "students",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "resignation",
-        "count": 5,
+        "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "financial",
+        "word": "jharkhand",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
-        "count": 4,
-        "sentiment": "positive"
+        "word": "office",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "biplab",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deb",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-17T10:26:28.402168+00:00",
-    "nextRefresh": "2026-08-17T10:26:28.402168+00:00",
+    "generatedAt": "2026-08-17T11:20:36.814332+00:00",
+    "nextRefresh": "2026-08-17T11:20:36.814332+00:00",
     "articlesAnalyzed": 430,
-    "matchedMentions": 109,
-    "uniquePersonalities": 42,
+    "matchedMentions": 112,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   }
 }
