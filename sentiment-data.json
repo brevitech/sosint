@@ -1,12 +1,32 @@
 {
   "us": {
     "positive": 38,
-    "negative": 55,
-    "neutral": 7,
+    "negative": 56,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 71,
+        "count": 76,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kushner",
+        "count": 23,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gaza",
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 18,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "netanyahu",
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -15,29 +35,29 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kushner",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
         "word": "south",
         "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 13,
-        "sentiment": "neutral"
+        "word": "war",
+        "count": 14,
+        "sentiment": "negative"
       },
       {
-        "word": "netanyahu",
+        "word": "meets",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 11,
+        "word": "talks",
+        "count": 12,
         "sentiment": "neutral"
+      },
+      {
+        "word": "peace",
+        "count": 12,
+        "sentiment": "positive"
       },
       {
         "word": "hamas",
@@ -45,29 +65,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "plan",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
+        "word": "court",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "gaza",
+        "word": "bid",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "deal",
         "count": 9,
-        "sentiment": "negative"
-      },
-      {
-        "word": "peace",
-        "count": 9,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "supreme",
@@ -90,7 +105,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "bid",
+        "word": "oman",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ossoff",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -101,11 +126,6 @@
       },
       {
         "word": "lincoln",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "oman",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -133,79 +153,29 @@
         "word": "bomb",
         "count": 6,
         "sentiment": "negative"
-      },
-      {
-        "word": "military",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "drills",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "plan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rejects",
-        "count": 6,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-17T16:20:51.969519+00:00",
-    "nextRefresh": "2026-08-17T16:20:51.969519+00:00",
-    "articlesAnalyzed": 333,
-    "matchedMentions": 150,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-08-17T17:21:02.014792+00:00",
+    "nextRefresh": "2026-08-17T17:21:02.014792+00:00",
+    "articlesAnalyzed": 331,
+    "matchedMentions": 160,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 55,
-    "negative": 18,
+    "positive": 52,
+    "negative": 21,
     "neutral": 27,
     "wordCloud": [
       {
         "word": "bjp",
-        "count": 26,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
         "word": "irani",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sarma",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nabin",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "announces",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jadeja",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "list",
-        "count": 9,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -219,13 +189,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nitin",
+        "word": "jadeja",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 8,
+        "word": "key",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sarma",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -234,22 +219,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dimagi",
+        "word": "announces",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "naxal",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attacks",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "india",
+        "word": "list",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -264,47 +239,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "row",
+        "word": "nitin",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "nabin",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "himanta",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pure",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "biswa",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chidambaram",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "team",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "comeback",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "key",
+        "word": "india",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -314,17 +259,72 @@
         "sentiment": "neutral"
       },
       {
+        "word": "soren",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shahzad",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhatti",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrested",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
         "word": "share",
         "count": 5,
         "sentiment": "positive"
+      },
+      {
+        "word": "centre",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jharkhand",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pak-backed",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "handler",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "network",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "busted",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-17T16:21:04.819851+00:00",
-    "nextRefresh": "2026-08-17T16:21:04.819851+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 111,
-    "uniquePersonalities": 47,
+    "generatedAt": "2026-08-17T17:21:26.472734+00:00",
+    "nextRefresh": "2026-08-17T17:21:26.472734+00:00",
+    "articlesAnalyzed": 429,
+    "matchedMentions": 107,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   }
 }
