@@ -1,57 +1,52 @@
 {
   "us": {
-    "positive": 35,
-    "negative": 57,
-    "neutral": 8,
+    "positive": 36,
+    "negative": 58,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 73,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kushner",
-        "count": 21,
+        "count": 74,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
+        "count": 22,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kushner",
         "count": 20,
         "sentiment": "neutral"
       },
       {
-        "word": "gaza",
+        "word": "south",
         "count": 18,
         "sentiment": "neutral"
       },
       {
-        "word": "netanyahu",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "south",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
         "word": "korea",
-        "count": 15,
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gaza",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "netanyahu",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "peace",
-        "count": 12,
+        "count": 13,
         "sentiment": "positive"
       },
       {
         "word": "talks",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "plan",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -61,12 +56,17 @@
       },
       {
         "word": "deal",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
-        "count": 10,
+        "word": "war",
+        "count": 11,
+        "sentiment": "negative"
+      },
+      {
+        "word": "plan",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -75,38 +75,33 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 9,
-        "sentiment": "negative"
-      },
-      {
-        "word": "hamas",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "supreme",
-        "count": 9,
-        "sentiment": "positive"
-      },
-      {
         "word": "bid",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "jean",
-        "count": 7,
+        "word": "meets",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "carroll",
-        "count": 7,
+        "word": "hamas",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 7,
+        "word": "supreme",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "teen",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lifeguard",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -135,56 +130,56 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "jean",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "teen",
-        "count": 5,
+        "word": "carroll",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "lifeguard",
-        "count": 5,
+        "word": "administration",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "video",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "lincoln",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-17T22:18:15.695759+00:00",
-    "nextRefresh": "2026-08-17T22:18:15.695759+00:00",
+    "generatedAt": "2026-08-17T23:17:47.847671+00:00",
+    "nextRefresh": "2026-08-17T23:17:47.847671+00:00",
     "articlesAnalyzed": 334,
-    "matchedMentions": 156,
+    "matchedMentions": 160,
     "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 49,
-    "negative": 23,
-    "neutral": 28,
+    "positive": 48,
+    "negative": 25,
+    "neutral": 27,
     "wordCloud": [
       {
         "word": "bjp",
-        "count": 24,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
         "word": "irani",
-        "count": 15,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "team",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "key",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -209,18 +204,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jadeja",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "list",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "goyal",
-        "count": 7,
+        "word": "key",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -234,27 +219,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "roles",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "students",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "bank",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "announces",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "joins",
+        "word": "jadeja",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -304,27 +274,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "office",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "piyush",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "poonawalla",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "list",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "national",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "goyal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "agrees",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "firm",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "soren",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shahzad",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhatti",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-17T22:18:26.835916+00:00",
-    "nextRefresh": "2026-08-17T22:18:26.835916+00:00",
+    "generatedAt": "2026-08-17T23:17:59.442539+00:00",
+    "nextRefresh": "2026-08-17T23:17:59.442539+00:00",
     "articlesAnalyzed": 416,
-    "matchedMentions": 90,
-    "uniquePersonalities": 44,
+    "matchedMentions": 83,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
