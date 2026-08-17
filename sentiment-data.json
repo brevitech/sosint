@@ -1,12 +1,12 @@
 {
   "us": {
     "positive": 45,
-    "negative": 47,
-    "neutral": 8,
+    "negative": 46,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 54,
+        "count": 53,
         "sentiment": "neutral"
       },
       {
@@ -100,6 +100,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "reduce",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "iran",
         "count": 6,
         "sentiment": "neutral"
@@ -111,11 +116,6 @@
       },
       {
         "word": "white",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "scale",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -156,57 +156,87 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-17T05:30:24.268907+00:00",
-    "nextRefresh": "2026-08-17T05:30:24.268907+00:00",
-    "articlesAnalyzed": 346,
-    "matchedMentions": 148,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-08-17T06:42:23.083843+00:00",
+    "nextRefresh": "2026-08-17T06:42:23.083843+00:00",
+    "articlesAnalyzed": 345,
+    "matchedMentions": 145,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 35,
-    "negative": 51,
-    "neutral": 14,
+    "positive": 36,
+    "negative": 44,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jharkhand",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "soren",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vande",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mataram",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 7,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
-        "count": 6,
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shehzad",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "poonawalla",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "financial",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "protest",
-        "count": 6,
+        "count": 8,
         "sentiment": "negative"
+      },
+      {
+        "word": "against",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "soren",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nalsar",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "invite",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "jharkhand",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vande",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mataram",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "cji",
@@ -214,42 +244,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "surya",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
+        "word": "kant",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "financial",
+        "word": "cites",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "rijiju",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dimagi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "condemns",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "killing",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "karnataka",
+        "word": "personal",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -259,7 +269,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "protests",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "calls",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -274,6 +289,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "full",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "police",
         "count": 5,
         "sentiment": "neutral"
@@ -284,46 +304,26 @@
         "sentiment": "negative"
       },
       {
-        "word": "against",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "sonia",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "shehzad",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "poonawalla",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nalsar",
-        "count": 4,
-        "sentiment": "neutral"
+        "word": "resignation",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "law",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "invite",
-        "count": 4,
-        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-17T05:30:38.380332+00:00",
-    "nextRefresh": "2026-08-17T05:30:38.380332+00:00",
+    "generatedAt": "2026-08-17T06:42:42.523484+00:00",
+    "nextRefresh": "2026-08-17T06:42:42.523484+00:00",
     "articlesAnalyzed": 430,
-    "matchedMentions": 82,
+    "matchedMentions": 88,
     "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
