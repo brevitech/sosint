@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 38,
+    "positive": 37,
     "negative": 56,
-    "neutral": 6,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 76,
+        "count": 78,
         "sentiment": "neutral"
       },
       {
@@ -17,6 +17,11 @@
       {
         "word": "gaza",
         "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "south",
+        "count": 18,
         "sentiment": "neutral"
       },
       {
@@ -31,12 +36,7 @@
       },
       {
         "word": "korea",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "south",
-        "count": 14,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -46,7 +46,7 @@
       },
       {
         "word": "meets",
-        "count": 12,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -95,8 +95,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "uss",
-        "count": 8,
+        "word": "ossoff",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -106,11 +106,6 @@
       },
       {
         "word": "oman",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ossoff",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -125,7 +120,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "lincoln",
+        "word": "administration",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "uss",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -150,32 +150,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bomb",
+        "word": "lincoln",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-17T17:21:02.014792+00:00",
-    "nextRefresh": "2026-08-17T17:21:02.014792+00:00",
-    "articlesAnalyzed": 331,
-    "matchedMentions": 160,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-08-17T18:30:43.507745+00:00",
+    "nextRefresh": "2026-08-17T18:30:43.507745+00:00",
+    "articlesAnalyzed": 333,
+    "matchedMentions": 156,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 21,
+    "positive": 51,
+    "negative": 22,
     "neutral": 27,
     "wordCloud": [
       {
         "word": "bjp",
-        "count": 23,
+        "count": 29,
         "sentiment": "neutral"
       },
       {
         "word": "irani",
-        "count": 12,
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "key",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -189,12 +194,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jadeja",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "key",
+        "word": "jharkhand",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -209,17 +209,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "jibe",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "revamp",
+        "word": "nitin",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "announces",
+        "word": "nabin",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jadeja",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "comeback",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -234,17 +244,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "team",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "chief",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "nitin",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nabin",
+        "word": "modi",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -254,12 +264,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "announces",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "roles",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "soren",
+        "word": "naxal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -279,9 +299,14 @@
         "sentiment": "negative"
       },
       {
-        "word": "share",
+        "word": "rahul",
         "count": 5,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "revamp",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "centre",
@@ -289,42 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "students",
+        "word": "joins",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jharkhand",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pak-backed",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "handler",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "network",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "busted",
-        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-17T17:21:26.472734+00:00",
-    "nextRefresh": "2026-08-17T17:21:26.472734+00:00",
-    "articlesAnalyzed": 429,
-    "matchedMentions": 107,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-08-17T18:30:57.132808+00:00",
+    "nextRefresh": "2026-08-17T18:30:57.132808+00:00",
+    "articlesAnalyzed": 416,
+    "matchedMentions": 106,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   }
 }
