@@ -1,22 +1,17 @@
 {
   "us": {
-    "positive": 47,
-    "negative": 45,
+    "positive": 44,
+    "negative": 48,
     "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 61,
+        "count": 62,
         "sentiment": "neutral"
       },
       {
         "word": "korea",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "south",
-        "count": 12,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -26,6 +21,11 @@
       },
       {
         "word": "gaza",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "south",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -60,9 +60,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "joint",
+        "word": "war",
         "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "claims",
@@ -72,16 +72,6 @@
       {
         "word": "vaccine",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pentagon",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "exercises",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -110,8 +100,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "scale",
-        "count": 5,
+        "word": "joint",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -150,71 +140,56 @@
         "sentiment": "neutral"
       },
       {
-        "word": "desantis",
+        "word": "pentagon",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "exercises",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "scale",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-17T02:19:23.727999+00:00",
-    "nextRefresh": "2026-08-17T02:19:23.727999+00:00",
+    "generatedAt": "2026-08-17T03:44:28.963319+00:00",
+    "nextRefresh": "2026-08-17T03:44:28.963319+00:00",
     "articlesAnalyzed": 346,
-    "matchedMentions": 160,
-    "uniquePersonalities": 50,
+    "matchedMentions": 158,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 33,
-    "negative": 57,
-    "neutral": 10,
+    "positive": 35,
+    "negative": 53,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "gandhi",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vande",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mataram",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
         "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 10,
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vande",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mataram",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "sonia",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dead",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "shah",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jharkhand",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -224,7 +199,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
+        "word": "college",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "invite",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "row",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "karnataka",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -234,12 +224,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
+        "word": "tamil",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -254,7 +239,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "karnataka",
+        "word": "dead",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "congress",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jharkhand",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -264,12 +259,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "asish",
+        "word": "modi",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -284,29 +274,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "college",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "opposes",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "invite",
+        "word": "chief",
         "count": 4,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "justice",
         "count": 4,
         "sentiment": "positive"
-      },
-      {
-        "word": "probe",
-        "count": 4,
-        "sentiment": "neutral"
       },
       {
         "word": "adapt",
@@ -317,14 +297,34 @@
         "word": "determining",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "technology",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reshape",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "legal",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "system",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-17T02:19:36.540039+00:00",
-    "nextRefresh": "2026-08-17T02:19:36.540039+00:00",
-    "articlesAnalyzed": 433,
-    "matchedMentions": 81,
-    "uniquePersonalities": 32,
+    "generatedAt": "2026-08-17T03:44:38.640138+00:00",
+    "nextRefresh": "2026-08-17T03:44:38.640138+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 72,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
 }
