@@ -1,17 +1,12 @@
 {
   "us": {
-    "positive": 44,
+    "positive": 43,
     "negative": 48,
-    "neutral": 8,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "korea",
-        "count": 13,
+        "count": 54,
         "sentiment": "neutral"
       },
       {
@@ -31,6 +26,11 @@
       },
       {
         "word": "kushner",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "korea",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -55,11 +55,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "drills",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "war",
         "count": 7,
         "sentiment": "negative"
@@ -70,22 +65,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vaccine",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ahead",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "talks",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "military",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -105,17 +90,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "vaccine",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "drills",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "peace",
         "count": 5,
         "sentiment": "positive"
       },
       {
         "word": "commander",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "health",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -140,11 +130,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pentagon",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "exercises",
         "count": 5,
         "sentiment": "neutral"
@@ -153,29 +138,54 @@
         "word": "scale",
         "count": 4,
         "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-08-17T03:44:28.963319+00:00",
-    "nextRefresh": "2026-08-17T03:44:28.963319+00:00",
-    "articlesAnalyzed": 346,
-    "matchedMentions": 158,
-    "uniquePersonalities": 45,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 35,
-    "negative": 53,
-    "neutral": 12,
-    "wordCloud": [
+      },
       {
-        "word": "gandhi",
-        "count": 10,
+        "word": "mental",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
+        "word": "health",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 4,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-08-17T04:35:31.262088+00:00",
+    "nextRefresh": "2026-08-17T04:35:31.262088+00:00",
+    "articlesAnalyzed": 343,
+    "matchedMentions": 147,
+    "uniquePersonalities": 43,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 34,
+    "negative": 53,
+    "neutral": 13,
+    "wordCloud": [
+      {
         "word": "rahul",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jharkhand",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "soren",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -189,17 +199,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sonia",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "nalsar",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "college",
+        "word": "law",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -209,17 +214,22 @@
         "sentiment": "positive"
       },
       {
-        "word": "row",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "karnataka",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "cji",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -239,27 +249,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "row",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "dead",
         "count": 5,
         "sentiment": "negative"
       },
       {
-        "word": "congress",
+        "word": "condemns",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "killing",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "against",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "jharkhand",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "soren",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
+        "word": "sonia",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -269,7 +284,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "law",
+        "word": "college",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -289,42 +304,27 @@
         "sentiment": "positive"
       },
       {
-        "word": "adapt",
+        "word": "explained",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "determining",
+        "word": "protesters",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "technology",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reshape",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "legal",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "system",
+        "word": "burn",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-17T03:44:38.640138+00:00",
-    "nextRefresh": "2026-08-17T03:44:38.640138+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 72,
-    "uniquePersonalities": 34,
+    "generatedAt": "2026-08-17T04:35:45.125306+00:00",
+    "nextRefresh": "2026-08-17T04:35:45.125306+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 76,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
