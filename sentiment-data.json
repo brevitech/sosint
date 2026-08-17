@@ -1,12 +1,27 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 55,
-    "neutral": 7,
+    "positive": 35,
+    "negative": 57,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 78,
+        "count": 73,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kushner",
+        "count": 21,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gaza",
+        "count": 18,
         "sentiment": "neutral"
       },
       {
@@ -20,28 +35,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kushner",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
         "word": "korea",
         "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gaza",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -60,17 +55,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
-        "count": 10,
-        "sentiment": "positive"
+        "word": "court",
+        "count": 11,
+        "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
-        "word": "bid",
+        "word": "deal",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -80,9 +70,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "oman",
         "count": 9,
         "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 9,
+        "sentiment": "negative"
       },
       {
         "word": "hamas",
@@ -90,7 +85,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "supreme",
+        "count": 9,
+        "sentiment": "positive"
+      },
+      {
+        "word": "bid",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -101,6 +101,11 @@
       },
       {
         "word": "carroll",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -120,17 +125,7 @@
         "sentiment": "negative"
       },
       {
-        "word": "oman",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "gets",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "military",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -145,27 +140,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "decision",
-        "count": 6,
+        "word": "teen",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "say",
+        "word": "lifeguard",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "video",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-17T21:20:27.080425+00:00",
-    "nextRefresh": "2026-08-17T21:20:27.080425+00:00",
-    "articlesAnalyzed": 333,
-    "matchedMentions": 159,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-08-17T22:18:15.695759+00:00",
+    "nextRefresh": "2026-08-17T22:18:15.695759+00:00",
+    "articlesAnalyzed": 334,
+    "matchedMentions": 156,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 48,
-    "negative": 24,
+    "positive": 49,
+    "negative": 23,
     "neutral": 28,
     "wordCloud": [
       {
@@ -179,18 +179,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "key",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "team",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "jharkhand",
-        "count": 8,
+        "word": "key",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -200,6 +195,11 @@
       },
       {
         "word": "nabin",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jharkhand",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -269,11 +269,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "soren",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "accepts",
         "count": 4,
         "sentiment": "positive"
@@ -317,13 +312,18 @@
         "word": "piyush",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "poonawalla",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-17T21:20:39.815121+00:00",
-    "nextRefresh": "2026-08-17T21:20:39.815121+00:00",
+    "generatedAt": "2026-08-17T22:18:26.835916+00:00",
+    "nextRefresh": "2026-08-17T22:18:26.835916+00:00",
     "articlesAnalyzed": 416,
-    "matchedMentions": 92,
+    "matchedMentions": 90,
     "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
