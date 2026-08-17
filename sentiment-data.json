@@ -1,12 +1,12 @@
 {
   "us": {
     "positive": 46,
-    "negative": 44,
-    "neutral": 10,
+    "negative": 45,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 57,
+        "count": 52,
         "sentiment": "neutral"
       },
       {
@@ -25,22 +25,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "south",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
         "word": "peace",
-        "count": 11,
+        "count": 12,
         "sentiment": "positive"
       },
       {
-        "word": "korea",
-        "count": 10,
+        "word": "south",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "korea",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -51,6 +46,11 @@
       },
       {
         "word": "israel",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -70,32 +70,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "joint",
-        "count": 7,
+        "word": "iran",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 7,
-        "sentiment": "negative"
+        "word": "military",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
-        "word": "claims",
-        "count": 7,
+        "word": "joint",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "exercises",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meets",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ahead",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -105,9 +95,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "war",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "house",
@@ -115,13 +105,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vaccine",
+        "word": "claims",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "military",
-        "count": 5,
+        "word": "vaccine",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -145,7 +135,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "meeting",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "orders",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "drills",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -156,21 +156,21 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-17T08:36:39.953209+00:00",
-    "nextRefresh": "2026-08-17T08:36:39.953209+00:00",
-    "articlesAnalyzed": 342,
-    "matchedMentions": 151,
-    "uniquePersonalities": 47,
+    "generatedAt": "2026-08-17T09:35:21.792106+00:00",
+    "nextRefresh": "2026-08-17T09:35:21.792106+00:00",
+    "articlesAnalyzed": 333,
+    "matchedMentions": 143,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 35,
+    "positive": 44,
+    "negative": 36,
     "neutral": 20,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 27,
+        "count": 28,
         "sentiment": "neutral"
       },
       {
@@ -179,24 +179,29 @@
         "sentiment": "neutral"
       },
       {
-        "word": "soren",
+        "word": "bjp",
         "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 12,
+        "word": "soren",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "jharkhand",
-        "count": 10,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
-        "count": 9,
-        "sentiment": "negative"
+        "word": "against",
+        "count": 8,
+        "sentiment": "neutral"
       },
       {
         "word": "ajay",
@@ -204,17 +209,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shehzad",
-        "count": 8,
-        "sentiment": "neutral"
+        "word": "protest",
+        "count": 7,
+        "sentiment": "negative"
       },
       {
-        "word": "poonawalla",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
+        "word": "modi",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -224,7 +224,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "india",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -244,14 +249,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "students",
+        "word": "shehzad",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "protesters",
-        "count": 6,
-        "sentiment": "negative"
+        "word": "poonawalla",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "ally",
@@ -259,27 +264,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "proceedings",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protesting",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "financial",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -294,11 +279,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ugc-net",
         "count": 5,
         "sentiment": "neutral"
@@ -309,7 +289,7 @@
         "sentiment": "positive"
       },
       {
-        "word": "nta",
+        "word": "shah",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -317,14 +297,34 @@
         "word": "rukh",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "explained",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nta",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "resignation",
+        "count": 5,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-17T08:36:50.650398+00:00",
-    "nextRefresh": "2026-08-17T08:36:50.650398+00:00",
+    "generatedAt": "2026-08-17T09:35:47.767713+00:00",
+    "nextRefresh": "2026-08-17T09:35:47.767713+00:00",
     "articlesAnalyzed": 429,
     "matchedMentions": 109,
-    "uniquePersonalities": 39,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
