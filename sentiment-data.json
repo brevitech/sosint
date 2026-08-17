@@ -1,26 +1,26 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 49,
-    "neutral": 7,
+    "positive": 37,
+    "negative": 54,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 64,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "south",
-        "count": 15,
+        "count": 69,
         "sentiment": "neutral"
       },
       {
         "word": "korea",
-        "count": 15,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "kushner",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "south",
         "count": 14,
         "sentiment": "neutral"
       },
@@ -30,14 +30,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "hamas",
-        "count": 11,
+        "word": "iran",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 10,
+        "count": 11,
         "sentiment": "negative"
+      },
+      {
+        "word": "hamas",
+        "count": 11,
+        "sentiment": "neutral"
       },
       {
         "word": "meets",
@@ -45,14 +50,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "military",
+        "word": "court",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 9,
-        "sentiment": "neutral"
+        "word": "threatens",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
         "word": "talks",
@@ -60,22 +65,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "gaza",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "joint",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "exercises",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "supreme",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "oman",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "uss",
+        "word": "gets",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "reduce",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "military",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -90,47 +115,27 @@
         "sentiment": "positive"
       },
       {
-        "word": "gaza",
-        "count": 7,
+        "word": "house",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "joint",
-        "count": 7,
+        "word": "uss",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "threatens",
-        "count": 7,
+        "word": "bomb",
+        "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "exercises",
-        "count": 7,
+        "word": "administration",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "lincoln",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "oman",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gets",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "decision",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -140,14 +145,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bomb",
+        "word": "power",
         "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "good",
-        "count": 5,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "claims",
@@ -156,46 +156,31 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-17T14:21:32.352595+00:00",
-    "nextRefresh": "2026-08-17T14:21:32.352595+00:00",
+    "generatedAt": "2026-08-17T15:19:48.428096+00:00",
+    "nextRefresh": "2026-08-17T15:19:48.428096+00:00",
     "articlesAnalyzed": 333,
-    "matchedMentions": 145,
-    "uniquePersonalities": 48,
+    "matchedMentions": 147,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 24,
-    "neutral": 24,
+    "positive": 57,
+    "negative": 18,
+    "neutral": 25,
     "wordCloud": [
       {
         "word": "bjp",
-        "count": 26,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "irani",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nabin",
         "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "nitin",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "team",
+        "word": "nabin",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "announces",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -204,23 +189,38 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "nitin",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "ram",
+        "word": "sarma",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "madhav",
+        "word": "key",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "announces",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "jadeja",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "revamp",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -234,17 +234,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "key",
+        "word": "attacks",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "modi",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "poonawalla",
+        "word": "goyal",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -259,42 +259,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sarma",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attacks",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
         "word": "chidambaram",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "among",
+        "word": "team",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "comeback",
+        "word": "roles",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "shehzad",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "party",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "rahul",
+        "word": "india",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -304,27 +284,47 @@
         "sentiment": "positive"
       },
       {
-        "word": "malviya",
+        "word": "himanta",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "resignation",
+        "word": "chief",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vande",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mataram",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "leaders",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "gets",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-17T14:21:50.673709+00:00",
-    "nextRefresh": "2026-08-17T14:21:50.673709+00:00",
-    "articlesAnalyzed": 415,
-    "matchedMentions": 103,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-08-17T15:20:05.180291+00:00",
+    "nextRefresh": "2026-08-17T15:20:05.180291+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 99,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
