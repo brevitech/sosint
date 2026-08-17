@@ -1,31 +1,31 @@
 {
   "us": {
-    "positive": 45,
-    "negative": 45,
+    "positive": 46,
+    "negative": 44,
     "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 55,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hamas",
-        "count": 14,
+        "count": 57,
         "sentiment": "neutral"
       },
       {
         "word": "gaza",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "south",
-        "count": 11,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "kushner",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hamas",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "south",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -45,12 +45,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "uss",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lincoln",
+        "word": "netanyahu",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -60,12 +55,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "joint",
-        "count": 7,
+        "word": "plan",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "netanyahu",
+        "word": "uss",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lincoln",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "joint",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -91,11 +96,6 @@
       },
       {
         "word": "ahead",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "plan",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -130,11 +130,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "commander",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "power",
         "count": 5,
         "sentiment": "neutral"
@@ -153,29 +148,39 @@
         "word": "orders",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "envoy",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-17T07:47:22.393526+00:00",
-    "nextRefresh": "2026-08-17T07:47:22.393526+00:00",
-    "articlesAnalyzed": 345,
-    "matchedMentions": 148,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-08-17T08:36:39.953209+00:00",
+    "nextRefresh": "2026-08-17T08:36:39.953209+00:00",
+    "articlesAnalyzed": 342,
+    "matchedMentions": 151,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 38,
-    "neutral": 21,
+    "positive": 45,
+    "negative": 35,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 21,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 16,
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "soren",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -184,34 +189,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "soren",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shehzad",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "poonawalla",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "jharkhand",
-        "count": 8,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "protest",
-        "count": 8,
+        "count": 9,
         "sentiment": "negative"
-      },
-      {
-        "word": "financial",
-        "count": 8,
-        "sentiment": "neutral"
       },
       {
         "word": "ajay",
@@ -219,7 +204,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "shehzad",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "poonawalla",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "letter",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -239,6 +244,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "students",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "protesters",
         "count": 6,
         "sentiment": "negative"
@@ -249,13 +259,43 @@
         "sentiment": "neutral"
       },
       {
+        "word": "court",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "proceedings",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "shah",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "protesting",
         "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "financial",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "writes",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "full",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -264,19 +304,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cites",
+        "word": "assets",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "personal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rukh",
-        "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "nta",
@@ -284,47 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "protests",
+        "word": "rukh",
         "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "row",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "full",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "resignation",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "agency",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tiger",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-17T07:47:34.281153+00:00",
-    "nextRefresh": "2026-08-17T07:47:34.281153+00:00",
+    "generatedAt": "2026-08-17T08:36:50.650398+00:00",
+    "nextRefresh": "2026-08-17T08:36:50.650398+00:00",
     "articlesAnalyzed": 429,
-    "matchedMentions": 98,
-    "uniquePersonalities": 38,
+    "matchedMentions": 109,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
