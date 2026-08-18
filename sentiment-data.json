@@ -1,21 +1,16 @@
 {
   "us": {
-    "positive": 35,
-    "negative": 59,
-    "neutral": 6,
+    "positive": 34,
+    "negative": 58,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 64,
+        "count": 68,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "south",
         "count": 18,
         "sentiment": "neutral"
       },
@@ -25,9 +20,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "peace",
-        "count": 12,
-        "sentiment": "positive"
+        "word": "south",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "florida",
+        "count": 11,
+        "sentiment": "neutral"
       },
       {
         "word": "oman",
@@ -35,18 +35,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kushner",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "florida",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gaza",
-        "count": 9,
+        "word": "primary",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -60,17 +50,37 @@
         "sentiment": "neutral"
       },
       {
+        "word": "peace",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "dan",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sullivan",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "deal",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
+        "word": "kushner",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "primary",
+        "word": "administration",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -85,17 +95,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "drills",
+        "word": "gaza",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
+        "word": "video",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -105,32 +110,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cnn",
+        "word": "drills",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "us-iran",
+        "word": "politics",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "ossoff",
+        "word": "alaska",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "hegseth",
+        "word": "power",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "unique",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "decision",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -150,23 +150,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
+        "word": "plan",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-18T12:34:47.626056+00:00",
-    "nextRefresh": "2026-08-18T12:34:47.626056+00:00",
+    "generatedAt": "2026-08-18T13:38:17.792883+00:00",
+    "nextRefresh": "2026-08-18T13:38:17.792883+00:00",
     "articlesAnalyzed": 332,
-    "matchedMentions": 148,
-    "uniquePersonalities": 40,
+    "matchedMentions": 144,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 31,
-    "neutral": 28,
+    "positive": 46,
+    "negative": 32,
+    "neutral": 22,
     "wordCloud": [
       {
         "word": "india",
@@ -174,37 +174,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "protests",
+        "word": "against",
         "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "pant",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "test",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "police",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tamil",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "mla",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pant",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "test",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -219,27 +204,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dmk",
+        "word": "tamil",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "court",
+        "word": "nadu",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "updates",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
+        "word": "shah",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -254,6 +229,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "office",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "crore",
         "count": 3,
         "sentiment": "neutral"
@@ -264,22 +244,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "event",
+        "word": "calls",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "becomes",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indian",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hit",
+        "word": "modi",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -299,7 +269,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "police",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "karnataka",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -317,14 +292,39 @@
         "word": "global",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "financial",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gopichand",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wants",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shift",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 2,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-18T12:34:59.873639+00:00",
-    "nextRefresh": "2026-08-18T12:34:59.873639+00:00",
-    "articlesAnalyzed": 430,
+    "generatedAt": "2026-08-18T13:38:37.213144+00:00",
+    "nextRefresh": "2026-08-18T13:38:37.213144+00:00",
+    "articlesAnalyzed": 428,
     "matchedMentions": 71,
-    "uniquePersonalities": 41,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
