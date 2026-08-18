@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 35,
-    "negative": 58,
+    "positive": 32,
+    "negative": 61,
     "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 75,
+        "count": 74,
         "sentiment": "neutral"
       },
       {
         "word": "korea",
-        "count": 24,
+        "count": 25,
         "sentiment": "neutral"
       },
       {
@@ -21,28 +21,18 @@
       },
       {
         "word": "iran",
-        "count": 19,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "kushner",
-        "count": 15,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "peace",
-        "count": 13,
-        "sentiment": "positive"
-      },
-      {
-        "word": "gaza",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "netanyahu",
         "count": 11,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "oman",
@@ -55,13 +45,8 @@
         "sentiment": "negative"
       },
       {
-        "word": "plan",
+        "word": "gaza",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -70,9 +55,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "threatens",
+        "word": "netanyahu",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "florida",
         "count": 7,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "drills",
@@ -80,12 +75,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "florida",
+        "word": "plan",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -95,32 +85,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "threatens",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "talks",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "uss",
+        "word": "bid",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "gets",
+        "word": "cnn",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "decision",
+        "word": "primary",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "lincoln",
+        "word": "decision",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -130,43 +120,53 @@
         "sentiment": "negative"
       },
       {
+        "word": "gets",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "military",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "hamas",
+        "word": "reporter",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "bid",
+        "word": "kim",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "primary",
+        "word": "happened",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-18T08:29:16.013173+00:00",
-    "nextRefresh": "2026-08-18T08:29:16.013173+00:00",
-    "articlesAnalyzed": 335,
-    "matchedMentions": 153,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-08-18T09:26:42.731251+00:00",
+    "nextRefresh": "2026-08-18T09:26:42.731251+00:00",
+    "articlesAnalyzed": 331,
+    "matchedMentions": 148,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
-    "negative": 30,
-    "neutral": 19,
+    "positive": 50,
+    "negative": 28,
+    "neutral": 22,
     "wordCloud": [
       {
         "word": "bjp",
@@ -174,8 +174,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
-        "count": 8,
+        "word": "team",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -184,13 +184,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "team",
+        "word": "irani",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
-        "count": 6,
+        "word": "rahul",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -199,17 +199,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "shah",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "jharkhand",
+        "word": "pant",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trisha",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "pant",
+        "word": "murder",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "minister",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nitin",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nabin",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jharkhand",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -229,52 +269,17 @@
         "sentiment": "positive"
       },
       {
-        "word": "irani",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "national",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "became",
+        "word": "ram",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "mla",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "child",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kharge",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jabs",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trisha",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "murder",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "police",
+        "word": "madhav",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "snakes",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "another",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-18T08:29:28.557146+00:00",
-    "nextRefresh": "2026-08-18T08:29:28.557146+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 79,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-08-18T09:26:54.907252+00:00",
+    "nextRefresh": "2026-08-18T09:26:54.907252+00:00",
+    "articlesAnalyzed": 416,
+    "matchedMentions": 78,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
