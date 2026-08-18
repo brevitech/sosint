@@ -6,21 +6,21 @@
     "wordCloud": [
       {
         "word": "trump",
-        "count": 79,
+        "count": 78,
         "sentiment": "neutral"
       },
       {
         "word": "south",
+        "count": 22,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "korea",
         "count": 21,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 21,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "korea",
         "count": 20,
         "sentiment": "neutral"
       },
@@ -45,11 +45,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
         "word": "court",
         "count": 10,
         "sentiment": "neutral"
@@ -65,7 +60,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "oman",
+        "word": "deal",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -77,6 +72,11 @@
       {
         "word": "bid",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "oman",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -93,16 +93,6 @@
         "word": "uss",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "threatens",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "bomb",
-        "count": 6,
-        "sentiment": "negative"
       },
       {
         "word": "gets",
@@ -128,6 +118,16 @@
         "word": "lincoln",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "threatens",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "bomb",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "latest",
@@ -156,31 +156,21 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-18T02:13:30.671413+00:00",
-    "nextRefresh": "2026-08-18T02:13:30.671413+00:00",
+    "generatedAt": "2026-08-18T03:39:14.151379+00:00",
+    "nextRefresh": "2026-08-18T03:39:14.151379+00:00",
     "articlesAnalyzed": 337,
-    "matchedMentions": 157,
+    "matchedMentions": 158,
     "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 25,
-    "neutral": 23,
+    "positive": 51,
+    "negative": 35,
+    "neutral": 14,
     "wordCloud": [
       {
         "word": "bjp",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "team",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jharkhand",
-        "count": 8,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -189,47 +179,47 @@
         "sentiment": "neutral"
       },
       {
+        "word": "jharkhand",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jadeja",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "naxal",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jadeja",
+        "word": "team",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "dimagi",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nitin",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nabin",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "students",
-        "count": 5,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "key",
+        "word": "soren",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "delhi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mahto",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -244,12 +234,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "test",
+        "word": "india",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nitin",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "soren",
+        "word": "nabin",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chidambaram",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -259,22 +264,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mahto",
+        "word": "sab",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "suthar",
+        "word": "talvaar",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "dimagi",
+        "word": "chalayenge",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "poonawalla",
+        "word": "pant",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hilarious",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "banter",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "caught",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "stump",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mic",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -287,44 +317,14 @@
         "word": "goyal",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crore",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hunger",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "strike",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "govt",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "galle",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-18T02:13:42.754148+00:00",
-    "nextRefresh": "2026-08-18T02:13:42.754148+00:00",
-    "articlesAnalyzed": 432,
+    "generatedAt": "2026-08-18T03:39:26.232487+00:00",
+    "nextRefresh": "2026-08-18T03:39:26.232487+00:00",
+    "articlesAnalyzed": 416,
     "matchedMentions": 81,
-    "uniquePersonalities": 42,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
 }
