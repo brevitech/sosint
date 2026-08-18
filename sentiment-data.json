@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 32,
+    "positive": 33,
     "negative": 61,
-    "neutral": 7,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 74,
+        "count": 73,
         "sentiment": "neutral"
       },
       {
         "word": "korea",
-        "count": 25,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
@@ -21,7 +21,7 @@
       },
       {
         "word": "iran",
-        "count": 18,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -40,19 +40,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 9,
-        "sentiment": "negative"
-      },
-      {
         "word": "gaza",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "florida",
         "count": 8,
         "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
         "word": "netanyahu",
@@ -60,17 +60,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "florida",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "drills",
+        "word": "deal",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -80,17 +70,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "threatens",
         "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "talks",
+        "word": "drills",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -106,6 +91,11 @@
       },
       {
         "word": "primary",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -130,17 +120,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "talks",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "reporter",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "kim",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "happened",
+        "word": "administration",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -153,14 +143,24 @@
         "word": "house",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "exercises",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-18T09:26:42.731251+00:00",
-    "nextRefresh": "2026-08-18T09:26:42.731251+00:00",
+    "generatedAt": "2026-08-18T10:21:52.964879+00:00",
+    "nextRefresh": "2026-08-18T10:21:52.964879+00:00",
     "articlesAnalyzed": 331,
-    "matchedMentions": 148,
-    "uniquePersonalities": 39,
+    "matchedMentions": 149,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
@@ -169,37 +169,27 @@
     "neutral": 22,
     "wordCloud": [
       {
-        "word": "bjp",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "team",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "irani",
+        "word": "khan",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "india",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "dmk",
+        "word": "tamil",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "nadu",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -209,42 +199,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trisha",
-        "count": 5,
+        "word": "rukh",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "murder",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "minister",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tamil",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nitin",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nabin",
+        "word": "dmk",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -254,12 +214,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ordinary",
+        "word": "rahul",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "khan",
+        "word": "target",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -269,8 +234,18 @@
         "sentiment": "positive"
       },
       {
-        "word": "national",
-        "count": 5,
+        "word": "trisha",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "test",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "irani",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -280,26 +255,6 @@
       },
       {
         "word": "madhav",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protests",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "hunger",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "strike",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "rukh",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -317,14 +272,59 @@
         "word": "snakes",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "another",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "missing",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "event",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protests",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "protest",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "devendra",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mahto",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "becomes",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indian",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-18T09:26:54.907252+00:00",
-    "nextRefresh": "2026-08-18T09:26:54.907252+00:00",
-    "articlesAnalyzed": 416,
-    "matchedMentions": 78,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-08-18T10:22:04.801581+00:00",
+    "nextRefresh": "2026-08-18T10:22:04.801581+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 80,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
