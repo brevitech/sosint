@@ -1,17 +1,27 @@
 {
   "us": {
-    "positive": 29,
-    "negative": 63,
+    "positive": 28,
+    "negative": 64,
     "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 58,
+        "count": 64,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 16,
+        "count": 18,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sues",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "texas",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -20,23 +30,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "shooting",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sues",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "korea",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "florida",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -45,13 +40,58 @@
         "sentiment": "neutral"
       },
       {
-        "word": "say",
+        "word": "deal",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minnesota",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ice",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "agent",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "korea",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "florida",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "say",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "trial",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "former",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "security",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "south",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -65,9 +105,24 @@
         "sentiment": "neutral"
       },
       {
+        "word": "lying",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
         "word": "bad",
         "count": 7,
         "sentiment": "negative"
+      },
+      {
+        "word": "ossoff",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "governor",
@@ -75,24 +130,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "texas",
-        "count": 7,
-        "sentiment": "neutral"
+        "word": "accused",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
-        "word": "court",
+        "word": "judge",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sanctions",
+        "word": "threatens",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "south",
-        "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "netanyahu",
@@ -100,73 +150,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "former",
+        "word": "force",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "security",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "sullivan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "media",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "almost",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kushner",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "updates",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rubio",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "primaries",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minnesota",
-        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-18T19:23:07.771384+00:00",
-    "nextRefresh": "2026-08-18T19:23:07.771384+00:00",
-    "articlesAnalyzed": 334,
-    "matchedMentions": 147,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-08-18T20:16:57.642017+00:00",
+    "nextRefresh": "2026-08-18T20:16:57.642017+00:00",
+    "articlesAnalyzed": 337,
+    "matchedMentions": 163,
+    "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 43,
-    "negative": 42,
-    "neutral": 15,
+    "positive": 44,
+    "negative": 39,
+    "neutral": 17,
     "wordCloud": [
       {
         "word": "india",
@@ -179,18 +179,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "srk",
+        "word": "satyendar",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "satyendar",
-        "count": 4,
+        "word": "jain",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "jain",
-        "count": 4,
+        "word": "srk",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -254,6 +254,31 @@
         "sentiment": "negative"
       },
       {
+        "word": "case",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "road",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vande",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mataram",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "calls",
         "count": 3,
         "sentiment": "neutral"
@@ -292,39 +317,14 @@
         "word": "lakh",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "tukaram",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mundhe",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "unsatisfied",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "ajay",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reply",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-18T19:23:20.141881+00:00",
-    "nextRefresh": "2026-08-18T19:23:20.141881+00:00",
+    "generatedAt": "2026-08-18T20:17:09.350560+00:00",
+    "nextRefresh": "2026-08-18T20:17:09.350560+00:00",
     "articlesAnalyzed": 416,
-    "matchedMentions": 65,
-    "uniquePersonalities": 42,
+    "matchedMentions": 66,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
 }
