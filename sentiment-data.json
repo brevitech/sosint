@@ -1,42 +1,32 @@
 {
   "us": {
-    "positive": 34,
-    "negative": 60,
-    "neutral": 6,
+    "positive": 36,
+    "negative": 57,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 74,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 23,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kushner",
-        "count": 20,
+        "count": 79,
         "sentiment": "neutral"
       },
       {
         "word": "south",
-        "count": 18,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
-        "word": "gaza",
-        "count": 18,
+        "word": "iran",
+        "count": 21,
         "sentiment": "neutral"
       },
       {
         "word": "korea",
-        "count": 17,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
-        "word": "netanyahu",
-        "count": 16,
+        "word": "kushner",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -45,22 +35,17 @@
         "sentiment": "positive"
       },
       {
-        "word": "war",
-        "count": 12,
-        "sentiment": "negative"
-      },
-      {
-        "word": "talks",
+        "word": "gaza",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "netanyahu",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
+        "word": "deal",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -70,12 +55,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "war",
+        "count": 10,
+        "sentiment": "negative"
+      },
+      {
+        "word": "administration",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "oman",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "hamas",
+        "word": "plan",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -85,18 +80,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
+        "word": "talks",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "uss",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -105,12 +90,7 @@
         "sentiment": "positive"
       },
       {
-        "word": "ahead",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lincoln",
+        "word": "uss",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -135,47 +115,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "brazil",
+        "word": "florida",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "decision",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "teen",
+        "word": "lincoln",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "lifeguard",
+        "word": "latest",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "video",
+        "word": "drills",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hamas",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rejects",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "jean",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-18T00:55:04.941657+00:00",
-    "nextRefresh": "2026-08-18T00:55:04.941657+00:00",
-    "articlesAnalyzed": 334,
-    "matchedMentions": 161,
+    "generatedAt": "2026-08-18T02:13:30.671413+00:00",
+    "nextRefresh": "2026-08-18T02:13:30.671413+00:00",
+    "articlesAnalyzed": 337,
+    "matchedMentions": 157,
     "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 29,
-    "neutral": 25,
+    "positive": 52,
+    "negative": 25,
+    "neutral": 23,
     "wordCloud": [
       {
         "word": "bjp",
-        "count": 20,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "irani",
-        "count": 12,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -189,13 +184,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nitin",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nabin",
-        "count": 7,
+        "word": "irani",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -204,7 +194,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
+        "word": "modi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jadeja",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -214,17 +209,37 @@
         "sentiment": "neutral"
       },
       {
+        "word": "nitin",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nabin",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "key",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "jadeja",
+        "word": "delhi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "accepts",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "demands",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -234,17 +249,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "students",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vande",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mataram",
+        "word": "soren",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -259,12 +264,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "accepts",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "demands",
+        "word": "suthar",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -274,32 +274,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "comeback",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fda",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "srk",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "devgn",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "poonawalla",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "list",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -314,16 +289,41 @@
         "sentiment": "neutral"
       },
       {
-        "word": "exit",
+        "word": "target",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hunger",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "strike",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "govt",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "galle",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-18T00:55:15.588399+00:00",
-    "nextRefresh": "2026-08-18T00:55:15.588399+00:00",
-    "articlesAnalyzed": 416,
-    "matchedMentions": 85,
+    "generatedAt": "2026-08-18T02:13:42.754148+00:00",
+    "nextRefresh": "2026-08-18T02:13:42.754148+00:00",
+    "articlesAnalyzed": 432,
+    "matchedMentions": 81,
     "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
