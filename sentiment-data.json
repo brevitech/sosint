@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 52,
-    "neutral": 8,
+    "positive": 42,
+    "negative": 51,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 57,
+        "count": 55,
         "sentiment": "neutral"
       },
       {
         "word": "florida",
-        "count": 28,
+        "count": 30,
         "sentiment": "neutral"
       },
       {
         "word": "primary",
-        "count": 22,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
@@ -35,22 +35,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "korea",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "trial",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "korea",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
         "word": "senate",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -60,23 +55,33 @@
         "sentiment": "neutral"
       },
       {
+        "word": "south",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trial",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "gop",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "democratic",
         "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "south",
-        "count": 9,
+        "word": "judge",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -85,7 +90,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democratic",
+        "word": "socialist",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -96,11 +101,6 @@
       },
       {
         "word": "office",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "socialist",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -125,7 +125,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "war",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "president",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "drills",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rubio",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -138,35 +153,20 @@
         "word": "donalds",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "david",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "succeed",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "wyoming",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-19T05:24:11.918200+00:00",
-    "nextRefresh": "2026-08-19T05:24:11.918200+00:00",
+    "generatedAt": "2026-08-19T06:34:47.714544+00:00",
+    "nextRefresh": "2026-08-19T06:34:47.714544+00:00",
     "articlesAnalyzed": 342,
-    "matchedMentions": 163,
+    "matchedMentions": 166,
     "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 55,
+    "positive": 60,
     "negative": 23,
-    "neutral": 22,
+    "neutral": 17,
     "wordCloud": [
       {
         "word": "india",
@@ -175,13 +175,23 @@
       },
       {
         "word": "visit",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "envoy",
+        "word": "tamil",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "join",
+        "count": 6,
+        "sentiment": "positive"
       },
       {
         "word": "pant",
@@ -190,6 +200,51 @@
       },
       {
         "word": "become",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "envoy",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "raaka",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "movie",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "update",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "smith",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arjun",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "atlee",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "action",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "flick",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -209,7 +264,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "case",
+        "word": "satyendar",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jain",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "allu",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -244,26 +309,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vande",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mataram",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "cjp",
         "count": 4,
         "sentiment": "neutral"
@@ -272,59 +317,14 @@
         "word": "rijiju",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "tamil",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sergio",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gor",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sitharaman",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "satyendar",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jain",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-19T05:24:26.856859+00:00",
-    "nextRefresh": "2026-08-19T05:24:26.856859+00:00",
+    "generatedAt": "2026-08-19T06:35:00.892775+00:00",
+    "nextRefresh": "2026-08-19T06:35:00.892775+00:00",
     "articlesAnalyzed": 429,
-    "matchedMentions": 65,
-    "uniquePersonalities": 36,
+    "matchedMentions": 78,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
