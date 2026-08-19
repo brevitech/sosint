@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 51,
-    "neutral": 9,
+    "positive": 41,
+    "negative": 53,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
+        "count": 57,
         "sentiment": "neutral"
       },
       {
@@ -16,7 +16,7 @@
       },
       {
         "word": "primary",
-        "count": 22,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
@@ -25,13 +25,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "governor",
+        "word": "race",
         "count": 16,
         "sentiment": "neutral"
       },
       {
-        "word": "race",
-        "count": 16,
+        "word": "governor",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -65,12 +65,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "south",
-        "count": 9,
+        "word": "judge",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "south",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -87,16 +92,6 @@
       {
         "word": "ossoff",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -120,14 +115,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "murder",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tariffs",
-        "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "canada",
@@ -135,7 +125,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "president",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "talks",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -156,26 +156,21 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-19T03:41:13.393589+00:00",
-    "nextRefresh": "2026-08-19T03:41:13.393589+00:00",
-    "articlesAnalyzed": 341,
-    "matchedMentions": 162,
+    "generatedAt": "2026-08-19T04:31:34.667881+00:00",
+    "nextRefresh": "2026-08-19T04:31:34.667881+00:00",
+    "articlesAnalyzed": 342,
+    "matchedMentions": 159,
     "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
+    "positive": 48,
     "negative": 31,
-    "neutral": 24,
+    "neutral": 21,
     "wordCloud": [
       {
         "word": "india",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "become",
-        "count": 6,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -184,23 +179,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "history",
+        "word": "become",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sergio",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gor",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -220,6 +200,11 @@
       },
       {
         "word": "scripts",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "history",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -259,17 +244,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "envoy",
+        "word": "gandhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cjp",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rijiju",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "abdullah",
+        "word": "sergio",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "turn",
+        "word": "gor",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -279,7 +289,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "road",
+        "word": "takes",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -294,6 +304,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "slams",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "tamil",
         "count": 3,
         "sentiment": "neutral"
@@ -302,29 +317,14 @@
         "word": "nadu",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "fine",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "lakh",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tukaram",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-19T03:41:38.942009+00:00",
-    "nextRefresh": "2026-08-19T03:41:38.942009+00:00",
-    "articlesAnalyzed": 413,
-    "matchedMentions": 62,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-08-19T04:31:45.130331+00:00",
+    "nextRefresh": "2026-08-19T04:31:45.130331+00:00",
+    "articlesAnalyzed": 429,
+    "matchedMentions": 65,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
