@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 49,
-    "negative": 42,
-    "neutral": 9,
+    "positive": 48,
+    "negative": 41,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 75,
+        "count": 79,
         "sentiment": "neutral"
       },
       {
@@ -16,11 +16,6 @@
       },
       {
         "word": "overton",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -41,11 +36,16 @@
       },
       {
         "word": "administration",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "korea",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -55,14 +55,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "center",
+        "word": "fda",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "house",
         "count": 7,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "center",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "democratic",
@@ -76,11 +86,6 @@
       },
       {
         "word": "canada",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fda",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -100,27 +105,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "comey",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "full",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "former",
+        "word": "netanyahu",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "aide",
+        "word": "video",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gets",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -135,42 +135,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tariffs",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "treasury",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
         "word": "chief",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sullivan",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "angie",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nixon",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-19T18:26:16.932056+00:00",
-    "nextRefresh": "2026-08-19T18:26:16.932056+00:00",
+    "generatedAt": "2026-08-19T19:20:24.115993+00:00",
+    "nextRefresh": "2026-08-19T19:20:24.115993+00:00",
     "articlesAnalyzed": 333,
-    "matchedMentions": 151,
-    "uniquePersonalities": 37,
+    "matchedMentions": 155,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
-    "negative": 28,
-    "neutral": 21,
+    "positive": 52,
+    "negative": 29,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "govt",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -219,22 +219,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "student",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "outreach",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
         "word": "against",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -274,11 +264,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "highlights",
         "count": 4,
         "sentiment": "neutral"
@@ -304,27 +289,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cwc",
+        "word": "ram",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "backs",
+        "word": "temple",
         "count": 3,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "two-stanza",
+        "word": "minister",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "test",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "victory",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-19T18:26:28.884048+00:00",
-    "nextRefresh": "2026-08-19T18:26:28.884048+00:00",
-    "articlesAnalyzed": 433,
-    "matchedMentions": 75,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-08-19T19:20:34.062801+00:00",
+    "nextRefresh": "2026-08-19T19:20:34.062801+00:00",
+    "articlesAnalyzed": 418,
+    "matchedMentions": 66,
+    "uniquePersonalities": 30,
     "dataSource": "live-rss"
   }
 }
