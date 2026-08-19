@@ -1,27 +1,27 @@
 {
   "us": {
-    "positive": 47,
-    "negative": 49,
+    "positive": 51,
+    "negative": 45,
     "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 46,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "primary",
-        "count": 26,
+        "count": 45,
         "sentiment": "neutral"
       },
       {
         "word": "florida",
-        "count": 26,
+        "count": 27,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "primary",
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "house",
-        "count": 19,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
@@ -40,18 +40,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trial",
+        "word": "korea",
         "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "seat",
         "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "korea",
-        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -65,7 +60,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "trial",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -75,32 +70,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "south",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "happened",
+        "word": "iran",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "canada",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tariffs",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "three",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -115,17 +100,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "tariffs",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "canada",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "days",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "desantis",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -136,6 +121,11 @@
       },
       {
         "word": "netanyahu",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "happened",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,23 +143,38 @@
         "word": "wyoming",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "loses",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "office",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-19T10:22:11.270815+00:00",
-    "nextRefresh": "2026-08-19T10:22:11.270815+00:00",
-    "articlesAnalyzed": 332,
-    "matchedMentions": 150,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-08-19T11:19:46.523926+00:00",
+    "nextRefresh": "2026-08-19T11:19:46.523926+00:00",
+    "articlesAnalyzed": 334,
+    "matchedMentions": 144,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 55,
+    "positive": 53,
     "negative": 26,
-    "neutral": 19,
+    "neutral": 21,
     "wordCloud": [
       {
         "word": "rahul",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -180,46 +185,46 @@
       },
       {
         "word": "gandhi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mlas",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "govt",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "join",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "government",
+        "word": "order",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "envoy",
+        "word": "abdullah",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mlas",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rijiju",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -229,52 +234,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "test",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "arrest",
         "count": 5,
         "sentiment": "negative"
       },
       {
-        "word": "raaka",
-        "count": 5,
+        "word": "government",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "movie",
-        "count": 5,
+        "word": "barring",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "update",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "smith",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "arjun",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "atlee",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "action",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "flick",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "order",
+        "word": "students",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -309,7 +289,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "abdullah",
+        "word": "meeting",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "envoy",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -317,14 +302,29 @@
         "word": "jharkhand",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "protesters",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "letter",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ally",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-19T10:22:20.386834+00:00",
-    "nextRefresh": "2026-08-19T10:22:20.386834+00:00",
+    "generatedAt": "2026-08-19T11:20:06.763481+00:00",
+    "nextRefresh": "2026-08-19T11:20:06.763481+00:00",
     "articlesAnalyzed": 428,
-    "matchedMentions": 89,
-    "uniquePersonalities": 44,
+    "matchedMentions": 85,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
