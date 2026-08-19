@@ -1,27 +1,22 @@
 {
   "us": {
-    "positive": 47,
-    "negative": 47,
-    "neutral": 6,
+    "positive": 43,
+    "negative": 48,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 54,
+        "count": 50,
         "sentiment": "neutral"
       },
       {
         "word": "florida",
-        "count": 25,
+        "count": 26,
         "sentiment": "neutral"
       },
       {
         "word": "primary",
-        "count": 24,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 13,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
@@ -30,12 +25,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 12,
+        "word": "iran",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "race",
+        "word": "governor",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -55,8 +50,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democratic",
+        "word": "senate",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democratic",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tariffs",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -70,12 +75,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "governor",
+        "word": "race",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -85,22 +85,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sullivan",
+        "word": "war",
         "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "socialist",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tariffs",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -115,7 +105,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "alaska",
+        "word": "former",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sullivan",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -145,32 +140,37 @@
         "sentiment": "negative"
       },
       {
-        "word": "days",
+        "word": "court",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "south",
+        "word": "pauses",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "days",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-19T13:39:21.413775+00:00",
-    "nextRefresh": "2026-08-19T13:39:21.413775+00:00",
+    "generatedAt": "2026-08-19T14:27:11.436981+00:00",
+    "nextRefresh": "2026-08-19T14:27:11.436981+00:00",
     "articlesAnalyzed": 331,
-    "matchedMentions": 150,
-    "uniquePersonalities": 43,
+    "matchedMentions": 147,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 47,
-    "negative": 29,
-    "neutral": 24,
+    "positive": 49,
+    "negative": 28,
+    "neutral": 23,
     "wordCloud": [
       {
         "word": "govt",
-        "count": 11,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -181,6 +181,26 @@
       {
         "word": "test",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "youth",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kharge",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -209,17 +229,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "chief",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "minister",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
+        "word": "ravi",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "nadu",
+        "word": "temple",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -292,39 +317,14 @@
         "word": "mera",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "baap",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kaun",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hai",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chief",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shehzad",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-19T13:39:33.633371+00:00",
-    "nextRefresh": "2026-08-19T13:39:33.633371+00:00",
-    "articlesAnalyzed": 429,
-    "matchedMentions": 77,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-08-19T14:27:22.627027+00:00",
+    "nextRefresh": "2026-08-19T14:27:22.627027+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 78,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
