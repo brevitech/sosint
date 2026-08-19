@@ -1,16 +1,16 @@
 {
   "us": {
-    "positive": 46,
-    "negative": 41,
+    "positive": 48,
+    "negative": 39,
     "neutral": 13,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 75,
+        "count": 85,
         "sentiment": "neutral"
       },
       {
-        "word": "florida",
+        "word": "administration",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -25,14 +25,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "won",
         "count": 9,
         "sentiment": "positive"
+      },
+      {
+        "word": "korea",
+        "count": 9,
+        "sentiment": "neutral"
       },
       {
         "word": "house",
@@ -45,22 +45,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "korea",
+        "word": "florida",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "canada",
-        "count": 7,
+        "word": "deal",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "deportation",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "white",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democratic",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "socialist",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -80,12 +90,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democratic",
+        "word": "target",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "socialist",
+        "word": "ethiopians",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "canada",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pauses",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -120,27 +140,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trial",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "trade",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "former",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deportation",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "natalie",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -156,17 +156,17 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-19T20:20:22.999357+00:00",
-    "nextRefresh": "2026-08-19T20:20:22.999357+00:00",
+    "generatedAt": "2026-08-19T21:20:22.190301+00:00",
+    "nextRefresh": "2026-08-19T21:20:22.190301+00:00",
     "articlesAnalyzed": 333,
-    "matchedMentions": 154,
-    "uniquePersonalities": 39,
+    "matchedMentions": 155,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 55,
-    "negative": 23,
-    "neutral": 22,
+    "positive": 56,
+    "negative": 24,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "govt",
@@ -224,6 +224,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "delhi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "temple",
         "count": 4,
         "sentiment": "neutral"
@@ -232,6 +237,11 @@
         "word": "fresh",
         "count": 4,
         "sentiment": "positive"
+      },
+      {
+        "word": "bjp",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
         "word": "home",
@@ -274,17 +284,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mamallapuram",
+        "word": "shah",
         "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "ram",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -295,11 +300,6 @@
       },
       {
         "word": "victory",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-19T20:20:34.339379+00:00",
-    "nextRefresh": "2026-08-19T20:20:34.339379+00:00",
-    "articlesAnalyzed": 418,
-    "matchedMentions": 62,
-    "uniquePersonalities": 28,
+    "generatedAt": "2026-08-19T21:20:34.068430+00:00",
+    "nextRefresh": "2026-08-19T21:20:34.068430+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 63,
+    "uniquePersonalities": 29,
     "dataSource": "live-rss"
   }
 }
