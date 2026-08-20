@@ -1,17 +1,12 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 44,
-    "neutral": 14,
+    "positive": 44,
+    "negative": 41,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 59,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 13,
+        "count": 60,
         "sentiment": "neutral"
       },
       {
@@ -20,8 +15,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "house",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
         "word": "white",
-        "count": 11,
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "harp",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -35,22 +40,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "key",
+        "word": "president",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "stars",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stripes",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cook",
+        "word": "natalie",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -60,23 +55,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "harp",
+        "word": "stars",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "korea",
+        "word": "stripes",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "former",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 6,
+        "word": "races",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -85,7 +75,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "natalie",
+        "word": "korea",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -95,13 +85,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "bessent",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "poll",
-        "count": 5,
+        "word": "raises",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "concerns",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -116,11 +111,6 @@
       },
       {
         "word": "administration",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "site",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -153,24 +143,34 @@
         "word": "republicans",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "false",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "promises",
+        "count": 4,
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-20T17:23:18.071273+00:00",
-    "nextRefresh": "2026-08-20T17:23:18.071273+00:00",
-    "articlesAnalyzed": 333,
-    "matchedMentions": 142,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-08-20T18:31:05.638937+00:00",
+    "nextRefresh": "2026-08-20T18:31:05.638937+00:00",
+    "articlesAnalyzed": 328,
+    "matchedMentions": 140,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 67,
-    "negative": 26,
-    "neutral": 7,
+    "positive": 62,
+    "negative": 32,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "sindhu",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -179,24 +179,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "championships",
         "count": 7,
         "sentiment": "positive"
-      },
-      {
-        "word": "tamil",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 6,
-        "sentiment": "neutral"
       },
       {
         "word": "shah",
@@ -209,12 +194,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "wang",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "test",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -229,22 +219,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "shillong",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "violence",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
         "word": "assam",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "southern",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wang",
+        "word": "rahul",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "zhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "questions",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -264,7 +264,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "tamil",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -274,13 +279,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "satwiksairaj",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "satwiksairaj",
-        "count": 4,
+        "word": "students",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leaders",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -289,42 +299,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shillong",
+        "word": "becomes",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "violence",
+        "word": "impatient",
         "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "sonia",
+        "word": "falls",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vijay",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seeks",
+        "word": "cramping",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-20T17:23:28.797339+00:00",
-    "nextRefresh": "2026-08-20T17:23:28.797339+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 73,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-08-20T18:31:18.657088+00:00",
+    "nextRefresh": "2026-08-20T18:31:18.657088+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 68,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
