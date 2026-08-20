@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 46,
-    "neutral": 13,
+    "positive": 43,
+    "negative": 42,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 72,
+        "count": 71,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -35,7 +35,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "rubio",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bond",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -50,8 +60,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bond",
-        "count": 6,
+        "word": "court",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -65,37 +75,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "natalie",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "harp",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "helipad",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "national",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "debt",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
         "word": "kim",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "announces",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -110,9 +95,24 @@
         "sentiment": "neutral"
       },
       {
+        "word": "poll",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "plays",
         "count": 4,
         "sentiment": "positive"
+      },
+      {
+        "word": "natalie",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "harp",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
         "word": "heidi",
@@ -145,62 +145,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "seat",
+        "word": "former",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "state",
+        "word": "seat",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-20T09:28:08.130363+00:00",
-    "nextRefresh": "2026-08-20T09:28:08.130363+00:00",
+    "generatedAt": "2026-08-20T10:23:40.782371+00:00",
+    "nextRefresh": "2026-08-20T10:23:40.782371+00:00",
     "articlesAnalyzed": 332,
-    "matchedMentions": 142,
+    "matchedMentions": 139,
     "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
-    "negative": 32,
-    "neutral": 24,
+    "positive": 49,
+    "negative": 28,
+    "neutral": 23,
     "wordCloud": [
       {
         "word": "rahul",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "shah",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "body",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sanctions",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rss",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
-        "count": 6,
+        "word": "southern",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -209,7 +194,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bhagwat",
+        "word": "rss",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sonia",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -219,12 +209,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "rajiv",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sanctions",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "meeting",
+        "word": "visit",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -239,11 +249,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "southern",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "target",
         "count": 4,
         "sentiment": "neutral"
@@ -254,7 +259,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "neet",
+        "word": "body",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhagwat",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -264,67 +274,57 @@
         "sentiment": "neutral"
       },
       {
+        "word": "vijay",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "congress",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "government",
+        "word": "centre",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "rajiv",
+        "word": "papa",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "looking",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "nod",
+        "word": "down",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "religious",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "freedom",
+        "word": "proudly",
         "count": 3,
         "sentiment": "positive"
       },
       {
-        "word": "cms",
+        "word": "emotional",
         "count": 3,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "shivakumar",
+        "word": "note",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-20T09:28:20.715484+00:00",
-    "nextRefresh": "2026-08-20T09:28:20.715484+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 71,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-08-20T10:23:52.745735+00:00",
+    "nextRefresh": "2026-08-20T10:23:52.745735+00:00",
+    "articlesAnalyzed": 432,
+    "matchedMentions": 72,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
