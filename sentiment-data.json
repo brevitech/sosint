@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 43,
-    "negative": 43,
-    "neutral": 14,
+    "positive": 44,
+    "negative": 41,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "trump",
@@ -10,33 +10,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
-        "count": 14,
+        "word": "house",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
-        "count": 11,
+        "word": "democrats",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
         "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "korea",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "economic",
-        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -45,12 +40,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "key",
-        "count": 6,
+        "word": "economic",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "debt",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "key",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -65,7 +65,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "republican",
+        "word": "republicans",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -90,7 +90,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "aide",
+        "word": "harp",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -100,22 +105,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "tariffs",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "national",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "debt",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
         "word": "congress",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bond",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -125,7 +130,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "south",
+        "word": "military",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -135,52 +140,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "harp",
+        "word": "leaders",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "heidi",
+        "word": "kim",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "overton",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "military",
+        "word": "ran",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-20T11:21:07.116895+00:00",
-    "nextRefresh": "2026-08-20T11:21:07.116895+00:00",
+    "generatedAt": "2026-08-20T12:36:26.234908+00:00",
+    "nextRefresh": "2026-08-20T12:36:26.234908+00:00",
     "articlesAnalyzed": 332,
-    "matchedMentions": 133,
-    "uniquePersonalities": 40,
+    "matchedMentions": 135,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
-    "negative": 25,
-    "neutral": 24,
+    "positive": 55,
+    "negative": 23,
+    "neutral": 22,
     "wordCloud": [
       {
         "word": "rahul",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "shah",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -189,18 +189,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "seeks",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "sonia",
-        "count": 5,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "rss",
-        "count": 4,
+        "word": "modi",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -209,32 +204,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
+        "word": "papa",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "nadu",
+        "word": "looking",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "villiers",
+        "word": "down",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "makes",
+        "word": "proudly",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "seeks",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "amit",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "rajiv",
+        "word": "congress",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -244,19 +249,29 @@
         "sentiment": "neutral"
       },
       {
-        "word": "body",
+        "word": "japan",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "sanctions",
+        "word": "diplomat",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "bhagwat",
+        "word": "rss",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "finished",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attack",
+        "count": 3,
+        "sentiment": "negative"
       },
       {
         "word": "delimitation",
@@ -269,17 +284,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "tamil",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "vande",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mataram",
+        "word": "nadu",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -289,42 +299,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "papa",
+        "word": "govt",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "looking",
+        "word": "sugar",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "down",
+        "word": "delhi",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "proudly",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "emotional",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "note",
+        "word": "cms",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-20T11:21:22.459342+00:00",
-    "nextRefresh": "2026-08-20T11:21:22.459342+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 76,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-08-20T12:36:36.819794+00:00",
+    "nextRefresh": "2026-08-20T12:36:36.819794+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 71,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
