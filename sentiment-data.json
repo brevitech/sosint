@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 49,
+    "positive": 41,
+    "negative": 48,
     "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 78,
+        "count": 80,
         "sentiment": "neutral"
       },
       {
@@ -30,18 +30,13 @@
         "sentiment": "neutral"
       },
       {
+        "word": "deal",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "korea",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "north",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -70,6 +65,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "debt",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
         "word": "kim",
         "count": 6,
         "sentiment": "neutral"
@@ -80,12 +80,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "state",
-        "count": 6,
+        "word": "judge",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "former",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -125,11 +125,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "debt",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
         "word": "jong",
         "count": 5,
         "sentiment": "neutral"
@@ -140,62 +135,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kennedy",
+        "word": "north",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trial",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "won",
+        "word": "texas",
         "count": 4,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
-        "word": "name",
+        "word": "kennedy",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-20T03:41:08.625209+00:00",
-    "nextRefresh": "2026-08-20T03:41:08.625209+00:00",
+    "generatedAt": "2026-08-20T04:31:37.330155+00:00",
+    "nextRefresh": "2026-08-20T04:31:37.330155+00:00",
     "articlesAnalyzed": 334,
-    "matchedMentions": 151,
+    "matchedMentions": 153,
     "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 62,
-    "negative": 23,
-    "neutral": 15,
+    "positive": 61,
+    "negative": 25,
+    "neutral": 14,
     "wordCloud": [
-      {
-        "word": "shetty",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sindhu",
-        "count": 9,
-        "sentiment": "neutral"
-      },
       {
         "word": "bjp",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "bwf",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "championships",
-        "count": 8,
-        "sentiment": "positive"
-      },
-      {
-        "word": "sen",
-        "count": 8,
+        "word": "gandhi",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -204,17 +184,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "rahul",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "india",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "exit",
+        "word": "shetty",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "ayush",
+        "word": "sindhu",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -224,42 +209,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "bwf",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "praises",
         "count": 5,
         "sentiment": "positive"
       },
       {
-        "word": "tamil",
+        "word": "championships",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lakshya",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fresh",
-        "count": 4,
         "sentiment": "positive"
       },
       {
-        "word": "against",
-        "count": 4,
+        "word": "sen",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "chief",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -309,22 +284,47 @@
         "sentiment": "neutral"
       },
       {
+        "word": "tamil",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "target",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "temple",
+        "word": "schedule",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "worlds",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "aim",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "last-eight",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-20T03:41:32.769287+00:00",
-    "nextRefresh": "2026-08-20T03:41:32.769287+00:00",
+    "generatedAt": "2026-08-20T04:31:51.024772+00:00",
+    "nextRefresh": "2026-08-20T04:31:51.024772+00:00",
     "articlesAnalyzed": 431,
-    "matchedMentions": 66,
-    "uniquePersonalities": 33,
+    "matchedMentions": 61,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
