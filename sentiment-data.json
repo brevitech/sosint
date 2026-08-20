@@ -1,46 +1,36 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 44,
-    "neutral": 15,
+    "positive": 48,
+    "negative": 40,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 54,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 11,
+        "count": 55,
         "sentiment": "neutral"
       },
       {
         "word": "bessent",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "economic",
+        "word": "house",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
+        "word": "senate",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -55,7 +45,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "economic",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -65,13 +55,13 @@
         "sentiment": "positive"
       },
       {
-        "word": "korea",
+        "word": "races",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "races",
-        "count": 6,
+        "word": "york",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -85,27 +75,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "pressure",
         "count": 5,
         "sentiment": "negative"
       },
       {
-        "word": "texas",
+        "word": "administration",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "secretary",
+        "word": "ahead",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "home",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "concerns",
+        "word": "bid",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "secretary",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -130,43 +130,43 @@
         "sentiment": "negative"
       },
       {
+        "word": "deal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tariffs",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "korea",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "questions",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "california",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "oil",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stars",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stripes",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "money",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-20T20:21:41.626449+00:00",
-    "nextRefresh": "2026-08-20T20:21:41.626449+00:00",
+    "generatedAt": "2026-08-20T21:22:30.355551+00:00",
+    "nextRefresh": "2026-08-20T21:22:30.355551+00:00",
     "articlesAnalyzed": 334,
-    "matchedMentions": 141,
+    "matchedMentions": 138,
     "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 60,
+    "positive": 57,
     "negative": 31,
-    "neutral": 9,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "sindhu",
@@ -209,11 +209,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "zhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "delimitation",
         "count": 4,
         "sentiment": "neutral"
@@ -239,7 +234,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "zhi",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -299,6 +294,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "govt",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "knocked",
         "count": 3,
         "sentiment": "neutral"
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-20T20:21:54.246414+00:00",
-    "nextRefresh": "2026-08-20T20:21:54.246414+00:00",
+    "generatedAt": "2026-08-20T21:22:42.282992+00:00",
+    "nextRefresh": "2026-08-20T21:22:42.282992+00:00",
     "articlesAnalyzed": 416,
-    "matchedMentions": 55,
-    "uniquePersonalities": 33,
+    "matchedMentions": 51,
+    "uniquePersonalities": 29,
     "dataSource": "live-rss"
   }
 }
