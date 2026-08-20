@@ -1,17 +1,12 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 46,
-    "neutral": 12,
+    "positive": 40,
+    "negative": 49,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
         "count": 78,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -20,12 +15,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "white",
-        "count": 11,
+        "word": "house",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "administration",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -35,17 +35,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "helipad",
-        "count": 6,
+        "word": "deal",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "north",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "center",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -95,7 +90,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "center",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "economic",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "teen",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "helipad",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -106,11 +116,6 @@
       },
       {
         "word": "overton",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democratic",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -135,49 +140,34 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shows",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "renovations",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "kennedy",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "won",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "name",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-20T02:14:38.962677+00:00",
-    "nextRefresh": "2026-08-20T02:14:38.962677+00:00",
-    "articlesAnalyzed": 333,
-    "matchedMentions": 149,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-08-20T03:41:08.625209+00:00",
+    "nextRefresh": "2026-08-20T03:41:08.625209+00:00",
+    "articlesAnalyzed": 334,
+    "matchedMentions": 151,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 67,
-    "negative": 20,
-    "neutral": 13,
+    "positive": 62,
+    "negative": 23,
+    "neutral": 15,
     "wordCloud": [
-      {
-        "word": "bwf",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sen",
-        "count": 10,
-        "sentiment": "neutral"
-      },
       {
         "word": "shetty",
         "count": 9,
@@ -194,9 +184,19 @@
         "sentiment": "neutral"
       },
       {
+        "word": "bwf",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "championships",
         "count": 8,
         "sentiment": "positive"
+      },
+      {
+        "word": "sen",
+        "count": 8,
+        "sentiment": "neutral"
       },
       {
         "word": "modi",
@@ -205,11 +205,6 @@
       },
       {
         "word": "india",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lakshya",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -224,7 +219,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "temple",
+        "word": "shah",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -234,13 +229,23 @@
         "sentiment": "positive"
       },
       {
-        "word": "govt",
+        "word": "tamil",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
-        "count": 4,
+        "word": "nadu",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lakshya",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -254,7 +259,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ram",
+        "word": "chief",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -299,32 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "garret",
+        "word": "ministers",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "tan",
+        "word": "target",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shehzad",
-        "count": 4,
+        "word": "temple",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-20T02:14:49.217158+00:00",
-    "nextRefresh": "2026-08-20T02:14:49.217158+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 69,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-08-20T03:41:32.769287+00:00",
+    "nextRefresh": "2026-08-20T03:41:32.769287+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 66,
+    "uniquePersonalities": 33,
     "dataSource": "live-rss"
   }
 }
