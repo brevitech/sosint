@@ -1,12 +1,17 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 50,
-    "neutral": 9,
+    "positive": 42,
+    "negative": 51,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 70,
+        "count": 72,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "beef",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -30,17 +35,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "beef",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "vance",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "seeks",
+        "word": "national",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -55,9 +55,19 @@
         "sentiment": "neutral"
       },
       {
+        "word": "trade",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "supreme",
         "count": 7,
         "sentiment": "positive"
+      },
+      {
+        "word": "allows",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "iran",
@@ -65,7 +75,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
+        "word": "seeks",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -105,11 +115,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "military",
         "count": 6,
         "sentiment": "neutral"
@@ -120,12 +125,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "allows",
+        "word": "import",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tariff",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "national",
+        "word": "ukraine",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -135,47 +145,37 @@
         "sentiment": "neutral"
       },
       {
+        "word": "policy",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "ahead",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "import",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "warrant",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "martin",
-        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-21T21:18:25.834343+00:00",
-    "nextRefresh": "2026-08-21T21:18:25.834343+00:00",
-    "articlesAnalyzed": 336,
-    "matchedMentions": 145,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-08-21T22:18:20.321115+00:00",
+    "nextRefresh": "2026-08-21T22:18:20.321115+00:00",
+    "articlesAnalyzed": 332,
+    "matchedMentions": 151,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 48,
-    "negative": 36,
+    "positive": 49,
+    "negative": 35,
     "neutral": 16,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 17,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 12,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -204,11 +204,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "police",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "pellet",
         "count": 7,
         "sentiment": "neutral"
@@ -219,18 +214,23 @@
         "sentiment": "neutral"
       },
       {
+        "word": "india",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "modi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "dharna",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -254,14 +254,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "station",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "gun",
         "count": 4,
         "sentiment": "negative"
+      },
+      {
+        "word": "highlights",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
         "word": "govt",
@@ -275,11 +275,6 @@
       },
       {
         "word": "row",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "language",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -304,7 +299,17 @@
         "sentiment": "positive"
       },
       {
+        "word": "station",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "ends",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "protest",
         "count": 3,
         "sentiment": "negative"
-      },
-      {
-        "word": "highlights",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-21T21:18:36.453103+00:00",
-    "nextRefresh": "2026-08-21T21:18:36.453103+00:00",
+    "generatedAt": "2026-08-21T22:18:32.146584+00:00",
+    "nextRefresh": "2026-08-21T22:18:32.146584+00:00",
     "articlesAnalyzed": 416,
-    "matchedMentions": 58,
-    "uniquePersonalities": 27,
+    "matchedMentions": 55,
+    "uniquePersonalities": 25,
     "dataSource": "live-rss"
   }
 }
