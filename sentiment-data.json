@@ -1,41 +1,46 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 50,
+    "positive": 39,
+    "negative": 51,
     "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 63,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 11,
-        "sentiment": "negative"
-      },
-      {
-        "word": "economic",
-        "count": 10,
+        "count": 68,
         "sentiment": "neutral"
       },
       {
         "word": "vance",
-        "count": 10,
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "south",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "beef",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "beef",
+        "word": "economic",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -45,12 +50,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "white",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
+        "word": "korea",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -60,22 +60,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "announces",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "judge",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sanctions",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reportedly",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -85,33 +70,73 @@
         "sentiment": "neutral"
       },
       {
+        "word": "carolina",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "power",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
+        "word": "white",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "korea",
+        "word": "house",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "pressure",
+        "word": "national",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sanctions",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reportedly",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bond",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "debt",
         "count": 5,
         "sentiment": "negative"
       },
       {
-        "word": "navy",
+        "word": "treasury",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "graham",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "carolina",
+        "word": "seeks",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ohio",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "announces",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -128,124 +153,104 @@
         "word": "republicans",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "ex-abercrombie",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fitch",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fit",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "sex",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trafficking",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-21T16:25:55.883069+00:00",
-    "nextRefresh": "2026-08-21T16:25:55.883069+00:00",
-    "articlesAnalyzed": 334,
-    "matchedMentions": 130,
+    "generatedAt": "2026-08-21T17:23:17.090813+00:00",
+    "nextRefresh": "2026-08-21T17:23:17.090813+00:00",
+    "articlesAnalyzed": 341,
+    "matchedMentions": 142,
     "uniquePersonalities": 38,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
-    "negative": 38,
-    "neutral": 18,
+    "positive": 45,
+    "negative": 40,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 25,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 22,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "fir",
-        "count": 14,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "pellet",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gun",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "shah",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "sit-in",
+        "word": "bjp",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "police",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gun",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "bjp",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 6,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "dharna",
-        "count": 6,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "slams",
+        "word": "sit-in",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "victim",
-        "count": 5,
+        "count": 6,
         "sentiment": "negative"
       },
       {
         "word": "delhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "irani",
-        "count": 5,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "case",
-        "count": 4,
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vande",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mataram",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -254,17 +259,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vande",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mataram",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "government",
+        "word": "minister",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -304,27 +299,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
+        "word": "ends",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "posturing",
+        "word": "file",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "advocacy",
+        "word": "politics",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attention",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-21T16:26:06.389407+00:00",
-    "nextRefresh": "2026-08-21T16:26:06.389407+00:00",
+    "generatedAt": "2026-08-21T17:23:28.546896+00:00",
+    "nextRefresh": "2026-08-21T17:23:28.546896+00:00",
     "articlesAnalyzed": 431,
-    "matchedMentions": 71,
-    "uniquePersonalities": 38,
+    "matchedMentions": 65,
+    "uniquePersonalities": 33,
     "dataSource": "live-rss"
   }
 }
