@@ -1,16 +1,21 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 46,
-    "neutral": 12,
+    "positive": 41,
+    "negative": 48,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 53,
+        "count": 54,
         "sentiment": "neutral"
       },
       {
         "word": "cohen",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bessent",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -35,7 +40,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rules",
+        "word": "debt",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "trillion",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "economic",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -65,22 +80,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bessent",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "races",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "money",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "economic",
+        "word": "iran",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -95,18 +100,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "debt",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "trillion",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 4,
+        "word": "rules",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -153,68 +148,38 @@
         "word": "stripes",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "money",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-21T02:24:49.737112+00:00",
-    "nextRefresh": "2026-08-21T02:24:49.737112+00:00",
-    "articlesAnalyzed": 332,
-    "matchedMentions": 125,
+    "generatedAt": "2026-08-21T03:45:42.207268+00:00",
+    "nextRefresh": "2026-08-21T03:45:42.207268+00:00",
+    "articlesAnalyzed": 339,
+    "matchedMentions": 128,
     "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 58,
-    "negative": 28,
-    "neutral": 14,
+    "positive": 53,
+    "negative": 34,
+    "neutral": 13,
     "wordCloud": [
-      {
-        "word": "sindhu",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shetty",
-        "count": 9,
-        "sentiment": "neutral"
-      },
       {
         "word": "shah",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "championships",
-        "count": 7,
-        "sentiment": "positive"
-      },
-      {
-        "word": "badminton",
-        "count": 6,
+        "word": "sindhu",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "tata",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wang",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -229,7 +194,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "modi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wang",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -249,7 +219,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "delimitation",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -264,14 +234,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "satwiksairaj",
+        "word": "championships",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ties",
-        "count": 3,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "bjp",
@@ -284,7 +249,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
+        "word": "india",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -317,13 +282,48 @@
         "word": "duel",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "asks",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "home",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-21T02:25:00.665219+00:00",
-    "nextRefresh": "2026-08-21T02:25:00.665219+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 71,
+    "generatedAt": "2026-08-21T03:45:55.282749+00:00",
+    "nextRefresh": "2026-08-21T03:45:55.282749+00:00",
+    "articlesAnalyzed": 429,
+    "matchedMentions": 62,
     "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
