@@ -1,26 +1,16 @@
 {
   "us": {
-    "positive": 42,
+    "positive": 41,
     "negative": 46,
-    "neutral": 12,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 51,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 9,
+        "count": 49,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ahead",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -40,7 +30,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "president",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -51,6 +41,11 @@
       },
       {
         "word": "trillion",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -75,12 +70,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "ahead",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "races",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
+        "word": "judge",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -115,12 +115,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
+        "word": "gop",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "south",
+        "word": "vance",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -150,43 +150,63 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "rules",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-21T07:38:04.637884+00:00",
-    "nextRefresh": "2026-08-21T07:38:04.637884+00:00",
+    "generatedAt": "2026-08-21T08:33:50.204645+00:00",
+    "nextRefresh": "2026-08-21T08:33:50.204645+00:00",
     "articlesAnalyzed": 341,
-    "matchedMentions": 129,
+    "matchedMentions": 128,
     "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 32,
-    "neutral": 16,
+    "positive": 55,
+    "negative": 34,
+    "neutral": 11,
     "wordCloud": [
       {
-        "word": "shah",
+        "word": "rahul",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "gandhi",
-        "count": 6,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "delimitation",
+        "word": "pellet",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fir",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gun",
+        "count": 4,
+        "sentiment": "negative"
       },
       {
         "word": "gangster",
@@ -195,26 +215,6 @@
       },
       {
         "word": "police",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dmk",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meeting",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shivakumar",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "south",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -229,27 +229,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "victim",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "sits",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "outside",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "political",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "arrested",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "tamil",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
+        "word": "dharna",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -259,52 +259,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "maharashtra",
+        "word": "delimitation",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "fda",
+        "word": "row",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "issued",
+        "word": "zomato",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "notices",
+        "word": "founder",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "rukh",
+        "word": "goyal",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "khan",
+        "word": "gives",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "ajay",
+        "word": "update",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "devgn",
+        "word": "temple",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "shroff",
+        "word": "device",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "explained",
+        "word": "against",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amrohi",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "asks",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "u-turn",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-21T07:38:20.585478+00:00",
-    "nextRefresh": "2026-08-21T07:38:20.585478+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 60,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-08-21T08:34:02.050106+00:00",
+    "nextRefresh": "2026-08-21T08:34:02.050106+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 67,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
 }
