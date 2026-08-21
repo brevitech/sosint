@@ -1,12 +1,17 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 46,
-    "neutral": 13,
+    "positive": 48,
+    "negative": 41,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 48,
+        "count": 51,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bessent",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -16,11 +21,6 @@
       },
       {
         "word": "cohen",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bessent",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -35,23 +35,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "president",
+        "word": "white",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -65,7 +60,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "president",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "california",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bond",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -75,7 +80,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "natalie",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "harp",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -100,17 +110,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "russia",
+        "word": "south",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "natalie",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "harp",
+        "word": "aide",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -125,17 +130,12 @@
         "sentiment": "neutral"
       },
       {
+        "word": "judge",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "rules",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stars",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stripes",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -150,61 +150,56 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bond",
+        "word": "announces",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-21T09:30:58.743989+00:00",
-    "nextRefresh": "2026-08-21T09:30:58.743989+00:00",
-    "articlesAnalyzed": 333,
+    "generatedAt": "2026-08-21T10:23:36.985607+00:00",
+    "nextRefresh": "2026-08-21T10:23:36.985607+00:00",
+    "articlesAnalyzed": 334,
     "matchedMentions": 128,
-    "uniquePersonalities": 47,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 55,
-    "negative": 32,
-    "neutral": 13,
+    "positive": 42,
+    "negative": 42,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pellet",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fir",
-        "count": 8,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "dmk",
-        "count": 8,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "gun",
-        "count": 6,
-        "sentiment": "negative"
+        "word": "gandhi",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fir",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "tamil",
-        "count": 6,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "nadu",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pellet",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -219,7 +214,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "sits",
+        "word": "gun",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "government",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -229,18 +229,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "udhayanidhi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "gangster",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bail",
-        "count": 4,
+        "word": "court",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -249,7 +244,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "government",
+        "word": "shah",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -259,12 +254,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
+        "word": "police",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "udhayanidhi",
+        "word": "stalin",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "corruption",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -274,7 +274,7 @@
         "sentiment": "positive"
       },
       {
-        "word": "shah",
+        "word": "goyal",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -284,12 +284,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "target",
-        "count": 4,
+        "word": "pellets",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "outside",
+        "word": "eye",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "body",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "demands",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -299,32 +309,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "political",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vijay",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rejects",
+        "word": "demand",
         "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "free",
+        "word": "bail",
         "count": 3,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-21T09:31:10.378361+00:00",
-    "nextRefresh": "2026-08-21T09:31:10.378361+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 77,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-08-21T10:23:49.732068+00:00",
+    "nextRefresh": "2026-08-21T10:23:49.732068+00:00",
+    "articlesAnalyzed": 415,
+    "matchedMentions": 66,
+    "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
 }
