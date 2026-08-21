@@ -1,21 +1,26 @@
 {
   "us": {
-    "positive": 48,
-    "negative": 43,
-    "neutral": 9,
+    "positive": 45,
+    "negative": 45,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 49,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "economic",
-        "count": 10,
+        "count": 53,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "economic",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "south",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -30,13 +35,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
+        "word": "california",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "sanctions",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sanctions",
-        "count": 5,
+        "word": "election",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -50,12 +70,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "election",
+        "word": "behind",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -65,12 +80,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "politics",
+        "word": "democrats",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "california",
+        "word": "politics",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -85,17 +100,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "ahead",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "bessent",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "south",
-        "count": 4,
+        "word": "carolina",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "behind",
+        "word": "boost",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "power",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -110,92 +135,82 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "rally",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "money",
+        "word": "progressive",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "sullivan",
+        "word": "aisha",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bond",
+        "word": "wahab",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "announces",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "books",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "marlon",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "james",
-        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-21T12:35:49.812962+00:00",
-    "nextRefresh": "2026-08-21T12:35:49.812962+00:00",
+    "generatedAt": "2026-08-21T13:40:33.729980+00:00",
+    "nextRefresh": "2026-08-21T13:40:33.729980+00:00",
     "articlesAnalyzed": 339,
-    "matchedMentions": 127,
+    "matchedMentions": 129,
     "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
+    "positive": 46,
     "negative": 38,
-    "neutral": 18,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 25,
+        "count": 30,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 20,
+        "count": 26,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
-        "count": 13,
+        "word": "fir",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "pellet",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "irani",
-        "count": 11,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "police",
-        "count": 11,
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "irani",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sit-in",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slams",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -204,38 +219,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fir",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "protest",
-        "count": 8,
+        "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "india",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sit-in",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "slams",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "bjp",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dharna",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "posturing",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "advocacy",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -255,36 +260,6 @@
       },
       {
         "word": "row",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dharna",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "eye",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "victim",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "vande",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mataram",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dmk",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -294,37 +269,62 @@
         "sentiment": "negative"
       },
       {
-        "word": "congress",
+        "word": "smriti",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "amit",
+        "word": "vande",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "mataram",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "udhayanidhi",
+        "word": "attention",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "stalin",
+        "word": "border",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "goyal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "language",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-21T12:36:01.093561+00:00",
-    "nextRefresh": "2026-08-21T12:36:01.093561+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 80,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-08-21T13:40:45.429283+00:00",
+    "nextRefresh": "2026-08-21T13:40:45.429283+00:00",
+    "articlesAnalyzed": 432,
+    "matchedMentions": 79,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
