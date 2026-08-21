@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 49,
-    "negative": 41,
-    "neutral": 10,
+    "positive": 48,
+    "negative": 43,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,52 +11,32 @@
       },
       {
         "word": "economic",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "cohen",
+        "word": "white",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "bessent",
+        "word": "house",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "ahead",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "michael",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bond",
-        "count": 6,
+        "word": "sanctions",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -70,22 +50,52 @@
         "sentiment": "neutral"
       },
       {
+        "word": "war",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "election",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "pressure",
         "count": 5,
         "sentiment": "negative"
       },
       {
-        "word": "senate",
+        "word": "politics",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 4,
+        "word": "california",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cohen",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bessent",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "south",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "behind",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -100,12 +110,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "radio",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "california",
+        "word": "democrats",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -120,12 +125,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "bond",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "announces",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "races",
+        "word": "senate",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -143,50 +153,65 @@
         "word": "james",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "biden",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "grand",
-        "count": 3,
-        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-21T11:20:14.454217+00:00",
-    "nextRefresh": "2026-08-21T11:20:14.454217+00:00",
-    "articlesAnalyzed": 335,
-    "matchedMentions": 129,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-08-21T12:35:49.812962+00:00",
+    "nextRefresh": "2026-08-21T12:35:49.812962+00:00",
+    "articlesAnalyzed": 339,
+    "matchedMentions": 127,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 38,
-    "negative": 45,
-    "neutral": 17,
+    "positive": 44,
+    "negative": 38,
+    "neutral": 18,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 17,
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
         "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "pellet",
-        "count": 8,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
-        "count": 8,
+        "word": "irani",
+        "count": 11,
         "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "station",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fir",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
         "word": "india",
@@ -194,22 +219,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "police",
+        "word": "shah",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sit-in",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "station",
+        "word": "slams",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "victim",
+        "word": "bjp",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tossing",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "fir",
+        "word": "toffees",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ndtv",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -224,38 +264,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dmk",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "irani",
+        "word": "eye",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
+        "word": "victim",
         "count": 5,
         "sentiment": "negative"
       },
       {
-        "word": "sit-in",
-        "count": 4,
+        "word": "vande",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mataram",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dmk",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -264,12 +294,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "vande",
+        "word": "congress",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "mataram",
+        "word": "amit",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -282,48 +317,13 @@
         "word": "stalin",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "tamil",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "supreme",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "goyal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "language",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pellets",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-21T11:20:40.902012+00:00",
-    "nextRefresh": "2026-08-21T11:20:40.902012+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 76,
+    "generatedAt": "2026-08-21T12:36:01.093561+00:00",
+    "nextRefresh": "2026-08-21T12:36:01.093561+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 80,
     "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
