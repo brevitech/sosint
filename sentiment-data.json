@@ -1,17 +1,12 @@
 {
   "us": {
-    "positive": 48,
+    "positive": 49,
     "negative": 41,
-    "neutral": 11,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 51,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bessent",
-        "count": 10,
+        "count": 49,
         "sentiment": "neutral"
       },
       {
@@ -25,12 +20,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
-        "count": 7,
+        "word": "bessent",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "ahead",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -45,14 +40,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pressure",
+        "word": "iran",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "michael",
@@ -65,17 +55,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "california",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "bond",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "races",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -90,24 +70,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pipeline",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "oil",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trillion",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "debt",
+        "word": "pressure",
         "count": 5,
         "sentiment": "negative"
+      },
+      {
+        "word": "senate",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
         "word": "south",
@@ -115,7 +90,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "aide",
+        "word": "russia",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "america",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -125,17 +105,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "operate",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rules",
+        "word": "california",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -153,108 +123,158 @@
         "word": "announces",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "races",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "books",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "marlon",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "james",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "biden",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "grand",
+        "count": 3,
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-21T10:23:36.985607+00:00",
-    "nextRefresh": "2026-08-21T10:23:36.985607+00:00",
-    "articlesAnalyzed": 334,
-    "matchedMentions": 128,
+    "generatedAt": "2026-08-21T11:20:14.454217+00:00",
+    "nextRefresh": "2026-08-21T11:20:14.454217+00:00",
+    "articlesAnalyzed": 335,
+    "matchedMentions": 129,
     "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 42,
-    "negative": 42,
-    "neutral": 16,
+    "positive": 38,
+    "negative": 45,
+    "neutral": 17,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dmk",
-        "count": 10,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fir",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tamil",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 7,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "pellet",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "victim",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "gun",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "government",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dharna",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "udhayanidhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delimitation",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 4,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "delhi",
-        "count": 4,
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "police",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "station",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "victim",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "fir",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dharna",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dmk",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "irani",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "sit-in",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gun",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "vande",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mataram",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "udhayanidhi",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -264,7 +284,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "corruption",
+        "word": "tamil",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -284,47 +309,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "pellets",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "eye",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "body",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "demands",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sit-in",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "demand",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "bail",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-21T10:23:49.732068+00:00",
-    "nextRefresh": "2026-08-21T10:23:49.732068+00:00",
-    "articlesAnalyzed": 415,
-    "matchedMentions": 66,
-    "uniquePersonalities": 31,
+    "generatedAt": "2026-08-21T11:20:40.902012+00:00",
+    "nextRefresh": "2026-08-21T11:20:40.902012+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 76,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
