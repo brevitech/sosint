@@ -1,27 +1,12 @@
 {
   "us": {
-    "positive": 36,
-    "negative": 56,
+    "positive": 38,
+    "negative": 54,
     "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 82,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 12,
+        "count": 87,
         "sentiment": "neutral"
       },
       {
@@ -35,13 +20,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ballroom",
+        "word": "trade",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "policy",
-        "count": 10,
+        "word": "court",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ballroom",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -55,28 +45,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 9,
-        "sentiment": "negative"
-      },
-      {
-        "word": "canada",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "federal",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "iran",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
         "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "carney",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "canada",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -100,42 +90,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "policy",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "carolina",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "case",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vacates",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "suspended",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "processing",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "immigration",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visas",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "countries",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,20 +118,55 @@
         "word": "harp",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "beef",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "federal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "country",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "darline",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ukraine",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "national",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-22T17:15:45.566217+00:00",
-    "nextRefresh": "2026-08-22T17:15:45.566217+00:00",
-    "articlesAnalyzed": 346,
-    "matchedMentions": 161,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-08-22T18:20:55.000985+00:00",
+    "nextRefresh": "2026-08-22T18:20:55.000985+00:00",
+    "articlesAnalyzed": 347,
+    "matchedMentions": 162,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 39,
-    "negative": 44,
-    "neutral": 17,
+    "positive": 47,
+    "negative": 34,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "visit",
@@ -174,17 +174,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "party",
         "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "modi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -209,6 +204,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "rahul",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "denied",
         "count": 5,
         "sentiment": "negative"
@@ -224,9 +224,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "party",
-        "count": 5,
-        "sentiment": "positive"
+        "word": "youth",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "eam",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
         "word": "announces",
@@ -244,12 +259,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sanjay",
+        "word": "india",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "slams",
+        "word": "sanjay",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -270,11 +285,6 @@
       },
       {
         "word": "team",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "eam",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -307,24 +317,14 @@
         "word": "answers",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "scared",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "stalin",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-22T17:16:00.209029+00:00",
-    "nextRefresh": "2026-08-22T17:16:00.209029+00:00",
-    "articlesAnalyzed": 414,
-    "matchedMentions": 54,
-    "uniquePersonalities": 32,
+    "generatedAt": "2026-08-22T18:21:05.967987+00:00",
+    "nextRefresh": "2026-08-22T18:21:05.967987+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 59,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
