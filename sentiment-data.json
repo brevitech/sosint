@@ -1,21 +1,26 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 55,
-    "neutral": 7,
+    "positive": 36,
+    "negative": 56,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 83,
+        "count": 84,
         "sentiment": "neutral"
       },
       {
         "word": "white",
-        "count": 12,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "house",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ballroom",
         "count": 12,
         "sentiment": "neutral"
       },
@@ -25,17 +30,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ballroom",
+        "word": "tariffs",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "tariffs",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "graham",
+        "word": "iran",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -45,13 +45,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "judge",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "graham",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "canada",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -60,14 +65,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "canada",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "supreme",
         "count": 7,
         "sentiment": "positive"
+      },
+      {
+        "word": "construction",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "economic",
@@ -80,17 +85,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "south",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "policy",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "carolina",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -100,17 +95,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "construction",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "quiet",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "harp",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "south",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -135,6 +130,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "carolina",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ukraine",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "talks",
         "count": 5,
         "sentiment": "neutral"
@@ -148,43 +153,48 @@
         "word": "power",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "wants",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-22T19:18:50.940838+00:00",
-    "nextRefresh": "2026-08-22T19:18:50.940838+00:00",
+    "generatedAt": "2026-08-22T20:16:28.776541+00:00",
+    "nextRefresh": "2026-08-22T20:16:28.776541+00:00",
     "articlesAnalyzed": 347,
-    "matchedMentions": 159,
+    "matchedMentions": 163,
     "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 33,
-    "neutral": 22,
+    "positive": 47,
+    "negative": 27,
+    "neutral": 26,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
-        "count": 8,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "team",
-        "count": 7,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meets",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ideas",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "perspectives",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -192,6 +202,11 @@
         "word": "party",
         "count": 7,
         "sentiment": "positive"
+      },
+      {
+        "word": "visit",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "revanth",
@@ -209,12 +224,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
+        "word": "eam",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -234,16 +244,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ideas",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "perspectives",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "youth",
         "count": 4,
         "sentiment": "neutral"
@@ -254,22 +254,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "jaishankar",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "eam",
-        "count": 4,
+        "word": "national",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "sanjay",
+        "word": "singh",
         "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "women",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -280,11 +285,6 @@
       },
       {
         "word": "manusmriti",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jaishankar",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-22T19:19:01.478329+00:00",
-    "nextRefresh": "2026-08-22T19:19:01.478329+00:00",
+    "generatedAt": "2026-08-22T20:16:37.586926+00:00",
+    "nextRefresh": "2026-08-22T20:16:37.586926+00:00",
     "articlesAnalyzed": 416,
-    "matchedMentions": 60,
-    "uniquePersonalities": 39,
+    "matchedMentions": 59,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
