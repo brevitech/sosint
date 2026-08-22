@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 49,
+    "positive": 41,
+    "negative": 50,
     "neutral": 9,
     "wordCloud": [
       {
@@ -25,12 +25,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ballroom",
-        "count": 11,
+        "word": "court",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "president",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ballroom",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -42,11 +47,6 @@
       {
         "word": "beef",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -65,16 +65,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "allows",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "chief",
         "count": 7,
         "sentiment": "neutral"
@@ -90,9 +80,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
+        "word": "tariffs",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "allows",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "construction",
@@ -110,14 +105,24 @@
         "sentiment": "neutral"
       },
       {
+        "word": "vance",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "import",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "ohio",
+        "word": "judge",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "supreme",
+        "count": 5,
+        "sentiment": "positive"
       },
       {
         "word": "national",
@@ -135,6 +140,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "wants",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "views",
         "count": 5,
         "sentiment": "neutral"
@@ -143,44 +153,34 @@
         "word": "strait",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "hormuz",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "territory",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-22T03:37:12.644684+00:00",
-    "nextRefresh": "2026-08-22T03:37:12.644684+00:00",
+    "generatedAt": "2026-08-22T04:26:53.811851+00:00",
+    "nextRefresh": "2026-08-22T04:26:53.811851+00:00",
     "articlesAnalyzed": 334,
-    "matchedMentions": 164,
+    "matchedMentions": 167,
     "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 31,
+    "positive": 55,
+    "negative": 28,
     "neutral": 17,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
         "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "chopra",
         "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -224,12 +224,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dharna",
+        "word": "visit",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "dharna",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -294,11 +294,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "highlights",
         "count": 3,
         "sentiment": "neutral"
@@ -317,13 +312,18 @@
         "word": "emkay",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-22T03:37:25.196301+00:00",
-    "nextRefresh": "2026-08-22T03:37:25.196301+00:00",
+    "generatedAt": "2026-08-22T04:27:06.360859+00:00",
+    "nextRefresh": "2026-08-22T04:27:06.360859+00:00",
     "articlesAnalyzed": 431,
-    "matchedMentions": 54,
+    "matchedMentions": 53,
     "uniquePersonalities": 29,
     "dataSource": "live-rss"
   }
