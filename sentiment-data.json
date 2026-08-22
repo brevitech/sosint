@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 39,
+    "positive": 40,
     "negative": 51,
-    "neutral": 10,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 82,
+        "count": 81,
         "sentiment": "neutral"
       },
       {
@@ -40,12 +40,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 8,
+        "word": "iran",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "court",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -156,31 +156,21 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-22T09:21:27.587946+00:00",
-    "nextRefresh": "2026-08-22T09:21:27.587946+00:00",
+    "generatedAt": "2026-08-22T10:17:30.769614+00:00",
+    "nextRefresh": "2026-08-22T10:17:30.769614+00:00",
     "articlesAnalyzed": 342,
-    "matchedMentions": 155,
-    "uniquePersonalities": 47,
+    "matchedMentions": 159,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 32,
-    "neutral": 22,
+    "positive": 53,
+    "negative": 28,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "chopra",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ahead",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -189,7 +179,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "visit",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -209,7 +204,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
+        "word": "bjp",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -229,22 +224,37 @@
         "sentiment": "neutral"
       },
       {
+        "word": "congress",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "mayawati",
         "count": 4,
         "sentiment": "neutral"
       },
       {
+        "word": "cji",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "russia",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abvp",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -279,6 +289,26 @@
         "sentiment": "neutral"
       },
       {
+        "word": "gandhi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pune",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "event",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "government",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "apologise",
         "count": 3,
         "sentiment": "positive"
@@ -287,44 +317,14 @@
         "word": "jats",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "insulting",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "family",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "charan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "singh",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "growth",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "role",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-22T09:21:36.849823+00:00",
-    "nextRefresh": "2026-08-22T09:21:36.849823+00:00",
+    "generatedAt": "2026-08-22T10:17:43.152380+00:00",
+    "nextRefresh": "2026-08-22T10:17:43.152380+00:00",
     "articlesAnalyzed": 430,
-    "matchedMentions": 65,
-    "uniquePersonalities": 39,
+    "matchedMentions": 74,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
