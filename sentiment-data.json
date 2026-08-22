@@ -6,27 +6,32 @@
     "wordCloud": [
       {
         "word": "trump",
-        "count": 85,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tariffs",
-        "count": 13,
+        "count": 84,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 11,
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tariffs",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "white",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "house",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -36,12 +41,7 @@
       },
       {
         "word": "ballroom",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -65,7 +65,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "construction",
+        "word": "trial",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -75,12 +75,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "canada",
+        "word": "rules",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -90,7 +85,17 @@
         "sentiment": "positive"
       },
       {
+        "word": "construction",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "quiet",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -120,16 +125,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
         "word": "administration",
         "count": 5,
         "sentiment": "neutral"
@@ -145,28 +140,33 @@
         "sentiment": "negative"
       },
       {
-        "word": "rules",
+        "word": "talks",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wants",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-22T22:15:50.215207+00:00",
-    "nextRefresh": "2026-08-22T22:15:50.215207+00:00",
+    "generatedAt": "2026-08-22T23:15:19.532423+00:00",
+    "nextRefresh": "2026-08-22T23:15:19.532423+00:00",
     "articlesAnalyzed": 347,
-    "matchedMentions": 164,
-    "uniquePersonalities": 49,
+    "matchedMentions": 162,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 53,
+    "positive": 54,
     "negative": 20,
-    "neutral": 27,
+    "neutral": 26,
     "wordCloud": [
       {
         "word": "modi",
@@ -209,11 +209,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "jaishankar",
         "count": 4,
         "sentiment": "neutral"
@@ -235,11 +230,6 @@
       },
       {
         "word": "singh",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "youth",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -294,6 +284,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "india",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "matter",
         "count": 2,
         "sentiment": "neutral"
@@ -317,14 +312,19 @@
         "word": "healthcare",
         "count": 2,
         "sentiment": "neutral"
+      },
+      {
+        "word": "announces",
+        "count": 2,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-22T22:16:00.969985+00:00",
-    "nextRefresh": "2026-08-22T22:16:00.969985+00:00",
+    "generatedAt": "2026-08-22T23:15:28.996905+00:00",
+    "nextRefresh": "2026-08-22T23:15:28.996905+00:00",
     "articlesAnalyzed": 415,
-    "matchedMentions": 55,
-    "uniquePersonalities": 33,
+    "matchedMentions": 54,
+    "uniquePersonalities": 32,
     "dataSource": "live-rss"
   }
 }
