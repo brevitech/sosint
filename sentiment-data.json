@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 41,
+    "positive": 42,
     "negative": 50,
-    "neutral": 9,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 77,
+        "count": 73,
         "sentiment": "neutral"
       },
       {
         "word": "white",
-        "count": 14,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "house",
-        "count": 14,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -36,17 +36,12 @@
       },
       {
         "word": "iran",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "south",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tariffs",
-        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -75,7 +70,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
+        "word": "tariffs",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -100,8 +95,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "trade",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "import",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -115,7 +120,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "sanctions",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -125,22 +130,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "policy",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "eyes",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "allows",
+        "word": "amid",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "national",
+        "word": "allows",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -156,31 +156,26 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-22T14:15:56.949234+00:00",
-    "nextRefresh": "2026-08-22T14:15:56.949234+00:00",
+    "generatedAt": "2026-08-22T15:15:04.298902+00:00",
+    "nextRefresh": "2026-08-22T15:15:04.298902+00:00",
     "articlesAnalyzed": 345,
-    "matchedMentions": 155,
-    "uniquePersonalities": 46,
+    "matchedMentions": 153,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 36,
-    "negative": 48,
+    "positive": 43,
+    "negative": 41,
     "neutral": 16,
     "wordCloud": [
       {
-        "word": "rahul",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 8,
+        "word": "revanth",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "reddy",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -189,13 +184,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "revanth",
-        "count": 7,
+        "word": "rahul",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "nod",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -249,7 +249,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "party",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "target",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -269,32 +274,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sajjan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kumar",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "centre",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "arrest",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "sanjay",
+        "word": "india",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "modi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "team",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jaishankar",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "tmc",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "rebels",
-        "count": 3,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-22T14:16:08.296080+00:00",
-    "nextRefresh": "2026-08-22T14:16:08.296080+00:00",
-    "articlesAnalyzed": 413,
-    "matchedMentions": 56,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-08-22T15:15:24.463434+00:00",
+    "nextRefresh": "2026-08-22T15:15:24.463434+00:00",
+    "articlesAnalyzed": 428,
+    "matchedMentions": 54,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
