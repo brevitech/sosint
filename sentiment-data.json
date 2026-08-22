@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 41,
+    "positive": 40,
     "negative": 50,
-    "neutral": 9,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 82,
+        "count": 81,
         "sentiment": "neutral"
       },
       {
@@ -40,11 +40,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "court",
         "count": 8,
         "sentiment": "neutral"
@@ -55,13 +50,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "president",
+        "word": "darline",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "darline",
-        "count": 8,
+        "word": "iran",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -70,7 +65,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "policy",
+        "word": "president",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -100,12 +95,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "american",
+        "word": "tariffs",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
+        "word": "policy",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -140,42 +135,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "views",
+        "word": "vance",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "strait",
+        "word": "american",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "hormuz",
+        "word": "amid",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-22T07:26:26.447770+00:00",
-    "nextRefresh": "2026-08-22T07:26:26.447770+00:00",
+    "generatedAt": "2026-08-22T08:21:49.486717+00:00",
+    "nextRefresh": "2026-08-22T08:21:49.486717+00:00",
     "articlesAnalyzed": 340,
-    "matchedMentions": 160,
+    "matchedMentions": 156,
     "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
-    "negative": 35,
+    "positive": 41,
+    "negative": 38,
     "neutral": 21,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 13,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 11,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -184,17 +184,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fir",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "india",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pellet",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -220,36 +210,36 @@
       },
       {
         "word": "spot",
-        "count": 5,
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "growth",
-        "count": 5,
+        "count": 4,
         "sentiment": "positive"
       },
       {
         "word": "police",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "akhilesh",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "fir",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "mayawati",
+        "word": "shah",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -259,7 +249,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "case",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gold",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -284,14 +279,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sees",
+        "word": "modi",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "bright",
-        "count": 3,
-        "sentiment": "positive"
       },
       {
         "word": "jharkhand",
@@ -317,14 +307,24 @@
         "word": "soren",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "pellet",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "role",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-22T07:26:37.238554+00:00",
-    "nextRefresh": "2026-08-22T07:26:37.238554+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 66,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-08-22T08:22:01.796299+00:00",
+    "nextRefresh": "2026-08-22T08:22:01.796299+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 63,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
