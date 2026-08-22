@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 49,
+    "positive": 41,
+    "negative": 50,
     "neutral": 9,
     "wordCloud": [
       {
@@ -156,45 +156,30 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-22T06:30:39.646961+00:00",
-    "nextRefresh": "2026-08-22T06:30:39.646961+00:00",
-    "articlesAnalyzed": 338,
-    "matchedMentions": 161,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-08-22T07:26:26.447770+00:00",
+    "nextRefresh": "2026-08-22T07:26:26.447770+00:00",
+    "articlesAnalyzed": 340,
+    "matchedMentions": 160,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 33,
-    "neutral": 15,
+    "positive": 44,
+    "negative": 35,
+    "neutral": 21,
     "wordCloud": [
       {
         "word": "rahul",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "chopra",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lausanne",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "diamond",
-        "count": 8,
-        "sentiment": "positive"
-      },
-      {
-        "word": "league",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -214,17 +199,42 @@
         "sentiment": "neutral"
       },
       {
+        "word": "ahead",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lausanne",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "diamond",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "league",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "spot",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "growth",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "police",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "neeraj",
+        "word": "akhilesh",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -234,7 +244,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dharna",
+        "word": "delhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mayawati",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "polls",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -245,6 +265,11 @@
       },
       {
         "word": "throw",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "neeraj",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -269,62 +294,37 @@
         "sentiment": "positive"
       },
       {
-        "word": "growth",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "police",
+        "word": "jharkhand",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "gun",
+        "word": "protesters",
         "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "event",
+        "word": "attempt",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "apologise",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "jats",
+        "word": "burn",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "insulting",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "family",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "charan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "singh",
+        "word": "soren",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-22T06:31:03.345087+00:00",
-    "nextRefresh": "2026-08-22T06:31:03.345087+00:00",
+    "generatedAt": "2026-08-22T07:26:37.238554+00:00",
+    "nextRefresh": "2026-08-22T07:26:37.238554+00:00",
     "articlesAnalyzed": 432,
-    "matchedMentions": 60,
-    "uniquePersonalities": 34,
+    "matchedMentions": 66,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
