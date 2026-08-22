@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 52,
-    "neutral": 8,
+    "positive": 42,
+    "negative": 49,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
@@ -35,11 +35,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "south",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "beef",
         "count": 10,
         "sentiment": "neutral"
@@ -50,8 +45,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
-        "count": 8,
+        "word": "south",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -66,6 +61,11 @@
       },
       {
         "word": "economic",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -100,17 +100,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "korea",
+        "word": "trade",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "policy",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "buffett",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -130,22 +125,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "wants",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sanctions",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -153,38 +133,63 @@
         "word": "american",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "eyes",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "natalie",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "korea",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sanctions",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-22T12:28:07.402321+00:00",
-    "nextRefresh": "2026-08-22T12:28:07.402321+00:00",
-    "articlesAnalyzed": 342,
+    "generatedAt": "2026-08-22T13:26:57.530534+00:00",
+    "nextRefresh": "2026-08-22T13:26:57.530534+00:00",
+    "articlesAnalyzed": 344,
     "matchedMentions": 159,
-    "uniquePersonalities": 45,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 50,
-    "negative": 37,
-    "neutral": 13,
+    "positive": 47,
+    "negative": 41,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "rahul",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "party",
-        "count": 6,
-        "sentiment": "positive"
+        "word": "reddy",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
-        "word": "reddy",
+        "word": "india",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "mea",
+        "word": "revanth",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -199,12 +204,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "party",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "revanth",
+        "word": "bjp",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -214,17 +219,17 @@
         "sentiment": "negative"
       },
       {
+        "word": "mea",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "foreign",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "sajjan",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kumar",
+        "word": "stalin",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -234,17 +239,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "reporter",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "diary",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
+        "word": "yin-and-yang",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "approach",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pellet",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gun",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "fir",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sri",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lanka",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "didn",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "questions",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -254,77 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "post",
+        "word": "dmk",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "stalin",
+        "word": "tamil",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "given",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lakh",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bulletproof",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jackets",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "polls",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "forgive",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "tmc",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rebels",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "answers",
+        "word": "nadu",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-22T12:28:18.860062+00:00",
-    "nextRefresh": "2026-08-22T12:28:18.860062+00:00",
+    "generatedAt": "2026-08-22T13:27:10.314559+00:00",
+    "nextRefresh": "2026-08-22T13:27:10.314559+00:00",
     "articlesAnalyzed": 428,
-    "matchedMentions": 60,
-    "uniquePersonalities": 37,
+    "matchedMentions": 68,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
