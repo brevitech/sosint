@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 51,
-    "neutral": 9,
+    "positive": 38,
+    "negative": 52,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 81,
+        "count": 83,
         "sentiment": "neutral"
       },
       {
@@ -30,6 +30,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "iran",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "south",
         "count": 10,
         "sentiment": "neutral"
@@ -37,11 +42,6 @@
       {
         "word": "beef",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -61,6 +61,11 @@
       },
       {
         "word": "chief",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -105,13 +110,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
+        "word": "import",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "import",
-        "count": 6,
+        "word": "secretary",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -140,51 +145,56 @@
         "sentiment": "neutral"
       },
       {
+        "word": "sanctions",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "vance",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "american",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-22T10:17:30.769614+00:00",
-    "nextRefresh": "2026-08-22T10:17:30.769614+00:00",
+    "generatedAt": "2026-08-22T11:15:59.615669+00:00",
+    "nextRefresh": "2026-08-22T11:15:59.615669+00:00",
     "articlesAnalyzed": 342,
-    "matchedMentions": 159,
-    "uniquePersonalities": 49,
+    "matchedMentions": 158,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 53,
-    "negative": 28,
-    "neutral": 19,
+    "positive": 51,
+    "negative": 34,
+    "neutral": 15,
     "wordCloud": [
+      {
+        "word": "visit",
+        "count": 8,
+        "sentiment": "neutral"
+      },
       {
         "word": "chopra",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "akhilesh",
+        "word": "rahul",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reddy",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
+        "word": "mea",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
+        "word": "nod",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -204,34 +214,49 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "gandhi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "akhilesh",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "chaudhary",
+        "word": "revanth",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "denied",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "foreign",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sajjan",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "chavanni",
+        "word": "kumar",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "party",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "tamil",
@@ -250,16 +275,6 @@
       },
       {
         "word": "cji",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "russia",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "polls",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -289,42 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "model",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "pune",
+        "word": "remark",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "event",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "government",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "apologise",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "jats",
+        "word": "shah",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-22T10:17:43.152380+00:00",
-    "nextRefresh": "2026-08-22T10:17:43.152380+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 74,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-08-22T11:16:14.897352+00:00",
+    "nextRefresh": "2026-08-22T11:16:14.897352+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 79,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
 }
