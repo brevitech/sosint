@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 36,
-    "negative": 56,
+    "positive": 37,
+    "negative": 55,
     "neutral": 8,
     "wordCloud": [
       {
@@ -65,6 +65,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "president",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "ballroom",
         "count": 7,
         "sentiment": "neutral"
@@ -82,11 +87,6 @@
       {
         "word": "chief",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -156,36 +156,46 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-23T07:28:43.230137+00:00",
-    "nextRefresh": "2026-08-23T07:28:43.230137+00:00",
-    "articlesAnalyzed": 344,
-    "matchedMentions": 160,
+    "generatedAt": "2026-08-23T08:22:44.934863+00:00",
+    "nextRefresh": "2026-08-23T08:22:44.934863+00:00",
+    "articlesAnalyzed": 345,
+    "matchedMentions": 161,
     "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
+    "positive": 47,
     "negative": 39,
-    "neutral": 16,
+    "neutral": 14,
     "wordCloud": [
       {
-        "word": "rahul",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
         "word": "modi",
-        "count": 12,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 10,
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "test",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
-        "count": 9,
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -199,24 +209,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "space",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "jaishankar",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "team",
+        "word": "visit",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "interest",
+        "count": 6,
+        "sentiment": "positive"
       },
       {
         "word": "daughter",
@@ -249,24 +254,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "test",
+        "word": "gandhi",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "event",
+        "word": "team",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
+        "word": "joins",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "interest",
+        "word": "space",
         "count": 5,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "row",
@@ -279,17 +284,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "event",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "congress",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "girls",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-23T07:28:54.906103+00:00",
-    "nextRefresh": "2026-08-23T07:28:54.906103+00:00",
+    "generatedAt": "2026-08-23T08:23:10.558358+00:00",
+    "nextRefresh": "2026-08-23T08:23:10.558358+00:00",
     "articlesAnalyzed": 432,
-    "matchedMentions": 83,
-    "uniquePersonalities": 39,
+    "matchedMentions": 90,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   }
 }
