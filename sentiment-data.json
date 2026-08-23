@@ -1,23 +1,28 @@
 {
   "us": {
-    "positive": 37,
-    "negative": 53,
+    "positive": 38,
+    "negative": 52,
     "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 69,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 16,
+        "count": 68,
         "sentiment": "neutral"
       },
       {
         "word": "trade",
         "count": 15,
         "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 14,
+        "sentiment": "negative"
       },
       {
         "word": "canada",
@@ -30,9 +35,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "iran",
         "count": 12,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "meeting",
@@ -50,22 +55,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "democrats",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trial",
+        "word": "power",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -80,22 +75,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "quiet",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wants",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
+        "word": "administration",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -125,9 +105,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fit",
+        "word": "ukraine",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "quiet",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trial",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "natalie",
@@ -140,7 +130,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "house",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,24 +143,34 @@
         "word": "national",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "tariffs",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "federal",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-23T18:20:56.940278+00:00",
-    "nextRefresh": "2026-08-23T18:20:56.940278+00:00",
+    "generatedAt": "2026-08-23T19:18:43.373176+00:00",
+    "nextRefresh": "2026-08-23T19:18:43.373176+00:00",
     "articlesAnalyzed": 358,
-    "matchedMentions": 179,
-    "uniquePersonalities": 52,
+    "matchedMentions": 172,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 33,
-    "neutral": 15,
+    "positive": 49,
+    "negative": 35,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "india",
-        "count": 12,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -184,28 +184,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "global",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "modi",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vande",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mataram",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -231,16 +211,6 @@
       {
         "word": "poonawalla",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "become",
-        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -274,31 +244,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sharmila",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kangana",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "khanna",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "weighs",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "debate",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "case",
         "count": 3,
         "sentiment": "neutral"
@@ -314,17 +259,72 @@
         "sentiment": "neutral"
       },
       {
+        "word": "row",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "mai",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "yahan",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "khiladi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hun",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rijiju",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hits",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "comparison",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fitness",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "outreach",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "real",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "life",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-23T18:21:08.216298+00:00",
-    "nextRefresh": "2026-08-23T18:21:08.216298+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 69,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-08-23T19:18:56.276615+00:00",
+    "nextRefresh": "2026-08-23T19:18:56.276615+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 57,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
 }
