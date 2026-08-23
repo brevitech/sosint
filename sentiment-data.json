@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 35,
-    "negative": 54,
+    "positive": 34,
+    "negative": 55,
     "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 78,
+        "count": 76,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "trade",
         "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -40,6 +40,16 @@
         "sentiment": "negative"
       },
       {
+        "word": "darline",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "graham",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "country",
         "count": 8,
         "sentiment": "neutral"
@@ -47,6 +57,16 @@
       {
         "word": "talks",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trial",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "carney",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -70,12 +90,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "construction",
+        "word": "economic",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "carney",
+        "word": "construction",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -85,7 +105,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "fit",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
         "word": "harp",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ceo",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -100,37 +130,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "darline",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "graham",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "south",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "court",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "details",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minister",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -148,29 +153,24 @@
         "word": "ban",
         "count": 5,
         "sentiment": "negative"
-      },
-      {
-        "word": "rules",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-23T14:17:41.910663+00:00",
-    "nextRefresh": "2026-08-23T14:17:41.910663+00:00",
-    "articlesAnalyzed": 351,
+    "generatedAt": "2026-08-23T15:16:57.159123+00:00",
+    "nextRefresh": "2026-08-23T15:16:57.159123+00:00",
+    "articlesAnalyzed": 353,
     "matchedMentions": 164,
-    "uniquePersonalities": 46,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 56,
-    "negative": 35,
-    "neutral": 9,
+    "positive": 50,
+    "negative": 36,
+    "neutral": 14,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 13,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -180,66 +180,31 @@
       },
       {
         "word": "gandhi",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "daughter",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pawar",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "found",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dead",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "baramati",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "test",
-        "count": 8,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "near",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "year-old",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
+        "word": "congress",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "joins",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "event",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "put",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -259,27 +224,77 @@
         "sentiment": "neutral"
       },
       {
+        "word": "ties",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "test",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "visit",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "rohit",
+        "word": "year-old",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "assistant",
+        "word": "daughter",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "home",
+        "word": "pawar",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "found",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dead",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "baramati",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "against",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "real",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "life",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "batman",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "posters",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -299,32 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "women",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "put",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "poonawalla",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ncp",
+        "word": "questions",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-23T14:17:55.226676+00:00",
-    "nextRefresh": "2026-08-23T14:17:55.226676+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 79,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-08-23T15:17:08.422632+00:00",
+    "nextRefresh": "2026-08-23T15:17:08.422632+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 70,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
