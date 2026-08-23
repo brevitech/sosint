@@ -1,12 +1,17 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 51,
-    "neutral": 10,
+    "positive": 41,
+    "negative": 50,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 81,
+        "count": 87,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trade",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -21,11 +26,6 @@
       },
       {
         "word": "house",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -45,12 +45,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "canada",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "canada",
+        "word": "talks",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "push",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -65,32 +70,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ballroom",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "economic",
+        "word": "iran",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "wants",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chief",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -101,6 +91,11 @@
       },
       {
         "word": "construction",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "economic",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -125,7 +120,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "push",
+        "word": "democrats",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -135,13 +130,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "darline",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "darline",
-        "count": 6,
+        "word": "election",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -156,21 +156,26 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-23T10:17:53.620920+00:00",
-    "nextRefresh": "2026-08-23T10:17:53.620920+00:00",
-    "articlesAnalyzed": 343,
-    "matchedMentions": 167,
+    "generatedAt": "2026-08-23T11:16:06.835596+00:00",
+    "nextRefresh": "2026-08-23T11:16:06.835596+00:00",
+    "articlesAnalyzed": 348,
+    "matchedMentions": 170,
     "uniquePersonalities": 51,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 39,
-    "negative": 46,
-    "neutral": 15,
+    "negative": 44,
+    "neutral": 17,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 12,
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -199,13 +204,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "gill",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
-        "count": 9,
+        "word": "near",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -234,13 +239,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "india",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "near",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -254,14 +254,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "event",
+        "word": "global",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "interest",
+        "word": "event",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "mla",
@@ -284,7 +284,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
+        "word": "congress",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -304,9 +304,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "global",
+        "word": "interest",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "assistant",
@@ -320,9 +320,9 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-23T10:18:05.287422+00:00",
-    "nextRefresh": "2026-08-23T10:18:05.287422+00:00",
-    "articlesAnalyzed": 432,
+    "generatedAt": "2026-08-23T11:16:22.748702+00:00",
+    "nextRefresh": "2026-08-23T11:16:22.748702+00:00",
+    "articlesAnalyzed": 431,
     "matchedMentions": 94,
     "uniquePersonalities": 51,
     "dataSource": "live-rss"
