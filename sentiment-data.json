@@ -1,27 +1,17 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 49,
-    "neutral": 10,
+    "positive": 38,
+    "negative": 51,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 81,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 12,
+        "count": 80,
         "sentiment": "neutral"
       },
       {
         "word": "trade",
-        "count": 12,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -30,14 +20,24 @@
         "sentiment": "neutral"
       },
       {
+        "word": "white",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "country",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 9,
-        "sentiment": "neutral"
+        "word": "war",
+        "count": 10,
+        "sentiment": "negative"
       },
       {
         "word": "canada",
@@ -45,9 +45,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "push",
         "count": 9,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "graham",
@@ -55,17 +55,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "president",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "talks",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "push",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -80,22 +70,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ballroom",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "construction",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "wants",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -110,7 +90,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "faces",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "construction",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -135,7 +120,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sanctions",
+        "word": "president",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,48 +138,63 @@
         "word": "amid",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "darline",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "voters",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-23T12:28:52.654365+00:00",
-    "nextRefresh": "2026-08-23T12:28:52.654365+00:00",
-    "articlesAnalyzed": 348,
-    "matchedMentions": 170,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-08-23T13:27:25.806258+00:00",
+    "nextRefresh": "2026-08-23T13:27:25.806258+00:00",
+    "articlesAnalyzed": 351,
+    "matchedMentions": 166,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 48,
-    "negative": 39,
-    "neutral": 13,
+    "positive": 58,
+    "negative": 33,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 24,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 17,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "women",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vande",
+        "word": "india",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "mataram",
+        "word": "women",
         "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "rijiju",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -219,42 +219,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "near",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "baramati",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "test",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "joins",
+        "word": "near",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "test",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -269,27 +244,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "congress",
         "count": 6,
         "sentiment": "neutral"
       },
       {
+        "word": "global",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "joins",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "fadnavis",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "event",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "quota",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "full",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -299,8 +269,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "put",
+        "word": "modi",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vande",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mataram",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "next",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -314,17 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
+        "word": "against",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "event",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-23T12:29:17.497727+00:00",
-    "nextRefresh": "2026-08-23T12:29:17.497727+00:00",
-    "articlesAnalyzed": 416,
-    "matchedMentions": 96,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-08-23T13:27:34.594544+00:00",
+    "nextRefresh": "2026-08-23T13:27:34.594544+00:00",
+    "articlesAnalyzed": 432,
+    "matchedMentions": 92,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   }
 }
