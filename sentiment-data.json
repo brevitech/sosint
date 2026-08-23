@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 52,
+    "positive": 40,
+    "negative": 51,
     "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 67,
+        "count": 66,
         "sentiment": "neutral"
       },
       {
@@ -20,27 +20,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "iran",
         "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 14,
+        "count": 13,
         "sentiment": "negative"
       },
       {
         "word": "trade",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
         "count": 12,
         "sentiment": "neutral"
       },
@@ -50,12 +40,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "canada",
+        "word": "judge",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
         "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "jared",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "canada",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -80,8 +80,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "country",
-        "count": 7,
+        "word": "ukraine",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -115,6 +115,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "indycar",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "quiet",
         "count": 6,
         "sentiment": "neutral"
@@ -135,6 +140,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "sanctions",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "incredulous",
         "count": 6,
         "sentiment": "neutral"
@@ -143,30 +153,20 @@
         "word": "national",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "federal",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reported",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-23T21:15:43.175155+00:00",
-    "nextRefresh": "2026-08-23T21:15:43.175155+00:00",
+    "generatedAt": "2026-08-23T22:16:02.790588+00:00",
+    "nextRefresh": "2026-08-23T22:16:02.790588+00:00",
     "articlesAnalyzed": 358,
-    "matchedMentions": 174,
+    "matchedMentions": 177,
     "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 53,
-    "negative": 31,
-    "neutral": 16,
+    "positive": 52,
+    "negative": 29,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "india",
@@ -219,6 +219,26 @@
         "sentiment": "neutral"
       },
       {
+        "word": "ahead",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "doval",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "china",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "gavaskar",
         "count": 3,
         "sentiment": "neutral"
@@ -230,11 +250,6 @@
       },
       {
         "word": "khan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -302,29 +317,14 @@
         "word": "real",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "life",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "batman",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "posters",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-23T21:15:55.142854+00:00",
-    "nextRefresh": "2026-08-23T21:15:55.142854+00:00",
+    "generatedAt": "2026-08-23T22:16:16.877550+00:00",
+    "nextRefresh": "2026-08-23T22:16:16.877550+00:00",
     "articlesAnalyzed": 418,
-    "matchedMentions": 59,
-    "uniquePersonalities": 32,
+    "matchedMentions": 58,
+    "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
 }
