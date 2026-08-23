@@ -1,12 +1,17 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 51,
-    "neutral": 9,
+    "positive": 41,
+    "negative": 49,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 66,
+        "count": 68,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -20,19 +25,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
         "word": "war",
         "count": 13,
         "sentiment": "negative"
-      },
-      {
-        "word": "trade",
-        "count": 12,
-        "sentiment": "neutral"
       },
       {
         "word": "meeting",
@@ -45,7 +40,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "trade",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -55,7 +50,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "canada",
+        "word": "talks",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -66,6 +61,11 @@
       },
       {
         "word": "power",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "canada",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -86,11 +86,6 @@
       },
       {
         "word": "administration",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "carney",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -120,22 +115,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "carney",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "quiet",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "trial",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "natalie",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "harp",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,19 +143,29 @@
         "word": "national",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "reported",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "security",
+        "count": 5,
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-23T22:16:02.790588+00:00",
-    "nextRefresh": "2026-08-23T22:16:02.790588+00:00",
+    "generatedAt": "2026-08-23T23:15:46.531686+00:00",
+    "nextRefresh": "2026-08-23T23:15:46.531686+00:00",
     "articlesAnalyzed": 358,
-    "matchedMentions": 177,
+    "matchedMentions": 176,
     "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 29,
+    "positive": 51,
+    "negative": 30,
     "neutral": 19,
     "wordCloud": [
       {
@@ -239,21 +239,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gavaskar",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "imran",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "khan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "case",
         "count": 3,
         "sentiment": "neutral"
@@ -317,13 +302,28 @@
         "word": "real",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "life",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "batman",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "posters",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-23T22:16:16.877550+00:00",
-    "nextRefresh": "2026-08-23T22:16:16.877550+00:00",
+    "generatedAt": "2026-08-23T23:15:56.954117+00:00",
+    "nextRefresh": "2026-08-23T23:15:56.954117+00:00",
     "articlesAnalyzed": 418,
-    "matchedMentions": 58,
+    "matchedMentions": 57,
     "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
