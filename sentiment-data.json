@@ -6,7 +6,17 @@
     "wordCloud": [
       {
         "word": "trump",
-        "count": 85,
+        "count": 82,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 13,
+        "sentiment": "negative"
+      },
+      {
+        "word": "trade",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -28,21 +38,6 @@
         "word": "house",
         "count": 11,
         "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tariffs",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 10,
-        "sentiment": "negative"
       },
       {
         "word": "ballroom",
@@ -75,17 +70,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "tariffs",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "against",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "court",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -153,23 +148,33 @@
         "word": "ban",
         "count": 5,
         "sentiment": "negative"
+      },
+      {
+        "word": "rules",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-23T03:49:57.800185+00:00",
-    "nextRefresh": "2026-08-23T03:49:57.800185+00:00",
+    "generatedAt": "2026-08-23T04:31:06.024697+00:00",
+    "nextRefresh": "2026-08-23T04:31:06.024697+00:00",
     "articlesAnalyzed": 343,
     "matchedMentions": 161,
-    "uniquePersonalities": 51,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
-    "negative": 33,
-    "neutral": 23,
+    "positive": 39,
+    "negative": 37,
+    "neutral": 24,
     "wordCloud": [
       {
         "word": "rahul",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -179,23 +184,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "bjp",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "team",
-        "count": 7,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 7,
+        "word": "gandhi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "remark",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -204,7 +209,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "amid",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "eam",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rebels",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "banerjee",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -214,28 +239,8 @@
         "sentiment": "positive"
       },
       {
-        "word": "gandhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "remark",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "women",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 4,
+        "word": "india",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -260,6 +265,11 @@
       },
       {
         "word": "singh",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -289,16 +299,6 @@
         "sentiment": "positive"
       },
       {
-        "word": "seek",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kuldeep",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "interest",
         "count": 3,
         "sentiment": "positive"
@@ -309,22 +309,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "attacks",
+        "word": "mamata",
         "count": 3,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "manusmriti",
+        "word": "vande",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-23T03:50:10.256271+00:00",
-    "nextRefresh": "2026-08-23T03:50:10.256271+00:00",
+    "generatedAt": "2026-08-23T04:31:20.827936+00:00",
+    "nextRefresh": "2026-08-23T04:31:20.827936+00:00",
     "articlesAnalyzed": 431,
-    "matchedMentions": 57,
-    "uniquePersonalities": 31,
+    "matchedMentions": 59,
+    "uniquePersonalities": 32,
     "dataSource": "live-rss"
   }
 }
