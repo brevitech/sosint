@@ -1,12 +1,12 @@
 {
   "us": {
     "positive": 39,
-    "negative": 51,
-    "neutral": 10,
+    "negative": 52,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 69,
+        "count": 67,
         "sentiment": "neutral"
       },
       {
@@ -36,6 +36,11 @@
       },
       {
         "word": "iran",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
         "count": 12,
         "sentiment": "neutral"
       },
@@ -46,11 +51,6 @@
       },
       {
         "word": "canada",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -80,7 +80,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "natalie",
+        "word": "country",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -115,17 +115,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "country",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "quiet",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "trial",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "natalie",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -156,17 +156,17 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-23T20:15:57.472255+00:00",
-    "nextRefresh": "2026-08-23T20:15:57.472255+00:00",
+    "generatedAt": "2026-08-23T21:15:43.175155+00:00",
+    "nextRefresh": "2026-08-23T21:15:43.175155+00:00",
     "articlesAnalyzed": 358,
-    "matchedMentions": 177,
-    "uniquePersonalities": 51,
+    "matchedMentions": 174,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 50,
-    "negative": 32,
-    "neutral": 18,
+    "positive": 53,
+    "negative": 31,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "india",
@@ -175,27 +175,32 @@
       },
       {
         "word": "gandhi",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 8,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 8,
+        "count": 10,
         "sentiment": "neutral"
+      },
+      {
+        "word": "outreach",
+        "count": 7,
+        "sentiment": "positive"
       },
       {
         "word": "gen",
-        "count": 4,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
-        "count": 4,
+        "word": "modi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -206,6 +211,11 @@
       {
         "word": "poonawalla",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "money",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -225,11 +235,6 @@
       },
       {
         "word": "gill",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "raut",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -294,11 +299,6 @@
         "sentiment": "positive"
       },
       {
-        "word": "outreach",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
         "word": "real",
         "count": 3,
         "sentiment": "neutral"
@@ -320,10 +320,10 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-23T20:16:10.136728+00:00",
-    "nextRefresh": "2026-08-23T20:16:10.136728+00:00",
+    "generatedAt": "2026-08-23T21:15:55.142854+00:00",
+    "nextRefresh": "2026-08-23T21:15:55.142854+00:00",
     "articlesAnalyzed": 418,
-    "matchedMentions": 56,
+    "matchedMentions": 59,
     "uniquePersonalities": 32,
     "dataSource": "live-rss"
   }
