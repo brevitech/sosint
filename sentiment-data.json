@@ -1,16 +1,21 @@
 {
   "us": {
-    "positive": 36,
-    "negative": 56,
+    "positive": 35,
+    "negative": 57,
     "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 83,
+        "count": 85,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -30,14 +35,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "tariffs",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "tariffs",
+        "word": "war",
         "count": 10,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "ballroom",
@@ -50,18 +55,23 @@
         "sentiment": "neutral"
       },
       {
+        "word": "chief",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "country",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "economic",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "carney",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chief",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -75,14 +85,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "economic",
+        "word": "talks",
         "count": 7,
         "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 7,
-        "sentiment": "negative"
       },
       {
         "word": "supreme",
@@ -148,54 +153,54 @@
         "word": "ban",
         "count": 5,
         "sentiment": "negative"
-      },
-      {
-        "word": "rules",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-23T02:57:08.499680+00:00",
-    "nextRefresh": "2026-08-23T02:57:08.499680+00:00",
+    "generatedAt": "2026-08-23T03:49:57.800185+00:00",
+    "nextRefresh": "2026-08-23T03:49:57.800185+00:00",
     "articlesAnalyzed": 343,
-    "matchedMentions": 160,
-    "uniquePersonalities": 50,
+    "matchedMentions": 161,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
-    "negative": 31,
-    "neutral": 18,
+    "positive": 44,
+    "negative": 33,
+    "neutral": 23,
     "wordCloud": [
       {
-        "word": "modi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "team",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "rahul",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meets",
-        "count": 5,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "row",
-        "count": 5,
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "team",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jaishankar",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -209,27 +214,17 @@
         "sentiment": "positive"
       },
       {
-        "word": "india",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ideas",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "perspectives",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "gandhi",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "jaishankar",
+        "word": "remark",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -239,8 +234,23 @@
         "sentiment": "neutral"
       },
       {
+        "word": "amid",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "target",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sends",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "message",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -255,11 +265,6 @@
       },
       {
         "word": "paise",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "remark",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -284,6 +289,26 @@
         "sentiment": "positive"
       },
       {
+        "word": "seek",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kuldeep",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "interest",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "bangladesh",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "attacks",
         "count": 3,
         "sentiment": "negative"
@@ -292,39 +317,14 @@
         "word": "manusmriti",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "vande",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mataram",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "forgive",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "tmc",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-23T02:57:21.225712+00:00",
-    "nextRefresh": "2026-08-23T02:57:21.225712+00:00",
+    "generatedAt": "2026-08-23T03:50:10.256271+00:00",
+    "nextRefresh": "2026-08-23T03:50:10.256271+00:00",
     "articlesAnalyzed": 431,
-    "matchedMentions": 59,
-    "uniquePersonalities": 36,
+    "matchedMentions": 57,
+    "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
 }
