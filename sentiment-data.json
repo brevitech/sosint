@@ -1,37 +1,42 @@
 {
   "us": {
-    "positive": 42,
+    "positive": 40,
     "negative": 49,
-    "neutral": 9,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 56,
+        "count": 55,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 20,
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "canada",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 11,
+        "count": 12,
         "sentiment": "negative"
       },
       {
-        "word": "trade",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "scott",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "economic",
-        "count": 9,
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tariffs",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trade",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -40,44 +45,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jeffries",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kushner",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "canada",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tariffs",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indycar",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meeting",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "macron",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "treasury",
-        "count": 6,
+        "count": 7,
         "sentiment": "positive"
+      },
+      {
+        "word": "scott",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "sanctions",
@@ -86,6 +61,11 @@
       },
       {
         "word": "talks",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indycar",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -105,11 +85,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "bond",
         "count": 6,
         "sentiment": "neutral"
@@ -125,22 +100,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "secretary",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bessent",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -153,24 +113,74 @@
         "word": "down",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "carney",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "macron",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pressure",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "threatens",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "jeffries",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jared",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kushner",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minister",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-24T15:34:09.259629+00:00",
-    "nextRefresh": "2026-08-24T15:34:09.259629+00:00",
+    "generatedAt": "2026-08-24T16:29:41.836546+00:00",
+    "nextRefresh": "2026-08-24T16:29:41.836546+00:00",
     "articlesAnalyzed": 332,
-    "matchedMentions": 154,
+    "matchedMentions": 150,
     "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 42,
-    "negative": 41,
-    "neutral": 17,
+    "positive": 41,
+    "negative": 43,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "india",
-        "count": 14,
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slams",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -179,8 +189,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 9,
+        "word": "rahul",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pant",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -189,17 +209,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "govt",
+        "word": "bjp",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -219,12 +229,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "slams",
+        "word": "tamil",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "pant",
+        "word": "nadu",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "surpasses",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gilchrist",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -249,82 +269,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "president",
+        "word": "court",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "imran",
+        "word": "end",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "hits",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "critics",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "three",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "questions",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dhoni",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "near",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tells",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "arrested",
-        "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "hospital",
-        "count": 3,
+        "word": "sonu",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rakhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ramdev",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "failed",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "manusmriti",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-24T15:34:25.760259+00:00",
-    "nextRefresh": "2026-08-24T15:34:25.760259+00:00",
-    "articlesAnalyzed": 429,
-    "matchedMentions": 74,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-08-24T16:29:54.872712+00:00",
+    "nextRefresh": "2026-08-24T16:29:54.872712+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 81,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   }
 }
