@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 52,
-    "neutral": 9,
+    "positive": 37,
+    "negative": 56,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,17 +11,22 @@
       },
       {
         "word": "iran",
-        "count": 27,
+        "count": 29,
         "sentiment": "neutral"
       },
       {
         "word": "sanctions",
-        "count": 19,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "economic",
-        "count": 14,
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bessent",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -30,18 +35,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bessent",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
         "word": "treasury",
-        "count": 11,
+        "count": 10,
         "sentiment": "positive"
       },
       {
         "word": "trade",
-        "count": 11,
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "announces",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -60,26 +65,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "announces",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bond",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "details",
         "count": 6,
         "sentiment": "neutral"
@@ -90,7 +75,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sullivan",
+        "word": "bond",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -105,12 +90,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "faces",
+        "word": "wants",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "wants",
+        "word": "talks",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -125,7 +110,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
+        "word": "administration",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -135,62 +120,72 @@
         "sentiment": "neutral"
       },
       {
-        "word": "economy",
+        "word": "safe",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "democrats",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "threatens",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "jeffries",
-        "count": 5,
+        "word": "power",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "jared",
-        "count": 5,
+        "word": "darline",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "graham",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "faces",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "washington",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-24T18:31:57.587949+00:00",
-    "nextRefresh": "2026-08-24T18:31:57.587949+00:00",
+    "generatedAt": "2026-08-24T19:24:35.717871+00:00",
+    "nextRefresh": "2026-08-24T19:24:35.717871+00:00",
     "articlesAnalyzed": 333,
-    "matchedMentions": 155,
-    "uniquePersonalities": 44,
+    "matchedMentions": 143,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 40,
-    "negative": 40,
-    "neutral": 20,
+    "positive": 37,
+    "negative": 38,
+    "neutral": 25,
     "wordCloud": [
       {
-        "word": "india",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
         "word": "putin",
-        "count": 14,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 11,
+        "word": "india",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
-        "count": 9,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "jaishankar",
-        "count": 9,
+        "word": "modi",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -199,37 +194,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pant",
+        "word": "jaishankar",
         "count": 7,
         "sentiment": "neutral"
       },
       {
+        "word": "personal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pant",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "calls",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "credits",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "trade",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "eam",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -239,47 +229,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "three",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tells",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hope",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "soon",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "surpasses",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gilchrist",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "test",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
+        "word": "adani",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
+        "word": "meets",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "post",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -317,14 +282,49 @@
         "word": "govt",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "building",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "handed",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "message",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "moscow",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kerala",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-24T18:32:09.661681+00:00",
-    "nextRefresh": "2026-08-24T18:32:09.661681+00:00",
-    "articlesAnalyzed": 416,
-    "matchedMentions": 81,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-08-24T19:24:47.160233+00:00",
+    "nextRefresh": "2026-08-24T19:24:47.160233+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 73,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
