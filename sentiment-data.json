@@ -1,36 +1,31 @@
 {
   "us": {
-    "positive": 37,
-    "negative": 52,
+    "positive": 40,
+    "negative": 49,
     "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 64,
+        "count": 61,
         "sentiment": "neutral"
       },
       {
         "word": "trade",
-        "count": 12,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 11,
+        "count": 10,
         "sentiment": "negative"
       },
       {
         "word": "talks",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ukraine",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "sullivan",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -50,22 +45,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "ukraine",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "canada",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "natalie",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "harp",
+        "word": "iran",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -80,12 +65,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "canada",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "carney",
+        "word": "judge",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "natalie",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "harp",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -105,6 +100,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "carney",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "quiet",
         "count": 6,
         "sentiment": "neutral"
@@ -115,8 +115,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "dan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "reported",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "involved",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -143,48 +153,58 @@
         "word": "economic",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "sanctions",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jared",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-24T08:41:20.247364+00:00",
-    "nextRefresh": "2026-08-24T08:41:20.247364+00:00",
-    "articlesAnalyzed": 346,
-    "matchedMentions": 163,
-    "uniquePersonalities": 49,
+    "generatedAt": "2026-08-24T09:40:55.948153+00:00",
+    "nextRefresh": "2026-08-24T09:40:55.948153+00:00",
+    "articlesAnalyzed": 348,
+    "matchedMentions": 158,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 29,
+    "positive": 44,
+    "negative": 30,
     "neutral": 26,
     "wordCloud": [
       {
         "word": "india",
-        "count": 15,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 11,
+        "word": "tamil",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "pant",
-        "count": 10,
+        "word": "nadu",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "airport",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chennai",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "parandur",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pant",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -194,22 +214,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
+        "word": "congress",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "parandur",
+        "word": "bjp",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -219,13 +229,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chennai",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 6,
+        "word": "dropped",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -234,13 +239,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "tvk",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "global",
-        "count": 5,
+        "word": "gandhi",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -254,9 +259,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "outreach",
+        "word": "modi",
         "count": 4,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "goyal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trade",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
         "word": "free",
@@ -265,11 +285,6 @@
       },
       {
         "word": "govt",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lpg",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -294,11 +309,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "standard",
         "count": 3,
         "sentiment": "neutral"
@@ -307,24 +317,14 @@
         "word": "practice",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "request",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "drops",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-24T08:41:35.887509+00:00",
-    "nextRefresh": "2026-08-24T08:41:35.887509+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 80,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-08-24T09:41:08.338414+00:00",
+    "nextRefresh": "2026-08-24T09:41:08.338414+00:00",
+    "articlesAnalyzed": 415,
+    "matchedMentions": 81,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
 }
