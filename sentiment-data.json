@@ -1,8 +1,8 @@
 {
   "us": {
     "positive": 39,
-    "negative": 49,
-    "neutral": 12,
+    "negative": 52,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,28 +11,33 @@
       },
       {
         "word": "iran",
-        "count": 22,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 14,
-        "sentiment": "negative"
+        "word": "sanctions",
+        "count": 19,
+        "sentiment": "neutral"
       },
       {
         "word": "economic",
-        "count": 12,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "canada",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bessent",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "tariffs",
+        "word": "treasury",
         "count": 11,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "trade",
@@ -40,19 +45,29 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sanctions",
+        "word": "war",
         "count": 10,
+        "sentiment": "negative"
+      },
+      {
+        "word": "secretary",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "bessent",
-        "count": 9,
+        "word": "tariffs",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "treasury",
+        "word": "announces",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bond",
         "count": 7,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "democrats",
@@ -75,27 +90,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bond",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "sullivan",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "secretary",
+        "word": "scott",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "scott",
+        "word": "unveils",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -105,7 +110,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "washington",
+        "word": "wants",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -113,6 +118,31 @@
         "word": "down",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "d-day",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "economy",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "threatens",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "jeffries",
@@ -123,44 +153,14 @@
         "word": "jared",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "kushner",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wants",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indycar",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "carney",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "d-day",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-24T17:25:45.757122+00:00",
-    "nextRefresh": "2026-08-24T17:25:45.757122+00:00",
-    "articlesAnalyzed": 332,
-    "matchedMentions": 147,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-08-24T18:31:57.587949+00:00",
+    "nextRefresh": "2026-08-24T18:31:57.587949+00:00",
+    "articlesAnalyzed": 333,
+    "matchedMentions": 155,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
@@ -180,7 +180,12 @@
       },
       {
         "word": "modi",
-        "count": 12,
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -195,22 +200,17 @@
       },
       {
         "word": "rahul",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "pant",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -231,6 +231,21 @@
       {
         "word": "eam",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "manusmriti",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "three",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tells",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -259,12 +274,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tells",
+        "word": "president",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -304,27 +314,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "manusmriti",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "govt",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "three",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-24T17:25:57.407775+00:00",
-    "nextRefresh": "2026-08-24T17:25:57.407775+00:00",
-    "articlesAnalyzed": 431,
+    "generatedAt": "2026-08-24T18:32:09.661681+00:00",
+    "nextRefresh": "2026-08-24T18:32:09.661681+00:00",
+    "articlesAnalyzed": 416,
     "matchedMentions": 81,
-    "uniquePersonalities": 43,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
 }
