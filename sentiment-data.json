@@ -1,23 +1,18 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 47,
-    "neutral": 11,
+    "positive": 40,
+    "negative": 50,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 68,
+        "count": 66,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 14,
+        "word": "talks",
+        "count": 12,
         "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 14,
-        "sentiment": "negative"
       },
       {
         "word": "jeffries",
@@ -45,13 +40,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
-        "count": 10,
+        "word": "iran",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
-        "count": 9,
+        "word": "war",
+        "count": 11,
+        "sentiment": "negative"
+      },
+      {
+        "word": "democrats",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -96,11 +96,6 @@
       },
       {
         "word": "carney",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republicans",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -153,39 +148,34 @@
         "word": "texas",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "wants",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-24T03:50:02.351510+00:00",
-    "nextRefresh": "2026-08-24T03:50:02.351510+00:00",
+    "generatedAt": "2026-08-24T04:39:00.241831+00:00",
+    "nextRefresh": "2026-08-24T04:39:00.241831+00:00",
     "articlesAnalyzed": 362,
-    "matchedMentions": 175,
+    "matchedMentions": 171,
     "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
-    "negative": 40,
-    "neutral": 16,
+    "positive": 47,
+    "negative": 36,
+    "neutral": 17,
     "wordCloud": [
+      {
+        "word": "india",
+        "count": 10,
+        "sentiment": "neutral"
+      },
       {
         "word": "rahul",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gen",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -194,9 +184,34 @@
         "sentiment": "neutral"
       },
       {
-        "word": "outreach",
+        "word": "modi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gen",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "karnataka",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "outreach",
+        "count": 4,
         "sentiment": "positive"
+      },
+      {
+        "word": "doval",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "adani",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
         "word": "fitness",
@@ -204,7 +219,17 @@
         "sentiment": "positive"
       },
       {
+        "word": "global",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "questions",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -219,17 +244,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "karnataka",
+        "word": "visit",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "adani",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "space",
+        "word": "sparks",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -239,12 +259,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "doval",
+        "word": "china",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "china",
+        "word": "shivakumar",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nod",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -292,39 +317,14 @@
         "word": "hun",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "rijiju",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hits",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "comparison",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wardrobe",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gets",
-        "count": 2,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-24T03:50:28.584912+00:00",
-    "nextRefresh": "2026-08-24T03:50:28.584912+00:00",
-    "articlesAnalyzed": 418,
-    "matchedMentions": 50,
-    "uniquePersonalities": 29,
+    "generatedAt": "2026-08-24T04:39:13.773626+00:00",
+    "nextRefresh": "2026-08-24T04:39:13.773626+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 55,
+    "uniquePersonalities": 30,
     "dataSource": "live-rss"
   }
 }
