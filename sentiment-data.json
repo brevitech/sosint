@@ -1,8 +1,8 @@
 {
   "us": {
     "positive": 37,
-    "negative": 54,
-    "neutral": 9,
+    "negative": 53,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
@@ -10,19 +10,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "trade",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
+        "word": "war",
         "count": 11,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "war",
+        "word": "talks",
         "count": 10,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "iran",
@@ -45,7 +45,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "ukraine",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -60,11 +60,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "natalie",
         "count": 8,
         "sentiment": "neutral"
@@ -72,6 +67,16 @@
       {
         "word": "harp",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minister",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -130,11 +135,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "start",
         "count": 5,
         "sentiment": "neutral"
@@ -145,62 +145,87 @@
         "sentiment": "neutral"
       },
       {
-        "word": "washington",
+        "word": "construction",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "construction",
+        "word": "economic",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-24T06:45:38.086404+00:00",
-    "nextRefresh": "2026-08-24T06:45:38.086404+00:00",
-    "articlesAnalyzed": 363,
-    "matchedMentions": 157,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-08-24T07:53:09.981294+00:00",
+    "nextRefresh": "2026-08-24T07:53:09.981294+00:00",
+    "articlesAnalyzed": 354,
+    "matchedMentions": 158,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 37,
-    "neutral": 17,
+    "positive": 48,
+    "negative": 26,
+    "neutral": 26,
     "wordCloud": [
       {
         "word": "india",
-        "count": 11,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tamil",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "project",
-        "count": 6,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "women",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "airport",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "project",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pant",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "smash",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -209,23 +234,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "airport",
+        "word": "chennai",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 5,
+        "word": "patriarchy",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "government",
-        "count": 5,
+        "word": "sparks",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "pant",
-        "count": 5,
+        "word": "congress",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -234,47 +259,7 @@
         "sentiment": "positive"
       },
       {
-        "word": "three",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lpg",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cylinders",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "goyal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "doval",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "karnataka",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "adani",
+        "word": "dhoni",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -285,6 +270,21 @@
       },
       {
         "word": "drops",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tvk",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dropped",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "government",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -304,27 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
+        "word": "modi",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "three",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "beijing",
+        "word": "lpg",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-24T06:45:48.116448+00:00",
-    "nextRefresh": "2026-08-24T06:45:48.116448+00:00",
+    "generatedAt": "2026-08-24T07:53:23.517762+00:00",
+    "nextRefresh": "2026-08-24T07:53:23.517762+00:00",
     "articlesAnalyzed": 431,
-    "matchedMentions": 63,
-    "uniquePersonalities": 32,
+    "matchedMentions": 73,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
