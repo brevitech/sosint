@@ -1,28 +1,23 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 49,
-    "neutral": 11,
+    "positive": 42,
+    "negative": 48,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 61,
+        "count": 50,
         "sentiment": "neutral"
       },
       {
         "word": "trade",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "war",
         "count": 10,
         "sentiment": "negative"
-      },
-      {
-        "word": "talks",
-        "count": 9,
-        "sentiment": "neutral"
       },
       {
         "word": "sullivan",
@@ -40,11 +35,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "meeting",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ukraine",
         "count": 8,
         "sentiment": "neutral"
@@ -55,37 +45,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "power",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "canada",
+        "word": "talks",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "bond",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "natalie",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "harp",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
+        "word": "meeting",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -95,12 +70,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "faces",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "carney",
+        "word": "canada",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -110,12 +80,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "safe",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "dan",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "dan",
+        "word": "natalie",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "harp",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -135,7 +115,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "wants",
+        "word": "faces",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minister",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -145,7 +130,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "construction",
+        "word": "carney",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -153,34 +138,39 @@
         "word": "economic",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jared",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-24T09:40:55.948153+00:00",
-    "nextRefresh": "2026-08-24T09:40:55.948153+00:00",
-    "articlesAnalyzed": 348,
-    "matchedMentions": 158,
+    "generatedAt": "2026-08-24T10:32:07.924164+00:00",
+    "nextRefresh": "2026-08-24T10:32:07.924164+00:00",
+    "articlesAnalyzed": 332,
+    "matchedMentions": 153,
     "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
-    "negative": 30,
-    "neutral": 26,
+    "positive": 40,
+    "negative": 35,
+    "neutral": 25,
     "wordCloud": [
       {
         "word": "india",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tamil",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 12,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
@@ -189,17 +179,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chennai",
-        "count": 9,
+        "word": "tamil",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "parandur",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "chennai",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -209,13 +204,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "women",
+        "word": "rahul",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -224,8 +214,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "project",
+        "word": "slams",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -239,13 +244,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tvk",
+        "word": "project",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 4,
+        "word": "manusmriti",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "remarks",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tvk",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -254,12 +269,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sparks",
+        "word": "women",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "stalin",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -269,19 +284,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "global",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "trade",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "free",
+        "word": "asian",
         "count": 4,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "games",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "squad",
+        "count": 4,
+        "sentiment": "neutral"
       },
       {
         "word": "govt",
@@ -297,34 +317,14 @@
         "word": "dhoni",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "slams",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "plan",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "standard",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "practice",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-24T09:41:08.338414+00:00",
-    "nextRefresh": "2026-08-24T09:41:08.338414+00:00",
-    "articlesAnalyzed": 415,
-    "matchedMentions": 81,
-    "uniquePersonalities": 34,
+    "generatedAt": "2026-08-24T10:32:24.583462+00:00",
+    "nextRefresh": "2026-08-24T10:32:24.583462+00:00",
+    "articlesAnalyzed": 429,
+    "matchedMentions": 88,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
