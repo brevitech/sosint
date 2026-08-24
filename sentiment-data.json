@@ -1,12 +1,12 @@
 {
   "us": {
     "positive": 37,
-    "negative": 53,
-    "neutral": 10,
+    "negative": 52,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 65,
+        "count": 64,
         "sentiment": "neutral"
       },
       {
@@ -22,6 +22,11 @@
       {
         "word": "talks",
         "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ukraine",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -42,11 +47,6 @@
       {
         "word": "meeting",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ukraine",
-        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -105,11 +105,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "indycar",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "quiet",
         "count": 6,
         "sentiment": "neutral"
@@ -135,12 +130,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "start",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "race",
+        "word": "indycar",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -153,29 +143,49 @@
         "word": "economic",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "sanctions",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jared",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-24T07:53:09.981294+00:00",
-    "nextRefresh": "2026-08-24T07:53:09.981294+00:00",
-    "articlesAnalyzed": 354,
-    "matchedMentions": 158,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-08-24T08:41:20.247364+00:00",
+    "nextRefresh": "2026-08-24T08:41:20.247364+00:00",
+    "articlesAnalyzed": 346,
+    "matchedMentions": 163,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 48,
-    "negative": 26,
+    "positive": 45,
+    "negative": 29,
     "neutral": 26,
     "wordCloud": [
       {
         "word": "india",
-        "count": 13,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
         "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pant",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "airport",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -185,16 +195,21 @@
       },
       {
         "word": "tamil",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "nadu",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "airport",
+        "word": "parandur",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -204,7 +219,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pant",
+        "word": "chennai",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -214,27 +229,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "smash",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "parandur",
+        "word": "congress",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "chennai",
+        "word": "global",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -249,17 +254,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "outreach",
         "count": 4,
         "sentiment": "positive"
       },
       {
+        "word": "free",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "govt",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lpg",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "questions",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "dhoni",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slams",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "plan",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -269,62 +299,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "standard",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "practice",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "request",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "drops",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tvk",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dropped",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "government",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "free",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "bus",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "travel",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "three",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lpg",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-24T07:53:23.517762+00:00",
-    "nextRefresh": "2026-08-24T07:53:23.517762+00:00",
+    "generatedAt": "2026-08-24T08:41:35.887509+00:00",
+    "nextRefresh": "2026-08-24T08:41:35.887509+00:00",
     "articlesAnalyzed": 431,
-    "matchedMentions": 73,
-    "uniquePersonalities": 35,
+    "matchedMentions": 80,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
