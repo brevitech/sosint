@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 40,
+    "positive": 41,
     "negative": 50,
-    "neutral": 10,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
@@ -40,23 +40,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
         "word": "war",
         "count": 11,
         "sentiment": "negative"
       },
       {
-        "word": "democrats",
+        "word": "iran",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "scott",
-        "count": 9,
+        "word": "democrats",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -100,13 +95,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "darline",
+        "word": "scott",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "graham",
-        "count": 7,
+        "word": "faces",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -130,11 +125,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sanctions",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "incredulous",
         "count": 6,
         "sentiment": "neutral"
@@ -153,33 +143,38 @@
         "word": "wants",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "minister",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "start",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-24T04:39:00.241831+00:00",
-    "nextRefresh": "2026-08-24T04:39:00.241831+00:00",
-    "articlesAnalyzed": 362,
-    "matchedMentions": 171,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-08-24T05:33:28.911653+00:00",
+    "nextRefresh": "2026-08-24T05:33:28.911653+00:00",
+    "articlesAnalyzed": 363,
+    "matchedMentions": 169,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 47,
-    "negative": 36,
-    "neutral": 17,
+    "positive": 43,
+    "negative": 43,
+    "neutral": 14,
     "wordCloud": [
       {
         "word": "india",
-        "count": 10,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -189,7 +184,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "tamil",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "project",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "gen",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "outreach",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "government",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -199,12 +219,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "outreach",
-        "count": 4,
-        "sentiment": "positive"
+        "word": "women",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
-        "word": "doval",
+        "word": "parandur",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "airport",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "money",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "goyal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "three",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lpg",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cylinders",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -214,27 +274,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fitness",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "global",
-        "count": 4,
+        "word": "drops",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "money",
+        "word": "gandhi",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -244,7 +289,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
+        "word": "trade",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "doval",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -254,77 +309,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
+        "word": "free",
         "count": 3,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "china",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shivakumar",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nod",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "asks",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "women",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "quota",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "law",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trump",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mai",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "yahan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "khiladi",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hun",
+        "word": "pant",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-24T04:39:13.773626+00:00",
-    "nextRefresh": "2026-08-24T04:39:13.773626+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 55,
-    "uniquePersonalities": 30,
+    "generatedAt": "2026-08-24T05:33:41.828340+00:00",
+    "nextRefresh": "2026-08-24T05:33:41.828340+00:00",
+    "articlesAnalyzed": 416,
+    "matchedMentions": 58,
+    "uniquePersonalities": 28,
     "dataSource": "live-rss"
   }
 }
