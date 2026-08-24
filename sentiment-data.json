@@ -1,27 +1,27 @@
 {
   "us": {
-    "positive": 40,
+    "positive": 42,
     "negative": 49,
-    "neutral": 11,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 53,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 17,
+        "count": 20,
         "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 11,
+        "sentiment": "negative"
       },
       {
         "word": "trade",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -31,6 +31,11 @@
       },
       {
         "word": "economic",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -50,9 +55,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "tariffs",
         "count": 8,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "indycar",
@@ -65,7 +70,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "macron",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -80,11 +85,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tariffs",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "talks",
         "count": 6,
         "sentiment": "neutral"
@@ -95,7 +95,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "details",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "quiet",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -120,14 +130,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kazakhstan",
+        "word": "against",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "wins",
-        "count": 5,
-        "sentiment": "positive"
       },
       {
         "word": "secretary",
@@ -148,34 +153,24 @@
         "word": "down",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "carney",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-24T14:35:46.491724+00:00",
-    "nextRefresh": "2026-08-24T14:35:46.491724+00:00",
+    "generatedAt": "2026-08-24T15:34:09.259629+00:00",
+    "nextRefresh": "2026-08-24T15:34:09.259629+00:00",
     "articlesAnalyzed": 332,
-    "matchedMentions": 150,
-    "uniquePersonalities": 42,
+    "matchedMentions": 154,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 49,
-    "negative": 33,
-    "neutral": 18,
+    "positive": 42,
+    "negative": 41,
+    "neutral": 17,
     "wordCloud": [
       {
         "word": "india",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 10,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -184,18 +179,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
-        "count": 8,
+        "word": "modi",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -204,9 +189,29 @@
         "sentiment": "neutral"
       },
       {
+        "word": "tamil",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "credits",
         "count": 6,
         "sentiment": "positive"
+      },
+      {
+        "word": "trade",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "eam",
@@ -214,27 +219,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "airport",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chennai",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "slams",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -249,22 +234,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "airport",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chennai",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "talks",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "soon",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "plan",
+        "word": "president",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -280,6 +265,11 @@
       },
       {
         "word": "rahul",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -309,21 +299,31 @@
         "sentiment": "neutral"
       },
       {
-        "word": "second",
+        "word": "near",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "stalin",
+        "word": "tells",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrested",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "hospital",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-24T14:35:55.394169+00:00",
-    "nextRefresh": "2026-08-24T14:35:55.394169+00:00",
+    "generatedAt": "2026-08-24T15:34:25.760259+00:00",
+    "nextRefresh": "2026-08-24T15:34:25.760259+00:00",
     "articlesAnalyzed": 429,
-    "matchedMentions": 73,
+    "matchedMentions": 74,
     "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
