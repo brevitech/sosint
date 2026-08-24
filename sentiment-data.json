@@ -1,32 +1,47 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 55,
-    "neutral": 6,
+    "positive": 38,
+    "negative": 59,
+    "neutral": 3,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 64,
+        "count": 75,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 23,
+        "count": 22,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "economic",
+        "count": 18,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "supreme",
         "count": 17,
+        "sentiment": "positive"
+      },
+      {
+        "word": "voting",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 14,
+        "count": 15,
         "sentiment": "negative"
       },
       {
         "word": "sanctions",
-        "count": 14,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -35,32 +50,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "supreme",
-        "count": 11,
-        "sentiment": "positive"
-      },
-      {
-        "word": "voting",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "trade",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "tariffs",
+        "word": "mail-in",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "order",
+        "word": "rules",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -70,12 +75,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "power",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "order",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tariffs",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "wants",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "rules",
+        "word": "decision",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -90,19 +110,29 @@
         "sentiment": "positive"
       },
       {
-        "word": "scott",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "quiet",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "warns",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "naacp",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "denounces",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "restrict",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "lawsuit",
@@ -115,52 +145,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "federal",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "unveils",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "details",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pressure",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "against",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "files",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "plan",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bond",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "safe",
-        "count": 5,
-        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-24T21:23:26.162085+00:00",
-    "nextRefresh": "2026-08-24T21:23:26.162085+00:00",
-    "articlesAnalyzed": 334,
-    "matchedMentions": 156,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-08-24T22:19:58.149584+00:00",
+    "nextRefresh": "2026-08-24T22:19:58.149584+00:00",
+    "articlesAnalyzed": 335,
+    "matchedMentions": 169,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   },
   "india": {
@@ -320,9 +320,9 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-24T21:23:39.294317+00:00",
-    "nextRefresh": "2026-08-24T21:23:39.294317+00:00",
-    "articlesAnalyzed": 417,
+    "generatedAt": "2026-08-24T22:20:11.378523+00:00",
+    "nextRefresh": "2026-08-24T22:20:11.378523+00:00",
+    "articlesAnalyzed": 416,
     "matchedMentions": 73,
     "uniquePersonalities": 38,
     "dataSource": "live-rss"
