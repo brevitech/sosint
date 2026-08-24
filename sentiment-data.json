@@ -1,12 +1,32 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 48,
+    "positive": 39,
+    "negative": 51,
     "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 50,
+        "count": 47,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jeffries",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kushner",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meeting",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -20,37 +40,22 @@
         "sentiment": "negative"
       },
       {
-        "word": "sullivan",
+        "word": "jared",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "jeffries",
+        "word": "democrats",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kushner",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ukraine",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "talks",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ukraine",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -60,17 +65,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "meeting",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "scott",
         "count": 7,
         "sentiment": "neutral"
       },
       {
+        "word": "power",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "faces",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "treasury",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
         "word": "canada",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indycar",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -85,17 +105,7 @@
         "sentiment": "positive"
       },
       {
-        "word": "dan",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "natalie",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "harp",
+        "word": "sullivan",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -115,17 +125,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "faces",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "minister",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indycar",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -140,41 +140,46 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "ahead",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "darline",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "jared",
+        "word": "graham",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-24T10:32:07.924164+00:00",
-    "nextRefresh": "2026-08-24T10:32:07.924164+00:00",
+    "generatedAt": "2026-08-24T11:21:55.038298+00:00",
+    "nextRefresh": "2026-08-24T11:21:55.038298+00:00",
     "articlesAnalyzed": 332,
-    "matchedMentions": 153,
-    "uniquePersonalities": 48,
+    "matchedMentions": 147,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 40,
-    "negative": 35,
-    "neutral": 25,
+    "positive": 37,
+    "negative": 41,
+    "neutral": 22,
     "wordCloud": [
       {
         "word": "india",
-        "count": 23,
+        "count": 29,
         "sentiment": "neutral"
       },
       {
         "word": "airport",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "parandur",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -189,32 +194,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "parandur",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "chennai",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "pant",
+        "word": "rahul",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "slams",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "stalin",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "project",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "irreversible",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "setback",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "slams",
+        "word": "dropping",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -224,57 +244,72 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dropped",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "smash",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "project",
-        "count": 5,
+        "word": "pant",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "manusmriti",
-        "count": 5,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "remarks",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vijay",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "tvk",
+        "word": "congress",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "patriarchy",
+        "word": "bjp",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "questions",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "opinion",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "women",
+        "word": "visit",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "stalin",
+        "word": "dropped",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "birthright",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "denounce",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "heritage",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "adityanath",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -282,49 +317,14 @@
         "word": "goyal",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "asian",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "games",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "squad",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "govt",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "questions",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dhoni",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-24T10:32:24.583462+00:00",
-    "nextRefresh": "2026-08-24T10:32:24.583462+00:00",
+    "generatedAt": "2026-08-24T11:22:09.625258+00:00",
+    "nextRefresh": "2026-08-24T11:22:09.625258+00:00",
     "articlesAnalyzed": 429,
-    "matchedMentions": 88,
-    "uniquePersonalities": 38,
+    "matchedMentions": 92,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
