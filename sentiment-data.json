@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 41,
+    "positive": 42,
     "negative": 47,
-    "neutral": 12,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 67,
+        "count": 68,
         "sentiment": "neutral"
       },
       {
@@ -41,7 +41,7 @@
       },
       {
         "word": "trade",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -52,11 +52,6 @@
       {
         "word": "democrats",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "canada",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -91,6 +86,11 @@
       },
       {
         "word": "administration",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "canada",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -156,21 +156,21 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-24T00:58:29.955631+00:00",
-    "nextRefresh": "2026-08-24T00:58:29.955631+00:00",
-    "articlesAnalyzed": 358,
-    "matchedMentions": 177,
+    "generatedAt": "2026-08-24T02:23:15.637581+00:00",
+    "nextRefresh": "2026-08-24T02:23:15.637581+00:00",
+    "articlesAnalyzed": 359,
+    "matchedMentions": 178,
     "uniquePersonalities": 53,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
-    "negative": 29,
-    "neutral": 20,
+    "positive": 54,
+    "negative": 27,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "india",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -195,11 +195,31 @@
       },
       {
         "word": "modi",
-        "count": 6,
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "space",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "poonawalla",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -210,11 +230,6 @@
       },
       {
         "word": "congress",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "space",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -302,29 +317,14 @@
         "word": "goyal",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "next",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wardrobe",
-        "count": 2,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-24T00:58:40.410429+00:00",
-    "nextRefresh": "2026-08-24T00:58:40.410429+00:00",
-    "articlesAnalyzed": 418,
-    "matchedMentions": 55,
-    "uniquePersonalities": 29,
+    "generatedAt": "2026-08-24T02:23:26.416585+00:00",
+    "nextRefresh": "2026-08-24T02:23:26.416585+00:00",
+    "articlesAnalyzed": 433,
+    "matchedMentions": 59,
+    "uniquePersonalities": 32,
     "dataSource": "live-rss"
   }
 }
