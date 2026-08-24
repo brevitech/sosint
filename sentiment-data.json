@@ -1,43 +1,43 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 59,
-    "neutral": 3,
+    "positive": 36,
+    "negative": 58,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 75,
+        "count": 72,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 22,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
         "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "economic",
-        "count": 18,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
-        "count": 17,
-        "sentiment": "positive"
-      },
-      {
-        "word": "voting",
+        "word": "court",
         "count": 16,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "supreme",
         "count": 15,
-        "sentiment": "negative"
+        "sentiment": "positive"
+      },
+      {
+        "word": "canada",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "voting",
+        "count": 14,
+        "sentiment": "neutral"
       },
       {
         "word": "sanctions",
@@ -45,52 +45,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "canada",
+        "word": "war",
         "count": 13,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "trade",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "administration",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mail-in",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rules",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bessent",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "order",
-        "count": 7,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "tariffs",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mail-in",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bessent",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "wants",
+        "word": "against",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rules",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -100,7 +90,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "south",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "mail",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "order",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -110,9 +110,29 @@
         "sentiment": "positive"
       },
       {
+        "word": "wants",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "quiet",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meeting",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pressure",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "warns",
@@ -133,84 +153,34 @@
         "word": "restrict",
         "count": 6,
         "sentiment": "negative"
-      },
-      {
-        "word": "lawsuit",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "hegseth",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "federal",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "unveils",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-24T22:19:58.149584+00:00",
-    "nextRefresh": "2026-08-24T22:19:58.149584+00:00",
+    "generatedAt": "2026-08-24T23:17:49.338691+00:00",
+    "nextRefresh": "2026-08-24T23:17:49.338691+00:00",
     "articlesAnalyzed": 335,
-    "matchedMentions": 169,
+    "matchedMentions": 168,
     "uniquePersonalities": 37,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 40,
+    "positive": 45,
     "negative": 37,
-    "neutral": 23,
+    "neutral": 18,
     "wordCloud": [
       {
-        "word": "modi",
-        "count": 12,
+        "word": "india",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 12,
+        "word": "modi",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "putin",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "slams",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "personal",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jaishankar",
-        "count": 6,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -219,22 +189,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
-        "count": 6,
+        "word": "bjp",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "adani",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "post",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -254,37 +214,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "hits",
+        "word": "rahul",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "critics",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "sonu",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rakhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ramdev",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "failed",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "manusmriti",
+        "word": "gandhi",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -299,32 +234,97 @@
         "sentiment": "neutral"
       },
       {
-        "word": "handed",
+        "word": "post",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "message",
+        "word": "bengal",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
+        "word": "moves",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "moscow",
+        "word": "fight",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "tells",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "colombo",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "asia",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "russian",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vladimir",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "expresses",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hope",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "soon",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hosts",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "eam",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jaishankar",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-24T22:20:11.378523+00:00",
-    "nextRefresh": "2026-08-24T22:20:11.378523+00:00",
-    "articlesAnalyzed": 416,
-    "matchedMentions": 73,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-08-24T23:17:59.818715+00:00",
+    "nextRefresh": "2026-08-24T23:17:59.818715+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 62,
+    "uniquePersonalities": 32,
     "dataSource": "live-rss"
   }
 }
