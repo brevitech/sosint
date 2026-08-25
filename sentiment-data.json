@@ -1,31 +1,16 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 52,
+    "positive": 39,
+    "negative": 53,
     "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 53,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "graham",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lake",
-        "count": 11,
+        "count": 55,
         "sentiment": "neutral"
       },
       {
         "word": "canada",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -35,8 +20,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "graham",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "trade",
-        "count": 9,
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -45,18 +40,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "south",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gop",
-        "count": 8,
+        "word": "court",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -65,23 +50,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
         "word": "power",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "plan",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "ontario",
-        "count": 6,
+        "word": "gop",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lake",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -90,12 +75,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "war",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
         "word": "against",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sanctions",
+        "word": "judge",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -105,29 +95,24 @@
         "sentiment": "positive"
       },
       {
-        "word": "court",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "burnham",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "carolina",
+        "word": "south",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "norman",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "america",
+        "word": "block",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
+      },
+      {
+        "word": "threatens",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "lift",
@@ -145,32 +130,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 5,
+        "word": "city",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "musk",
+        "word": "economy",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "down",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sanctions",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "missiles",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-25T19:26:32.004520+00:00",
-    "nextRefresh": "2026-08-25T19:26:32.004520+00:00",
-    "articlesAnalyzed": 333,
-    "matchedMentions": 144,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-08-25T20:22:01.610995+00:00",
+    "nextRefresh": "2026-08-25T20:22:01.610995+00:00",
+    "articlesAnalyzed": 331,
+    "matchedMentions": 145,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 48,
-    "negative": 34,
-    "neutral": 18,
+    "positive": 52,
+    "negative": 35,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "india",
-        "count": 11,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -219,11 +219,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "remark",
         "count": 4,
         "sentiment": "neutral"
@@ -239,32 +234,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "square",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "delhi",
         "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "bihar",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "transitioning",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "destination",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gopalakrishnan",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -317,14 +297,34 @@
         "word": "farming",
         "count": 2,
         "sentiment": "neutral"
+      },
+      {
+        "word": "cyber",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "country",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dharamshala",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 2,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-25T19:26:44.026190+00:00",
-    "nextRefresh": "2026-08-25T19:26:44.026190+00:00",
+    "generatedAt": "2026-08-25T20:22:13.155141+00:00",
+    "nextRefresh": "2026-08-25T20:22:13.155141+00:00",
     "articlesAnalyzed": 417,
-    "matchedMentions": 58,
-    "uniquePersonalities": 38,
+    "matchedMentions": 54,
+    "uniquePersonalities": 33,
     "dataSource": "live-rss"
   }
 }
