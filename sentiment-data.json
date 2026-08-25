@@ -1,17 +1,17 @@
 {
   "us": {
     "positive": 33,
-    "negative": 59,
-    "neutral": 8,
+    "negative": 58,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 70,
+        "count": 72,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 18,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
@@ -21,7 +21,7 @@
       },
       {
         "word": "war",
-        "count": 15,
+        "count": 16,
         "sentiment": "negative"
       },
       {
@@ -75,24 +75,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bond",
+        "word": "against",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
-        "count": 8,
+        "word": "bond",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "treasury",
         "count": 8,
         "sentiment": "positive"
-      },
-      {
-        "word": "meeting",
-        "count": 8,
-        "sentiment": "neutral"
       },
       {
         "word": "markets",
@@ -115,17 +110,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jeffries",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kushner",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "newsom",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meeting",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -153,49 +143,59 @@
         "word": "block",
         "count": 6,
         "sentiment": "negative"
+      },
+      {
+        "word": "orwellian",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meant",
+        "count": 6,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-25T07:39:07.996247+00:00",
-    "nextRefresh": "2026-08-25T07:39:07.996247+00:00",
+    "generatedAt": "2026-08-25T08:35:36.530292+00:00",
+    "nextRefresh": "2026-08-25T08:35:36.530292+00:00",
     "articlesAnalyzed": 337,
-    "matchedMentions": 172,
-    "uniquePersonalities": 43,
+    "matchedMentions": 168,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 30,
-    "neutral": 18,
+    "positive": 43,
+    "negative": 28,
+    "neutral": 29,
     "wordCloud": [
       {
-        "word": "banerjee",
+        "word": "rahul",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kharge",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "census",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "plea",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rebel",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "abhishek",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "boundary",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -204,52 +204,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "questionnaire",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "caste",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "ramdev",
+        "word": "questions",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "students",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "crossed",
+        "word": "post",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "every",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "decency",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ranaut",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "notice",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trinamool",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
+        "word": "asks",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -264,34 +244,19 @@
         "sentiment": "neutral"
       },
       {
+        "word": "abhishek",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "arrest",
         "count": 4,
         "sentiment": "negative"
-      },
-      {
-        "word": "global",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "language",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "supreme",
-        "count": 3,
-        "sentiment": "positive"
       },
       {
         "word": "president",
@@ -299,12 +264,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "returns",
+        "word": "boundary",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "letter",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "current",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cancelled",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "tamil",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -314,17 +299,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "plea",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "ravi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "doval",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "han",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-25T07:39:21.199267+00:00",
-    "nextRefresh": "2026-08-25T07:39:21.199267+00:00",
-    "articlesAnalyzed": 432,
+    "generatedAt": "2026-08-25T08:35:48.181965+00:00",
+    "nextRefresh": "2026-08-25T08:35:48.181965+00:00",
+    "articlesAnalyzed": 417,
     "matchedMentions": 67,
-    "uniquePersonalities": 42,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
