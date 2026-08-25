@@ -1,57 +1,32 @@
 {
   "us": {
-    "positive": 33,
-    "negative": 58,
-    "neutral": 9,
+    "positive": 34,
+    "negative": 59,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 72,
+        "count": 70,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 20,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "voting",
-        "count": 17,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 16,
+        "count": 17,
         "sentiment": "negative"
       },
       {
+        "word": "voting",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
         "word": "trade",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "economic",
         "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sanctions",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "supreme",
-        "count": 12,
-        "sentiment": "positive"
-      },
-      {
-        "word": "court",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "canada",
-        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -60,7 +35,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bessent",
+        "word": "economic",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -76,6 +51,31 @@
       },
       {
         "word": "against",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "canada",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sanctions",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "supreme",
+        "count": 10,
+        "sentiment": "positive"
+      },
+      {
+        "word": "court",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bessent",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -85,9 +85,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "treasury",
-        "count": 8,
-        "sentiment": "positive"
+        "word": "warns",
+        "count": 9,
+        "sentiment": "negative"
       },
       {
         "word": "markets",
@@ -95,18 +95,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "warns",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
         "word": "california",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "scott",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -120,19 +110,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mail",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "quiet",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "battle",
+        "word": "power",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "treasury",
+        "count": 6,
+        "sentiment": "positive"
       },
       {
         "word": "sue",
@@ -153,58 +143,43 @@
         "word": "meant",
         "count": 6,
         "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-08-25T08:35:36.530292+00:00",
-    "nextRefresh": "2026-08-25T08:35:36.530292+00:00",
-    "articlesAnalyzed": 337,
-    "matchedMentions": 168,
-    "uniquePersonalities": 41,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 43,
-    "negative": 28,
-    "neutral": 29,
-    "wordCloud": [
+      },
       {
-        "word": "rahul",
-        "count": 13,
+        "word": "curb",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "happened",
+        "count": 6,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-08-25T09:29:46.868049+00:00",
+    "nextRefresh": "2026-08-25T09:29:46.868049+00:00",
+    "articlesAnalyzed": 334,
+    "matchedMentions": 165,
+    "uniquePersonalities": 39,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 48,
+    "negative": 26,
+    "neutral": 26,
+    "wordCloud": [
+      {
+        "word": "rahul",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 8,
+        "word": "india",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "kharge",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "census",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "questionnaire",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -214,49 +189,64 @@
         "sentiment": "neutral"
       },
       {
+        "word": "census",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "questions",
         "count": 5,
         "sentiment": "neutral"
       },
       {
+        "word": "gandhi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "parandur",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nadu",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "airport",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "concerns",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "students",
-        "count": 4,
+        "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "post",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "asks",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ahead",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tmc",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "arrest",
-        "count": 4,
-        "sentiment": "negative"
       },
       {
         "word": "president",
@@ -269,42 +259,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "letter",
+        "word": "project",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "current",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cancelled",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "tamil",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nadu",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meets",
+        "word": "chennai",
         "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "plea",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ravi",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -317,14 +282,49 @@
         "word": "han",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "zheng",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "open-ended",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "misleading",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "flag",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrest",
+        "count": 3,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-25T08:35:48.181965+00:00",
-    "nextRefresh": "2026-08-25T08:35:48.181965+00:00",
-    "articlesAnalyzed": 417,
-    "matchedMentions": 67,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-08-25T09:30:00.090090+00:00",
+    "nextRefresh": "2026-08-25T09:30:00.090090+00:00",
+    "articlesAnalyzed": 432,
+    "matchedMentions": 61,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
