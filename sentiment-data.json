@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 43,
-    "negative": 51,
-    "neutral": 6,
+    "positive": 45,
+    "negative": 47,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 76,
+        "count": 71,
         "sentiment": "neutral"
       },
       {
@@ -16,52 +16,47 @@
       },
       {
         "word": "graham",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "canada",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mail-in",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 13,
-        "sentiment": "negative"
-      },
-      {
-        "word": "trade",
-        "count": 13,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "supreme",
-        "count": 12,
+        "count": 15,
         "sentiment": "positive"
       },
       {
         "word": "court",
-        "count": 12,
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "canada",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mail-in",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trade",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "south",
-        "count": 12,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "carolina",
-        "count": 11,
+        "word": "power",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -70,18 +65,23 @@
         "sentiment": "neutral"
       },
       {
+        "word": "carolina",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
         "word": "judge",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sanctions",
-        "count": 8,
+        "word": "gop",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -90,47 +90,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "lake",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ontario",
-        "count": 8,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "norman",
-        "count": 8,
+        "word": "sanctions",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "rules",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "runoff",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -140,36 +110,101 @@
         "sentiment": "neutral"
       },
       {
+        "word": "norman",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lake",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "burnham",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "block",
+        "word": "election",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "election",
+        "word": "order",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "states",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jeffries",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-25T14:39:00.385679+00:00",
-    "nextRefresh": "2026-08-25T14:39:00.385679+00:00",
+    "generatedAt": "2026-08-25T15:36:57.739643+00:00",
+    "nextRefresh": "2026-08-25T15:36:57.739643+00:00",
     "articlesAnalyzed": 332,
-    "matchedMentions": 178,
-    "uniquePersonalities": 42,
+    "matchedMentions": 175,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 62,
-    "negative": 27,
-    "neutral": 11,
+    "positive": 47,
+    "negative": 38,
+    "neutral": 15,
     "wordCloud": [
       {
-        "word": "remark",
+        "word": "rahul",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "misleading",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "method",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "caste",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "census",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kharge",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -184,7 +219,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gadkari",
+        "word": "air",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -209,6 +244,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "remark",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "financial",
         "count": 4,
         "sentiment": "neutral"
@@ -219,12 +259,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "billion",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "office",
+        "word": "tata",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "choice",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "defends",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kriti",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sanon",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -239,92 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "wang",
+        "word": "india-china",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "badly",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "bruised",
+        "word": "border",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "morkel",
+        "word": "talks",
         "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rijiju",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sparks",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhijeet",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dipke",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "emkay",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "haryana",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leader",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "takes",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "aim",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hoodas",
-        "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-25T14:39:10.602465+00:00",
-    "nextRefresh": "2026-08-25T14:39:10.602465+00:00",
-    "articlesAnalyzed": 429,
-    "matchedMentions": 52,
-    "uniquePersonalities": 32,
+    "generatedAt": "2026-08-25T15:37:08.141851+00:00",
+    "nextRefresh": "2026-08-25T15:37:08.141851+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 58,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
 }
