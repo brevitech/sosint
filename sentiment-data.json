@@ -1,12 +1,12 @@
 {
   "us": {
     "positive": 35,
-    "negative": 57,
-    "neutral": 8,
+    "negative": 56,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 70,
+        "count": 75,
         "sentiment": "neutral"
       },
       {
@@ -21,17 +21,17 @@
       },
       {
         "word": "economic",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 14,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "canada",
         "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -55,6 +55,11 @@
         "sentiment": "negative"
       },
       {
+        "word": "administration",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
         "word": "mail-in",
         "count": 11,
         "sentiment": "neutral"
@@ -65,13 +70,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 10,
+        "word": "bessent",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "bessent",
-        "count": 9,
+        "word": "meeting",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -80,12 +85,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "tariffs",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "tariffs",
+        "word": "jeffries",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kushner",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -102,6 +112,11 @@
       {
         "word": "bond",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -125,11 +140,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "meeting",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "warns",
         "count": 6,
         "sentiment": "negative"
@@ -143,44 +153,24 @@
         "word": "block",
         "count": 6,
         "sentiment": "negative"
-      },
-      {
-        "word": "orwellian",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meant",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-25T00:57:55.361324+00:00",
-    "nextRefresh": "2026-08-25T00:57:55.361324+00:00",
+    "generatedAt": "2026-08-25T02:18:13.971034+00:00",
+    "nextRefresh": "2026-08-25T02:18:13.971034+00:00",
     "articlesAnalyzed": 333,
-    "matchedMentions": 176,
+    "matchedMentions": 178,
     "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 47,
-    "negative": 34,
-    "neutral": 19,
+    "positive": 50,
+    "negative": 33,
+    "neutral": 17,
     "wordCloud": [
       {
         "word": "india",
         "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "putin",
-        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -189,7 +179,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "modi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "putin",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -224,8 +219,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "govt",
+        "word": "target",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -239,6 +239,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "government",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "bengal",
         "count": 3,
         "sentiment": "neutral"
@@ -247,11 +252,6 @@
         "word": "moves",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "fight",
-        "count": 3,
-        "sentiment": "negative"
       },
       {
         "word": "tells",
@@ -270,6 +270,11 @@
       },
       {
         "word": "asia",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "eam",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "jaishankar",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-25T00:58:07.319271+00:00",
-    "nextRefresh": "2026-08-25T00:58:07.319271+00:00",
-    "articlesAnalyzed": 417,
+    "generatedAt": "2026-08-25T02:18:26.040744+00:00",
+    "nextRefresh": "2026-08-25T02:18:26.040744+00:00",
+    "articlesAnalyzed": 431,
     "matchedMentions": 58,
-    "uniquePersonalities": 30,
+    "uniquePersonalities": 33,
     "dataSource": "live-rss"
   }
 }
