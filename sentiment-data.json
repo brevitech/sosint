@@ -1,17 +1,12 @@
 {
   "us": {
-    "positive": 34,
-    "negative": 57,
-    "neutral": 9,
+    "positive": 32,
+    "negative": 58,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 71,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 18,
+        "count": 69,
         "sentiment": "neutral"
       },
       {
@@ -20,9 +15,29 @@
         "sentiment": "neutral"
       },
       {
+        "word": "iran",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
         "word": "court",
         "count": 14,
         "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 13,
+        "sentiment": "negative"
+      },
+      {
+        "word": "canada",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "supreme",
+        "count": 13,
+        "sentiment": "positive"
       },
       {
         "word": "economic",
@@ -35,23 +50,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
-        "count": 12,
-        "sentiment": "positive"
-      },
-      {
-        "word": "canada",
+        "word": "administration",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 12,
-        "sentiment": "negative"
+        "word": "trade",
+        "count": 11,
+        "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 12,
+        "word": "bessent",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -62,16 +72,6 @@
       {
         "word": "mail-in",
         "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bessent",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
-        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -87,6 +87,16 @@
       {
         "word": "bond",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "south",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "order",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -110,22 +120,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "gop",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "carolina",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "mail",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "order",
+        "word": "quiet",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "treasury",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "quiet",
+        "word": "power",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -138,35 +153,20 @@
         "word": "block",
         "count": 6,
         "sentiment": "negative"
-      },
-      {
-        "word": "orwellian",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meant",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "curb",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-25T03:43:03.252177+00:00",
-    "nextRefresh": "2026-08-25T03:43:03.252177+00:00",
-    "articlesAnalyzed": 334,
-    "matchedMentions": 173,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-08-25T04:33:44.542759+00:00",
+    "nextRefresh": "2026-08-25T04:33:44.542759+00:00",
+    "articlesAnalyzed": 335,
+    "matchedMentions": 168,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 53,
-    "negative": 31,
-    "neutral": 16,
+    "positive": 56,
+    "negative": 30,
+    "neutral": 14,
     "wordCloud": [
       {
         "word": "india",
@@ -189,6 +189,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "amid",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "pant",
         "count": 4,
         "sentiment": "neutral"
@@ -200,6 +210,16 @@
       },
       {
         "word": "bengal",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "responds",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -234,16 +254,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tells",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "questions",
         "count": 3,
         "sentiment": "neutral"
@@ -259,9 +269,29 @@
         "sentiment": "neutral"
       },
       {
+        "word": "emkay",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "financial",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "bjp",
         "count": 2,
         "sentiment": "neutral"
+      },
+      {
+        "word": "outreach",
+        "count": 2,
+        "sentiment": "positive"
       },
       {
         "word": "gen",
@@ -287,44 +317,14 @@
         "word": "bhandar",
         "count": 2,
         "sentiment": "neutral"
-      },
-      {
-        "word": "benefits",
-        "count": 2,
-        "sentiment": "positive"
-      },
-      {
-        "word": "targets",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "price",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rise",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ravaging",
-        "count": 2,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-25T03:43:21.875017+00:00",
-    "nextRefresh": "2026-08-25T03:43:21.875017+00:00",
-    "articlesAnalyzed": 416,
-    "matchedMentions": 45,
-    "uniquePersonalities": 30,
+    "generatedAt": "2026-08-25T04:33:56.418165+00:00",
+    "nextRefresh": "2026-08-25T04:33:56.418165+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 50,
+    "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
 }
