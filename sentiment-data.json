@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 32,
+    "positive": 33,
     "negative": 58,
-    "neutral": 10,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 69,
+        "count": 71,
         "sentiment": "neutral"
       },
       {
@@ -20,24 +20,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 14,
-        "sentiment": "neutral"
+        "word": "war",
+        "count": 15,
+        "sentiment": "negative"
       },
       {
-        "word": "war",
+        "word": "trade",
         "count": 13,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "canada",
         "count": 13,
         "sentiment": "neutral"
-      },
-      {
-        "word": "supreme",
-        "count": 13,
-        "sentiment": "positive"
       },
       {
         "word": "economic",
@@ -50,18 +45,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "supreme",
+        "count": 12,
+        "sentiment": "positive"
+      },
+      {
+        "word": "court",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bessent",
-        "count": 11,
+        "word": "administration",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -75,6 +70,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "against",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bessent",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "meeting",
         "count": 8,
         "sentiment": "neutral"
@@ -85,17 +90,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bond",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "south",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "order",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -106,11 +101,6 @@
       },
       {
         "word": "kushner",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -140,11 +130,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "sue",
         "count": 6,
         "sentiment": "neutral"
@@ -153,43 +138,58 @@
         "word": "block",
         "count": 6,
         "sentiment": "negative"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-08-25T04:33:44.542759+00:00",
-    "nextRefresh": "2026-08-25T04:33:44.542759+00:00",
-    "articlesAnalyzed": 335,
-    "matchedMentions": 168,
-    "uniquePersonalities": 41,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 56,
-    "negative": 30,
-    "neutral": 14,
-    "wordCloud": [
+      },
       {
-        "word": "india",
-        "count": 9,
+        "word": "orwellian",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "meant",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "curb",
+        "count": 6,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-08-25T05:26:19.871454+00:00",
+    "nextRefresh": "2026-08-25T05:26:19.871454+00:00",
+    "articlesAnalyzed": 336,
+    "matchedMentions": 169,
+    "uniquePersonalities": 43,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 52,
+    "negative": 29,
+    "neutral": 19,
+    "wordCloud": [
+      {
+        "word": "india",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "west",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "post",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -204,22 +204,52 @@
         "sentiment": "neutral"
       },
       {
+        "word": "language",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "putin",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "returns",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "government",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "bengal",
+        "word": "congress",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "murty",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "responds",
+        "word": "lent",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "start",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "enduring",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bond",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -259,16 +289,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "moves",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "emkay",
         "count": 3,
         "sentiment": "neutral"
@@ -284,47 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "basic",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "outreach",
-        "count": 2,
-        "sentiment": "positive"
-      },
-      {
-        "word": "gen",
+        "word": "marathi",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "suvendu",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "spar",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "annapurna",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bhandar",
+        "word": "expert",
         "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-25T04:33:56.418165+00:00",
-    "nextRefresh": "2026-08-25T04:33:56.418165+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 50,
-    "uniquePersonalities": 31,
+    "generatedAt": "2026-08-25T05:26:45.608993+00:00",
+    "nextRefresh": "2026-08-25T05:26:45.608993+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 62,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
