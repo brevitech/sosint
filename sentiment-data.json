@@ -1,17 +1,37 @@
 {
   "us": {
-    "positive": 45,
-    "negative": 48,
+    "positive": 46,
+    "negative": 47,
     "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 63,
+        "count": 64,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "graham",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "south",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "carolina",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -21,6 +41,16 @@
       },
       {
         "word": "economic",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "darline",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -35,32 +65,22 @@
         "sentiment": "negative"
       },
       {
-        "word": "graham",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "south",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "runoff",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "former",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "carolina",
+        "word": "primary",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "election",
+        "word": "military",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -70,7 +90,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "happened",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trade",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -85,11 +115,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "center",
         "count": 6,
         "sentiment": "neutral"
@@ -100,14 +125,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
+        "word": "runoff",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
+        "word": "wins",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "war",
@@ -128,49 +153,24 @@
         "word": "kennedy",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "plan",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "el-sayed",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dolly",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "parton",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-26T00:59:01.307424+00:00",
-    "nextRefresh": "2026-08-26T00:59:01.307424+00:00",
+    "generatedAt": "2026-08-26T02:26:00.912042+00:00",
+    "nextRefresh": "2026-08-26T02:26:00.912042+00:00",
     "articlesAnalyzed": 335,
-    "matchedMentions": 153,
-    "uniquePersonalities": 45,
+    "matchedMentions": 163,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 43,
-    "negative": 40,
-    "neutral": 17,
+    "positive": 48,
+    "negative": 37,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "india",
-        "count": 9,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -180,7 +180,17 @@
       },
       {
         "word": "modi",
-        "count": 7,
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rss",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -189,17 +199,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cjp",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
+        "word": "dharamshala",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
+        "word": "mamdani",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -214,34 +224,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "saurav",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "das",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "fraud",
         "count": 3,
         "sentiment": "negative"
-      },
-      {
-        "word": "dharamshala",
-        "count": 3,
-        "sentiment": "neutral"
       },
       {
         "word": "security",
@@ -249,22 +234,22 @@
         "sentiment": "positive"
       },
       {
+        "word": "protest",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "minister",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "questions",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "mamdani",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rss",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chief",
+        "word": "opposes",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -279,7 +264,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "crore",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "choice",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -304,26 +299,31 @@
         "sentiment": "positive"
       },
       {
-        "word": "abhijeet",
+        "word": "border",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "dipke",
+        "word": "cjp",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "remark",
+        "word": "sri",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lanka",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-26T00:59:14.291885+00:00",
-    "nextRefresh": "2026-08-26T00:59:14.291885+00:00",
-    "articlesAnalyzed": 417,
-    "matchedMentions": 63,
+    "generatedAt": "2026-08-26T02:26:12.445109+00:00",
+    "nextRefresh": "2026-08-26T02:26:12.445109+00:00",
+    "articlesAnalyzed": 416,
+    "matchedMentions": 65,
     "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
