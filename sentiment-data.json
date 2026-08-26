@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 52,
-    "neutral": 7,
+    "positive": 42,
+    "negative": 50,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 60,
+        "count": 59,
         "sentiment": "neutral"
       },
       {
@@ -45,19 +45,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "primary",
         "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "threatens",
-        "count": 10,
+        "count": 8,
         "sentiment": "negative"
-      },
-      {
-        "word": "primary",
-        "count": 10,
-        "sentiment": "neutral"
       },
       {
         "word": "former",
@@ -71,6 +66,11 @@
       },
       {
         "word": "tariffs",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -115,21 +115,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sanctions",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
         "word": "down",
         "count": 5,
         "sentiment": "neutral"
@@ -153,43 +138,93 @@
         "word": "brother",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pick",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "voters",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-26T05:28:57.486950+00:00",
-    "nextRefresh": "2026-08-26T05:28:57.486950+00:00",
+    "generatedAt": "2026-08-26T06:38:28.853323+00:00",
+    "nextRefresh": "2026-08-26T06:38:28.853323+00:00",
     "articlesAnalyzed": 335,
-    "matchedMentions": 150,
+    "matchedMentions": 146,
     "uniquePersonalities": 36,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 43,
-    "negative": 33,
-    "neutral": 24,
+    "positive": 55,
+    "negative": 26,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "india",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lakh",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
-        "count": 4,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "rss",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hijab",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mamdani",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhagwat",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "event",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "owaisi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -209,27 +244,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "chief",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "adani",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "slams",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hijab",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tmc",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protest",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "event",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -244,32 +269,12 @@
         "sentiment": "neutral"
       },
       {
+        "word": "garden",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "stars",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "questions",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mamdani",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "west",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "border",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "compromise",
-        "count": 2,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-26T05:29:09.003837+00:00",
-    "nextRefresh": "2026-08-26T05:29:09.003837+00:00",
-    "articlesAnalyzed": 414,
-    "matchedMentions": 61,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-08-26T06:38:44.809417+00:00",
+    "nextRefresh": "2026-08-26T06:38:44.809417+00:00",
+    "articlesAnalyzed": 429,
+    "matchedMentions": 66,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
