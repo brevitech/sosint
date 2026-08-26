@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 49,
-    "neutral": 7,
+    "positive": 42,
+    "negative": 50,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 66,
+        "count": 60,
         "sentiment": "neutral"
       },
       {
@@ -20,28 +20,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "senate",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
         "word": "carolina",
         "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "scott",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "economic",
-        "count": 10,
+        "word": "primary",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -60,14 +50,14 @@
         "sentiment": "neutral"
       },
       {
+        "word": "iran",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "threatens",
         "count": 10,
         "sentiment": "negative"
-      },
-      {
-        "word": "primary",
-        "count": 10,
-        "sentiment": "neutral"
       },
       {
         "word": "former",
@@ -75,8 +65,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "military",
-        "count": 7,
+        "word": "scott",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -90,18 +80,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "happened",
+        "word": "economic",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "happened",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "runoff",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "center",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -130,8 +125,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "burnham",
+        "word": "amid",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sen",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -148,25 +153,20 @@
         "word": "kennedy",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "center",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-26T03:49:40.999237+00:00",
-    "nextRefresh": "2026-08-26T03:49:40.999237+00:00",
+    "generatedAt": "2026-08-26T04:34:18.648119+00:00",
+    "nextRefresh": "2026-08-26T04:34:18.648119+00:00",
     "articlesAnalyzed": 335,
-    "matchedMentions": 160,
-    "uniquePersonalities": 39,
+    "matchedMentions": 151,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 41,
-    "neutral": 18,
+    "positive": 46,
+    "negative": 34,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "india",
@@ -184,7 +184,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "rahul",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "mamdani",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -219,16 +229,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "arrest",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "rahul",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "dharamshala",
         "count": 3,
         "sentiment": "neutral"
@@ -249,11 +249,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "questions",
         "count": 3,
         "sentiment": "neutral"
@@ -265,6 +260,16 @@
       },
       {
         "word": "delhi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "border",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "compromise",
-        "count": 2,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-26T03:49:53.077162+00:00",
-    "nextRefresh": "2026-08-26T03:49:53.077162+00:00",
-    "articlesAnalyzed": 414,
-    "matchedMentions": 61,
-    "uniquePersonalities": 34,
+    "generatedAt": "2026-08-26T04:34:29.048807+00:00",
+    "nextRefresh": "2026-08-26T04:34:29.048807+00:00",
+    "articlesAnalyzed": 429,
+    "matchedMentions": 65,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
