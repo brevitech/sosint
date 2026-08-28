@@ -1,22 +1,27 @@
 {
   "us": {
-    "positive": 32,
-    "negative": 59,
+    "positive": 33,
+    "negative": 58,
     "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 79,
+        "count": 81,
         "sentiment": "neutral"
       },
       {
         "word": "lake",
-        "count": 33,
+        "count": 30,
         "sentiment": "neutral"
       },
       {
-        "word": "ontario",
-        "count": 18,
+        "word": "judge",
+        "count": 27,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 19,
         "sentiment": "neutral"
       },
       {
@@ -25,33 +30,38 @@
         "sentiment": "neutral"
       },
       {
-        "word": "america",
+        "word": "ontario",
         "count": 16,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "america",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "anthropic",
         "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "rules",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "federal",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "center",
-        "count": 12,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "kennedy",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "signs",
-        "count": 11,
+        "word": "against",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -60,23 +70,58 @@
         "sentiment": "neutral"
       },
       {
-        "word": "name",
+        "word": "kennedy",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "king",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pentagon",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "signs",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "executive",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "canada",
+        "word": "voting",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 7,
+        "word": "dies",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "illegally",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blocks",
+        "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "plan",
-        "count": 7,
+        "word": "mail",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "midterms",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -85,167 +130,97 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
+        "word": "name",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
+        "word": "norway",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "moving",
+        "word": "canada",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "quickly",
+        "word": "power",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "return",
+        "word": "sue",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "building",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ballot",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "family",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "golf",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "doj",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "changes",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "good",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "states",
-        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-27T23:29:54.110903+00:00",
-    "nextRefresh": "2026-08-27T23:29:54.110903+00:00",
-    "articlesAnalyzed": 327,
-    "matchedMentions": 138,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-08-28T08:39:42.270500+00:00",
+    "nextRefresh": "2026-08-28T08:39:42.270500+00:00",
+    "articlesAnalyzed": 330,
+    "matchedMentions": 153,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 34,
-    "negative": 33,
-    "neutral": 33,
+    "positive": 42,
+    "negative": 35,
+    "neutral": 23,
     "wordCloud": [
       {
         "word": "india",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nepal",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ndtv",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "floods",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chandra",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "flash",
+        "word": "chief",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "warning",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "collaborate",
+        "word": "rakhi",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "expert",
+        "word": "supriya",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "indo-nepal",
+        "word": "sule",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "ties",
+        "word": "remembers",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "summit",
+        "word": "pawar",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sco",
+        "word": "modi",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
-        "count": 6,
+        "word": "tamil",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "subhash",
-        "count": 6,
+        "word": "nadu",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zone",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -254,77 +229,102 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
-        "count": 5,
+        "word": "tie",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "putin",
-        "count": 5,
+        "word": "minister",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "sidelines",
-        "count": 5,
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "test",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ajit",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "norway",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "grand",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "chess",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tour",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "title",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "booked",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 5,
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "nclt",
-        "count": 5,
+        "word": "raksha",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 4,
+        "word": "bandhan",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "anviksha",
-        "count": 4,
+        "word": "emkay",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
-        "count": 4,
+        "word": "global",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "government",
-        "count": 4,
+        "word": "financial",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "settlement",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meeting",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zone",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democracy",
+        "word": "history",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-27T23:30:05.895780+00:00",
-    "nextRefresh": "2026-08-27T23:30:05.895780+00:00",
-    "articlesAnalyzed": 414,
-    "matchedMentions": 88,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-08-28T08:39:52.776852+00:00",
+    "nextRefresh": "2026-08-28T08:39:52.776852+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 71,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
 }
