@@ -6,7 +6,7 @@
     "wordCloud": [
       {
         "word": "trump",
-        "count": 74,
+        "count": 73,
         "sentiment": "neutral"
       },
       {
@@ -16,7 +16,7 @@
       },
       {
         "word": "venezuela",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -26,11 +26,26 @@
       },
       {
         "word": "administration",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "voting",
+        "word": "deal",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rules",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -40,27 +55,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "court",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pentagon",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "king",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "house",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "voting",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "anthropic",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -70,7 +75,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "announces",
+        "word": "space",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -80,12 +90,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "plans",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
+        "word": "reserves",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -96,11 +101,6 @@
       },
       {
         "word": "barrels",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "norway",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -120,12 +120,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "national",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "rules",
+        "word": "iran",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -135,9 +135,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "artemis",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "honor",
+        "count": 5,
+        "sentiment": "positive"
       },
       {
         "word": "divided",
@@ -145,76 +150,81 @@
         "sentiment": "neutral"
       },
       {
-        "word": "york",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
+        "word": "ocasio-cortez",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-29T15:25:12.843798+00:00",
-    "nextRefresh": "2026-08-29T15:25:12.843798+00:00",
-    "articlesAnalyzed": 347,
-    "matchedMentions": 156,
-    "uniquePersonalities": 47,
+    "generatedAt": "2026-08-29T19:05:51.722922+00:00",
+    "nextRefresh": "2026-08-29T19:05:51.722922+00:00",
+    "articlesAnalyzed": 348,
+    "matchedMentions": 149,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 40,
-    "negative": 41,
-    "neutral": 19,
+    "positive": 36,
+    "negative": 38,
+    "neutral": 26,
     "wordCloud": [
       {
-        "word": "against",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "order",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 10,
+        "word": "rahul",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "kharge",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rss",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "violation",
-        "count": 9,
-        "sentiment": "negative"
-      },
-      {
-        "word": "rahul",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chopra",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "fir",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhagwat",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rally",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "case",
+        "word": "purification",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "order",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -224,8 +234,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rally",
-        "count": 7,
+        "word": "congress",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "high",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -234,97 +254,77 @@
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
+        "word": "kolkata",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "asian",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "games",
+        "word": "banerjee",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "india",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hindu",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "subhash",
+        "word": "paswan",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "chandra",
+        "word": "caste",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "student",
+        "word": "visit",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "mamata",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "purification",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "miss",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "body",
+        "word": "event",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ligament",
+        "word": "hdfc",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "tear",
+        "word": "ceo",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "neeraj",
+        "word": "jagdishan",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "rss",
+        "word": "takes",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "kolkata",
+        "word": "police",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-29T15:25:26.646822+00:00",
-    "nextRefresh": "2026-08-29T15:25:26.646822+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 81,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-08-29T19:06:04.960330+00:00",
+    "nextRefresh": "2026-08-29T19:06:04.960330+00:00",
+    "articlesAnalyzed": 416,
+    "matchedMentions": 87,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
