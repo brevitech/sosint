@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 46,
-    "negative": 46,
-    "neutral": 8,
+    "positive": 43,
+    "negative": 48,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,16 +11,11 @@
       },
       {
         "word": "oil",
-        "count": 12,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "administration",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "speech",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -30,22 +25,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
-        "count": 7,
+        "word": "speech",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lake",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "lake",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -55,12 +50,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "voting",
+        "word": "house",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -70,22 +60,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "iran",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
         "word": "america",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "announces",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "space",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -95,7 +80,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "norway",
+        "word": "against",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "voting",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -105,19 +95,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "ontario",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "artemis",
+        "word": "announces",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "honor",
+        "word": "response",
         "count": 5,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "divided",
@@ -130,12 +120,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ocasio-cortez",
-        "count": 5,
+        "word": "deaths",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "deaths",
+        "word": "norway",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -150,72 +140,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "teleprompter",
+        "word": "national",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "months",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "order",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-08-30T06:17:26.009423+00:00",
-    "nextRefresh": "2026-08-30T06:17:26.009423+00:00",
+    "generatedAt": "2026-08-30T12:31:11.159189+00:00",
+    "nextRefresh": "2026-08-30T12:31:11.159189+00:00",
     "articlesAnalyzed": 345,
-    "matchedMentions": 162,
-    "uniquePersonalities": 52,
+    "matchedMentions": 156,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 39,
-    "negative": 41,
+    "positive": 46,
+    "negative": 34,
     "neutral": 20,
     "wordCloud": [
       {
-        "word": "bhagwat",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
         "word": "modi",
-        "count": 12,
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "uzbekistan",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chief",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hindu",
-        "count": 8,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 7,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "rss",
-        "count": 7,
+        "word": "mann",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "york",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "aap",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nepal",
-        "count": 6,
+        "word": "baat",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -224,107 +199,132 @@
         "sentiment": "neutral"
       },
       {
-        "word": "leader",
+        "word": "bhagwat",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "drug-free",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "uranium",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "punjab",
+        "word": "deal",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "indian",
+        "word": "order",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "fir",
+        "word": "target",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "women",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "paswan",
+        "word": "long-term",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "unity",
+        "word": "conferred",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "diversity",
+        "word": "highlights",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "row",
+        "word": "ias",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "muslims",
+        "word": "officer",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "flood",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shot",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dead",
+        "word": "resigns",
         "count": 4,
         "sentiment": "negative"
       },
       {
-        "word": "arrest",
+        "word": "global",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "empowerment",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "singh",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strike",
+        "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "reveals",
-        "count": 4,
+        "word": "biswa",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "tharoor",
-        "count": 4,
+        "word": "sarma",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "kharge",
-        "count": 4,
+        "word": "assam",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nepal",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "recalls",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ties",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-08-30T06:17:36.522527+00:00",
-    "nextRefresh": "2026-08-30T06:17:36.522527+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 88,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-08-30T12:31:22.576645+00:00",
+    "nextRefresh": "2026-08-30T12:31:22.576645+00:00",
+    "articlesAnalyzed": 432,
+    "matchedMentions": 76,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
