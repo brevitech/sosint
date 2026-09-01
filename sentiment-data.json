@@ -1,36 +1,111 @@
 {
   "us": {
-    "positive": 48,
-    "negative": 46,
-    "neutral": 6,
+    "positive": 44,
+    "negative": 53,
+    "neutral": 3,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 50,
+        "count": 44,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 18,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "house",
-        "count": 14,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
-        "word": "oil",
+        "word": "bessent",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "carney",
+        "word": "shutdown",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "down",
+        "word": "power",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "voting",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "funding",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strikes",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "democrats",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tucson",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "investigate",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gay",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bar",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shooting",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hate",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "crime",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "avoid",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "usps",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -40,151 +115,71 @@
         "sentiment": "neutral"
       },
       {
+        "word": "system",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mail-in",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bill",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deadly",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "army",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "secretary",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "white",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "amid",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lake",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "strikes",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "russia",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "order",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "months",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "start",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "serious",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "ontario",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "canada",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "military",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "targets",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "takes",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "great",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "ballroom",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "campaign",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rally",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "apple",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tariff",
-        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-01T17:15:07.006331+00:00",
-    "nextRefresh": "2026-09-01T17:15:07.006331+00:00",
-    "articlesAnalyzed": 350,
-    "matchedMentions": 160,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-09-01T20:25:34.710945+00:00",
+    "nextRefresh": "2026-09-01T20:25:34.710945+00:00",
+    "articlesAnalyzed": 352,
+    "matchedMentions": 172,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 42,
+    "positive": 37,
     "negative": 40,
-    "neutral": 18,
+    "neutral": 23,
     "wordCloud": [
-      {
-        "word": "india",
-        "count": 17,
-        "sentiment": "neutral"
-      },
       {
         "word": "modi",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "banerjee",
-        "count": 8,
+        "word": "india",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "squad",
+        "word": "banerjee",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -209,32 +204,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 6,
+        "word": "squad",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bumrah",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gold",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reveals",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "west",
+        "word": "home",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -244,27 +219,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "afghanistan",
+        "word": "gold",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "t20is",
+        "word": "bumrah",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "birla",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ambani",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
+        "word": "police",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -274,57 +239,92 @@
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "become",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bengal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "residence",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "mamata",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sco",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "summit",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sooryavanshi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reacts",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hazare",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "stable",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "viral",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "infection",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "activist",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "recovery",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "afghanistan",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "t20is",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahmedabad",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hub",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "punjab",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-01T17:15:31.568003+00:00",
-    "nextRefresh": "2026-09-01T17:15:31.568003+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 89,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-09-01T20:25:44.312009+00:00",
+    "nextRefresh": "2026-09-01T20:25:44.312009+00:00",
+    "articlesAnalyzed": 415,
+    "matchedMentions": 73,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
 }
