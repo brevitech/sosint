@@ -1,51 +1,46 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 52,
+    "positive": 37,
+    "negative": 56,
     "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 82,
+        "count": 76,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 21,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
         "count": 19,
         "sentiment": "neutral"
       },
       {
-        "word": "ballroom",
+        "word": "house",
         "count": 18,
         "sentiment": "neutral"
       },
       {
+        "word": "ballroom",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
         "word": "supreme",
-        "count": 17,
+        "count": 15,
         "sentiment": "positive"
       },
       {
         "word": "court",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
         "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "construction",
-        "count": 12,
+        "word": "white",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "hegseth",
+        "word": "oil",
         "count": 12,
         "sentiment": "neutral"
       },
@@ -55,34 +50,39 @@
         "sentiment": "neutral"
       },
       {
-        "word": "army",
-        "count": 11,
-        "sentiment": "neutral"
+        "word": "war",
+        "count": 10,
+        "sentiment": "negative"
       },
       {
-        "word": "secretary",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "driscoll",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "oil",
+        "word": "construction",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "army",
         "count": 9,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "resigns",
+        "word": "secretary",
         "count": 9,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "driscoll",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "happened",
+        "count": 8,
+        "sentiment": "neutral"
       },
       {
         "word": "ontario",
@@ -90,27 +90,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "resume",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rules",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "venezuela",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hard",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "dan",
+        "word": "down",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -125,171 +105,196 @@
         "sentiment": "neutral"
       },
       {
-        "word": "down",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "apple",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "hit",
+        "word": "hard",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "venezuela",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "reported",
+        "word": "resume",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "friction",
+        "word": "rules",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "resigns",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "allows",
         "count": 6,
         "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-09-01T01:33:36.049231+00:00",
-    "nextRefresh": "2026-09-01T01:33:36.049231+00:00",
-    "articlesAnalyzed": 336,
-    "matchedMentions": 177,
-    "uniquePersonalities": 47,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 55,
-    "negative": 30,
-    "neutral": 15,
-    "wordCloud": [
+      },
       {
-        "word": "modi",
-        "count": 17,
+        "word": "dell",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 15,
+        "word": "talk",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dan",
+        "count": 5,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-09-01T07:07:33.746121+00:00",
+    "nextRefresh": "2026-09-01T07:07:33.746121+00:00",
+    "articlesAnalyzed": 338,
+    "matchedMentions": 158,
+    "uniquePersonalities": 48,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 54,
+    "negative": 32,
+    "neutral": 14,
+    "wordCloud": [
+      {
+        "word": "modi",
+        "count": 22,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "growth",
+        "count": 11,
+        "sentiment": "positive"
+      },
+      {
+        "word": "gdp",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gold",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 12,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 12,
-        "sentiment": "negative"
+        "word": "gandhi",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "against",
-        "count": 8,
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "putin",
-        "count": 8,
+        "word": "minister",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "chandra",
-        "count": 7,
+        "word": "jhooth",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "given",
-        "count": 6,
+        "word": "goonj",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "chance",
-        "count": 6,
+        "word": "tata",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "birla",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ambani",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "madhya",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pradesh",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "governor",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "backs",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "deny",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "probe",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sanction",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attack",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "abroad",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "revives",
+        "count": 4,
         "sentiment": "positive"
       },
       {
-        "word": "fadnavis",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "targets",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "women",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "end",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hazare",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "admitted",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "nclt",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "icu",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mumbai",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dehydration",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "priyanka",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bench",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fir",
+        "word": "pitch",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -299,32 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
+        "word": "hinduja",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
+        "word": "rajeev",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sco",
+        "word": "chandrasekhar",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-01T01:33:49.222512+00:00",
-    "nextRefresh": "2026-09-01T01:33:49.222512+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 76,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-09-01T07:07:57.614780+00:00",
+    "nextRefresh": "2026-09-01T07:07:57.614780+00:00",
+    "articlesAnalyzed": 428,
+    "matchedMentions": 71,
+    "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
 }
