@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 34,
-    "negative": 57,
-    "neutral": 9,
+    "positive": 36,
+    "negative": 59,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,36 +11,31 @@
       },
       {
         "word": "vance",
-        "count": 12,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 11,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
-        "word": "hegseth",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
+        "word": "war",
         "count": 9,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "court",
+        "word": "against",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "secretary",
+        "word": "strikes",
         "count": 8,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "white",
+        "word": "wedding",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -50,12 +45,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "hit",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leads",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gloria",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "steinem",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -70,12 +90,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "steinem",
+        "word": "pushes",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "leads",
+        "word": "sometimes",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "things",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -85,18 +110,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "briefing",
+        "word": "democrats",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "former",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 6,
+        "word": "tributes",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -105,12 +125,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "threat",
+        "word": "friend",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "positive"
       },
       {
         "word": "effort",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "border",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -125,57 +150,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "americans",
+        "word": "venezuela",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "gloria",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "clinton",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "clean",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "midterm",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "failed",
-        "count": 4,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-03T16:51:51.992752+00:00",
-    "nextRefresh": "2026-09-03T16:51:51.992752+00:00",
-    "articlesAnalyzed": 343,
+    "generatedAt": "2026-09-03T19:35:27.935186+00:00",
+    "nextRefresh": "2026-09-03T19:35:27.935186+00:00",
+    "articlesAnalyzed": 337,
     "matchedMentions": 157,
-    "uniquePersonalities": 49,
+    "uniquePersonalities": 52,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 59,
+    "positive": 55,
     "negative": 28,
-    "neutral": 13,
+    "neutral": 17,
     "wordCloud": [
       {
         "word": "india",
-        "count": 15,
+        "count": 21,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jaishankar",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "bcci",
-        "count": 10,
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pawar",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mandhana",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -184,42 +199,87 @@
         "sentiment": "neutral"
       },
       {
-        "word": "needs",
-        "count": 7,
-        "sentiment": "neutral"
+        "word": "war",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
-        "word": "jaishankar",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sharma",
+        "word": "cup",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "agarkar",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meeting",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
+        "word": "death",
         "count": 5,
         "sentiment": "negative"
       },
       {
-        "word": "anand",
+        "word": "needs",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "asia",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "politicise",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "gdp",
+        "word": "sunetra",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "supriya",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sule",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jibe",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "help",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "hong",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kong",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "agarkar",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meeting",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -234,6 +294,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "sharma",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "meets",
         "count": 4,
         "sentiment": "neutral"
@@ -244,87 +309,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "reply",
+        "word": "ready",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "buying",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "review",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "breaks",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "clear",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "mandate",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "future",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "games",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mature",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "nephew",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "akash",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "role",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "data",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reddy",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-03T16:52:03.169451+00:00",
-    "nextRefresh": "2026-09-03T16:52:03.169451+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 79,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-09-03T19:35:39.063010+00:00",
+    "nextRefresh": "2026-09-03T19:35:39.063010+00:00",
+    "articlesAnalyzed": 416,
+    "matchedMentions": 78,
+    "uniquePersonalities": 33,
     "dataSource": "live-rss"
   }
 }
