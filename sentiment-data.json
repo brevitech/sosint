@@ -1,17 +1,27 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 55,
-    "neutral": 4,
+    "positive": 42,
+    "negative": 51,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
+        "count": 61,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 9,
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -20,42 +30,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "woods",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
+        "word": "president",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "bessent",
+        "word": "blocks",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "birthright",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "citizenship",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "plea",
+        "word": "federal",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "canadian",
-        "count": 6,
+        "word": "woods",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "driving",
+        "word": "bessent",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -65,67 +75,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "lindsay",
+        "word": "bid",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "clancy",
+        "word": "politics",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "urges",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "white",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "strikes",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "condemn",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "against",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tiger",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "canada",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "birthright",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "citizenship",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "america",
+        "word": "plea",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -135,77 +105,77 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
+        "word": "power",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "verdict",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "vulnerable",
-        "count": 5,
-        "sentiment": "negative"
       },
       {
         "word": "inept",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "military",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meeting",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "behind",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "another",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "seeks",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "death",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "china",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "threat",
+        "count": 4,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-03T07:40:05.325363+00:00",
-    "nextRefresh": "2026-09-03T07:40:05.325363+00:00",
-    "articlesAnalyzed": 328,
-    "matchedMentions": 154,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-09-03T12:30:18.351182+00:00",
+    "nextRefresh": "2026-09-03T12:30:18.351182+00:00",
+    "articlesAnalyzed": 338,
+    "matchedMentions": 163,
+    "uniquePersonalities": 54,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 48,
-    "negative": 30,
-    "neutral": 22,
+    "positive": 52,
+    "negative": 32,
+    "neutral": 16,
     "wordCloud": [
       {
-        "word": "court",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
         "word": "india",
-        "count": 8,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "stalin",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kolathur",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dismisses",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "high",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "madras",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 5,
+        "word": "modi",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -214,117 +184,147 @@
         "sentiment": "neutral"
       },
       {
-        "word": "office",
+        "word": "nadu",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kolkata",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "petition",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minister",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tmc",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bhubaneswar",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "patnaik",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "aide",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pandian",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "target",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bumrah",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pilot",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "nepal",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "help",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "modi-pezeshkian",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "announces",
-        "count": 3,
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "city",
-        "count": 3,
+        "word": "complex",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "chennai",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ready",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "help",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "end",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "jaishankar",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "office",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "city",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trophy",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "belgium",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "nadu",
+        "word": "bilateral",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trade",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "growth",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "confidence",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "secretariat",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "women",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ritual",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tmc",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kejriwal",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-03T07:40:20.131825+00:00",
-    "nextRefresh": "2026-09-03T07:40:20.131825+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 84,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-09-03T12:30:45.057425+00:00",
+    "nextRefresh": "2026-09-03T12:30:45.057425+00:00",
+    "articlesAnalyzed": 433,
+    "matchedMentions": 79,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   }
 }
