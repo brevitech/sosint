@@ -1,26 +1,46 @@
 {
   "us": {
-    "positive": 36,
-    "negative": 60,
+    "positive": 34,
+    "negative": 62,
     "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 53,
+        "count": 46,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 21,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "order",
-        "count": 11,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "ukraine",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "block",
+        "count": 13,
+        "sentiment": "negative"
+      },
+      {
+        "word": "envoys",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "moscow",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "order",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -35,11 +55,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "block",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
         "word": "hegseth",
         "count": 10,
         "sentiment": "neutral"
@@ -50,13 +65,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "moscow",
+        "word": "russia",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "court",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "putin",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -70,38 +90,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "administration",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "federal",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "envoys",
+        "word": "stars",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "russia",
+        "word": "stripes",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 7,
+        "word": "administration",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -110,7 +115,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jobs",
+        "word": "war",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "former",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -143,45 +153,30 @@
         "word": "orders",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "extends",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "voting",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-05T16:29:40.609393+00:00",
-    "nextRefresh": "2026-09-05T16:29:40.609393+00:00",
+    "generatedAt": "2026-09-05T18:45:19.062350+00:00",
+    "nextRefresh": "2026-09-05T18:45:19.062350+00:00",
     "articlesAnalyzed": 346,
-    "matchedMentions": 153,
-    "uniquePersonalities": 36,
+    "matchedMentions": 160,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 53,
-    "negative": 31,
-    "neutral": 16,
+    "positive": 39,
+    "negative": 36,
+    "neutral": 25,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 19,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
-        "word": "murder",
+        "word": "punjab",
         "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "arrest",
-        "count": 8,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "congress",
@@ -189,27 +184,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "case",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "delhi",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "teachers",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "india",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "takes",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "third",
+        "word": "saharanpur",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mosque",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -219,57 +214,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "takes",
+        "word": "pilot",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "college",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "cbi",
-        "count": 5,
-        "sentiment": "neutral"
+        "word": "murder",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
-        "word": "officials",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "targets",
-        "count": 5,
-        "sentiment": "neutral"
+        "word": "arrest",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "srcc",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "pune",
+        "word": "pakistan",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "owaisi",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "fort",
+        "word": "baghel",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "fiancee",
+        "word": "opposition",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "boyfriend",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "adani",
+        "word": "rahul",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -279,52 +274,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "subhash",
+        "word": "third",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "chandra",
+        "word": "university",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "metro",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "probe",
+        "word": "swipe",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "ranaut",
+        "word": "attacks",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "raina",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "punjab",
+        "word": "abhishek",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "raise",
+        "word": "govt",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "government",
+        "word": "case",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-05T16:29:51.290513+00:00",
-    "nextRefresh": "2026-09-05T16:29:51.290513+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 95,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-09-05T18:45:29.282075+00:00",
+    "nextRefresh": "2026-09-05T18:45:29.282075+00:00",
+    "articlesAnalyzed": 418,
+    "matchedMentions": 87,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
 }
