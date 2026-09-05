@@ -1,38 +1,43 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 51,
-    "neutral": 9,
+    "positive": 33,
+    "negative": 60,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 63,
+        "count": 76,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 22,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lindsay",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "clancy",
-        "count": 16,
+        "count": 31,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 15,
+        "count": 17,
         "sentiment": "negative"
       },
       {
         "word": "iran",
-        "count": 14,
+        "count": 16,
         "sentiment": "neutral"
+      },
+      {
+        "word": "lindsay",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "clancy",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "block",
+        "count": 15,
+        "sentiment": "negative"
       },
       {
         "word": "case",
@@ -40,17 +45,52 @@
         "sentiment": "neutral"
       },
       {
+        "word": "order",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "voting",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "extends",
+        "count": 12,
+        "sentiment": "positive"
+      },
+      {
         "word": "midterms",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "federal",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "mistrial",
+        "word": "small",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "potatoes",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mistrial",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mail",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -60,7 +100,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "declares",
+        "word": "court",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -75,54 +115,34 @@
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
+        "word": "restrict",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "mail-in",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "small",
-        "count": 7,
+        "word": "key",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "potatoes",
-        "count": 7,
+        "word": "seeking",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "limit",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "murder",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "secretary",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "block",
         "count": 6,
         "sentiment": "negative"
-      },
-      {
-        "word": "federal",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mail",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "voting",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "russia",
-        "count": 6,
-        "sentiment": "neutral"
       },
       {
         "word": "ukraine",
@@ -130,37 +150,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "support",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "jobs",
+        "word": "stars",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "executive",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "order",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "security",
-        "count": 4,
-        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-04T22:44:19.297120+00:00",
-    "nextRefresh": "2026-09-04T22:44:19.297120+00:00",
-    "articlesAnalyzed": 338,
-    "matchedMentions": 142,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-09-05T00:34:25.164880+00:00",
+    "nextRefresh": "2026-09-05T00:34:25.164880+00:00",
+    "articlesAnalyzed": 330,
+    "matchedMentions": 156,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-04T22:44:32.164922+00:00",
-    "nextRefresh": "2026-09-04T22:44:32.164922+00:00",
+    "generatedAt": "2026-09-05T00:34:33.559792+00:00",
+    "nextRefresh": "2026-09-05T00:34:33.559792+00:00",
     "articlesAnalyzed": 418,
-    "matchedMentions": 55,
-    "uniquePersonalities": 30,
+    "matchedMentions": 58,
+    "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
 }
