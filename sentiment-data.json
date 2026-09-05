@@ -1,66 +1,46 @@
 {
   "us": {
-    "positive": 34,
-    "negative": 62,
-    "neutral": 4,
+    "positive": 33,
+    "negative": 61,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 72,
+        "count": 73,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 31,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lindsay",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "clancy",
-        "count": 17,
+        "count": 30,
         "sentiment": "neutral"
       },
       {
         "word": "block",
-        "count": 17,
-        "sentiment": "negative"
-      },
-      {
-        "word": "case",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 12,
+        "count": 19,
         "sentiment": "negative"
       },
       {
         "word": "order",
-        "count": 12,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 11,
+        "word": "lindsay",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "clancy",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "midterms",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mistrial",
+        "word": "court",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -68,6 +48,11 @@
         "word": "falklands",
         "count": 9,
         "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 9,
+        "sentiment": "negative"
       },
       {
         "word": "extends",
@@ -90,6 +75,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "iran",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "stars",
         "count": 8,
         "sentiment": "neutral"
@@ -105,13 +95,8 @@
         "sentiment": "negative"
       },
       {
-        "word": "murder",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "ukraine",
-        "count": 7,
+        "word": "midterms",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -125,17 +110,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "russia",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "small",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "potatoes",
+        "word": "mistrial",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,73 +128,93 @@
         "word": "firing",
         "count": 6,
         "sentiment": "negative"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-09-05T05:12:15.706564+00:00",
-    "nextRefresh": "2026-09-05T05:12:15.706564+00:00",
-    "articlesAnalyzed": 334,
-    "matchedMentions": 160,
-    "uniquePersonalities": 39,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 45,
-    "negative": 31,
-    "neutral": 24,
-    "wordCloud": [
+      },
       {
-        "word": "early",
+        "word": "journalists",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "federal",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "veterans",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "peace",
         "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "russia",
+        "count": 5,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-09-05T09:51:18.997257+00:00",
+    "nextRefresh": "2026-09-05T09:51:18.997257+00:00",
+    "articlesAnalyzed": 342,
+    "matchedMentions": 161,
+    "uniquePersonalities": 40,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 53,
+    "negative": 32,
+    "neutral": 15,
+    "wordCloud": [
+      {
+        "word": "against",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "teachers",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kharge",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "name",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "recalls",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "made",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abdullah",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meets",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "discusses",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "restoration",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "statehood",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jaishankar",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rss",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -229,17 +224,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bhagwat",
+        "word": "case",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "paswan",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
+        "word": "urges",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pakistan",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "brother",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "age",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -256,6 +271,31 @@
       {
         "word": "financial",
         "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "uttarakhand",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "members",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rally",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "purification",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 2,
         "sentiment": "neutral"
       },
       {
@@ -277,54 +317,14 @@
         "word": "fbi",
         "count": 2,
         "sentiment": "neutral"
-      },
-      {
-        "word": "wanted",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "scam",
-        "count": 2,
-        "sentiment": "negative"
-      },
-      {
-        "word": "omar",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amit",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "paswan",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "influencer",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "address",
-        "count": 2,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-05T05:12:27.343451+00:00",
-    "nextRefresh": "2026-09-05T05:12:27.343451+00:00",
-    "articlesAnalyzed": 432,
-    "matchedMentions": 51,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-09-05T09:51:30.381184+00:00",
+    "nextRefresh": "2026-09-05T09:51:30.381184+00:00",
+    "articlesAnalyzed": 430,
+    "matchedMentions": 59,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
