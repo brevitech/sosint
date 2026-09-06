@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 34,
-    "negative": 60,
+    "positive": 33,
+    "negative": 61,
     "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 58,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
@@ -15,23 +15,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "block",
-        "count": 14,
-        "sentiment": "negative"
-      },
-      {
-        "word": "war",
-        "count": 13,
-        "sentiment": "negative"
-      },
-      {
         "word": "ukraine",
         "count": 12,
         "sentiment": "neutral"
       },
       {
+        "word": "block",
+        "count": 12,
+        "sentiment": "negative"
+      },
+      {
         "word": "envoys",
         "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 11,
+        "sentiment": "negative"
+      },
+      {
+        "word": "midterm",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -50,11 +55,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "midterm",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "talks",
         "count": 9,
         "sentiment": "neutral"
@@ -67,6 +67,11 @@
       {
         "word": "court",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "texas",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -86,11 +91,6 @@
       },
       {
         "word": "falklands",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -125,12 +125,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "texas",
+        "word": "center",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "military",
+        "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -148,29 +153,24 @@
         "word": "russia",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-05T22:36:15.552286+00:00",
-    "nextRefresh": "2026-09-05T22:36:15.552286+00:00",
-    "articlesAnalyzed": 347,
-    "matchedMentions": 166,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-09-06T00:31:08.498578+00:00",
+    "nextRefresh": "2026-09-06T00:31:08.498578+00:00",
+    "articlesAnalyzed": 348,
+    "matchedMentions": 160,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 34,
-    "neutral": 21,
+    "positive": 42,
+    "negative": 35,
+    "neutral": 23,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 16,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -204,12 +204,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 6,
+        "word": "pilot",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "pilot",
+        "word": "india",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -254,6 +254,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "gdp",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "metro",
         "count": 4,
         "sentiment": "neutral"
@@ -267,16 +272,6 @@
         "word": "attacks",
         "count": 4,
         "sentiment": "negative"
-      },
-      {
-        "word": "raina",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abhishek",
-        "count": 4,
-        "sentiment": "neutral"
       },
       {
         "word": "pakistan",
@@ -317,14 +312,19 @@
         "word": "subhash",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "chandra",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-05T22:36:24.086877+00:00",
-    "nextRefresh": "2026-09-05T22:36:24.086877+00:00",
+    "generatedAt": "2026-09-06T00:31:20.522744+00:00",
+    "nextRefresh": "2026-09-06T00:31:20.522744+00:00",
     "articlesAnalyzed": 417,
-    "matchedMentions": 74,
-    "uniquePersonalities": 35,
+    "matchedMentions": 71,
+    "uniquePersonalities": 33,
     "dataSource": "live-rss"
   }
 }
