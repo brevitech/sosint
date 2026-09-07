@@ -1,17 +1,27 @@
 {
   "us": {
-    "positive": 56,
-    "negative": 36,
-    "neutral": 8,
+    "positive": 57,
+    "negative": 34,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 37,
+        "count": 40,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "ukraine",
-        "count": 9,
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "midterm",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -40,8 +50,28 @@
         "sentiment": "neutral"
       },
       {
+        "word": "canada",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "election",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "name",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mexico",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "america",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -70,34 +100,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "canada",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "john",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "supreme",
         "count": 5,
         "sentiment": "positive"
-      },
-      {
-        "word": "gop",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "midterm",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 4,
-        "sentiment": "neutral"
       },
       {
         "word": "death",
@@ -140,7 +145,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "america",
+        "word": "bombardier",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -148,25 +153,20 @@
         "word": "german",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "faces",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-07T21:52:23.918727+00:00",
-    "nextRefresh": "2026-09-07T21:52:23.918727+00:00",
-    "articlesAnalyzed": 327,
-    "matchedMentions": 117,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-09-07T23:54:44.150064+00:00",
+    "nextRefresh": "2026-09-07T23:54:44.150064+00:00",
+    "articlesAnalyzed": 334,
+    "matchedMentions": 122,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 50,
-    "negative": 33,
-    "neutral": 17,
+    "negative": 32,
+    "neutral": 18,
     "wordCloud": [
       {
         "word": "modi",
@@ -206,6 +206,11 @@
       {
         "word": "gill",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -259,7 +264,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "police",
+        "word": "ahead",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "west",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-07T21:52:34.708155+00:00",
-    "nextRefresh": "2026-09-07T21:52:34.708155+00:00",
+    "generatedAt": "2026-09-07T23:54:56.618482+00:00",
+    "nextRefresh": "2026-09-07T23:54:56.618482+00:00",
     "articlesAnalyzed": 417,
     "matchedMentions": 66,
-    "uniquePersonalities": 42,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
