@@ -1,77 +1,67 @@
 {
   "us": {
-    "positive": 55,
-    "negative": 37,
-    "neutral": 8,
+    "positive": 52,
+    "negative": 41,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 49,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 15,
+        "count": 41,
         "sentiment": "neutral"
       },
       {
         "word": "talks",
-        "count": 14,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "putin",
-        "count": 11,
+        "word": "administration",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 11,
+        "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "witkoff",
+        "word": "putin",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "envoys",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "supreme",
-        "count": 9,
-        "sentiment": "positive"
-      },
-      {
-        "word": "former",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kushner",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "ukraine",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "witkoff",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "falklands",
+        "word": "peace",
         "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "russia",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "former",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kushner",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -80,14 +70,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mail-in",
+        "word": "supreme",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "house",
@@ -100,22 +85,12 @@
         "sentiment": "positive"
       },
       {
-        "word": "zelensky",
+        "word": "falklands",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "peace",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "key",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "asks",
+        "word": "america",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -125,121 +100,81 @@
         "sentiment": "neutral"
       },
       {
-        "word": "voting",
+        "word": "envoys",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "midterms",
-        "count": 5,
+        "word": "rich",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "symbolism",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "pentagon",
-        "count": 5,
+        "word": "fundamental",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "stars",
-        "count": 5,
+        "word": "differences",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "stripes",
-        "count": 5,
+        "word": "judge",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "john",
-        "count": 5,
+        "word": "iran",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "far-right",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "musk",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "next",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-07T07:48:49.135066+00:00",
-    "nextRefresh": "2026-09-07T07:48:49.135066+00:00",
-    "articlesAnalyzed": 341,
-    "matchedMentions": 139,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-09-07T13:53:41.283629+00:00",
+    "nextRefresh": "2026-09-07T13:53:41.283629+00:00",
+    "articlesAnalyzed": 333,
+    "matchedMentions": 128,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
-    "negative": 40,
-    "neutral": 16,
+    "positive": 47,
+    "negative": 27,
+    "neutral": 26,
     "wordCloud": [
       {
-        "word": "against",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "women",
+        "word": "case",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "target",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "punjab",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trisha",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "assembly",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "remarks",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dmk",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "face",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kohli",
+        "word": "adani",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -249,82 +184,147 @@
         "sentiment": "neutral"
       },
       {
-        "word": "double-meaning",
+        "word": "modi",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "global",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "building",
+        "word": "goa",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "collapse",
+        "word": "india",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "assembly",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "assault",
         "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "emkay",
+        "word": "calcutta",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "financial",
+        "word": "questions",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "assignment",
+        "word": "ahead",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "inside",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "pilot",
+        "word": "family",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "shapes",
+        "word": "tussle",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "rajasthan",
+        "word": "changing",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "plans",
+        "word": "roles",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "tolerate",
+        "word": "upcoming",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "abusive",
+        "word": "election",
         "count": 2,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "supreme",
+        "word": "esg",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rating",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "improves",
         "count": 2,
         "sentiment": "positive"
+      },
+      {
+        "word": "nse",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sustainability",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "assessment",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "launch",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "key",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rail",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "road",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "projects",
+        "count": 2,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-07T07:49:01.705316+00:00",
-    "nextRefresh": "2026-09-07T07:49:01.705316+00:00",
-    "articlesAnalyzed": 428,
-    "matchedMentions": 52,
-    "uniquePersonalities": 32,
+    "generatedAt": "2026-09-07T13:53:51.737658+00:00",
+    "nextRefresh": "2026-09-07T13:53:51.737658+00:00",
+    "articlesAnalyzed": 416,
+    "matchedMentions": 51,
+    "uniquePersonalities": 33,
     "dataSource": "live-rss"
   }
 }
