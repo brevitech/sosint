@@ -1,17 +1,12 @@
 {
   "us": {
-    "positive": 55,
-    "negative": 41,
-    "neutral": 4,
+    "positive": 56,
+    "negative": 38,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 51,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
-        "count": 17,
+        "count": 50,
         "sentiment": "neutral"
       },
       {
@@ -20,17 +15,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "talks",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
         "word": "court",
         "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "envoys",
-        "count": 13,
+        "word": "putin",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "putin",
+        "word": "envoys",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -40,24 +40,9 @@
         "sentiment": "negative"
       },
       {
-        "word": "ukraine",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "supreme",
         "count": 10,
         "sentiment": "positive"
-      },
-      {
-        "word": "judge",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "former",
-        "count": 9,
-        "sentiment": "neutral"
       },
       {
         "word": "witkoff",
@@ -70,7 +55,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "ukraine",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "former",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -95,22 +90,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "zelensky",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "voting",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "hegseth",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "texas",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -123,6 +108,16 @@
         "word": "support",
         "count": 6,
         "sentiment": "positive"
+      },
+      {
+        "word": "zelensky",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "asks",
@@ -153,20 +148,25 @@
         "word": "john",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "makes",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-06T23:24:51.979783+00:00",
-    "nextRefresh": "2026-09-06T23:24:51.979783+00:00",
+    "generatedAt": "2026-09-07T02:29:28.012439+00:00",
+    "nextRefresh": "2026-09-07T02:29:28.012439+00:00",
     "articlesAnalyzed": 346,
-    "matchedMentions": 154,
-    "uniquePersonalities": 49,
+    "matchedMentions": 152,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 33,
-    "negative": 43,
-    "neutral": 24,
+    "positive": 38,
+    "negative": 40,
+    "neutral": 22,
     "wordCloud": [
       {
         "word": "modi",
@@ -174,23 +174,23 @@
         "sentiment": "neutral"
       },
       {
+        "word": "delhi",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "building",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "collapse",
-        "count": 9,
+        "count": 10,
         "sentiment": "negative"
       },
       {
-        "word": "delhi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "india",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -199,13 +199,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "visit",
-        "count": 4,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -229,6 +224,36 @@
         "sentiment": "neutral"
       },
       {
+        "word": "death",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india-france",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "relations",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reached",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "heights",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "ranaut",
         "count": 3,
         "sentiment": "neutral"
@@ -249,7 +274,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "centre",
+        "word": "amid",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -260,6 +285,16 @@
       },
       {
         "word": "condoles",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "satya",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "niketan",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -282,49 +317,14 @@
         "word": "boys",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "death",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "law",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rss",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bhagwat",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mandi",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "development",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tamil",
-        "count": 2,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-06T23:25:02.768420+00:00",
-    "nextRefresh": "2026-09-06T23:25:02.768420+00:00",
-    "articlesAnalyzed": 416,
-    "matchedMentions": 51,
-    "uniquePersonalities": 22,
+    "generatedAt": "2026-09-07T02:29:38.724805+00:00",
+    "nextRefresh": "2026-09-07T02:29:38.724805+00:00",
+    "articlesAnalyzed": 432,
+    "matchedMentions": 53,
+    "uniquePersonalities": 26,
     "dataSource": "live-rss"
   }
 }
