@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 43,
-    "negative": 44,
-    "neutral": 13,
+    "positive": 35,
+    "negative": 50,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 61,
+        "count": 69,
         "sentiment": "neutral"
       },
       {
@@ -20,27 +20,47 @@
         "sentiment": "neutral"
       },
       {
+        "word": "midterm",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "convention",
-        "count": 12,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
-        "count": 12,
-        "sentiment": "positive"
-      },
-      {
-        "word": "missouri",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fetterman",
+        "word": "appeals",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
+        "word": "rejects",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "bid",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "missouri",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "restrictions",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -50,12 +70,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "congressional",
+        "word": "rubio",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "video",
+        "word": "dividend",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "voting",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -65,29 +90,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "fcc",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "maps",
+        "word": "supreme",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "politics",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rejects",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "dividend",
-        "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "king",
@@ -95,12 +105,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
+        "word": "gop",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "end",
+        "word": "promise",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "maps",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -110,22 +125,12 @@
         "sentiment": "neutral"
       },
       {
+        "word": "congressional",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "map",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "midterm",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rubio",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "interview",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -135,51 +140,36 @@
         "sentiment": "neutral"
       },
       {
-        "word": "fcc",
+        "word": "fetterman",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
-        "count": 5,
+        "word": "administration",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "promise",
+        "word": "impose",
         "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "oil",
-        "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-10T18:00:22.016618+00:00",
-    "nextRefresh": "2026-09-10T18:00:22.016618+00:00",
+    "generatedAt": "2026-09-10T20:46:33.825499+00:00",
+    "nextRefresh": "2026-09-10T20:46:33.825499+00:00",
     "articlesAnalyzed": 329,
-    "matchedMentions": 153,
-    "uniquePersonalities": 43,
+    "matchedMentions": 161,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
-    "negative": 44,
-    "neutral": 12,
+    "positive": 48,
+    "negative": 31,
+    "neutral": 21,
     "wordCloud": [
       {
-        "word": "case",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
+        "word": "row",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -189,37 +179,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "charges",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "yadav",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "irctc",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "land",
+        "word": "ahead",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -239,16 +199,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "assembly",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "summit",
         "count": 3,
         "sentiment": "neutral"
@@ -259,72 +209,122 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "frames",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pmla",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rabri",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "devi",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "congress",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "abhishek",
+        "word": "trade",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "banerjee",
+        "word": "bjp",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "arrested",
+        "word": "india",
         "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "land",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bumrah",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fit",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "thakur",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "replaces",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "harshit",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "afghanistan",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "t20is",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "villain",
+        "count": 2,
         "sentiment": "negative"
       },
       {
-        "word": "cid",
-        "count": 3,
+        "word": "hero",
+        "count": 2,
+        "sentiment": "positive"
+      },
+      {
+        "word": "ttv",
+        "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "grab",
-        "count": 3,
+        "word": "dhinakaran",
+        "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
-        "count": 3,
+        "word": "attacks",
+        "count": 2,
+        "sentiment": "negative"
+      },
+      {
+        "word": "broken",
+        "count": 2,
+        "sentiment": "negative"
+      },
+      {
+        "word": "jaw",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "agenda",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nephew",
+        "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-10T18:00:35.024080+00:00",
-    "nextRefresh": "2026-09-10T18:00:35.024080+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 62,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-09-10T20:46:44.327914+00:00",
+    "nextRefresh": "2026-09-10T20:46:44.327914+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 48,
+    "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
 }
