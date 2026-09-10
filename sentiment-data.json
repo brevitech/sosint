@@ -1,8 +1,8 @@
 {
   "us": {
     "positive": 48,
-    "negative": 43,
-    "neutral": 9,
+    "negative": 42,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,21 +11,31 @@
       },
       {
         "word": "convention",
-        "count": 20,
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "midterm",
-        "count": 19,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 12,
+        "count": 14,
         "sentiment": "negative"
       },
       {
-        "word": "republicans",
+        "word": "gop",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "video",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fetterman",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -35,7 +45,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
+        "word": "republican",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -45,53 +55,58 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gave",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gifts",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "natalie",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "harp",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "aides",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "hegseth",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "white",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
+        "word": "end",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gifts",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "end",
+        "word": "natalie",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "harp",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "aides",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrat",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "surprise",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "house",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gave",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -105,17 +120,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "market",
+        "word": "midterms",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "court",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "dallas",
+        "word": "white",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -130,7 +145,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "dallas",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -138,35 +153,20 @@
         "word": "chief",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "cancels",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "john",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "former",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-09T22:10:48.113227+00:00",
-    "nextRefresh": "2026-09-09T22:10:48.113227+00:00",
+    "generatedAt": "2026-09-10T00:45:48.915153+00:00",
+    "nextRefresh": "2026-09-10T00:45:48.915153+00:00",
     "articlesAnalyzed": 336,
-    "matchedMentions": 136,
-    "uniquePersonalities": 35,
+    "matchedMentions": 141,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 53,
-    "negative": 36,
-    "neutral": 11,
+    "positive": 48,
+    "negative": 37,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "rahul",
@@ -175,21 +175,16 @@
       },
       {
         "word": "gandhi",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "against",
-        "count": 6,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "national",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "akash",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -234,7 +229,17 @@
         "sentiment": "positive"
       },
       {
+        "word": "akash",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "anand",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "defamation",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "slams",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "nephew",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-09T22:11:00.930719+00:00",
-    "nextRefresh": "2026-09-09T22:11:00.930719+00:00",
+    "generatedAt": "2026-09-10T00:45:58.772193+00:00",
+    "nextRefresh": "2026-09-10T00:45:58.772193+00:00",
     "articlesAnalyzed": 417,
-    "matchedMentions": 66,
-    "uniquePersonalities": 38,
+    "matchedMentions": 62,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
 }
