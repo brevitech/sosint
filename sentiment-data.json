@@ -1,42 +1,37 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 42,
-    "neutral": 17,
+    "positive": 42,
+    "negative": 46,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 69,
+        "count": 71,
         "sentiment": "neutral"
       },
       {
         "word": "convention",
-        "count": 17,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "midterm",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vance",
         "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "midterms",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republican",
-        "count": 10,
+        "word": "vance",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "court",
         "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "republican",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -50,22 +45,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "american",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republicans",
+        "word": "midterms",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -90,9 +70,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "promises",
+        "word": "iran",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "republicans",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pentagon",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "appeals",
@@ -140,13 +130,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sports",
+        "word": "administration",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 6,
+        "word": "democrats",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "promises",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "americans",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -156,31 +156,36 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-10T22:54:02.326321+00:00",
-    "nextRefresh": "2026-09-10T22:54:02.326321+00:00",
+    "generatedAt": "2026-09-11T00:47:17.666487+00:00",
+    "nextRefresh": "2026-09-11T00:47:17.666487+00:00",
     "articlesAnalyzed": 329,
-    "matchedMentions": 160,
-    "uniquePersonalities": 42,
+    "matchedMentions": 155,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 47,
+    "positive": 50,
     "negative": 29,
-    "neutral": 24,
+    "neutral": 21,
     "wordCloud": [
-      {
-        "word": "modi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
       {
         "word": "brics",
         "count": 7,
         "sentiment": "neutral"
       },
       {
+        "word": "modi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "summit",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -199,12 +204,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
-        "count": 5,
+        "word": "row",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "row",
+        "word": "case",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -214,7 +224,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "lands",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -239,7 +249,7 @@
         "sentiment": "positive"
       },
       {
-        "word": "india",
+        "word": "trade",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -249,22 +259,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "shah",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "charges",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
         "word": "congress",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "bjp",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -307,24 +317,14 @@
         "word": "t20is",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "asian",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "games",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-10T22:54:19.490233+00:00",
-    "nextRefresh": "2026-09-10T22:54:19.490233+00:00",
+    "generatedAt": "2026-09-11T00:47:29.880573+00:00",
+    "nextRefresh": "2026-09-11T00:47:29.880573+00:00",
     "articlesAnalyzed": 418,
-    "matchedMentions": 55,
-    "uniquePersonalities": 33,
+    "matchedMentions": 56,
+    "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
 }
