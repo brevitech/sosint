@@ -1,42 +1,37 @@
 {
   "us": {
     "positive": 42,
-    "negative": 50,
-    "neutral": 8,
+    "negative": 49,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 73,
+        "count": 65,
         "sentiment": "neutral"
       },
       {
         "word": "vance",
-        "count": 21,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "convention",
         "count": 19,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 15,
-        "sentiment": "negative"
-      },
-      {
-        "word": "iran",
-        "count": 15,
+        "word": "convention",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "republicans",
-        "count": 13,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "presidents",
+        "word": "war",
         "count": 13,
+        "sentiment": "negative"
+      },
+      {
+        "word": "iran",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -45,12 +40,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "former",
-        "count": 11,
+        "word": "hegseth",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "hegseth",
+        "word": "presidents",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -60,7 +55,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "memorial",
+        "word": "former",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -80,6 +75,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "court",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sept",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "desantis",
         "count": 7,
         "sentiment": "neutral"
@@ -90,12 +95,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "midterm",
+        "word": "next",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "next",
+        "word": "memorial",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -105,32 +110,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ground",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "urge",
+        "word": "midterm",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "pledge",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "anniversary",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "russia",
+        "word": "bush",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -153,63 +138,68 @@
         "word": "post-trump",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "leader",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attend",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ground",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-11T18:07:10.647020+00:00",
-    "nextRefresh": "2026-09-11T18:07:10.647020+00:00",
-    "articlesAnalyzed": 331,
-    "matchedMentions": 147,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-09-11T21:31:14.858362+00:00",
+    "nextRefresh": "2026-09-11T21:31:14.858362+00:00",
+    "articlesAnalyzed": 333,
+    "matchedMentions": 148,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 70,
-    "negative": 17,
-    "neutral": 13,
+    "positive": 74,
+    "negative": 16,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 31,
+        "count": 34,
         "sentiment": "neutral"
       },
       {
         "word": "brics",
-        "count": 30,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
         "word": "putin",
-        "count": 23,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "summit",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "national",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "games",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pezeshkian",
-        "count": 7,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "president",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pezeshkian",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -224,17 +214,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "meets",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "calls",
+        "word": "india",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -244,62 +229,57 @@
         "sentiment": "positive"
       },
       {
-        "word": "target",
-        "count": 6,
+        "word": "iran",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "share",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "ride",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "national",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "games",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bilateral",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "adani",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "takes",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "international",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "school",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hosts",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chess",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "competition",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "goyal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tamil",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "thirukkural",
+        "word": "sea",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -309,22 +289,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "ukraine",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "trump",
+        "word": "west",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "asia",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "push",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "questions",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "benefits",
+        "count": 4,
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-11T18:07:26.210517+00:00",
-    "nextRefresh": "2026-09-11T18:07:26.210517+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 93,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-09-11T21:31:24.859728+00:00",
+    "nextRefresh": "2026-09-11T21:31:24.859728+00:00",
+    "articlesAnalyzed": 418,
+    "matchedMentions": 81,
+    "uniquePersonalities": 27,
     "dataSource": "live-rss"
   }
 }
