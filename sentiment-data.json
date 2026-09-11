@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 41,
+    "positive": 43,
     "negative": 49,
-    "neutral": 10,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 73,
+        "count": 64,
         "sentiment": "neutral"
       },
       {
@@ -15,33 +15,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
         "word": "midterm",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "pledge",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republicans",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
+        "word": "vance",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "court",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -55,37 +50,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talarico",
+        "word": "anniversary",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "fcc",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "king",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kimmel",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "interview",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "threats",
+        "word": "war",
         "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "pentagon",
+        "word": "republicans",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -95,121 +70,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "payments",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "control",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "republican",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "promises",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "americans",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "won",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "air",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "doubles",
-        "count": 5,
-        "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-09-11T05:33:25.899094+00:00",
-    "nextRefresh": "2026-09-11T05:33:25.899094+00:00",
-    "articlesAnalyzed": 331,
-    "matchedMentions": 152,
-    "uniquePersonalities": 36,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 69,
-    "negative": 15,
-    "neutral": 16,
-    "wordCloud": [
-      {
-        "word": "brics",
-        "count": 22,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "summit",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "goyal",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "putin",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -219,22 +80,151 @@
         "sentiment": "neutral"
       },
       {
+        "word": "canada",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "won",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "pledge",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "americans",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pentagon",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rejects",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "appeals",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talarico",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fcc",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rnc",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "king",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "swing",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "every",
+        "count": 4,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-09-11T10:28:50.424733+00:00",
+    "nextRefresh": "2026-09-11T10:28:50.424733+00:00",
+    "articlesAnalyzed": 336,
+    "matchedMentions": 138,
+    "uniquePersonalities": 29,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 61,
+    "negative": 26,
+    "neutral": 13,
+    "wordCloud": [
+      {
+        "word": "brics",
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "summit",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "putin",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "updates",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "positive",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "discussions",
+        "word": "goyal",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "lands",
+        "word": "pezeshkian",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -244,62 +234,67 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india-russia",
+        "word": "case",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "billion",
+        "word": "global",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "asian",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "row",
+        "word": "games",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "upi",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
+        "word": "ties",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "power",
+        "word": "sets",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "lotus",
+        "word": "urges",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "flower",
+        "word": "crore",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "namaste",
+        "word": "home",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "logo",
+        "word": "thar",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "piyush",
+        "word": "fortuner",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "owners",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -309,22 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "forum",
+        "word": "women",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "emkay",
+        "word": "against",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-11T05:33:37.505044+00:00",
-    "nextRefresh": "2026-09-11T05:33:37.505044+00:00",
-    "articlesAnalyzed": 427,
-    "matchedMentions": 61,
-    "uniquePersonalities": 31,
+    "generatedAt": "2026-09-11T10:29:02.195187+00:00",
+    "nextRefresh": "2026-09-11T10:29:02.195187+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 69,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
