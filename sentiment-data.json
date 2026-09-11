@@ -1,22 +1,17 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 46,
-    "neutral": 12,
+    "positive": 41,
+    "negative": 49,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 71,
+        "count": 73,
         "sentiment": "neutral"
       },
       {
         "word": "convention",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "midterm",
-        "count": 14,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
@@ -25,23 +20,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "midterm",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pledge",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "republican",
-        "count": 9,
+        "word": "republicans",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "fcc",
+        "word": "iran",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "king",
-        "count": 7,
+        "word": "court",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -55,37 +55,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rejects",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
         "word": "talarico",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
+        "word": "fcc",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republicans",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pentagon",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "appeals",
+        "word": "king",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -100,43 +80,43 @@
         "sentiment": "neutral"
       },
       {
+        "word": "threats",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "pentagon",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "rubio",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "address",
+        "word": "payments",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sparks",
+        "word": "control",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "bribery",
+        "word": "republican",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "missouri",
+        "word": "president",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "administration",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -153,38 +133,78 @@
         "word": "war",
         "count": 5,
         "sentiment": "negative"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-09-11T00:47:17.666487+00:00",
-    "nextRefresh": "2026-09-11T00:47:17.666487+00:00",
-    "articlesAnalyzed": 329,
-    "matchedMentions": 155,
-    "uniquePersonalities": 40,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 50,
-    "negative": 29,
-    "neutral": 21,
-    "wordCloud": [
+      },
       {
-        "word": "brics",
-        "count": 7,
+        "word": "won",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "air",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 7,
+        "word": "hegseth",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "doubles",
+        "count": 5,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-09-11T05:33:25.899094+00:00",
+    "nextRefresh": "2026-09-11T05:33:25.899094+00:00",
+    "articlesAnalyzed": 331,
+    "matchedMentions": 152,
+    "uniquePersonalities": 36,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 69,
+    "negative": 15,
+    "neutral": 16,
+    "wordCloud": [
+      {
+        "word": "brics",
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "summit",
-        "count": 6,
+        "count": 18,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "goyal",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "putin",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "delhi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -194,37 +214,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "abhishek",
+        "word": "trade",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "banerjee",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
+        "word": "updates",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "case",
+        "word": "positive",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "ahead",
+        "word": "discussions",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "putin",
-        "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "lands",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jaishankar",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india-russia",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "billion",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -234,96 +274,56 @@
         "sentiment": "positive"
       },
       {
-        "word": "declines",
+        "word": "power",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "pre-arrest",
+        "word": "lotus",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "relief",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "trade",
+        "word": "flower",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
+        "word": "namaste",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "logo",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "charges",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "congress",
+        "word": "piyush",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "business",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "land",
+        "word": "forum",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "bumrah",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fit",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "thakur",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "replaces",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "harshit",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "afghanistan",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "t20is",
+        "word": "emkay",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-11T00:47:29.880573+00:00",
-    "nextRefresh": "2026-09-11T00:47:29.880573+00:00",
-    "articlesAnalyzed": 418,
-    "matchedMentions": 56,
+    "generatedAt": "2026-09-11T05:33:37.505044+00:00",
+    "nextRefresh": "2026-09-11T05:33:37.505044+00:00",
+    "articlesAnalyzed": 427,
+    "matchedMentions": 61,
     "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
