@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 35,
+    "positive": 36,
     "negative": 54,
-    "neutral": 11,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
@@ -60,6 +60,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "brics",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "midterm",
         "count": 6,
         "sentiment": "neutral"
@@ -90,12 +95,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "brics",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
+        "word": "russia",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -120,7 +120,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
+        "word": "trade",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -135,77 +135,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sweden",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "happened",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "russia",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "court",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "updates",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "past",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "presidents",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-12T02:47:04.080394+00:00",
-    "nextRefresh": "2026-09-12T02:47:04.080394+00:00",
-    "articlesAnalyzed": 333,
-    "matchedMentions": 125,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-09-12T07:36:45.695124+00:00",
+    "nextRefresh": "2026-09-12T07:36:45.695124+00:00",
+    "articlesAnalyzed": 334,
+    "matchedMentions": 127,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 68,
-    "negative": 17,
-    "neutral": 15,
+    "positive": 44,
+    "negative": 26,
+    "neutral": 30,
     "wordCloud": [
       {
-        "word": "modi",
-        "count": 27,
-        "sentiment": "neutral"
-      },
-      {
         "word": "brics",
-        "count": 26,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
-        "word": "summit",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "putin",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 7,
+        "word": "modi",
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "tharoor",
-        "count": 7,
+        "word": "delhi",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "chidambaram",
-        "count": 7,
+        "word": "summit",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -214,12 +199,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "pezeshkian",
+        "word": "minister",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "talks",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bilateral",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -229,67 +224,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "national",
+        "word": "china",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "games",
+        "word": "bumrah",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "meets",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "safety",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "delhi",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bilateral",
+        "word": "jinping",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "ties",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "goyal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "urges",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "questions",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "benefits",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "singh",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "army",
+        "word": "key",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -299,32 +264,67 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vande",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mataram",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "row",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "updates",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ambani",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meeting",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "economic",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi-xi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "easy",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "movement",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "professionals",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "goyal",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-12T02:47:17.590835+00:00",
-    "nextRefresh": "2026-09-12T02:47:17.590835+00:00",
+    "generatedAt": "2026-09-12T07:36:56.083312+00:00",
+    "nextRefresh": "2026-09-12T07:36:56.083312+00:00",
     "articlesAnalyzed": 431,
-    "matchedMentions": 76,
-    "uniquePersonalities": 29,
+    "matchedMentions": 68,
+    "uniquePersonalities": 33,
     "dataSource": "live-rss"
   }
 }
