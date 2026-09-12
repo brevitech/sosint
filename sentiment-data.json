@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 49,
-    "neutral": 7,
+    "positive": 47,
+    "negative": 47,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 76,
+        "count": 79,
         "sentiment": "neutral"
       },
       {
@@ -16,17 +16,22 @@
       },
       {
         "word": "war",
-        "count": 15,
+        "count": 14,
         "sentiment": "negative"
       },
       {
         "word": "iran",
-        "count": 13,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "convention",
-        "count": 11,
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "plan",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -40,12 +45,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "court",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "unified",
         "count": 7,
         "sentiment": "positive"
       },
       {
         "word": "hegseth",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -65,38 +80,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "next",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "visits",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dividend",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gop",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "vance",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "king",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -115,22 +105,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "russia",
+        "word": "administration",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
+        "word": "smithsonian",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "happened",
+        "word": "george",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "republican",
+        "word": "dividend",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -150,47 +140,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "remains",
+        "word": "king",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "anthropic",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slow",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-12T17:39:09.353672+00:00",
-    "nextRefresh": "2026-09-12T17:39:09.353672+00:00",
-    "articlesAnalyzed": 333,
+    "generatedAt": "2026-09-12T20:04:06.996805+00:00",
+    "nextRefresh": "2026-09-12T20:04:06.996805+00:00",
+    "articlesAnalyzed": 335,
     "matchedMentions": 152,
-    "uniquePersonalities": 39,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 49,
-    "negative": 21,
-    "neutral": 30,
+    "positive": 46,
+    "negative": 17,
+    "neutral": 37,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 33,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "brics",
         "count": 29,
         "sentiment": "neutral"
       },
       {
-        "word": "global",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "summit",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 10,
+        "word": "brics",
+        "count": 23,
         "sentiment": "neutral"
       },
       {
@@ -199,12 +184,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "border",
+        "word": "summit",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nandigram",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "bilateral",
+        "word": "candidate",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -214,27 +219,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "border",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "malaysian",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "nephews",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meeting",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leaders",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meets",
+        "word": "dinner",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -249,22 +244,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "peace",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
         "word": "won",
         "count": 4,
         "sentiment": "positive"
       },
       {
         "word": "field",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "candidate",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -279,17 +264,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "nandigram",
+        "word": "race",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "banerjee",
+        "word": "conference",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
+        "word": "bilateral",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -299,12 +284,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "china",
+        "word": "gala",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "tamil",
+        "word": "india-china",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "roy",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -317,14 +307,24 @@
         "word": "final",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "political",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nephews",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-12T17:39:17.016757+00:00",
-    "nextRefresh": "2026-09-12T17:39:17.016757+00:00",
-    "articlesAnalyzed": 431,
-    "matchedMentions": 90,
-    "uniquePersonalities": 33,
+    "generatedAt": "2026-09-12T20:04:17.687730+00:00",
+    "nextRefresh": "2026-09-12T20:04:17.687730+00:00",
+    "articlesAnalyzed": 415,
+    "matchedMentions": 78,
+    "uniquePersonalities": 29,
     "dataSource": "live-rss"
   }
 }
