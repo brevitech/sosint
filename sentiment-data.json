@@ -1,17 +1,22 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 50,
-    "neutral": 12,
+    "positive": 42,
+    "negative": 51,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 72,
+        "count": 76,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ireland",
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "war",
-        "count": 19,
+        "count": 17,
         "sentiment": "negative"
       },
       {
@@ -20,34 +25,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "hegseth",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ireland",
+        "word": "convention",
         "count": 11,
         "sentiment": "neutral"
       },
       {
+        "word": "hegseth",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "midterm",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "convention",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pentagon",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "remarks",
         "count": 7,
         "sentiment": "neutral"
+      },
+      {
+        "word": "unified",
+        "count": 7,
+        "sentiment": "positive"
       },
       {
         "word": "tie",
@@ -70,22 +65,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "united",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "republicans",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "next",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "memorial",
+        "word": "visits",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "defend",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sept",
+        "word": "pentagon",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -95,22 +95,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "working",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "russia",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republicans",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visits",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -125,12 +110,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "pro",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "gop",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
+        "word": "updates",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -140,47 +130,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tensions",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "latest",
+        "word": "remarks",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "unified",
+        "word": "working",
         "count": 4,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dublin",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-12T11:55:09.402740+00:00",
-    "nextRefresh": "2026-09-12T11:55:09.402740+00:00",
-    "articlesAnalyzed": 328,
-    "matchedMentions": 142,
+    "generatedAt": "2026-09-12T14:52:32.108824+00:00",
+    "nextRefresh": "2026-09-12T14:52:32.108824+00:00",
+    "articlesAnalyzed": 330,
+    "matchedMentions": 145,
     "uniquePersonalities": 38,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
-    "negative": 27,
-    "neutral": 29,
+    "positive": 53,
+    "negative": 16,
+    "neutral": 31,
     "wordCloud": [
       {
-        "word": "brics",
-        "count": 32,
+        "word": "modi",
+        "count": 39,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 30,
+        "word": "brics",
+        "count": 35,
         "sentiment": "neutral"
       },
       {
         "word": "summit",
-        "count": 15,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
@@ -190,12 +190,7 @@
       },
       {
         "word": "global",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "opinion",
-        "count": 8,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -204,12 +199,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "bilateral",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leaders",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "photo",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
+        "word": "iran",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -219,37 +224,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "international",
+        "word": "malaysian",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "south",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "meeting",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bumrah",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "afghanistan",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "updates",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "trade",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "pitches",
+        "word": "border",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "mediate",
+        "word": "succession",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "truce",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "uae",
+        "word": "twist",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -259,72 +279,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "malaysian",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rule-shaper",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "isro",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shares",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "photo",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "putin",
-        "count": 3,
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "candidate",
-        "count": 3,
+        "word": "opinion",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "safety",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "bilateral",
-        "count": 3,
+        "word": "mediate",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "leaders",
-        "count": 3,
+        "word": "uae",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gulf",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "envoy",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "suggested",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-12T11:55:24.093905+00:00",
-    "nextRefresh": "2026-09-12T11:55:24.093905+00:00",
+    "generatedAt": "2026-09-12T14:52:45.159587+00:00",
+    "nextRefresh": "2026-09-12T14:52:45.159587+00:00",
     "articlesAnalyzed": 430,
-    "matchedMentions": 85,
-    "uniquePersonalities": 39,
+    "matchedMentions": 88,
+    "uniquePersonalities": 32,
     "dataSource": "live-rss"
   }
 }
