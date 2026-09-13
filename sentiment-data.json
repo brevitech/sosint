@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 49,
-    "negative": 42,
-    "neutral": 9,
+    "positive": 47,
+    "negative": 43,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 68,
+        "count": 71,
         "sentiment": "neutral"
       },
       {
@@ -15,13 +15,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
+        "word": "china",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "china",
-        "count": 9,
+        "word": "plan",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -35,17 +35,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ireland",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "targeted",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -60,11 +50,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "officials",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "trade",
         "count": 7,
         "sentiment": "neutral"
@@ -75,12 +60,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "republicans",
+        "word": "russia",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "right",
+        "word": "voters",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "targeted",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "republicans",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -120,11 +120,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "russia",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "train",
         "count": 5,
         "sentiment": "neutral"
@@ -135,7 +130,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "voters",
+        "word": "officials",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "irish",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -148,25 +153,20 @@
         "word": "convention",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 5,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-13T20:10:24.763031+00:00",
-    "nextRefresh": "2026-09-13T20:10:24.763031+00:00",
+    "generatedAt": "2026-09-13T22:48:40.532622+00:00",
+    "nextRefresh": "2026-09-13T22:48:40.532622+00:00",
     "articlesAnalyzed": 337,
-    "matchedMentions": 158,
-    "uniquePersonalities": 48,
+    "matchedMentions": 160,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 49,
-    "negative": 13,
-    "neutral": 38,
+    "positive": 45,
+    "negative": 18,
+    "neutral": 37,
     "wordCloud": [
       {
         "word": "brics",
@@ -175,7 +175,7 @@
       },
       {
         "word": "modi",
-        "count": 19,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-13T20:10:36.155101+00:00",
-    "nextRefresh": "2026-09-13T20:10:36.155101+00:00",
+    "generatedAt": "2026-09-13T22:48:53.236022+00:00",
+    "nextRefresh": "2026-09-13T22:48:53.236022+00:00",
     "articlesAnalyzed": 417,
-    "matchedMentions": 68,
-    "uniquePersonalities": 33,
+    "matchedMentions": 71,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
