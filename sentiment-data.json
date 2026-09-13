@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 45,
-    "negative": 49,
-    "neutral": 6,
+    "positive": 46,
+    "negative": 46,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
@@ -26,7 +26,12 @@
       },
       {
         "word": "convention",
-        "count": 10,
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "openai",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -50,11 +55,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "hegseth",
         "count": 7,
         "sentiment": "neutral"
@@ -65,14 +65,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "openai",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "united",
         "count": 6,
         "sentiment": "positive"
+      },
+      {
+        "word": "court",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "visits",
@@ -85,17 +85,22 @@
         "sentiment": "positive"
       },
       {
+        "word": "altman",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "vance",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "leaders",
+        "word": "remarks",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "brics",
+        "word": "ipo",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -106,6 +111,11 @@
       },
       {
         "word": "workforce",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "happened",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -143,30 +153,20 @@
         "word": "updates",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "king",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fantastic",
-        "count": 4,
-        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-12T22:47:44.840197+00:00",
-    "nextRefresh": "2026-09-12T22:47:44.840197+00:00",
+    "generatedAt": "2026-09-13T00:34:09.137944+00:00",
+    "nextRefresh": "2026-09-13T00:34:09.137944+00:00",
     "articlesAnalyzed": 336,
-    "matchedMentions": 161,
-    "uniquePersonalities": 45,
+    "matchedMentions": 163,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 45,
-    "negative": 15,
-    "neutral": 40,
+    "negative": 14,
+    "neutral": 41,
     "wordCloud": [
       {
         "word": "modi",
@@ -189,22 +189,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nandigram",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "candidate",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "border",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nandigram",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -249,6 +239,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "candidate",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "trinamool",
         "count": 4,
         "sentiment": "neutral"
@@ -259,7 +254,7 @@
         "sentiment": "negative"
       },
       {
-        "word": "race",
+        "word": "banerjee",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -317,14 +312,19 @@
         "word": "powerful",
         "count": 3,
         "sentiment": "positive"
+      },
+      {
+        "word": "bilateral",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-12T22:47:57.705300+00:00",
-    "nextRefresh": "2026-09-12T22:47:57.705300+00:00",
-    "articlesAnalyzed": 415,
-    "matchedMentions": 73,
-    "uniquePersonalities": 29,
+    "generatedAt": "2026-09-13T00:34:21.413900+00:00",
+    "nextRefresh": "2026-09-13T00:34:21.413900+00:00",
+    "articlesAnalyzed": 416,
+    "matchedMentions": 69,
+    "uniquePersonalities": 26,
     "dataSource": "live-rss"
   }
 }
