@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 46,
-    "negative": 46,
-    "neutral": 8,
+    "positive": 50,
+    "negative": 44,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 81,
+        "count": 76,
         "sentiment": "neutral"
       },
       {
@@ -16,12 +16,12 @@
       },
       {
         "word": "war",
-        "count": 15,
+        "count": 11,
         "sentiment": "negative"
       },
       {
         "word": "iran",
-        "count": 13,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -35,14 +35,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
+        "word": "rules",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "rules",
-        "count": 8,
-        "sentiment": "neutral"
+        "word": "united",
+        "count": 7,
+        "sentiment": "positive"
       },
       {
         "word": "midterm",
@@ -55,7 +55,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "hegseth",
+        "word": "plan",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -65,14 +65,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "united",
+        "word": "fantastic",
         "count": 6,
         "sentiment": "positive"
-      },
-      {
-        "word": "court",
-        "count": 6,
-        "sentiment": "neutral"
       },
       {
         "word": "visits",
@@ -95,22 +90,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "remarks",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "ipo",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "workforce",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -150,56 +130,81 @@
         "sentiment": "neutral"
       },
       {
+        "word": "debate",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "updates",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "king",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "touches",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nerve",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-13T00:34:09.137944+00:00",
-    "nextRefresh": "2026-09-13T00:34:09.137944+00:00",
-    "articlesAnalyzed": 336,
-    "matchedMentions": 163,
+    "generatedAt": "2026-09-13T05:35:54.817635+00:00",
+    "nextRefresh": "2026-09-13T05:35:54.817635+00:00",
+    "articlesAnalyzed": 338,
+    "matchedMentions": 158,
     "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 14,
-    "neutral": 41,
+    "positive": 47,
+    "negative": 24,
+    "neutral": 29,
     "wordCloud": [
       {
-        "word": "modi",
-        "count": 29,
+        "word": "brics",
+        "count": 28,
         "sentiment": "neutral"
       },
       {
-        "word": "brics",
+        "word": "modi",
         "count": 26,
         "sentiment": "neutral"
       },
       {
         "word": "summit",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "border",
-        "count": 5,
+        "word": "dinner",
+        "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "won",
+        "count": 5,
+        "sentiment": "positive"
       },
       {
         "word": "nandigram",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -209,29 +214,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "malaysian",
+        "word": "gala",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "dinner",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "final",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "message",
+        "word": "push",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "won",
+        "word": "border",
         "count": 4,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "field",
@@ -259,22 +254,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "conference",
+        "word": "ajith",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "gala",
+        "word": "india-china",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "south",
+        "word": "declaration",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "roy",
+        "word": "decision",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -294,37 +289,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hands",
+        "word": "reform",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "putin",
+        "word": "message",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "powerful",
-        "count": 3,
-        "sentiment": "positive"
       },
       {
         "word": "bilateral",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "flags",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "race",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-13T00:34:21.413900+00:00",
-    "nextRefresh": "2026-09-13T00:34:21.413900+00:00",
-    "articlesAnalyzed": 416,
-    "matchedMentions": 69,
-    "uniquePersonalities": 26,
+    "generatedAt": "2026-09-13T05:36:20.664975+00:00",
+    "nextRefresh": "2026-09-13T05:36:20.664975+00:00",
+    "articlesAnalyzed": 431,
+    "matchedMentions": 74,
+    "uniquePersonalities": 27,
     "dataSource": "live-rss"
   }
 }
