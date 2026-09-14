@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 47,
-    "negative": 43,
+    "positive": 49,
+    "negative": 41,
     "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 71,
+        "count": 72,
         "sentiment": "neutral"
       },
       {
@@ -26,7 +26,7 @@
       },
       {
         "word": "dividend",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -40,6 +40,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "targeted",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "urges",
         "count": 8,
         "sentiment": "neutral"
@@ -47,6 +52,11 @@
       {
         "word": "house",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "officials",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -65,17 +75,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "slowdown",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "voters",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "vance",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "targeted",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -130,12 +140,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "officials",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
+        "word": "downplays",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -148,25 +153,20 @@
         "word": "united",
         "count": 5,
         "sentiment": "positive"
-      },
-      {
-        "word": "convention",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-13T22:48:40.532622+00:00",
-    "nextRefresh": "2026-09-13T22:48:40.532622+00:00",
+    "generatedAt": "2026-09-14T00:37:39.267975+00:00",
+    "nextRefresh": "2026-09-14T00:37:39.267975+00:00",
     "articlesAnalyzed": 337,
-    "matchedMentions": 160,
+    "matchedMentions": 164,
     "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 18,
-    "neutral": 37,
+    "positive": 51,
+    "negative": 17,
+    "neutral": 32,
     "wordCloud": [
       {
         "word": "brics",
@@ -185,21 +185,11 @@
       },
       {
         "word": "india",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "asia",
-        "count": 7,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "leaders",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -219,12 +209,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "women",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dinner",
+        "word": "asia",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -249,12 +234,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "cup",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "bjp",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "congress",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dinner",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -269,27 +264,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gala",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "rahul",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shafali",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "verma",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -309,6 +289,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "women",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "team",
         "count": 3,
         "sentiment": "neutral"
@@ -317,14 +302,29 @@
         "word": "names",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "weaponisation",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minerals",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "future",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-13T22:48:53.236022+00:00",
-    "nextRefresh": "2026-09-13T22:48:53.236022+00:00",
+    "generatedAt": "2026-09-14T00:37:50.067125+00:00",
+    "nextRefresh": "2026-09-14T00:37:50.067125+00:00",
     "articlesAnalyzed": 417,
     "matchedMentions": 71,
-    "uniquePersonalities": 35,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
