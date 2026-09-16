@@ -1,32 +1,42 @@
 {
   "us": {
-    "positive": 50,
-    "negative": 43,
-    "neutral": 7,
+    "positive": 49,
+    "negative": 45,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 60,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
         "word": "kennedy",
-        "count": 21,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "center",
-        "count": 21,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "hegseth",
         "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "blanche",
+        "word": "name",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "republican",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -35,43 +45,38 @@
         "sentiment": "neutral"
       },
       {
-        "word": "hegseth",
-        "count": 11,
+        "word": "calls",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blanche",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 11,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 11,
-        "sentiment": "negative"
-      },
-      {
-        "word": "name",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republican",
-        "count": 10,
+        "word": "close",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "rep",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
-        "count": 9,
+        "word": "impeach",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "video",
-        "count": 9,
+        "word": "secretary",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -90,42 +95,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
+        "word": "court",
         "count": 8,
         "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "safety",
+        "count": 7,
+        "sentiment": "positive"
       },
       {
         "word": "house",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "impeach",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "board",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "close",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "putin",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wedding",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -135,14 +120,24 @@
         "sentiment": "positive"
       },
       {
-        "word": "votes",
+        "word": "board",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
+        "word": "wedding",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "block",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "mail-in",
@@ -150,32 +145,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ballot",
+        "word": "video",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bessent",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-15T22:39:29.069355+00:00",
-    "nextRefresh": "2026-09-15T22:39:29.069355+00:00",
-    "articlesAnalyzed": 333,
-    "matchedMentions": 160,
+    "generatedAt": "2026-09-16T00:59:34.018703+00:00",
+    "nextRefresh": "2026-09-16T00:59:34.018703+00:00",
+    "articlesAnalyzed": 335,
+    "matchedMentions": 164,
     "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 33,
-    "negative": 50,
-    "neutral": 17,
+    "positive": 36,
+    "negative": 43,
+    "neutral": 21,
     "wordCloud": [
       {
-        "word": "rahul",
+        "word": "modi",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 9,
+        "word": "rahul",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -199,6 +199,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "london",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "brics",
         "count": 5,
         "sentiment": "neutral"
@@ -211,11 +221,6 @@
       {
         "word": "gandhi",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "london",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -254,7 +259,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "tata",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -269,9 +274,29 @@
         "sentiment": "neutral"
       },
       {
-        "word": "arrest",
+        "word": "event",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cancelled",
         "count": 3,
         "sentiment": "negative"
+      },
+      {
+        "word": "safety",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "concerns",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ucc",
+        "count": 3,
+        "sentiment": "neutral"
       },
       {
         "word": "govt",
@@ -279,7 +304,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "samson",
+        "word": "sons",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "major",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -287,43 +317,13 @@
         "word": "tax",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "opposition",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "merchant",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "transactions",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kharge",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dmk",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-15T22:39:39.421137+00:00",
-    "nextRefresh": "2026-09-15T22:39:39.421137+00:00",
-    "articlesAnalyzed": 418,
-    "matchedMentions": 52,
+    "generatedAt": "2026-09-16T00:59:45.651183+00:00",
+    "nextRefresh": "2026-09-16T00:59:45.651183+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 58,
     "uniquePersonalities": 29,
     "dataSource": "live-rss"
   }
