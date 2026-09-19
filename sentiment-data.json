@@ -1,51 +1,56 @@
 {
   "us": {
-    "positive": 42,
+    "positive": 44,
     "negative": 51,
-    "neutral": 7,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 77,
+        "count": 79,
         "sentiment": "neutral"
       },
       {
         "word": "house",
-        "count": 17,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "white",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cnn",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "politico",
-        "count": 12,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 12,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "kennedy",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "center",
-        "count": 10,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "outlets",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "center",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cnn",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "politico",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "greenland",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -55,9 +60,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "greenland",
-        "count": 9,
-        "sentiment": "neutral"
+        "word": "denied",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
         "word": "ban",
@@ -65,43 +70,33 @@
         "sentiment": "negative"
       },
       {
+        "word": "media",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "signs",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "buffett",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "berkshire",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "denied",
+        "word": "access",
         "count": 7,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "banning",
+        "word": "denmark",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "journalists",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "sanctions",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "access",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "denmark",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -125,22 +120,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "down",
+        "word": "buffett",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "journalists",
+        "word": "berkshire",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "media",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "claims",
+        "word": "talks",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,34 +143,34 @@
         "word": "state",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "sweeping",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-19T17:42:32.336730+00:00",
-    "nextRefresh": "2026-09-19T17:42:32.336730+00:00",
-    "articlesAnalyzed": 328,
-    "matchedMentions": 158,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-09-19T19:56:27.801620+00:00",
+    "nextRefresh": "2026-09-19T19:56:27.801620+00:00",
+    "articlesAnalyzed": 324,
+    "matchedMentions": 156,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 51,
-    "negative": 32,
-    "neutral": 17,
+    "positive": 36,
+    "negative": 44,
+    "neutral": 20,
     "wordCloud": [
       {
-        "word": "abvp",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dusu",
-        "count": 10,
+        "word": "kejriwal",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -189,62 +179,87 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "modi",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "poll",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "friends",
-        "count": 8,
-        "sentiment": "positive"
-      },
-      {
-        "word": "kejriwal",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "sir",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "results",
-        "count": 6,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "secretary",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abvp",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "custody",
+        "word": "dusu",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "stalin",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "row",
+        "word": "targets",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "poll",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rekha",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gupta",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "notices",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -259,6 +274,26 @@
         "sentiment": "neutral"
       },
       {
+        "word": "cuts",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "law",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "order",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "takes",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "body",
         "count": 4,
         "sentiment": "neutral"
@@ -269,62 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "analysis",
+        "word": "death",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "frenemies",
+        "word": "friends",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "congress-trinamool",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "relationship",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "comes",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "full",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "circle",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "system",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "questions",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
+        "word": "former",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-19T17:42:42.703501+00:00",
-    "nextRefresh": "2026-09-19T17:42:42.703501+00:00",
-    "articlesAnalyzed": 382,
-    "matchedMentions": 95,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-09-19T19:56:38.056083+00:00",
+    "nextRefresh": "2026-09-19T19:56:38.056083+00:00",
+    "articlesAnalyzed": 366,
+    "matchedMentions": 80,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   }
 }
