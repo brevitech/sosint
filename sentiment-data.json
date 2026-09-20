@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 51,
+    "positive": 43,
+    "negative": 50,
     "neutral": 7,
     "wordCloud": [
       {
@@ -11,17 +11,17 @@
       },
       {
         "word": "house",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
         "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
         "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -35,17 +35,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kennedy",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cnn",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "politico",
+        "word": "signs",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -55,19 +45,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "center",
+        "word": "kennedy",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "say",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "denied",
+        "word": "cnn",
         "count": 8,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "politico",
+        "count": 8,
+        "sentiment": "neutral"
       },
       {
         "word": "ban",
@@ -80,14 +70,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "signs",
+        "word": "center",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "access",
-        "count": 7,
+        "word": "say",
+        "count": 8,
         "sentiment": "neutral"
+      },
+      {
+        "word": "denied",
+        "count": 7,
+        "sentiment": "negative"
       },
       {
         "word": "journalists",
@@ -103,6 +98,11 @@
         "word": "war",
         "count": 7,
         "sentiment": "negative"
+      },
+      {
+        "word": "access",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
         "word": "security",
@@ -156,16 +156,16 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-19T22:06:41.557516+00:00",
-    "nextRefresh": "2026-09-19T22:06:41.557516+00:00",
+    "generatedAt": "2026-09-20T00:35:10.087162+00:00",
+    "nextRefresh": "2026-09-20T00:35:10.087162+00:00",
     "articlesAnalyzed": 325,
-    "matchedMentions": 160,
-    "uniquePersonalities": 41,
+    "matchedMentions": 159,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 36,
-    "negative": 46,
+    "positive": 35,
+    "negative": 47,
     "neutral": 18,
     "wordCloud": [
       {
@@ -199,17 +199,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "rahul",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "dusu",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -254,17 +254,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "modi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "president",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "dabas",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -320,10 +320,10 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-19T22:06:51.596496+00:00",
-    "nextRefresh": "2026-09-19T22:06:51.596496+00:00",
+    "generatedAt": "2026-09-20T00:35:19.532678+00:00",
+    "nextRefresh": "2026-09-20T00:35:19.532678+00:00",
     "articlesAnalyzed": 365,
-    "matchedMentions": 76,
+    "matchedMentions": 75,
     "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
