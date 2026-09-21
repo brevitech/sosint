@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 48,
-    "negative": 43,
-    "neutral": 9,
+    "positive": 49,
+    "negative": 40,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 81,
+        "count": 78,
         "sentiment": "neutral"
       },
       {
@@ -16,7 +16,7 @@
       },
       {
         "word": "arch",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -25,7 +25,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "military",
+        "word": "austin",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "texas",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -45,7 +50,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "complex",
+        "word": "calls",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "say",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "election",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "military",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -65,8 +85,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "election",
-        "count": 7,
+        "word": "shoots",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "man",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "complex",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -90,7 +120,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
+        "word": "ice",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -115,57 +145,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "agent",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "snipers",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "controversy",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "russia",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "down",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "faces",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reporters",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-20T22:54:18.598749+00:00",
-    "nextRefresh": "2026-09-20T22:54:18.598749+00:00",
+    "generatedAt": "2026-09-21T00:46:52.222178+00:00",
+    "nextRefresh": "2026-09-21T00:46:52.222178+00:00",
     "articlesAnalyzed": 329,
-    "matchedMentions": 164,
-    "uniquePersonalities": 45,
+    "matchedMentions": 161,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 57,
-    "negative": 22,
+    "positive": 58,
+    "negative": 21,
     "neutral": 21,
     "wordCloud": [
       {
@@ -174,8 +174,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tata",
-        "count": 12,
+        "word": "jaishankar",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -184,12 +184,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jaishankar",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
+        "word": "tata",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -201,11 +196,6 @@
       {
         "word": "modi",
         "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sir",
-        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -224,17 +214,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trusts",
-        "count": 8,
-        "sentiment": "positive"
+        "word": "sir",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 9,
+        "sentiment": "neutral"
       },
       {
         "word": "notices",
-        "count": 7,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trusts",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "delhi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "advani",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -260,26 +270,6 @@
       },
       {
         "word": "list",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "asian",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "games",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "advani",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -317,14 +307,24 @@
         "word": "stone",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "among",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-20T22:54:27.797930+00:00",
-    "nextRefresh": "2026-09-20T22:54:27.797930+00:00",
-    "articlesAnalyzed": 367,
+    "generatedAt": "2026-09-21T00:47:01.978976+00:00",
+    "nextRefresh": "2026-09-21T00:47:01.978976+00:00",
+    "articlesAnalyzed": 366,
     "matchedMentions": 89,
-    "uniquePersonalities": 39,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
