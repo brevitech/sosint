@@ -1,22 +1,27 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 53,
+    "positive": 41,
+    "negative": 52,
     "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 108,
+        "count": 107,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 17,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "cnn",
-        "count": 13,
+        "word": "harris",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -25,18 +30,8 @@
         "sentiment": "negative"
       },
       {
-        "word": "white",
+        "word": "el-sayed",
         "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -45,22 +40,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 10,
-        "sentiment": "negative"
+        "word": "campaign",
+        "count": 11,
+        "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "white",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "burnham",
         "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "ukraine",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "media",
+        "word": "meeting",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -75,22 +80,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tells",
+        "word": "sue",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "politico",
+        "word": "speech",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "york",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "michigan",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "energy",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "american",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "defends",
+        "word": "diesel",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -100,72 +125,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "meeting",
+        "word": "administration",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "fraud",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "annihilate",
+        "word": "outlets",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "election",
+        "word": "cnn",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "burnham",
+        "word": "paramount",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "merger",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "allies",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "diesel",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "king",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "removes",
-        "count": 5,
+        "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-22T19:30:32.021927+00:00",
-    "nextRefresh": "2026-09-22T19:30:32.021927+00:00",
-    "articlesAnalyzed": 318,
-    "matchedMentions": 188,
-    "uniquePersonalities": 54,
+    "generatedAt": "2026-09-22T22:39:27.399260+00:00",
+    "nextRefresh": "2026-09-22T22:39:27.399260+00:00",
+    "articlesAnalyzed": 320,
+    "matchedMentions": 206,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 53,
-    "negative": 35,
+    "positive": 50,
+    "negative": 38,
     "neutral": 12,
     "wordCloud": [
       {
@@ -224,18 +224,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tata",
+        "word": "slams",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "lakh",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 3,
+        "word": "tata",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -254,11 +249,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "slams",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "jamui",
         "count": 3,
         "sentiment": "neutral"
@@ -269,17 +259,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "prasad",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
         "word": "vacancies",
         "count": 2,
         "sentiment": "neutral"
       },
       {
         "word": "appointments",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lakh",
         "count": 2,
         "sentiment": "neutral"
       },
@@ -314,16 +304,26 @@
         "sentiment": "neutral"
       },
       {
-        "word": "wins",
+        "word": "row",
         "count": 2,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cyclone",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bay",
+        "count": 2,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-22T19:30:38.893890+00:00",
-    "nextRefresh": "2026-09-22T19:30:38.893890+00:00",
+    "generatedAt": "2026-09-22T22:39:38.571009+00:00",
+    "nextRefresh": "2026-09-22T22:39:38.571009+00:00",
     "articlesAnalyzed": 367,
-    "matchedMentions": 51,
+    "matchedMentions": 48,
     "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
