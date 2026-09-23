@@ -1,12 +1,27 @@
 {
   "us": {
-    "positive": 35,
-    "negative": 54,
-    "neutral": 11,
+    "positive": 38,
+    "negative": 56,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 76,
+        "count": 87,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 24,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ban",
+        "count": 24,
+        "sentiment": "negative"
+      },
+      {
+        "word": "white",
+        "count": 23,
         "sentiment": "neutral"
       },
       {
@@ -15,59 +30,59 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
-        "count": 16,
+        "word": "judge",
+        "count": 19,
         "sentiment": "neutral"
       },
       {
-        "word": "white",
-        "count": 14,
+        "word": "putin",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
-        "count": 14,
+        "word": "media",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "taiwan",
-        "count": 11,
+        "word": "calls",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "gop",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ahead",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "summit",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 11,
+        "sentiment": "negative"
+      },
+      {
+        "word": "democrats",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "push",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "president",
         "count": 9,
         "sentiment": "neutral"
-      },
-      {
-        "word": "meeting",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "speech",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "energy",
-        "count": 9,
-        "sentiment": "positive"
       },
       {
         "word": "york",
@@ -75,27 +90,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "soon",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "media",
+        "word": "speech",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "defends",
+        "word": "taiwan",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attend",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "talks",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rule",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "prison",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "administration",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "agenda",
+        "word": "invites",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
+        "word": "zelenskyy",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "end",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -105,72 +150,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "senators",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ban",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "outlets",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "weinstein",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "prison",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "hearing",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "data",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ukraine",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
+        "word": "miami",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-23T18:10:50.960217+00:00",
-    "nextRefresh": "2026-09-23T18:10:50.960217+00:00",
-    "articlesAnalyzed": 325,
-    "matchedMentions": 186,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-09-23T21:58:19.281739+00:00",
+    "nextRefresh": "2026-09-23T21:58:19.281739+00:00",
+    "articlesAnalyzed": 316,
+    "matchedMentions": 204,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 47,
-    "negative": 30,
-    "neutral": 23,
+    "positive": 37,
+    "negative": 34,
+    "neutral": 29,
     "wordCloud": [
       {
         "word": "india",
-        "count": 13,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -179,7 +179,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "yadav",
+        "word": "high",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -199,6 +199,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "crore",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amp",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "seeks",
         "count": 5,
         "sentiment": "neutral"
@@ -209,47 +219,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "row",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "long-term",
+        "word": "court",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "plans",
+        "word": "acquits",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "woman",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "convicted",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "son",
+        "word": "killing",
         "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "wedding",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mohan",
+        "word": "children",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -259,17 +259,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "conclave",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "raises",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "concerns",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lakh",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -289,11 +294,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "amp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "bengal",
         "count": 4,
         "sentiment": "neutral"
@@ -309,22 +309,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "lakh",
+        "word": "cec",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "arrest",
+        "word": "gyanesh",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-23T18:11:02.358581+00:00",
-    "nextRefresh": "2026-09-23T18:11:02.358581+00:00",
-    "articlesAnalyzed": 381,
-    "matchedMentions": 66,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-09-23T21:58:29.132516+00:00",
+    "nextRefresh": "2026-09-23T21:58:29.132516+00:00",
+    "articlesAnalyzed": 367,
+    "matchedMentions": 62,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
