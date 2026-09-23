@@ -1,17 +1,12 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 52,
-    "neutral": 9,
+    "positive": 40,
+    "negative": 50,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 96,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 22,
+        "count": 101,
         "sentiment": "neutral"
       },
       {
@@ -21,6 +16,11 @@
       },
       {
         "word": "iran",
+        "count": 18,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
         "count": 18,
         "sentiment": "neutral"
       },
@@ -36,13 +36,8 @@
       },
       {
         "word": "ban",
-        "count": 12,
+        "count": 13,
         "sentiment": "negative"
-      },
-      {
-        "word": "general",
-        "count": 12,
-        "sentiment": "neutral"
       },
       {
         "word": "white",
@@ -55,14 +50,29 @@
         "sentiment": "neutral"
       },
       {
+        "word": "general",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
         "word": "michigan",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "assembly",
+        "word": "ukraine",
         "count": 9,
         "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fraud",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
         "word": "sue",
@@ -75,7 +85,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "speech",
+        "word": "talks",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -85,12 +95,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "york",
+        "word": "american",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -100,22 +105,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "assembly",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "american",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "diesel",
+        "word": "outlets",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -125,17 +120,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "amid",
+        "word": "ahead",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "defends",
+        "word": "speech",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "diesel",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "york",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -145,186 +145,186 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "russia",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "cnn",
-        "count": 6,
+        "word": "calls",
+        "count": 7,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-23T01:10:40.236531+00:00",
-    "nextRefresh": "2026-09-23T01:10:40.236531+00:00",
-    "articlesAnalyzed": 320,
-    "matchedMentions": 203,
-    "uniquePersonalities": 47,
+    "generatedAt": "2026-09-23T07:12:35.305146+00:00",
+    "nextRefresh": "2026-09-23T07:12:35.305146+00:00",
+    "articlesAnalyzed": 323,
+    "matchedMentions": 211,
+    "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 32,
-    "negative": 51,
-    "neutral": 17,
+    "positive": 48,
+    "negative": 29,
+    "neutral": 23,
     "wordCloud": [
       {
-        "word": "india",
-        "count": 10,
+        "word": "modi",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "asian",
-        "count": 4,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "games",
-        "count": 4,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "slams",
-        "count": 4,
+        "word": "india",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "jaishankar",
-        "count": 3,
+        "word": "chanu",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "jamui",
-        "count": 3,
+        "word": "silver",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "dialogue",
-        "count": 2,
+        "word": "visit",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "diplomacy",
-        "count": 2,
-        "sentiment": "neutral"
+        "word": "medal",
+        "count": 6,
+        "sentiment": "positive"
       },
       {
-        "word": "forward",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ukrainian",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minister",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "defeats",
-        "count": 2,
-        "sentiment": "negative"
-      },
-      {
-        "word": "philippines",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "men",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sepak",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "takraw",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "team",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "regu",
-        "count": 2,
+        "word": "against",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "trade",
-        "count": 2,
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
-        "count": 2,
+        "word": "urges",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "national",
-        "count": 2,
+        "word": "summit",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "seeks",
-        "count": 2,
+        "word": "bjp",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
-        "count": 2,
+        "word": "wins",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "canada",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "gold",
-        "count": 2,
+        "word": "global",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "cyclone",
-        "count": 2,
+        "word": "finance",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bay",
-        "count": 2,
+        "word": "target",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bengal",
-        "count": 2,
+        "word": "adani",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "system",
-        "count": 2,
+        "word": "tmc",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "intensifies",
-        "count": 2,
+        "word": "party",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "symbol",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "depression",
-        "count": 2,
-        "sentiment": "negative"
+        "word": "murmu",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mark",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "carney",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odisha",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "alert",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "bajaj",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "prasad",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "emkay",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-23T01:10:51.109234+00:00",
-    "nextRefresh": "2026-09-23T01:10:51.109234+00:00",
-    "articlesAnalyzed": 366,
-    "matchedMentions": 41,
-    "uniquePersonalities": 33,
+    "generatedAt": "2026-09-23T07:12:46.783404+00:00",
+    "nextRefresh": "2026-09-23T07:12:46.783404+00:00",
+    "articlesAnalyzed": 378,
+    "matchedMentions": 58,
+    "uniquePersonalities": 27,
     "dataSource": "live-rss"
   }
 }
