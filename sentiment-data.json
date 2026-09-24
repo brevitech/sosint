@@ -1,67 +1,52 @@
 {
   "us": {
-    "positive": 37,
+    "positive": 36,
     "negative": 56,
-    "neutral": 7,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 86,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 21,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ban",
-        "count": 21,
-        "sentiment": "negative"
-      },
-      {
-        "word": "white",
-        "count": 20,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "visit",
-        "count": 19,
+        "count": 93,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 15,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
-        "word": "state",
-        "count": 15,
+        "word": "house",
+        "count": 23,
         "sentiment": "neutral"
       },
       {
-        "word": "jinping",
-        "count": 14,
+        "word": "white",
+        "count": 22,
         "sentiment": "neutral"
       },
       {
-        "word": "putin",
+        "word": "ban",
+        "count": 22,
+        "sentiment": "negative"
+      },
+      {
+        "word": "iran",
+        "count": 18,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "china",
         "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
+        "word": "rare",
         "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "summit",
-        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -70,42 +55,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "china",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
-        "word": "arrives",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "greets",
-        "count": 9,
-        "sentiment": "positive"
-      },
-      {
-        "word": "democrats",
-        "count": 9,
+        "word": "state",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "speech",
-        "count": 8,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
-        "count": 8,
+        "word": "welcome",
+        "count": 10,
+        "sentiment": "positive"
+      },
+      {
+        "word": "trade",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "openai",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jinping",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "truce",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "push",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "attend",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "us-china",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -115,9 +115,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "push",
+        "word": "democrats",
         "count": 8,
         "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
         "word": "senate",
@@ -125,191 +130,146 @@
         "sentiment": "neutral"
       },
       {
-        "word": "welcome",
-        "count": 7,
-        "sentiment": "positive"
-      },
-      {
-        "word": "end",
+        "word": "global",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
+        "word": "access",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "president",
-        "count": 6,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "rare",
-        "count": 6,
+        "word": "putin",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "openai",
-        "count": 6,
+        "word": "happened",
+        "count": 7,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-24T00:17:49.107243+00:00",
-    "nextRefresh": "2026-09-24T00:17:49.107243+00:00",
-    "articlesAnalyzed": 316,
-    "matchedMentions": 199,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-09-24T05:47:14.341923+00:00",
+    "nextRefresh": "2026-09-24T05:47:14.341923+00:00",
+    "articlesAnalyzed": 320,
+    "matchedMentions": 209,
+    "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 39,
-    "negative": 31,
-    "neutral": 30,
+    "positive": 32,
+    "negative": 45,
+    "neutral": 23,
     "wordCloud": [
       {
         "word": "india",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tata",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "high",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sons",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "openai",
+        "word": "minister",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "singh",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "acquits",
+        "word": "student",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "woman",
+        "word": "tata",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "convicted",
+        "word": "against",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "killing",
-        "count": 4,
+        "word": "jharkhand",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "daughter",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "others",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "road",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "accident",
+        "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "children",
-        "count": 4,
-        "sentiment": "neutral"
+        "word": "arrest",
+        "count": 3,
+        "sentiment": "negative"
       },
       {
-        "word": "ndtv",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seek",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chandrasekaran",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cec",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gyanesh",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kumar",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "adani",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ambani",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crore",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
+        "word": "west",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "yadav",
+        "word": "bengal",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "killed",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "bus",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
+        "word": "fire",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "likely",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "eci",
+        "word": "ongoing",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "agm",
+        "word": "russia",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "rubio",
+        "word": "sanctions",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -317,14 +277,54 @@
         "word": "jaishankar",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "pandey",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "three",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "speaks",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deceased",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "parents",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "suicide",
+        "count": 2,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-24T00:17:57.657752+00:00",
-    "nextRefresh": "2026-09-24T00:17:57.657752+00:00",
-    "articlesAnalyzed": 368,
-    "matchedMentions": 64,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-09-24T05:47:39.596339+00:00",
+    "nextRefresh": "2026-09-24T05:47:39.596339+00:00",
+    "articlesAnalyzed": 364,
+    "matchedMentions": 47,
+    "uniquePersonalities": 32,
     "dataSource": "live-rss"
   }
 }
