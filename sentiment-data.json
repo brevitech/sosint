@@ -1,36 +1,36 @@
 {
   "us": {
-    "positive": 36,
-    "negative": 59,
-    "neutral": 5,
+    "positive": 33,
+    "negative": 60,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 76,
+        "count": 79,
         "sentiment": "neutral"
       },
       {
         "word": "iran",
-        "count": 16,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "house",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
+        "word": "media",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "china",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
+        "word": "talks",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -40,12 +40,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "media",
+        "word": "visit",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "behind",
+        "word": "war",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "china",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -55,14 +60,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
-        "count": 6,
+        "word": "impeachment",
+        "count": 7,
         "sentiment": "neutral"
-      },
-      {
-        "word": "rejects",
-        "count": 6,
-        "sentiment": "negative"
       },
       {
         "word": "hormuz",
@@ -70,14 +70,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "deal",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 6,
-        "sentiment": "negative"
       },
       {
         "word": "summit",
@@ -85,17 +80,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
+        "word": "ban",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "midterms",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "pope",
-        "count": 5,
+        "word": "behind",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "presidential",
+        "word": "third",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rejects",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "resume",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -105,19 +115,34 @@
         "sentiment": "neutral"
       },
       {
+        "word": "state",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gates",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "reopen",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "midterms",
+        "word": "defends",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "approved",
+        "word": "right",
         "count": 5,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "paxton",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "hypothetical",
@@ -128,54 +153,24 @@
         "word": "dangers",
         "count": 5,
         "sentiment": "negative"
-      },
-      {
-        "word": "already",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "granate",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kim",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mohamed",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hussein",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-27T17:24:45.612529+00:00",
-    "nextRefresh": "2026-09-27T17:24:45.612529+00:00",
-    "articlesAnalyzed": 323,
-    "matchedMentions": 165,
+    "generatedAt": "2026-09-27T20:44:13.624085+00:00",
+    "nextRefresh": "2026-09-27T20:44:13.624085+00:00",
+    "articlesAnalyzed": 324,
+    "matchedMentions": 169,
     "uniquePersonalities": 51,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 37,
+    "positive": 42,
     "negative": 38,
-    "neutral": 25,
+    "neutral": 20,
     "wordCloud": [
       {
         "word": "kohli",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "odi",
-        "count": 13,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -184,32 +179,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tendulkar",
+        "word": "odi",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "virat",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "defence",
+        "word": "tendulkar",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "record",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "breaks",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -224,72 +209,42 @@
         "sentiment": "neutral"
       },
       {
+        "word": "cjp",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "virat",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "breaks",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "asian",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "games",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "rahul",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pakistan",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "threat",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "modi",
-        "count": 5,
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "prepared",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "respond",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "quickly",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "decisively",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cup",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "runs",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sachin",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "questions",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "claims",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -304,27 +259,72 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gill",
-        "count": 4,
+        "word": "tribute",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "target",
-        "count": 4,
+        "word": "ashok",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "knock",
-        "count": 4,
+        "word": "singhal",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "detention",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "assam",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sachin",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "team",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrest",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "strike",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "tata",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "surgical",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-27T17:24:55.701544+00:00",
-    "nextRefresh": "2026-09-27T17:24:55.701544+00:00",
-    "articlesAnalyzed": 379,
-    "matchedMentions": 89,
-    "uniquePersonalities": 49,
+    "generatedAt": "2026-09-27T20:44:22.886599+00:00",
+    "nextRefresh": "2026-09-27T20:44:22.886599+00:00",
+    "articlesAnalyzed": 368,
+    "matchedMentions": 64,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
