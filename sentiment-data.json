@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 34,
-    "negative": 59,
-    "neutral": 7,
+    "positive": 32,
+    "negative": 60,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 84,
+        "count": 81,
         "sentiment": "neutral"
       },
       {
@@ -20,12 +20,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 12,
+        "word": "china",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "china",
+        "word": "summit",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -35,12 +35,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "summit",
-        "count": 8,
+        "word": "iran",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "dinner",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -65,12 +70,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "anthropic",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "anthropic",
+        "word": "ambassador",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "republican",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -95,7 +105,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "race",
+        "word": "president",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -105,17 +115,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "storm",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "man",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "netanyahu",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -125,12 +125,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "oil",
+        "word": "plan",
         "count": 5,
         "sentiment": "neutral"
       },
       {
+        "word": "strikes",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
         "word": "amodei",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -143,134 +153,59 @@
         "word": "paxton",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "hypothetical",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dangers",
-        "count": 5,
-        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-28T03:12:22.275805+00:00",
-    "nextRefresh": "2026-09-28T03:12:22.275805+00:00",
-    "articlesAnalyzed": 325,
-    "matchedMentions": 169,
-    "uniquePersonalities": 52,
+    "generatedAt": "2026-09-28T10:25:43.685224+00:00",
+    "nextRefresh": "2026-09-28T10:25:43.685224+00:00",
+    "articlesAnalyzed": 322,
+    "matchedMentions": 178,
+    "uniquePersonalities": 55,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 42,
-    "negative": 34,
-    "neutral": 24,
+    "positive": 46,
+    "negative": 31,
+    "neutral": 23,
     "wordCloud": [
       {
         "word": "india",
-        "count": 15,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "kohli",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
+        "word": "target",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "asian",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "games",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "odi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bhaker",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "medal",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
         "word": "west",
-        "count": 5,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "indies",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tamil",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "packed",
-        "count": 4,
+        "word": "nadu",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "awaits",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "sable",
-        "count": 4,
+        "word": "kohli",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "nagal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hopes",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "rahul",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "claims",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ashok",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "singhal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "virat",
-        "count": 4,
+        "word": "odi",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -279,52 +214,117 @@
         "sentiment": "neutral"
       },
       {
-        "word": "baat",
+        "word": "launches",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "surgical",
+        "word": "one-gram",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "lovlina",
+        "word": "gold",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "newborns",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "punjab",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "accuses",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "shah",
+        "word": "ring",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "tribute",
+        "word": "scheme",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "sitharaman",
+        "word": "asian",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "qatar",
+        "word": "games",
         "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "madurai",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "openai",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "questions",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "emkay",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "financial",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gill",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cup",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "akali",
+        "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-28T03:12:33.347369+00:00",
-    "nextRefresh": "2026-09-28T03:12:33.347369+00:00",
-    "articlesAnalyzed": 364,
-    "matchedMentions": 59,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-09-28T10:25:56.166523+00:00",
+    "nextRefresh": "2026-09-28T10:25:56.166523+00:00",
+    "articlesAnalyzed": 381,
+    "matchedMentions": 61,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
