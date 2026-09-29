@@ -1,18 +1,23 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 52,
+    "positive": 39,
+    "negative": 53,
     "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 69,
+        "count": 61,
         "sentiment": "neutral"
       },
       {
         "word": "summit",
         "count": 8,
         "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 8,
+        "sentiment": "negative"
       },
       {
         "word": "steel",
@@ -30,11 +35,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
         "word": "china",
         "count": 7,
         "sentiment": "neutral"
@@ -45,12 +45,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "concerns",
+        "word": "pope",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -70,14 +65,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "end",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "leo",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "concerns",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "denies",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "hypothetical",
@@ -110,9 +115,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ban",
+        "word": "safety",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "positive"
+      },
+      {
+        "word": "senate",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "case",
@@ -135,103 +145,78 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trump-xi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "elections",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "pope",
+        "word": "swift",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "end",
-        "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-28T23:37:47.444629+00:00",
-    "nextRefresh": "2026-09-28T23:37:47.444629+00:00",
-    "articlesAnalyzed": 332,
-    "matchedMentions": 163,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-09-29T03:50:23.988820+00:00",
+    "nextRefresh": "2026-09-29T03:50:23.988820+00:00",
+    "articlesAnalyzed": 333,
+    "matchedMentions": 150,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
-    "negative": 39,
-    "neutral": 17,
+    "positive": 40,
+    "negative": 38,
+    "neutral": 22,
     "wordCloud": [
       {
-        "word": "india",
-        "count": 9,
+        "word": "kohli",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "india",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "west",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indies",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "voter",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "asian",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "games",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "flags",
+        "word": "protest",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "adani",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ndtv",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "yuva",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pawar",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tata",
-        "count": 4,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "goyal",
@@ -239,77 +224,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "party",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "modi",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "list",
+        "word": "target",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "kejriwal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "odisha",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kohli",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "west",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indies",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "odi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "group",
+        "word": "rahul",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "minimum",
+        "word": "gandhi",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "public",
+        "word": "since",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "shareholding",
+        "word": "parvesh",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "violation",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "sebi",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mla",
+        "word": "sir",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -317,14 +267,64 @@
         "word": "billion",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "mahanadi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dispute",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "questions",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tata",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rise",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kejriwal",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cjp",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "emkay",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "financial",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-28T23:37:57.606320+00:00",
-    "nextRefresh": "2026-09-28T23:37:57.606320+00:00",
-    "articlesAnalyzed": 366,
-    "matchedMentions": 62,
-    "uniquePersonalities": 33,
+    "generatedAt": "2026-09-29T03:50:36.356334+00:00",
+    "nextRefresh": "2026-09-29T03:50:36.356334+00:00",
+    "articlesAnalyzed": 379,
+    "matchedMentions": 58,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
 }
