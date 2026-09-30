@@ -1,53 +1,88 @@
 {
   "us": {
-    "positive": 51,
-    "negative": 43,
-    "neutral": 6,
+    "positive": 48,
+    "negative": 47,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 44,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 11,
+        "word": "hegseth",
+        "count": 35,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "warfare",
+        "count": 16,
+        "sentiment": "negative"
+      },
+      {
+        "word": "musk",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "military",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "future",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "democrats",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "appoints",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "elon",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "pilot",
+        "word": "taskforce",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
+        "word": "pipeline",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "immigration",
+        "word": "pentagon",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "federal",
+        "word": "center",
         "count": 7,
         "sentiment": "neutral"
+      },
+      {
+        "word": "address",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "block",
+        "count": 7,
+        "sentiment": "negative"
       },
       {
         "word": "push",
@@ -55,12 +90,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
+        "word": "administration",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -70,12 +100,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "funds",
+        "word": "pilot",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "finds",
+        "word": "fed",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -85,126 +115,101 @@
         "sentiment": "neutral"
       },
       {
-        "word": "criminal",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "renovation",
+        "word": "announces",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "university",
-        "count": 5,
+        "word": "troops",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "agenda",
-        "count": 5,
+        "word": "confirms",
+        "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "allows",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "law",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reserve",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "building",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cost",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "block",
-        "count": 5,
-        "sentiment": "negative"
       },
       {
         "word": "bill",
-        "count": 5,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "midterms",
-        "count": 5,
+        "word": "luckey",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "center",
-        "count": 5,
+        "word": "gingrich",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "data",
-        "count": 5,
+        "word": "alaska",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "puts",
+        "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-09-30T18:46:23.052047+00:00",
-    "nextRefresh": "2026-09-30T18:46:23.052047+00:00",
-    "articlesAnalyzed": 327,
-    "matchedMentions": 150,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-09-30T22:46:48.083168+00:00",
+    "nextRefresh": "2026-09-30T22:46:48.083168+00:00",
+    "articlesAnalyzed": 328,
+    "matchedMentions": 178,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 58,
-    "negative": 17,
-    "neutral": 25,
+    "positive": 60,
+    "negative": 22,
+    "neutral": 18,
     "wordCloud": [
       {
-        "word": "gill",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
         "word": "india",
-        "count": 13,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "odi",
-        "count": 12,
+        "word": "shah",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 7,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "record",
-        "count": 7,
+        "word": "gill",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "double",
+        "word": "punjab",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "case",
+        "word": "bloc",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "ahead",
+        "word": "bjp",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rally",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -214,116 +219,111 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chase",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rohit",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reaches",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "sharma",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bypolls",
+        "word": "aap",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "alleges",
+        "word": "takes",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "chitta",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "stalin",
+        "word": "swipe",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "dmk",
+        "word": "holds",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "palaniswami",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "defence",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "seeks",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "west",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indies",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bloc",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
+        "word": "slams",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "ties",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "targets",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trade",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "asian",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "backs",
+        "word": "amid",
         "count": 3,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "power",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "record",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chase",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rohit",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "defence",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "bypoll",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-09-30T18:46:49.098357+00:00",
-    "nextRefresh": "2026-09-30T18:46:49.098357+00:00",
+    "generatedAt": "2026-09-30T22:47:00.143786+00:00",
+    "nextRefresh": "2026-09-30T22:47:00.143786+00:00",
     "articlesAnalyzed": 367,
-    "matchedMentions": 69,
+    "matchedMentions": 63,
     "uniquePersonalities": 35,
     "dataSource": "live-rss"
   }
