@@ -1,96 +1,56 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 52,
-    "neutral": 6,
+    "positive": 43,
+    "negative": 54,
+    "neutral": 3,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 54,
+        "count": 52,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pool",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "netanyahu",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reflecting",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "permanently",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "future",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "major",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "policy",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dismisses",
-        "count": 7,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "cornell",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reflecting",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pool",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rules",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "netanyahu",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "sue",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "watchdog",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fed",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "former",
+        "word": "permanently",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -110,17 +70,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "good",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "ice",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
+        "word": "iran",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -130,14 +80,59 @@
         "sentiment": "neutral"
       },
       {
-        "word": "supreme",
+        "word": "attack",
         "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "hegseth",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "former",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "policy",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dismisses",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "flydubai",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "putin",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "russia",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "good",
+        "count": 5,
         "sentiment": "positive"
       },
       {
-        "word": "renee",
+        "word": "states",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "three",
@@ -145,47 +140,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "rape",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "co-pilot",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "attack",
+        "word": "administration",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-01T20:45:54.287097+00:00",
-    "nextRefresh": "2026-10-01T20:45:54.287097+00:00",
-    "articlesAnalyzed": 328,
-    "matchedMentions": 173,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-10-02T00:27:31.979528+00:00",
+    "nextRefresh": "2026-10-02T00:27:31.979528+00:00",
+    "articlesAnalyzed": 326,
+    "matchedMentions": 164,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 43,
-    "negative": 34,
-    "neutral": 23,
+    "negative": 35,
+    "neutral": 22,
     "wordCloud": [
       {
         "word": "congress",
-        "count": 12,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 9,
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "singh",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "adhir",
-        "count": 6,
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "punjab",
-        "count": 6,
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cup",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -219,7 +229,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "polls",
+        "word": "rahul",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "srinagar",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -230,11 +250,6 @@
       },
       {
         "word": "amarinder",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "singh",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -259,22 +274,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cup",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mann",
+        "word": "hockey",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
+        "word": "polls",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -289,42 +294,37 @@
         "sentiment": "neutral"
       },
       {
+        "word": "ground",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "final",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "irani",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tata",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "ex-minister",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "accused",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "irregularities",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "transferred",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lakh",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "odi",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-01T20:46:04.773463+00:00",
-    "nextRefresh": "2026-10-01T20:46:04.773463+00:00",
-    "articlesAnalyzed": 367,
-    "matchedMentions": 61,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-10-02T00:27:43.138438+00:00",
+    "nextRefresh": "2026-10-02T00:27:43.138438+00:00",
+    "articlesAnalyzed": 366,
+    "matchedMentions": 63,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
