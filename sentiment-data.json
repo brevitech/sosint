@@ -1,96 +1,81 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 52,
-    "neutral": 7,
+    "positive": 43,
+    "negative": 49,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 45,
+        "count": 40,
         "sentiment": "neutral"
       },
       {
         "word": "cornell",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "alaska",
-        "count": 11,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "rape",
+        "count": 11,
+        "sentiment": "negative"
+      },
+      {
+        "word": "hegseth",
         "count": 10,
-        "sentiment": "negative"
-      },
-      {
-        "word": "judge",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "halts",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bend",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "border",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "construction",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "brazil",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "diesel",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "threatens",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "south",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wall",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "house",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "alaska",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "brazil",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "tariffs",
+        "word": "midterms",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "korea",
+        "word": "diesel",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "halts",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bend",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "border",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "construction",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -98,26 +83,6 @@
         "word": "senate",
         "count": 7,
         "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "midterms",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "release",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ban",
-        "count": 6,
-        "sentiment": "negative"
       },
       {
         "word": "super",
@@ -130,71 +95,121 @@
         "sentiment": "positive"
       },
       {
-        "word": "agenda",
+        "word": "white",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "double",
+        "word": "wall",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "natural",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "gas",
+        "word": "gop",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "pipeline",
+        "word": "vance",
         "count": 6,
         "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-10-03T07:28:53.286422+00:00",
-    "nextRefresh": "2026-10-03T07:28:53.286422+00:00",
-    "articlesAnalyzed": 334,
-    "matchedMentions": 166,
-    "uniquePersonalities": 52,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 51,
-    "negative": 33,
-    "neutral": 16,
-    "wordCloud": [
-      {
-        "word": "india",
-        "count": 12,
-        "sentiment": "neutral"
       },
       {
-        "word": "stalin",
-        "count": 7,
-        "sentiment": "neutral"
+        "word": "threatens",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
-        "word": "modi",
-        "count": 7,
-        "sentiment": "neutral"
+        "word": "ban",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
-        "word": "goyal",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "singh",
+        "word": "south",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "tvk",
+        "word": "texas",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "north",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "carolina",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "race",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "york",
+        "count": 4,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-10-03T12:58:19.703945+00:00",
+    "nextRefresh": "2026-10-03T12:58:19.703945+00:00",
+    "articlesAnalyzed": 339,
+    "matchedMentions": 159,
+    "uniquePersonalities": 49,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 45,
+    "negative": 45,
+    "neutral": 10,
+    "wordCloud": [
+      {
+        "word": "india",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "woman",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "against",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kharge",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -209,122 +224,107 @@
         "sentiment": "neutral"
       },
       {
-        "word": "government",
-        "count": 5,
-        "sentiment": "neutral"
+        "word": "stops",
+        "count": 4,
+        "sentiment": "negative"
       },
       {
-        "word": "global",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crore",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
+        "word": "talking",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "kingpin",
+        "word": "surat",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "navpreet",
+        "word": "man",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "kidnaps",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "praises",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "against",
-        "count": 3,
+        "word": "father",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "dmk",
-        "count": 3,
+        "word": "indecent",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
-        "count": 3,
+        "word": "slams",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "alleged",
-        "count": 3,
+        "word": "stalin",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "byelection",
-        "count": 3,
+        "word": "tvk",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
-        "count": 3,
+        "word": "candidate",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "mohan",
-        "count": 3,
+        "word": "kumar",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "charan",
-        "count": 3,
+        "word": "aisa",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "majhi",
-        "count": 3,
+        "word": "neha",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "epitome",
-        "count": 3,
+        "word": "bora",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "mismanagement",
-        "count": 3,
+        "word": "prashant",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "patnaik",
-        "count": 3,
+        "word": "bhushan",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 3,
+        "word": "among",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
-        "count": 3,
-        "sentiment": "neutral"
+        "word": "detained",
+        "count": 4,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-03T07:29:03.179629+00:00",
-    "nextRefresh": "2026-10-03T07:29:03.179629+00:00",
-    "articlesAnalyzed": 380,
-    "matchedMentions": 70,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-10-03T12:58:29.728616+00:00",
+    "nextRefresh": "2026-10-03T12:58:29.728616+00:00",
+    "articlesAnalyzed": 379,
+    "matchedMentions": 64,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
