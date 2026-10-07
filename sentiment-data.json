@@ -6,7 +6,12 @@
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
+        "count": 59,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "san",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -15,23 +20,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "diego",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
         "word": "cornell",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "san",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bros",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "warner",
-        "count": 8,
+        "word": "bros",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -40,28 +40,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "warner",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "california",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "diego",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "paramount",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "former",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "review",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -70,33 +60,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
         "word": "democrats",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "races",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "ads",
+        "word": "panel",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "democratic",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "merger",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -115,6 +95,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "paramount",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "key",
         "count": 5,
         "sentiment": "neutral"
@@ -125,12 +110,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "races",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "officials",
+        "word": "fcc",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -140,7 +120,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "baltimore",
+        "word": "ads",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -150,48 +130,73 @@
         "sentiment": "neutral"
       },
       {
+        "word": "review",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "rape",
         "count": 4,
         "sentiment": "negative"
+      },
+      {
+        "word": "white",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "defends",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "comment",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-06T22:11:57.192563+00:00",
-    "nextRefresh": "2026-10-06T22:11:57.192563+00:00",
-    "articlesAnalyzed": 315,
-    "matchedMentions": 150,
-    "uniquePersonalities": 42,
+    "generatedAt": "2026-10-07T01:59:46.057657+00:00",
+    "nextRefresh": "2026-10-07T01:59:46.057657+00:00",
+    "articlesAnalyzed": 327,
+    "matchedMentions": 145,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 42,
-    "negative": 41,
-    "neutral": 17,
+    "positive": 38,
+    "negative": 44,
+    "neutral": 18,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 36,
+        "count": 30,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 31,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 19,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "against",
-        "count": 13,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
-        "word": "detained",
+        "word": "eci",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "office",
         "count": 10,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "kumar",
@@ -199,62 +204,42 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gyanesh",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "released",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "eci",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "office",
-        "count": 7,
-        "sentiment": "neutral"
+        "word": "detained",
+        "count": 9,
+        "sentiment": "negative"
       },
       {
         "word": "opposition",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gyanesh",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "sit-in",
+        "word": "sir",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "congress",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cbi",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "detention",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "mandhana",
+        "word": "mann",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "bloc",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hour",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "squad",
+        "word": "modi",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -269,9 +254,34 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sir",
+        "word": "made",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "sit-in",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "released",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "punjab",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "oppn",
@@ -279,17 +289,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "replaces",
+        "word": "takes",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "captain",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zealand",
+        "word": "adani",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "story",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "made",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-06T22:12:13.248126+00:00",
-    "nextRefresh": "2026-10-06T22:12:13.248126+00:00",
-    "articlesAnalyzed": 366,
-    "matchedMentions": 104,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-10-07T01:59:57.746825+00:00",
+    "nextRefresh": "2026-10-07T01:59:57.746825+00:00",
+    "articlesAnalyzed": 365,
+    "matchedMentions": 93,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
