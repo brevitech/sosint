@@ -1,7 +1,7 @@
 {
   "us": {
-    "positive": 36,
-    "negative": 56,
+    "positive": 33,
+    "negative": 59,
     "neutral": 8,
     "wordCloud": [
       {
@@ -11,33 +11,43 @@
       },
       {
         "word": "execution",
-        "count": 25,
+        "count": 31,
         "sentiment": "neutral"
       },
       {
         "word": "fort",
-        "count": 20,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
         "word": "hood",
-        "count": 20,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 14,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
         "word": "shooter",
-        "count": 14,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
-        "word": "attack",
-        "count": 12,
+        "word": "pentagon",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "firing",
+        "count": 16,
         "sentiment": "negative"
+      },
+      {
+        "word": "squad",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "livestreamed",
+        "count": 16,
+        "sentiment": "neutral"
       },
       {
         "word": "musk",
@@ -45,47 +55,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 10,
+        "word": "hegseth",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "politics",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "firing",
-        "count": 9,
+        "word": "attack",
+        "count": 11,
         "sentiment": "negative"
       },
       {
-        "word": "squad",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tech",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pentagon",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "livestreamed",
+        "word": "iran",
         "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "midterms",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "guilfoyle",
+        "word": "politics",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "midterm",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -95,17 +90,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "science",
+        "word": "tech",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "elon",
+        "word": "key",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "midterm",
+        "word": "guilfoyle",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -113,6 +108,11 @@
         "word": "house",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "party",
+        "count": 6,
+        "sentiment": "positive"
       },
       {
         "word": "extends",
@@ -156,125 +156,50 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-09T01:40:37.126043+00:00",
-    "nextRefresh": "2026-10-09T01:40:37.126043+00:00",
+    "generatedAt": "2026-10-09T08:22:05.706492+00:00",
+    "nextRefresh": "2026-10-09T08:22:05.706492+00:00",
     "articlesAnalyzed": 331,
-    "matchedMentions": 171,
-    "uniquePersonalities": 54,
+    "matchedMentions": 175,
+    "uniquePersonalities": 53,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 57,
-    "negative": 29,
-    "neutral": 14,
+    "positive": 47,
+    "negative": 34,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "india",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "musk",
-        "count": 9,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ambani",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "boss",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "starlink",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "real",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "row",
-        "count": 6,
+        "word": "protest",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "airport",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 6,
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "dmk",
-        "count": 5,
+        "word": "green",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dares",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "contest",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ayodhya",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "yadav",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "elon",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reacts",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bombay",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kumar",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crore",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -284,47 +209,122 @@
         "sentiment": "neutral"
       },
       {
-        "word": "mann",
+        "word": "delhi",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "goes",
+        "word": "vote",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "raid",
+        "word": "bloc",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
+        "word": "tata",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "consultation",
+        "word": "firms",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "paper",
+        "word": "card",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "vaishnaw",
+        "word": "kerala",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "musk",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ambani",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "emkay",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "financial",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhuvneshwar",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zealand",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "party",
+        "count": 2,
+        "sentiment": "positive"
+      },
+      {
+        "word": "leader",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "supporters",
+        "count": 2,
+        "sentiment": "positive"
+      },
+      {
+        "word": "thrashed",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "man",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "assaulted",
+        "count": 2,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-09T01:40:46.360803+00:00",
-    "nextRefresh": "2026-10-09T01:40:46.360803+00:00",
-    "articlesAnalyzed": 381,
-    "matchedMentions": 72,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-10-09T08:22:18.701268+00:00",
+    "nextRefresh": "2026-10-09T08:22:18.701268+00:00",
+    "articlesAnalyzed": 377,
+    "matchedMentions": 59,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
