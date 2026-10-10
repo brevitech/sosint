@@ -1,32 +1,32 @@
 {
   "us": {
     "positive": 38,
-    "negative": 59,
-    "neutral": 3,
+    "negative": 57,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 75,
+        "count": 83,
         "sentiment": "neutral"
       },
       {
         "word": "execution",
-        "count": 43,
+        "count": 41,
         "sentiment": "neutral"
       },
       {
         "word": "diesel",
-        "count": 35,
+        "count": 38,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 33,
+        "count": 31,
         "sentiment": "neutral"
       },
       {
         "word": "putin",
-        "count": 24,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
@@ -36,16 +36,31 @@
       },
       {
         "word": "russian",
-        "count": 23,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
+        "word": "peace",
+        "count": 17,
+        "sentiment": "positive"
+      },
+      {
+        "word": "sanctions",
         "count": 15,
         "sentiment": "neutral"
       },
       {
+        "word": "nobel",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
         "word": "vance",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "plan",
         "count": 14,
         "sentiment": "neutral"
       },
@@ -56,11 +71,16 @@
       },
       {
         "word": "announces",
-        "count": 13,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "sanctions",
+        "word": "prize",
+        "count": 12,
+        "sentiment": "positive"
+      },
+      {
+        "word": "judge",
         "count": 12,
         "sentiment": "neutral"
       },
@@ -75,8 +95,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "public",
-        "count": 11,
+        "word": "court",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -85,22 +105,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "livestream",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "peace",
-        "count": 11,
-        "sentiment": "positive"
-      },
-      {
-        "word": "judge",
+        "word": "russia",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "nobel",
+        "word": "public",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "accused",
+        "count": 10,
+        "sentiment": "negative"
+      },
+      {
+        "word": "livestream",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -115,18 +135,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "happened",
         "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "russia",
-        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -140,191 +150,181 @@
         "sentiment": "neutral"
       },
       {
-        "word": "katie",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zacharia",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "secretary",
+        "word": "house",
         "count": 8,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-10T00:27:32.557799+00:00",
-    "nextRefresh": "2026-10-10T00:27:32.557799+00:00",
-    "articlesAnalyzed": 321,
-    "matchedMentions": 202,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-10-10T06:38:11.350694+00:00",
+    "nextRefresh": "2026-10-10T06:38:11.350694+00:00",
+    "articlesAnalyzed": 336,
+    "matchedMentions": 214,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 48,
-    "neutral": 6,
+    "positive": 54,
+    "negative": 37,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 26,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
         "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "murmu",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "point",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cec",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seeking",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
-        "count": 6,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "claim",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kharge",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bloc",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mps",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ambani",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "questions",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bengal",
-        "count": 5,
+        "word": "gandhi",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "delhi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cjp",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "vote",
+        "word": "protest",
         "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "modi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jantar",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mantar",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "musk",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "candidates",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "elected",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "unopposed",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rajya",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sabha",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ambani",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "elon",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "murmu",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "youth",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "accepted",
-        "count": 5,
+        "count": 3,
         "sentiment": "positive"
       },
       {
-        "word": "inside",
-        "count": 5,
+        "word": "row",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "opposition",
-        "count": 5,
+        "word": "chopra",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "memorandum",
-        "count": 5,
+        "word": "javelin",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "demanded",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "gandhi-led",
-        "count": 5,
+        "word": "helped",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "present",
-        "count": 5,
+        "word": "yadav",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "memo",
-        "count": 5,
+        "word": "asian",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "gyanesh",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kumar",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "resignation",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "assam",
-        "count": 4,
+        "word": "games",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-10T00:27:43.075530+00:00",
-    "nextRefresh": "2026-10-10T00:27:43.075530+00:00",
-    "articlesAnalyzed": 367,
-    "matchedMentions": 63,
-    "uniquePersonalities": 29,
+    "generatedAt": "2026-10-10T06:38:20.183042+00:00",
+    "nextRefresh": "2026-10-10T06:38:20.183042+00:00",
+    "articlesAnalyzed": 382,
+    "matchedMentions": 52,
+    "uniquePersonalities": 27,
     "dataSource": "live-rss"
   }
 }
