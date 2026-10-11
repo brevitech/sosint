@@ -1,41 +1,36 @@
 {
   "us": {
-    "positive": 32,
-    "negative": 64,
-    "neutral": 4,
+    "positive": 35,
+    "negative": 58,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 86,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "execution",
-        "count": 44,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "diesel",
-        "count": 43,
+        "count": 83,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 42,
+        "count": 35,
         "sentiment": "neutral"
       },
       {
-        "word": "hegseth",
-        "count": 25,
+        "word": "diesel",
+        "count": 29,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "execution",
+        "count": 28,
         "sentiment": "neutral"
       },
       {
         "word": "russia",
-        "count": 23,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
+        "word": "zelensky",
         "count": 17,
         "sentiment": "neutral"
       },
@@ -45,82 +40,72 @@
         "sentiment": "neutral"
       },
       {
-        "word": "zelensky",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "russian",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
         "word": "putin",
-        "count": 15,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "livestream",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "peace",
-        "count": 12,
-        "sentiment": "positive"
-      },
-      {
-        "word": "public",
-        "count": 12,
+        "word": "hegseth",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "gop",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "announces",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "isaias",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vance",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nobel",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zelenskyy",
-        "count": 9,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "attack",
-        "count": 8,
+        "count": 10,
         "sentiment": "negative"
       },
       {
-        "word": "hurricane",
+        "word": "russian",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "peace",
+        "count": 10,
+        "sentiment": "positive"
+      },
+      {
+        "word": "house",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "updates",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "livestream",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "airport",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "public",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pope",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "leo",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "announces",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -128,6 +113,11 @@
         "word": "leader",
         "count": 8,
         "sentiment": "neutral"
+      },
+      {
+        "word": "energy",
+        "count": 8,
+        "sentiment": "positive"
       },
       {
         "word": "fort",
@@ -140,191 +130,201 @@
         "sentiment": "neutral"
       },
       {
-        "word": "airport",
+        "word": "us-russia",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "riyadh",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "four",
+        "word": "nobel",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "without",
+        "word": "vance",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "houthi",
         "count": 7,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-11T08:11:29.944006+00:00",
-    "nextRefresh": "2026-10-11T08:11:29.944006+00:00",
-    "articlesAnalyzed": 332,
-    "matchedMentions": 212,
-    "uniquePersonalities": 53,
+    "generatedAt": "2026-10-11T15:17:09.880756+00:00",
+    "nextRefresh": "2026-10-11T15:17:09.880756+00:00",
+    "articlesAnalyzed": 336,
+    "matchedMentions": 207,
+    "uniquePersonalities": 55,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 37,
+    "positive": 48,
+    "negative": 30,
     "neutral": 22,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 11,
+        "count": 33,
         "sentiment": "neutral"
       },
       {
         "word": "chennai",
-        "count": 10,
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "metro",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attack",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "india",
-        "count": 6,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "stretch",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kejriwal",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "cji",
+        "word": "crore",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "riyadh",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "airport",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "police",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cement",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tamil",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minister",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "musk",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ambani",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "man",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "surya",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kant",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cjp",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "adani",
-        "count": 3,
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "navratri",
-        "count": 3,
+        "word": "tamil",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "killed",
-        "count": 3,
+        "word": "shah",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 5,
         "sentiment": "negative"
       },
       {
-        "word": "vijay",
-        "count": 3,
+        "word": "gen",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "inaugurate",
-        "count": 3,
-        "sentiment": "neutral"
+        "word": "supreme",
+        "count": 4,
+        "sentiment": "positive"
       },
       {
-        "word": "finance",
-        "count": 3,
+        "word": "court",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "congress",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sharma",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "competition",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hits",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dmk",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vijay",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "emergency",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "development",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "inaugurates",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "doval",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "silence",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-11T08:11:41.514382+00:00",
-    "nextRefresh": "2026-10-11T08:11:41.514382+00:00",
-    "articlesAnalyzed": 380,
-    "matchedMentions": 75,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-10-11T15:17:31.386053+00:00",
+    "nextRefresh": "2026-10-11T15:17:31.386053+00:00",
+    "articlesAnalyzed": 365,
+    "matchedMentions": 71,
+    "uniquePersonalities": 24,
     "dataSource": "live-rss"
   }
 }
