@@ -1,41 +1,41 @@
 {
   "us": {
-    "positive": 31,
-    "negative": 65,
+    "positive": 33,
+    "negative": 63,
     "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 82,
+        "count": 86,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
+        "count": 47,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "diesel",
         "count": 44,
         "sentiment": "neutral"
       },
       {
         "word": "execution",
-        "count": 42,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "diesel",
-        "count": 41,
+        "count": 43,
         "sentiment": "neutral"
       },
       {
         "word": "hegseth",
-        "count": 27,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ukraine",
-        "count": 20,
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "russia",
+        "count": 23,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ukraine",
         "count": 20,
         "sentiment": "neutral"
       },
@@ -50,13 +50,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "zelensky",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
         "word": "putin",
         "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "livestream",
-        "count": 14,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -65,19 +70,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "zelensky",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
         "word": "peace",
         "count": 12,
         "sentiment": "positive"
-      },
-      {
-        "word": "vance",
-        "count": 12,
-        "sentiment": "neutral"
       },
       {
         "word": "public",
@@ -85,8 +80,18 @@
         "sentiment": "neutral"
       },
       {
+        "word": "gop",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
         "word": "announces",
         "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vance",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -110,21 +115,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "airport",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attack",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
         "word": "isaias",
         "count": 8,
         "sentiment": "neutral"
@@ -140,6 +130,21 @@
         "sentiment": "neutral"
       },
       {
+        "word": "fort",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hood",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attack",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
         "word": "prices",
         "count": 7,
         "sentiment": "neutral"
@@ -148,38 +153,28 @@
         "word": "prize",
         "count": 7,
         "sentiment": "positive"
-      },
-      {
-        "word": "decries",
-        "count": 7,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-10T22:10:33.464451+00:00",
-    "nextRefresh": "2026-10-10T22:10:33.464451+00:00",
-    "articlesAnalyzed": 328,
-    "matchedMentions": 219,
-    "uniquePersonalities": 57,
+    "generatedAt": "2026-10-11T01:30:14.610318+00:00",
+    "nextRefresh": "2026-10-11T01:30:14.610318+00:00",
+    "articlesAnalyzed": 330,
+    "matchedMentions": 214,
+    "uniquePersonalities": 56,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 35,
-    "negative": 46,
+    "positive": 39,
+    "negative": 42,
     "neutral": 19,
     "wordCloud": [
-      {
-        "word": "rahul",
-        "count": 19,
-        "sentiment": "neutral"
-      },
       {
         "word": "delhi",
         "count": 18,
         "sentiment": "neutral"
       },
       {
-        "word": "cjp",
+        "word": "rahul",
         "count": 17,
         "sentiment": "neutral"
       },
@@ -189,17 +184,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "kejriwal",
+        "word": "cjp",
         "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
+        "word": "modi",
         "count": 12,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "kejriwal",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -209,6 +204,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "protest",
+        "count": 11,
+        "sentiment": "negative"
+      },
+      {
         "word": "detained",
         "count": 10,
         "sentiment": "negative"
@@ -216,21 +216,6 @@
       {
         "word": "political",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jantar",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mantar",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "calls",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -244,17 +229,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leaders",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "dig",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -264,7 +244,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "released",
+        "word": "calls",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -289,12 +269,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "students",
+        "word": "jantar",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "cec",
+        "word": "mantar",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -304,27 +284,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "detention",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "mamata",
+        "word": "stir",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "stir",
+        "word": "banerjee",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "b-team",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rekha",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gupta",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "launch",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leaders",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-10T22:10:43.728395+00:00",
-    "nextRefresh": "2026-10-10T22:10:43.728395+00:00",
-    "articlesAnalyzed": 365,
-    "matchedMentions": 91,
-    "uniquePersonalities": 34,
+    "generatedAt": "2026-10-11T01:30:26.605620+00:00",
+    "nextRefresh": "2026-10-11T01:30:26.605620+00:00",
+    "articlesAnalyzed": 380,
+    "matchedMentions": 89,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
