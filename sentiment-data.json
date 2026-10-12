@@ -1,42 +1,37 @@
 {
   "us": {
-    "positive": 36,
-    "negative": 59,
+    "positive": 37,
+    "negative": 58,
     "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 104,
+        "count": 102,
         "sentiment": "neutral"
       },
       {
         "word": "deal",
-        "count": 38,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "diesel",
-        "count": 32,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "russia",
-        "count": 30,
+        "count": 35,
         "sentiment": "neutral"
       },
       {
         "word": "ceasefire",
-        "count": 28,
+        "count": 30,
         "sentiment": "neutral"
       },
       {
         "word": "energy",
-        "count": 27,
+        "count": 29,
         "sentiment": "positive"
       },
       {
-        "word": "zelensky",
-        "count": 23,
+        "word": "russia",
+        "count": 29,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "diesel",
+        "count": 29,
         "sentiment": "neutral"
       },
       {
@@ -45,27 +40,27 @@
         "sentiment": "neutral"
       },
       {
+        "word": "zelensky",
+        "count": 21,
+        "sentiment": "neutral"
+      },
+      {
         "word": "ukraine",
-        "count": 18,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "putin",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 14,
-        "sentiment": "negative"
-      },
-      {
-        "word": "claim",
-        "count": 11,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "say",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "claim",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -80,29 +75,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "zelenskyy",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "airport",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "attack",
         "count": 10,
         "sentiment": "negative"
       },
       {
-        "word": "hegseth",
+        "word": "zelenskyy",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "public",
-        "count": 9,
-        "sentiment": "neutral"
+        "word": "war",
+        "count": 10,
+        "sentiment": "negative"
       },
       {
         "word": "house",
@@ -110,23 +95,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
+        "word": "airport",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "pope",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leo",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 8,
+        "word": "claims",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -140,12 +115,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "experts",
+        "word": "riyadh",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "riyadh",
+        "word": "experts",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -153,49 +128,74 @@
         "word": "gop",
         "count": 8,
         "sentiment": "neutral"
+      },
+      {
+        "word": "public",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "announces",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "houthi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 7,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-11T23:24:00.846484+00:00",
-    "nextRefresh": "2026-10-11T23:24:00.846484+00:00",
+    "generatedAt": "2026-10-12T03:56:52.385493+00:00",
+    "nextRefresh": "2026-10-12T03:56:52.385493+00:00",
     "articlesAnalyzed": 325,
-    "matchedMentions": 218,
-    "uniquePersonalities": 51,
+    "matchedMentions": 208,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 50,
-    "negative": 26,
+    "positive": 46,
+    "negative": 30,
     "neutral": 24,
     "wordCloud": [
       {
-        "word": "modi",
-        "count": 37,
-        "sentiment": "neutral"
-      },
-      {
         "word": "india",
-        "count": 23,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "metro",
-        "count": 23,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 22,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "surya",
-        "count": 18,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "kant",
-        "count": 18,
+        "count": 24,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cji",
+        "count": 22,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 21,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "surya",
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bloc",
+        "count": 19,
         "sentiment": "neutral"
       },
       {
@@ -204,48 +204,53 @@
         "sentiment": "neutral"
       },
       {
-        "word": "chennai",
+        "word": "metro",
         "count": 16,
         "sentiment": "neutral"
       },
       {
-        "word": "cji",
+        "word": "modi",
         "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "bloc",
-        "count": 13,
+        "word": "leaders",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "ride",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vijay",
+        "word": "declines",
         "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "meeting",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ticket",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "leaders",
+        "word": "rejects",
         "count": 9,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "declines",
+        "word": "vijay",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "police",
-        "count": 8,
+        "word": "ride",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chennai",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -254,77 +259,72 @@
         "sentiment": "neutral"
       },
       {
-        "word": "stretch",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chief",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "justice",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "coffee",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "balancing",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "act",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cjp",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kharge",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "adani",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "pilot",
-        "count": 5,
+        "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "deny",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "warring",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "congress",
-        "count": 5,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "takes",
-        "count": 5,
+        "word": "court",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
-        "count": 5,
+        "word": "delhi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "request",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "riyadh",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attack",
+        "count": 6,
         "sentiment": "negative"
+      },
+      {
+        "word": "punjab",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "supreme",
+        "count": 5,
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-11T23:24:10.906342+00:00",
-    "nextRefresh": "2026-10-11T23:24:10.906342+00:00",
-    "articlesAnalyzed": 366,
-    "matchedMentions": 90,
-    "uniquePersonalities": 24,
+    "generatedAt": "2026-10-12T03:57:01.941159+00:00",
+    "nextRefresh": "2026-10-12T03:57:01.941159+00:00",
+    "articlesAnalyzed": 382,
+    "matchedMentions": 89,
+    "uniquePersonalities": 30,
     "dataSource": "live-rss"
   }
 }
