@@ -1,12 +1,17 @@
 {
   "us": {
-    "positive": 32,
-    "negative": 64,
+    "positive": 29,
+    "negative": 67,
     "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 46,
+        "count": 49,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "starlink",
+        "count": 19,
         "sentiment": "neutral"
       },
       {
@@ -15,27 +20,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "starlink",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
         "word": "access",
-        "count": 11,
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "cancer",
-        "count": 9,
+        "count": 8,
         "sentiment": "negative"
       },
       {
-        "word": "house",
+        "word": "harris",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -45,257 +55,177 @@
         "sentiment": "neutral"
       },
       {
+        "word": "senate",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "musk",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "extends",
-        "count": 7,
-        "sentiment": "positive"
-      },
-      {
-        "word": "white",
+        "word": "judge",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "republican",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 7,
+        "word": "democrats",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "diesel",
-        "count": 7,
+        "word": "cnn",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "russia",
-        "count": 7,
+        "word": "politico",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "army",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zelenskyy",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "pope",
-        "count": 6,
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "military",
-        "count": 6,
+        "word": "midterm",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "support",
-        "count": 6,
-        "sentiment": "positive"
+        "word": "satellite",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rally",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "candidates",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "key",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "races",
+        "count": 5,
+        "sentiment": "neutral"
       },
       {
         "word": "president",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "turn",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leo",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "guilfoyle",
+        "word": "voters",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "cornell",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "future",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "doj",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "alleged",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republicans",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "politics",
-        "count": 5,
+        "word": "down",
+        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-14T18:16:22.933644+00:00",
-    "nextRefresh": "2026-10-14T18:16:22.933644+00:00",
-    "articlesAnalyzed": 302,
-    "matchedMentions": 145,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-10-14T22:01:18.235441+00:00",
+    "nextRefresh": "2026-10-14T22:01:18.235441+00:00",
+    "articlesAnalyzed": 324,
+    "matchedMentions": 143,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 39,
-    "negative": 44,
-    "neutral": 17,
+    "positive": 38,
+    "negative": 47,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 21,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 12,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "murder",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
-        "word": "ankita",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bhandari",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protest",
         "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "parents",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gate",
+        "word": "cjp",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "priyanka",
+        "word": "india",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "global",
-        "count": 6,
+        "word": "death",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "blue",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 6,
+        "word": "drum",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "case",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ahead",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "neha",
+        "word": "gandhi",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bora",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cjp",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "uttarakhand",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "victim",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "step",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "behind",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gesture",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gen-z",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pitch",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "leaders",
-        "count": 4,
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ambani",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -304,27 +234,97 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sikkim",
+        "word": "ankita",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "governor",
+        "word": "bhandari",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "appointment",
+        "word": "crore",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "activist",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "protest",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "musk",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reliance",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "penalty",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "priyanka",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "didi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "forever",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "backs",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "slams",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "centre",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-14T18:16:37.065256+00:00",
-    "nextRefresh": "2026-10-14T18:16:37.065256+00:00",
-    "articlesAnalyzed": 380,
-    "matchedMentions": 72,
-    "uniquePersonalities": 34,
+    "generatedAt": "2026-10-14T22:01:27.361265+00:00",
+    "nextRefresh": "2026-10-14T22:01:27.361265+00:00",
+    "articlesAnalyzed": 366,
+    "matchedMentions": 53,
+    "uniquePersonalities": 25,
     "dataSource": "live-rss"
   }
 }
