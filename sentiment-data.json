@@ -6,66 +6,56 @@
     "wordCloud": [
       {
         "word": "trump",
-        "count": 62,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 14,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
         "word": "lung",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "guilfoyle",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zelenskyy",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "russia",
-        "count": 11,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "power",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "omar",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "home",
-        "count": 10,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "cancer",
-        "count": 10,
+        "count": 12,
         "sentiment": "negative"
       },
       {
-        "word": "diesel",
+        "word": "judge",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leo",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "home",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "guilfoyle",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pope",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
+        "word": "diesel",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -75,22 +65,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "putin",
+        "word": "omar",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "golf",
+        "word": "vatican",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "course",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
+        "word": "russian",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -100,22 +85,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "vatican",
+        "word": "russia",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "leo",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "raid",
+        "word": "surgery",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "pope",
+        "word": "zelenskyy",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "raid",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -125,12 +110,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "allegations",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
+        "word": "alaska",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -140,7 +120,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "russian",
+        "word": "golf",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "course",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,64 +138,74 @@
         "word": "parties",
         "count": 6,
         "sentiment": "positive"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-10-13T22:13:04.569570+00:00",
-    "nextRefresh": "2026-10-13T22:13:04.569570+00:00",
-    "articlesAnalyzed": 318,
-    "matchedMentions": 174,
-    "uniquePersonalities": 51,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 44,
-    "negative": 43,
-    "neutral": 13,
-    "wordCloud": [
+      },
       {
-        "word": "rahul",
-        "count": 17,
+        "word": "administration",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attack",
-        "count": 14,
+        "word": "strikes",
+        "count": 6,
         "sentiment": "negative"
       },
       {
-        "word": "knife",
-        "count": 12,
+        "word": "say",
+        "count": 6,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-10-14T01:32:59.382457+00:00",
+    "nextRefresh": "2026-10-14T01:32:59.382457+00:00",
+    "articlesAnalyzed": 318,
+    "matchedMentions": 167,
+    "uniquePersonalities": 52,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 41,
+    "negative": 42,
+    "neutral": 17,
+    "wordCloud": [
+      {
+        "word": "rahul",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "gandhi",
-        "count": 11,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 11,
+        "word": "india",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "congress",
-        "count": 8,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
-        "count": 8,
+        "word": "attack",
+        "count": 10,
+        "sentiment": "negative"
+      },
+      {
+        "word": "knife",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "banerjee",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -219,7 +214,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
+        "word": "protests",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "claims",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "minister",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -229,62 +234,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bloc",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "discusses",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "minister",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protests",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "carney",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "woman",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tried",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "party",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "mamata",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "shah",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "speaks",
+        "word": "nilekani",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "canada",
+        "word": "carney",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -294,7 +259,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "near",
+        "word": "mamata",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "alleges",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sir",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -304,12 +284,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nilekani",
-        "count": 5,
+        "word": "adani",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "adani",
+        "word": "meets",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "discusses",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "speaks",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "canada",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-13T22:13:22.842893+00:00",
-    "nextRefresh": "2026-10-13T22:13:22.842893+00:00",
-    "articlesAnalyzed": 364,
-    "matchedMentions": 96,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-10-14T01:33:08.803766+00:00",
+    "nextRefresh": "2026-10-14T01:33:08.803766+00:00",
+    "articlesAnalyzed": 380,
+    "matchedMentions": 99,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
