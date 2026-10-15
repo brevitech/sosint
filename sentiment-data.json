@@ -1,8 +1,8 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 57,
-    "neutral": 5,
+    "positive": 39,
+    "negative": 55,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
@@ -11,7 +11,17 @@
       },
       {
         "word": "ukraine",
-        "count": 20,
+        "count": 26,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "starlink",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "midterms",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -20,82 +30,92 @@
         "sentiment": "neutral"
       },
       {
-        "word": "musk",
+        "word": "ahead",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "economy",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "starlink",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cancer",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "senate",
-        "count": 8,
+        "word": "voters",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "gop",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "key",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "lung",
+        "word": "say",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "midterm",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "betrayal",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "musk",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "energy",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "poll",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "white",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pope",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "peace",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "key",
+        "word": "ukrainian",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "republican",
+        "word": "lisa",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "cook",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "leo",
+        "word": "strikes",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "midterm",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "briefing",
+        "word": "brazil",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -105,7 +125,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "bad",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "defense",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
         "word": "access",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -118,98 +153,143 @@
         "word": "tells",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "harris",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "record",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "allegations",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cornell",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "assault",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "midterms",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "brazil",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-15T06:52:11.996638+00:00",
-    "nextRefresh": "2026-10-15T06:52:11.996638+00:00",
-    "articlesAnalyzed": 330,
-    "matchedMentions": 143,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-10-15T12:24:01.466689+00:00",
+    "nextRefresh": "2026-10-15T12:24:01.466689+00:00",
+    "articlesAnalyzed": 317,
+    "matchedMentions": 158,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 55,
+    "positive": 51,
     "negative": 39,
-    "neutral": 6,
+    "neutral": 10,
     "wordCloud": [
       {
-        "word": "against",
-        "count": 7,
+        "word": "rahul",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "gandhi",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "supreme",
+        "count": 9,
+        "sentiment": "positive"
+      },
+      {
+        "word": "court",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "video",
         "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lost",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "abhijeet",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dipke",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "neha",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bora",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "movie",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protest",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "bjp",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ankita",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bhandari",
+        "word": "police",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "parents",
+        "word": "chaos",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "erupts",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "presser",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sir",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "explain",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "irani",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "turns",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "scene",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jibe",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "browbeat",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judiciary",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -219,112 +299,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
+        "word": "bjp",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "death",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "murder",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "gandhi",
+        "word": "iit",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "madras",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "map",
         "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "demands",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "questions",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "birla",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jaishankar",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "anand",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "emkay",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "financial",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chief",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "free",
-        "count": 2,
-        "sentiment": "positive"
-      },
-      {
-        "word": "lover",
-        "count": 2,
-        "sentiment": "positive"
-      },
-      {
-        "word": "blue",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "drum",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sir",
-        "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-15T06:52:35.121357+00:00",
-    "nextRefresh": "2026-10-15T06:52:35.121357+00:00",
-    "articlesAnalyzed": 379,
-    "matchedMentions": 56,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-10-15T12:24:16.549160+00:00",
+    "nextRefresh": "2026-10-15T12:24:16.549160+00:00",
+    "articlesAnalyzed": 380,
+    "matchedMentions": 79,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   }
 }
