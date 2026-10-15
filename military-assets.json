@@ -1,14 +1,24 @@
 {
-  "generatedAt": "2026-10-15T12:24:20.611189+00:00",
+  "generatedAt": "2026-10-15T17:33:47.854542+00:00",
   "dataSource": "live-osint",
   "assets": [
+    {
+      "name": "USS Dwight D. Eisenhower",
+      "type": "Carrier",
+      "status": "Deployed - Red Sea",
+      "pos": [
+        15.262190171880436,
+        41.66474308075424
+      ],
+      "osintConfirmed": false
+    },
     {
       "name": "USS Abraham Lincoln",
       "type": "Carrier",
       "status": "Deployed - Arabian Sea",
       "pos": [
-        20.640938006579887,
-        60.317105563932124
+        21.022399621482347,
+        59.64040892642688
       ],
       "osintConfirmed": false
     },
@@ -17,8 +27,8 @@
       "type": "Carrier",
       "status": "Deployed - Mediterranean",
       "pos": [
-        33.70875524314589,
-        29.69873628637139
+        34.10101376261886,
+        29.676422303788925
       ],
       "osintConfirmed": false
     },
@@ -27,8 +37,8 @@
       "type": "Carrier",
       "status": "Deployed - Pacific",
       "pos": [
-        15.176030360806509,
-        115.0146236827331
+        15.394497266618929,
+        115.41872613324519
       ],
       "osintConfirmed": true
     },
@@ -37,8 +47,8 @@
       "type": "Amphibious",
       "status": "Deployed - Red Sea",
       "pos": [
-        15.91943080932716,
-        42.16815523250953
+        15.616290213496661,
+        41.79783431047775
       ],
       "osintConfirmed": false
     },
@@ -47,8 +57,8 @@
       "type": "Amphibious",
       "status": "Deployed - Pacific",
       "pos": [
-        14.667527874640946,
-        114.9311249316853
+        14.97741113022931,
+        115.36310014756774
       ],
       "osintConfirmed": false
     },
@@ -57,8 +67,8 @@
       "type": "Destroyer",
       "status": "Deployed - Red Sea",
       "pos": [
-        15.860152809549016,
-        42.13923247457316
+        15.603026073636833,
+        41.54408176561302
       ],
       "osintConfirmed": false
     },
@@ -67,8 +77,8 @@
       "type": "Destroyer",
       "status": "Deployed - Red Sea",
       "pos": [
-        15.360866096737166,
-        41.664330719477555
+        15.74401223448681,
+        42.48894904920123
       ],
       "osintConfirmed": false
     },
@@ -77,8 +87,8 @@
       "type": "Destroyer",
       "status": "Deployed - Red Sea",
       "pos": [
-        15.018056138703932,
-        42.47816072812637
+        15.914549740617769,
+        41.762521238645874
       ],
       "osintConfirmed": false
     },
@@ -87,8 +97,8 @@
       "type": "Submarine",
       "status": "Deployed - Persian Gulf",
       "pos": [
-        25.918137594282946,
-        51.95638033499991
+        25.610637626344108,
+        51.82202198116061
       ],
       "osintConfirmed": false
     }
