@@ -1,22 +1,17 @@
 {
   "us": {
-    "positive": 32,
-    "negative": 62,
-    "neutral": 6,
+    "positive": 38,
+    "negative": 57,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 49,
+        "count": 54,
         "sentiment": "neutral"
       },
       {
         "word": "ukraine",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "starlink",
-        "count": 17,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
@@ -25,13 +20,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "access",
-        "count": 11,
+        "word": "musk",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
-        "count": 9,
+        "word": "starlink",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -40,27 +35,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "musk",
+        "word": "senate",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
         "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "lung",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "key",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republican",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -75,7 +60,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "midterm",
+        "word": "peace",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "key",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "republican",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -85,32 +80,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "lisa",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cook",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zelenskyy",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "leo",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "support",
+        "word": "midterm",
         "count": 5,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
-        "word": "satellite",
+        "word": "administration",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "briefing",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -120,18 +105,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "candidates",
+        "word": "access",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "president",
+        "word": "rep",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tells",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "harris",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "record",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -150,97 +145,57 @@
         "sentiment": "negative"
       },
       {
-        "word": "elections",
+        "word": "midterms",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "brazil",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-15T01:10:46.350406+00:00",
-    "nextRefresh": "2026-10-15T01:10:46.350406+00:00",
-    "articlesAnalyzed": 326,
-    "matchedMentions": 146,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-10-15T06:52:11.996638+00:00",
+    "nextRefresh": "2026-10-15T06:52:11.996638+00:00",
+    "articlesAnalyzed": 330,
+    "matchedMentions": 143,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 31,
-    "negative": 46,
-    "neutral": 23,
+    "positive": 55,
+    "negative": 39,
+    "neutral": 6,
     "wordCloud": [
       {
-        "word": "murder",
-        "count": 9,
-        "sentiment": "negative"
+        "word": "against",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 9,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 8,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "cjp",
-        "count": 6,
+        "word": "protest",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "bjp",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "death",
         "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "blue",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "drum",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leaders",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ambani",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "backs",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "bank",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -254,33 +209,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "crore",
+        "word": "parents",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "activist",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protest",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "musk",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reliance",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amp",
-        "count": 3,
+        "word": "target",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -289,42 +224,107 @@
         "sentiment": "neutral"
       },
       {
-        "word": "penalty",
+        "word": "death",
         "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "priyanka",
+        "word": "murder",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "gandhi",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "didi",
+        "word": "congress",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "forever",
+        "word": "delhi",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "banerjee",
+        "word": "demands",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "slams",
+        "word": "questions",
         "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "birla",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jaishankar",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "anand",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "emkay",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "financial",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chief",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "free",
+        "count": 2,
+        "sentiment": "positive"
+      },
+      {
+        "word": "lover",
+        "count": 2,
+        "sentiment": "positive"
+      },
+      {
+        "word": "blue",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "drum",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sir",
+        "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-15T01:11:00.446668+00:00",
-    "nextRefresh": "2026-10-15T01:11:00.446668+00:00",
-    "articlesAnalyzed": 367,
-    "matchedMentions": 54,
-    "uniquePersonalities": 27,
+    "generatedAt": "2026-10-15T06:52:35.121357+00:00",
+    "nextRefresh": "2026-10-15T06:52:35.121357+00:00",
+    "articlesAnalyzed": 379,
+    "matchedMentions": 56,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
