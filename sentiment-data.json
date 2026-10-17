@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 45,
+    "positive": 42,
+    "negative": 47,
     "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 55,
+        "count": 54,
         "sentiment": "neutral"
       },
       {
         "word": "ukraine",
-        "count": 20,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "zacharia",
-        "count": 16,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -40,7 +40,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "katie",
+        "word": "georgia",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -50,8 +50,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
-        "count": 7,
+        "word": "katie",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -60,17 +60,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "strikes",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
         "word": "claims",
-        "count": 6,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "georgia",
+        "word": "happened",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -80,14 +75,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ukrainian",
+        "word": "support",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "russia",
-        "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
         "word": "livestream",
@@ -100,17 +90,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "oil",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zelensky",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "job",
+        "word": "election",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -120,12 +100,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "zelenskyy",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "russian",
+        "word": "rally",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -137,6 +112,11 @@
       {
         "word": "senate",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -153,53 +133,58 @@
         "word": "attacker",
         "count": 4,
         "sentiment": "negative"
+      },
+      {
+        "word": "firing",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "squad",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "won",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "el-sayed",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-16T23:12:47.490329+00:00",
-    "nextRefresh": "2026-10-16T23:12:47.490329+00:00",
+    "generatedAt": "2026-10-17T02:40:58.368533+00:00",
+    "nextRefresh": "2026-10-17T02:40:58.368533+00:00",
     "articlesAnalyzed": 338,
-    "matchedMentions": 143,
-    "uniquePersonalities": 41,
+    "matchedMentions": 142,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 32,
-    "negative": 45,
-    "neutral": 23,
+    "positive": 30,
+    "negative": 44,
+    "neutral": 26,
     "wordCloud": [
       {
         "word": "india",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "govt",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rubio",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
-        "count": 8,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "mumbai",
-        "count": 8,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "marco",
+        "word": "govt",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -209,34 +194,44 @@
         "sentiment": "neutral"
       },
       {
-        "word": "tvk",
+        "word": "meeting",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "opposition",
+        "word": "rubio",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
-        "count": 6,
+        "word": "film",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "worldwide",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "marco",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "party",
         "count": 5,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "gandhi",
@@ -244,87 +239,92 @@
         "sentiment": "neutral"
       },
       {
-        "word": "officer",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "worker",
+        "word": "tvk",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "arrested",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "drugs",
+        "word": "defends",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "udhayanidhi",
+        "word": "jaishankar-rubio",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "stalin",
+        "word": "jadeja",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "targets",
+        "word": "odis",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "jaishankar",
+        "word": "test",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "cjp",
+        "word": "decade",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "tiranga",
+        "word": "bjp",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "highlights",
+        "word": "oct",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "neha",
+        "word": "summoned",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bora",
+        "word": "employee",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
+        "word": "dig",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "lawyers",
+        "word": "expected",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "prasad",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "summons",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vijayan",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-16T23:12:57.513270+00:00",
-    "nextRefresh": "2026-10-16T23:12:57.513270+00:00",
-    "articlesAnalyzed": 365,
-    "matchedMentions": 82,
-    "uniquePersonalities": 47,
+    "generatedAt": "2026-10-17T02:41:10.636664+00:00",
+    "nextRefresh": "2026-10-17T02:41:10.636664+00:00",
+    "articlesAnalyzed": 364,
+    "matchedMentions": 81,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   }
 }
