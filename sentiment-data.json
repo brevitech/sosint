@@ -1,32 +1,37 @@
 {
   "us": {
-    "positive": 43,
-    "negative": 46,
-    "neutral": 11,
+    "positive": 42,
+    "negative": 45,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 57,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ukraine",
-        "count": 19,
+        "count": 63,
         "sentiment": "neutral"
       },
       {
         "word": "russia",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zacharia",
-        "count": 13,
+        "count": 27,
         "sentiment": "neutral"
       },
       {
         "word": "sanctions",
+        "count": 25,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ukraine",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zacharia",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "starlink",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -40,18 +45,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "secretary",
+        "word": "musk",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "starlink",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "white",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "secretary",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zelenskyy",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -65,9 +75,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "musk",
+        "word": "california",
         "count": 8,
         "sentiment": "neutral"
+      },
+      {
+        "word": "fight",
+        "count": 7,
+        "sentiment": "negative"
       },
       {
         "word": "row",
@@ -80,27 +95,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "katie",
+        "word": "war",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "election",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 5,
+        "word": "act",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "russian",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "passed",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "georgia",
+        "word": "inside",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -110,81 +120,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "video",
+        "word": "warns",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "passed",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "takeaways",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "blitz",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "several",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "intensifies",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "support",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "oil",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "europe",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vote",
-        "count": 4,
-        "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-10-17T11:55:48.875052+00:00",
-    "nextRefresh": "2026-10-17T11:55:48.875052+00:00",
-    "articlesAnalyzed": 328,
-    "matchedMentions": 148,
-    "uniquePersonalities": 42,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 45,
-    "negative": 35,
-    "neutral": 20,
-    "wordCloud": [
-      {
-        "word": "india",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mumbai",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stalin",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "singh",
+        "word": "administration",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -194,7 +140,56 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "lawmakers",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "video",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 5,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-10-17T14:52:45.007873+00:00",
+    "nextRefresh": "2026-10-17T14:52:45.007873+00:00",
+    "articlesAnalyzed": 328,
+    "matchedMentions": 154,
+    "uniquePersonalities": 46,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 52,
+    "negative": 30,
+    "neutral": 18,
+    "wordCloud": [
+      {
+        "word": "law",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "graduates",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "stalin",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "justice",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "india",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -204,12 +199,52 @@
         "sentiment": "neutral"
       },
       {
+        "word": "surya",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "legal",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "profession",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "faint",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "heart",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "chief",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "jdu",
         "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "anant",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "singh",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "claims",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -234,7 +269,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "urges",
+        "word": "visit",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "punjab",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -249,37 +294,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nana",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "patekar",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "smit",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "machchhar",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bridge",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "naming",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
+        "word": "kant",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -289,42 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
+        "word": "defend",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "crash",
+        "word": "liberty",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "positive"
       },
       {
-        "word": "prasad",
+        "word": "uphold",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-17T11:55:57.163681+00:00",
-    "nextRefresh": "2026-10-17T11:55:57.163681+00:00",
-    "articlesAnalyzed": 379,
-    "matchedMentions": 60,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-10-17T14:52:52.507772+00:00",
+    "nextRefresh": "2026-10-17T14:52:52.507772+00:00",
+    "articlesAnalyzed": 375,
+    "matchedMentions": 63,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
