@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 39,
+    "positive": 40,
     "negative": 49,
-    "neutral": 12,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 69,
+        "count": 65,
         "sentiment": "neutral"
       },
       {
@@ -20,17 +20,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
         "word": "zelenskyy",
         "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "musk",
+        "word": "ukraine",
         "count": 13,
         "sentiment": "neutral"
       },
@@ -40,12 +35,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "waives",
-        "count": 9,
+        "word": "musk",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "waives",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -70,16 +65,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "california",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "secretary",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "putin",
         "count": 7,
         "sentiment": "neutral"
@@ -88,6 +73,11 @@
         "word": "lawsuits",
         "count": 7,
         "sentiment": "negative"
+      },
+      {
+        "word": "house",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "cancer",
@@ -105,12 +95,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "starlink",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
+        "word": "california",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -153,20 +138,35 @@
         "word": "calls",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "rally",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "elon",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fight",
+        "count": 5,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-17T19:59:22.836441+00:00",
-    "nextRefresh": "2026-10-17T19:59:22.836441+00:00",
-    "articlesAnalyzed": 328,
-    "matchedMentions": 169,
-    "uniquePersonalities": 51,
+    "generatedAt": "2026-10-17T22:06:06.964735+00:00",
+    "nextRefresh": "2026-10-17T22:06:06.964735+00:00",
+    "articlesAnalyzed": 332,
+    "matchedMentions": 162,
+    "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 45,
-    "negative": 46,
-    "neutral": 9,
+    "negative": 42,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "kolkata",
@@ -179,6 +179,11 @@
         "sentiment": "negative"
       },
       {
+        "word": "surya",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "modi",
         "count": 10,
         "sentiment": "neutral"
@@ -189,23 +194,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "law",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "surya",
-        "count": 8,
+        "word": "cji",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
-        "count": 7,
+        "word": "kant",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -219,27 +219,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "cji",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kant",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "announces",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "graduates",
+        "word": "against",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "graduates",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -249,12 +239,7 @@
         "sentiment": "positive"
       },
       {
-        "word": "stalin",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "files",
+        "word": "rahul",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -264,12 +249,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sir",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "claim",
+        "word": "visit",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -304,9 +284,14 @@
         "sentiment": "negative"
       },
       {
-        "word": "complaint",
+        "word": "india",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "files",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "gandhi",
@@ -314,17 +299,32 @@
         "sentiment": "neutral"
       },
       {
-        "word": "case",
+        "word": "honorary",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "doctorate",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "conferred",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "fadnavis",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-17T19:59:31.535471+00:00",
-    "nextRefresh": "2026-10-17T19:59:31.535471+00:00",
-    "articlesAnalyzed": 365,
-    "matchedMentions": 78,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-10-17T22:06:16.764707+00:00",
+    "nextRefresh": "2026-10-17T22:06:16.764707+00:00",
+    "articlesAnalyzed": 366,
+    "matchedMentions": 73,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
