@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 40,
-    "negative": 49,
-    "neutral": 11,
+    "positive": 38,
+    "negative": 50,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 65,
+        "count": 64,
         "sentiment": "neutral"
       },
       {
         "word": "sanctions",
-        "count": 29,
+        "count": 31,
         "sentiment": "neutral"
       },
       {
         "word": "russia",
-        "count": 29,
+        "count": 31,
         "sentiment": "neutral"
       },
       {
@@ -35,17 +35,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "musk",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
         "word": "waives",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "zacharia",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -55,13 +45,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "musk",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -70,12 +55,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "lawsuits",
+        "word": "house",
         "count": 7,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "zacharia",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -95,27 +80,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "california",
+        "word": "judge",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "agrees",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "settle",
+        "word": "against",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "election",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lottery",
+        "word": "midterms",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -135,38 +110,63 @@
         "sentiment": "neutral"
       },
       {
+        "word": "urges",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "calls",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "rally",
+        "word": "lawmakers",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "elon",
+        "word": "ahead",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "fight",
+        "word": "video",
         "count": 5,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "secretary",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "decision",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gift",
+        "count": 4,
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-17T22:06:06.964735+00:00",
-    "nextRefresh": "2026-10-17T22:06:06.964735+00:00",
+    "generatedAt": "2026-10-18T00:34:04.489087+00:00",
+    "nextRefresh": "2026-10-18T00:34:04.489087+00:00",
     "articlesAnalyzed": 332,
-    "matchedMentions": 162,
-    "uniquePersonalities": 50,
+    "matchedMentions": 155,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 45,
-    "negative": 42,
-    "neutral": 13,
+    "positive": 43,
+    "negative": 46,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "kolkata",
@@ -249,11 +249,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "visit",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "mamata",
         "count": 5,
         "sentiment": "neutral"
@@ -317,14 +312,19 @@
         "word": "fadnavis",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "university",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-17T22:06:16.764707+00:00",
-    "nextRefresh": "2026-10-17T22:06:16.764707+00:00",
-    "articlesAnalyzed": 366,
-    "matchedMentions": 73,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-10-18T00:34:24.099441+00:00",
+    "nextRefresh": "2026-10-18T00:34:24.099441+00:00",
+    "articlesAnalyzed": 368,
+    "matchedMentions": 72,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
