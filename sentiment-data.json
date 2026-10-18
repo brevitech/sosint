@@ -1,21 +1,26 @@
 {
   "us": {
-    "positive": 45,
-    "negative": 47,
-    "neutral": 8,
+    "positive": 42,
+    "negative": 49,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 80,
+        "count": 76,
         "sentiment": "neutral"
       },
       {
         "word": "russia",
-        "count": 26,
+        "count": 29,
         "sentiment": "neutral"
       },
       {
         "word": "sanctions",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "course",
         "count": 16,
         "sentiment": "neutral"
       },
@@ -35,13 +40,23 @@
         "sentiment": "neutral"
       },
       {
+        "word": "diesel",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
         "word": "zelenskyy",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "course",
+        "word": "bessent",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -50,7 +65,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "putin",
+        "word": "golf",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -60,22 +80,7 @@
         "sentiment": "negative"
       },
       {
-        "word": "diesel",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "down",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ahead",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bessent",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -95,14 +100,14 @@
         "sentiment": "neutral"
       },
       {
+        "word": "macron",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "thanks",
         "count": 8,
         "sentiment": "positive"
-      },
-      {
-        "word": "musk",
-        "count": 8,
-        "sentiment": "neutral"
       },
       {
         "word": "elections",
@@ -115,17 +120,22 @@
         "sentiment": "negative"
       },
       {
-        "word": "netanyahu",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "midterms",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "netanyahu",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israeli",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "putin",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -143,30 +153,20 @@
         "word": "france",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "macron",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "endorses",
-        "count": 6,
-        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-18T19:58:38.111802+00:00",
-    "nextRefresh": "2026-10-18T19:58:38.111802+00:00",
-    "articlesAnalyzed": 334,
-    "matchedMentions": 188,
-    "uniquePersonalities": 49,
+    "generatedAt": "2026-10-18T22:17:52.214397+00:00",
+    "nextRefresh": "2026-10-18T22:17:52.214397+00:00",
+    "articlesAnalyzed": 331,
+    "matchedMentions": 187,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 16,
+    "positive": 18,
     "negative": 68,
-    "neutral": 16,
+    "neutral": 14,
     "wordCloud": [
       {
         "word": "shroff",
@@ -175,21 +175,16 @@
       },
       {
         "word": "khan",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bishnoi",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gang",
-        "count": 14,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "tiger",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bishnoi",
         "count": 13,
         "sentiment": "neutral"
       },
@@ -199,13 +194,13 @@
         "sentiment": "negative"
       },
       {
-        "word": "lawrence",
-        "count": 11,
+        "word": "gang",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "mumbai",
-        "count": 10,
+        "word": "lawrence",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -214,12 +209,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 10,
-        "sentiment": "neutral"
+        "word": "attack",
+        "count": 9,
+        "sentiment": "negative"
       },
       {
-        "word": "rahul",
+        "word": "india",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -229,8 +224,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "shot",
-        "count": 7,
+        "word": "mumbai",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -239,9 +234,14 @@
         "sentiment": "negative"
       },
       {
-        "word": "attack",
-        "count": 6,
-        "sentiment": "negative"
+        "word": "modi",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "expiry",
@@ -259,14 +259,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
+        "word": "shah",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
-        "count": 6,
-        "sentiment": "neutral"
+        "word": "fired",
+        "count": 5,
+        "sentiment": "negative"
       },
       {
         "word": "attacked",
@@ -284,13 +284,23 @@
         "sentiment": "positive"
       },
       {
-        "word": "claims",
+        "word": "actor",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "actor",
+        "word": "targets",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shot",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bike",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -307,24 +317,14 @@
         "word": "murder",
         "count": 4,
         "sentiment": "negative"
-      },
-      {
-        "word": "link",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "note",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-18T19:58:46.925147+00:00",
-    "nextRefresh": "2026-10-18T19:58:46.925147+00:00",
+    "generatedAt": "2026-10-18T22:18:02.784555+00:00",
+    "nextRefresh": "2026-10-18T22:18:02.784555+00:00",
     "articlesAnalyzed": 368,
-    "matchedMentions": 81,
-    "uniquePersonalities": 31,
+    "matchedMentions": 79,
+    "uniquePersonalities": 30,
     "dataSource": "live-rss"
   }
 }
