@@ -1,27 +1,32 @@
 {
   "us": {
-    "positive": 47,
-    "negative": 46,
-    "neutral": 7,
+    "positive": 45,
+    "negative": 47,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 82,
+        "count": 80,
         "sentiment": "neutral"
       },
       {
         "word": "russia",
-        "count": 31,
+        "count": 26,
         "sentiment": "neutral"
       },
       {
         "word": "sanctions",
-        "count": 22,
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ukraine",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "zelensky",
-        "count": 14,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -32,6 +37,16 @@
       {
         "word": "zelenskyy",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "course",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -50,22 +65,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "musk",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "calls",
+        "word": "down",
         "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "ahead",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bessent",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -85,7 +100,22 @@
         "sentiment": "positive"
       },
       {
+        "word": "musk",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "elections",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "netanyahu",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -95,12 +125,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "support",
-        "count": 7,
-        "sentiment": "positive"
-      },
-      {
-        "word": "netanyahu",
+        "word": "midterms",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -115,62 +140,37 @@
         "sentiment": "neutral"
       },
       {
+        "word": "france",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "macron",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "endorses",
         "count": 6,
         "sentiment": "positive"
-      },
-      {
-        "word": "israeli",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "resumed",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "intelligence",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "sharing",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "message",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "omar",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "course",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-18T17:44:09.783616+00:00",
-    "nextRefresh": "2026-10-18T17:44:09.783616+00:00",
-    "articlesAnalyzed": 332,
-    "matchedMentions": 176,
-    "uniquePersonalities": 46,
+    "generatedAt": "2026-10-18T19:58:38.111802+00:00",
+    "nextRefresh": "2026-10-18T19:58:38.111802+00:00",
+    "articlesAnalyzed": 334,
+    "matchedMentions": 188,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 19,
-    "negative": 61,
-    "neutral": 20,
+    "positive": 16,
+    "negative": 68,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "shroff",
-        "count": 37,
+        "count": 41,
         "sentiment": "neutral"
       },
       {
@@ -189,14 +189,14 @@
         "sentiment": "neutral"
       },
       {
+        "word": "tiger",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
         "word": "assassination",
         "count": 12,
         "sentiment": "negative"
-      },
-      {
-        "word": "tiger",
-        "count": 12,
-        "sentiment": "neutral"
       },
       {
         "word": "lawrence",
@@ -229,14 +229,19 @@
         "sentiment": "neutral"
       },
       {
+        "word": "shot",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "firing",
         "count": 7,
         "sentiment": "negative"
       },
       {
-        "word": "target",
+        "word": "attack",
         "count": 6,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
         "word": "expiry",
@@ -264,22 +269,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "video",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "attacked",
         "count": 5,
         "sentiment": "negative"
       },
       {
-        "word": "shot",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "actor",
+        "word": "video",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -290,6 +285,11 @@
       },
       {
         "word": "claims",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "actor",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -320,11 +320,11 @@
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-18T17:44:21.552032+00:00",
-    "nextRefresh": "2026-10-18T17:44:21.552032+00:00",
-    "articlesAnalyzed": 382,
-    "matchedMentions": 83,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-10-18T19:58:46.925147+00:00",
+    "nextRefresh": "2026-10-18T19:58:46.925147+00:00",
+    "articlesAnalyzed": 368,
+    "matchedMentions": 81,
+    "uniquePersonalities": 31,
     "dataSource": "live-rss"
   }
 }
