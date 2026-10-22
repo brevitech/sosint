@@ -1,32 +1,57 @@
 {
   "us": {
-    "positive": 37,
-    "negative": 57,
-    "neutral": 6,
+    "positive": 36,
+    "negative": 60,
+    "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 72,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ohio",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ramaswamy",
-        "count": 14,
+        "count": 85,
         "sentiment": "neutral"
       },
       {
         "word": "musk",
-        "count": 14,
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ramaswamy",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ohio",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ukraine",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "starlink",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lawsuit",
+        "count": 11,
+        "sentiment": "negative"
+      },
+      {
+        "word": "vance",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 11,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -35,24 +60,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
+        "word": "against",
         "count": 10,
         "sentiment": "neutral"
-      },
-      {
-        "word": "orders",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republicans",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lawsuit",
-        "count": 9,
-        "sentiment": "negative"
       },
       {
         "word": "attack",
@@ -60,17 +70,27 @@
         "sentiment": "negative"
       },
       {
-        "word": "russia",
+        "word": "estranged",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "attacks",
+        "word": "election",
         "count": 8,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "governor",
+        "word": "deposition",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "defends",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "orders",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -80,47 +100,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "election",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deeply",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ceo",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "talks",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "voters",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "drop",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "troubling",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "defends",
+        "word": "mother",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "asked",
+        "word": "russia",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "deposition",
+        "word": "peace",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "foreign",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "anthem",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -130,47 +140,37 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 5,
+        "word": "campaign",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "kyiv",
-        "count": 5,
+        "word": "democrat",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "peace",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "accuses",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "nba",
-        "count": 5,
+        "word": "asked",
+        "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-22T20:22:33.111389+00:00",
-    "nextRefresh": "2026-10-22T20:22:33.111389+00:00",
+    "generatedAt": "2026-10-22T23:49:40.115542+00:00",
+    "nextRefresh": "2026-10-22T23:49:40.115542+00:00",
     "articlesAnalyzed": 337,
-    "matchedMentions": 164,
-    "uniquePersonalities": 47,
+    "matchedMentions": 184,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 39,
-    "negative": 50,
-    "neutral": 11,
+    "positive": 45,
+    "negative": 43,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 16,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -194,6 +194,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "interest",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
         "word": "jaishankar",
         "count": 7,
         "sentiment": "neutral"
@@ -204,19 +209,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "protecting",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "interest",
-        "count": 6,
-        "sentiment": "positive"
       },
       {
         "word": "oil",
@@ -234,7 +229,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "delhi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "movements",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -244,8 +249,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "punjab",
-        "count": 4,
+        "word": "cec",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "birla",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
@@ -289,11 +299,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "police",
         "count": 4,
         "sentiment": "neutral"
@@ -304,7 +309,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "cec",
+        "word": "remove",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -312,19 +317,14 @@
         "word": "impeachment",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "birla",
-        "count": 4,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-22T20:22:42.967116+00:00",
-    "nextRefresh": "2026-10-22T20:22:42.967116+00:00",
-    "articlesAnalyzed": 367,
-    "matchedMentions": 62,
-    "uniquePersonalities": 26,
+    "generatedAt": "2026-10-22T23:49:50.111951+00:00",
+    "nextRefresh": "2026-10-22T23:49:50.111951+00:00",
+    "articlesAnalyzed": 365,
+    "matchedMentions": 67,
+    "uniquePersonalities": 29,
     "dataSource": "live-rss"
   }
 }
