@@ -1,17 +1,17 @@
 {
   "us": {
     "positive": 38,
-    "negative": 59,
-    "neutral": 3,
+    "negative": 58,
+    "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 83,
+        "count": 84,
         "sentiment": "neutral"
       },
       {
         "word": "musk",
-        "count": 22,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
@@ -20,19 +20,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
-        "count": 17,
+        "word": "starlink",
+        "count": 18,
         "sentiment": "neutral"
       },
       {
-        "word": "starlink",
-        "count": 17,
+        "word": "ukraine",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "ohio",
         "count": 12,
         "sentiment": "neutral"
+      },
+      {
+        "word": "attack",
+        "count": 11,
+        "sentiment": "negative"
       },
       {
         "word": "acton",
@@ -56,33 +61,8 @@
       },
       {
         "word": "lawsuit",
-        "count": 9,
-        "sentiment": "negative"
-      },
-      {
-        "word": "judge",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attack",
         "count": 8,
         "sentiment": "negative"
-      },
-      {
-        "word": "bbc",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "russia",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "election",
-        "count": 8,
-        "sentiment": "neutral"
       },
       {
         "word": "war",
@@ -90,27 +70,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "talks",
+        "word": "judge",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "rally",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "voters",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "restored",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "access",
+        "word": "bbc",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -120,9 +85,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "peace",
+        "word": "election",
         "count": 6,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "tells",
@@ -131,11 +96,6 @@
       },
       {
         "word": "amid",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deposition",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -150,52 +110,67 @@
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "voters",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "spacex",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "california",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tax",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "controversial",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "russia",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attacks",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "iowa",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rally",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-23T03:02:24.687415+00:00",
-    "nextRefresh": "2026-10-23T03:02:24.687415+00:00",
-    "articlesAnalyzed": 335,
-    "matchedMentions": 178,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-10-23T09:01:17.522838+00:00",
+    "nextRefresh": "2026-10-23T09:01:17.522838+00:00",
+    "articlesAnalyzed": 326,
+    "matchedMentions": 183,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 53,
-    "negative": 34,
-    "neutral": 13,
+    "positive": 52,
+    "negative": 37,
+    "neutral": 11,
     "wordCloud": [
       {
-        "word": "modi",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cec",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "birla",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jaishankar",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "deal",
-        "count": 5,
+        "word": "against",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -204,77 +179,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "impeachment",
+        "word": "arrest",
         "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "bachchan",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "orders",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "goyal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "finance",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ndtv",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "summit",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "interest",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "donald",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fresh",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "motion",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "invites",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "light",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "torch",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "done",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -289,7 +209,67 @@
         "sentiment": "neutral"
       },
       {
-        "word": "billion",
+        "word": "speaker",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "directs",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "police",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "viral",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "maratha",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "threat",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "email",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mumbai",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mayor",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mentions",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dosanjh",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "concert",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -299,32 +279,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "national",
+        "word": "finance",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "protecting",
+        "word": "birla",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "trump",
+        "word": "amid",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "oil",
+        "word": "tata",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "founder",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "emkay",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "financial",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-23T03:02:36.002720+00:00",
-    "nextRefresh": "2026-10-23T03:02:36.002720+00:00",
-    "articlesAnalyzed": 379,
-    "matchedMentions": 70,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-10-23T09:01:29.112846+00:00",
+    "nextRefresh": "2026-10-23T09:01:29.112846+00:00",
+    "articlesAnalyzed": 380,
+    "matchedMentions": 63,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   }
 }
