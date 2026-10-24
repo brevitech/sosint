@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 51,
-    "neutral": 10,
+    "positive": 44,
+    "negative": 49,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 78,
+        "count": 69,
         "sentiment": "neutral"
       },
       {
         "word": "alaska",
-        "count": 24,
+        "count": 25,
         "sentiment": "neutral"
       },
       {
@@ -21,17 +21,12 @@
       },
       {
         "word": "election",
-        "count": 16,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "ukraine",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "starlink",
-        "count": 12,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -40,12 +35,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "house",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "starlink",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "lawsuit",
         "count": 9,
         "sentiment": "negative"
       },
       {
-        "word": "musk",
+        "word": "senate",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -60,17 +65,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "attack",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "ordered",
+        "word": "white",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "power",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ordered",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -85,22 +90,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "sues",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -111,11 +101,6 @@
       },
       {
         "word": "voters",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -132,6 +117,11 @@
       {
         "word": "deal",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -153,29 +143,49 @@
         "word": "rubio",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "doj",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deadly",
+        "count": 5,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-24T14:12:04.226626+00:00",
-    "nextRefresh": "2026-10-24T14:12:04.226626+00:00",
-    "articlesAnalyzed": 329,
-    "matchedMentions": 180,
-    "uniquePersonalities": 51,
+    "generatedAt": "2026-10-24T17:46:02.516657+00:00",
+    "nextRefresh": "2026-10-24T17:46:02.516657+00:00",
+    "articlesAnalyzed": 330,
+    "matchedMentions": 178,
+    "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 38,
-    "negative": 55,
-    "neutral": 7,
+    "positive": 33,
+    "negative": 52,
+    "neutral": 15,
     "wordCloud": [
       {
         "word": "india",
-        "count": 10,
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "shroff",
-        "count": 7,
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -184,47 +194,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rally",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mumbai",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
         "word": "police",
-        "count": 4,
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "adani",
-        "count": 4,
+        "word": "shah",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "case",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "slams",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tilak",
+        "word": "orders",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -244,12 +224,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "rahul",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "gandhi",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "financial",
+        "word": "rally",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -259,72 +244,87 @@
         "sentiment": "neutral"
       },
       {
-        "word": "suspect",
+        "word": "arrested",
         "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "indore",
+        "word": "mla",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "makes",
+        "word": "bengal",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
+        "word": "christian",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "reveals",
+        "word": "alleges",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "varma",
+        "word": "kohli",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "thrilling",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "zealand",
+        "word": "rahane",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "all-time",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
+        "word": "test",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "date",
+        "word": "picks",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "jordan",
+        "word": "dravid",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amp",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dhoni",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gambhir",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "message",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-24T14:12:16.233067+00:00",
-    "nextRefresh": "2026-10-24T14:12:16.233067+00:00",
-    "articlesAnalyzed": 383,
-    "matchedMentions": 66,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-10-24T17:46:13.713260+00:00",
+    "nextRefresh": "2026-10-24T17:46:13.713260+00:00",
+    "articlesAnalyzed": 382,
+    "matchedMentions": 63,
+    "uniquePersonalities": 34,
     "dataSource": "live-rss"
   }
 }
