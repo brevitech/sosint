@@ -1,23 +1,28 @@
 {
   "us": {
-    "positive": 43,
-    "negative": 48,
+    "positive": 37,
+    "negative": 54,
     "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 79,
+        "count": 81,
         "sentiment": "neutral"
       },
       {
         "word": "alaska",
-        "count": 20,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
         "word": "block",
-        "count": 19,
+        "count": 20,
         "sentiment": "negative"
+      },
+      {
+        "word": "election",
+        "count": 17,
+        "sentiment": "neutral"
       },
       {
         "word": "ukraine",
@@ -25,8 +30,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "election",
-        "count": 15,
+        "word": "musk",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -40,19 +45,34 @@
         "sentiment": "neutral"
       },
       {
-        "word": "musk",
+        "word": "sues",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "house",
+        "word": "attack",
+        "count": 10,
+        "sentiment": "negative"
+      },
+      {
+        "word": "threat",
+        "count": 10,
+        "sentiment": "negative"
+      },
+      {
+        "word": "certification",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "sues",
+        "word": "texas",
         "count": 9,
         "sentiment": "neutral"
+      },
+      {
+        "word": "lawsuit",
+        "count": 9,
+        "sentiment": "negative"
       },
       {
         "word": "senate",
@@ -60,13 +80,48 @@
         "sentiment": "neutral"
       },
       {
-        "word": "attack",
+        "word": "lying",
         "count": 8,
         "sentiment": "negative"
       },
       {
-        "word": "man",
+        "word": "power",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ordered",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "national",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "security",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "democrat",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "race",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "officials",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -75,111 +130,61 @@
         "sentiment": "neutral"
       },
       {
-        "word": "lawsuit",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "ohio",
+        "word": "rubio",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "race",
-        "count": 6,
+        "word": "pentagon",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "lying",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "near",
-        "count": 6,
+        "word": "political",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "officials",
-        "count": 6,
+        "word": "doj",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "upcoming",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "certification",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ordered",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "killed",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "son",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "midterm",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "charged",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "hunter",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "biden",
-        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-24T00:11:35.360724+00:00",
-    "nextRefresh": "2026-10-24T00:11:35.360724+00:00",
-    "articlesAnalyzed": 320,
-    "matchedMentions": 178,
-    "uniquePersonalities": 54,
+    "generatedAt": "2026-10-24T05:18:33.548222+00:00",
+    "nextRefresh": "2026-10-24T05:18:33.548222+00:00",
+    "articlesAnalyzed": 323,
+    "matchedMentions": 198,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 63,
-    "negative": 20,
-    "neutral": 17,
+    "positive": 52,
+    "negative": 29,
+    "neutral": 19,
     "wordCloud": [
       {
-        "word": "modi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tata",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "india",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vaishnaw",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -189,22 +194,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "profit",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "against",
+        "word": "t20i",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "trade",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meets",
+        "word": "calls",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -219,22 +214,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "maratha",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crore",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "asked",
+        "word": "wanted",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "sons",
+        "word": "himanshu",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhau",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ndtv",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "summit",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nail",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "demand",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "mann",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "centre",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "detained",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "airport",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -274,57 +304,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rise",
+        "word": "police",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "baku",
+        "word": "itbp",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "ties",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jaishankar",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ignited",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "enthusiasm",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "among",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "youth",
+        "word": "raising",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-24T00:11:43.103818+00:00",
-    "nextRefresh": "2026-10-24T00:11:43.103818+00:00",
-    "articlesAnalyzed": 367,
-    "matchedMentions": 54,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-10-24T05:18:45.415313+00:00",
+    "nextRefresh": "2026-10-24T05:18:45.415313+00:00",
+    "articlesAnalyzed": 366,
+    "matchedMentions": 73,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   }
 }
