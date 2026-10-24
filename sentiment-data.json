@@ -1,28 +1,23 @@
 {
   "us": {
-    "positive": 38,
-    "negative": 52,
+    "positive": 39,
+    "negative": 51,
     "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 76,
+        "count": 78,
         "sentiment": "neutral"
       },
       {
         "word": "alaska",
-        "count": 25,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "block",
-        "count": 20,
+        "count": 19,
         "sentiment": "negative"
-      },
-      {
-        "word": "ukraine",
-        "count": 17,
-        "sentiment": "neutral"
       },
       {
         "word": "election",
@@ -30,8 +25,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "musk",
-        "count": 14,
+        "word": "ukraine",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -40,33 +35,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "results",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sues",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attack",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
-        "word": "senate",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "certification",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "texas",
-        "count": 9,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -75,7 +45,12 @@
         "sentiment": "negative"
       },
       {
-        "word": "doj",
+        "word": "musk",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "results",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -85,7 +60,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "lying",
+        "word": "attack",
         "count": 8,
         "sentiment": "negative"
       },
@@ -95,12 +70,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "threat",
+        "word": "senate",
         "count": 8,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "church",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jordan",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "administration",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sues",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -115,12 +105,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "officials",
+        "word": "access",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "access",
+        "word": "voters",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -130,43 +120,53 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rubio",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sullivan",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ramaswamy",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "political",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "democrat",
+        "word": "campaign",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "upcoming",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tells",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "texas",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rubio",
+        "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-24T10:08:44.909633+00:00",
-    "nextRefresh": "2026-10-24T10:08:44.909633+00:00",
-    "articlesAnalyzed": 325,
-    "matchedMentions": 193,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-10-24T14:12:04.226626+00:00",
+    "nextRefresh": "2026-10-24T14:12:04.226626+00:00",
+    "articlesAnalyzed": 329,
+    "matchedMentions": 180,
+    "uniquePersonalities": 51,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 35,
-    "negative": 54,
-    "neutral": 11,
+    "positive": 38,
+    "negative": 55,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "india",
@@ -174,89 +174,64 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "shroff",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rally",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "goyal",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attack",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "crore",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 5,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "against",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "tiger",
+        "word": "rahul",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rally",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mumbai",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "industry",
+        "word": "police",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "praise",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "led",
+        "word": "adani",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "case",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "global",
+        "word": "slams",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "tilak",
         "count": 4,
         "sentiment": "neutral"
+      },
+      {
+        "word": "attack",
+        "count": 4,
+        "sentiment": "negative"
       },
       {
         "word": "ravi",
@@ -269,62 +244,87 @@
         "sentiment": "neutral"
       },
       {
+        "word": "gandhi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "financial",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "traders",
-        "count": 3,
+        "word": "target",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "wanted",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "himanshu",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bhau",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shooting",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "urges",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "defer",
+        "word": "suspect",
         "count": 3,
         "sentiment": "negative"
       },
       {
-        "word": "nov",
+        "word": "indore",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "makes",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reveals",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "varma",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "thrilling",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "zealand",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "questions",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "date",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jordan",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-24T10:08:55.627893+00:00",
-    "nextRefresh": "2026-10-24T10:08:55.627893+00:00",
-    "articlesAnalyzed": 381,
-    "matchedMentions": 72,
-    "uniquePersonalities": 34,
+    "generatedAt": "2026-10-24T14:12:16.233067+00:00",
+    "nextRefresh": "2026-10-24T14:12:16.233067+00:00",
+    "articlesAnalyzed": 383,
+    "matchedMentions": 66,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
