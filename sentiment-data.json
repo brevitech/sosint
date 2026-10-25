@@ -1,21 +1,31 @@
 {
   "us": {
-    "positive": 46,
+    "positive": 44,
     "negative": 48,
-    "neutral": 6,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 76,
+        "count": 80,
         "sentiment": "neutral"
       },
       {
-        "word": "alaska",
-        "count": 22,
+        "word": "obama",
+        "count": 25,
         "sentiment": "neutral"
       },
       {
         "word": "ukraine",
+        "count": 21,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "alaska",
+        "count": 21,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "campaign",
         "count": 21,
         "sentiment": "neutral"
       },
@@ -30,18 +40,13 @@
         "sentiment": "negative"
       },
       {
-        "word": "obama",
-        "count": 15,
+        "word": "ohio",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "starlink",
         "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "campaign",
-        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -57,6 +62,16 @@
       {
         "word": "midterm",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deal",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "administration",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -95,12 +110,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "political",
+        "word": "rally",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "deal",
+        "word": "political",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -110,12 +125,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "race",
-        "count": 6,
+        "word": "hegseth",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "race",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -130,36 +145,21 @@
         "sentiment": "neutral"
       },
       {
+        "word": "president",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "texas",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lawsuit",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "rubio",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "actually",
-        "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-24T22:49:43.254409+00:00",
-    "nextRefresh": "2026-10-24T22:49:43.254409+00:00",
+    "generatedAt": "2026-10-25T00:44:53.506291+00:00",
+    "nextRefresh": "2026-10-25T00:44:53.506291+00:00",
     "articlesAnalyzed": 332,
-    "matchedMentions": 186,
+    "matchedMentions": 194,
     "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
@@ -170,7 +170,7 @@
     "wordCloud": [
       {
         "word": "india",
-        "count": 10,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
@@ -225,16 +225,6 @@
       },
       {
         "word": "congress",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tilak",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "varma",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -294,6 +284,11 @@
         "sentiment": "negative"
       },
       {
+        "word": "raps",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "nov",
         "count": 3,
         "sentiment": "neutral"
@@ -317,14 +312,19 @@
         "word": "amp",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 3,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-24T22:49:54.626349+00:00",
-    "nextRefresh": "2026-10-24T22:49:54.626349+00:00",
+    "generatedAt": "2026-10-25T00:45:05.294024+00:00",
+    "nextRefresh": "2026-10-25T00:45:05.294024+00:00",
     "articlesAnalyzed": 367,
     "matchedMentions": 61,
-    "uniquePersonalities": 31,
+    "uniquePersonalities": 33,
     "dataSource": "live-rss"
   }
 }
