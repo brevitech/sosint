@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 43,
-    "negative": 50,
-    "neutral": 7,
+    "positive": 46,
+    "negative": 49,
+    "neutral": 5,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 66,
+        "count": 68,
         "sentiment": "neutral"
       },
       {
@@ -25,18 +25,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
+        "word": "senate",
         "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ukraine",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "starlink",
-        "count": 16,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
-        "count": 15,
+        "word": "brazil",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -55,13 +60,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "brazil",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
         "word": "president",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -75,17 +75,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bolsonaro",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "blanche",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "race",
+        "word": "michigan",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -105,28 +100,43 @@
         "sentiment": "neutral"
       },
       {
+        "word": "race",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
         "word": "access",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "bolsonaro",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "concedes",
+        "word": "lawsuit",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "historic",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "movement",
+        "word": "leader",
         "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "ohio",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rally",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -143,188 +153,178 @@
         "word": "upcoming",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "military",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "michigan",
-        "count": 6,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-26T02:50:42.638176+00:00",
-    "nextRefresh": "2026-10-26T02:50:42.638176+00:00",
-    "articlesAnalyzed": 332,
-    "matchedMentions": 190,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-10-26T08:25:10.856238+00:00",
+    "nextRefresh": "2026-10-26T08:25:10.856238+00:00",
+    "articlesAnalyzed": 337,
+    "matchedMentions": 189,
+    "uniquePersonalities": 43,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 28,
-    "negative": 57,
-    "neutral": 15,
+    "positive": 49,
+    "negative": 38,
+    "neutral": 13,
     "wordCloud": [
       {
-        "word": "kharge",
-        "count": 43,
+        "word": "rahul",
+        "count": 21,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 36,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 30,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "baap",
-        "count": 23,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "against",
+        "word": "gandhi",
         "count": 19,
         "sentiment": "neutral"
       },
       {
-        "word": "remark",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nationwide",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 9,
+        "word": "kharge",
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "remarks",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "remark",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "defamation",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "yadav",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "misunderstanding",
+        "word": "singh",
         "count": 8,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "row",
+        "word": "india",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "baap",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amit",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "protest",
+        "word": "acquitted",
         "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "mumbai",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "urges",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "congress",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "attacks",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "latest",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jaishankar",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cyber",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "launch",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protests",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "half",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sentence",
-        "count": 4,
         "sentiment": "positive"
       },
       {
-        "word": "line",
-        "count": 4,
+        "word": "convoy",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "insulted",
-        "count": 4,
-        "sentiment": "negative"
+        "word": "expressway",
+        "count": 6,
+        "sentiment": "neutral"
       },
       {
-        "word": "began",
-        "count": 4,
+        "word": "andhra",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gyanesh",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kumar",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cyclone",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "storm",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rajnath",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slams",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shroff",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "retort",
+        "word": "guilty",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "party",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "name",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "twist",
+        "word": "samajwadi",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-26T02:50:54.125295+00:00",
-    "nextRefresh": "2026-10-26T02:50:54.125295+00:00",
-    "articlesAnalyzed": 381,
-    "matchedMentions": 104,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-10-26T08:25:40.222805+00:00",
+    "nextRefresh": "2026-10-26T08:25:40.222805+00:00",
+    "articlesAnalyzed": 383,
+    "matchedMentions": 95,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
