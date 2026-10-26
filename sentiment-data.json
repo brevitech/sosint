@@ -1,261 +1,216 @@
 {
   "us": {
-    "positive": 46,
-    "negative": 49,
-    "neutral": 5,
+    "positive": 49,
+    "negative": 39,
+    "neutral": 12,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 68,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "election",
-        "count": 26,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "obama",
-        "count": 20,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "alaska",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ukraine",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "starlink",
-        "count": 15,
+        "count": 86,
         "sentiment": "neutral"
       },
       {
         "word": "brazil",
-        "count": 14,
+        "count": 21,
         "sentiment": "neutral"
       },
       {
-        "word": "campaign",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "block",
-        "count": 12,
-        "sentiment": "negative"
-      },
-      {
-        "word": "certification",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "president",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "musk",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "blanche",
-        "count": 9,
+        "word": "el-sayed",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "michigan",
-        "count": 8,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "midterm",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "doj",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "race",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "access",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bolsonaro",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lawsuit",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "historic",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leader",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ohio",
-        "count": 7,
+        "word": "election",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "rally",
-        "count": 6,
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bolsonaro",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "anti-muslim",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rhetoric",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abdul",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "wins",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "term",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "intensifies",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "politics",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "president",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "obama",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "midterm",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "elections",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ukraine",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "corruption",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "campaign",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "doj",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sues",
+        "word": "five",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "upcoming",
+        "word": "political",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "starlink",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-26T08:25:10.856238+00:00",
-    "nextRefresh": "2026-10-26T08:25:10.856238+00:00",
-    "articlesAnalyzed": 337,
-    "matchedMentions": 189,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-10-26T15:45:30.532845+00:00",
+    "nextRefresh": "2026-10-26T15:45:30.532845+00:00",
+    "articlesAnalyzed": 324,
+    "matchedMentions": 183,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 49,
-    "negative": 38,
+    "positive": 41,
+    "negative": 46,
     "neutral": 13,
     "wordCloud": [
       {
-        "word": "rahul",
-        "count": 21,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kharge",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "remarks",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "remark",
+        "word": "india",
         "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "defamation",
+        "word": "cyclone",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "yadav",
+        "word": "modi",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "singh",
+        "word": "kharge",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "remark",
         "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "next",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "baap",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amit",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "acquitted",
-        "count": 7,
-        "sentiment": "positive"
-      },
-      {
-        "word": "convoy",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "expressway",
-        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -264,67 +219,112 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gyanesh",
+        "word": "landfall",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "kumar",
+        "word": "ahead",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "cyclone",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "storm",
+        "word": "hits",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "rajnath",
+        "word": "rally",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "slams",
+        "word": "global",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "shroff",
+        "word": "zealand",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dmk",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "guilty",
+        "word": "ex-minister",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrest",
         "count": 4,
         "sentiment": "negative"
       },
       {
-        "word": "party",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "name",
+        "word": "bengal",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "samajwadi",
+        "word": "stalin",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arrested",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "rahul",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arnab",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "severe",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "protests",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "districts",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "defence",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "anti-indian",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "forces",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-26T08:25:40.222805+00:00",
-    "nextRefresh": "2026-10-26T08:25:40.222805+00:00",
-    "articlesAnalyzed": 383,
-    "matchedMentions": 95,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-10-26T15:45:43.127357+00:00",
+    "nextRefresh": "2026-10-26T15:45:43.127357+00:00",
+    "articlesAnalyzed": 382,
+    "matchedMentions": 78,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
