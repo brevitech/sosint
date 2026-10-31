@@ -1,22 +1,27 @@
 {
   "us": {
-    "positive": 35,
-    "negative": 52,
-    "neutral": 13,
+    "positive": 34,
+    "negative": 55,
+    "neutral": 11,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 52,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
         "word": "election",
-        "count": 14,
+        "count": 18,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "alaska",
-        "count": 10,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -25,27 +30,32 @@
         "sentiment": "neutral"
       },
       {
+        "word": "doj",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "power",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "kansas",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pope",
+        "word": "orders",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "leo",
+        "word": "golf",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "course",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -55,8 +65,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "california",
-        "count": 8,
+        "word": "candidate",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pope",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leo",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -65,12 +85,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "rallies",
+        "word": "court",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "doj",
+        "word": "alleged",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "officials",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kansas",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -80,32 +110,17 @@
         "sentiment": "negative"
       },
       {
-        "word": "musk",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
+        "word": "voters",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "netanyahu",
+        "word": "midterms",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "appeals",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bid",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ballots",
+        "word": "democrats",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -115,12 +130,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "rallies",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "peltola",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "candidate",
+        "word": "cuts",
+        "count": 5,
+        "sentiment": "negative"
+      },
+      {
+        "word": "administration",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -128,45 +153,20 @@
         "word": "becomes",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "midterms",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sir",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "star",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "voter",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "officials",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-30T21:19:37.365932+00:00",
-    "nextRefresh": "2026-10-30T21:19:37.365932+00:00",
-    "articlesAnalyzed": 325,
-    "matchedMentions": 159,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-10-31T01:22:23.052583+00:00",
+    "nextRefresh": "2026-10-31T01:22:23.052583+00:00",
+    "articlesAnalyzed": 339,
+    "matchedMentions": 176,
+    "uniquePersonalities": 50,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 43,
-    "negative": 34,
-    "neutral": 23,
+    "positive": 41,
+    "negative": 35,
+    "neutral": 24,
     "wordCloud": [
       {
         "word": "rahul",
@@ -179,22 +179,22 @@
         "sentiment": "neutral"
       },
       {
+        "word": "modi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
         "word": "bjp",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dravid",
+        "word": "delhi",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -234,8 +234,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "recalls",
+        "word": "dravid",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "public",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -249,17 +254,27 @@
         "sentiment": "negative"
       },
       {
+        "word": "jaishankar",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bihar",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "court",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "singh",
+        "word": "global",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "global",
+        "word": "due",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -274,7 +289,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "recalls",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -302,28 +317,13 @@
         "word": "next",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "number",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "tha",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sharma",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-30T21:19:47.372206+00:00",
-    "nextRefresh": "2026-10-30T21:19:47.372206+00:00",
-    "articlesAnalyzed": 368,
-    "matchedMentions": 61,
+    "generatedAt": "2026-10-31T01:22:34.962278+00:00",
+    "nextRefresh": "2026-10-31T01:22:34.962278+00:00",
+    "articlesAnalyzed": 367,
+    "matchedMentions": 63,
     "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
