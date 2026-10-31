@@ -1,36 +1,46 @@
 {
   "us": {
-    "positive": 34,
-    "negative": 55,
-    "neutral": 11,
+    "positive": 35,
+    "negative": 52,
+    "neutral": 13,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 56,
+        "count": 57,
         "sentiment": "neutral"
       },
       {
         "word": "election",
-        "count": 18,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 15,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "alaska",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "vote",
-        "count": 10,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "doj",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vote",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "officials",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leo",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -40,22 +50,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "orders",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "golf",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "course",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "senate",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pope",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -65,17 +65,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "candidate",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pope",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leo",
+        "word": "voters",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -85,7 +75,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "court",
+        "word": "becomes",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -95,7 +85,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "officials",
+        "word": "midterms",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -110,17 +100,42 @@
         "sentiment": "negative"
       },
       {
-        "word": "voters",
+        "word": "orders",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "midterms",
+        "word": "golf",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "course",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "candidate",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "general",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pontiff",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "court",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "voting",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -135,62 +150,87 @@
         "sentiment": "neutral"
       },
       {
-        "word": "peltola",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
         "word": "cuts",
         "count": 5,
         "sentiment": "negative"
-      },
-      {
-        "word": "administration",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "becomes",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-31T01:22:23.052583+00:00",
-    "nextRefresh": "2026-10-31T01:22:23.052583+00:00",
-    "articlesAnalyzed": 339,
-    "matchedMentions": 176,
-    "uniquePersonalities": 50,
+    "generatedAt": "2026-10-31T07:54:37.475358+00:00",
+    "nextRefresh": "2026-10-31T07:54:37.475358+00:00",
+    "articlesAnalyzed": 336,
+    "matchedMentions": 185,
+    "uniquePersonalities": 55,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 35,
-    "neutral": 24,
+    "positive": 46,
+    "negative": 34,
+    "neutral": 20,
     "wordCloud": [
       {
-        "word": "rahul",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 8,
+        "word": "gandhi",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jaishankar",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "congress",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "indira",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
-        "count": 5,
+        "word": "ajay",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "devgn",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "masala",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -199,132 +239,92 @@
         "sentiment": "neutral"
       },
       {
-        "word": "special",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "india",
+        "word": "rally",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "government",
+        "word": "list",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "jobs",
+        "word": "anniversary",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "sitharaman",
+        "word": "zealand",
         "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "idbi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bank",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dravid",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "public",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rules",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "killed",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "jaishankar",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bihar",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "due",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "expels",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "kripa",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "bengaluru",
+        "word": "alva",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "helicopter",
+        "word": "sting",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "recalls",
+        "word": "party",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "aap",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "vote",
+        "word": "punjab",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "uniform",
+        "word": "mann",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "civil",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "code",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "next",
+        "word": "dhuri",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-31T01:22:34.962278+00:00",
-    "nextRefresh": "2026-10-31T01:22:34.962278+00:00",
-    "articlesAnalyzed": 367,
-    "matchedMentions": 63,
-    "uniquePersonalities": 36,
+    "generatedAt": "2026-10-31T07:54:47.733087+00:00",
+    "nextRefresh": "2026-10-31T07:54:47.733087+00:00",
+    "articlesAnalyzed": 379,
+    "matchedMentions": 87,
+    "uniquePersonalities": 41,
     "dataSource": "live-rss"
   }
 }
