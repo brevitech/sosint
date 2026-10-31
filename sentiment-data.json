@@ -1,17 +1,17 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 50,
-    "neutral": 8,
+    "positive": 40,
+    "negative": 51,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 59,
+        "count": 72,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 14,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
@@ -21,7 +21,27 @@
       },
       {
         "word": "alaska",
-        "count": 9,
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "virginia",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sue",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "arch",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -30,14 +50,9 @@
         "sentiment": "neutral"
       },
       {
-        "word": "officials",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "doj",
-        "count": 9,
-        "sentiment": "neutral"
+        "word": "block",
+        "count": 7,
+        "sentiment": "negative"
       },
       {
         "word": "vote",
@@ -50,12 +65,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "doj",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "midterms",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "senate",
+        "word": "administration",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -65,12 +85,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "midterm",
+        "word": "voting",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "midterms",
+        "word": "officials",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "voters",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ballots",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "construction",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -78,11 +113,6 @@
         "word": "fight",
         "count": 5,
         "sentiment": "negative"
-      },
-      {
-        "word": "court",
-        "count": 5,
-        "sentiment": "neutral"
       },
       {
         "word": "star",
@@ -115,88 +145,38 @@
         "sentiment": "neutral"
       },
       {
-        "word": "voters",
+        "word": "against",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "virginia",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sue",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "arch",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ruling",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "law",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "el-sayed",
+        "word": "court",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-10-31T19:00:56.332954+00:00",
-    "nextRefresh": "2026-10-31T19:00:56.332954+00:00",
-    "articlesAnalyzed": 332,
-    "matchedMentions": 161,
-    "uniquePersonalities": 47,
+    "generatedAt": "2026-10-31T22:59:14.019244+00:00",
+    "nextRefresh": "2026-10-31T22:59:14.019244+00:00",
+    "articlesAnalyzed": 326,
+    "matchedMentions": 175,
+    "uniquePersonalities": 46,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 40,
-    "negative": 44,
-    "neutral": 16,
+    "positive": 42,
+    "negative": 31,
+    "neutral": 27,
     "wordCloud": [
       {
-        "word": "rahul",
-        "count": 16,
+        "word": "cec",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "cec",
+        "word": "rahul",
         "count": 13,
         "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "impeachment",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kumar",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mock",
-        "count": 10,
-        "sentiment": "negative"
       },
       {
         "word": "india",
@@ -204,7 +184,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gyanesh",
+        "word": "kumar",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -214,22 +194,47 @@
         "sentiment": "neutral"
       },
       {
+        "word": "gyanesh",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "impeachment",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "bloc",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "event",
+        "word": "rally",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "adani",
+        "word": "meets",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mock",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "against",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jaishankar",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -239,39 +244,49 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "public",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "rally",
+        "word": "adani",
         "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "quad",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "highlights",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "importance",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "maintaining",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "stability",
+        "count": 4,
         "sentiment": "neutral"
       },
       {
         "word": "calls",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "public",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "charges",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "meets",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protest",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "delhi",
@@ -279,7 +294,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "unity",
+        "word": "charges",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "abdullah",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -292,39 +317,14 @@
         "word": "life",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "ahead",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "university",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "convocation",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pradesh",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sabha",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-10-31T19:01:04.396161+00:00",
-    "nextRefresh": "2026-10-31T19:01:04.396161+00:00",
+    "generatedAt": "2026-10-31T22:59:25.299690+00:00",
+    "nextRefresh": "2026-10-31T22:59:25.299690+00:00",
     "articlesAnalyzed": 367,
-    "matchedMentions": 75,
-    "uniquePersonalities": 36,
+    "matchedMentions": 77,
+    "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
 }
