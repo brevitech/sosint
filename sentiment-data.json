@@ -1,57 +1,122 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 47,
-    "neutral": 11,
+    "positive": 41,
+    "negative": 50,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 69,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 21,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "alaska",
-        "count": 15,
+        "count": 68,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
+        "count": 43,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "alaska",
+        "count": 39,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "judge",
+        "count": 38,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "race",
+        "count": 29,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "stevens",
+        "count": 25,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dismisses",
+        "count": 25,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "republican",
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lawsuit",
+        "count": 19,
+        "sentiment": "negative"
+      },
+      {
+        "word": "rogers",
+        "count": 19,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "results",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "loses",
+        "count": 15,
+        "sentiment": "negative"
+      },
+      {
+        "word": "block",
+        "count": 14,
+        "sentiment": "negative"
+      },
+      {
+        "word": "election",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "michigan",
         "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "election",
-        "count": 12,
+        "word": "el-sayed",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "attempt",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "endorses",
+        "count": 10,
+        "sentiment": "positive"
+      },
+      {
+        "word": "gop",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "doj",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "haley",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "power",
-        "count": 12,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "against",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
-        "word": "midterms",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "administration",
-        "count": 9,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -60,271 +125,206 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dismisses",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "officials",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "suit",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "epstein",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "results",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
         "word": "peltola",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "candidate",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "race",
-        "count": 6,
+        "word": "tosses",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "wall",
-        "count": 6,
+        "word": "democrats",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "street",
-        "count": 6,
+        "word": "mike",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "journal",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "letter",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "virginia",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sue",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "arch",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "threatening",
-        "count": 6,
-        "sentiment": "negative"
-      },
-      {
-        "word": "voter",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "voters",
+        "word": "incumbent",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-11-01T16:32:28.237643+00:00",
-    "nextRefresh": "2026-11-01T16:32:28.237643+00:00",
-    "articlesAnalyzed": 326,
-    "matchedMentions": 171,
-    "uniquePersonalities": 52,
+    "generatedAt": "2026-11-01T20:55:40.930259+00:00",
+    "nextRefresh": "2026-11-01T20:55:40.930259+00:00",
+    "articlesAnalyzed": 331,
+    "matchedMentions": 179,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 41,
-    "negative": 40,
-    "neutral": 19,
+    "positive": 48,
+    "negative": 38,
+    "neutral": 14,
     "wordCloud": [
       {
-        "word": "rahul",
-        "count": 30,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 23,
-        "sentiment": "neutral"
-      },
-      {
         "word": "india",
-        "count": 21,
+        "count": 24,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "rally",
-        "count": 21,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bloc",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gyanesh",
-        "count": 14,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bloc",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hylo",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
         "word": "delhi",
-        "count": 8,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "ramlila",
-        "count": 8,
+        "word": "gandhi",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "sindhu",
-        "count": 8,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "final",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "protest",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
-        "word": "jail",
+        "word": "calls",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "cyclone",
+        "word": "hylo",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lakshya",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "title",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kumar",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "maidan",
+        "word": "double",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crore",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wins",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "next",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "adani",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "opposition",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "andhra",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "sen",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bhutan",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "amit",
+        "word": "dedicates",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "amp",
+        "word": "questions",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "vote",
+        "word": "against",
         "count": 5,
         "sentiment": "neutral"
+      },
+      {
+        "word": "cyclone",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kharge",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "highlights",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "alleges",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "priyanka",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "shah",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "evening",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "brief",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "heavy",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rain",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "alert",
+        "count": 4,
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-11-01T16:32:35.805731+00:00",
-    "nextRefresh": "2026-11-01T16:32:35.805731+00:00",
-    "articlesAnalyzed": 430,
-    "matchedMentions": 119,
-    "uniquePersonalities": 52,
+    "generatedAt": "2026-11-01T20:55:49.869589+00:00",
+    "nextRefresh": "2026-11-01T20:55:49.869589+00:00",
+    "articlesAnalyzed": 367,
+    "matchedMentions": 88,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
