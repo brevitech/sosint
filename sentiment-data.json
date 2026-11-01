@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 42,
-    "negative": 50,
-    "neutral": 8,
+    "positive": 45,
+    "negative": 46,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 67,
+        "count": 66,
         "sentiment": "neutral"
       },
       {
@@ -30,23 +30,28 @@
         "sentiment": "neutral"
       },
       {
+        "word": "power",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "virginia",
-        "count": 10,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "sue",
-        "count": 10,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
         "word": "arch",
-        "count": 10,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "power",
-        "count": 9,
+        "word": "administration",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -55,17 +60,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "block",
-        "count": 7,
-        "sentiment": "negative"
-      },
-      {
         "word": "stevens",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "administration",
+        "word": "midterms",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -75,7 +80,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "voting",
+        "word": "iran",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -95,12 +100,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "construction",
+        "word": "block",
         "count": 5,
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "word": "midterms",
+        "word": "construction",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -115,12 +120,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "voter",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "voter",
+        "word": "letter",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -143,187 +153,177 @@
         "word": "voters",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ruling",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-11-01T02:00:05.224017+00:00",
-    "nextRefresh": "2026-11-01T02:00:05.224017+00:00",
-    "articlesAnalyzed": 325,
-    "matchedMentions": 171,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-11-01T09:01:17.027427+00:00",
+    "nextRefresh": "2026-11-01T09:01:17.027427+00:00",
+    "articlesAnalyzed": 322,
+    "matchedMentions": 166,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 47,
-    "negative": 28,
-    "neutral": 25,
+    "positive": 48,
+    "negative": 35,
+    "neutral": 17,
     "wordCloud": [
       {
-        "word": "rahul",
-        "count": 11,
+        "word": "india",
+        "count": 23,
         "sentiment": "neutral"
       },
       {
-        "word": "cec",
-        "count": 11,
+        "word": "rahul",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "modi",
-        "count": 11,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "kumar",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gyanesh",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 8,
+        "word": "bloc",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "rally",
-        "count": 8,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 8,
+        "word": "bjp",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "opposition",
+        "word": "gandhi",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bullet",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "target",
+        "word": "train",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
-        "count": 7,
+        "word": "ramlila",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "meets",
+        "word": "maidan",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cec",
         "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "jaishankar",
-        "count": 5,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "adani",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "calls",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "impeachment",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shah",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ahead",
+        "word": "shop",
         "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "protest",
-        "count": 4,
+        "count": 5,
         "sentiment": "negative"
       },
       {
-        "word": "quad",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "highlights",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "importance",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "maintaining",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stability",
-        "count": 4,
+        "word": "corridor",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
         "word": "delhi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zealand",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "reveals",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ukraine",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "opposition",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kumar",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "abdullah",
+        "word": "ahead",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "complete",
+        "word": "questions",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "bloc",
+        "word": "traders",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "mock",
+        "word": "target",
         "count": 4,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
-        "word": "chief",
-        "count": 4,
+        "word": "took",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "greets",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "states",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "foundation",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-11-01T02:00:16.620617+00:00",
-    "nextRefresh": "2026-11-01T02:00:16.620617+00:00",
-    "articlesAnalyzed": 379,
-    "matchedMentions": 76,
+    "generatedAt": "2026-11-01T09:01:25.380353+00:00",
+    "nextRefresh": "2026-11-01T09:01:25.380353+00:00",
+    "articlesAnalyzed": 380,
+    "matchedMentions": 80,
     "uniquePersonalities": 38,
     "dataSource": "live-rss"
   }
