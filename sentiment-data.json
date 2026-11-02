@@ -1,103 +1,73 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 52,
-    "neutral": 7,
+    "positive": 49,
+    "negative": 45,
+    "neutral": 6,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 83,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 41,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "alaska",
-        "count": 38,
+        "count": 60,
         "sentiment": "neutral"
       },
       {
         "word": "stevens",
-        "count": 37,
+        "count": 30,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 37,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "race",
-        "count": 24,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dismisses",
-        "count": 24,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republican",
-        "count": 24,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
         "word": "election",
-        "count": 20,
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dismisses",
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "rogers",
-        "count": 20,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
-        "word": "results",
-        "count": 17,
+        "word": "alaska",
+        "count": 16,
         "sentiment": "neutral"
       },
       {
-        "word": "lawsuit",
-        "count": 17,
-        "sentiment": "negative"
-      },
-      {
-        "word": "el-sayed",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "block",
-        "count": 14,
-        "sentiment": "negative"
-      },
-      {
-        "word": "loses",
-        "count": 14,
-        "sentiment": "negative"
-      },
-      {
-        "word": "haley",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "michigan",
-        "count": 13,
+        "word": "senate",
+        "count": 15,
         "sentiment": "neutral"
       },
       {
         "word": "against",
-        "count": 13,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "attempt",
+        "word": "haley",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "republican",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "officials",
         "count": 11,
         "sentiment": "neutral"
+      },
+      {
+        "word": "block",
+        "count": 11,
+        "sentiment": "negative"
       },
       {
         "word": "democrats",
@@ -105,91 +75,241 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "florida",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stroke",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "abdul",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "campaign",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrat",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "party",
-        "count": 8,
-        "sentiment": "positive"
-      },
-      {
-        "word": "peltola",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jet",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tosses",
-        "count": 7,
-        "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-11-02T07:06:30.790488+00:00",
-    "nextRefresh": "2026-11-02T07:06:30.790488+00:00",
-    "articlesAnalyzed": 331,
-    "matchedMentions": 198,
-    "uniquePersonalities": 45,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 43,
-    "negative": 44,
-    "neutral": 13,
-    "wordCloud": [
-      {
-        "word": "against",
+        "word": "el-sayed",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
+        "word": "endorsing",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "race",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "midterms",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "record",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "accused",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "lying",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "biden",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "push",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lawsuit",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "abdul",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "campaign",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "endorsement",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "loses",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "iran",
+        "count": 6,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-11-02T17:42:39.299336+00:00",
+    "nextRefresh": "2026-11-02T17:42:39.299336+00:00",
+    "articlesAnalyzed": 324,
+    "matchedMentions": 162,
+    "uniquePersonalities": 36,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 49,
+    "negative": 35,
+    "neutral": 16,
+    "wordCloud": [
+      {
+        "word": "shah",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rahul",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tata",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sitharaman",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "public",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ncp",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "challenges",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "debate",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amit",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "crore",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "leaders",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "foreign",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "kohli",
+        "word": "chief",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "help",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "sunetra",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "party",
+        "count": 5,
+        "sentiment": "positive"
+      },
+      {
+        "word": "rift",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zealand",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "spilling",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "cji",
+        "word": "boardroom",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "battle",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "punjab",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "election",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dispute",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "vote",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -197,134 +317,14 @@
         "word": "target",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "pradesh",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mla",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "fake",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "rijiju",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cyclone",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "case",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chandra",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "priyank",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kharge",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "alleges",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kpsc",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rally",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gill",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "turns",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "volume",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "eden",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "park",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "opts",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gym",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stays",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "indoors",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "probe",
-        "count": 3,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-11-02T07:06:42.449350+00:00",
-    "nextRefresh": "2026-11-02T07:06:42.449350+00:00",
-    "articlesAnalyzed": 379,
-    "matchedMentions": 61,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-11-02T17:42:47.914336+00:00",
+    "nextRefresh": "2026-11-02T17:42:47.914336+00:00",
+    "articlesAnalyzed": 383,
+    "matchedMentions": 83,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
