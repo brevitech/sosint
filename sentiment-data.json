@@ -1,22 +1,22 @@
 {
   "us": {
-    "positive": 41,
-    "negative": 50,
-    "neutral": 9,
+    "positive": 40,
+    "negative": 52,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 68,
+        "count": 72,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 43,
+        "count": 42,
         "sentiment": "neutral"
       },
       {
         "word": "alaska",
-        "count": 39,
+        "count": 41,
         "sentiment": "neutral"
       },
       {
@@ -26,12 +26,12 @@
       },
       {
         "word": "race",
-        "count": 29,
+        "count": 28,
         "sentiment": "neutral"
       },
       {
         "word": "stevens",
-        "count": 25,
+        "count": 28,
         "sentiment": "neutral"
       },
       {
@@ -41,7 +41,7 @@
       },
       {
         "word": "republican",
-        "count": 19,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
@@ -51,7 +51,7 @@
       },
       {
         "word": "rogers",
-        "count": 19,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
@@ -65,6 +65,11 @@
         "sentiment": "negative"
       },
       {
+        "word": "haley",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
         "word": "block",
         "count": 14,
         "sentiment": "negative"
@@ -76,12 +81,7 @@
       },
       {
         "word": "michigan",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "el-sayed",
-        "count": 11,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
@@ -90,12 +90,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "endorses",
+        "word": "el-sayed",
         "count": 10,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
-        "word": "gop",
+        "word": "democrats",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -105,9 +105,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "haley",
+        "word": "stroke",
         "count": 9,
         "sentiment": "neutral"
+      },
+      {
+        "word": "gop",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "endorses",
+        "count": 8,
+        "sentiment": "positive"
       },
       {
         "word": "power",
@@ -115,12 +125,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "party",
         "count": 8,
-        "sentiment": "neutral"
+        "sentiment": "positive"
       },
       {
-        "word": "campaign",
+        "word": "against",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -140,37 +150,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "vote",
         "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mike",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "incumbent",
-        "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-11-01T20:55:40.930259+00:00",
-    "nextRefresh": "2026-11-01T20:55:40.930259+00:00",
+    "generatedAt": "2026-11-02T00:10:56.787026+00:00",
+    "nextRefresh": "2026-11-02T00:10:56.787026+00:00",
     "articlesAnalyzed": 331,
-    "matchedMentions": 179,
-    "uniquePersonalities": 45,
+    "matchedMentions": 191,
+    "uniquePersonalities": 49,
     "dataSource": "live-rss"
   },
   "india": {
     "positive": 48,
-    "negative": 38,
-    "neutral": 14,
+    "negative": 36,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "india",
-        "count": 24,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
@@ -189,8 +189,18 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bloc",
+        "word": "gandhi",
         "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bloc",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -199,18 +209,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "sindhu",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -254,12 +254,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "gyanesh",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "questions",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "amp",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -294,6 +299,11 @@
         "sentiment": "neutral"
       },
       {
+        "word": "anti-cec",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "evening",
         "count": 4,
         "sentiment": "neutral"
@@ -307,24 +317,14 @@
         "word": "heavy",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "rain",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "alert",
-        "count": 4,
-        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-11-01T20:55:49.869589+00:00",
-    "nextRefresh": "2026-11-01T20:55:49.869589+00:00",
+    "generatedAt": "2026-11-02T00:11:06.724431+00:00",
+    "nextRefresh": "2026-11-02T00:11:06.724431+00:00",
     "articlesAnalyzed": 367,
     "matchedMentions": 88,
-    "uniquePersonalities": 39,
+    "uniquePersonalities": 40,
     "dataSource": "live-rss"
   }
 }
