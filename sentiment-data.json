@@ -1,42 +1,42 @@
 {
   "us": {
-    "positive": 40,
+    "positive": 41,
     "negative": 52,
-    "neutral": 8,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 72,
+        "count": 83,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
-        "count": 42,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "alaska",
         "count": 41,
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
+        "word": "alaska",
         "count": 38,
         "sentiment": "neutral"
       },
       {
-        "word": "race",
-        "count": 28,
+        "word": "stevens",
+        "count": 37,
         "sentiment": "neutral"
       },
       {
-        "word": "stevens",
-        "count": 28,
+        "word": "judge",
+        "count": 37,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "race",
+        "count": 24,
         "sentiment": "neutral"
       },
       {
         "word": "dismisses",
-        "count": 25,
+        "count": 24,
         "sentiment": "neutral"
       },
       {
@@ -45,27 +45,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "lawsuit",
-        "count": 19,
-        "sentiment": "negative"
+        "word": "election",
+        "count": 20,
+        "sentiment": "neutral"
       },
       {
         "word": "rogers",
-        "count": 17,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "results",
-        "count": 16,
+        "count": 17,
         "sentiment": "neutral"
       },
       {
-        "word": "loses",
-        "count": 15,
+        "word": "lawsuit",
+        "count": 17,
         "sentiment": "negative"
       },
       {
-        "word": "haley",
+        "word": "el-sayed",
         "count": 14,
         "sentiment": "neutral"
       },
@@ -75,13 +75,23 @@
         "sentiment": "negative"
       },
       {
-        "word": "election",
+        "word": "loses",
         "count": 14,
+        "sentiment": "negative"
+      },
+      {
+        "word": "haley",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
         "word": "michigan",
-        "count": 12,
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -90,23 +100,8 @@
         "sentiment": "neutral"
       },
       {
-        "word": "el-sayed",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "democrats",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "doj",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stroke",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -115,12 +110,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "endorses",
+        "word": "florida",
         "count": 8,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
-        "word": "power",
+        "word": "stroke",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abdul",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "campaign",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrat",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -130,17 +140,12 @@
         "sentiment": "positive"
       },
       {
-        "word": "against",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
         "word": "peltola",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "candidate",
+        "word": "jet",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -148,183 +153,178 @@
         "word": "tosses",
         "count": 7,
         "sentiment": "neutral"
-      },
-      {
-        "word": "vote",
-        "count": 7,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-11-02T00:10:56.787026+00:00",
-    "nextRefresh": "2026-11-02T00:10:56.787026+00:00",
+    "generatedAt": "2026-11-02T07:06:30.790488+00:00",
+    "nextRefresh": "2026-11-02T07:06:30.790488+00:00",
     "articlesAnalyzed": 331,
-    "matchedMentions": 191,
-    "uniquePersonalities": 49,
+    "matchedMentions": 198,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 48,
-    "negative": 36,
-    "neutral": 16,
+    "positive": 43,
+    "negative": 44,
+    "neutral": 13,
     "wordCloud": [
       {
+        "word": "against",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "india",
-        "count": 22,
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
-        "count": 17,
+        "word": "congress",
+        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "rally",
-        "count": 13,
+        "word": "kohli",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cji",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "pradesh",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mla",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
-        "count": 13,
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
-        "count": 12,
-        "sentiment": "neutral"
+        "word": "fake",
+        "count": 3,
+        "sentiment": "negative"
       },
       {
-        "word": "bloc",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "delhi",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sindhu",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "calls",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hylo",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lakshya",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "title",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "double",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sen",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bhutan",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "dedicates",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gyanesh",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "questions",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amp",
-        "count": 5,
+        "word": "rijiju",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "cyclone",
-        "count": 5,
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "case",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chandra",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "priyank",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "kharge",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "highlights",
-        "count": 4,
+        "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "alleges",
-        "count": 4,
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "priyanka",
-        "count": 4,
+        "word": "kpsc",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
-        "count": 4,
+        "word": "delhi",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "anti-cec",
-        "count": 4,
+        "word": "rally",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "evening",
-        "count": 4,
+        "word": "gill",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "brief",
-        "count": 4,
+        "word": "turns",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "heavy",
-        "count": 4,
+        "word": "volume",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "eden",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "park",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "opts",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gym",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "stays",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indoors",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "probe",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-11-02T00:11:06.724431+00:00",
-    "nextRefresh": "2026-11-02T00:11:06.724431+00:00",
-    "articlesAnalyzed": 367,
-    "matchedMentions": 88,
-    "uniquePersonalities": 40,
+    "generatedAt": "2026-11-02T07:06:42.449350+00:00",
+    "nextRefresh": "2026-11-02T07:06:42.449350+00:00",
+    "articlesAnalyzed": 379,
+    "matchedMentions": 61,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
