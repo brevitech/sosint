@@ -1,52 +1,117 @@
 {
   "us": {
-    "positive": 43,
-    "negative": 47,
-    "neutral": 10,
+    "positive": 70,
+    "negative": 24,
+    "neutral": 6,
     "wordCloud": [
       {
+        "word": "wins",
+        "count": 34,
+        "sentiment": "positive"
+      },
+      {
         "word": "trump",
-        "count": 36,
+        "count": 31,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 30,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 18,
         "sentiment": "neutral"
       },
       {
         "word": "midterm",
-        "count": 16,
+        "count": 18,
         "sentiment": "neutral"
       },
       {
-        "word": "election",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "elections",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "results",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "polls",
-        "count": 9,
+        "word": "democrats",
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "voters",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "race",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "seat",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "elections",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "election",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "carolina",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "florida",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "north",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
+        "word": "polls",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrat",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "midterms",
+        "word": "voter",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ossoff",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senator",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "term",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "cooper",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -55,17 +120,22 @@
         "sentiment": "neutral"
       },
       {
-        "word": "americans",
+        "word": "war",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "updates",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "israel",
+        "word": "republicans",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
+        "word": "power",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -75,147 +145,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "deal",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "russia",
+        "word": "israel",
         "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "man",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "voting",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "carolina",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trade",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "campaign",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "head",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "speech",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "reflecting",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pool",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "netanyahu",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meeting",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "claims",
-        "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-11-03T21:27:03.511976+00:00",
-    "nextRefresh": "2026-11-03T21:27:03.511976+00:00",
+    "generatedAt": "2026-11-04T01:50:20.305107+00:00",
+    "nextRefresh": "2026-11-04T01:50:20.305107+00:00",
     "articlesAnalyzed": 326,
-    "matchedMentions": 129,
-    "uniquePersonalities": 45,
+    "matchedMentions": 144,
+    "uniquePersonalities": 47,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 56,
-    "negative": 30,
-    "neutral": 14,
+    "positive": 46,
+    "negative": 38,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "rahul",
-        "count": 18,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
         "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "debate",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
         "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 7,
+        "word": "modi",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "sitharaman",
-        "count": 6,
+        "word": "gandhi",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "zealand",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crore",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hours",
-        "count": 5,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "shah",
-        "count": 5,
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -224,49 +209,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "doubles",
+        "word": "sitharaman",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "down",
+        "word": "crore",
         "count": 4,
         "sentiment": "neutral"
-      },
-      {
-        "word": "gets",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "counter",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "puri",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rajya",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sabha",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nominations",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rejected",
-        "count": 4,
-        "sentiment": "negative"
       },
       {
         "word": "bjp",
@@ -289,11 +239,6 @@
         "sentiment": "neutral"
       },
       {
-        "word": "challenge",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
         "word": "govt",
         "count": 4,
         "sentiment": "neutral"
@@ -304,27 +249,82 @@
         "sentiment": "positive"
       },
       {
-        "word": "calls",
+        "word": "kohli",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "hardeep",
+        "word": "puri",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "bypoll",
+        "word": "rajya",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "sabha",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nominations",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "rejected",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "parliament",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amit",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "runs",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bihar",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hours",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "passed",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "renews",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "challenge",
+        "count": 3,
+        "sentiment": "positive"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-11-03T21:27:13.686720+00:00",
-    "nextRefresh": "2026-11-03T21:27:13.686720+00:00",
-    "articlesAnalyzed": 360,
-    "matchedMentions": 79,
-    "uniquePersonalities": 39,
+    "generatedAt": "2026-11-04T01:50:31.846475+00:00",
+    "nextRefresh": "2026-11-04T01:50:31.846475+00:00",
+    "articlesAnalyzed": 361,
+    "matchedMentions": 69,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
