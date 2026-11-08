@@ -1,31 +1,36 @@
 {
   "us": {
-    "positive": 44,
-    "negative": 43,
-    "neutral": 13,
+    "positive": 42,
+    "negative": 42,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 65,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
         "word": "democrats",
-        "count": 28,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "white",
-        "count": 21,
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hegseth",
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "house",
-        "count": 13,
+        "count": 15,
         "sentiment": "neutral"
       },
       {
-        "word": "miller",
+        "word": "jeffries",
         "count": 12,
         "sentiment": "neutral"
       },
@@ -35,42 +40,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dana",
+        "word": "iran",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "miller",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "government",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "impeachment",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "stephen",
         "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "secretary",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "next",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hegseth",
-        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "election",
-        "count": 8,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "iran",
-        "count": 8,
+        "word": "dana",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "end",
+        "word": "secretary",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "eisenkot",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "israel",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hakeem",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "power",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -80,23 +105,33 @@
         "sentiment": "neutral"
       },
       {
-        "word": "stephen",
+        "word": "netanyahu",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
+        "word": "next",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "midterms",
+        "word": "form",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "israel",
+        "word": "supports",
         "count": 8,
+        "sentiment": "positive"
+      },
+      {
+        "word": "got",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "end",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -105,68 +140,33 @@
         "sentiment": "neutral"
       },
       {
-        "word": "staff",
+        "word": "chief",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "government",
+        "word": "midterms",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "judge",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ufc",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "former",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "republicans",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kansas",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "eisenkot",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "form",
+        "word": "talks",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-11-08T17:30:16.881502+00:00",
-    "nextRefresh": "2026-11-08T17:30:16.881502+00:00",
-    "articlesAnalyzed": 328,
-    "matchedMentions": 178,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-11-08T21:36:01.549030+00:00",
+    "nextRefresh": "2026-11-08T21:36:01.549030+00:00",
+    "articlesAnalyzed": 332,
+    "matchedMentions": 184,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 25,
-    "neutral": 29,
+    "positive": 38,
+    "negative": 30,
+    "neutral": 32,
     "wordCloud": [
       {
         "word": "modi",
@@ -195,17 +195,12 @@
       },
       {
         "word": "singh",
-        "count": 4,
+        "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "sikkim",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
+        "count": 3,
         "sentiment": "neutral"
       },
       {
@@ -215,11 +210,6 @@
       },
       {
         "word": "congress",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rally",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -235,21 +225,6 @@
       },
       {
         "word": "faridabad",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "emkay",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "financial",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -294,37 +269,62 @@
         "sentiment": "negative"
       },
       {
-        "word": "stock",
+        "word": "advani",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "markets",
+        "word": "control",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "end",
+        "word": "govt",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "marginally",
+        "word": "nod",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "lower",
+        "word": "india",
         "count": 2,
-        "sentiment": "negative"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "naxalism",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "festival",
+        "count": 2,
+        "sentiment": "positive"
+      },
+      {
+        "word": "wishes",
+        "count": 2,
+        "sentiment": "positive"
+      },
+      {
+        "word": "apologise",
+        "count": 2,
+        "sentiment": "positive"
+      },
+      {
+        "word": "ram",
+        "count": 2,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-11-08T17:30:28.470854+00:00",
-    "nextRefresh": "2026-11-08T17:30:28.470854+00:00",
-    "articlesAnalyzed": 383,
-    "matchedMentions": 48,
-    "uniquePersonalities": 25,
+    "generatedAt": "2026-11-08T21:36:09.340947+00:00",
+    "nextRefresh": "2026-11-08T21:36:09.340947+00:00",
+    "articlesAnalyzed": 367,
+    "matchedMentions": 40,
+    "uniquePersonalities": 21,
     "dataSource": "live-rss"
   }
 }
