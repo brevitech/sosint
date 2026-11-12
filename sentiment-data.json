@@ -1,147 +1,92 @@
 {
   "us": {
-    "positive": 31,
-    "negative": 59,
-    "neutral": 10,
+    "positive": 45,
+    "negative": 48,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 67,
+        "count": 59,
         "sentiment": "neutral"
       },
       {
         "word": "hegseth",
-        "count": 64,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "impeachment",
-        "count": 36,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 35,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "democrats",
-        "count": 19,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
-        "count": 17,
-        "sentiment": "negative"
-      },
-      {
-        "word": "republicans",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "secretary",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "effort",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bessent",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "block",
-        "count": 13,
-        "sentiment": "negative"
-      },
-      {
-        "word": "against",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gop",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "impeach",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "veterans",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "base",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "alleged",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bbc",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nvidia",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "jordan",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leader",
-        "count": 9,
+        "count": 56,
         "sentiment": "neutral"
       },
       {
         "word": "scott",
-        "count": 9,
+        "count": 30,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mississippi",
+        "count": 24,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
+        "count": 24,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrat",
+        "count": 23,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "colom",
+        "count": 23,
         "sentiment": "neutral"
       },
       {
         "word": "huang",
-        "count": 9,
+        "count": 23,
         "sentiment": "neutral"
       },
       {
-        "word": "vance",
-        "count": 9,
+        "word": "impeachment",
+        "count": 20,
         "sentiment": "neutral"
       },
       {
-        "word": "criticism",
-        "count": 9,
+        "word": "senate",
+        "count": 17,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nvidia",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "secretary",
+        "count": 14,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 11,
         "sentiment": "negative"
       },
       {
-        "word": "attempt",
+        "word": "veterans",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "affair",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "race",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
@@ -150,46 +95,91 @@
         "sentiment": "positive"
       },
       {
-        "word": "threats",
+        "word": "bessent",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "block",
         "count": 8,
         "sentiment": "negative"
+      },
+      {
+        "word": "guard",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tomb",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "unknown",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "soldier",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bbc",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ceo",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ukraine",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hyde-smith",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "next",
+        "count": 8,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-11-11T19:58:03.272252+00:00",
-    "nextRefresh": "2026-11-11T19:58:03.272252+00:00",
-    "articlesAnalyzed": 320,
-    "matchedMentions": 219,
-    "uniquePersonalities": 51,
+    "generatedAt": "2026-11-12T01:49:11.539183+00:00",
+    "nextRefresh": "2026-11-12T01:49:11.539183+00:00",
+    "articlesAnalyzed": 325,
+    "matchedMentions": 214,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 46,
-    "negative": 39,
-    "neutral": 15,
+    "positive": 47,
+    "negative": 30,
+    "neutral": 23,
     "wordCloud": [
       {
-        "word": "gandhi",
+        "word": "india",
         "count": 6,
         "sentiment": "neutral"
       },
       {
+        "word": "gandhi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
         "word": "sonia",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "india",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crore",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "third",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -199,42 +189,42 @@
         "sentiment": "neutral"
       },
       {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
         "word": "rahul",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "case",
+        "word": "sunetra",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "owaisi",
+        "word": "ncp",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "azad",
+        "word": "emkay",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "grievances",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "voice",
+        "word": "global",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "shah",
+        "word": "financial",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "memoir",
+        "word": "ipl",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -264,67 +254,77 @@
         "sentiment": "neutral"
       },
       {
-        "word": "orders",
+        "word": "case",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "additional",
+        "word": "crore",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "relief",
-        "count": 2,
-        "sentiment": "positive"
-      },
-      {
-        "word": "sterlite",
+        "word": "owaisi",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "firing",
-        "count": 2,
-        "sentiment": "negative"
-      },
-      {
-        "word": "victims",
-        "count": 2,
-        "sentiment": "negative"
-      },
-      {
-        "word": "dalit-muslim",
+        "word": "azad",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "unity",
+        "word": "aqi",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "pitch",
+        "word": "power",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "chandrashekhar",
+        "word": "diwali",
         "count": 2,
         "sentiment": "neutral"
       },
       {
-        "word": "tie",
+        "word": "adityanath",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "daughter",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "ahead",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "third",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "viral",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "right",
         "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-11-11T19:58:17.262236+00:00",
-    "nextRefresh": "2026-11-11T19:58:17.262236+00:00",
-    "articlesAnalyzed": 368,
-    "matchedMentions": 59,
-    "uniquePersonalities": 38,
+    "generatedAt": "2026-11-12T01:49:22.333699+00:00",
+    "nextRefresh": "2026-11-12T01:49:22.333699+00:00",
+    "articlesAnalyzed": 381,
+    "matchedMentions": 53,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
