@@ -1,37 +1,42 @@
 {
   "us": {
-    "positive": 51,
-    "negative": 46,
-    "neutral": 3,
+    "positive": 49,
+    "negative": 45,
+    "neutral": 6,
     "wordCloud": [
       {
-        "word": "trump",
-        "count": 47,
+        "word": "nvidia",
+        "count": 36,
         "sentiment": "neutral"
       },
       {
-        "word": "nvidia",
-        "count": 37,
+        "word": "trump",
+        "count": 35,
         "sentiment": "neutral"
       },
       {
         "word": "huang",
-        "count": 30,
+        "count": 26,
         "sentiment": "neutral"
       },
       {
         "word": "scandal",
-        "count": 17,
+        "count": 18,
         "sentiment": "negative"
       },
       {
         "word": "senate",
-        "count": 17,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "democrats",
-        "count": 16,
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "schumer",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -45,44 +50,24 @@
         "sentiment": "neutral"
       },
       {
-        "word": "schumer",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leader",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "colom",
+        "word": "lutnick",
         "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "treasury",
-        "count": 11,
-        "sentiment": "positive"
-      },
-      {
-        "word": "commerce",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lutnick",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "challenge",
         "count": 10,
         "sentiment": "positive"
       },
       {
-        "word": "blames",
+        "word": "commerce",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leader",
         "count": 9,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "hegseth",
@@ -90,54 +75,44 @@
         "sentiment": "neutral"
       },
       {
+        "word": "house",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "republicans",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "challenge",
+        "count": 8,
+        "sentiment": "positive"
+      },
+      {
         "word": "secretary",
         "count": 8,
         "sentiment": "neutral"
       },
       {
+        "word": "blames",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "colom",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "pressure",
-        "count": 8,
-        "sentiment": "negative"
-      },
-      {
-        "word": "mississippi",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "alleged",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "department",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ceo",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "scott",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "affair",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "war",
         "count": 7,
         "sentiment": "negative"
+      },
+      {
+        "word": "since",
+        "count": 7,
+        "sentiment": "neutral"
       },
       {
         "word": "chief",
@@ -145,32 +120,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "wants",
+        "word": "china",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "chris",
+        "word": "military",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "department",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "alleged",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lack",
+        "count": 6,
+        "sentiment": "negative"
+      },
+      {
+        "word": "action",
         "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-11-13T20:15:14.754041+00:00",
-    "nextRefresh": "2026-11-13T20:15:14.754041+00:00",
-    "articlesAnalyzed": 323,
-    "matchedMentions": 184,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-11-14T01:12:09.331181+00:00",
+    "nextRefresh": "2026-11-14T01:12:09.331181+00:00",
+    "articlesAnalyzed": 320,
+    "matchedMentions": 183,
+    "uniquePersonalities": 44,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 44,
-    "negative": 31,
-    "neutral": 25,
+    "positive": 46,
+    "negative": 35,
+    "neutral": 19,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 9,
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -186,16 +186,6 @@
       {
         "word": "mittal",
         "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sunil",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bengaluru",
-        "count": 4,
         "sentiment": "neutral"
       },
       {
@@ -234,6 +224,16 @@
         "sentiment": "neutral"
       },
       {
+        "word": "tata",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "centre",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "police",
         "count": 3,
         "sentiment": "neutral"
@@ -254,12 +254,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "adani",
+        "word": "bengaluru",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "green",
+        "word": "sunil",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -274,6 +274,41 @@
         "sentiment": "neutral"
       },
       {
+        "word": "khambata",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "strategised",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "oust",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "srinivasan",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "say",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trusts",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "vcs",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
         "word": "aqi",
         "count": 3,
         "sentiment": "neutral"
@@ -282,48 +317,13 @@
         "word": "chief",
         "count": 3,
         "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "singh",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ipl",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ranaut",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "faces",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mysterious",
-        "count": 2,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "foreigner",
-        "count": 2,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-11-13T20:15:24.545970+00:00",
-    "nextRefresh": "2026-11-13T20:15:24.545970+00:00",
+    "generatedAt": "2026-11-14T01:12:34.057329+00:00",
+    "nextRefresh": "2026-11-14T01:12:34.057329+00:00",
     "articlesAnalyzed": 367,
-    "matchedMentions": 54,
+    "matchedMentions": 57,
     "uniquePersonalities": 29,
     "dataSource": "live-rss"
   }
