@@ -1,57 +1,42 @@
 {
   "us": {
-    "positive": 45,
-    "negative": 47,
-    "neutral": 8,
+    "positive": 39,
+    "negative": 51,
+    "neutral": 10,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 38,
+        "count": 36,
         "sentiment": "neutral"
       },
       {
         "word": "nvidia",
-        "count": 32,
+        "count": 31,
         "sentiment": "neutral"
       },
       {
         "word": "huang",
-        "count": 22,
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 17,
         "sentiment": "neutral"
       },
       {
         "word": "scandal",
-        "count": 18,
+        "count": 17,
         "sentiment": "negative"
       },
       {
-        "word": "democrats",
-        "count": 15,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
         "word": "china",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "van",
-        "count": 12,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "hollen",
-        "count": 12,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "lutnick",
-        "count": 12,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
@@ -60,12 +45,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "house",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leader",
+        "word": "putin",
         "count": 9,
         "sentiment": "neutral"
       },
@@ -75,12 +55,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "challenge",
+        "word": "hegseth",
         "count": 8,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
-        "word": "putin",
+        "word": "meeting",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "house",
         "count": 8,
         "sentiment": "neutral"
       },
@@ -100,19 +85,24 @@
         "sentiment": "negative"
       },
       {
+        "word": "senate",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
         "word": "commerce",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "hegseth",
+        "word": "ukraine",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "pressure",
+        "word": "power",
         "count": 7,
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "word": "chief",
@@ -120,12 +110,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "meeting",
-        "count": 6,
+        "word": "van",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "white",
+        "word": "hollen",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "historic",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -150,52 +145,57 @@
         "sentiment": "neutral"
       },
       {
-        "word": "record",
+        "word": "race",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "white",
         "count": 5,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-11-14T08:28:55.985459+00:00",
-    "nextRefresh": "2026-11-14T08:28:55.985459+00:00",
-    "articlesAnalyzed": 321,
-    "matchedMentions": 176,
-    "uniquePersonalities": 45,
+    "generatedAt": "2026-11-14T15:28:59.380247+00:00",
+    "nextRefresh": "2026-11-14T15:28:59.380247+00:00",
+    "articlesAnalyzed": 323,
+    "matchedMentions": 184,
+    "uniquePersonalities": 48,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 52,
-    "negative": 28,
-    "neutral": 20,
+    "positive": 47,
+    "negative": 30,
+    "neutral": 23,
     "wordCloud": [
       {
-        "word": "gandhi",
-        "count": 24,
+        "word": "tata",
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 18,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
-        "word": "modi",
-        "count": 16,
+        "word": "congress",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 15,
+        "word": "gandhi",
+        "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "bjp",
+        "word": "polls",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "nehru",
-        "count": 9,
+        "word": "noel",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -204,77 +204,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "final",
+        "word": "modi",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "congress",
+        "word": "india-us",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "sam",
+        "word": "trade",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "amid",
+        "word": "mekedatu",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "target",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pitroda",
+        "word": "finishing",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "habitual",
+        "word": "line",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "liar",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "phone",
+        "word": "deal",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "claims",
+        "word": "dam",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "tribute",
+        "word": "listing",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "sen",
+        "word": "summit",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "alive",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "sonia",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "side",
+        "word": "mukherjee",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -284,47 +269,62 @@
         "sentiment": "neutral"
       },
       {
-        "word": "relationship",
+        "word": "ahead",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "against",
+        "word": "punjab",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "pays",
+        "word": "reaching",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "negotiations",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "minister",
+        "word": "side",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "birth",
+        "word": "shivakumar",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "anniversary",
+        "word": "pushes",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "calls",
+        "word": "triggers",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gig",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "voted",
         "count": 4,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-11-14T08:29:05.400368+00:00",
-    "nextRefresh": "2026-11-14T08:29:05.400368+00:00",
-    "articlesAnalyzed": 428,
-    "matchedMentions": 101,
-    "uniquePersonalities": 48,
+    "generatedAt": "2026-11-14T15:29:06.710088+00:00",
+    "nextRefresh": "2026-11-14T15:29:06.710088+00:00",
+    "articlesAnalyzed": 432,
+    "matchedMentions": 91,
+    "uniquePersonalities": 37,
     "dataSource": "live-rss"
   }
 }
