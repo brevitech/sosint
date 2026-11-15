@@ -1,81 +1,121 @@
 {
   "us": {
-    "positive": 43,
-    "negative": 50,
-    "neutral": 7,
+    "positive": 47,
+    "negative": 49,
+    "neutral": 4,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 39,
+        "count": 45,
         "sentiment": "neutral"
       },
       {
         "word": "nvidia",
-        "count": 25,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "scandal",
-        "count": 14,
-        "sentiment": "negative"
-      },
-      {
-        "word": "china",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lutnick",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "huang",
-        "count": 11,
+        "count": 26,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "blocks",
-        "count": 10,
-        "sentiment": "negative"
-      },
-      {
-        "word": "leaders",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "temporarily",
-        "count": 8,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "golf",
-        "count": 8,
+        "count": 14,
         "sentiment": "neutral"
       },
       {
-        "word": "course",
-        "count": 8,
+        "word": "scandal",
+        "count": 13,
+        "sentiment": "negative"
+      },
+      {
+        "word": "blocks",
+        "count": 12,
+        "sentiment": "negative"
+      },
+      {
+        "word": "colom",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "huang",
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "washington",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "putin",
-        "count": 7,
+        "count": 11,
         "sentiment": "neutral"
       },
       {
         "word": "senate",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "scott",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "course",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "van",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "hollen",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "democrats",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "musk",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lutnick",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leader",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "schumer",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "leaders",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blames",
+        "count": 7,
+        "sentiment": "negative"
+      },
+      {
+        "word": "vows",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "faa",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -85,22 +125,27 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "black",
+        "word": "appeal",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "america",
+        "word": "urges",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "hegseth",
+        "word": "restrictions",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "history",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "trip",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -108,158 +153,88 @@
         "word": "european",
         "count": 6,
         "sentiment": "neutral"
-      },
-      {
-        "word": "johnson",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "security",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "ahead",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "historic",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "meeting",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "maga",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "commerce",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "leader",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "schumer",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-11-15T15:14:04.708683+00:00",
-    "nextRefresh": "2026-11-15T15:14:04.708683+00:00",
-    "articlesAnalyzed": 323,
-    "matchedMentions": 161,
-    "uniquePersonalities": 43,
+    "generatedAt": "2026-11-15T20:44:11.810223+00:00",
+    "nextRefresh": "2026-11-15T20:44:11.810223+00:00",
+    "articlesAnalyzed": 322,
+    "matchedMentions": 181,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 50,
-    "negative": 23,
-    "neutral": 27,
+    "positive": 45,
+    "negative": 24,
+    "neutral": 31,
     "wordCloud": [
       {
         "word": "modi",
-        "count": 14,
+        "count": 16,
         "sentiment": "neutral"
       },
       {
         "word": "india",
-        "count": 14,
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "thakur",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "odi",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "vote",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "joins",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dhoni",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "unwanted",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "list",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "debut",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "yadav",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dalit",
+        "count": 3,
         "sentiment": "neutral"
       },
       {
         "word": "bjp",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "wishes",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "rahul",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "summit",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "singh",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "global",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lalit",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "british",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "welfare",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "glory",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "chhathi",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "extends",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "chhath",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "puja",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -269,22 +244,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "bharat",
+        "word": "delhi",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "zealand",
+        "word": "preferential",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "amp",
+        "word": "access",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "series",
+        "word": "goyal",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "yash",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sachin",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "triumph",
+        "count": 3,
+        "sentiment": "positive"
+      },
+      {
+        "word": "place",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "encounter",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -299,9 +299,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "best",
+        "word": "lalit",
         "count": 3,
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "word": "british",
+        "count": 3,
+        "sentiment": "neutral"
       },
       {
         "word": "citizen",
@@ -309,22 +314,17 @@
         "sentiment": "neutral"
       },
       {
-        "word": "emkay",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "financial",
-        "count": 3,
+        "word": "pitch",
+        "count": 2,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-11-15T15:14:13.050251+00:00",
-    "nextRefresh": "2026-11-15T15:14:13.050251+00:00",
-    "articlesAnalyzed": 383,
-    "matchedMentions": 62,
-    "uniquePersonalities": 34,
+    "generatedAt": "2026-11-15T20:44:18.910667+00:00",
+    "nextRefresh": "2026-11-15T20:44:18.910667+00:00",
+    "articlesAnalyzed": 417,
+    "matchedMentions": 58,
+    "uniquePersonalities": 29,
     "dataSource": "live-rss"
   }
 }
