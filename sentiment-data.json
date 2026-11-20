@@ -1,12 +1,12 @@
 {
   "us": {
-    "positive": 60,
-    "negative": 34,
-    "neutral": 6,
+    "positive": 48,
+    "negative": 43,
+    "neutral": 9,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 74,
+        "count": 91,
         "sentiment": "neutral"
       },
       {
@@ -15,38 +15,48 @@
         "sentiment": "neutral"
       },
       {
-        "word": "china",
-        "count": 21,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "summit",
-        "count": 17,
-        "sentiment": "neutral"
-      },
-      {
         "word": "huang",
-        "count": 12,
+        "count": 19,
         "sentiment": "neutral"
       },
       {
         "word": "democrats",
+        "count": 15,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "iran",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "data",
+        "count": 12,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "threatens",
+        "count": 11,
+        "sentiment": "negative"
+      },
+      {
+        "word": "tech",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "meeting",
-        "count": 9,
+        "word": "building",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
-        "count": 9,
+        "word": "nvidia",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "historic",
-        "count": 9,
+        "word": "china",
+        "count": 10,
         "sentiment": "neutral"
       },
       {
@@ -55,146 +65,131 @@
         "sentiment": "neutral"
       },
       {
-        "word": "gop",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "military",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "politics",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "house",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bessent",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "race",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nvidia",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "white",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "friend",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "voters",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "key",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "briefs",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "energy",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "bill",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "secretary",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "emails",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "construction",
-        "count": 5,
-        "sentiment": "neutral"
-      }
-    ],
-    "totalPersonalities": 384,
-    "generatedAt": "2026-11-20T16:51:11.440409+00:00",
-    "nextRefresh": "2026-11-20T16:51:11.440409+00:00",
-    "articlesAnalyzed": 324,
-    "matchedMentions": 169,
-    "uniquePersonalities": 42,
-    "dataSource": "live-rss"
-  },
-  "india": {
-    "positive": 29,
-    "negative": 50,
-    "neutral": 21,
-    "wordCloud": [
-      {
-        "word": "india",
-        "count": 11,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
+        "word": "meeting",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "rahul",
+        "word": "war",
+        "count": 9,
+        "sentiment": "negative"
+      },
+      {
+        "word": "vance",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "blocks",
+        "count": 8,
+        "sentiment": "negative"
+      },
+      {
+        "word": "arch",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abroad",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "tremendous",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "conference",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "firms",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "friend",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "tax",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jensen",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deflects",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "second",
         "count": 6,
         "sentiment": "neutral"
       },
       {
+        "word": "datacenters",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "america",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "centers",
+        "count": 6,
+        "sentiment": "neutral"
+      }
+    ],
+    "totalPersonalities": 384,
+    "generatedAt": "2026-11-20T22:55:44.812804+00:00",
+    "nextRefresh": "2026-11-20T22:55:44.812804+00:00",
+    "articlesAnalyzed": 323,
+    "matchedMentions": 175,
+    "uniquePersonalities": 44,
+    "dataSource": "live-rss"
+  },
+  "india": {
+    "positive": 42,
+    "negative": 42,
+    "neutral": 16,
+    "wordCloud": [
+      {
+        "word": "india",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
         "word": "court",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indian",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "abhishek",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "sco",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "kharge",
+        "word": "modi",
         "count": 5,
         "sentiment": "neutral"
       },
@@ -209,77 +204,47 @@
         "sentiment": "neutral"
       },
       {
-        "word": "dialogue",
+        "word": "visit",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "delhi",
+        "word": "against",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "looks",
+        "word": "zealand",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "global",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "target",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crime",
+        "word": "supporters",
         "count": 3,
-        "sentiment": "negative"
+        "sentiment": "positive"
       },
       {
-        "word": "shah",
+        "word": "leader",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "baseless",
+        "word": "banerjee",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "lawsuit",
-        "count": 3,
-        "sentiment": "negative"
-      },
-      {
-        "word": "doval",
+        "word": "tata",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "pannun",
+        "word": "sco",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "civilisation",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "talks",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cites",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "amid",
+        "word": "rahul",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -290,6 +255,11 @@
       },
       {
         "word": "alliance",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "looks",
         "count": 3,
         "sentiment": "neutral"
       },
@@ -317,14 +287,44 @@
         "word": "akhilesh",
         "count": 3,
         "sentiment": "neutral"
+      },
+      {
+        "word": "economic",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "firing",
+        "count": 3,
+        "sentiment": "negative"
+      },
+      {
+        "word": "adani",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "test",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "yadav",
+        "count": 2,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "harassed",
+        "count": 2,
+        "sentiment": "negative"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-11-20T16:51:18.403104+00:00",
-    "nextRefresh": "2026-11-20T16:51:18.403104+00:00",
-    "articlesAnalyzed": 382,
-    "matchedMentions": 56,
-    "uniquePersonalities": 30,
+    "generatedAt": "2026-11-20T22:55:54.336600+00:00",
+    "nextRefresh": "2026-11-20T22:55:54.336600+00:00",
+    "articlesAnalyzed": 366,
+    "matchedMentions": 62,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
