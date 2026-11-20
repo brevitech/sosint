@@ -1,37 +1,37 @@
 {
   "us": {
-    "positive": 51,
-    "negative": 41,
-    "neutral": 8,
+    "positive": 53,
+    "negative": 40,
+    "neutral": 7,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 100,
+        "count": 97,
         "sentiment": "neutral"
       },
       {
         "word": "putin",
-        "count": 50,
+        "count": 47,
         "sentiment": "neutral"
       },
       {
         "word": "summit",
-        "count": 25,
+        "count": 20,
         "sentiment": "neutral"
       },
       {
         "word": "china",
-        "count": 19,
+        "count": 20,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "senate",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "historic",
         "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -45,39 +45,29 @@
         "sentiment": "neutral"
       },
       {
-        "word": "takeaways",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "peace",
-        "count": 10,
-        "sentiment": "positive"
-      },
-      {
-        "word": "musk",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
         "word": "europe",
         "count": 10,
         "sentiment": "neutral"
       },
       {
-        "word": "ukraine",
+        "word": "judge",
         "count": 9,
         "sentiment": "neutral"
       },
       {
-        "word": "friend",
+        "word": "alaska",
         "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "takeaways",
+        "count": 8,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "peace",
+        "count": 8,
         "sentiment": "positive"
-      },
-      {
-        "word": "trilateral",
-        "count": 9,
-        "sentiment": "neutral"
       },
       {
         "word": "rose",
@@ -85,23 +75,13 @@
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "ukraine",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "huang",
+        "word": "apec",
         "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "iran",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "senate",
-        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -115,8 +95,28 @@
         "sentiment": "neutral"
       },
       {
-        "word": "jinping",
+        "word": "iran",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "doj",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "legal",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "challenge",
+        "count": 7,
+        "sentiment": "positive"
+      },
+      {
+        "word": "race",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -140,14 +140,14 @@
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "democrats",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "war",
+        "word": "friend",
         "count": 6,
-        "sentiment": "negative"
+        "sentiment": "positive"
       },
       {
         "word": "falling",
@@ -156,175 +156,175 @@
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-11-20T00:13:47.233418+00:00",
-    "nextRefresh": "2026-11-20T00:13:47.233418+00:00",
-    "articlesAnalyzed": 334,
-    "matchedMentions": 193,
-    "uniquePersonalities": 44,
+    "generatedAt": "2026-11-20T07:59:20.861773+00:00",
+    "nextRefresh": "2026-11-20T07:59:20.861773+00:00",
+    "articlesAnalyzed": 337,
+    "matchedMentions": 182,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 50,
-    "negative": 34,
-    "neutral": 16,
+    "positive": 53,
+    "negative": 21,
+    "neutral": 26,
     "wordCloud": [
       {
         "word": "india",
-        "count": 21,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "modi",
-        "count": 14,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gandhi",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "pawar",
-        "count": 10,
+        "count": 22,
         "sentiment": "neutral"
       },
       {
         "word": "rahul",
-        "count": 7,
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "visit",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
         "word": "shah",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "seeks",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "meeting",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "writes",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "cbi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "probe",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "uncle",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "plane",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "crash",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "congress",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "inc",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bengal",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "row",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "turned",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "lucky",
-        "count": 4,
-        "sentiment": "positive"
-      },
-      {
-        "word": "rediscovering",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "form",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "calls",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "stalin",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "comes",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gta",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rohit",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ajit",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "mahindra",
-        "count": 4,
+        "word": "modi",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
         "word": "test",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "centre",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nepal",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zealand",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "global",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "adityanath",
         "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "mother",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bjp",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "compromised",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "law",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sciences",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "jaiswal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "opening",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "indian",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "savitri",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "devi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "uttarakhand",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "gandhi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "act",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "delhi",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "anand",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "calls",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "balen",
+        "count": 3,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "yashasvi",
+        "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-11-20T00:13:55.930550+00:00",
-    "nextRefresh": "2026-11-20T00:13:55.930550+00:00",
-    "articlesAnalyzed": 415,
-    "matchedMentions": 80,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-11-20T07:59:33.265716+00:00",
+    "nextRefresh": "2026-11-20T07:59:33.265716+00:00",
+    "articlesAnalyzed": 380,
+    "matchedMentions": 70,
+    "uniquePersonalities": 36,
     "dataSource": "live-rss"
   }
 }
