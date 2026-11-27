@@ -1,17 +1,22 @@
 {
   "us": {
-    "positive": 48,
-    "negative": 43,
-    "neutral": 9,
+    "positive": 45,
+    "negative": 47,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 46,
+        "count": 51,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "thanksgiving",
+        "count": 14,
         "sentiment": "neutral"
       },
       {
         "word": "judge",
-        "count": 15,
+        "count": 13,
         "sentiment": "neutral"
       },
       {
@@ -20,17 +25,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "musk",
-        "count": 13,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "data",
+        "word": "space",
         "count": 12,
         "sentiment": "neutral"
       },
       {
-        "word": "space",
+        "word": "musk",
         "count": 12,
         "sentiment": "neutral"
       },
@@ -40,12 +40,17 @@
         "sentiment": "neutral"
       },
       {
+        "word": "data",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
         "word": "huang",
         "count": 11,
         "sentiment": "neutral"
       },
       {
-        "word": "thanksgiving",
+        "word": "russia",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -55,8 +60,23 @@
         "sentiment": "neutral"
       },
       {
+        "word": "putin",
+        "count": 10,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "major",
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
         "word": "million",
-        "count": 8,
+        "count": 9,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "zelensky",
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -75,14 +95,19 @@
         "sentiment": "neutral"
       },
       {
-        "word": "russia",
+        "word": "power",
         "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "latest",
+        "word": "warns",
         "count": 7,
-        "sentiment": "neutral"
+        "sentiment": "negative"
+      },
+      {
+        "word": "attack",
+        "count": 7,
+        "sentiment": "negative"
       },
       {
         "word": "blocks",
@@ -90,7 +115,7 @@
         "sentiment": "negative"
       },
       {
-        "word": "zelensky",
+        "word": "state",
         "count": 6,
         "sentiment": "neutral"
       },
@@ -110,131 +135,141 @@
         "sentiment": "positive"
       },
       {
-        "word": "iowa",
+        "word": "zelenskyy",
         "count": 6,
         "sentiment": "neutral"
+      },
+      {
+        "word": "russian",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "war",
+        "count": 6,
+        "sentiment": "negative"
       },
       {
         "word": "race",
         "count": 5,
         "sentiment": "neutral"
-      },
-      {
-        "word": "king",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "nuclear",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "power",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "risks",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "calls",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "gdp",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "state",
-        "count": 5,
-        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-11-26T23:26:10.561344+00:00",
-    "nextRefresh": "2026-11-26T23:26:10.561344+00:00",
-    "articlesAnalyzed": 324,
-    "matchedMentions": 147,
-    "uniquePersonalities": 37,
+    "generatedAt": "2026-11-27T06:20:21.829558+00:00",
+    "nextRefresh": "2026-11-27T06:20:21.829558+00:00",
+    "articlesAnalyzed": 327,
+    "matchedMentions": 152,
+    "uniquePersonalities": 35,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 59,
-    "negative": 25,
-    "neutral": 16,
+    "positive": 52,
+    "negative": 27,
+    "neutral": 21,
     "wordCloud": [
       {
         "word": "test",
-        "count": 11,
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "india",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "yadav",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "rahul",
-        "count": 5,
+        "word": "bjp",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "congress",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "women",
+        "count": 6,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "kejriwal",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "chief",
+        "word": "sheesh",
         "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "gandhi",
+        "word": "mahal",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "india",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "against",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "govt",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bill",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "target",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "lakh",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "key",
+        "word": "goyal",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "congress-samajwadi",
+        "word": "yadav",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "seat",
+        "word": "ahead",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "talks",
+        "word": "polls",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "stall",
-        "count": 4,
-        "sentiment": "negative"
-      },
-      {
-        "word": "urges",
+        "word": "amid",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "question",
+        "word": "quota",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "slams",
         "count": 4,
         "sentiment": "neutral"
       },
@@ -244,87 +279,52 @@
         "sentiment": "neutral"
       },
       {
-        "word": "any",
+        "word": "vaishnaw",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "differences",
+        "word": "tvk",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "security",
+        "word": "threats",
         "count": 4,
-        "sentiment": "positive"
+        "sentiment": "negative"
       },
       {
-        "word": "gukesh",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "siraj",
+        "word": "tamil",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "government",
+        "word": "nadu",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "questions",
+        "word": "chandelier",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "akhilesh",
+        "word": "announces",
         "count": 3,
         "sentiment": "neutral"
       },
       {
-        "word": "aside",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "remove",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bjp",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chess",
-        "count": 3,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "championship",
-        "count": 3,
-        "sentiment": "positive"
-      },
-      {
-        "word": "sindarov",
+        "word": "manifesto",
         "count": 3,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-11-26T23:26:19.393749+00:00",
-    "nextRefresh": "2026-11-26T23:26:19.393749+00:00",
-    "articlesAnalyzed": 364,
-    "matchedMentions": 63,
-    "uniquePersonalities": 35,
+    "generatedAt": "2026-11-27T06:20:30.753618+00:00",
+    "nextRefresh": "2026-11-27T06:20:30.753618+00:00",
+    "articlesAnalyzed": 382,
+    "matchedMentions": 71,
+    "uniquePersonalities": 39,
     "dataSource": "live-rss"
   }
 }
