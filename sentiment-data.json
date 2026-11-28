@@ -1,21 +1,26 @@
 {
   "us": {
-    "positive": 39,
-    "negative": 51,
-    "neutral": 10,
+    "positive": 46,
+    "negative": 46,
+    "neutral": 8,
     "wordCloud": [
       {
         "word": "trump",
-        "count": 51,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "putin",
-        "count": 14,
+        "count": 43,
         "sentiment": "neutral"
       },
       {
         "word": "thanksgiving",
+        "count": 16,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "nvidia",
+        "count": 13,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "putin",
         "count": 13,
         "sentiment": "neutral"
       },
@@ -25,7 +30,12 @@
         "sentiment": "neutral"
       },
       {
-        "word": "musk",
+        "word": "power",
+        "count": 11,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "election",
         "count": 11,
         "sentiment": "neutral"
       },
@@ -35,12 +45,7 @@
         "sentiment": "neutral"
       },
       {
-        "word": "nvidia",
-        "count": 10,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "election",
+        "word": "musk",
         "count": 10,
         "sentiment": "neutral"
       },
@@ -50,27 +55,27 @@
         "sentiment": "negative"
       },
       {
-        "word": "data",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "spacex",
+        "word": "tech",
         "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "huang",
-        "count": 8,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "judge",
-        "count": 8,
+        "word": "sales",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
         "word": "calling",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "storms",
+        "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "thousands",
         "count": 7,
         "sentiment": "neutral"
       },
@@ -82,6 +87,16 @@
       {
         "word": "presidential",
         "count": 7,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "restore",
+        "count": 6,
+        "sentiment": "positive"
+      },
+      {
+        "word": "storm",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
@@ -100,87 +115,67 @@
         "sentiment": "neutral"
       },
       {
-        "word": "million",
+        "word": "tariffs",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "satellites",
+        "word": "spacex",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "space",
+        "word": "huang",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "china",
+        "word": "biden",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "democrats",
+        "word": "memoir",
         "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "friend",
+        "word": "far",
         "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "storms",
-        "count": 5,
         "sentiment": "neutral"
       },
       {
-        "word": "plan",
-        "count": 5,
+        "word": "short",
+        "count": 6,
         "sentiment": "neutral"
       },
       {
-        "word": "risks",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "return",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "shows",
-        "count": 5,
+        "word": "books",
+        "count": 6,
         "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 384,
-    "generatedAt": "2026-11-27T17:08:50.029749+00:00",
-    "nextRefresh": "2026-11-27T17:08:50.029749+00:00",
-    "articlesAnalyzed": 326,
+    "generatedAt": "2026-11-28T00:58:14.045416+00:00",
+    "nextRefresh": "2026-11-28T00:58:14.045416+00:00",
+    "articlesAnalyzed": 317,
     "matchedMentions": 158,
-    "uniquePersonalities": 40,
+    "uniquePersonalities": 45,
     "dataSource": "live-rss"
   },
   "india": {
-    "positive": 67,
+    "positive": 68,
     "negative": 16,
-    "neutral": 17,
+    "neutral": 16,
     "wordCloud": [
       {
         "word": "delimitation",
-        "count": 16,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "tata",
-        "count": 13,
+        "count": 12,
         "sentiment": "neutral"
       },
       {
         "word": "pawar",
-        "count": 10,
+        "count": 9,
         "sentiment": "neutral"
       },
       {
@@ -189,68 +184,23 @@
         "sentiment": "neutral"
       },
       {
-        "word": "sharma",
-        "count": 9,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "board",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "karti",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "chidambaram",
-        "count": 7,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "bill",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "ritabrata",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "banerjee",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sons",
-        "count": 6,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "parties",
-        "count": 6,
+        "word": "support",
+        "count": 8,
         "sentiment": "positive"
       },
       {
-        "word": "behind",
-        "count": 6,
+        "word": "tata",
+        "count": 8,
         "sentiment": "neutral"
       },
       {
-        "word": "push",
-        "count": 6,
+        "word": "against",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
-        "word": "exclusive",
-        "count": 6,
-        "sentiment": "positive"
-      },
-      {
-        "word": "mumbai",
-        "count": 6,
+        "word": "group",
+        "count": 7,
         "sentiment": "neutral"
       },
       {
@@ -259,44 +209,49 @@
         "sentiment": "neutral"
       },
       {
-        "word": "party",
-        "count": 5,
-        "sentiment": "positive"
-      },
-      {
-        "word": "delhi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "backs",
-        "count": 5,
-        "sentiment": "negative"
-      },
-      {
-        "word": "sooryavanshi",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "sets",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "group",
-        "count": 5,
-        "sentiment": "neutral"
-      },
-      {
         "word": "congress",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sharad",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "deepam",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "row",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "sons",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "adani",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "amid",
+        "count": 5,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "dials",
         "count": 4,
         "sentiment": "neutral"
       },
       {
-        "word": "support",
+        "word": "explains",
         "count": 4,
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "word": "inside",
@@ -304,27 +259,72 @@
         "sentiment": "neutral"
       },
       {
-        "word": "numbers",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "court",
-        "count": 4,
-        "sentiment": "neutral"
-      },
-      {
-        "word": "trusts",
+        "word": "scoop",
         "count": 4,
         "sentiment": "positive"
+      },
+      {
+        "word": "threat",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "communal",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "harmony",
+        "count": 4,
+        "sentiment": "positive"
+      },
+      {
+        "word": "blames",
+        "count": 4,
+        "sentiment": "negative"
+      },
+      {
+        "word": "vijay",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "escalation",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "karti",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "chidambaram",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "modi",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "probe",
+        "count": 4,
+        "sentiment": "neutral"
+      },
+      {
+        "word": "bill",
+        "count": 4,
+        "sentiment": "neutral"
       }
     ],
     "totalPersonalities": 295,
-    "generatedAt": "2026-11-27T17:09:06.509337+00:00",
-    "nextRefresh": "2026-11-27T17:09:06.509337+00:00",
-    "articlesAnalyzed": 380,
-    "matchedMentions": 92,
-    "uniquePersonalities": 41,
+    "generatedAt": "2026-11-28T00:58:22.936080+00:00",
+    "nextRefresh": "2026-11-28T00:58:22.936080+00:00",
+    "articlesAnalyzed": 366,
+    "matchedMentions": 82,
+    "uniquePersonalities": 42,
     "dataSource": "live-rss"
   }
 }
